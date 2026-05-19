@@ -1,0 +1,9 @@
+.venv/
+.env/
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
+.idea/
+.vscode/
+__pycache__/

@@ -1,0 +1,12 @@
+2025-05-22 03:29:31,956 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/95: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:29:31,986 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/96: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:31:45,912 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/95: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:31:46,059 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/96: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:33:15,130 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/96: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:33:15,139 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/95: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:33:49,344 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/95: AsyncLinkProcessor.process_link.<locals>._extract_american_date_and_convert_to_right_format() missing 1 required positional argument: 'date_string'
+2025-05-22 03:33:49,583 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/96: AsyncLinkProcessor.process_link.<locals>._extract_american_date_and_convert_to_right_format() missing 1 required positional argument: 'date_string'
+2025-05-22 03:36:24,100 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/96: 'NoneType' object has no attribute 'select'
+2025-05-22 03:36:24,110 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/95: 'NoneType' object has no attribute 'select'
+2025-05-22 03:37:34,121 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/96: 'NoneType' object has no attribute 'select'
+2025-05-22 03:37:34,131 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/95: 'NoneType' object has no attribute 'select'

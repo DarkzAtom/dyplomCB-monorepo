@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------------------
+--------------  DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   ----------------------
+
+- abstact all api keys into a separate file
+- make the request happen by the pressing enter button
+
+--------------  DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   DONE TASKS   ----------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+###############################################################################################################################################
+# # # # # # #     TODO TODO TODO   TODO TODO TODO   TODO TODO TODO   TODO TODO TODO   TODO TODO TODO   TODO TODO TODO   #######################
+
+
+!!- collect three scrapers into separate single project with the cron job in it ---- TASK IN PROGRESS
+
+
+- make it recognise the situation when the user types additional shit that is out of context and not needed
+- generate some sort of article based on the response of the user to make similarity search work better
+- adjust the scores to make it show only relevant news. If it's below the threshold, then simply return the response that there are no such materials in the database
+- fix: after pressing enter to make a search in the frontend, it also makes a newline afterwards. we need to avoid that
+
+# # # # # # #     TODO TODO TODO   TODO TODO TODO   TODO TODO TODO   TODO TODO TODO   TODO TODO TODO   TODO TODO TODO   #######################
+###############################################################################################################################################

@@ -1,0 +1,127 @@
+2025-05-21 23:56:53,736 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-21 23:56:53,863 - DEBUG - https://thecyberwire.com:443 "GET / HTTP/1.1" 200 None
+2025-05-22 00:18:41,414 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:18:41,569 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:18:41,581 - WARNING - Attempt 1 failed: 'NoneType' object has no attribute 'get'. Retrying in 1 seconds...
+2025-05-22 00:18:42,583 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:18:42,704 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:18:42,713 - WARNING - Attempt 2 failed: 'NoneType' object has no attribute 'get'. Retrying in 1 seconds...
+2025-05-22 00:18:43,715 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:18:43,827 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:18:43,837 - ERROR - Failed after 2 attempts: 'NoneType' object has no attribute 'get'
+2025-05-22 00:21:13,131 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:21:13,267 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:21:13,280 - WARNING - Attempt 1 failed: 'NoneType' object has no attribute 'get'. Retrying in 1 seconds...
+2025-05-22 00:21:14,282 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:21:14,397 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:21:14,407 - WARNING - Attempt 2 failed: 'NoneType' object has no attribute 'get'. Retrying in 1 seconds...
+2025-05-22 00:21:15,408 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:21:15,522 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:21:15,533 - ERROR - Failed after 2 attempts: 'NoneType' object has no attribute 'get'
+2025-05-22 00:23:19,003 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:23:19,162 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:23:19,173 - WARNING - Attempt 1 failed: 'NoneType' object has no attribute 'get'. Retrying in 1 seconds...
+2025-05-22 00:23:20,174 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:23:20,285 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:23:20,299 - WARNING - Attempt 2 failed: 'NoneType' object has no attribute 'get'. Retrying in 1 seconds...
+2025-05-22 00:23:21,301 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:23:21,394 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:23:21,406 - ERROR - Failed after 2 attempts: 'NoneType' object has no attribute 'get'
+2025-05-22 00:23:49,096 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:23:49,209 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:23:49,220 - WARNING - Attempt 1 failed: 'NoneType' object has no attribute 'get'. Retrying in 5 seconds...
+2025-05-22 00:23:54,222 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:23:54,321 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:23:54,333 - WARNING - Attempt 2 failed: 'NoneType' object has no attribute 'get'. Retrying in 5 seconds...
+2025-05-22 00:23:59,335 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:23:59,454 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:23:59,464 - ERROR - Failed after 2 attempts: 'NoneType' object has no attribute 'get'
+2025-05-22 00:27:25,411 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:27:25,528 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:27:25,542 - WARNING - Attempt 1 failed: 'NoneType' object has no attribute 'get'. Retrying in 5 seconds...
+2025-05-22 00:27:30,543 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:27:30,630 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:27:30,644 - WARNING - Attempt 2 failed: 'NoneType' object has no attribute 'get'. Retrying in 5 seconds...
+2025-05-22 00:27:35,645 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 00:27:35,732 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 00:27:35,747 - ERROR - Failed after 2 attempts: 'NoneType' object has no attribute 'get'
+2025-05-22 01:13:38,972 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:13:39,103 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 01:13:39,116 - ERROR - Failed with non-retryable exception: 'NoneType' object has no attribute 'get'
+2025-05-22 01:19:11,880 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:19:12,037 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 01:19:12,053 - ERROR - Failed with non-retryable exception: 'NoneType' object has no attribute 'get'
+2025-05-22 01:19:28,831 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:19:28,949 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 01:19:28,962 - ERROR - Failed with non-retryable exception: 'NoneType' object has no attribute 'get'
+2025-05-22 01:20:00,568 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:20:00,690 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 01:22:17,917 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:22:18,077 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 01:23:02,806 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:23:02,958 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 01:23:02,975 - WARNING - No link found in article
+2025-05-22 01:23:02,975 - WARNING - No link found in article
+2025-05-22 01:23:02,975 - WARNING - No link found in article
+2025-05-22 01:23:02,975 - WARNING - No link found in article
+2025-05-22 01:23:02,975 - WARNING - No link found in article
+2025-05-22 01:23:02,975 - WARNING - No link found in article
+2025-05-22 01:23:28,177 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:23:28,301 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 01:23:28,315 - WARNING - No link found in article
+2025-05-22 01:23:28,315 - WARNING - No link found in article
+2025-05-22 01:23:28,315 - WARNING - No link found in article
+2025-05-22 01:23:28,315 - WARNING - No link found in article
+2025-05-22 01:23:28,315 - WARNING - No link found in article
+2025-05-22 01:23:28,316 - WARNING - No link found in article
+2025-05-22 01:24:06,196 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:24:06,321 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 01:25:34,939 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:25:35,060 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 01:25:42,646 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 01:25:42,754 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 02:07:05,164 - DEBUG - Using selector: EpollSelector
+2025-05-22 02:07:05,165 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 02:07:05,280 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 02:14:30,414 - DEBUG - Using selector: EpollSelector
+2025-05-22 02:14:30,415 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 02:14:30,536 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 02:14:50,381 - DEBUG - Using selector: EpollSelector
+2025-05-22 02:14:50,382 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 02:14:50,486 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 03:25:02,311 - DEBUG - Using selector: EpollSelector
+2025-05-22 03:25:02,313 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 03:25:02,555 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 03:25:02,684 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/97: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:25:02,693 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/95: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:25:02,748 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/94: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:25:02,767 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/93: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:25:04,703 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/96: cannot access local variable 'article' where it is not associated with a value
+2025-05-22 03:40:58,790 - DEBUG - Using selector: EpollSelector
+2025-05-22 03:40:58,791 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 03:40:58,906 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 03:44:24,700 - DEBUG - Using selector: EpollSelector
+2025-05-22 03:44:24,702 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 03:44:24,821 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 03:47:25,692 - DEBUG - Using selector: EpollSelector
+2025-05-22 03:47:25,693 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 03:47:25,843 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 03:47:25,986 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/94: 'NoneType' object has no attribute 'text'
+2025-05-22 03:47:25,998 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/96: 'NoneType' object has no attribute 'text'
+2025-05-22 03:47:26,007 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/95: 'NoneType' object has no attribute 'text'
+2025-05-22 03:47:26,045 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/93: 'NoneType' object has no attribute 'text'
+2025-05-22 03:47:26,072 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/92: 'NoneType' object has no attribute 'text'
+2025-05-22 03:48:30,440 - DEBUG - Using selector: EpollSelector
+2025-05-22 03:48:30,441 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 03:48:30,556 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 03:49:25,017 - DEBUG - Using selector: EpollSelector
+2025-05-22 03:49:25,018 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 03:49:25,137 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2025-05-22 03:49:25,278 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/96: 'NoneType' object has no attribute 'text'
+2025-05-22 03:49:25,290 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/95: 'NoneType' object has no attribute 'text'
+2025-05-22 03:49:25,303 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/94: 'NoneType' object has no attribute 'text'
+2025-05-22 03:49:25,336 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/93: 'NoneType' object has no attribute 'text'
+2025-05-22 03:49:25,365 - ERROR - Error processing https://thecyberwire.com/newsletters/daily-briefing/14/92: 'NoneType' object has no attribute 'text'
+2025-05-22 03:51:36,830 - DEBUG - Using selector: EpollSelector
+2025-05-22 03:51:36,831 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2025-05-22 03:51:36,942 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
