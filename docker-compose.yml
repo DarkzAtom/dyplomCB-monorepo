@@ -1,0 +1,36 @@
+# Whole-system container setup for the cybersecurity-news RAG project (DYP-40).
+#
+#   docker compose up --build        # build images + run both services
+#   docker compose up -d             # run detached
+#   docker compose logs -f scrapers  # watch scheduled scrape runs
+#
+# Both services read the 3 required keys (OPENAI_APIKEY, APIKEY_PINECONE,
+# PINECONE_INDEX_NAME) from each subproject's .env, which must exist locally.
+
+services:
+  # FastAPI chat UI — always on, served at http://localhost:8000
+  app:
+    build: ./app
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: ./app/.env
+        required: false
+    restart: unless-stopped
+
+  # Scrapers — scheduler loop: runs all sources + Pinecone sync on an interval.
+  scrapers:
+    build: ./scrapers
+    env_file:
+      - path: ./scrapers/.env
+        required: false
+    environment:
+      # 6h between runs; run once immediately on container start.
+      SCRAPE_INTERVAL_SECONDS: "21600"
+      RUN_ON_START: "true"
+    volumes:
+      # Persist incremental state (lastsaved_articlelink.txt) and output.csv
+      # on the host so scraping stays incremental across restarts. This maps
+      # the project's scrapers package folder into the container.
+      - ./scrapers/scrapers:/app/scrapers
+    restart: unless-stopped
