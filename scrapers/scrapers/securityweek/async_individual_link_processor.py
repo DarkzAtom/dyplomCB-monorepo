@@ -1,5 +1,6 @@
 from pprint import pprint
 from bs4 import BeautifulSoup
+import os
 import asyncio
 import random
 from playwright.async_api import async_playwright, expect, Playwright
@@ -78,7 +79,7 @@ async def process_articles(links):
 
 async def setup_browser_context(playwright: Playwright):
     browser = await playwright.chromium.launch(
-        headless=False,
+        headless=os.getenv("HEADLESS", "").lower() == "true",
         channel='chrome',
         slow_mo=750,
         # if we'd ever need to use proxy -> uncomment below

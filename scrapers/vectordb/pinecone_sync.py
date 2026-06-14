@@ -6,8 +6,10 @@ from pinecone import Pinecone
 from dotenv import load_dotenv
 
 # --- IMPORT YOUR CHUNKER ---
-# Assuming chunking.py is in the exact same folder as this file
-from chunking import semantic_chunker
+# Package-qualified so it resolves under a clean sys.path (e.g. `python main.py`
+# from the scrapers root, as in Docker). A bare `from chunking import ...` only
+# works when vectordb/ happens to be on the path, e.g. via PyCharm source roots.
+from vectordb.chunking import semantic_chunker
 
 # load env. vars
 load_dotenv(dotenv_path=".env")

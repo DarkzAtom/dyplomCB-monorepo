@@ -31,9 +31,16 @@ docker compose down              # stop everything
 
 **Two images, one Python each.**
 - `app/` → `python:3.10-slim`, served by `uvicorn frontend:app` (no `--reload`).
-- `scrapers/` → `mcr.microsoft.com/playwright/python:v1.52.0-jammy`, so Chromium
-  and all OS libraries are preinstalled and the browser matches
-  `playwright==1.52.0`.
+- `scrapers/` → `python:3.11-slim`, to exactly match the Python 3.11 venv that
+  `requirements-docker.txt` was frozen on. The official Playwright images are
+  **not** used here: they only ship Python 3.10 (`jammy`) or 3.12 (`noble`),
+  neither of which is 3.11. 3.10 can't satisfy 3.11-only pins (`numpy==2.4.2`;
+  `async-timeout==5.0.1`, which `langchain-classic` caps below 5.0 only on
+  Python <3.11), and 3.12 drops the bundled `setuptools` that
+  `playwright-stealth`'s `pkg_resources` import depends on. So the Dockerfile
+  installs Chromium and its OS libraries itself via
+  `playwright install --with-deps chromium`, which uses the pinned
+  `playwright==1.52.0` so the browser stays version-matched.
 
 **Scheduler.** The scrapers container runs `docker/scrape_loop.sh`, which calls
 `python main.py` on an interval. Knobs (set in `docker-compose.yml`):

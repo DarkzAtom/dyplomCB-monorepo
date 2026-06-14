@@ -1,5 +1,6 @@
 from pprint import pprint
 from bs4 import BeautifulSoup
+import os
 import asyncio
 import random
 from playwright.async_api import async_playwright, expect, Playwright
@@ -68,7 +69,8 @@ async def collect_and_save_cookies(base_url="https://www.darkreading.com", state
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(
-            headless=False,  # Keep headless=False for the initial CF solve
+            # headed locally for the Cloudflare solve; HEADLESS=true in Docker
+            headless=os.getenv("HEADLESS", "").lower() == "true",
             args=[
                 '--disable-blink-features=AutomationControlled',
                 '--window-size=1920,1080',
@@ -123,7 +125,7 @@ async def process_articles(links):
 
 async def setup_browser_context(playwright: Playwright):
     browser = await playwright.chromium.launch(
-        headless=False,
+        headless=os.getenv("HEADLESS", "").lower() == "true",
         channel='chrome',
         slow_mo=750,
         # if we'd ever need to use proxy -> uncomment below

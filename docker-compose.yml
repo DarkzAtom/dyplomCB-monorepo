@@ -28,6 +28,10 @@ services:
       # 6h between runs; run once immediately on container start.
       SCRAPE_INTERVAL_SECONDS: "21600"
       RUN_ON_START: "true"
+      # Run browsers headless: the scrapers default to headed (for Cloudflare
+      # solving) but there's no X display in the container. Unset locally so
+      # PyCharm/desktop runs stay headed.
+      HEADLESS: "true"
     volumes:
       # Persist incremental state (lastsaved_articlelink.txt) and output.csv
       # on the host so scraping stays incremental across restarts. This maps

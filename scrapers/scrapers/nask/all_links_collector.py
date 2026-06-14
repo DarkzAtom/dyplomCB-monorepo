@@ -1,3 +1,4 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 import functools
@@ -65,7 +66,7 @@ def get_all_links_of_articles_until_lastsaved_met():
     # here using simple requests is sufficient 
     url = "https://nask.pl/aktualnosci"
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=os.getenv("HEADLESS", "").lower() == "true")
         context = browser.new_context()
         page = context.new_page()
         try:
