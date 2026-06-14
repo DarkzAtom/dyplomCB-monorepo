@@ -1,0 +1,1218 @@
+TUNED LangChain SemanticChunker (percentile 90, buffer 1, min_chunk_size 200) + title prefix
+25 articles
+
+####################################################################################################
+ARTICLE 1/25: RVTools Official Site Hacked to Deliver Bumblebee Malware via Trojanized Installer
+split into 3 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/3   (114 tokens, 86 words)
+==========================================================================================
+RVTools Official Site Hacked to Deliver Bumblebee Malware via Trojanized Installer
+
+The official site for RVTools has been hacked to serve a compromised installer for the popular VMware environment reporting utility. "Robware.net and RVTools.com are currently offline. We are working expeditiously to restore service and appreciate your patience," the company said in a statement posted on its website. "Robware.net and RVTools.com are the only authorized and supported websites for RVTools software. Do not search for or download purported RVTools software from any other websites or sources."
+
+==========================================================================================
+CHUNK 2/3   (455 tokens, 346 words)
+==========================================================================================
+RVTools Official Site Hacked to Deliver Bumblebee Malware via Trojanized Installer
+
+The development comes after security researcher Aidan Leon revealed that an infected version of the installer downloaded from the website was being used to sideload a malicious DLL that turned out to be a known malware loader called Bumblebee. It's currently not known how long the trojanized version of RVTools had been available for download and how many had installed it before the site was taken offline. In the interim, users are recommended to verify the installer's hash and review any execution of version.dll from user directories. The disclosure comes as it has come to light that the official software supplied with Procolored printers included a Delphi-based backdoor called XRed and a clipper malware dubbed SnipVex that's capable of substituting wallet addresses in the clipboard with that of a hard-coded address. Details of the malicious activity were first discovered by Cameron Coward, who is behind the YouTube channel Serial Hobbyism. XRed, believed to be active since at least 2019, comes with features to collect system information, log keystrokes, propagate via connected USB drives, and execute commands sent from an attacker-controlled server to capture screenshots, enumerate file systems and directories, download files, and delete files from the system. "[SnipVex] searches the clipboard for content that resembles a BTC address and replaces it with the attacker's address, such that cryptocurrency transactions will be diverted to the attacker," G DATA researcher Karsten Hahn, who further investigated the incident, said. But in an interesting twist, the malware infects .EXE files with the clipper functionality and makes use of an infection marker sequence – 0x0A 0x0B 0x0C – at the end to avoid re-infecting the files a second time. The wallet address in question has received 9.30857859 BTC (about $974,000) to date. Procolored has since acknowledged that the software packages were uploaded to the Mega file hosting service in October 2024 via USB drives and that the malware may have been introduced during this process. Software downloads are currently only available for F13 Pro, VF13 Pro, and V11 Pro products.
+
+==========================================================================================
+CHUNK 3/3   (95 tokens, 65 words)
+==========================================================================================
+RVTools Official Site Hacked to Deliver Bumblebee Malware via Trojanized Installer
+
+"The malware's command-and-control server has been offline since February 2024," Hahn noted. "So it is not possible that XRed established a successful remote connection after that date. The accompanying clipbanker virus SnipVex is still a serious threat. Although transactions to the BTC address stopped on March 3, 2024, the file infection itself damages systems."
+
+####################################################################################################
+ARTICLE 2/25: Ransomware Gangs Use Skitnet Malware for Stealthy Data Theft and Remote Access
+split into 3 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/3   (309 tokens, 227 words)
+==========================================================================================
+Ransomware Gangs Use Skitnet Malware for Stealthy Data Theft and Remote Access
+
+Several ransomware actors are using a malware called Skitnet as part of their post-exploitation efforts to steal sensitive data and establish remote control over compromised hosts. "Skitnet has been sold on underground forums like RAMP since April 2024," Swiss cybersecurity company PRODAFT told The Hacker News. "However, since early 2025, we have observed multiple ransomware operators using it in real-world attacks." 
+"For example, in April 2025, Black Basta leveraged Skitnet in Teams-themed phishing campaigns targeting enterprise environments. With its stealth features and flexible architecture, Skitnet appears to be gaining traction rapidly within the ransomware ecosystem."
+Skitnet, also called Bossnet, is a multi-stage malware developed by a threat actor tracked by the company under the name LARVA-306. A notable aspect of the malicious tool is that it uses programming languages like Rust and Nim to launch a reverse shell over DNS and evade detection. It also incorporates persistence mechanisms, remote access tools, commands for data exfiltration, and even download a .NET loader binary that can be used to serve additional payloads, making it a versatile threat. First advertised on April 19, 2024, Skitnet is offered to potential customers as a "compact package" comprising a server component and malware. The initial executable is a Rust binary that decrypts and runs an embedded payload that's compiled in Nim.
+
+==========================================================================================
+CHUNK 2/3   (375 tokens, 288 words)
+==========================================================================================
+Ransomware Gangs Use Skitnet Malware for Stealthy Data Theft and Remote Access
+
+"The primary function of this Nim binary is to establish a reverse shell connection with the C2 [command-and-control] server via DNS resolution," PRODAFT said. "To evade detection, it employs the GetProcAddress function to dynamically resolve API function addresses rather than using traditional import tables."
+The Nim-based binary further starts multiple threads to send DNS requests every 10 seconds, read DNS responses and extract commands to be executed on the host, and transmit the results of the execution of the command back to the server. The commands are issued via a C2 panel that's used to manage the infected hosts. Some of the supported PowerShell commands are listed below -
+
+Startup, which ensures persistence by creating shortcuts in the Startup directory of the victim's device
+Screen, which captures a screenshot of the victim's desktop
+Anydesk/Rutserv, which deploys a legitimate remote desktop software like AnyDesk or Remote Utilities ("rutserv.exe")
+Shell, to run PowerShell scripts hosted on a remote server and send the results back to the C2 server
+AV, which gathers a list of installed security products
+
+"Skitnet is a multi-stage malware that leverages multiple programming languages, and encryption techniques," PRODAFT said. "By using Rust for payload decryption and manual mapping, followed by a Nim-based reverse shell communicating over DNS, the malware tries to evade traditional security measures."
+
+The disclosure comes as Zscaler ThreatLabz detailed another malware loader dubbed TransferLoader that's being used to deliver a ransomware strain called Morpheus targeting an American law firm. Active since at least February 2025, TransferLoader incorporates three components, a downloader, a backdoor, and a specialized loader for the backdoor, enabling the threat actors to execute arbitrary commands on the compromised system.
+
+==========================================================================================
+CHUNK 3/3   (127 tokens, 92 words)
+==========================================================================================
+Ransomware Gangs Use Skitnet Malware for Stealthy Data Theft and Remote Access
+
+While the downloader is designed to fetch and execute a payload from a C2 server and simultaneously run a PDF decoy file, the backdoor is responsible for running commands issued by the server, as well as updating its own configuration. "The backdoor utilizes the decentralized InterPlanetary File System (IPFS) peer-to-peer platform as a fallback channel for updating the command-and-control (C2) server," the cybersecurity company said. "The developers of TransferLoader use obfuscation methods to make the reverse engineering process more tedious."
+
+####################################################################################################
+ARTICLE 3/25: Why CTEM is the Winning Bet for CISOs in 2025
+split into 6 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/6   (486 tokens, 353 words)
+==========================================================================================
+Why CTEM is the Winning Bet for CISOs in 2025
+
+Continuous Threat Exposure Management (CTEM) has moved from concept to cornerstone, solidifying its role as a strategic enabler for CISOs. No longer a theoretical framework, CTEM now anchors today's cybersecurity programs by continuously aligning security efforts with real-world risk. At the heart of CTEM is the integration of Adversarial Exposure Validation (AEV), an advanced, offensive methodology powered by proactive security tools including External Attack Surface Management (ASM), autonomous penetration testing and red teaming, and Breach and Attack Simulation (BAS). Together, these AEV tools transform how enterprises proactively identify, validate, and reduce risks, turning threat exposure into a manageable business metric. CTEM reflects a broader evolution in how security leaders measure effectiveness and allocate resources. As board expectations grow and cyber risk becomes inseparable from business risk, CISOs are leveraging CTEM to drive measurable, outcome-based security initiatives. Early adopters report improved risk visibility, faster validation and remediation cycles, and tighter alignment between security investments and business priorities.1 With tools like ASM and autonomous pentesting delivering real-time insights into exposure, CTEM empowers CISOs to adopt a continuous, adaptive model that keeps pace with attacker techniques and the evolving threat landscape. CTEM's Moment Has Arrived#
+CTEM introduces a continuous, iterative process encompassing three pillars: Adversarial Exposure Validation (AEV), Exposure Assessment Platforms (EAP), and Exposure Management (EM). These methodologies ensure enterprises can dynamically assess and respond to threats, aligning security efforts with business objectives.1 Gartner underscores the significance of CTEM, predicting that by 2026, organizations prioritizing security investments based on a CTEM program will be three times less likely to suffer a breach.2
+Adversarial Exposure Validation (AEV): Simulating Real-World Threats#
+AEV strengthens CTEM by continuously validating the effectiveness of security controls through the simulated exploitation of assets using real-world attacker behaviors. This often involves the use of automation, AI, and machine learning to replicate tactics, techniques, and procedures (TTPs) used by adversaries, helping enterprises to proactively identify exploitable exposures before they can be leveraged in an actual attack. This proactive approach is crucial in understanding weaknesses and refining defenses more effectively. Attack Surface Management (ASM): Expanding Visibility#
+
+==========================================================================================
+CHUNK 2/6   (149 tokens, 111 words)
+==========================================================================================
+Why CTEM is the Winning Bet for CISOs in 2025
+
+ASM complements CTEM by providing comprehensive visibility into an enterprise's digital footprint. By continuously discovering, prioritizing, and monitoring assets, ASM enables security teams to identify potential vulnerabilities and exposures promptly. This expanded visibility is essential for effective threat exposure management, ensuring that no asset remains unmonitored. AEV transforms ASM from a map into a mission plan, and enterprises need it urgently. Autonomous Penetration Testing and Red Teaming: Improving Scalability#
+The integration of autonomous penetrating testing and red teaming into CTEM frameworks marks a significant advancement in cybersecurity practices. Autonomous pentesting, for example, delivers real-time, scalable, and actionable insights unlike periodic assessments.
+
+==========================================================================================
+CHUNK 3/6   (481 tokens, 366 words)
+==========================================================================================
+Why CTEM is the Winning Bet for CISOs in 2025
+
+This shift enhances operational efficiency while proactively identifying and mitigating vulnerabilities in real-time. While regulatory compliance remains important, it is no longer the sole driver – modern mandates increasingly emphasize continuous, proactive security testing. Breach and Attack Simulation (BAS): Continuous Security Validation#
+BAS tools also play a role in CTEM by automating the simulation of known attack techniques across the kill chain – ranging from phishing and lateral movement to data exfiltration. Unlike autonomous pentesting, which actively exploits vulnerabilities, BAS focuses on continuously validating the effectiveness of security controls without causing disruption. These simulated attacks help uncover blind spots, misconfigurations, and detection and response gaps across endpoints, networks, and cloud environments. By aligning results with threat intelligence and frameworks like MITRE ATT&CK, BAS enables security teams to prioritize remediation based on real exposure and risk, helping CISOs ensure their defenses are not only in place, but operationally effective. The Impetus Behind CTEM's Rise#
+The rapid adoption of CTEM in 2025 is no coincidence. As cyber risks grow more complex and dynamic, enterprises are embracing CTEM not just as a framework, but as an effective cyber strategy that yields measurable results. Several converging trends, ranging from evolving threat tactics to regulatory pressure and expanding digital footprints, are driving security leaders to prioritize continuous validation, real-time visibility, and operational efficiency across the attack surface. Several factors contribute to the widespread adoption of CTEM:
+
+Scalability: The rapid shift to cloud-native architectures, growing supply chain, and interconnected systems has expanded the attack surface. CTEM delivers the visibility and control needed to manage this complexity at scale. Operational Efficiency: By integrating tools and automating threat validation, CTEM reduces redundancy, streamlines workflows, and accelerates response times. Measurable Outcomes: CTEM enables CISOs to shift from abstract risk discussions to data-driven decisions by providing clear metrics on exposure, control effectiveness, and remediation progress, supporting better alignment with business objectives and board-level reporting. Regulatory Compliance: With rising enforcement of cybersecurity regulations like NIS2, DORA, and SEC reporting mandates, CTEM's continuous validation and visibility help enterprises stay compliant and audit ready. Conclusion#
+Cybersecurity cannot evolve by standing still, and neither can security leaders and their organizations.
+
+==========================================================================================
+CHUNK 4/6   (108 tokens, 80 words)
+==========================================================================================
+Why CTEM is the Winning Bet for CISOs in 2025
+
+The shift toward a proactive, measurable, and continuous approach to threat exposure is not only necessary but achievable. In fact, it's the only viable path forward. CTEM isn't just another framework, it's a blueprint for transforming security into a business-aligned, data-driven discipline. By embracing real-time validation, prioritizing exposures that matter, and proving effectiveness with metrics that resonate beyond the SOC, CISOs are moving the industry beyond checkboxes toward true resilience.
+
+==========================================================================================
+CHUNK 5/6   (144 tokens, 101 words)
+==========================================================================================
+Why CTEM is the Winning Bet for CISOs in 2025
+
+Today, the enterprises that lead in cybersecurity will be the ones that measure it and manage it, continuously. About BreachLock:
+BreachLock is a leader in offensive security, delivering scalable and continuous security testing. Trusted by global enterprises, BreachLock provides human-led and AI-assisted attack surface management, penetration testing services, red teaming, and Adversarial Exposure Validation (AEV) services that help security teams stay ahead of adversaries. With a mission to make proactive security the new standard, BreachLock is shaping the future of cybersecurity through automation, data-driven intelligence, and expert-driven execution. References:
+
+Hacking Reviews.
+
+==========================================================================================
+CHUNK 6/6   (110 tokens, 40 words)
+==========================================================================================
+Why CTEM is the Winning Bet for CISOs in 2025
+
+(n.d.). How attack surface management supports continuous threat exposure management. Retrieved 30, April 2025, from https://www.hacking.reviews/2023/05/how-attack-surface-management-supports.htmlGartner. (n.d.). How to Manage Cybersecurity Threats, Not Episodes. Retrieved 30, April 2025, from https://www.gartner.com/en/articles/how-to-manage-cybersecurity-threats-not-episodes
+
+####################################################################################################
+ARTICLE 4/25: Firefox Patches 2 Zero-Days Exploited at Pwn2Own Berlin with $100K in Rewards
+split into 2 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/2   (305 tokens, 219 words)
+==========================================================================================
+Firefox Patches 2 Zero-Days Exploited at Pwn2Own Berlin with $100K in Rewards
+
+Mozilla has released security updates to address two critical security flaws in its Firefox browser that could be potentially exploited to access sensitive data or achieve code execution. The vulnerabilities, both of which were exploited as a zero-day at Pwn2Own Berlin, are listed below -
+
+CVE-2025-4918 - An out-of-bounds access vulnerability when resolving Promise objects that could allow an attacker to perform read or write on a JavaScript Promise object
+CVE-2025-4919 - An out-of-bounds access vulnerability when optimizing linear sums that could allow an attacker to perform read or write on a JavaScript object by confusing array index sizes
+
+In other words, successful exploitation of either of the flaws could permit an adversary to achieve out-of-bounds read or write, which could then be abused to access otherwise sensitive information or result in memory corruption that could pave the way for code execution. The vulnerabilities affect the following versions of the Firefox browser -
+
+All versions of Firefox before 138.0.4 (including Firefox for Android)
+All versions of Firefox Extended Support Release (ESR) before 128.10.1
+All versions of Firefox ESR before 115.23.1
+
+Edouard Bochin and Tao Yan from Palo Alto Networks have been credited with finding and reporting CVE-2025-4918. The discovery of CVE-2025-4919 has been credited to Manfred Paul.
+
+==========================================================================================
+CHUNK 2/2   (139 tokens, 109 words)
+==========================================================================================
+Firefox Patches 2 Zero-Days Exploited at Pwn2Own Berlin with $100K in Rewards
+
+It's worth noting that both shortcomings were demonstrated at the Pwn2Own Berlin hacking contest last week for which they were awarded $50,000 each. With web browsers continuing to be an attractive vector for malware delivery, users are advised to update their instances to the latest version to safeguard against potential threats. "Neither of the attacks managed to break out of our sandbox, which is required to gain control over the user's system," Mozilla said in a statement. "Despite the limited impact of these attacks, all users and administrators are advised to update Firefox as soon as possible."
+
+####################################################################################################
+ARTICLE 5/25: ⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+split into 20 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/20   (141 tokens, 100 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Cybersecurity leaders aren't just dealing with attacks—they're also protecting trust, keeping systems running, and maintaining their organization's reputation. This week's developments highlight a bigger issue: as we rely more on digital tools, hidden weaknesses can quietly grow. Just fixing problems isn't enough anymore—resilience needs to be built into everything from the ground up. That means better systems, stronger teams, and clearer visibility across the entire organization. What's showing up now isn't just risk—it's a clear signal that acting fast and making smart decisions matters more than being perfect.
+
+==========================================================================================
+CHUNK 2/20   (143 tokens, 75 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Here's what surfaced—and what security teams can't afford to overlook. ⚡ Threat of the Week#
+Microsoft Fixes 5 Actively Exploited 0-Days — Microsoft addressed a total of 78 security flaws in its Patch Tuesday update for May 2025 last week, out of which five of them have come under active exploitation in the wild. The vulnerabilities include CVE-2025-30397, CVE-2025-30400, CVE-2025-32701, CVE-2025-32706, and CVE-2025-32709.
+
+==========================================================================================
+CHUNK 3/20   (281 tokens, 216 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+It's currently not known in what context these defects have been exploited, who is behind them, and who was targeted in these attacks. 2025 State of Code Security: Key Trends and Threats#
+In cloud-native environments, the security of your code repositories and development pipelines is critical. Do you know the most pressing risks facing your organization today? By analyzing hundreds of thousands of repositories, the Wiz Threat Research team uncovered key vulnerabilities and attacker strategies in the new 2025 State of Code Security Report. Key stats include: 
+
+35% of GitHub repositories are public, providing malicious actors with easy access to exploits if developers make critical mistakes 
+61% of organizations have cloud secrets, like API keys and access tokens, exposed in public repositories 
+
+Download the report to explore all the findings in detail and learn actionable strategies to protect your organization. Download the Report ➝
+
+🔔 Top News#
+
+Marbled Dust Exploits Output Messenger 0-Day — Microsoft revealed that a Türkiye-affiliated threat actor codenamed Marbled Dust exploited as zero-day a security flaw in an Indian enterprise communication platform called Output Messenger as part of a cyber espionage attack campaign since April 2024. The attacks, the company said, are associated with the Kurdish military operating in Iraq.
+
+==========================================================================================
+CHUNK 4/20   (512 tokens, 390 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+The attacks exploited CVE-2025-27920, a directory traversal vulnerability affecting version 2.0.62 that allows remote attackers to access or execute arbitrary files. It was addressed in December 2024. Konni APT Focuses on Ukraine in New Phishing Campaign — The North Korea-linked threat actor known as Konni APT has been attributed to a phishing campaign targeting government entities in Ukraine, indicating the threat actor's targeting beyond Russia amidst the ongoing Russo-Ukrainian war. Proofpoint, which disclosed details of the activity, said the objective of the attacks is to collect intelligence on the "trajectory of the Russian invasion." The attack chains entail the use of phishing emails that impersonate a fictitious senior fellow at a non-existent think tank, tricking recipients into visiting credential harvesting pages or downloading malware that can conduct extensive reconnaissance of the compromised machines. Coinbase Discloses Data Breach — Cryptocurrency giant Coinbase disclosed that unknown cyber actors broke into its systems and stole account data for a small subset of its customers. The activity bribed its customer support agents based in India to obtain a list of customers, who were then approached as part of a social engineering attack to transfer their digital assets to a wallet under the threat actor's control. The attackers also unsuccessfully attempted to extort the company for $20 million on May 11, 2025, by claiming to have information about certain customer accounts as well as internal documents. The compromised agents have since been terminated. While no passwords, private keys, or funds were exposed, the attackers made away with some amount of personal information, including names, addresses, phone numbers, email addresses, government ID images, and account balances. Coinbase did not disclose how many of its customers fell for the scam. Besides voluntarily reimbursing retail customers who were duped into sending cryptocurrency to scammers, Coinbase is offering a $20 million reward to anyone who can help identify and bring down the perpetrators of the cyber attack. APT28 Behind Attacks Targeting Webmail Services — APT28, a hacking group linked to Russia's Main Intelligence Directorate (GRU), has been targeting webmail servers such as Roundcube, Horde, MDaemon, and Zimbra via cross-site scripting (XSS) vulnerabilities. The attacks, ongoing since at least 2023, targeted governmental entities and defense companies in Eastern Europe, although governments in Africa, Europe, and South America were
+
+==========================================================================================
+CHUNK 5/20   (241 tokens, 176 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+has been targeting webmail servers such as Roundcube, Horde, MDaemon, and Zimbra via cross-site scripting (XSS) vulnerabilities. The attacks, ongoing since at least 2023, targeted governmental entities and defense companies in Eastern Europe, although governments in Africa, Europe, and South America were also singled out. The victims in 2024 alone included officials from regional national governments in Ukraine, Greece, Cameroon and Serbia, military officials in Ukraine and Ecuador, and employees of defense contracting firms in Ukraine, Romania and Bulgaria. The group's spear-phishing campaign used fake headlines mimicking prominent Ukrainian news outlets like the Kyiv Post about the Russia-Ukraine war, seemingly in an attempt to entice targets into opening the messages using the affected webmail clients. Those who opened the email messages using the affected webmail clients were served, via the XSS flaws, a custom JavaScript payload capable of exfiltrating contacts and email data from their mailboxes. One of the payloads could steal passwords and two-factor authentication codes, allowing the attackers to bypass account protections.
+
+==========================================================================================
+CHUNK 6/20   (337 tokens, 265 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+The malware is also designed to harvest the email credentials, either by tricking the browser or password manager into pasting those credentials into a hidden form or getting the user to log out, whereupon they were served a bogus login page. Earth Ammit Breaches Drone Supply Chains to Target Taiwan and South Korea — The threat actor known as Earth Ammit targeted a broader range of organizations than just Taiwanese drone manufacturers, as initially supposed. While the set of attacks was believed to be confined to drone manufacturers in Taiwan, a subsequent analysis has uncovered that the campaign is more broader and sustained in scope than previously thought, hitting the heavy industry, media, technology, software services, healthcare, satellite, and military-adjacent supply chains, and payment service providers in both South Korea and Taiwan. The attacks targeted software vendors and service providers as a way to reach their desired victims, who were the vendors' downstream customers. "Earth Ammit's strategy centered around infiltrating the upstream segment of the drone supply chain. By compromising trusted vendors, the group positioned itself to target downstream customers – demonstrating how supply chain attacks can ripple out and cause broad, global consequences," Trend Micro noted. "Earth Ammit's long-term goal is to compromise trusted networks via supply chain attacks, allowing them to target high-value entities downstream and amplify their reach."
+
+‎️‍🔥 Trending CVEs#
+Attackers love software vulnerabilities—they're easy doors into your systems. Every week brings fresh flaws, and waiting too long to patch can turn a minor oversight into a major breach.
+
+==========================================================================================
+CHUNK 7/20   (376 tokens, 121 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Below are this week's critical vulnerabilities you need to know about. Take a look, update your software promptly, and keep attackers locked out. This week's list includes — CVE-2025-30397, CVE-2025-30400, CVE-2025-32701, CVE-2025-32706, CVE-2025-32709 (Microsoft Windows), CVE-2025-42999 (SAP NetWeaver), CVE-2024-11182 (MDaemon), CVE-2025-4664 (Google Chrome), CVE-2025-4632 (Samsung MagicINFO 9 Server), CVE-2025-32756 (Fortinet FortiVoice, FortiMail, FortiNDR, FortiRecorder, and FortiCamera), CVE-2025-4427, CVE-2025-4428 (Ivanti Endpoint Manager Mobile), CVE-2025-3462, CVE-2025-3463 (ASUS DriverHub), CVE-2025-47729 (TeleMessage TM SGNL), CVE-2025-31644 (F5 BIG-IP), CVE-2025-22249 (VMware Aria Automation), CVE-2025-27696 (Apache Superset), CVE-2025-4317 (TheGem WordPress theme), CVE-2025-23166 (Node.js), CVE-2025-47884 (Jenkins OpenID Connect Provider Plugin), CVE-2025-47889 (Jenkins WSO2 Oauth Plugin), CVE-2025-4802 (Linux glibc), and CVE-2025-47539 (Eventin plugin). 📰 Around the Cyber World#
+
+==========================================================================================
+CHUNK 8/20   (300 tokens, 217 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Attackers Leverage PyInstaller to Drop Infostealers on Macs — Attackers are using PyInstaller to deploy information stealers on macOS systems. These ad-hoc signed samples bundle Python code into Mach-O executables using PyInstaller, allowing them to be run without requiring Python to be installed or meet version compatibility requirements. "As infostealers continue to become more prevalent in the macOS threat landscape, threat actors will continue the search for new ways to distribute them," Jamf said. "While the use of PyInstaller to package malware is not uncommon, this marks the first time we've observed it being used to deploy an infostealer on macOS."
+Kosovo National Extradited to the U.S. for Running BlackDB.cc — A 33-year-old Kosovo national named Liridon Masurica has been extradited to the United States to face charges of running an online cybercrime marketplace active since 2018. He has been charged with five counts of fraudulent use of unauthorized access devices and one count of conspiracy to commit access device fraud. If convicted on all counts, Masurica faces a maximum penalty of 55 years in federal prison. He was taken into custody by authorities in Kosovo on December 12, 2024. Masurica is alleged to be the lead administrator of BlackDB.cc from 2018 to the present.
+
+==========================================================================================
+CHUNK 9/20   (200 tokens, 139 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+"BlackDB.cc illegally offered for sale compromised account and server credentials, credit card information, and other personally identifiable information of individuals primarily located in the United States," the Justice Department said. "Once purchased, cybercriminals used the items purchased on BlackDB.cc to facilitate a wide range of illegal activity, including tax fraud, credit card fraud, and identity theft."
+Former BreachForums Admin to Pay $700k in Healthcare Breach — Conor Brian Fitzpatrick, aka Pompompurin, a former administrator of the BreachForums cybercrime forum, will forfeit roughly $700,000 in a civil lawsuit settlement related to Nonstop Health, a health insurance company whose customer data was posted for sale on the forum in 2023. Fitzpatrick was sentenced to time served last year, but he went on to violate the terms of his release.
+
+==========================================================================================
+CHUNK 10/20   (320 tokens, 239 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+He is set to be resentenced next month. Tor Announces Oniux for Kernel-Level Tor Isolation — The Tor project has announced a new command-line utility called oniux that provides Tor network isolation for third-party applications using Linux namespaces. This effectively creates a fully isolated network environment for each application, preventing data leaks even if the app is malicious or misconfigured. "Built on Arti, and onionmasq, oniux drop-ships any Linux program into its own network namespace to route it through Tor and strips away the potential for data leaks," the Tor project said. "If your work, activism, or research demands rock-solid traffic isolation, oniux delivers it."
+DoJ Charges 12 More in RICO Conspiracy — The U.S. Department of Justice announced charges against 12 more people for their alleged involvement in a cyber-enabled racketeering conspiracy throughout the United States and abroad that netted them more than $263 million. Several of these individuals are said to have been arrested in the U.S., with two others living in Dubai. They face charges related to RICO conspiracy, conspiracy to commit wire fraud, money laundering, and obstruction of justice. The defendants are also accused of stealing over $230 million in cryptocurrency from a victim in Washington D.C. "The enterprise began no later than October 2023 and continued through March 2025," the Justice Department said. "It grew from friendships developed on online gaming platforms.
+
+==========================================================================================
+CHUNK 11/20   (165 tokens, 128 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Members of the enterprise held different responsibilities. The various roles included database hackers, organizers, target identifiers, callers, money launderers, and residential burglars targeting hardware virtual currency wallets." The attacks involved database hackers breaking into websites and servers to obtain cryptocurrency-related databases or acquiring databases on the dark web. The miscreants then determined the most valuable targets and cold-called them, using social engineering to convince them their accounts were the subject of cyber attacks and that they were helping them take steps to secure their accounts. The end goal of these attacks was to siphon the cryptocurrency assets, which were then laundered and converted into fiat U.S. currency in the form of bulk cash or wire transfers.
+
+==========================================================================================
+CHUNK 12/20   (218 tokens, 164 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+The money was then used to fund a lavish lifestyle for the defendants. "Following his arrest in September 2024 and continuing while in pretrial detention, Lam is alleged to have continued working with members of the enterprise to pass and receive directions, collect stolen cryptocurrency, and have enterprise members buy luxury Hermes Birkin bags and hand-deliver them to his girlfriend in Miami, Florida," the agency said. ENISA Launches EUVD Vulnerability Database — The European Union launched a new vulnerability database called the European Vulnerability Database (EUVD) to provide aggregated information regarding security issues affecting various products and services. "The database provides aggregated, reliable, and actionable information such as mitigation measures and exploitation status on cybersecurity vulnerabilities affecting Information and Communication Technology (ICT) products and services," the European Union Agency for Cybersecurity (ENISA) said. The development comes in the wake of uncertainty over MITRE's CVE program in the U.S., after which the U.S.
+
+==========================================================================================
+CHUNK 13/20   (512 tokens, 368 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Cybersecurity and Infrastructure Security Agency (CISA) stepped in at the last minute to extend their contract with MITRE for another 11 months to keep the initiative running. 3 Information Stealers Detected in the Wild — Cybersecurity researchers have exposed the workings of three different information stealer malware families, codenamed DarkCloud Stealer, Chihuahua Stealer, and Pentagon Stealer, that are capable of extracting sensitive data from compromised hosts. While DarkCloud has been advertised in hacking forums as early as January 2023, attacks distributing the malware have primarily focused on government organizations since late January 2025. DarkCloud is distributed as AutoIt payloads via phishing emails using PDF purchase order lures that display a message claiming their Adobe Flash Player is out of date. Chihuahua Stealer, on the other hand, is a .NET-based malware that employs an obfuscated PowerShell script shared through a malicious Google Drive document. First discovered in March 2025, Pentagon Stealer makes use of Golang to realize its goals. However, a Python variant of the same stealer was detected at least a year prior when it was propagated via fake Python packages uploaded to the PyPI repository. Kaspersky Outlines Malware Trends for Industrial Systems in Q1 2025 — Kaspersky revealed that the percentage of ICS computers on which malicious objects were blocked in Q1 2025 remained unchanged from Q4 2024 at 21.9%. "Regionally, the percentage of ICS computers on which malicious objects were blocked ranged from 10.7% in Northern Europe to 29.6% in Africa," the Russian security company said. "The biometrics sector led the ranking of the industries and OT infrastructures surveyed in this report in terms of the percentage of ICS computers on which malicious objects were blocked." The primary categories of detected malicious objects included malicious scripts and phishing pages, denylisted internet resources, and backdoors, and keyloggers. Linux Flaws Surge by 967% in 2024 — The number of newly discovered Linux and macOS vulnerabilities increased dramatically in 2024, rising by 967% and 95% in 2024. The year was also marked by a 96% jump in exploited vulnerabilities from 101 in 2023 to 198 in 2024, and an unprecedented 37% rise in critical flaws across key
+
+==========================================================================================
+CHUNK 14/20   (259 tokens, 177 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+macOS vulnerabilities increased dramatically in 2024, rising by 967% and 95% in 2024. The year was also marked by a 96% jump in exploited vulnerabilities from 101 in 2023 to 198 in 2024, and an unprecedented 37% rise in critical flaws across key enterprise applications. "The total number of software vulnerabilities grew by 61% YoY in 2024, with critical vulnerabilities rising by 37.1% – a significant expansion of the global attack surface and exposure of critical weaknesses across diverse software categories," Action1 said. "Exploits spiked 657% in browsers and 433% in Microsoft Office, with Chrome leading all products in known attacks." But in a bit of good news, there was a decrease in remote code execution vulnerabilities for Linux (-85% YoY) and macOS (-44% YoY). Europol Announces Takedown of Fake Trading Platform — Law enforcement authorities have disrupted an organized crime group that's assessed to be responsible for defrauding more than 100 victims of over €3 million ($3.4 million) through a fake online investment platform.
+
+==========================================================================================
+CHUNK 15/20   (395 tokens, 306 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+The effort, a joint exercise conducted by Germany, Albania, Cyprus, and Israel, has also led to the arrest of a suspect in Cyprus. "The criminal network lured victims with the promise of high returns on investments through a fraudulent online trading platform," Europol said. "After the victims made initial smaller deposits, they were pressured to invest larger amounts of money, manipulated by fake charts showing fabricated profits. Criminals posing as brokers used psychological tactics to convince the victims to transfer substantial funds, which were never invested but directly pocketed by the group." Two other suspects were previously arrested from Latvia in September 2022 as part of the multi-year probe into the criminal network. New "defendnot" Tool Can Disable Windows Defender — A security researcher who goes by the online alias es3n1n has released a tool called "defendnot" that can disable Windows Defender by means of a little-known API. "There's a WSC (Windows Security Center) service in Windows which is used by antiviruses to let Windows know that there's some other antivirus in the hood and it should disable Windows Defender," the researcher explained. "This WSC API is undocumented and furthermore requires people to sign an NDA with Microsoft to get its documentation."
+Rogue Communication Devices Found in Some Chinese Solar Power Inverters — Reuters reported that U.S. energy officials are reassessing the risk posed by Chinese-made solar power inverters after unexplained communication equipment was found inside some of them. The rogue components are designed to provide additional, undocumented communication channels that could allow firewalls to be circumvented remotely, according to two people familiar with the matter. This could then be used to switch off inverters remotely or change their settings, enabling bad actors to destabilize power grids, damage energy infrastructure, and trigger widespread blackouts.
+
+==========================================================================================
+CHUNK 16/20   (489 tokens, 361 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Undocumented communication devices, including cellular radios, have also been found in some batteries from multiple Chinese suppliers, the report added. Israel Arrest Suspect Behind 2022 Nomad Bridge Crypto Hack — Israeli authorities have arrested and approved the extradition of a Russian-Israeli dual national Alexander Gurevich over his alleged involvement in the Nomad Bridge hack in August 2022 that allowed hackers to steal $190 million. Gurevich is said to have conspired with others to execute an exploit for the bridge's Replica smart contract and launder the resulting proceeds through a sophisticated, multi-layered operation involving privacy coins, mixers, and offshore financial entities. "Gurevich played a central role in laundering a portion of the stolen funds. Blockchain analysis shows that wallets linked to Gurevich received stolen assets within hours of the bridge breach and began fragmenting the funds across multiple blockchains," TRM Labs said. "He then employed a classic mixer stack: moving assets through Tornado Cash on Ethereum, then converting ETH to privacy coins such as Monero (XMR) and Dash."
+Using V8 Browser Exploits to Bypass WDAC — Researchers have uncovered a sophisticated technique that leverages vulnerable versions of the V8 JavaScript engine to bypass Windows Defender Application Control (WDAC). "The attack scenario is a familiar one: bring along a vulnerable but trusted binary, and abuse the fact that it is trusted to gain a foothold on the system," IBM X-Force said. "In this case, we use a trusted Electron application with a vulnerable version of V8, replacing main.js with a V8 exploit that executes stage 2 as the payload, and voila, we have native shellcode execution. If the exploited application is whitelisted/signed by a trusted entity (such as Microsoft) and would normally be allowed to run under the employed WDAC policy, it can be used as a vessel for the malicious payload." The technique builds upon previous findings that make it possible to sidestep WDAC policies by backdooring trusted Electron applications. Last month, CerberSec detailed another method that employs WinDbg Preview to get around WDAC policies. 🎥 Cybersecurity Webinars#
+DevSecOps Is Broken — This Fix Connects Code to Cloud to SOC#
+
+==========================================================================================
+CHUNK 17/20   (93 tokens, 61 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Modern applications don't live in one place—they span code, cloud, and runtime. Yet security is still siloed. This webinar shows why securing just the code isn't enough. You'll learn how unifying AppSec, cloud, and SOC teams can close critical gaps, reduce response times, and stop attacks before they spread.
+
+==========================================================================================
+CHUNK 18/20   (107 tokens, 73 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+If you're still treating dev, infra, and operations as separate problems, it's time to rethink. 🔧 Cybersecurity Tools#
+
+Qtap → It is a lightweight eBPF tool for Linux that shows what data is being sent and received—before or after encryption—without changing your apps or adding proxies. It runs with minimal overhead and captures full context like process, user, and container info.
+
+==========================================================================================
+CHUNK 19/20   (221 tokens, 152 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Useful for auditing, debugging, or analyzing app behavior when source code isn't available. Checkov → It is a fast, open-source tool that scans infrastructure-as-code and container packages for misconfigurations, exposed secrets, and known vulnerabilities. It supports Terraform, Kubernetes, Docker, and more—using built-in security policies and Sigma-style rules to catch issues early in the development process. TrailAlerts → It is a lightweight, serverless AWS-native tool that gives you full control over CloudTrail detections using Sigma rules—without needing a SIEM. It's ideal for teams who want to write, version, and manage their own alert logic as code, but find CloudWatch rules too limited or complex. Built entirely on AWS services like Lambda, S3, and DynamoDB, TrailAlerts lets you detect suspicious activity, correlate events, and send alerts through SNS or SES—without managing infrastructure or paying for unused capacity. 🔒 Tip of the Week#
+
+==========================================================================================
+CHUNK 20/20   (367 tokens, 286 words)
+==========================================================================================
+⚡ Weekly Recap: Zero-Day Exploits, Insider Threats, APT Targeting, Botnets and More
+
+Catch Hidden Threats in Files Users Trust Too Much → Hackers are using a quiet but dangerous trick: hiding malicious code inside files that look safe — like desktop shortcuts, installer files, or web links. These aren't classic malware files. Instead, they run trusted apps like PowerShell or curl in the background, using basic user actions (like opening a file) to silently infect systems. These attacks often go undetected because the files seem harmless, and no exploits are used — just misuse of normal features. To detect this, focus on behavior. For example, .desktop files in Linux that run hidden shell commands, .lnk files in Windows launching PowerShell or remote scripts, or macOS .app files silently calling terminal tools. These aren't rare anymore — attackers know defenders often ignore these paths. They're especially dangerous because they don't need admin rights and are easy to hide in shared folders or phishing links. You can spot these threats using free tools and simple rules. On Windows, use Sysmon and Sigma rules to alert on .lnk files starting PowerShell or suspicious child processes from explorer.exe. On Linux or macOS, use grep or find to scan .desktop and .plist files for odd execution patterns. To test your defenses, simulate these attack paths using MITRE CALDERA — it's free and lets you safely model real-world attacker behavior. Focusing on these overlooked execution paths can close a major gap attackers rely on every day. Conclusion#
+The headlines may be over, but the work isn't. Whether it's rechecking assumptions, prioritizing patches, or updating your response playbooks, the right next step is rarely dramatic—but always decisive. Choose one, and move with intent.
+
+####################################################################################################
+ARTICLE 6/25: [Webinar] From Code to Cloud to SOC: Learn a Smarter Way to Defend Modern Applications
+split into 2 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/2   (113 tokens, 86 words)
+==========================================================================================
+[Webinar] From Code to Cloud to SOC: Learn a Smarter Way to Defend Modern Applications
+
+Modern apps move fast—faster than most security teams can keep up. As businesses rush to build in the cloud, security often lags behind. Teams scan code in isolation, react late to cloud threats, and monitor SOC alerts only after damage is done. Attackers don't wait. They exploit vulnerabilities within hours. Yet most organizations take days to respond to critical cloud alerts. That delay isn't just risky—it's an open door. The problem?
+
+==========================================================================================
+CHUNK 2/2   (273 tokens, 196 words)
+==========================================================================================
+[Webinar] From Code to Cloud to SOC: Learn a Smarter Way to Defend Modern Applications
+
+Security is split across silos. DevSecOps, CloudSec, and SOC teams all work separately. Their tools don't talk. Their data doesn't sync. And in those gaps, 80% of cloud exposures slip through—exploitable, avoidable, and often invisible until it's too late. This free webinar ,"Breaking Down Security Silos: Why Application Security Must Span from Code to Cloud to SOC," shows you how to fix that. Join Ory Segal, Technical Evangelist at Cortex Cloud (Palo Alto Networks), and discover a practical approach to securing your apps from code to cloud to SOC—all in one connected strategy. You'll learn:
+
+Why code scanning alone isn't enough
+Where attackers find your biggest blind spots
+How to unify your security tools and teams
+How to cut response times from days to hours
+
+If you're in AppSec, CloudOps, DevSecOps, or SOC—you'll walk away with insights you can apply immediately. Watch this Webinar
+Still relying on just code reviews or siloed tools? That's only part of the picture. Attackers see your whole environment. It's time you did too. Join us and take the first step toward smarter, faster, full-stack security.
+
+####################################################################################################
+ARTICLE 7/25: New HTTPBot Botnet Launches 200+ Precision DDoS Attacks on Gaming and Tech Sectors
+split into 3 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/3   (167 tokens, 126 words)
+==========================================================================================
+New HTTPBot Botnet Launches 200+ Precision DDoS Attacks on Gaming and Tech Sectors
+
+Cybersecurity researchers are calling attention to a new botnet malware called HTTPBot that has been used to primarily single out the gaming industry, as well as technology companies and educational institutions in China. "Over the past few months, it has expanded aggressively, continuously leveraging infected devices to launch external attacks," NSFOCUS said in a report published this week. "By employing highly simulated HTTP Flood attacks and dynamic feature obfuscation techniques, it circumvents traditional rule-based detection mechanisms."
+HTTPBot, first spotted in the wild in August 2024, gets its name from the use of HTTP protocols to launch distributed denial-of-service attacks. Written in Golang, it's something of an anomaly given its targeting of Windows systems.
+
+==========================================================================================
+CHUNK 2/3   (199 tokens, 143 words)
+==========================================================================================
+New HTTPBot Botnet Launches 200+ Precision DDoS Attacks on Gaming and Tech Sectors
+
+The Windows-based botnet trojan is noteworthy for its use in precisely targeted attacks aimed at high-value business interfaces such as game login and payment systems. "This attack with 'scalpel-like' precision poses a systemic threat to industries that rely on real-time interaction," the Beijing-headquartered company said. "HTTPBot marks a paradigm shift in DDoS attacks, moving from 'indiscriminate traffic suppression' to 'high-precision business strangulation.'"
+HTTPBot is estimated to have issued no less than 200 attack instructions since the start of April 2025, with the attacks designed to strike the gaming industry, technology companies, educational institutions, and tourism portals in China. Once installed and run, the malware conceals its graphical user interface (GUI) to sidestep process monitoring by both users and security tools in an effort to increase the stealthiness of the attacks.
+
+==========================================================================================
+CHUNK 3/3   (300 tokens, 226 words)
+==========================================================================================
+New HTTPBot Botnet Launches 200+ Precision DDoS Attacks on Gaming and Tech Sectors
+
+It also resorts to unauthorized Windows Registry manipulation to ensure that it's run automatically on system startup. The botnet malware then proceeds to establish contact with a command-and-control (C2) server to await further instructions to execute HTTP flood attacks against specific targets by sending a high volume of HTTP requests. It supports various attack modules -
+
+BrowserAttack, which involves using hidden Google Chrome instances to mimic legitimate traffic while exhausting server resources
+HttpAutoAttack, which makes use of a cookie-based approach to accurately simulate legitimate sessions
+HttpFpDlAttack, which uses the HTTP/2 protocol and opts for an approach that seeks to increase the CPU loader on the server by coercing it into returning large responses
+WebSocketAttack, which uses "ws://" and "wss://" protocols to establish WebSocket connections
+PostAttack, which forces the use of HTTP POST to conduct the attack
+CookieAttack, which adds a cookie processing flow based on the BrowserAttack attack method
+
+"DDoS Botnet families tend to congregate on Linux and IoT platforms," NSFOCUS said. "However, the HTTPBot Botnet family has specifically targeted the Windows platform."
+"By deeply simulating protocol layers and mimicking legitimate browser behavior, HTTPBot bypasses defenses that rely on protocol integrity. It also continuously occupies server session resources through randomized URL paths and cookie replenishment mechanisms, rather than relying on sheer traffic volume."
+
+####################################################################################################
+ARTICLE 8/25: Top 10 Best Practices for Effective Data Protection
+split into 12 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/12   (120 tokens, 101 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+Data is the lifeblood of productivity, and protecting sensitive data is more critical than ever. With cyber threats evolving rapidly and data privacy regulations tightening, organizations must stay vigilant and proactive to safeguard their most valuable assets. But how do you build an effective data protection framework? In this article, we'll explore data protection best practices from meeting compliance requirements to streamlining day-to-day operations. Whether you're securing a small business or a large enterprise, these top strategies will help you build a strong defense against breaches and keep your sensitive data safe. 1.
+
+==========================================================================================
+CHUNK 2/12   (190 tokens, 163 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+Define your data goals#
+When tackling any data protection project, the first step is always to understand the outcome you want. First, understand what data you need to protect. Identify your crown jewel data, and where you THINK it lives. (It's probably more distributed than you expect, but this is a key step to help you define your protection focus.) Work with business owners to find any data outside the typical scope that you need to secure. This is all to answer the question: "What data would hurt the company if it were breached?"
+Second, work with the C-suit and board of directors to define what your data protection program will look like. Understand your budget, your risk tolerance to data loss, and what resources you have (or may need). Define how aggressive your protection program will be so you can balance risk and productivity. All organizations need to strike a balance between the two.
+
+==========================================================================================
+CHUNK 3/12   (54 tokens, 43 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+2. Automate data classification#
+Next, begin your data classification journey—that is, find your data and catalog it. This is often the most difficult step in the journey, as organizations create new data all the time.
+
+==========================================================================================
+CHUNK 4/12   (129 tokens, 108 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+Your first instinct may be to try to keep up with all your data, but this may be a fool's errand. The key to success is to have classification capabilities everywhere data moves (endpoint, inline, cloud), and rely on your DLP policy to jump in when risk arises. (More on this later.)
+Automation in data classification is becoming a lifesaver thanks to the power of AI. AI-powered classification can be faster and more accurate than traditional ways of classifying data with DLP. Ensure any solution you are evaluating can use AI to instantly uncover and discover data without human input.
+
+==========================================================================================
+CHUNK 5/12   (433 tokens, 358 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+3. Focus on zero trust security for access control#
+Adopting a zero trust architecture is crucial for modern data protection strategies to be effective. Based on the maxim "never trust, always verify," zero trust assumes security threats can come from inside or outside your network. Every access request is authenticated and authorized, greatly reducing the risk of unauthorized access and data breaches. Look for a zero trust solution that emphasizes the importance of least-privileged access control between users and apps. With this approach, users never access the network, reducing the ability for threats to move laterally and propagate to other entities and data on the network. The principle of least privilege ensures that users have only the access they need for their roles, reducing the attack surface. 4. Centralize DLP for consistent alerting#
+Data loss prevention (DLP) technology is the core of any data protection program. That said, keep in mind that DLP is only a subset of a larger data protection solution. DLP enables the classification of data (along with AI) to ensure you can accurately find sensitive data. Ensure your DLP engine can consistently alert correctly on the same piece of data across devices, networks, and clouds. The best way to ensure this is to embrace a centralized DLP engine that can cover all channels at once. Avoid point products that bring their own DLP engine (endpoint, network, CASB), as this can lead to multiple alerts on one piece of moving data, slowing down incident management and response. Look to embrace Gartner's security service edge approach, which delivers DLP from a centralized cloud service. Focus on vendors that support the most channels so that, as your program grows, you can easily add protection across devices, inline, and cloud. 5. Ensure blocking across key loss channels#
+Once you have a centralized DLP, focus on the most important data loss channels to your organization. (You'll need to add more channels as you grow, so ensure your platform can accommodate all of them and grow with you.) The most important channels can vary, but every organization focuses on certain common ones:
+
+==========================================================================================
+CHUNK 6/12   (410 tokens, 316 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+Web/Email: The most common ways users accidentally send sensitive data outside the organization. SaaS data (CASB): Another common loss vector, as users can easily share data externally. Endpoint: A key focus for many organizations looking to lock down USB, printing, and network shares. Unmanaged devices/BYOD: If you have a large BYOD footprint, browser isolation is an innovative way to secure data headed to these devices without an agent or VDI. Devices are placed in an isolated browser, which enforces DLP inspection and prevents cut, paste, download, or print. (More on this later.)
+SaaS posture control (SSPM/supply chain): SaaS platforms like Microsoft 365 can often be misconfigured. Continuously scanning for gaps and risky third-party integrations is key to minimizing data breaches. IaaS posture control (DSPM): Most companies have a lot of sensitive data across AWS, Azure, or Google Cloud. Finding it all, and closing risky misconfigurations that expose it, is the driver behind data security posture management (DSPM). 6. Understand and maintain compliance#
+Getting a handle on compliance is a key step for great data protection. You may need to keep up with many different regulations, depending on your industry (GDPR, PCI DSS, HIPAA, etc.). These rules are there to make sure personal data is safe and organizations are handling it the right way. Stay informed on the latest mandates to avoid fines and protect your brand, all while building trust with your customers and partners. To keep on top of compliance, strong data governance practices are a must. This means regular security audits, keeping good records, and making sure your team is well-trained. Embrace technological approaches that help drive better compliance, such as data encryption and monitoring tools. By making compliance part of your routine, you can stay ahead of risks and ensure your data protection is both effective and in line with requirements. 7. Strategize for BYOD#
+
+==========================================================================================
+CHUNK 7/12   (198 tokens, 160 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+Although not a concern for every organization, unmanaged devices present a unique challenge for data protection. Your organization doesn't own or have agents on these devices, so you can't ensure their security posture or patch level, wipe them remotely, and so on. Yet their users (like partners or contractors) often have legitimate reasons to access your critical data. You don't want sensitive data to land on a BYOD endpoint and vanish from your sight. Until now, solutions to secure BYOD have revolved around CASB reverse proxies (problematic) and VDI approaches (expensive). Browser isolation provides an effective and eloquent way to secure data without the cost and complexity of those approaches. By placing BYOD endpoints in an isolated browser (part of the security service edge), you can enforce great data protection without an endpoint agent. Data is streamed to the device as pixels, allowing interaction with the data but preventing download and cut/paste.
+
+==========================================================================================
+CHUNK 8/12   (75 tokens, 62 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+You can also apply DLP inspection to the session and data based on your policy. 8. Control your cloud posture with SSPM and DSPM#
+Cloud posture is one of the most commonly overlooked aspects of data hygiene. SaaS platforms and public clouds have many settings that DevOps teams without security expertise can easily overlook.
+
+==========================================================================================
+CHUNK 9/12   (131 tokens, 97 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+The resulting misconfigurations can lead to dangerous gaps that expose sensitive data. Many of the largest data breaches in history have happened because such gaps let adversaries walk right in. SaaS security posture management (SSPM) and data security posture management (DSPM for IaaS) are designed to uncover and help remediate these risks. By leveraging API access, SSPM and DSPM can continuously scan your cloud deployment, locate sensitive data, identify misconfigurations, and remediate exposures. Some SSPM approaches also feature integrated compliance with frameworks like NIST, ISO, and SOC 2. 9.
+
+==========================================================================================
+CHUNK 10/12   (148 tokens, 130 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+Don't forget about data security training#
+Data security training is often where data protection programs fall apart. If users don't understand or support your data protection goals, dissent can build across your teams and derail your program. Spend time building a training program that highlights your objectives and the value data protection will bring the organization. Ensure upper management supports and sponsors your data security training initiatives. Some solutions offer built-in user coaching with incident management workflows. This valuable feature allows you to notify users about incidents via Slack or email for justification, education, and policy adjustment if needed. Involving users in their incidents helps promote awareness of data protection practices as well as how to identify and safely handle sensitive content.
+
+==========================================================================================
+CHUNK 11/12   (146 tokens, 123 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+10. Automate incident management and workflows#
+Lastly, no data protection program would be complete without day-to-day operations. Ensuring your team can efficiently manage and quickly respond to incidents is critical. One way to ensure streamlined processes is to embrace a solution that enables workflow automation. Designed to automate common incident management and response tasks, this feature can be a lifesaver for IT teams. By saving time and money while improving response times, IT teams can do more with less. Look for solutions that have a strong workflow automation offering integrated into the SSE to make incident management efficient and centralized. Bringing it all together#
+Data protection is not a one-time project; it's an ongoing commitment.
+
+==========================================================================================
+CHUNK 12/12   (81 tokens, 64 words)
+==========================================================================================
+Top 10 Best Practices for Effective Data Protection
+
+Staying informed of data protection best practices will help you build a resilient defense against evolving threats and ensure your organization's long-term success. Remember: investing in data protection is not just about mitigating risks and preventing data breaches. It's also about building trust, maintaining your reputation, and unlocking new opportunities for growth. Learn more at zscaler.com/security
+
+####################################################################################################
+ARTICLE 9/25: Researchers Expose New Intel CPU Flaws Enabling Memory Leaks and Spectre v2 Attacks
+split into 2 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/2   (421 tokens, 319 words)
+==========================================================================================
+Researchers Expose New Intel CPU Flaws Enabling Memory Leaks and Spectre v2 Attacks
+
+Researchers at ETH Zürich have discovered yet another security flaw that they say impacts all modern Intel CPUs and causes them to leak sensitive data from memory, showing that the vulnerability known as Spectre continues to haunt computer systems after more than seven years. The vulnerability, referred to as Branch Privilege Injection (BPI), "can be exploited to misuse the prediction calculations of the CPU (central processing unit) in order to gain unauthorized access to information from other processor users," ETH Zurich said. Kaveh Razavi, head of the Computer Security Group (COMSEC) and one of the authors of the study, said the shortcoming affects all Intel processors, potentially enabling bad actors to read the contents of the processor's cache and the working memory of another user of the same CPU. The attack leverages what's called Branch Predictor Race Conditions (BPRC) that emerge when a processor switches between prediction calculations for two users with different permissions, opening the door to a scenario where an unprivileged hacker could exploit it to bypass security barriers and access confidential information from a privileged process. Intel has issued microcode patches to address the vulnerability, which has been assigned the CVE identifier CVE-2024-45332 (CVSS v4 score: 5.7). "Exposure of sensitive information caused by shared microarchitectural predictor state that influences transient execution in the indirect branch predictors for some Intel Processors may allow an authenticated user to potentially enable information disclosure via local access," Intel said in an advisory released on May 13. The disclosure comes as researchers from the Systems and Network Security Group (VUSec) at Vrije Universiteit Amsterdam detailed a category of self-training Spectre v2 attacks codenamed Training Solo. "Attackers can speculatively hijack control flow within the same domain (e.g., kernel) and leak secrets across privilege boundaries, re-enabling classic Spectre v2 scenarios without relying on powerful sandboxed environments like eBPF," VUSec said.
+
+==========================================================================================
+CHUNK 2/2   (225 tokens, 132 words)
+==========================================================================================
+Researchers Expose New Intel CPU Flaws Enabling Memory Leaks and Spectre v2 Attacks
+
+The hardware exploits, tracked as CVE-2024-28956 and CVE-2025-24495, can be used against Intel CPUs to leak kernel memory at up to 17 Kb/s, with the study finding that they could "completely break the domain isolation and re-enable traditional user-user, guest-guest, and even guest-host Spectre-v2 attacks."
+
+CVE-2024-28956 (CVSS v4 score: 5.7) - Indirect Target Selection (ITS), which affects Intel Core 9th-11th, and Intel Xeon 2nd-3rd, among others. CVE-2025-24495 (CVSS v4 score: 6.8) - Lion Cove BPU issue, which affects Intel CPUs with Lion Cove core
+
+While Intel has shipped microcode updates for these defects, AMD said it has revised its existing guidance on Spectre and Meltdown to explicitly highlight the risk from the use of classic Berkeley Packet Filter (cBPF).
+
+####################################################################################################
+ARTICLE 10/25: Fileless Remcos RAT Delivered via LNK Files and MSHTA in PowerShell-Based Attacks
+split into 4 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/4   (405 tokens, 292 words)
+==========================================================================================
+Fileless Remcos RAT Delivered via LNK Files and MSHTA in PowerShell-Based Attacks
+
+Cybersecurity researchers have shed light on a new malware campaign that makes use of a PowerShell-based shellcode loader to deploy a remote access trojan called Remcos RAT. "Threat actors delivered malicious LNK files embedded within ZIP archives, often disguised as Office documents," Qualys security researcher Akshay Thorve said in a technical report. "The attack chain leverages mshta.exe for proxy execution during the initial stage."
+The latest wave of attacks, as detailed by Qualys, employs tax-related lures to entice users into opening a malicious ZIP archive containing a Windows shortcut (LNK) file, which, in turn, makes use of mshta.exe, a legitimate Microsoft tool used to run HTML Applications (HTA). The binary is used to execute an obfuscated HTA file named "xlab22.hta" hosted on a remote server, which incorporates Visual Basic Script code to download a PowerShell script, a decoy PDF, and another HTA file similar to xlab22.hta called "311.hta." The HTA file is also configured to make Windows Registry modifications to ensure that "311.hta" is automatically launched upon system startup. Once the PowerShell script is executed, it decodes and reconstructs a shellcode loader that ultimately proceeds to launch the Remcos RAT payload entirely in memory. Remcos RAT is a well-known malware that offers threat actors full control over compromised systems, making it an ideal tool for cyber espionage and data theft. A 32-bit binary compiled using Visual Studio C++ 8, it features a modular structure and can gather system metadata, log keystrokes, capture screenshots, monitor clipboard data, and retrieve a list of all installed programs and running processes. In addition, it establishes a TLS connection to a command-and-control (C2) server at "readysteaurants[.]com," maintaining a persistent channel for data exfiltration and control.
+
+==========================================================================================
+CHUNK 2/4   (336 tokens, 256 words)
+==========================================================================================
+Fileless Remcos RAT Delivered via LNK Files and MSHTA in PowerShell-Based Attacks
+
+This is not the first time fileless versions of Remcos RAT have been spotted in the wild. In November 2024, Fortinet FortiGuard Labs detailed a phishing campaign that filelessly deployed the malware by making use of order-themed lures. What makes the attack method attractive to threat actors is that it allows them to operate undetected by many traditional security solutions as the malicious code runs directly in the computer's memory, leaving very few traces on the disk. "The rise of PowerShell-based attacks like the new Remcos RAT variant demonstrates how threat actors are evolving to evade traditional security measures," J Stephen Kowski, Field CTO at SlashNext, said. "This fileless malware operates directly in memory, using LNK files and MSHTA.exe to execute obfuscated PowerShell scripts that can bypass conventional defenses. Advanced email security that can detect and block malicious LNK attachments before they reach users is crucial, as is real-time scanning of PowerShell commands for suspicious behaviors."
+
+The disclosure comes as Palo Alto Networks Unit 42 and Threatray detailed a new .NET loader that's used to detonate a wide range of commodity information stealers and RATS like Agent Tesla, NovaStealer, Remcos RAT, VIPKeylogger, XLoader, and XWorm. The loader features three stages that work in tandem to deploy the final-stage payload: A .NET executable that embeds the second and third stages in encrypted form, a .NET DLL that decrypts and loads the next stage, and a .NET DLL that manages the deployment of the main malware.
+
+==========================================================================================
+CHUNK 3/4   (427 tokens, 331 words)
+==========================================================================================
+Fileless Remcos RAT Delivered via LNK Files and MSHTA in PowerShell-Based Attacks
+
+"While earlier versions embedded the second stage as a hardcoded string, more recent versions use a bitmap resource," Threatray said. "The first stage extracts and decrypts this data, then executes it in memory to launch the second stage."
+Unit 42 described the use of bitmap resources to conceal malicious payloads a a steganography technique that can bypass traditional security mechanisms and evade detection. The findings also coincide with the emergence of several phishing and social engineering campaigns that are engineered for credential theft and malware delivery -
+
+Use of trojanized versions of the KeePass password management software – codenamed KeeLoader – to drop a Cobalt Strike beacon and steal sensitive KeePass database data, including administrative credentials. The malicious installers are hosted on KeePass typosquat domains that are served via Bing ads. Use of ClickFix lures and URLs embedded within PDF documents and a series of intermediary dropper URLs to deploy Lumma Stealer. Use of booby-trapped Microsoft Office documents that are used to deploy the Formbook information stealer protected using a malware distribution service referred to as Horus Protector. Use of blob URIs to locally loads a credential phishing page via phishing emails, with the blob URIs served using allow-listed pages (e.g., onedrive.live[.]com) that are abused to redirect victims to a malicious site that contains a link to a threat actor-controlled HTML page. Use of RAR archives masquerading as setup files to distribute NetSupport RAT in attacks targeting Ukraine and Poland. Use of phishing emails to distribute HTML attachments that contain malicious code to capture victims' Outlook, Hotmail, and Gmail credentials and exfiltrate them to a Telegram bot named "Blessed logs" that has been active since February 2025
+
+
+The developments have also been complemented by the rise in artificial intelligence (AI)-powered campaigns that leverage polymorphic tricks that mutate in real-time to sidestep detection efforts. These include modifying email subject lines, sender names, and body content to slip past signature-based detection.
+
+==========================================================================================
+CHUNK 4/4   (119 tokens, 91 words)
+==========================================================================================
+Fileless Remcos RAT Delivered via LNK Files and MSHTA in PowerShell-Based Attacks
+
+"AI gave threat actors the power to automate malware development, scale attacks across industries, and personalize phishing messages with surgical precision," Cofense said. "These evolving threats are increasingly able to bypass traditional email filters, highlighting the failure of perimeter-only defenses and the need for post-delivery detection. It also enabled them to outmaneuver traditional defenses through polymorphic phishing campaigns that shift content on the fly. The result: deceptive messages that are increasingly difficult to detect and even harder to stop."
+
+####################################################################################################
+ARTICLE 11/25: Meta to Train AI on E.U. User Data From May 27 Without Consent; Noyb Threatens Lawsuit
+split into 3 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/3   (320 tokens, 247 words)
+==========================================================================================
+Meta to Train AI on E.U. User Data From May 27 Without Consent; Noyb Threatens Lawsuit
+
+Austrian privacy non-profit noyb (none of your business) has sent Meta's Irish headquarters a cease-and-desist letter, threatening the company with a class action lawsuit if it proceeds with its plans to train users' data for training its artificial intelligence (AI) models without an explicit opt-in. The move comes weeks after the social media behemoth announced its plans to train its AI models using public data shared by adults across Facebook and Instagram in the European Union (E.U.) starting May 27, 2025, after it paused the efforts in June 2024 following concerns raised by Irish data protection authorities. "Instead of asking consumers for opt-in consent, Meta relies on an alleged 'legitimate interest' to just suck up all user data," noyb said in a statement. "Meta may face massive legal risks – just because it relies on an 'opt-out' instead of an 'opt-in' system for AI training."
+
+The advocacy group further noted that Meta AI is not compliant with the General Data Protection Regulation (GDPR) in the region, and that, besides claiming that it has a "legitimate interest" in taking user data for AI training, the company is also limiting the right to opt-out before the training has started. Noyb also pointed out that even if 10% of Meta's users expressly agree to hand over the data for this purpose, it would amount to enough data points for the company to learn E.U.
+
+==========================================================================================
+CHUNK 2/3   (217 tokens, 176 words)
+==========================================================================================
+Meta to Train AI on E.U. User Data From May 27 Without Consent; Noyb Threatens Lawsuit
+
+languages. It's worth pointing out that Meta previously claimed that it needed to collect this information to capture the diverse languages, geography, and cultural references of the region. "Meta starts a huge fight just to have an opt-out system instead of an opt-in system," noyb's Max Schrems said. "Instead, they rely on an alleged 'legitimate interest' to just take the data and run with it. This is neither legal nor necessary."
+"Meta's absurd claims that stealing everyone's personal data is necessary for AI training is laughable. Other AI providers do not use social network data – and generate even better models than Meta."
+The privacy group also accused the company of moving ahead with its plans by putting the onus on users and pointed out that national data protection authorities have largely stayed silent on the legality of AI training without consent. "It therefore seems that Meta simply moved ahead anyways – taking another huge legal risk in the E.U.
+
+==========================================================================================
+CHUNK 3/3   (210 tokens, 164 words)
+==========================================================================================
+Meta to Train AI on E.U. User Data From May 27 Without Consent; Noyb Threatens Lawsuit
+
+and trampling over users' rights," noyb added. In a statement shared with Reuters, Meta has rejected noyb's arguments, stating they are wrong on the facts and the law, and that it has provided E.U. users with a "clear" option to object to their data being processed for AI training. This is not the first time Meta's reliance on GDPR's "legitimate interest" to collect data without explicit opt-in consent has come under scrutiny. In August 2023, the company agreed to change the legal basis from "legitimate interest" to a consent-based approach to process user data for serving targeted ads for people in the region. The disclosure comes as the Belgian Court of Appeal ruled the Transparency and Consent Framework, used by Google, Microsoft, Amazon, and other companies to obtain consent for data processing for personalized advertising purposes, is illegal across Europe, citing violation of several principles of GDPR laws.
+
+####################################################################################################
+ARTICLE 12/25: Coinbase Agents Bribed, Data of ~1% Users Leaked; $20M Extortion Attempt Fails
+split into 3 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/3   (199 tokens, 160 words)
+==========================================================================================
+Coinbase Agents Bribed, Data of ~1% Users Leaked; $20M Extortion Attempt Fails
+
+Cryptocurrency exchange Coinbase has disclosed that unknown cyber actors broke into its systems and stole account data for a small subset of its customers. "Criminals targeted our customer support agents overseas," the company said in a statement. "They used cash offers to convince a small group of insiders to copy data in our customer support tools for less than 1% of Coinbase monthly transacting users."
+The end goal of the campaign was to put together a list of customers who they contacted by masquerading as Coinbase and deceiving them into handing over their cryptocurrency assets. Coinbase said the threat actors then unsuccessfully attempted to extort the company for $20 million on May 11, 2025, by claiming to have information about certain customer accounts as well as internal documents. In a statement shared with Fortune, Coinbase said the compromised customer agents worked in India and have all been fired.
+
+==========================================================================================
+CHUNK 2/3   (194 tokens, 138 words)
+==========================================================================================
+Coinbase Agents Bribed, Data of ~1% Users Leaked; $20M Extortion Attempt Fails
+
+"No passwords, private keys, or funds were exposed and Coinbase Prime accounts are untouched," Coinbase noted. What the attackers got away with are listed below -
+
+Name, address, phone, and email
+Masked Social Security (last 4 digits only)
+Masked bank‑account numbers and some bank account identifiers 
+Government ID images (e.g., driver's license, passport)
+Account data (balance snapshots and transaction history)
+Limited corporate data, including documents, training material, and communications available to support agents
+
+The crypto giant said it's taking the step of reimbursing customers who were tricked into transferring funds to the attacker due to social engineering attacks. It's exactly not clear how many customers fell for the scam, but the company told TechCrunch that less than 1% of its 9.7 million monthly customers were affected.
+
+==========================================================================================
+CHUNK 3/3   (296 tokens, 243 words)
+==========================================================================================
+Coinbase Agents Bribed, Data of ~1% Users Leaked; $20M Extortion Attempt Fails
+
+The company is also enforcing added ID checks for certain flagged accounts when carrying out large withdrawals, and that it's hardening its defenses to counter such insider threats. Lastly, Coinbase has established a $20 million reward fund for information leading to the arrest and conviction of the attackers. As mitigations, users are advised to turn on withdrawal allow‑listing to permit transfers only to addresses in their address books, enable two-factor authentication (2FA), and be cautious about imposters who try to move funds to a safe wallet. Update#
+Coinbase, in a statement shared with Bloomberg, said it began observing unusual activity from some of these customer representatives as far back as January. The threat actors are also said to have bribed enough customer service agents to achieve "effectively on-demand access to Coinbase customer information" over the past five months, a claim Coinbase has disputed. "What these attackers were doing was finding Coinbase employees and contractors based in India who were associated with our business process outsourcing or support operations, that kind of thing, and bribing them in order to obtain customer data," Coinbase Chief Security Officer Philip Martin was quoted as saying. "So there were a number of specific bribery incidents that this attack, that this threat actor is claiming credit for throughout the course of that time, but they did not have persistent access over the course of the entire period."
+
+####################################################################################################
+ARTICLE 13/25: Pen Testing for Compliance Only? It's Time to Change Your Approach
+split into 5 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/5   (362 tokens, 294 words)
+==========================================================================================
+Pen Testing for Compliance Only? It's Time to Change Your Approach
+
+Imagine this: Your organization completed its annual penetration test in January, earning high marks for security compliance. In February, your development team deployed a routine software update. By April, attackers had already exploited a vulnerability introduced in that February update, gaining access to customer data weeks before being finally detected. This situation isn't theoretical: it plays out repeatedly as organizations realize that point-in-time compliance testing can't protect against vulnerabilities introduced after the assessment. According to Verizons 2025 Data Breach Investigation Report, the exploitation of vulnerabilities rose 34% year-over-year. While compliance frameworks provide important security guidelines, companies need continuous security validation to identify and remediate new vulnerabilities before attackers can exploit them. Here's what you need to know about pen testing to meet compliance standards — and why you should adopt continuous penetration testing, if your penetration testing goals go beyond minimum standards. The current state of pen testing#
+Compliance-driven pen testing#
+If your organization is like many, you might conduct penetration tests primarily to satisfy regulatory frameworks like PCI DSS, HIPAA, SOC 2, or ISO 27001. But if your pen testing focuses on simply checking off compliance boxes — instead of developing comprehensive security postures — you're creating a dangerous disconnect between security theater and actual threat protection. Limitations#
+Compliance-focused pen testing has several limitations that leave organizations vulnerable. Surface-level security: Compliance-focused penetration testing typically addresses only compliance-relevant vulnerabilities. If your organization focuses its pen testing exclusively on meeting compliance requirements, you're just scratching the surface — and missing the chance to identify vulnerabilities that fall outside the scope of regulatory frameworks. These undetected weaknesses can give attackers an attack vector into your systems, potentially leading to devastating data breaches and operational disruptions.
+
+==========================================================================================
+CHUNK 2/5   (296 tokens, 251 words)
+==========================================================================================
+Pen Testing for Compliance Only? It's Time to Change Your Approach
+
+Static nature: Cyber attackers and the digital landscape move fast. Compliance standards? Not so much. During the months (or years) it takes for regulatory frameworks to catch up with new threats – and the gaps between compliance-focused penetration tests – malicious actors are actively developing exploits for emerging vulnerabilities. By the time these weaknesses appear on compliance checklists, attackers may have already compromised countless systems. False sense of security: Organizations often mistake compliance for security, believing a passing audit score means they're sufficiently protected. But the reality is that compliance certifications represent minimum standards that sophisticated attackers can easily bypass. Companies with successful audits may lower their guard when they should be working on strengthening their defenses beyond basic requirements. The importance of continuous pen testing#
+Embracing continuous security testing offers organizations numerous benefits. Beyond compliance: Proactive and continuous penetration testing can reveal vulnerabilities that scheduled compliance checks might miss. Skilled human testers can uncover complex security flaws in business logic, authentication systems, and data flows, while automated scans keep an eye on any changes that might happen over the development cycle. By implementing regular, comprehensive testing, your organization can stay ahead of attackers rather than merely satisfying auditors. You'll be doing much more than passing the next compliance review — you'll be developing a resilient security posture capable of withstanding more sophisticated threats. Continuous improvement: Security threats constantly change, forcing organizations to adopt ongoing testing instead of point-in-time assessments.
+
+==========================================================================================
+CHUNK 3/5   (265 tokens, 227 words)
+==========================================================================================
+Pen Testing for Compliance Only? It's Time to Change Your Approach
+
+And regular penetration tests can expose vulnerabilities before attackers can exploit them. For example, Pen Testing as a Service (PTaaS) helps organizations achieve continuous security validation without overwhelming internal teams. With PTaaS, your organization can detect new threats in time and quickly take steps to remediate them. Instead of reacting to breaches after they occur, PTaaS lets you stay a step ahead of attackers by using real-world testing to continuously strengthen your security. Key components of a pen testing strategy with security in mind#
+To implement penetration testing that truly helps safeguard your systems, focus on these key strategic components:
+Regular or continuous testing#
+To effectively address vulnerabilities in real time, your organization should regularly conduct penetration tests — including after significant system changes and before major deployments. Ultimately, your ideal pen testing frequency and depth will depend on your assets — their complexity, criticality to your business operations and external exposure. For example, if you have an online store that holds critical customer data and payment information — and is regularly updated with changes and plugins — you may want to employ continuous testing. On the other end of the spectrum, your marketing department's fall-campaign microsite may only need quarterly or annual assessments. Integration with other security measures#
+Want to maximize your organization's security effectiveness?
+
+==========================================================================================
+CHUNK 4/5   (407 tokens, 336 words)
+==========================================================================================
+Pen Testing for Compliance Only? It's Time to Change Your Approach
+
+Combine penetration testing with External Attack Surface Management (EASM). By identifying your digital footprint and testing critical applications based on the latest threat data, your team can prioritize high-risk vulnerabilities while ensuring no internet-facing assets remain unmonitored, unprotected or untested. Customization and threat-led penetration tests#
+Your organization faces unique security challenges based on your industry, technology stack, and business operations. By tailoring penetration testing, you can focus on your business's specific threat profile — testing the areas where breaches are most likely to occur based on the most active threat actors and those that would cause the most damage — rather than wasting time and resources on cookie-cutter assessments. Overcoming challenges#
+Despite the clear benefits, many organizations struggle with common penetration testing implementation challenges related to resources and culture. Resource allocation#
+Resource issues — including budget constraints and shortage of qualified security personnel — prevent many organizations from implementing adequate penetration testing programs. But PTaaS and combined discovery and testing services like Outpost24s CyberFlex service solve these challenges by providing access to certified testers through a predictable subscription model, eliminating budget spikes and the expense of maintaining specialized in-house expertise. Cultural shift#
+To move beyond compliance-driven security, your organization's leadership must champion a cultural shift prioritizing continuous testing and proactive risk management. When security becomes embedded in your organizational culture, pen testing transforms from a periodic checklist item into an ongoing process of discovering and addressing vulnerabilities before attackers can exploit them. Taking action with integrated solutions#
+For the greatest level of security, your organization must know every application in your environment and test each one thoroughly. And a combined solution like Outpost24's CyberFlex can help. Integrating EASM and PTaaS on a platform level, allows cybersecurity experts to identify all internet-facing applications, use detailed categorizations to prioritize risks, and test business-critical applications with flexible, human-led assessments. By shifting to proactive penetration testing, your organization can prevent attacks before they happen — and satisfy compliance requirements.
+
+==========================================================================================
+CHUNK 5/5   (33 tokens, 27 words)
+==========================================================================================
+Pen Testing for Compliance Only? It's Time to Change Your Approach
+
+Ready to go beyond compliance and elevate your application security? Request your CyberFlex live demo today.
+
+####################################################################################################
+ARTICLE 14/25: New Chrome Vulnerability Enables Cross-Origin Data Leak via Loader Referrer Policy
+split into 2 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/2   (305 tokens, 223 words)
+==========================================================================================
+New Chrome Vulnerability Enables Cross-Origin Data Leak via Loader Referrer Policy
+
+Google on Wednesday released updates to address four security issues in its Chrome web browser, including one for which it said there exists an exploit in the wild. The high-severity vulnerability, tracked as CVE-2025-4664 (CVSS score: 4.3), has been characterized as a case of insufficient policy enforcement in a component called Loader. "Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page," according to a description of the flaw. The tech giant credited security researcher Vsevolod Kokorin (@slonser_) with detailing the flaw in X on May 5, 2025, adding it's aware "an exploit for CVE-2025-4664 exists in the wild."
+
+"Unlike other browsers, Chrome resolves the Link header on sub-resource requests," Kokorin said in a series of posts on X earlier this month. "The issue is that the Link header can set a referrer-policy. We can specify unsafe-url and capture the full query parameters."
+The researcher went on to add that query parameters can contain sensitive data that can lead to a full account takeover and that the query parameter information can be stolen via an image from a third-party resource. It's not clear if the vulnerability was exploited in a malicious context outside of this proof-of-concept (PoC) demonstration.
+
+==========================================================================================
+CHUNK 2/2   (181 tokens, 107 words)
+==========================================================================================
+New Chrome Vulnerability Enables Cross-Origin Data Leak via Loader Referrer Policy
+
+CVE-2025-4664 is the second vulnerability after CVE-2025-2783 to have come under "active exploitation" in the wild. To safeguard against potential threats, it's advised to update their Chrome browser to versions 136.0.7103.113/.114 for Windows and Mac, and 136.0.7103.113 for Linux. Users of other Chromium-based browsers such as Microsoft Edge, Brave, Opera, and Vivaldi are also advised to apply the fixes as and when they become available. Update#
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added CVE-2025-4664 to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by June 5, 2025.
+
+####################################################################################################
+ARTICLE 15/25: 5 BCDR Essentials for Effective Ransomware Defense
+split into 9 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/9   (305 tokens, 236 words)
+==========================================================================================
+5 BCDR Essentials for Effective Ransomware Defense
+
+Ransomware has evolved into a deceptive, highly coordinated and dangerously sophisticated threat capable of crippling organizations of any size. Cybercriminals now exploit even legitimate IT tools to infiltrate networks and launch ransomware attacks. In a chilling example, Microsoft recently disclosed how threat actors misused its Quick Assist remote assistance tool to deploy the destructive Black Basta ransomware strain. And what’s worse? Innovations like Ransomware-as-a-Service (RaaS) are lowering the bar for entry, making ransomware attacks more frequent and far-reaching than ever before. According to Cybersecurity Ventures, by 2031, a new ransomware attack is expected every 2 seconds, with projected damages hitting an astronomical $275 billion annually. No organization is immune to ransomware, and building a strong recovery strategy is equally, if not even more, important than attempting to prevent all attacks in the first place. A solid business continuity and disaster recovery (BCDR) strategy can be your last and most critical line of defense when ransomware breaks through, allowing you to bounce back quickly from the attack, resume operations and avoid paying ransom. Notably, the cost of investing in BCDR is negligible compared to the devastation that prolonged downtime or data loss can cause. In this article, we’ll break down the five essential BCDR capabilities you should have in place to effectively recover from ransomware. These strategies can mean the difference between swift recovery and business failure after an attack.
+
+==========================================================================================
+CHUNK 2/9   (128 tokens, 86 words)
+==========================================================================================
+5 BCDR Essentials for Effective Ransomware Defense
+
+Let’s explore what every organization must do before it’s too late. Follow the 3-2-1 (and then some!) backup rule#
+
+The 3-2-1 backup rule has long been the gold standard: keep three copies of your data, store them on two different media and keep one copy off-site. But in the age of ransomware, that’s no longer enough. Experts now recommend the 3-2-1-1-0 strategy. The extra 1 stands for one immutable copy — a backup that can’t be changed or deleted.
+
+==========================================================================================
+CHUNK 3/9   (346 tokens, 278 words)
+==========================================================================================
+5 BCDR Essentials for Effective Ransomware Defense
+
+The 0 represents zero doubt in your ability to recover, with verified, tested recovery points. Why the upgrade? Ransomware doesn’t just target production systems anymore. It actively seeks and encrypts backups as well. That’s why isolation, immutability and verification are key. Cloud-based and air-gapped backup storage provide essential layers of protection, keeping backups out of reach from threats that even use stolen admin credentials. Having such immutable backups ensures recovery points remain untampered, no matter what. They’re your safety net when everything else is compromised. Plus, this level of data protection helps meet rising cyber insurance standards and compliance obligations. Bonus tip: Look for solutions offering a hardened Linux architecture to camouflage and isolate backups outside of the common Windows attack surface. Automate and monitor backups continuously#
+Automation is powerful, but without active monitoring, it can become your biggest blind spot. While scheduling backups and automating verification saves time, it’s just as important to ensure that those backups are actually happening and that they’re usable. Use built-in tools or custom scripting to monitor backup jobs, trigger alerts on failures and verify the integrity of your recovery points. It’s simple: either monitor continuously or risk finding out too late that your backups never had your back. Regularly testing and validating the recovery points is the only way to trust your recovery plan. Bonus tip: Choose solutions that integrate with professional services automation (PSA) ticketing systems to automatically raise alerts and tickets for any backup hiccups. Protect your backup infrastructure from ransomware and internal threats#
+Your backup infrastructure must be isolated, hardened and tightly controlled to prevent unauthorized access or tampering. You must:
+
+==========================================================================================
+CHUNK 4/9   (179 tokens, 137 words)
+==========================================================================================
+5 BCDR Essentials for Effective Ransomware Defense
+
+Lock down your backup network environment. Host your backup server in a secure local area network (LAN) segment with no inbound internet access. Allow outbound communication from the backup server only to approved vendor networks. Block all unapproved outbound traffic using strict firewall rules. Permit communication only between protected systems and the backup server. Use firewalls and port-based access control lists (ACLs) on network switches to enforce granular access control. Apply agent-level encryption so data is protected at rest, using keys generated from a secure passphrase only you control. Enforce strict access controls and authentication. Implement role-based access control (RBAC) with least-privilege roles for Tier 1 techs. Ensure multifactor authentication (MFA) for all access to the backup management console. Monitor audit logs continuously for privilege escalations or unauthorized role changes.
+
+==========================================================================================
+CHUNK 5/9   (224 tokens, 175 words)
+==========================================================================================
+5 BCDR Essentials for Effective Ransomware Defense
+
+Ensure audit logs are immutable. Review regularly for:
+
+Security-related events like failed logins, privilege escalations, deletion of backups and device removal. Administrative actions such as changes to backup schedules, changes to retention settings, new user creation and changes to user roles. Backup and backup copy (replication) success/failure rates and backup verification success/failure rates. Stay alert to serious risks. Configure automatic alerts for policy violations and high-severity security events, such as an unauthorized change to backup retention policies. Test restores regularly and include them in your DR plan#
+Backups mean nothing if you can’t restore from them quickly and completely, and that’s why regular testing is essential. Recovery drills must be scheduled and integrated into your disaster recovery (DR) plan. The goal is to build muscle memory, reveal weaknesses and confirm that your recovery plan actually works under pressure. Start by defining the recovery time objective (RTO) and the recovery point objective (RPO) for every system. These determine how fast and how recent your recoverable data needs to be.
+
+==========================================================================================
+CHUNK 6/9   (102 tokens, 73 words)
+==========================================================================================
+5 BCDR Essentials for Effective Ransomware Defense
+
+Testing against those targets helps ensure your strategy aligns with business expectations. Importantly, don’t limit testing to one type of restore. Simulate file-level recoveries, full bare-metal restores and full-scale cloud failovers. Each scenario uncovers different vulnerabilities, such as time delays, compatibility issues or infrastructure gaps. Also, recovery is more than a technical task. Involve stakeholders across departments to test communication protocols, role responsibilities and customer-facing impacts.
+
+==========================================================================================
+CHUNK 7/9   (163 tokens, 132 words)
+==========================================================================================
+5 BCDR Essentials for Effective Ransomware Defense
+
+Who talks to clients? Who triggers the internal chain of command? Everyone should know their role when every second counts. Detect threats early with backup-level visibility#
+When it comes to ransomware, speed of detection is everything. While endpoint and network tools often get the spotlight, your backup layer is also a powerful, often overlooked line of defense. Monitoring backup data for anomalies can reveal early signs of ransomware activity, giving you a critical head start before widespread damage occurs. Backup-level visibility allows you to detect telltale signs like sudden encryption, mass deletions or abnormal file modifications. For example, if a process begins overwriting file contents with random data while leaving all modified timestamps intact, that’s a major red flag. No legitimate program behaves that way.
+
+==========================================================================================
+CHUNK 8/9   (305 tokens, 244 words)
+==========================================================================================
+5 BCDR Essentials for Effective Ransomware Defense
+
+With smart detection at the backup layer, you can catch these behaviors and get alerted immediately. This capability doesn’t replace your endpoint detection and response (EDR) or antivirus (AV) solutions; it supercharges them. It speeds up triage, helps isolate compromised systems faster and reduces an attack’s overall blast radius. For maximum impact, choose backup solutions that offer real-time anomaly detection and support integration with your security information and event management (SIEM) or centralized logging systems. The faster you see the threat, the faster you can act — and that can be the difference between a minor disruption and a major disaster. Bonus tip: Train end users to recognize and report suspicious activity early#
+If BCDR is your last line of defense, your end users are the first. Cybercriminals are increasingly targeting end users today. According to Microsoft Digital Defense Report 2024, threat actors are trying to access user credentials through various methods, such as phishing, malware and brute-force/password spray attacks. Over the last year, around 7,000 password attacks were blocked per second in Entra ID alone. In fact, ransomware attacks often begin with a single click, usually via phishing emails or compromised credentials. Regular security training — especially simulated phishing exercises — helps build awareness of red flags and risky behaviors. Equip your team with the knowledge to spot ransomware warning signs, recognize unsafe data practices and respond appropriately. Encourage immediate reporting of anything that seems off.
+
+==========================================================================================
+CHUNK 9/9   (197 tokens, 151 words)
+==========================================================================================
+5 BCDR Essentials for Effective Ransomware Defense
+
+Foster a culture of enablement, not blame. When people feel safe to speak up, they’re more likely to take action. You can even take it further by launching internal programs that reward vigilance, such as a Cybersecurity Hero initiative to recognize and celebrate early reporters of potential threats. Final thoughts#
+Ransomware doesn’t have to be feared; it has to be planned for. The five BCDR capabilities we discussed above will equip you to withstand even the most advanced ransomware threats and ensure your organization can recover quickly, completely and confidently. To seamlessly implement these strategies, consider Datto BCDR, a unified platform that integrates all these capabilities. It’s built to help you stay resilient, no matter what happens. Don’t wait for a ransom note to discover that your backups weren’t enough. Explore how Datto can strengthen your ransomware resilience. Get custom Datto BCDR pricing today.
+
+####################################################################################################
+ARTICLE 16/25: Russia-Linked APT28 Exploited MDaemon Zero-Day to Hack Government Webmail Servers
+split into 4 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/4   (105 tokens, 64 words)
+==========================================================================================
+Russia-Linked APT28 Exploited MDaemon Zero-Day to Hack Government Webmail Servers
+
+A Russia-linked threat actor has been attributed to a cyber espionage operation targeting webmail servers such as Roundcube, Horde, MDaemon, and Zimbra via cross-site scripting (XSS) vulnerabilities, including a then-zero-day in MDaemon, according to new findings from ESET. The activity, which commenced in 2023, has been codenamed Operation RoundPress by the Slovak cybersecurity company.
+
+==========================================================================================
+CHUNK 2/4   (338 tokens, 234 words)
+==========================================================================================
+Russia-Linked APT28 Exploited MDaemon Zero-Day to Hack Government Webmail Servers
+
+It has been attributed with medium confidence to the Russian state-sponsored hacking group tracked as APT28, which is also referred to as BlueDelta, Fancy Bear, Fighting Ursa, Forest Blizzard, FROZENLAKE, Iron Twilight, ITG05, Pawn Storm, Sednit, Sofacy, and TA422. "The ultimate goal of this operation is to steal confidential data from specific email accounts," ESET researcher Matthieu Faou said in a report shared with The Hacker News. "Most victims are governmental entities and defense companies in Eastern Europe, although we have observed governments in Africa, Europe, and South America being targeted as well."
+This is not the first time APT28 has been tied to attacks exploiting flaws in webmail software. In June 2023, Recorded Future detailed the threat actor's abuse of multiple flaws in Roundcube (CVE-2020-12641, CVE-2020-35730, and CVE-2021-44026) to conduct reconnaissance and data gathering. Since then, other threat actors like Winter Vivern and UNC3707 (aka GreenCube) have also targeted email solutions, including Roundcube, in various campaigns over the years. Operation RoundPress' ties to APT28 stem from overlaps in the email address used to send the spear-phishing emails and similarities in the way certain servers were configured. A majority of the targets of the campaign in 2024 have been found to be Ukrainian governmental entities or defense companies in Bulgaria and Romania, some of which are producing Soviet-era weapons to be sent to Ukraine.
+
+==========================================================================================
+CHUNK 3/4   (246 tokens, 143 words)
+==========================================================================================
+Russia-Linked APT28 Exploited MDaemon Zero-Day to Hack Government Webmail Servers
+
+Other targets include government, military, and academic organizations in Greece, Cameroon, Ecuador, Serbia, and Cyprus. The attacks entail the exploitation of XSS vulnerabilities in Horde, MDaemon, and Zimbra to execute arbitrary JavaScript code in the context of the webmail window. It's worth noting that CVE-2023-43770, an XSS bug in Roundcube, was added by the U.S. Cybersecurity and Infrastructure Security Agency (CISA) to its Known Exploited Vulnerabilities (KEV) catalog in February 2024. While the attacks targeting Horde (an unspecified old flaw fixed in Horde Webmail 1.0 released in 2007), Roundcube (CVE-2023-43770), and Zimbra (CVE-2024-27443) leveraged security defects already known and patched, the MDaemon XSS vulnerability is assessed to have been used by the threat actor as a zero-day. Assigned the CVE identifier CVE-2024-11182 (CVSS score: 5.3), it was patched in version 24.5.1 last November.
+
+==========================================================================================
+CHUNK 4/4   (475 tokens, 362 words)
+==========================================================================================
+Russia-Linked APT28 Exploited MDaemon Zero-Day to Hack Government Webmail Servers
+
+"Sednit sends these XSS exploits by email," Faou said. "The exploits lead to the execution of malicious JavaScript code in the context of the webmail client web page running in a browser window. Therefore, only data accessible from the victim's account can be read and exfiltrated."
+However, for the exploit to be successful, the target must be convinced to open the email message in the vulnerable webmail portal, assuming it's able to bypass the software's spam filters and land on the user's inbox. The contents of the email themselves are innocuous, as the malicious code that triggers the XSS flaw resides within the HTML code of the email message's body and, therefore, is not visible to the user. Successful exploitation leads to the execution of an obfuscated JavaScript payload named SpyPress that comes with the ability to steal webmail credentials and harvest email messages and contact information from the victim's mailbox. The malware, despite lacking a persistence mechanism, gets reloaded every time the booby-trapped email message is opened. "In addition, we detected a few SpyPress.ROUNDCUBE payloads that have the ability to create Sieve rules," ESET said. "SpyPress.ROUNDCUBE creates a rule that will send a copy of every incoming email to an attacker-controlled email address. Sieve rules are a feature of Roundcube and therefore the rule will be executed even if the malicious script is no longer running."
+The gathered information is subsequently exfiltrated via an HTTP POST request to a hard-coded command-and-control (C2) server. Select variants of the malware have also been found to capture login history, two-factor authentication (2FA) codes, and even create an application password for MDAEMON to retain access to the mailbox even if the password or the 2FA code gets changed. "Over the past two years, webmail servers such as Roundcube and Zimbra have been a major target for several espionage groups such as Sednit, GreenCube, and Winter Vivern," Faou said. "Because many organizations don't keep their webmail servers up to date and because the vulnerabilities can be triggered remotely by sending an email message, it is very convenient for attackers to target such servers for email theft."
+
+####################################################################################################
+ARTICLE 17/25: Malicious npm Package Leverages Unicode Steganography, Google Calendar as C2 Dropper
+split into 3 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/3   (190 tokens, 126 words)
+==========================================================================================
+Malicious npm Package Leverages Unicode Steganography, Google Calendar as C2 Dropper
+
+Cybersecurity researchers have discovered a malicious package named "os-info-checker-es6" that disguises itself as an operating system information utility to stealthily drop a next-stage payload onto compromised systems. "This campaign employs clever Unicode-based steganography to hide its initial malicious code and utilizes a Google Calendar event short link as a dynamic dropper for its final payload," Veracode said in a report shared with The Hacker News. "Os-info-checker-es6" was first published in the npm registry on March 19, 2025, by a user named "kim9123." It has been downloaded 2,001 times as of writing. The same user has also uploaded another npm package called "skip-tot" that lists "os-info-checker-es6" as a dependency. The package has been downloaded 94 times.
+
+==========================================================================================
+CHUNK 2/3   (170 tokens, 115 words)
+==========================================================================================
+Malicious npm Package Leverages Unicode Steganography, Google Calendar as C2 Dropper
+
+While the initial five versions exhibited no signs of data exfiltration or malicious behavior, a subsequent iteration uploaded on May 7, 2025, has been found to include obfuscated code in the "preinstall.js" file to parse Unicode "Private Use Access" characters and extract a next-stage payload. The malicious code, for its part, is designed to contact a Google Calendar event short link ("calendar.app[.]google/<string>") with a Base64-encoded string as the title, which decodes to a remote server with the IP address "140.82.54[.]223." In other words, Google Calendar is a dead drop resolver to obfuscate the attacker-controlled infrastructure. However, no additional payloads are distributed at this point.
+
+==========================================================================================
+CHUNK 3/3   (360 tokens, 261 words)
+==========================================================================================
+Malicious npm Package Leverages Unicode Steganography, Google Calendar as C2 Dropper
+
+This either indicates that the campaign is either still a work in progress, or currently dormant. Another possibility is that it has already concluded, or that the command-and-control (C2) server is designed to respond only to specific machines that meet certain criteria. "This use of a legitimate, widely trusted service like Google Calendar as an intermediary to host the next C2 link is a clever tactic to evade detection and make blocking the initial stages of the attack more difficult," Veracode said. The application security company and Aikido, which also detailed the activity, further noted that three other packages have listed "os-info-checker-es6" as a dependency, although it's suspected that the dependent packages are part of the same campaign -
+
+vue-dev-serverr
+vue-dummyy
+vue-bit
+
+
+"The os-info-checker-es6 package represents a sophisticated and evolving threat within the npm ecosystem," Veracode said. "The attacker demonstrated a progression from apparent testing to deploying a multi-stage malware."
+The disclosure comes as software supply chain security company Socket highlighted typoquatting, Go repository caching abuse, obfuscation, multi-stage execution, slopsquatting, and abuse of legitimate services and developer tools as the six main adversarial techniques adopted by threat actors in the first half of 2025. "To counter this, defenders must focus on behavioral signals, such as unexpected postinstall scripts, file overwrites, and unauthorized outbound traffic, while validating third-party packages before use," security researchers Kirill Boychenko and Philipp Burckhardt said. "Static and dynamic analysis, version pinning, and close inspection of CI/CD logs are essential to detecting malicious dependencies before they reach production."
+
+####################################################################################################
+ARTICLE 18/25: Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit
+split into 2 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/2   (280 tokens, 184 words)
+==========================================================================================
+Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit
+
+Samsung has released software updates to address a critical security flaw in MagicINFO 9 Server that has been actively exploited in the wild. The vulnerability, tracked as CVE-2025-4632 (CVSS score: 9.8), has been described as a path traversal flaw. "Improper limitation of a pathname to a restricted directory vulnerability in Samsung MagicINFO 9 Server version before 21.1052 allows attackers to write arbitrary files as system authority," according to an advisory for the flaw. It's worth noting that CVE-2025-4632 is a patch bypass for CVE-2024-7399, another path traversal flaw in the same product that was remediated by Samsung in August 2024. CVE-2025-4632 has since been exploited in the wild shortly after the release of a proof-of-concept (PoC) by SSD Disclosure on April 30, 2025, in some instances to even deploy the Mirai botnet. While it was initially assumed that the attacks were targeting CVE-2024-7399, cybersecurity company Huntress first revealed the existence of an unpatched vulnerability last week after finding signs of exploitation even on MagicINFO 9 Server instances running the latest version (21.1050).
+
+==========================================================================================
+CHUNK 2/2   (234 tokens, 152 words)
+==========================================================================================
+Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit
+
+In a follow-up report published on May 9, Huntress revealed three separate incidents that involved the exploitation of CVE-2025-4632, with unidentified actors running an identical set of commands to download additional payloads like "srvany.exe" and "services.exe" on two hosts and executing reconnaissance commands on the third. Users of the Samsung MagicINFO 9 Server are recommended to apply the latest fixes as soon as possible to safeguard against potential threats. "We have verified that MagicINFO 9 21.1052.0 does mitigate the original issue raised in CVE-2025-4632," Jamie Levy, director of adversary tactics at Huntress, told The Hacker News. "Any machine that has versions v8 - v9 21.1050.0 will still be affected by this vulnerability. We've also discovered that upgrading from MagicINFO v8 to v9 21.1052.0 is not as straightforward since you have to first upgrade to 21.1050.0 before applying the final patch."
+
+####################################################################################################
+ARTICLE 19/25: BianLian and RansomExx Exploit SAP NetWeaver Flaw to Deploy PipeMagic Trojan
+split into 5 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/5   (158 tokens, 108 words)
+==========================================================================================
+BianLian and RansomExx Exploit SAP NetWeaver Flaw to Deploy PipeMagic Trojan
+
+At least two different cybercrime groups BianLian and RansomExx are said to have exploited a recently disclosed security flaw in SAP NetWeaver tracked as CVE-2025-31324, indicating that multiple threat actors are taking advantage of the bug. Cybersecurity firm ReliaQuest, in a new update published today, said it uncovered evidence suggesting involvement from the BianLian data extortion crew and the RansomExx ransomware family, which is traced by Microsoft under the moniker Storm-2460. BianLian is assessed to be involved in at least one incident based on infrastructure links to IP addresses previously identified as attributed to the e-crime group.
+
+==========================================================================================
+CHUNK 2/5   (294 tokens, 192 words)
+==========================================================================================
+BianLian and RansomExx Exploit SAP NetWeaver Flaw to Deploy PipeMagic Trojan
+
+"We identified a server at 184[.]174[.]96[.]74 hosting reverse proxy services initiated by the rs64.exe executable," the company said. "This server is related to another IP, 184[.]174[.]96[.]70, operated by the same hosting provider. The second IP had previously been flagged as a command-and-control (C2) server associated with BianLian, sharing identical certificates and ports."
+ReliaQuest said it also observed the deployment of a plugin-based trojan dubbed PipeMagic, which was most recently used in connection with the zero-day exploitation of a privilege escalation bug (CVE-2025-29824) in the Windows Common Log File System (CLFS) in limited attacks targeting entities in the U.S., Venezuela, Spain, and Saudi Arabia. The attacks involved the delivery of PipeMagic by means of web shells dropped following the exploitation of the SAP NetWeaver flaw. "Although the initial attempt failed, a subsequent attack involved the deployment of the Brute Ratel C2 framework using inline MSBuild task execution," ReliaQuest said. "During this activity, a dllhost.exe process was spawned, signaling exploitation of the CLFS vulnerability (CVE-2025-29824), which the group had previously exploited, with this being a new attempt to exploit it via inline assembly."
+
+==========================================================================================
+CHUNK 3/5   (365 tokens, 217 words)
+==========================================================================================
+BianLian and RansomExx Exploit SAP NetWeaver Flaw to Deploy PipeMagic Trojan
+
+The findings come a day after EclecticIQ disclosed that multiple Chinese hacking groups tracked as UNC5221, UNC5174, and CL-STA-0048 are actively exploiting CVE-2025-31324 to drop various malicious payloads. SAP security company Onapsis revealed that threat actors have also been exploiting CVE-2025-31324 alongside a deserialization flaw in the same component (CVE-2025-42999) since March 2025, adding the new patch fixes the root cause of CVE-2025-31324. "There is little practical difference between CVE-2025-31324 and CVE-2025-42999 as long as CVE-2025-31324 is available for exploitation," ReliaQuest said in a statement shared with The Hacker News. "CVE-2025-42999 indicates higher privileges would be required, however, CVE-2025-31324 affords full system access regardless. A threat actor could exploit both vulnerabilities in an authenticated and unauthenticated user in the same way. Therefore, the remediation advice is the same for both CVEs."
+Update#
+In a new analysis, OP Innovate has disclosed that it identified evidence of CVE-2025-31324 (and by extension CVE-2025-42999) being exploited by threat actors tied to the Qilin ransomware operation at least three weeks before details of the bug became public knowledge. "Weeks before CVE-2025-31324 appeared in public advisories, an attacker exploited the vulnerable Metadata Uploader endpoint within SAP NetWeaver," the Israeli company said. "The attacker uploaded several JSP-based webshells to the SAP IRJ directory."
+
+==========================================================================================
+CHUNK 4/5   (246 tokens, 144 words)
+==========================================================================================
+BianLian and RansomExx Exploit SAP NetWeaver Flaw to Deploy PipeMagic Trojan
+
+The attacker is said to have then initiated outbound communication with Cobalt Strike command-and-control (C2) infrastructure, downloaded a reverse SOCKS5 tunneling tool ("rs64c.exe") from the IP address 184[.]174[.]96[.]74. Interestingly, the same indicators of compromise have been attributed by ReliaQuest to the BianLian data extortion group. "The attacker's use of IP address 184[.]174[.]96[.]74 and the tool rs64c.exe closely matches infrastructure and tools previously associated with Qilin, a Russian-speaking ransomware-as-a-service (RaaS) group," Matan Matalon, CISO and Head of IR at OP Innovate, said. "In both incidents, the attacker successfully gained initial access and remote code execution by exploiting CVE-2025-31324. However, post-exploitation efforts failed completely in both cases."
+The findings reflect the growing interest in weaponizing high-profile vulnerabilities for financial gain, not to mention a widening of cyber intrusions exploiting the SAP NetWeaver flaw. The U.S.
+
+==========================================================================================
+CHUNK 5/5   (91 tokens, 53 words)
+==========================================================================================
+BianLian and RansomExx Exploit SAP NetWeaver Flaw to Deploy PipeMagic Trojan
+
+Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added CVE-2025-42999 to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by June 5, 2025. (The story was updated after publication to include additional details of the exploitation activity.)
+
+####################################################################################################
+ARTICLE 20/25: Xinbi Telegram Market Tied to $8.4B in Crypto Crime, Romance Scams, North Korea Laundering
+split into 3 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/3   (465 tokens, 342 words)
+==========================================================================================
+Xinbi Telegram Market Tied to $8.4B in Crypto Crime, Romance Scams, North Korea Laundering
+
+A Chinese-language, Telegram-based marketplace called Xinbi Guarantee has facilitated no less than $8.4 billion in transactions since 2022, making it the second major black market to be exposed after HuiOne Guarantee. According to a report published by blockchain analytics firm Elliptic, merchants on the marketplace have been found to peddle technology, personal data, and money laundering services. "The USDT stablecoin is the primary payment method, with the market having received $8.4 billion in transactions to date," the company said. "Some transactions can be linked to funds stolen by North Korea."
+Xinbi, like HuiOne, has offered its services to scammers in Southeast Asia, including those responsible for so-called romance baiting schemes (formerly referred to as "pig butchering"), which has become one of the most lucrative forms of cybercrime in recent years. What's notable about these criminal bazaars is that they are entirely run on Telegram, becoming a one-stop shop to avail a wide range of services, ranging from technical tools to money laundering services to pull off online fraud at an industrial scale. Xinbi Guarantee, per Elliptic, has 233,000 users, with merchants broken down to broad categories related to money laundering, Starlink satellite internet equipment, fake IDs, and databases of stolen personal information used to target potential victims. Other vendors go a step further by offering to stalk and intimidate any chosen target within China, provide women to act as egg donors or surrogates, or even engage in sex trafficking, indicating that the illicit services go beyond cyber scams. "The marketplace is seeing strong growth - with Q4 2024 the first quarter to see inflows of more than $1 billion," Elliptic said. "Transaction volumes on Chinese-language Guarantee marketplaces such as Huione and Xinbi Guarantee dwarf those of the first generation of Tor-based darknet marketplaces."
+But perhaps the most interesting aspect of Xinbi is that it claims to be an "investment and capital-guarantee group company" registered in the U.S. state of Colorado by someone named Mohd Shahrulnizam Bin Abd Manap.
+
+==========================================================================================
+CHUNK 2/3   (176 tokens, 128 words)
+==========================================================================================
+Xinbi Telegram Market Tied to $8.4B in Crypto Crime, Romance Scams, North Korea Laundering
+
+According to the state corporate register, the company was incorporated in August 2022. It has since been marked as "Delinquent" for failing to file its periodic reports. Both Xinbi and HuiOne Guarantee have also been used to launder cryptocurrency assets stolen by North Korea following the hack of the Indian cryptocurrency exchange WazirX last July, with $220,000 in USDT sent to the wallet addresses controlled by the former on November 12, 2024. In response to the findings, Elliptic said Telegram has shut down thousands of channels belonging to the two services, effectively disrupting the two largest marketplaces that have engaged in over $35 billion in USDT transactions. The development comes weeks after the U.S.
+
+==========================================================================================
+CHUNK 3/3   (508 tokens, 375 words)
+==========================================================================================
+Xinbi Telegram Market Tied to $8.4B in Crypto Crime, Romance Scams, North Korea Laundering
+
+Department of the Treasury's Financial Crimes Enforcement Network (FinCEN) designated Cambodia-based HuiOne Group as a "primary money laundering concern" in a bid to limit its access to the U.S. financial system. "These platforms also provide a window onto a China-based underground banking system, based around stablecoins and other digital payments, which is being leveraged for money laundering on a significant scale," Elliptic said. Update#
+HuiOne/Haowang Guarantee, in a message posted on its website on May 13, said it's ceasing its operations since "all our NFTs, channels and groups were blocked by Telegram." The development was first reported by WIRED. "All business in the public group is provided by third-party merchants, which has nothing to do with Haowang's guarantee," the company claimed. "We only provide guarantee services. We only conduct business on telegram, and telegram has long been blocked by mainland China. Mainland users cannot use telegram, so our default customers are non-mainland Chinese users."
+
+Elliptic, in a follow-up post, noted that guarantee marketplaces act as an intermediary between merchants and customers, with the administrator controlling access and operating anti-fraud mechanisms such as merchant deposits and escrow services. The company further said that Telegram has been taking action against the HuiOne Guarantee and Xinbi Guarantee, deleting the entire channels and banning the associated usernames. This action, equivalent to a domain seizure, meant that the administrators could no longer use it to direct users to new channels, making it far more difficult to relaunch. HuiOne Guarantee has since urged its merchants and other users to migrate to another marketplace named Tudou Guarantee, which has seen a 30% increase in user numbers. Tom Robinson, co-founder and chief scientist at Elliptic, told The Hacker News that "there are already signs that Xinbi is trying to relaunch" under the name Xinbi 2.0. "The closure of Xinbi and Huione illustrate that centralised services such as Telegram are unlikely to ever be safe havens for criminal marketplaces in the long term, and this may spur the development of decentralized alternatives," Elliptic added. "These would provide censorship-resistant communications methods, alongside the censorship-resistant payments made possible by cryptocurrencies."
+(The story was updated after publication to include additional insights from Elliptic.)
+
+####################################################################################################
+ARTICLE 21/25: CTM360 Identifies Surge in Phishing Attacks Targeting Meta Business Users
+split into 4 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/4   (101 tokens, 77 words)
+==========================================================================================
+CTM360 Identifies Surge in Phishing Attacks Targeting Meta Business Users
+
+A new global phishing threat called "Meta Mirage" has been uncovered, targeting businesses using Meta's Business Suite. This campaign specifically aims at hijacking high-value accounts, including those managing advertising and official brand pages. Cybersecurity researchers at CTM360 revealed that attackers behind Meta Mirage impersonate official Meta communications, tricking users into handing over sensitive details like passwords and security codes (OTP). The scale of this operation is alarming.
+
+==========================================================================================
+CHUNK 2/4   (321 tokens, 248 words)
+==========================================================================================
+CTM360 Identifies Surge in Phishing Attacks Targeting Meta Business Users
+
+Researchers have already identified over 14,000 malicious URLs, a concerning majority of which—nearly 78%—were not blocked by browsers at the time the report was published. Cybercriminals cleverly hosted fake pages leveraging trusted cloud platforms like GitHub, Firebase, and Vercel, making it harder to spot the scams. This method aligns closely with recent findings from Microsoft, which highlighted similar abuse of cloud hosting services to compromise Kubernetes applications, emphasizing how attackers frequently leverage trusted platforms to evade detection. The attackers deploy fake alerts about policy violations, account suspensions, or urgent verification notices. These messages, sent via email and direct messages, look convincing because they mimic official communications from Meta, often appearing urgent and authoritative. This tactic mirrors techniques observed in the recent Google Sites phishing campaign, which used authentic-looking Google-hosted pages to deceive users. Two main methods are being used:
+
+Credential Theft: Victims enter passwords and OTPs into realistic-looking fake websites. The attackers deliberately trigger fake error messages, causing users to re-enter their details, ensuring accurate and usable stolen information. Cookie Theft: Scammers also steal browser cookies, allowing them continued access to compromised accounts even without passwords. These compromised accounts don't just affect individual businesses—they're often exploited to run malicious advertising campaigns, further amplifying damage, similar to tactics observed in the PlayPraetor malware campaign that hijacked social media accounts for fraudulent ad distribution. CTM360's report also outlines a structured and calculated approach used by the attackers to maximize effectiveness.
+
+==========================================================================================
+CHUNK 3/4   (109 tokens, 86 words)
+==========================================================================================
+CTM360 Identifies Surge in Phishing Attacks Targeting Meta Business Users
+
+Victims are initially contacted with mild, non-alarming notifications that progressively escalate in urgency and severity. Initial notices might mention generic policy violations, while subsequent messages warn of immediate suspensions or permanent deletion of accounts. This incremental escalation induces anxiety and urgency, driving users to act quickly without thoroughly verifying the authenticity of these messages. To protect against this threat, CTM360 recommends:
+
+Only use official devices to manage business social media accounts. Use separate business-only email addresses.
+
+==========================================================================================
+CHUNK 4/4   (64 tokens, 48 words)
+==========================================================================================
+CTM360 Identifies Surge in Phishing Attacks Targeting Meta Business Users
+
+Enable Two-Factor Authentication (2FA). Regularly review account security settings and active sessions. Train staff to recognize and report suspicious messages. This widespread phishing campaign underscores the importance of vigilance and proactive security measures to protect valuable online assets.
+
+####################################################################################################
+ARTICLE 22/25: Earth Ammit Breached Drone Supply Chains via ERP in VENOM, TIDRONE Campaigns
+split into 4 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/4   (292 tokens, 212 words)
+==========================================================================================
+Earth Ammit Breached Drone Supply Chains via ERP in VENOM, TIDRONE Campaigns
+
+A cyber espionage group known as Earth Ammit has been linked to two related but distinct campaigns from 2023 to 2024 targeting various entities in Taiwan and South Korea, including military, satellite, heavy industry, media, technology, software services, and healthcare sectors. Cybersecurity firm Trend Micro said the first wave, codenamed VENOM, mainly targeted software service providers, while the second wave, referred to as TIDRONE, singled out the military industry. Earth Ammit is assessed to be connected to Chinese-speaking nation-state groups. "In its VENOM campaign, Earth Ammit's approach involved penetrating the upstream segment of the drone supply chain," security researchers Pierre Lee, Vickie Su, and Philip Chen said. "Earth Ammit's long-term goal is to compromise trusted networks via supply chain attacks, allowing them to target high-value entities downstream and amplify their reach."
+The TIDRONE campaign was first exposed by Trend Micro last year, detailing the cluster's attacks on drone manufacturers in Taiwan to deliver custom malware such as CXCLNT and CLNTEND. A subsequent report from AhnLab in December 2024 detailed the use of CLNTEND against South Korean companies. The attacks are noteworthy for targeting the drone supply chain, leveraging enterprise resource planning (ERP) software to breach the military and satellite industries.
+
+==========================================================================================
+CHUNK 2/4   (506 tokens, 369 words)
+==========================================================================================
+Earth Ammit Breached Drone Supply Chains via ERP in VENOM, TIDRONE Campaigns
+
+Select incidents have also involved the use of trusted communication channels – such as remote monitoring or IT management tools – to distribute the malicious payloads. The VENOM campaign, per Trend Micro, is characterized by the exploitation of web server vulnerabilities to drop web shells, and then weaponize the access to install remote access tools (RAT) for persistent access to the compromised hosts. The use of open-source tools like REVSOCK and Sliver in the attacks is seen as a deliberate attempt to cloud attribution efforts. The only bespoke malware observed in the VENOM campaign is VENFRPC, a customized version of FRPC, which, in itself, is a modified version of the open-source fast reverse proxy (FRP) tool. The end goal of the campaign is to harvest credentials from the breached environments and use the stolen information as a stepping stone to inform the next phase, TIDRONE, aimed at downstream customers. The TIDRONE campaign is spread over three stages - 
+
+Initial access, which mirrors the VENOM campaign by targeting service providers to inject malicious code and distribute malware to downstream customers
+Command-and-control, which makes use of a DLL loader to drop CXCLNT and CLNTEND backdoors
+Post-exploitation, which involves setting up persistence, escalating privileges, disabling antivirus software using TrueSightKiller, and installing a screenshot-capturing tool dubbed SCREENCAP using CLNTEND
+
+"CXCLNT's core functionality is dependent on a modular plugin system. Upon execution, it retrieves additional plugins from its C&C server to extend its capabilities dynamically," Trend Micro said. "This architecture not only obscures the backdoor's true purpose during static analysis but also enables flexible, on-demand operations based on the attacker's objectives."
+
+CXCLNT is said to have been put to use in attacks since at least 2022. CLNTEND, first detected in 2024, is its successor and comes with an expanded set of features to sidestep detection. The connection between VENOM and TIDRONE stems from shared victims and service providers and overlapping command-and-control infrastructure, indicating that a common threat actor is behind both campaigns. Trend Micro said the hacking crew's tactics, techniques, and procedures (TTPs) resemble those used by another Chinese nation-state hacking group tracked as Dalbit (aka m00nlight), suggestive of a shared toolkit.
+
+==========================================================================================
+CHUNK 3/4   (186 tokens, 145 words)
+==========================================================================================
+Earth Ammit Breached Drone Supply Chains via ERP in VENOM, TIDRONE Campaigns
+
+"This progression underscores a deliberate strategy: start broad with low-cost, low-risk tools to establish access, then pivot to tailored capabilities for more targeted and impactful intrusions," the researchers said. "Understanding this operational pattern will be critical in predicting and defending against future threats from this actor."
+Japan and Taiwan Targeted by Swan Vector#
+The disclosure comes as Seqrite Labs disclosed details of a cyber espionage campaign dubbed Swan Vector that has targeted educational institutes and the mechanical engineering industry in Taiwan and Japan with fake resume lures distributed via spear-phishing emails to deliver a DLL implant called Pterois, which is then used to download the Cobalt Strike shellcode. Pterois is also engineered to download from Google Drive another malware referred to as Isurus that's then responsible for executing the Cobalt Strike post-exploitation framework.
+
+==========================================================================================
+CHUNK 4/4   (142 tokens, 103 words)
+==========================================================================================
+Earth Ammit Breached Drone Supply Chains via ERP in VENOM, TIDRONE Campaigns
+
+The campaign has been attributed to an East Asian threat actor with medium confidence. "The threat actor is based out of East Asia and has been active since December 2024 targeting multiple hiring-based entities across Taiwan and Japan," security researcher Subhajeet Singha said. "The threat actor relies on custom development of implants comprising of downloader, shellcode-loaders, and Cobalt Strike as their key tools with heavily relying on multiple evasion techniques like API hashing, direct-syscalls, function callback, DLL side-loading, and self-deletion to avoid leaving any sort of traces on the target machine."
+
+####################################################################################################
+ARTICLE 23/25: Learning How to Hack: Why Offensive Security Training Benefits Your Entire Security Team
+split into 7 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/7   (101 tokens, 81 words)
+==========================================================================================
+Learning How to Hack: Why Offensive Security Training Benefits Your Entire Security Team
+
+Organizations across industries are experiencing significant escalations in cyberattacks, particularly targeting critical infrastructure providers and cloud-based enterprises. Verizon's recently released 2025 Data Breach Investigations Report found an 18% YoY increase in confirmed breaches, with the exploitation of vulnerabilities as an initial access step growing by 34%. As attacks rise in volume and impact, many organizations turn to security tools and compliance standards as their first line of defense.
+
+==========================================================================================
+CHUNK 2/7   (267 tokens, 218 words)
+==========================================================================================
+Learning How to Hack: Why Offensive Security Training Benefits Your Entire Security Team
+
+While both are important and necessary components to mitigating cyber risk, they alone are not a silver bullet solution. Effective security requires people, process, and technology, but people must serve as the primary drivers. Your tools and checklists are only as strong as the practitioners implementing them at scale. This heightens the importance of investing in offensive operations training across every role in the security function. Too often, offensive operations are considered the singular domain of red teams and penetration testers. That narrow view limits its value. Ethical hacking, penetration testing, and other offensive skills provide critical insights that benefit numerous roles on a security team. It equips practitioners with a deeper understanding of how threat actors think and operate—foundational knowledge that directly strengthens an organization's collective security posture. CISOs that prioritize investments in this form of immersive, high-impact training can upskill their workforce and create more agile teams prepared to adapt in the face of evolving threats. For an inside look, here's how learning how to hack benefits four non-offensive security roles. New Practitioners: Grasping the Threat Landscape#
+The cybersecurity workforce is evolving, unlike any industry. Efforts to offset global staffing shortages have ushered millions of new practitioners into the field in recent years.
+
+==========================================================================================
+CHUNK 3/7   (333 tokens, 265 words)
+==========================================================================================
+Learning How to Hack: Why Offensive Security Training Benefits Your Entire Security Team
+
+While this has helped to increase headcount, skill development is still lagging. Our SANS GIAC 2025 Cyber Workforce Research Report found that 52% of security leaders indicate their primary challenge is not the number of available professionals, but the lack of individuals with the right skills. New practitioners, especially those from conventional IT roles and non-security backgrounds, benefit immensely from exposure to offensive training. Reading about attacker tactics, techniques, and procedures (TTPs) in reports or courseware is valuable, but it doesn't compare to executing them in a scenario-based simulation. By actively replicating common attack paths like exploiting a misconfigured web server or bypassing access controls, practitioners begin to understand how threat actors capitalize on control gaps. This experience cultivates a more intuitive grasp of risk, teaching newcomers to approach security problems from a tactical perspective. Understanding attacker methodology also encourages better prioritization. It becomes easier to identify which vulnerabilities are most likely to be exploited and which alerts truly indicate malicious activity. Exposure to attacker tooling, from open-source frameworks to commercial payloads, gives practitioners a more grounded view of what the real-world threat landscape looks like. This knowledge accelerates their readiness to contribute meaningfully to detection engineering, triage, remediation, and various other efforts. Incident Handlers: Staying Two Steps Ahead #
+The integration of generative AI into TTPs has made the common threat actor increasingly capable of causing irremediable harm with a single breach. This means incident response demands speed, clarity, and precision now more than ever—the margin for error is razor thin.
+
+==========================================================================================
+CHUNK 4/7   (160 tokens, 132 words)
+==========================================================================================
+Learning How to Hack: Why Offensive Security Training Benefits Your Entire Security Team
+
+While tools and automation assist in detection, practitioners must be positioned to maximize operational efficiency in complex security environments. In turn, incident handlers who understand how adversaries operate are better equipped to move beyond simple playbooks and respond with intent. Offensive training sharpens this instinct. Practicing privilege escalation, persistence techniques, or lateral movement in simulated environments equips handlers to recognize attacker objectives and anticipate next steps, even before alerts are triggered. Attackers often follow repeatable workflows. Once you've performed these techniques yourself—such as abusing misconfigured Active Directory permissions or exploiting token impersonation—you become more attuned to subtle indicators of compromise that detection tools may overlook. Moreover, a deeper knowledge of adversary behavior supports faster root cause analysis and containment.
+
+==========================================================================================
+CHUNK 5/7   (400 tokens, 333 words)
+==========================================================================================
+Learning How to Hack: Why Offensive Security Training Benefits Your Entire Security Team
+
+Knowing the constraints and habits of threat actors allows response teams to hunt proactively, isolate affected systems more accurately, and recommend remediations that address root weaknesses. Forensic Analysts: Contextualizing Digital Artifacts#
+Digital forensics depends on the ability to reconstruct events using logs, memory dumps, file systems, and other artifacts. While forensic tools provide visibility, their outputs often lack clear meaning without practical context. Analysts who have studied and executed offensive techniques are more likely to recognize the operational patterns behind technical data. That insight could mean the difference between a basic report and one that truly reflects attacker activity. When an analyst have created malicious payloads or evaded logging mechanisms in a training environment, they can better decipher the nuances of what a tool is flagging. This aids in recognizing forged timestamps, tampered registry keys, or anomalous process execution sequences. Analysts are then able to formulate stronger hypotheses and trace lateral movement with greater precision. Security Managers: Validating Strategy with Adversary Insight#
+Security managers are often tasked with aligning cyber defenses to organizational priorities and evolving business risks. While they may not be writing detection rules or responding to incidents directly, their decisions have a lasting impact on risk posture and program maturity. Managers who have participated in the right ethical hacking programs gain strategic clarity that is difficult to acquire otherwise. They know what high-quality penetration testing looks like, how real adversaries exploit systemic weaknesses, and where their teams may have blind spots. That perspective helps managers avoid overreliance on toolsets or compliance frameworks that provide a false sense of assurance. When you understand how adversaries chain together low-severity vulnerabilities, bypass weak configurations, or exploit human behavior, you are better positioned to ask the right questions of vendors and internal teams. It also allows you to define more meaningful red team objectives, assess ROI from testing efforts, and ensure remediation efforts focus on exploitable gaps, not just policy violations.
+
+==========================================================================================
+CHUNK 6/7   (133 tokens, 90 words)
+==========================================================================================
+Learning How to Hack: Why Offensive Security Training Benefits Your Entire Security Team
+
+Ready to sharpen your edge? Join me at two upcoming live training events, SANS San Antonio and SANS Offensive Operations East, for our SEC560: Enterprise Penetration Testing course and turn attacker insights into strategic advantage. Elevate your team's capability where it counts—on the front lines. Register for SANS Operations East (Jun 8-14, 2025) here. Register for SANS San Antonio (Aug 4-9, 2025) here. Note: This article was expertly written and contributed by Jon Gorenflo, SANS Principal Instructor.
+
+==========================================================================================
+CHUNK 7/7   (24 tokens, 21 words)
+==========================================================================================
+Learning How to Hack: Why Offensive Security Training Benefits Your Entire Security Team
+
+Learn more about this background and courses here.
+
+####################################################################################################
+ARTICLE 24/25: Horabot Malware Targets 6 Latin American Nations Using Invoice-Themed Phishing Emails
+split into 3 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/3   (348 tokens, 269 words)
+==========================================================================================
+Horabot Malware Targets 6 Latin American Nations Using Invoice-Themed Phishing Emails
+
+Cybersecurity researchers have discovered a new phishing campaign that's being used to distribute malware called Horabot targeting Windows users in Latin American countries like Mexico, Guatemala, Colombia, Peru, Chile, and Argentina. The campaign is "using crafted emails that impersonate invoices or financial documents to trick victims into opening malicious attachments and can steal email credentials, harvest contact lists, and install banking trojans," Fortinet FortiGuard Labs researcher Cara Lin said. The activity, observed by the network security company in April 2025, has primarily singled out Spanish-speaking users. The attacks have also been found to send phishing messages from victims' mailboxes using Outlook COM automation, effectively propagating the malware laterally within corporate or personal networks. In addition, the threat actors behind the campaign execute various VBScript, AutoIt, and PowerShell scripts to conduct system reconnaissance, steal credentials, and drop additional payloads. Horabot was first documented by Cisco Talos in June 2023 as targeting Spanish-speaking users in Latin America since at least November 2020. It's assessed that the attacks are the work of a threat actor from Brazil. Then last year, Trustwave SpiderLabs revealed details of another phishing campaign targeting the same region with malicious payloads which it said exhibits similarities with that of Horabot malware. The latest set of attacks starts with a phishing email that employs invoice-themed lures to entice users into opening a ZIP archive containing a PDF document. However, in reality, the attached ZIP file contains a malicious HTML file with Base64-encoded HTML data that's designed to reach out to a remote server and download the next-stage payload.
+
+==========================================================================================
+CHUNK 2/3   (205 tokens, 160 words)
+==========================================================================================
+Horabot Malware Targets 6 Latin American Nations Using Invoice-Themed Phishing Emails
+
+The payload is another ZIP archive that contains an HTML Application (HTA) file, which is responsible for loading a script hosted on a remote server. The script then injects an external Visual Basic Script (VBScript) that performs a series of checks that cause it to terminate if Avast antivirus is installed or it's running in a virtual environment. The VBScript proceeds to collect basic system information, exfiltrate it to a remote server, and retrieves additional payloads, including an AutoIt script that unleashes the banking trojan by means of a malicious DLL and a PowerShell script that's tasked with spreading the phishing emails after building a list of target email addresses by scanning contact data within Outlook. "The malware then proceeds to steal browser-related data from a range of targeted web browsers, including Brave, Yandex, Epic Privacy Browser, Comodo Dragon, Cent Browser, Opera, Microsoft Edge, and Google Chrome," Lin said.
+
+==========================================================================================
+CHUNK 3/3   (48 tokens, 33 words)
+==========================================================================================
+Horabot Malware Targets 6 Latin American Nations Using Invoice-Themed Phishing Emails
+
+"In addition to data theft, Horabot monitors the victim's behavior and injects fake pop-up windows designed to capture sensitive user login credentials."
+
+####################################################################################################
+ARTICLE 25/25: Microsoft Fixes 78 Flaws, 5 Zero-Days Exploited; CVSS 10 Bug Impacts Azure DevOps Server
+split into 6 chunks
+####################################################################################################
+
+==========================================================================================
+CHUNK 1/6   (336 tokens, 211 words)
+==========================================================================================
+Microsoft Fixes 78 Flaws, 5 Zero-Days Exploited; CVSS 10 Bug Impacts Azure DevOps Server
+
+Microsoft on Tuesday shipped fixes to address a total of 78 security flaws across its software lineup, including a set of five zero-days that have come under active exploitation in the wild. Of the 78 flaws resolved by the tech giant, 11 are rated Critical, 66 are rated Important, and one is rated Low in severity. Twenty-eight of these vulnerabilities lead to remote code execution, 21 of them are privilege escalation bugs, and 16 others are classified as information disclosure flaws. The updates are in addition to eight more security defects patched by the company in its Chromium-based Edge browser since the release of last month's Patch Tuesday update. The five vulnerabilities that have come under active exploitation in the wild are listed below -
+
+CVE-2025-30397 (CVSS score: 7.5) - Scripting Engine Memory Corruption Vulnerability
+CVE-2025-30400 (CVSS score: 7.8) - Microsoft Desktop Window Manager (DWM) Core Library Elevation of Privilege Vulnerability
+CVE-2025-32701 (CVSS score: 7.8) - Windows Common Log File System (CLFS) Driver Elevation of Privilege Vulnerability
+CVE-2025-32706 (CVSS score: 7.8) - Windows Common Log File System Driver Elevation of Privilege Vulnerability 
+CVE-2025-32709 (CVSS score: 7.8) - Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+
+==========================================================================================
+CHUNK 2/6   (397 tokens, 262 words)
+==========================================================================================
+Microsoft Fixes 78 Flaws, 5 Zero-Days Exploited; CVSS 10 Bug Impacts Azure DevOps Server
+
+While the first three flaws have been credited to Microsoft's own threat intelligence team, Benoit Sevens of Google Threat Intelligence Group and the CrowdStrike Advanced Research Team have been acknowledged for the discovery of CVE-2025-32706. An anonymous researcher has been credited with reporting CVE-2025-32709. "Another zero-day vulnerability has been identified in the Microsoft Scripting Engine, a key component used by Internet Explorer and Internet Explorer mode in Microsoft Edge," Alex Vovk, CEO and co-founder of Action1, said about CVE-2025-30397. "Attackers can exploit the flaw via a malicious web page or script that causes the scripting engine to misinterpret object types, resulting in memory corruption and arbitrary code execution in the context of the current user. If the user has administrative privileges, attackers could gain full system control – enabling data theft, malware installation, and lateral movement across networks."
+CVE-2025-30400 is the third privilege escalation flaw in DWM Core Library to be weaponized in the wild since 2023. In May 2024, Microsoft issued patches for CVE-2024-30051, which Kaspersky said was used in attacks distributing QakBot (aka Qwaking Mantis) malware. "Since 2022, Patch Tuesday has addressed 26 elevation of privilege vulnerabilities in DWM," Satnam Narang, senior staff research engineer at Tenable, said in a statement shared with The Hacker News. "In fact, the April 2025 release included fixes for five DWM Core Library elevation of privilege vulnerabilities. Prior to CVE-2025-30400, only two DWM elevation of privilege bugs were exploited as zero days – CVE-2024-30051 in 2024 and CVE-2023-36033 in 2023."
+
+==========================================================================================
+CHUNK 3/6   (240 tokens, 149 words)
+==========================================================================================
+Microsoft Fixes 78 Flaws, 5 Zero-Days Exploited; CVSS 10 Bug Impacts Azure DevOps Server
+
+CVE-2025-32701 and CVE-2025-32706 are the seventh and eighth privilege escalation flaws to be discovered in the CLFS component and have been exploited in real-world attacks since 2022. Last month, Microsoft revealed that CVE-2025-29824 was exploited in limited attacks to target companies in the U.S., Venezuela, Spain, and Saudi Arabia. CVE-2025-29824 is also said to have been exploited as a zero-day by threat actors linked to the Play ransomware family as part of an attack targeting an unnamed organization in the U.S., Broadcom-owned Symantec revealed earlier this month. CVE-2025-32709, likewise, is the third privilege escalation flaw in the Ancillary Function Driver for WinSock component to have come under abuse within a span of a year, after CVE-2024-38193 and CVE-2025-21418. It's worth noting that the exploitation of CVE-2024-38193 has been attributed to the North Korea-linked Lazarus Group.
+
+==========================================================================================
+CHUNK 4/6   (218 tokens, 145 words)
+==========================================================================================
+Microsoft Fixes 78 Flaws, 5 Zero-Days Exploited; CVSS 10 Bug Impacts Azure DevOps Server
+
+The development has prompted the U.S. Cybersecurity and Infrastructure Security Agency (CISA) to add all five vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by June 3, 2025. Microsoft's Patch Tuesday update also addresses a privilege escalation bug in Microsoft Defender for Endpoint for Linux (CVE-2025-26684, CVSS score: 6.7) that could permit an authorized attacker to elevate privileges locally. Stratascale researcher Rich Mirch, who is one of the two researchers, acknowledged for reporting the vulnerability, said the issue is rooted in a Python helper script that includes a function ("grab_java_version()") to determine the Java Runtime Environment (JRE) version. "The function determines the location of the Java binary on disk by checking the /proc/<PID>/exe symbolic link and then executes the java -version command," Mirch explained.
+
+==========================================================================================
+CHUNK 5/6   (237 tokens, 170 words)
+==========================================================================================
+Microsoft Fixes 78 Flaws, 5 Zero-Days Exploited; CVSS 10 Bug Impacts Azure DevOps Server
+
+"The problem is the Java binary could be running from an untrusted location. A malicious local unprivileged user can create a process with the name java or javaw, which will eventually be executed with root privileges to determine the version of the JRE."
+
+Another notable flaw is a spoofing vulnerability affecting Microsoft Defender for Identity (CVE-2025-26685, CVSS score: 6.5) that allows an attacker with LAN access to perform spoofing over an adjacent network. "The lateral movement path detection feature can itself potentially be exploited by an adversary to obtain an NTLM hash," Adam Barnett, lead software engineer at Rapid7, said in a statement. "The compromised credentials in this case would be those of the Directory Services account, and exploitation relies on achieving fallback from Kerberos to NTLM."
+The vulnerability with the maximum-severity is CVE-2025-29813 (CVSS score: 10.0), a privilege escalation flaw in Azure DevOps Server that allows an unauthorized attacker to elevate privileges over a network.
+
+==========================================================================================
+CHUNK 6/6   (282 tokens, 158 words)
+==========================================================================================
+Microsoft Fixes 78 Flaws, 5 Zero-Days Exploited; CVSS 10 Bug Impacts Azure DevOps Server
+
+Microsoft said the shortcoming has been already deployed in the cloud and there is no action required on the part of customers. Software Patches from Other Vendors#
+In addition to Microsoft, security updates have also been released by other vendors over the past few weeks to rectify several vulnerabilities, including —
+
+Adobe
+Amazon Web Services
+AMD
+Apple
+Arm
+ASUS
+Bosch
+Broadcom (including VMware)
+Canon
+Cisco
+Citrix
+CODESYS
+Dell
+Drupal
+F5
+Fortinet
+Fortra
+GitLab
+Google Android and Pixel
+Google Chrome
+Google Cloud
+Google Wear OS
+Hitachi Energy
+HP
+HP Enterprise (including Aruba Networking)
+IBM
+Intel
+Ivanti
+Juniper Networks
+Lenovo
+Linux distributions Amazon Linux, Debian, Oracle Linux, Red Hat, Rocky Linux, SUSE, and Ubuntu
+MediaTek
+Mitel
+Mitsubishi Electric
+Moxa
+Mozilla Firefox, Firefox ESR, and Thunderbird
+NVIDIA
+Palo Alto Networks
+Qualcomm
+Samsung
+SAP
+Schneider Electric
+Siemens
+SonicWall
+Splunk
+Spring Framework
+TP-Link
+Trend Micro
+Veritas
+Zoom, and
+Zyxel
+
