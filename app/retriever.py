@@ -89,7 +89,7 @@ def process_user_query(query):
     openai_apikey = os.getenv("OPENAI_APIKEY")
     client = openai.OpenAI(api_key=openai_apikey)
     response = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-4.1-mini",
         messages=[
             {"role": "system", "content": QUERY_FILTER_PROMPT},
             {"role": "user", "content": query},
@@ -100,7 +100,9 @@ def process_user_query(query):
 
     print(f"printed processed prompt: {answer}")
 
-    vectorized_request = embedding_openai(query)
+    # Embed the cleaned keywords (filler stripped), not the raw user sentence,
+    # for a tighter retrieval vector.
+    vectorized_request = embedding_openai(answer)
     if vectorized_request:
         return search_pinecone(client, vectorized_request, query)
     else:
@@ -122,7 +124,7 @@ def search_pinecone(client, vectorized_request, query):
     response = dense_index.query(  # type: ignore
         namespace="sosomuzika",
         vector=vectorized_request,
-        top_k=2,
+        top_k=6,  # chunks are small; pull several so the LLM has enough context
         include_metadata=True,
         include_values=False,
     )
@@ -132,22 +134,49 @@ def search_pinecone(client, vectorized_request, query):
     return create_response(client, response.matches, query)  # type: ignore
 
 
+def _chunk_index(value):
+    """Pinecone stores numeric metadata as float; coerce safely for sorting."""
+    try:
+        return int(float(value))
+    except (TypeError, ValueError):
+        return 0
+
+
 def create_response(client, pinecone_response, query):
-    parsed_response = f"""[User's question]
-Question: {query}
+    # The chunked ingest (pinecone_sync.py) stores the readable text under
+    # "chunk_text"; the legacy whole-article ingest (app/main.py) used "summary".
+    # Read chunk_text first, fall back to summary, so both kinds of vector work.
+    # Group the retrieved chunks back by their source article so the LLM sees
+    # coherent context per source instead of scattered fragments.
+    articles = {}
+    order = []
+    for match in pinecone_response:
+        md = match.metadata
+        link = md.get("articleLink", "")
+        if link not in articles:
+            articles[link] = {
+                "title": md.get("articleTitle", ""),
+                "link": link,
+                "chunks": [],
+            }
+            order.append(link)
+        text = md.get("chunk_text", md.get("summary", ""))
+        articles[link]["chunks"].append((_chunk_index(md.get("chunk_index")), text))
 
-[Article 1]
-Title: {pinecone_response[0].metadata["articleTitle"]}
-Source: {pinecone_response[0].metadata["articleLink"]}
-Content: {pinecone_response[0].metadata["summary"]}
+    blocks = []
+    for n, link in enumerate(order, start=1):
+        art = articles[link]
+        # restore original reading order within the article
+        ordered = sorted(art["chunks"], key=lambda c: c[0])
+        content = "\n\n".join(text for _, text in ordered)
+        blocks.append(
+            f"[Article {n}]\nTitle: {art['title']}\nSource: {art['link']}\nContent: {content}"
+        )
 
-[Article 2]
-Title: {pinecone_response[1].metadata["articleTitle"]}
-Source: {pinecone_response[1].metadata["articleLink"]}
-Content: {pinecone_response[1].metadata["summary"]}"""
+    parsed_response = f"[User's question]\nQuestion: {query}\n\n" + "\n\n".join(blocks)
 
     response = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-4.1-mini",
         messages=[
             {"role": "system", "content": RETRIEVER_SYSTEM_PROMPT},
             {"role": "user", "content": parsed_response},
