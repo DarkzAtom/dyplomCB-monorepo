@@ -1,4 +1,6 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()  # load HEADLESS (from scrapers/.env) regardless of which entry point runs this
 import requests
 from bs4 import BeautifulSoup
 import functools

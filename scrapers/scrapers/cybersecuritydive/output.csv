@@ -1,26 +1,941 @@
-url,success,error
-https://www.cybersecuritydive.com/news/ai-identity-security-visibility-gaps-netwrix/822491/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/cisa-zero-day-cisco-catalyst-vulnerabilities/822494/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/check-point-zero-day-ransomware/822372/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/cyber-insurance-policyholders-facing-heavier-scrutiny-underwriting-claims/822089/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/china-cyberattacks-it-sector-crowdstrike-report/822366/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/ai-executive-impersonation-outtake-survey/822235/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/house-ai-bill-regulation-cisa-nist-open-source/822131/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/cisco-zero-day-flaw-sd-wan-exploited/822138/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/cisa-ai-trump-executive-order-implementation/822001/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/crowdstrike-palo-alto-networks-ai-cyber-demand/821999/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/ai-cybersecurity-hype-reality-check-gartner/821867/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/cisa-fbi-hackers-targeting-systems-monitor-industrial-fluits/821873/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/trump-ai-security-executive-order/821755/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/ai-anthropic-claude-mythos-project-glasswing-expand/821714/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/dozens-red-hat-npm-packages-supply-chain-attack/821723/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/turning-tension-into-collaboration-how-cios-cisos-can-lead-together/821610/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/palo-alto-networks-firewall-flaw-exploitation-cisa-kev/821598/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/ai-cyberattacks-credit-ratings-sp-analysis/821599/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/cisa-security-software-supply-chain-compromises-GitHub/821487/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/ibm-open-source-security-ai-project-lightwell/821348/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/how-cisos-can-manage-sovereign-cloud-security-risks/821323/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/takedown-glassworm-botnet-crowdstrike-Google-Shadowserver/821227/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/shadow-ai-enterprise-data-policies-okta/821344/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/cisco-ai-models-research-multi-turn-prompt-attacks/821211/,False,Failed to fetch content
-https://www.cybersecuritydive.com/news/fbi-warns-phishing-platform-microsoft-365/821105/,False,Failed to fetch content
+fetchingDate,creationDate,author,authorLink,articleLink,articleTitle,articleText
+2026-07-05 19:32:22,"Published June 29, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/openai-model-government-limit-request/823966/,OpenAI voluntarily limits new AI models at government’s request,"OpenAI is limiting the release of its powerful new GPT-5.6 AI models at the request of the Trump administration.
+“We are starting with a limited preview for a small group of trusted partners whose participation has been shared with the government, before releasing more broadly,” OpenAI said in a blog post on Friday.
+After OpenAI previewed its GPT-5.6 models — Sol, Terra and Luna — for federal agencies, the government asked the company not to publicly release the tools, OpenAI said.
+“We don’t believe this kind of government access process should become the long-term default,” the company said in its blog post. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OpenAI vowed to publicly release the new models “in the coming weeks” and said it was temporarily complying with the government’s request “because we believe it is the strongest path to broader availability in the coming weeks.”
+The company added that it was working with government agencies on the model-review process that President Donald Trump called for in his recent AI security executive order.
+The Trump administration’s request to OpenAI comes after the government ordered Anthropic not to share its powerful models Mythos and Fable with foreign nationals, prompting Anthropic to cut off almost all of its customers’ access to those tools.
+The Commerce Department’s export-control restriction on Mythos and Fable capped a dramatic about-face inside the Trump administration over how to handle AI. Trump officials and advisers spent 2025 arguing that the government shouldn’t regulate AI, saying that doing so would give China an advantage in the competition to develop the cutting-edge technology. But Mythos’s debut in April changed the White House’s calculus and kicked off a significantly more restrictive approach.
+The OpenAI situation is notable because the company is complying with a government request rather than following a legally binding order. OpenAI CEO Sam Altman told employees on Thursday that the Trump administration would be “approving access customer by customer during this preview period,” The Information reported.
+OpenAI did not respond to a request for comment about why it complied with the government’s request.
+On the same day that OpenAI revealed its voluntary cooperation, Anthropic announced that the government had allowed it to resume offering Mythos to “certain trusted partners.”"
+2026-07-05 19:32:21,"Published June 29, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/insurance-body-hackers-oracle-peoplesoft-breach-data/823978/,Insurance body confirms hackers posted Oracle PeopleSoft breach data,"The National Association of Insurance Commissioners (NAIC) said some credit ratings agencies are pausing data feeds after its systems were compromised in connection with a zero-day vulnerability earlier this month at Oracle PeopleSoft. 
+NAIC confirmed the threat actors posted exfiltrated data on a leak site. The information includes financial and ratings information linked to insurer investments. Some of the stolen data had been publicly available on state insurance sites, through resellers or other insurance data sites.
+NAIC said it has found no evidence that financial account data or personally identifiable information was lost. In addition, it said its regulatory filing systems are secure. 
+The association provides data, analysis and other expertise to state insurance regulators across the U.S. This critical information is used to help regulate the insurance industry. 
+Moody’s confirmed that stolen data related to credit ratings and insurance was posted on a leak site in connection with the NAIC breach. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+“This issue is not the result of a breach of Moody’s network, and we remain confident in the security and integrity of our systems,” a spokesperson for Moody’s told Cybersecurity Dive. “Out of an abundance of caution, Moody's has suspended providing data to the NAIC.”
+A spokesperson for AM Best, a credit ratings agency focused on the insurance sector, said the compromise did not impact any of its non-public information. The agency declined to provide additional details. 
+Kroll Bond Rating Agency on Friday said it suspended data feeds sent to NAIC until the incident is resolved in a satisfactory manner. 
+Fitch Ratings confirmed through a spokesperson that certain data it previously submitted to NAIC was impacted by the breach. Fitch Ratings said its own systems and business operations were not affected by the attack. 
+As previously reported, the ShinyHunters threat group was linked to exploitation of a critical flaw in Oracle PeopleSoft. Officials at Mandiant, the incident response arm of Google Cloud, notified more than 100 organizations that they may have been impacted by the exploitation activity. 
+About two-thirds of the organizations hit by the zero-day flaw were educational organizations. 
+Hackers exploited a critical remote code execution vulnerability, tracked as CVE-2026-35273, in the software suite’s Environment Management component between May 27 and June 9. Oracle released an advisory earlier this month about the vulnerability, which is located in certain versions of Oracle PeopleSoft PeopleTools. 
+
+
+
+
+
+
+
+
+
+
+ShinyHunters originally posted NAIC data on their leak site on June 18, according to Erika Tortaro, intelligence analyst at the Halcyon Ransomware Research Center. The threat group posted an update on Thursday claiming to have breached 3 terabytes of data, which would include more than 105,000 files. 
+Researchers also provided copies of screen shots of the claimed breach, offering further evidence of exfiltrated insurance data. 
+Editor’s note: Updates with information from Moody’s, AM Best and Halcyon."
+2026-07-05 19:32:22,"Published June 26, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/software-ai-alliance-open-source-security-flaws/823889/,"Software, AI companies form alliance to tackle open-source security flaws","A coalition of technology companies, including Anthropic, AWS, IBM and Microsoft, announced a joint effort to find, disclose and remediate security flaws in open-source software. 
+The group, called Akrites, will establish a shared security incident response team as well as a coordinated vulnerability disclosure process. 
+The founding members, led by the Linux Foundation, will commit extensive resources to the effort, including funding, engineers and cybersecurity expertise. 
+Officials said the plan was mainly driven by the emergence of frontier AI models that radically accelerated the ability to discover vulnerabilities in critical software applications. In recent months, malicious actors have demonstrated the ability to weaponize AI for use in sophisticated attacks. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The existing open-source ecosystem does not have the ability to discover and remediate vulnerabilities fast enough to protect millions of users from potential attacks. The group outlined some of these concerns in an open letter to the industry. 
+“Artificial intelligence has collapsed the previous equilibrium between attackers and defenders, changing the equation of ease and reuse of software,” the coalition wrote in the letter. 
+Disclosure backlog
+Akrites is designed to address some of the systemic challenges facing the open-source community in terms of developing a coordinated vulnerability disclosure process, according to Christopher Robinson, CTO of Open Source Security Foundation and chief security architect of the Linux Foundation. 
+The emergence of large language models and sophisticated scanning tools in recent years has made all of those historic challenges even more serious.
+“Upstream projects are being inundated with vulnerability reports of varying degrees of quality which far exceeds these volunteer developers’ ability to evaluate and keep up,” Robinson told Cybersecurity Dive.
+Seed funding for Akrites will be provided by Alpha Omega, which is a directed fund under the Linux Foundation. Other organizations are being asked to provide additional resources or engineering talent. 
+The open-source community has faced mounting concerns in recent years about the inability of traditional maintainers to quickly discover and disclose vulnerabilities in order to prevent widespread supply chain attacks. 
+
+
+
+
+
+
+
+
+
+
+Varun Badhwar, co-founder and CEO of Endor Labs, said more than 23,000 vulnerabilities were discovered just one month after the announcement of Project Glasswing, impacting about 1,000 open-source projects. These include about 6,000 vulnerabilities that were considered high severity or critical. 
+In addition, Glasswing’s partners found another 10,000 high-severity or critical flaws. Only 5% of these vulnerabilities have been fixed. 
+“No volunteer ecosystem was built to absorb that,” Badhwar told Cybersecurity Dive. 
+Other founding companies in Akrites include Cisco, Citi, JPMorgan Chase, NVIDIA, OpenAI, Ericsson and others."
+2026-07-05 19:32:22,"Published June 26, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/fcc-emergency-alerts-cybersecurity-requirements/823880/,FCC requires emergency-alert distributors to secure their systems,"The Federal Communications Commission on Thursday approved a set of basic cybersecurity rules for the companies that issue emergency alerts in the U.S.
+The FCC’s three commissioners unanimously adopted an order that will require Emergency Alerting System (EAS) operators — including radio stations, broadcast TV networks and cable systems — to use strong passwords, deploy network firewalls and promptly apply security patches.
+In a statement, the commission said the new requirements would protect EAS systems from “hijacking by cybercriminals and our nation’s adversaries” and thereby “preserve the public’s trust in EAS.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EAS systems have long been vulnerable to cyberattacks. In 2013, hackers commandeered EAS systems in five stations and interrupted local TV broadcasts with fake warnings of a zombie uprising. Investigators later determined that some of the hacked EAS devices used default passwords listed online in user manuals.
+In 2022, the FCC and the Federal Emergency Management Agency warned EAS operators to fix a critical vulnerability in their equipment and take other steps to secure their systems. The FCC noted that it previously had warned EAS operators about the flaw, which received renewed attention after a security researcher discussed it at the 2022 DEF CON hacker conference.
+More alert security coming soon
+The FCC is also planning other security requirements for EAS operators, as well as for participants in the Wireless Emergency Alerts (WEA) system, which allows government officials to distribute public-safety messages to smartphones through partnerships with wireless carriers.
+A new Further Notice of Proposed Rulemaking would require EAS operators to authenticate alerts before transmitting them and eliminate what the FCC called “outdated WEA geotargeting exceptions” that sometimes lead to people receiving alerts in the wrong areas. The proposed rule would also require EAS and WEA operators to include symbols in their alerts that would help people better understand the nature of an emergency."
+2026-07-05 19:32:22,"Published June 26, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/aws-continuum-ai-security-claude-mythos/823393/,"AWS unveils agent security, data access tools","Dive Brief:
+
+AWS launched agentic tools AWS Continuum, which flags and helps remediate security risks, and AWS Context, a search layer that uses a company’s data to make better informed agents, at its AWS Summit in New York City on June 17.
+The company rolled out the tools as the rise in AI agents is rapidly changing the way enterprises operate, reshaping the cybersecurity landscape and necessitating tools that connect siloed data.
+AWS rolled out new capabilities for AI tools Kiro, AWS DevOps Agent, AWS Transform for modernization and Amazon Bedrock AgentCore to build and deploy agents. It also updated Amazon Quick, an agentic assistant-modeled AI application, which was released as Quick Suite last year.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dive Insight: 
+Enterprises have shifted from talking about and piloting AI agents to relying on them to complete large swaths of their work, said Swami Sivasubramanian, VP of Agentic AI at AWS, during the company’s keynote on June 17. 
+“If your teams are still waiting on you to connect the dots, if humans are still forced to be the orchestration layer, your momentum actually passes you,” Sivasubramanian said.
+With this shift comes the need for companies to strengthen and tune their data and agents, which is what AWS Context aims to achieve, Sriram Devanathan, director of agentic AI and software modernization at AWS, told CIO Dive in an interview. 
+The service builds a knowledge graph from a company’s existing data, including business rules and domain knowledge, that teaches agents how to navigate the stores of an organization’s knowledge and find the right answer. It acts as an agentic search layer for an organization that is connected to all agents and has built-in governance, according to AWS.
+Agents, whether for security or DevOps, are helping to automate parts of a company’s software development life cycle, Devanathan told CIO Dive. At some point, they need to talk to each other, he said.  
+“All of our agents, at some level, need to understand which apps are important, which apps need high priority fixes, where they run, how they run, how they are built,” he said. 
+AWS Continuum is the company’s response to the release of Anthropic Mythos and Claude Fable, Chet Kapoor, VP of security services and observability at AWS, said during the keynote. The AI security service discovers security threats, informs leadership of where to act, validates solutions in a sandbox and makes recommendations for remediating security risks. 
+“I call it, ‘The Mythos moment,’” Kapoor said. “It accelerated our plans significantly. Mythos set a new bar for finding vulnerabilities.”"
+2026-07-05 19:32:22,"Published June 25, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/cyber-risk-insurance-industry-guardrails/823762/,"As cyber risk evolves, the insurance industry tightens guardrails","As the risk of cyberattacks has increased in recent years, the long-term financial consequences of such attacks have become a top concern for large enterprises, small to medium-sized businesses and even national governments. 
+Cyberattacks can have devastating consequences on businesses, resulting in data loss, weeks of downtime and millions of dollars in lost sales. 
+The cyber insurance market has matured as a tool to help protect against these risks, growing into a global $15 billion industry. But the insurance industry has major concerns about systemic cyber risk and will not function as a blank check to secure organizations from malicious attacks. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+“A single vulnerability or attack can generate simultaneous claims across an insurer’s entire portfolio, making it structurally impossible for private markets to diversify away systemic cyber risk,” according to a report by the Foundation for the Defense of Democracies. 
+
+The insurance industry is holding policyholders increasingly accountable for maintaining strict oversight over their IT environments. 
+As part of our monthly Reporters’ Notebook series, three journalists sat down to discuss the cyber insurance landscape. David Jones from Cybersecurity Dive, Fahmida Y. Rashid from Dark Reading, and Richard Livingston from TechTarget SearchSecurity shared insights on how the market has evolved.  
+This transcript has been edited for clarity and length by Informa TechTarget's internal AI assistant. For the full experience, please watch the video.
+Dark Reading's Fahmida Y. Rashid: Hi, and welcome to our latest edition of Reporters' Notebook. I'm Fahmida Rashid, managing editor of technology and features at Dark Reading, and I'm joined here with my counterparts from Cybersecurity Dive and TechTarget SearchSecurity. I'll have everyone introduce themselves. So, Richard, why don't you take it away?
+TechTarget SearchSecurity's Richard Livingston: Hi, I'm Richard Livingston. I'm a writer and editor with TechTarget SearchSecurity.
+Cybersecurity Dive's David Jones: I'm David Jones. I'm a reporter with Cybersecurity Dive.
+DR's Fahmida Y. Rashid: And for this month's Reporters' Notebook, we are going to be digging into cyber insurance. I feel like that is a term that everyone is talking about. All three of us have written a lot about the topic, and there's just so much that doesn't quite surface in people's consciousness. Richard, let's just start right off. What is cyber insurance? What is it? What is it covering? What is it for?
+
+
+
+
+
+
+
+
+
+
+TTSS's Richard Livingston: Yeah, so I read a great quote the other day, and this is a unique thing, right? It's not like property insurance. I heard a great quote that said, for property insurance, fires are not trying to figure out better ways to burn you. And with cyber insurance, what we're trying to actually do is cover a risk that is trying to override your security protocols. And I think all of us know that this is getting worse, that hackers are getting more sophisticated.
+They have more tools at their disposal. Really, over the last 30 years or so now, cyber insurance has matured to the point where we now have a market that for businesses that rely on data in the cloud, which is pretty much just about everybody. They are covering now remediation services, and that's the costs of responding to a breach, forensics, legal fees, PR, you name it.
+Information security and privacy liability, the claims and damages from a breach. Regulatory defense and penalties, all the fees and the penalties and the legal costs that can come from a regulatory action if you find a damaging breach. The business interruption, the lost revenue that you're going to see there. Media liability, this could be a reputational problem, too. And then also the big one is cyber extortion. We have hackers asking for ransom, and people are paying.
+DR's Fahmida Y. Rashid: I do want to know before we go on further, a couple of years ago, I was having a conversation with security expert Jeremiah Grossman, and one of the things he said is the fact that we have cyber insurance is actually going to be the good thing for cybersecurity because we're finally attaching numbers, we're finally quantifying. Before it was like, We don't want to get breached, we don't know how much it costs or what the impact is. And now that the insurance companies are coming in and they're saying, No, we can't be loosey goosey here. We need to know what the impact is. We need to know what it's going to cost to get, you know, back up and running. What are your liabilities? And it's going to change how we talk about cybersecurity. Just now, when you were running through all the things insurance covered, that's exactly what was reminding me that I don't think five years ago we would have even talked about liability in the context of an attack.
+TTSS's Richard Livingston: Yeah, well, you know — what's insurance? Basically claims and actuarial tables. And, you know, as long as there is a business model for them, they're going to keep putting out coverage there, you know, as long as they can keep getting those premiums and they're making more money than they're paying out. You know, there's your business model.
+DR's Fahmida Y. Rashid: I know, Dave, we were talking a little bit about what IT insurance covered. You had some really interesting insights there on what is covered or not covered and what those big questions are.
+CD's David Jones: Yeah, I mean, think what has evolved over the years is that companies are starting to really understand how cyber risk impacts the bottom line of their businesses, where it's not just, you know, a corporate CISO or an IT manager that is dealing with the fallout of a cyberattack or business disruption related to cyber. I think that what you're seeing now is that companies are now dealing with not just the potential loss of data, but they're dealing with the potential disruption of their business function. So essentially what you have is a company may, you know, have some kind of a breach, or some type of a ransomware event, or other type of disruption where they functionally cannot operate for a period of hours, days, or weeks at a time. And in certain cases, they can't operate kinetically. They have to shut down their factories or their connections where they have an IoT connection with various partner companies. They may not be able to sell their product.
+
+
+
+
+
+
+
+
+
+
+We ran into that with companies like JLR. There were other companies that had to deal with weeks-long disruptions of their operations where they couldn't move their product. And one of things that cyber allows you to do is you can kind of price in the potential risk of what would happen if I basically could not move my product or operate my business for a series of weeks or days. And you have to be able to estimate, OK, let's say I'm out of business for a week. If you go back to like Colonial Pipeline, for example, you basically can't move your fuel for almost a week. What kind of bottom-line impact is that going to have on my business?
+And how do I factor in the risk of being able to manage that? And the insurance companies, at the same time, what they do is they force you to take a really hard look at how am I prepared to be resilient? What am I doing to protect our business in the event of where I can't get into my data [and] my employees can't get on their computers? I can't move my product to and from a warehouse. And cyber insurance will basically force you to look at, How do you back up your data? How do you access your data in the event of a shutdown? What type of protocols [have] you put in place?
+Multifactor [authentication], hiding assets from the Internet, using stronger passwords, and they will force you to make some very tough decisions about, you know, do I have the resources set aside where I may be going back to a very low-tech version of my business for a couple of weeks.
+DR's Fahmida Y. Rashid: I do want to know, I know I think it was last Black Hat, there were whole sessions kind of touching on what you were saying, like how do you prove to the insurance company that you've done what you're supposed to do? Like insurance companies, like, ""Hey, you have to make sure you have a certain baseline."" And, you know, before, you had to do an audit, and now with questionnaires or some kind of a way where they can look at your controls. So that conversation has also been evolving, where insurance companies want you to prove before a breach that you've done everything you need to do to make sure you can recover, that you're resilient. And that is also an area that seems still a little uncertain. No one seems to have that magical formula of, this is how you prove it.
+TTSS's Richard Livingston: Yeah, but it's interesting. Those are being put into the policies. There are requirements in there, and there have been situations where claims have been denied if people did not keep up a certain minimum level of security. A few years ago, Hamilton, Ontario, the city, got breached, and they were fully insured. But hackers got in because they did not maintain a minimum level of MFA. And they got in, and when auditors looked at it, they said, ‘Nope, no, this is clearly spelled out in your contract.’ And the taxpayers of Hamilton, Ontario, got hit with that whole thing.
+DR's Fahmida Y. Rashid: Yeah, you know, reading that fine print, it's always, that's always where you get tripped up in these kind of things.
+TTSS's Richard Livingston: And that's why other parts of the organization, besides CISOs, need to be involved, right? You need your legal teams on there. You need your analysts. This is a question for more people in the organization. This is really not so much a technical issue. It is a risk issue. And that's the whole C-Suite's business.
+DR's Fahmida Y. Rashid: And I know Cybersecurity Dive had done a lot of coverage on that changing language of risk. Dave, I think it's also worth kind of talking about the awareness from the organization’s perspective, what is covered, what is not covered, and what did that language of risk mean? So, I know you've done a bit recently on that.
+CD's David Jones: Yeah, I mean, it's evolved over the years. You know, if you go back, you know, about a decade back, there were some fairly high-profile incidents where during, you know, cases like NotPetya and WannaCry, there were, you know, propagating cyber cases where various companies from different parts of the world were impacted by these propagating events. And you basically had a situation where these companies were on the hook for hundreds of millions of dollars, where they couldn't function for a certain amount of time. And there were events that were kinetic disputes involving Russia, involving Ukraine. And there were questions raised because one of the things that cyber insurance has historically limited is if you are impacted during what is considered an act of war and there were cases in the past where if the attackers had some state-linked connections, arm of an intelligence service or military service and you were attacked in that type of an environment you had to fight to get covered. [It’s not] necessarily [where] you wouldn't get any coverage but the insurance companies could put some major limitations on what they were going to pay out and you know what we're seeing now with the Iran war for example you know we're seeing this kind of thing pop up in other forms of insurance you know you have ships that can't you know get oil and move into other parts of the world. You have cyberattacks that are being linked to state actors and it's impacting the ability of companies to manufacture their products, to fulfill orders, to ship their products. In some cases, customers hear about an attack, and they automatically disconnect. I mean, we saw that with Striker where hospitals and healthcare providers that were, when they became aware of what happened, they, just as a form of precaution, they basically disconnected their services. And so, you had situations and some of these cases where you can't perform surgeries, appointments are canceled, customers are just basically in the dark until they find out if it's safe to restart their operations. And so, we've had cases in recent years where years-long battles between insurance companies and claimants, policyholders, in terms of how much of this claim, because we're talking hundreds of millions of dollars in claims, and the insurance companies don't want to be on the hook for hundreds of millions of dollars, especially if they're not sure that the proper protocols were taken to protect core assets. You know, there have been discussions among policyholders, among insurance companies about whether the global insurance industry is prepared for some type of potentially catastrophic event. You know, we saw concerns raised after the CrowdStrike outage from a couple of years back, whether the industry can sustain some type of systemic event where multiple companies are impacted by some type of propagating malware or global outage or supply chain event. And we're seeing more and more of these cases where third-party companies are impacted, and they can impact dozens or hundreds of companies at the same time.
+DR's Fahmida Y. Rashid: Supply chain is always one of those where we don't always think about the blast radius. I think insurance companies are having to start thinking about that blast radius. Like one company gets breached, and now you have 12 other customers filing claims because that one company got breached. And I don't think insurance insurers have really figured out how they're going to handle that yet. Like it's 12 different claims, what are you going to do? You can't really say, you shouldn't have worked with these companies. I think that's an area that we're going to keep hearing insurance companies evolve in their thinking. Richard, I know since we're running a little tight on time, I wanted to actually kind of point back to this really cool insight you had on the downside of insurance.
+TTSS's Richard Livingston: So, I actually sat in a really interesting session at RSAC and John Kindervag, ""the Zero Trust guy"" was there. He started off with this really compelling argument. He said [that] the rise in life insurance put a financial layer on a very ancient crime, murder.
+It didn't increase murders, but all of a sudden now, people had a financial benefit there. So, let's look at ransomware the same way and what we're seeing. Here's a data point that he gave us that — the companies that are insured for cybersecurity, are 2.8 times more likely to go ahead and pay out their ransomware request. So, what we're seeing is that hackers, have at their disposal the dark web. They can find out who is insured and for how much. And in many cases, what they're doing is they are going to organizations. And when they lock up their systems, they're saying, you know what? We know that you are insured for $10 million. If you told me right now that you would pay us $10 million, we won't ask for a cent more. And that's, the point that he made is that, you know, they're a business like you're a business. And if it's a matter of paying out $10 million to save yourself $50 million worth of, you know, business losses, you know, that's a, you know, I think that's a negotiation most companies are willing to have. And they are, they're paying.
+DR's Fahmida Y. Rashid: And I think a lot of the time when we talk about, know, this is a bit of a tangent, but when people talk about should we pay the ransom or not paying the ransom, you're right, insurance changes that calculus a little bit. Like, well, it's not coming out of my pocket. So, this is why we are buying insurance, right? Like we buy insurance for accidents and catastrophes. So, it definitely does add a second layer to that.
+I think the other thing when we were talking about this topic, all three of us were discussing just the fact that with insurance providers, overall rates, like how much it costs to get insurance, has been declining slightly for the past two years. And I know for me, I was just like, this is great. This means more companies are going to buy insurance. But I think there is also a downside to lower costs.
+And, you know, Dave, I think you were expressing some of those concerns about, what does it mean if policies are cheaper? And Richard, I think you had some thoughts on that as well.
+CD's David Jones: I mean, I think that there have been concerns raised by the industry that when you're in a market where risk seems to be exponentially kind of increasing of larger-scale events, and there's a concern about concentration risk where the global insurance market is very heavily weighted toward the U.S. Both in terms of the number of companies that are in the U.S. and the global industry, basically two-thirds of the market is kind of based here in the U.S. Large companies, you get some kind of systemic event that affects multiple companies at the same time, and you have a situation where one event can kind of tilt the balance. And so, you run into a situation where companies, insurance companies, are trying to diversify their portfolios a bit. They'd like to get smaller and medium-sized companies into their portfolios. They'd like to get companies that are based outside of the U.S. because the penetration of the market in other parts of the world, there are a lot of companies out there that could probably benefit from insurance that aren't covered, or maybe they self-insure, or maybe they have policies that are property or casually or some other type of policies where there is a cyber component, but if there's a really catastrophic event, do they have the adequate amount of coverage? And one of the things that insurance does for the overall market is it forces a lot of these companies to take their own internal practices more seriously, because the insurance companies will force you to do it.
+They're not just going to give you a free check based on you neglecting your hygiene, or neglecting your training, or neglecting your overall IT stack, and then expecting that the insurance company is going to cover all your losses. What's happening is that you're starting to see a lot of these companies, they're taking a much closer look in terms of making sure that policyholders are taking the steps necessary to get everybody in the company involved in the process. For example, is the board of directors involved? Are the C-Suite people involved? Does everybody know if there's a ransomware attack, who's going to be responding to that emergency and the role that each individual will play in responding to that? You know, depending on how companies, you know, manage that process, you're going to see some adjustments in terms of how those companies pay out those claims. And you're not going to just see insurance companies write a blank check for a company that's not kind of taking care of its own responsibilities and expecting that they're going to be covered.
+I think that if you look at what's happening now with things like AI implementation, a lot of companies are rolling out agentic AI without the proper guardrails set up where they understand the risks, where they have the proper governance set up with committees, with rules about whether an employee can experiment with AI or use AI in their day-to-day work environment. What happens if there is a company or an employee that's using an AI and an unsanctioned agent, and there's a huge catastrophic leak of data or disruption of the business? Companies have to, you know — insurers are going to look at that and they have to now price another level of risk in terms of, you know, are we going to pay for a situation where a company rolled out technology, did not have guardrails in place to prepare for some type of an emergency, and things are moving so quickly in that space? That has to be something that responsible financial governments, and banks, and investors are going to take a very hard look at.
+TTSS's Richard Livingston: I think that's a good thing. If you're giving companies a safety net, but at the same time, really making them examine their cybersecurity and putting better practices in place, that's good for everybody.
+DR's Fahmida Y. Rashid: So, we're going to call it time. Thank you so much for tuning in to Reporters' Notebook. I'm Fahmida Rashid, managing editor from Dark Reading, and thanks for joining us. Dave, Richard, can you say your goodbyes?
+TTSS's Richard Livingston: Yep, I'm Richard Livingston from TechTarget Search Security.
+CD's David Jones: Thanks for listening. I'm Dave Jones at Cybersecurity Dive."
+2026-07-05 19:32:23,"Published June 25, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/water-utilities-remote-access-nist-guidance/823776/,NIST offers security guidance for water utilities using remote-access tools,"Dive Brief:
+
+Water utilities that use remote-access software should carefully restrict access, enforce multifactor authentication (MFA) and maintain comprehensive access logs to help them investigate possible breaches, the National Institute of Standards and Technology (NIST) said in guidance published on Wednesday.
+The secure remote-access guidance, developed through NIST’s National Cybersecurity Center of Excellence (NCCoE), lists security considerations and describes how water utilities can implement remote access through either on-premises or cloud environments.
+Remote-access software is one of the water sector’s biggest cybersecurity weaknesses, enabling several Iran-linked cyberattack campaigns against U.S. water systems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dive Insight:
+NCCoE experts included several example architectures in their guidance document. One illustrates how to set up role-based access controls through the remote-access software TDI ConsoleWorks. Another demonstrates how to use Cisco Duo’s MFA service with the StrongDM access-management platform. A third describes how to use Q-Net Security products to encrypt communications between network devices.
+“The ability to provide secure remote access to the water systems is crucial to the efficient operation of today’s [water systems],” the document says. “Each utility should tailor their cybersecurity practices to address the unique needs of its own organization. The goal is to assist the [water] utilities in ensuring the security and availability of remote access capability so that operations can continue uninterrupted, despite current and evolving threats.”
+One of the document’s most important sections is a list of security considerations for utilities that want to use remote access. Recommendations include employing least-privilege principles, regularly updating remote-access software to the latest version, carefully inventorying remotely accessible systems (which can help organizations quickly locate and disconnect vulnerable devices) and configuring networks with zero-trust architecture, including packet inspection and demilitarized zones.
+NIST recommends organizations first consider alternatives to traditional remote access that carry less risk, such as one-way remote-alarming systems that notify employees of the need to take action. “Some facilities may choose to operate on-site only,” the document says, “requiring employees and contractors to come on-site to perform all operational tasks.”
+Water utilities face some of the biggest cybersecurity threats, both because they are among the least-protected infrastructure and because their vital services make them high-value targets for nation-state threat actors. Iran-linked hackers have targeted U.S. critical infrastructure with destructive malware during the war in the Middle East, and China’s Volt Typhoon campaign has breached numerous infrastructure operators over the past several years.
+As the threats have grown, the federal government has expanded its scrutiny of water systems’ cybersecurity postures, and volunteer security professionals have deployed across the country to help operators make improvements. But experts say the sector is still woefully unprepared to defend itself."
+2026-07-05 19:32:24,"Published June 24, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/white-house-states-cybersecurity-pilot-programs-oncd/823453/,White House’s state infrastructure cybersecurity initiative stalled,"Three months after the Trump administration announced a plan to help states fund cybersecurity defenses for their critical infrastructure, half of the states say they haven’t heard anything from the White House about participating in the program.
+National Cyber Director Sean Cairncross said in early March that the federal government would launch a pilot program for states to accelerate the deployment of security technology at critical infrastructure facilities. He described the goal as “finding solutions at cost and an ability to scale that meet the moment and the threat,” adding that the administration was already working with Texas on its water sector, and with South Dakota on its beef industry.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+With a significant enough infusion of federal dollars, the pilot program could transform how cash-strapped state and local governments work with the operators of power grids, hospitals, railways and other vital infrastructure to fend off malicious hackers intent on sowing chaos.
+But despite the program’s promise, the Trump administration appears to have made little progress with it so far. At least 26 states and the District of Columbia are not involved in the program, and some of them were unaware that it even existed, according to a Cybersecurity Dive survey of state IT, cybersecurity and homeland-security agencies. In addition, the White House has said almost nothing about how the program will work, including what the federal government’s role will be. The Office of the National Cyber Director (ONCD) did not respond to numerous requests for comment for this story.
+The lack of widespread engagement and detailed information raises questions about the Trump administration’s commitment to an initiative that has received widespread praise for its recognition of the crippling cybersecurity challenge facing state and local governments.
+“Unlocking funds to states for critical infrastructure protection is one of the most high-impact levers the federal government has to address urgent national security threats like [Chinese government] pre-positioning on critical infrastructure and the growth in the use of advanced AI for cyber operations,” said Michael Klein, the senior director for preparedness and response at the Institute for Security and Technology and a former senior cybersecurity adviser at the U.S. Department of Education.
+
+
+
+
+
+National Cyber Director Sean Cairncross’s office is overseeing the pilot programs.
+McCrary Institute/YouTube
+ 
+
+
+White House could address problem it worsened
+The Trump administration’s new initiative could be a welcome relief for state and local governments, which have become top hacking targets because of their sensitive data, critical services and susceptibility to intense public pressure. In addition, governments’ reliance on third-party vendors creates serious supply-chain security risks that threat actors have repeatedly exploited. AI has only made things worse.
+
+
+
+
+
+
+
+
+
+
+At the same time, many local governments face severe financial strains that prevent them from investing in high-quality defenses. Roughly one-fifth of localities have no dedicated cybersecurity funding, according to the Multi-State Information Sharing and Analysis Center (MS-ISAC), the security collaboration group for state and local governments, and 16% of states recently cut their cyber budgets, according to the National Association of State Chief Information Officers.
+Experts say the federal government has exacerbated those problems. The Trump administration ended decades-long federal funding for the MS-ISAC, leading to an exodus of members and forcing the ISAC’s parent company to cut staff. In addition, Congress has failed to appropriate new money for a state and local cybersecurity grant program. And even if lawmakers reconstitute that program, new rules created by the Trump administration prohibit grant recipients from spending the money on MS-ISAC memberships.
+“State and local governments were struggling before the recent cuts, and I’m hearing from many that it's gotten worse,” said Jeff Greene, a former senior White House and Cybersecurity and Infrastructure Security Agency (CISA) cybersecurity official.
+With states scrounging for all the help they can get, the new White House program could significantly boost their fortunes, helping them protect vital and frequently targeted services such as schools, hospitals, 911 systems and courts.
+“The government wants to ensure these essential, local utility operators have access to the exact same world-class cyber defenses as Fortune 500 companies,” said Brian Harrell, a former assistant director for infrastructure security at CISA. “Security should never be a luxury for the few.”
+Sarah Powazek, the program director of public interest cybersecurity at the UC Berkeley Center for Long-Term Cybersecurity, urged program managers to focus on the most vulnerable communities and to measure the benefits of funded tools and services. She said a well-designed program could break an impasse that has prevented underfunded jurisdictions from taking advantage of the best technologies.
+“The tools that exist right now are at a cost that many small organizations can’t afford, and a complexity that they can’t use,” Powazek said. “That leaves a massive swath of small and medium-sized organizations … at the mercy of a confusing product marketplace that ultimately won’t help them with the basics.”
+
+
+
+""The lack of follow-up publicly and with the states suggests a lack of urgency or seriousness, or both.""
+
+
+Jeff Greene
+Former Executive Assistant Director for Cybersecurity at CISA and former Chief of Cyber Response and Policy at the National Security Council
+
+
+
+“We have not heard of this program”
+Even as cyber threats to state and local governments proliferate, the White House’s pilot program appears to be getting off to a slow start. None of the 26 states and Washington, D.C., that answered Cybersecurity Dive’s questions said they were involved in the program, and many of them said they hadn’t even heard of it.
+“My office was not aware of this pilot program,” said Amy Hess, the executive director of the Kentucky Office of Homeland Security. “Thank you for bringing it to our attention.”
+Eleven states — Arizona, Colorado, Delaware, Hawaii, Idaho, Minnesota, Nevada, New Mexico, North Dakota, Oklahoma and Oregon — said they wanted to learn more about the program and might want to join it. “We are always interested in exploring new partnerships,” said Jerred Edgar, Idaho’s chief information security and operations officer.
+
+
+
+
+
+
+
+
+
+
+But only two of those states — Nevada and North Dakota — said the White House had engaged with them about the program. Nevada CIO Timothy Galluzi told Cybersecurity Dive he was eager to participate and had attended “exploratory stakeholder meetings” where ONCD officials “listened to the needs, concerns, and input [of] state representatives.” And North Dakota’s chief information security officer is scheduling a meeting with ONCD officials to learn more about the initiative, spokesman Dain Sullivan said, including its “scope, requirements and available resources.”
+The White House’s limited engagement with states about the program appears to have caused some tensions as well. Arizona’s homeland-security agency contacted ONCD in mid-April after learning that Cairncross had held a call with a small number of states, said Ryan Murray, the agency’s deputy director and the state’s CISO. “We asked how to ensure the full participation of the state cyber community in future ONCD events, as it appeared many states were not invited to the Director’s call,” Murray said. “Despite the outreach, [Arizona] has not received a reply from ONCD.”
+Four other states were noncommittal. Maine said it would consider participating if the White House reached out, Massachusetts said it has been discussing the program internally and New York and New Jersey said they wanted more information.
+Four states — Alaska, Connecticut, Vermont and Virginia — said they weren’t interested in joining the program. Seven states — Arkansas, Kentucky, Ohio, Michigan, Missouri, Utah and Washington — and the District of Columbia confirmed that they were not participating but declined to say whether or not they were interested in doing so. One state, California, declined to say whether it was participating in the program. The other 23 states — including Texas and South Dakota, the two that Cairncross named as participants — did not respond to requests for comment.
+Greene, now a principal at the consulting firm Civira Partners, said the results of Cybersecurity Dive’s survey were disappointing.
+“I'm sympathetic to the difficulties of standing up a nationwide program,” he said, “but the lack of follow-up publicly and with the states suggests a lack of urgency or seriousness, or both.”
+
+Testing federal commitment and state innovation
+The stakes for the pilot program are high, given both the cyber threat environment and the political environment.
+The initiative will be a major test of the Trump administration’s commitment to helping state and local governments grapple with cybersecurity threats. Most experts see that commitment as minimal, given the way the administration has slashed cybersecurity funding and personnel. “The trust is frayed,” Greene said. “The state and local officials I’ve talked to are wary about government motives in a way I’ve never seen before.”
+But state success stories stemming from the program could begin to change that story. “Federal funds make a massive difference in a region’s ability to defend itself from cyberattacks,” Powazek said. “I’m hopeful that this pilot program signals a re-investment by ONCD in community cybersecurity and building close SLTT relationships.”
+
+
+
+""Security should never be a luxury for the few.""
+
+
+Brian Harrell
+Former Assistant Director for Infrastructure Security at CISA
+
+
+
+Galluzi, the lone state official to report participating in ONCD’s meetings, said the White House genuinely seemed to care about states’ input. “I am incredibly encouraged on the progress we are making,” he said. “It looks like they are really trying to get this right and provide the support the states need.”
+In the best-case scenario, states’ solutions to cybersecurity challenges could bubble up to the national level, either becoming models for other states or transforming into federal programs that protect the entire country. “A feature of our federalist system is that states can serve as laboratories for testing policies,” said Suzanne Spaulding, a former top Department of Homeland Security cybersecurity official.
+But for that to happen, the White House will need to expand its outreach to the dozens of states that still haven’t heard from it. Experts say the critical infrastructure that those governments maintain, and the residents who rely on it, can’t afford to wait any longer.
+“Given the urgency of the threat and the potential for wide-scale disruption to lifeline critical infrastructure like water, power and hospitals,” Klein said, “federal investment to states focused on resilience — the ability to take a hit and continue operations — would have a powerful impact on communities across the country.”
+
+Editor’s note: This story has been updated to clarify Michigan’s response."
+2026-07-05 19:32:23,"Published June 24, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/microsoft-europol-international-takedown-infostealer-malware/823655/,"Microsoft, Europol lead global takedown of infostealer malware","Microsoft on Wednesday announced a coordinated operation with Europol and other international partners to disrupt Amadey and StealC — tools used as infostealers to conduct ransomware, financial fraud and other digital crimes. 
+Amadey is a specialized tool used by cybercriminals to infect computers, while StealC is used to steal passwords and other sensitive data after the computers are infected. The tools are used widely around the globe, with Microsoft finding more than 140,000 computers worldwide infected with the tools during the first two weeks of May. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft identified more than 200 malicious Amadey and StealC command-and-control domains and IPs and shut them down using a combination of court-ordered actions, domain seizures and related actions. 
+In a filing with the U.S. District Court in Miami, Microsoft accused a series of unnamed defendants of operating a malware-as-a-service enterprise. Microsoft asked the court to disable and transfer control of related internet domains to the company. 
+Microsoft, in a blog post Wednesday, said investigators used AI to help analyze how Amadey and StealC were being used in the infostealing operation. The analysis helped speed up an understanding of how the operation worked, cutting significant time out of the probe and allowing investigators to target the operators as a single conspiracy. 
+The seizure was part of Operation Endgame, a coordinated effort to disrupt infrastructure used in global cybercrimes. The operations led to the recovery of 25.6 million stolen credentials and 385,000 compromised systems, according to researchers at Proofpoint and IBM, who participated in the investigation. 
+Experts called infostealers one of the most important gateways to ransomware. 
+“Many ransomware attacks begin with stolen credentials and session cookies that infostealers harvest and sell to affiliates through access brokers,” said Roye Bass, a ransomware threat intelligence analyst at Halcyon. “Taking down the command-and-control infrastructure behind these tools severs that supply, and forces operators to rebuild.”"
+2026-07-05 19:32:24,"Published June 24, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/ransomware-data-breaches-ai-bitsight/823649/,Ransomware attacks grew in 2025 as traditional data breaches fell,"Dive Brief:
+
+The number of ransomware attacks that hackers claimed on dark-web leak sites rose by nearly one-fifth in 2025, to 6,883, while the total number of leak sites increased by roughly one-third, to 115, the security firm Bitsight said in its annual “State of the Underground” report.
+Ten groups — five of them associated with Russia — were responsible for roughly 58% of attacks, according to the report, suggesting a remarkable concentration of activity.
+Roughly 60% of ransomware victims were in the U.S., with the manufacturing sector topping the list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dive Insight:
+While ransomware attacks surged, traditional data breaches fell by 41% in 2025 compared with the previous year. Bitsight cautioned, however, that the decline was likely the result of reporting gaps and evolving threat-actor behavior rather than a reduction in risk.
+“Attacker focus shifted toward domino-effect targets, including critical infrastructure and defense, government, and utilities,” researchers wrote.
+Educational institutions experienced the most data breaches in 2025, with 505, followed by government (475) and IT (469). That represented a significant shift from 2024, when IT topped the list, with 1,210 breaches.
+The data-breach landscape in 2025 was “less dominated by a single sector and more distributed across industries with personally identifiable information (PII) and operational and supply chain importance,” Bitsight said in its report.
+As AI tools have become a more useful tool for defenders, they have also become increasingly valuable to hackers. On the cybercrime forums and Telegram channels that Bitsight monitors, the company tracked 5.1 million mentions of Google’s Gemini platform, 1.4 million mentions of OpenAI’s ChatGPT service, 656,000 mentions of Anthropic’s Claude tool and 697,000 mentions of xAI’s Grok chatbot.
+Misconfigured and poorly secured AI platforms also represent weak spots in businesses’ networks. The number of publicly exposed AI tools increased by 360% in 2025, to more than one million, led by instances of n8n and Open WebUI, both of which have had serious vulnerabilities.
+Hackers’ increased use of AI tools and businesses’ increased use of vulnerable AI services mean that security teams can’t rely on old strategies, Bitsight said.
+“As the window between vulnerability, discovery, and exploitation shrinks, prioritization will play a larger role as both defenders and threat actors learn how to leverage AI for their needs,” researchers wrote. “We are no longer in an era where critical vulnerabilities can be patched on a schedule.”"
+2026-07-05 19:32:24,"Published June 23, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/ai-cyberattacks-five-eyes-frontier-models-warning/823526/,"Looming AI-fueled threats require urgent cybersecurity improvements, Five Eyes members say","Frontier AI models’ growing capabilities demand that business leaders take immediate steps to harden their networks and overhaul their operating philosophies, the members of the Five Eyes intelligence-sharing alliance said on Monday.
+“The evolving landscape of artificial intelligence (AI) is rapidly transforming cyber risk, and we must act swiftly to remain ahead,” the cybersecurity agencies of Australia, Canada, New Zealand, the United Kingdom and the United States said in a joint statement. “AI is not a future consideration — it is already here.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Now more than ever, the nations said, cybersecurity “is a core business risk and leadership responsibility.” The governments urged corporate executives and board members to carefully oversee how their IT and security teams manage and protect their computer systems and to regularly test incident-response processes to ensure they work during an emergency.
+The Five Eyes’ warning is the latest sign of growing alarm among Western nations about AI tools’ ability to find and exploit vulnerabilities. Those concerns recently prompted the Trump administration to ban Anthropic from offering its cutting-edge Mythos and Fable models to foreign users, which led Anthropic to almost entirely freeze worldwide access to those models.
+“Frontier Al models are anticipated to exceed current industry expectations, fundamentally transforming both offensive and defensive cyber capabilities,” the Five Eyes nations said. “The timeline is not years, it is months.”
+The Cybersecurity and Infrastructure Security Agency and the National Security Agency signed the statement on behalf of the U.S., along with the Australian Signals Directorate, Canada’s Communications Security Establishment, New Zealand’s Government Communications Security Bureau and the UK’s Government Communications Headquarters.
+Recommendations cover secure by design, legacy systems
+In addition to encouraging increased executive-level oversight of cybersecurity functions, the multinational advisory also detailed the specific processes and principles that companies should embrace in the era of AI-fueled cyber threats. The recommendations mirror what cybersecurity experts have been saying for decades.
+
+
+
+
+
+
+
+
+
+
+Executives should focus on risk assessment and “foundational” security practices, the advisory said. They should also empower cybersecurity leaders with the necessary authority and resources to implement changes — and hold those leaders accountable for failures.
+Organizations should embrace secure-by-design and defense-in-depth operating practices to maximize network resilience and avoid single points of failure, the Five Eyes members said.
+The advisory listed five “practical actions” for businesses to take, including reducing their attack surface, patching more quickly, removing or isolating vulnerable legacy systems, improving identity management and testing responses to breaches.
+“Success will come from getting the basics right, acting quickly, and integrating cyber security into core business strategy,” the advisory said. “Those that do not will face growing operational and strategic disadvantage.”"
+2026-07-05 19:32:25,"Published June 23, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/klue-investigating-supply-chain-attack-salesforce-integrations/823532/,Klue investigating supply chain attack that targeted Salesforce integrations,"Klue, a provider of a market intelligence platform, is investigating a supply chain attack that led to the mass exfiltration of Salesforce customer relationship management data belonging to hundreds of customers, including several prominent cybersecurity firms. 
+A threat actor used a compromised Klue Battlecards app to gain access to OAuth tokens for connecting Klue with third-party integrations, including Salesforce, according to information from Klue and security researchers at Reliaquest, which warned about the attack in a recent blog post. 
+Salesforce, which disabled connections through the Klue Battlecards app until further notice, said there is no indication of a vulnerability within its own platform. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A threat actor tracked as Icarus posted stolen data from several victims on its website, according to a Monday blog post from Huntress. Itself a victim of the attack, Huntress said none of its internal systems were impacted.
+The threat group has begun reaching out to companies whose customer data was compromised in the attack, said Charles Carmakal, CTO at Mandiant Consulting. 
+Security firms impacted
+Several other security companies, including LastPass, Recorded Future and Tanium, confirmed that hackers accessed certain customer data and said they have since revoked their integrations with the Klue app. 
+LastPass, a firm that provides a password management app for consumer and enterprise users, said attackers gained access to standard CRM data, including names, emails, physical addresses, phone numbers and support-case data and sales-related information. 
+There is no evidence the attack affected LastPass products, services or infrastructure. Klue OAuth tokens have since been rotated. 
+Tanium confirmed that business contact information, including names, business addresses, job titles, email addresses and social media handles might have been stolen. In a blog post, Tanium said its own products and cloud infrastructure were unaffected.
+Recorded Future officials said hackers were able to gain access to client contact names and email addresses stored within its Salesforce database, according to a blog post, and some information regarding business contracts might have been affected. There was no impact to Recorded Future’s core platform or any internal infrastructure. 
+
+
+
+
+
+
+
+
+
+
+Klue has retained CrowdStrike and is conducting a thorough review of all of its security controls, credential management, monitoring and deployment processes. There is no indication that customer data stored within the Klue platform was impacted by the attack."
+2026-07-05 19:32:24,"Published June 23, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/quantum-cryptography-white-house-executive-order/823530/,Trump sets new deadlines for agencies and contractors to adopt post-quantum cryptography,"President Donald Trump on Monday set ambitious deadlines for how quickly federal agencies and government contractors must adopt quantum-resistant encryption algorithms, aiming to prevent U.S. adversaries from using quantum computers to decrypt sensitive data in the coming decades.
+“The United States must take steps to strengthen cryptographic protections for the Nation’s sensitive data, critical infrastructure, and digital economy,” Trump said in a new executive order.
+The directive requires the Office of Management and Budget to issue guidance setting two major deadlines for agencies’ adoption of post-quantum cryptography (PQC) in their high-value assets: Dec. 31, 2030, for key establishment, and Dec. 31, 2031, for digital signatures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+“By accelerating the U.S. Government’s PQC migration timeline, this Order ensures that American cybersecurity keeps pace with emerging technology and recognizes the reality of the accelerating quantum industry,” the White House said in a fact sheet about the new order.
+The National Institute of Standards and Technology (NIST), the Cybersecurity and Infrastructure Security Agency (CISA) and the National Security Agency are now required to provide agencies with “comprehensive technical guidance on PQC implementation” on an ongoing basis.
+The order also tasks the Commerce Department with pilot-testing PQC algorithms on selected NIST computer systems by the end of 2027.
+Trump directed the agencies that write federal contracting rules to issue a regulation requiring contractors to comply with NIST’s Federal Information Processing Standards (FIPS) by the end of 2030. The agencies must also issue a regulation requiring contractors to update their vulnerability disclosure programs to cover “cryptographic vulnerabilities, including testing for lack of encryption and the use of non-FIPS approved algorithms.”
+The executive order “sets appropriately aggressive timelines” for federal agencies, according to John Miller, the executive vice president of policy at Information Technology Industry Council, a major tech trade group.
+“Policymakers must continue working closely with industry and international partners to modernize strategies to protect systems against attacks and accelerate the next generation of quantum innovation,” Miller said in a statement.
+
+
+
+
+
+
+
+
+
+
+Quantum resistance beyond the federal government
+In addition to setting standards for agencies and contractors, Trump’s executive order directs the U.S. government to help the rest of the world with the lengthy and difficult PQC migration process.
+The order requires CISA and the other Sector Risk Management Agencies — such as the Environmental Protection Agency and the Treasury Department — to help critical infrastructure operators in their sectors develop PQC adoption plans.
+CISA must also publicly release advice for constructing a cryptographic bill of materials, essentially an ingredient list that details the cryptographic standards used in a particular piece of technology.
+Another provision requires the State Department, NIST and other agencies to encourage “foreign governments and industry groups in key countries” to use the suite of PQC algorithms that NIST has evaluated and approved.
+Leaning into quantum research
+In a second executive order, Trump ordered an update to the National Quantum Strategy, the reconstitution of the National Quantum Initiative Advisory Committee and the redoubling of efforts to protect U.S. quantum research from espionage, sabotage and other threats.
+The second order also creates a Quantum Computer for Application Development and Discovery Science Effort to “pursue development of a quantum computer at a scale intended to initiate the era of quantum-enabled scientific discovery.” The goal will be to create at least one such computer for the Energy Department to use.
+Another provision requires the Office of Personnel Management and other agencies to create a strategy for recruiting quantum experts into government service."
+2026-07-05 19:32:24,"Published June 22, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/cisa-device-hardening-thousands-fortinet-credentials-compromised/823397/,CISA urges device hardening after thousands of Fortinet credentials compromised,"The Cybersecurity and Infrastructure Security Agency said hackers are targeting government and private sector organizations following the compromise of tens of thousands of Fortinet firewall and virtual private network credentials. 
+In a recent advisory, CISA urged security teams to take immediate steps to harden their Fortinet environments. 
+A database containing more than 86,600 confirmed credentials across 194 countries was created through automated scanning, exfiltrating configuration files and offline GPU-based password cracking, according to researchers from SOCRadar. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+“The threat is significant because many organizations treat perimeter security appliances as trusted infrastructure,” said Ensar Seker, chief information security officer at SOCRadar. “If attackers obtain valid credentials for firewalls, VPN gateways or administrative interfaces, they can bypass many traditional security controls and gain direct access to internal environments.""
+Security researcher Volodymyr “Bob” Diachenko last week posted about an exposed server containing the leaked credentials, and other researchers conducted follow-up activity to confirm the campaign. 
+Geopolitical risk 
+According to researchers, a Russian-speaking threat actor is linked to the campaign and has been targeting organizations linked to NATO. One of the compromised organizations includes a Turkish defense contractor that works with NATO, according to Diachenko.
+Security researcher Kevin Beaumont and researchers at Hudson Rock were able to further validate the scope of the credential exposure. 
+Fortinet, in a blog post Friday, said it has been working with government authorities to investigate the credential leak and has begun notifying affected customers. 
+Fortinet and CISA recommend several steps to secure environments from potential compromise:
+
+Terminate all administrative and VPN sessions and reset credentials.
+Upgrade to the latest versions of FortiGate appliances.
+Implement multifactor authentication across all administrator and VPN user accounts.
+Check logs for unexpected administrator access, suspicious accounts or unauthorized configuration changes."
+2026-07-05 19:32:24,"Published June 22, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/interpol-europol-cybercrime-cooperation-renew/823398/,"Interpol, Europol renew agreement to combat hackers and other criminals","INTERPOL and Europol have agreed on new “operational priorities” for their continuing collaboration on cybersecurity and other global threats, the two organizations said on Monday.
+“The renewed framework strengthens coordination across a range of crime areas, including organised crime, cybercrime, economic and financial crime, and counter-terrorism,” Europol said in a statement. “Developed jointly by operational experts from both organisations, the priorities are designed to support a more proactive and coordinated response to criminal networks operating across borders.”
+Top officials from both groups signed the agreement at an INTERPOL conference in Toledo, Spain, in May.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The international law enforcement organizations did not release the text of the new framework, but their 2001 agreement addresses procedures for exchanging liaison officers, sharing intelligence and other matters.
+Marshaling national forces to fight cybercrime
+The new agreement extends the close collaboration between two groups that play significant coordinating roles in botnet takedowns, hacker arrests and other operations to combat malicious cyber activity.
+INTERPOL has worked with governments in the Middle East, Asia and Africa to identify and detain cybercriminals and to dismantle their infrastructure. Europol has been even more active, partnering with member governments and others to shut down illegal cryptocurrency services, pervasive malware, phishing-as-a-service platforms and operations that made malicious software look genuine.
+Both organizations have also worked with major technology companies and private cybersecurity firms as part of their investigations.
+International partnerships have become an increasingly important tool for taking down cybercrime operations, as hackers spread their infrastructure across national borders and deploy increasingly effective obfuscation techniques."
+2026-07-05 19:32:24,"Published June 18, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/nation-state-rivals-linked-to-majority-of-consequential-attacks-targeting-c/823242/,Nation-state rivals linked to majority of consequential attacks targeting critical UK sites,"The United Kingdom’s top cybersecurity official warned that nation-state adversaries are believed to be behind the vast majority of the nation’s most serious attacks targeting critical infrastructure over the past year. 
+In a speech Wednesday, Richard Horne, CEO of the U.K.’s National Cyber Security Centre, said state actors were suspected in about 75% of the 200 attacks against critical sites that it responded to over a 12-month period ending in May. 
+Horne said the U.K. needs to rethink cybersecurity in a way that moves it from a risk that can be managed to more of a contest that needs to be fought toward victory. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+“The stakes in cyber security could not be higher,” Horne said during the annual security lecture before the Royal United Services Institute. “In cyberspace we are not preparing for tomorrow’s conflicts. To some degree we are fighting them today.”
+The U.K. has made significant changes in how it views cyber risk over the past year. The country went through a series of catastrophic attacks in 2025, most notably the multi-week disruption of Jaguar Land Rover. 
+The attack cost the U.K. economy about $2.5 billion as the automaker was forced to pause manufacturing for several weeks and send home thousands of workers from companies in JLR’s extensive supply chain. 
+U.K. authorities in January warned that pro-Russia groups were targeting critical infrastructure providers and local government entities over the war in Ukraine. 
+Cloud services and telecommunication environments must be hardened, Horne said, and steps should be taken to disrupt hackers from embedding themselves within these systems. For example, the China-linked threat actor Volt Typhoon burrowed into U.S. critical infrastructure sites throughout 2024 in preparation for potential disruptive attacks. 
+Horne said corporate leaders and board members needed to gain a better understanding of exposures within their own technology stacks and supply chains. These companies need to build more resilient systems so they can withstand the impact of an attack and maintain critical operations. 
+U.K. authorities introduced legislation to set minimum cybersecurity standards that are designed to help organizations be more capable of withstanding an attack. 
+
+
+
+
+
+
+
+
+
+
+Shift toward resilience
+The concerns raised by Horne are similar to many of the same issues facing U.S. critical infrastructure providers. 
+“Every critical infrastructure operator, no matter where they are located,” should carefully consider the issues raised by Horne, said Annie Fixler, director of the Center on Cyber and Technology Innovation at the Foundation for Defense of Democracies. 
+“Cyber has become the primary tool for nation-states to undermine rivals while maintaining plausible deniability,” Gary Bartlett, CTO at Illumio, said. “Recent conflicts, including those involving Iran and Russia, have shown how proxy groups can target adversaries and contribute to wider destabilisation efforts.”
+Nick Anderson, acting director of the Cybersecurity and Infrastructure Security Agency, echoed similar concerns during an industry conference on Wednesday, noting the U.S. critical infrastructure will face similar risks of disruption."
+2026-07-05 19:32:25,"Published June 17, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/cybersecurity-resilience-critical-infrastructure-cisa-nick-andersen/823166/,"Major critical infrastructure disruptions are inevitable, acting CISA chief says","WASHINGTON — U.S. cybersecurity resilience in the face of sophisticated threats from China and other adversaries will increasingly depend on critical infrastructure’s ability to weather major disruptions, a top U.S. cyber official said Wednesday.
+“Each and every one of us is operating right now on the front lines of a war that is never going to be cleared,” Nick Andersen, the acting director of the Cybersecurity and Infrastructure Security Agency (CISA), said at ICS Village and the Institute for Security and Technology’s Critical Effect conference.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+“We are going to see an adversarial disruption of our critical infrastructure,” Andersen said. “It's going to have significant not just technical impact, it's going to have a significant psychological impact on the safety of the American people. … We need to start operating like that's the reality of where we're at — that we're not going to be able to keep everything persistently online and available as much as we would like.”
+CISA’s emphasis on resilience marks a shift from earlier government cybersecurity doctrines that focused on preventing intrusions. In recent years, advanced nation-state hacking campaigns — especially Beijing’s Volt Typhoon espionage operation — have increasingly convinced government and industry strategists that their primary goal should be ensuring that infrastructure can continue operating during an attack.
+“We have to start making some assumptions, like [that our] telecommunications infrastructure may be disrupted,” Andersen said at the Critical Effect conference, which focused on operational technology cybersecurity issues. “Why? Because the telecommunications infrastructure is going to be disrupted.”
+To support national resilience efforts, the federal government has spent years trying to make a list of the most important infrastructure assets that accounts for complex interdependencies and supply-chain relationships. But successive administrations’ programs to identify those assets — referred to as Section 9 entities and systemically important entities — have borne little fruit.
+
+
+
+
+
+
+
+
+
+
+Cybersecurity mandates or money?
+During a question-and-answer session, Andersen addressed whether it was time for the government to require water utilities to participate in their sector’s information sharing and analysis center, the WaterISAC, which has one of the lowest participation rates of any ISAC. Andersen acknowledged that water was “a real mess of a sector for us” because of how localized it is, but he expressed skepticism that government mandates were part of the solution.
+“I don’t know yet that we will see a moment where we start to move from the voluntary to the mandatory,” he said. “The bigger part for me is, how do we apply things like state and local grant dollars in the smartest way possible?”
+CISA is working with lawmakers to reauthorize and reappropriate funds for the Department of Homeland Security’s State and Local Cybersecurity Grant Program, said Andersen, who described the program as a critical support mechanism for cash-strapped municipalities.
+Grant funding and asset prioritization are better approaches than “making things mandatory on a sector that … doesn’t have the resources to be able to adapt to all these changing norms,” Andersen argued.
+CISA’s goal, he said, was to “identify the entities, in a prioritized way, that we need to start doing that outreach to, and then, in a very deliberate way, making sure they've got … the right level of resources to help secure themselves and hit that higher standard and that higher burden that we're foisting upon them.”"
+2026-07-05 19:32:25,"Published June 17, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/california-water-utility-breach-iran-hacker/823148/,California water utility probes breach claim by Iran-linked actor,"California Water Service said it is investigating claims by an Iran-linked threat group of a cyberattack against the water utility. 
+The Iran-nexus group tracked as Handala claimed an attack against the water utility and cautioned that it deliberately avoided any attempt to disrupt the facility’s water distribution, according to Check Point Research. 
+Cal Water, the largest water utility in the western U.S., confirmed that a claim was made on June 11. It said it is continuing to investigate. 
+“We take cybersecurity and this claim very seriously and are working around the clock to investigate,” a spokesperson told Cybersecurity Dive via email.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+After learning of the claim last Thursday, Cal Water officials have been working with forensic investigators as well as federal and state law enforcement. Preliminary results show no operational disruptions to water systems or customer billing, the spokesperson said. 
+The group Handala claims the attack was retaliation for recent U.S. military operations in Sirik, Iran, according to Check Point Research. The group also claims it deliberately chose not to disrupt water services at the utility. 
+The group posted several screenshots that appear to show customer relationship management and billing systems, global navigation satellite systems, access to customer information and several internal credentials.
+Check Point Research said if the posted information is confirmed, it would indicate the hackers gained access to the utility’s information technology systems and not the operational technology systems that could control water distribution.  
+The disclosure came just days after a Utah-based water utility said it had recovered from a March attack on its facilities. Sage Energy Partners last week said it had remediated systems at its Sage Water Resources facility, which operates a salt-water disposal facility in Duchesne, Utah. 
+The company said an investigation found that a sophisticated nation-state threat actor compromised the programmable logic controllers automation system at the facility. Sage officials said the attack was consistent with a wider campaign targeting critical infrastructure across the U.S.
+
+
+
+
+
+
+
+
+
+
+As previously reported, the Cybersecurity and Infrastructure Security Agency and the FBI previously issued an advisory warning of a threat to water and energy facilities by state-linked hackers. The agencies confirmed that multiple sites had been attacked, leading to disruption and financial impacts. 
+Handala is considered one of the most notorious threat actors linked to Iran. The group claimed credit for a March attack against medical device maker Stryker.
+Federal officials seized domains linked to Handala after the group used various websites to publicize attacks and target political dissidents."
+2026-07-05 19:32:25,"Published June 17, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/cybersecurity-workforce-ai-skills-shortage/823143/,AI isn’t solving cybersecurity workforce woes,"Dive Brief:
+
+AI isn’t making cybersecurity professionals’ jobs much easier, and businesses aren’t always pairing AI spending with clear AI strategies, a new report finds.
+In addition, nearly seven in 10 cyber workers say their jobs have become more difficult over the past two years, despite the AI automation boon, according to the latest edition of a cybersecurity workforce survey by the Information Systems Security Association and Omdia.
+One-quarter of respondents said their companies had increased AI spending without clearly defining how they would integrate those AI tools into their existing processes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dive Insight:
+More than eight in 10 organizations are using AI for cybersecurity tasks or plan to do so soon, according to the report, with half of users deploying it for penetration testing and vulnerability scanning, nearly half using it to predict risks and 38% using it to detect threats.
+But those tools cannot fully replace skilled cybersecurity professionals, and the workforce that is still primarily responsible for defending enterprises is struggling with burnout and demoralization as the threat environment intensifies.
+Nearly half of cyber workers are considering leaving their job, ISSA and Omdia found, with 17% saying they think about it regularly and 30% saying they think about it occasionally. More than half say they’re thinking about leaving the industry altogether, with 20% saying they think about it regularly.
+The top reasons cited for burnout were high stress (53%), a lack of career advancement (37%), a bad work-life balance (34%) and a lack of leadership commitment to organizational cybersecurity (33%).
+That burnout is exacerbating an already-large nationwide cybersecurity skills gap, which in turn is making it difficult for businesses to secure their networks. Three-quarters of survey respondents said the skills shortage had affected their organizations, while 23% said it had had significant impacts.
+The skills shortage has had a wide range of consequences. Forty-four percent of respondents said they’d seen colleagues redirected from strategic, long-term work to emergencies because there was no one else to deal with the crisis, while similar shares of respondents cited increased workload (42%) and increased burnout (37%).
+Meanwhile, only 29% of respondents described their organizations’ cybersecurity cultures as “advanced,” with half of respondents instead rating them “average.” Workforce training, resource investments and governance improvements topped the list of steps that respondents said would improve their cybersecurity programs.
+ISSA and Omdia’s survey is based on interviews with 380 IT and cybersecurity professionals done in January and February 2026."
+2026-07-05 19:32:26,"Published June 16, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/ai-cybersecurity-incidents-governance-jamf/823026/,"AI adoption correlates with incident frequency, underscoring need for governance","Dive Brief:
+
+More than one-fifth of organizations running macOS networks have lost money or experienced a cyberattack because of their use of AI tools, according to a report that network management vendor Jamf released on Tuesday.
+Roughly six in 10 macOS-based organizations expect an AI-related incident in the near future, the survey found.
+The report, based on interviews with 687 IT and security leaders managing MacOS network environments, also describes system administrators’ AI implementation priorities, the largest areas of risk they face and Jamf’s recommendations for mitigating those risks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dive Insight:
+MacOS-based enterprises are overwhelmingly using AI, according to Jamf’s report, with roughly 73% reporting that they have deployed it already and another 20% exploring deployments. But network administrators overseeing the adoption of AI face a range of dangers.
+The biggest and best-known risk is shadow AI, which refers to employees’ use of unapproved and ungoverned AI tools. When “IT is left in the dark about what AI systems are used,” that “lack of visibility makes security and governance difficult, if not impossible,” Jamf said.
+Agentic AI is becoming popular within enterprises, but it carries risks, too. IT and security leaders said they struggled to deploy AI agents “in a way that enables users without putting data at risk,” according to the report. “With appropriate permissions, agentic AI opens serious risks to code bases if insecure or problematic code is added or necessary code is removed.”
+The wide range of AI vendors also poses a problem for tech leaders in charge of acquisition. “Vetting and deploying each possible AI tool is time consuming and difficult for IT teams, especially at the speed AI is moving,” Jamf said in its report.
+AI’s usage-based model also creates unwelcome surprises for organizations, a challenge magnified by a lack of governance that leaves IT supervisors unaware of how many paid licenses their organizations maintain and which tools are providing the best value for their cost.
+Managing these challenges requires strong AI governance, but governance ranked third on survey respondents’ list of priorities, after automating their IT management activities and using AI to improve workers’ productivity. AI security improvements ranked fifth on the list.
+Governance will become more pressing for organizations as they adopt AI more extensively. Jamf’s data highlights a correlation between the depth of an organization’s use of AI and the likelihood that it has experienced an AI-related incident. The incident rate among organizations exploring AI was less than 20%, the low end of the scale, while the rate among organizations that have “deeply integrated” AI into their workflows was 27%, the high end.
+To tamp down on AI risk exposure, Jamf recommended that organizations expand visibility through regular audits, focus on software governance rather than user governance (including through carefully enforced data-access policies), integrate governance from the earliest possible deployment stage and use built-in tools whenever possible for the most streamlined experience."
+2026-07-05 19:32:25,"Published June 16, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/critical-vulnerabilities-fortinet-fortisandbox-exploitation/823027/,Critical vulnerabilities in Fortinet FortiSandbox are under exploitation,"Researchers are warning that critical vulnerabilities in Fortinet’s FortiSandbox are under exploitation.
+Defused, a firm that tracks security vulnerabilities, on Tuesday said three separate flaws in Fortinet FortiSandbox were being exploited by attackers, according to a post on X. FortiSandbox is an AI-powered tool that is used to isolate and analyze malware and zero-day threats. 
+The first, an operating system command-injection vulnerability tracked as CVE-2026-25089, was patched on June 9. Fortinet said in an advisory that the flaw could allow an unauthenticated attacker to execute commands by using specially crafted HTTP requests. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A second OS command-injection flaw, tracked as CVE-2026-39808, could allow an attacker to execute code or commands by using specially crafted HTTP requests. That vulnerability was originally disclosed in April. 
+The third flaw is a path-traversal vulnerability, tracked as CVE-2026-39813, that allows an attacker to bypass authentication and launch an attack. It was also disclosed in April. 
+No info on victims, attackers
+Researchers at Defused thus far do not have information on who may be behind the attacks, nor is there any information on whether customers were directly impacted, or what post-exploitation activity was taking place. 
+The threat activity marks the latest to face Fortinet in recent months. In April, a critical zero-day flaw in FortiClient Endpoint Management Server was targeted in attacks. The company released an emergency hotfix."
+2026-07-05 19:32:26,"Published June 15, 2026",CyberSecurityDive,https://www.cybersecuritydive.com/,https://www.cybersecuritydive.com/news/ms-isac-membership-loss-states-federal-funding-cut/821984/,MS-ISAC enters uncertain new era after losing federal funding and thousands of members,"Eight months after the Multi-State Information Sharing and Analysis Center lost its federal funding, the cybersecurity threat intelligence sharing group for state and local governments has lost dozens of states and more than ten thousand local jurisdictions that can no longer afford its vital cybersecurity services, even as the hacking threats they face have grown more numerous and more dangerous.
+The MS-ISAC, run by the nonprofit Center for Internet Security (CIS), says it’s working hard to recruit new members, including through discounted fees, and it stresses that it’s still collecting enough data from its remaining members to produce high-quality cyber threat intelligence for that community. But the MS-ISAC’s membership drain could leave thousands of small jurisdictions and their critical infrastructure more vulnerable to nation-state sabotage and ransomware attacks — local impacts that could resonate nationally at a time when China and Iran are using cyberattacks as a tool of foreign policy in their conflicts with the U.S.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+“Community security is national security,” said Sarah Powazek, program director of public interest cybersecurity at the UC Berkeley Center for Long-Term Cybersecurity. “I cannot overstate the local instability caused by critical services [being] forced offline by a cyberattack — schools close, water stops flowing and public life grinds to a halt.”
+Experts say the MS-ISAC’s struggles are a stark example of how the Trump administration’s abandonment of traditional federal responsibilities is undermining U.S. cybersecurity.
+“Just as the threat environment is poised to accelerate at an exceptional rate,” Samir Jain, the vice president of policy at the Center for Democracy and Technology, said at a recent House hearing, “the federal government has dramatically pulled back.”
+Membership cut by more than half
+For more than 20 years, federal subsidies allowed the MS-ISAC to offer free memberships to state and local governments. But after the Department of Homeland Security (DHS) abruptly canceled that funding last year, the group had to start charging membership fees. Between cities and counties that couldn’t afford the new fees and states that had already passed budgets for the year, the MS-ISAC’s membership roster plummeted.
+Today, 21 states, two territories and roughly 2,700 local jurisdictions — including cities, counties, school districts, library systems, hospitals and police departments — are members of the MS-ISAC, according to CIS. Fifteen states pay for memberships that include all of their localities, adding another 2,895 organizations to the group. That puts the current total at 5,618 organizations. On the day that the MS-ISAC lost its federal funding, it had 18,574 total members, including all 56 states and territories. Since then, it has lost roughly 70% of its membership.
+
+
+
+
+
+
+
+
+
+
+Connecticut found the money to cover the unexpected new MS-ISAC expense, but “we are not sure if we will be able to continue,” said John McKay, a spokesman for the state’s administrative-services agency. Virginia is hammering out a new membership agreement but has had to “scale down our agreement due to the loss of federal funding,” said Jennifer Guild, a spokeswoman for the state’s IT agency.
+Washington State’s budget deficit forced it to leave the MS-ISAC, depriving nearly 500 local entities of “a shared operating picture,” said Vickie Sheehan, the communications director for the state’s technology agency.
+Meanwhile, Kentucky left the MS-ISAC after reviewing its own cybersecurity programs and determining that a membership “did not represent an effective return on investment,” said Kinsey Woodson, the communications director for the state’s finance division.
+Colorado and Michigan also said they left the group.
+
+In an interview with Cybersecurity Dive, CIS president and CEO John Gilligan said he considered it a “huge success” that the MS-ISAC had been able to retain almost half of its state members. “Given the short notice, the lack of planning for funding [and] the fact that the states and the local jurisdictions are generally under severe financial pressures, we’re not far from what our projections were.”
+CIS continues to subsidize MS-ISAC fees for some of the nation’s smallest localities. The group has 1,592 “tier one” jurisdictions — those with annual operating budgets below $25 million — and 254 of them receive subsidies, in the form of either free memberships or discounted rates.
+Thousands of localities still haven’t canceled or begun paying for their memberships. “In the last month, we have begun to offboard them,” Gilligan said, starting with jurisdictions that don’t use many of the MS-ISAC’s services.
+Growing risks to state and local infrastructure
+The MS-ISAC’s services form a major protective barrier for many U.S. states and cities. Losing those protections could dramatically weaken their cyber defenses, leading to more disruptions at local hospitals, courts, water systems and emergency-dispatch centers and increasing the risk of regional or national cyber crises.
+Many local governments already struggle to fund essential services like water, trash collection and emergency services. Every new expense threatens to upend that delicate balancing act. “It’s definitely creating challenges that folks were hoping they would not have to face,” said John Matelski, chief information officer and managing director at the National Association of Counties.
+Even larger counties may struggle to afford the MS-ISAC’s fees. “They may have more in their coffers, but they also have more things in their queue,” Matelski said. “This really isn’t a big-versus-small issue. It really is an issue that affects everybody.”
+Organizations that leave the MS-ISAC lose access to a vast network of cyber threat data that is vital for maintaining situational awareness amid growing threats. The group publishes alerts about ransomware attacks, shares indicators of compromise for intrusion campaigns and recommends defensive measures.
+“Without these types of services,” Matelski said, “we’re all just that much more vulnerable.”
+
+
+
+
+
+
+
+
+
+
+
+Local governments that lose access to MS-ISAC services and intelligence will also struggle to maintain affordable cyber insurance or get payouts after incidents, because insurers consider factors like ISAC membership and access to third-party incident-response support.
+The Cybersecurity and Infrastructure Security Agency (CISA) might be able to fill part of the void left by the loss of MS-ISAC services, but over the past 16 months, the Trump administration has dramatically downsized CISA and reorganized its partnership programs, leaving many state and local officials unsure of how much they can rely on the agency. (CISA “communicates with our state and local partners regularly and provides them with timely threat intelligence, expertise, no-cost tools and resources,” Christine Serrano Glassner, the agency’s chief external affairs officer, told Cybersecurity Dive.)
+Some lawmakers want to act. Senate Intelligence Committee ranking member Mark Warner, D-Va., has drafted a bill that would require the government to resume funding the MS-ISAC. “Defunding critical infrastructure protections has led to information silos and deprived communities across the nation of the ability to collaborate on securing our critical infrastructure,” Warner wrote to DHS Secretary Markwayne Mullin
+Funding loss transforms MS-ISAC
+The loss of federal subsidies has sparked several changes at the MS-ISAC.
+Facing a tighter budget, the Center for Internet Security reduced staff at the ISAC and began looking for ways to automate more tasks. The onboarding process now involves a self-guided tour through a portal rather than a human-led welcome session. “We’ve put a lot more emphasis” on automation, Gilligan said, “because we just don’t have as many people to do the the outreach activities.”
+At the same time, the MS-ISAC says it’s still receiving plenty of threat intelligence from its members and publishing a steady stream of reports and guidance based on that data. The group collects telemetry from roughly 400,000 endpoint security devices, thousands of protective DNS users and nearly 1,100 intrusion-detection sensors, although all three of those data sources have seen slight dips as state and local governments have canceled their memberships.
+“We’re getting as good quality threat information as we have in the past,” Gilligan said. “We’ve actually increased the analysis and the breadth of types of reporting that we’ve been providing to the state and local community.”
+Still, the loss of federal subsidies has ratcheted up the pressure on CIS, which spent roughly $1 million per month subsidizing the MS-ISAC in 2025. Gilligan said the nonprofit still provides “some subsidies” to the ISAC, but he wouldn’t say for how long that would continue. “We’re looking at the end of this year to start seeing more stability.”
+To demonstrate its value to current and prospective members, the MS-ISAC is touting its focus on the full spectrum of physical and cyber threats facing state and local governments; educating a wider range of local leaders outside of IT and security offices; and pushing a “whole-of-state” model that encourages states to extend their memberships to typically overlooked entities such as court systems and legislatures.
+
+
+
+“It’s definitely creating challenges that folks were hoping they would not have to face.”
+
+
+John Matelski
+Chief Information Officer and Managing Director, National Association of Counties
+
+
+
+Pivotal summer
+The summer months will prove a crucial test of the MS-ISAC’s ability to demonstrate its value. When many states’ annual budgets take effect on July 1, CIS hopes to see them include money for membership fees.
+At the local level, meanwhile, IT and cybersecurity leaders are scrambling to fund either MS-ISAC memberships or replacements. “There is still concern about, how do we maintain some level of minimum baseline cyber capability?” Matelski said.
+Meanwhile, questions remain about the long-term viability of CIS’s subsidies to cash-strapped jurisdictions. If those discounts end, experts said, local governments’ cybersecurity woes will skyrocket.
+With foreign adversaries constantly probing U.S. networks for weaknesses, some state leaders say the federal government’s attempts to distance itself from the MS-ISAC will only make things worse.
+“No state can tackle cyber defense alone,” said Colin Ahern, New York State’s director of security and intelligence. “These moves will shrink visibility, reduce information sharing and threaten operational collaboration at a time when we can least afford it.”"

@@ -1,964 +1,625 @@
 fetchingDate,creationDate,author,authorLink,articleLink,articleTitle,articleText
-2026-06-14 18:31:27,"June 13, 2026 (11:52 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/,NPM 12 Will Change Script Execution Behavior to Prevent Supply Chain Attacks,"In response to a recent wave of supply chain attacks targeting the NPM ecosystem, GitHub announced that scripts from dependencies will no longer be executed by default.
-Multiple major incidents that occurred over the past several months, mainly associated with TeamPCP and the Shai-Hulud self-replicating worm, have been abusing the default, automatic execution of scripts from dependencies during npm install to infect thousands of developers with malware.
-
-
-
-To better protect users, starting with NPM version 12, which is expected to arrive in July, script execution will be blocked by default, GitHub announced.
-
-
-
-“npm install will no longer execute preinstall, install, or postinstall scripts from dependencies unless they are explicitly allowed in your project,” the code-sharing platform explains.
-
-
-
-The change will also impact native node-gyp builds, such as packages that have a binding.gyp and no explicit install script, as well as prepare scripts from git, file, and link dependencies. The recent Shai-Hulud Miasma attacks relied on a weaponized binding.gyp file.
-
-
-
-To check how the upcoming change will impact their projects, developers can run npm approve-scripts –allow-scripts-pending, and allow the packages they trust and block the rest, to obtain an allowlist that is written to package.json.Advertisement. Scroll to continue reading.
-
-
-Once the JSON is committed, developers using NPM version 11.16.0 or above will receive warnings if their install routine executes scripts.
-
-
-
-Additionally, GitHub explains, Git dependencies (direct or transitive) will no longer be resolved at npm install, unless explicitly allowed.
-
-
-
-“This closes a code-execution path where a Git dependency’s .npmrc could override the Git executable, even with –ignore-scripts,” the platform notes.
-
-
-
-Similarly, dependencies from remote URLs will no longer be resolved in NPM version 12. This includes HTTPS tarballs (direct or transitive), but developers can allow them via the –allow-remote flag, which has been available since version 11.15.0.
-
-
-
-“Upgrade to NPM 11.16.0 or later, run your normal install, and review the warnings. Use npm approve-scripts –allow-scripts-pending to see which packages have scripts, approve the ones you trust, and commit the updated package.json. After that, only the scripts you approved keep running once you upgrade,” GitHub notes.
-
-
-
-Related: Over 5,500 GitHub Repositories Infected in ‘Megalodon’ Supply Chain Attack
-Related: Supply Chain Attack Hits 32 Red Hat NPM Packages
-Related: GitHub Confirms Hack Impacting 3,800 Internal Repositories
-Related: Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack"
-2026-06-14 18:32:11,"June 13, 2026 (2:38 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/anthropic-says-it-has-taken-its-latest-ai-models-offline-to-comply-with-new-export-controls/,Anthropic Says It Has Taken Its Latest AI Models Offline to Comply With New Export Controls,"AI giant Anthropic said Friday it has taken its latest artificial intelligence models, known as Fable 5 and Mythos 5, offline to comply with a directive from the Trump administration to prevent their use by foreign nationals.
-The export controls mark the U.S. government’s most significant step to date to restrict access to the most advanced AI models. Anthropic released Fable widely this week. That model is a limited version of the even more advanced Mythos, to which the company has tightly limited access due to cybersecurity fears.
-
-
-
-In a statement, Anthropic said it disagrees with the government’s handling of the matter, saying it received the directive from the U.S. government Friday afternoon and it did not specify the national security concerns. “We believe the government should have the ability to block unsafe deployments, as part of a statutory process that is transparent, fair, clear, and grounded in technical facts,” the company said. “This action does not adhere to those principles.”
-
-
-
-Anthropic called it a “misunderstanding” and said it hopes to restore access to the models “as soon as possible.”
-
-
-
-The Commerce Department did not immediately respond to a request for comment.
-
-
-
-The action comes 10 days after President Donald Trump signed an executive order to establish a framework for the federal government to vet the national security risks of the most advanced AI systems for up to a month before their public release. Participation by AI developers would be voluntary, the order said.Advertisement. Scroll to continue reading.
-
-
-Related: Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation
-Related: Industry Reactions to Claude Fable 5: Feedback Friday
-Related: Anthropic Disputes Fable 5 AI Jailbreak"
-2026-06-14 18:32:48,"June 12, 2026 (12:17 PM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/in-other-news-google-security-layoffs-audia6-takedown-400-million-coupang-fine/,"In Other News: Google Security Layoffs, AudiA6 Takedown, $400 Million Coupang Fine","SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape.
-
-
-
+2026-07-05 19:33:40,"July 3, 2026 (11:10 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/,"In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting","SecurityWeek’s cybersecurity news weekly roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape.
 This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment.
 
 
 
 Here are this week’s highlights:
-IBM and AT&T accused of hack cover-ups
-A former IBM cybersecurity executive has filed a lawsuit accusing IBM and AT&T of covering up repeated foreign government-linked hacks on their systems. According to the whistleblower, the companies failed to properly disclose multiple breaches to the US government over several years. He alleges they instead provided false assurances about their security posture to secure and maintain valuable federal contracts, in violation of legal requirements.
+Anonymous-linked hacker Aubrey Cottle jailed over Texas GOP cyberattack
+Aubrey Cottle, a Canadian hacker associated with the hacktivist group Anonymous, has been sentenced to 18 months in prison for his involvement in a cyberattack on the Texas Republican Party’s website in September 2021. Cottle, 39, of Oshawa, Ontario, pleaded guilty to defacing the website, exfiltrating data from a Texas GOP server, and publishing the data online.
 
 
 
-Advertisement. Scroll to continue reading.
+14 million impacted by KDDI data breachAdvertisement. Scroll to continue reading.
 
 
+Japanese telecoms provider KDDI has disclosed (PDF) a data breach likely impacting the email addresses and passwords of 14,22 million people. The incident affected five ISP operators, including BIGLOBE, Chubu Telecommunications C., JCOM Co., NIFTY Corporation, and STNet. 
 
-University of Oxford impacted by CareerConnect data breach
-The University of Oxford disclosed a data breach related to the CareerConnect careers service. Hackers accessed the platform and compromised names, email addresses, and encrypted passwords. The incident impacts alumni, research staff, and employer user accounts, but not students, who rely on Single Sign-On (SSO) to log in.
 
 
+Push Security targeted in poisoned tenant attack
+Three years after detailing the poisoned tenant attack, Push Security was targeted using the technique via OpenAI’s organization invitation feature. Multiple employees received an OpenAI invitation to join Push Security Inc. After they would join the tenant, the attacker could spy on their activities or target them with further social engineering. 
 
-Google Threat Intelligence Group and Mandiant layoffs
-Google Cloud has reportedly initiated a round of layoffs impacting its cybersecurity division, specifically targeting members of the Mandiant team and the Google Threat Intelligence Group (GTIG). Google has not confirmed the exact number of affected employees, and it has not responded to SecurityWeek’s request for comment. 
 
 
+Rust-based PamStealer targeting macOS
+Jamf has detailed PamStealer, an information stealer targeting macOS that validates the harvested credentials via Pluggable Authentication Modules (PAM) before using them. The malware is distributed as a compiled AppleScript file impersonating the open source clipboard manager Maccy.
 
-Microsoft issues incident response playbook for AI
-Microsoft has released a new practitioner’s playbook detailing how to investigate security incidents involving Microsoft 365 Copilot and Azure AI Services. The document provides security teams with structured methodologies to track and analyze potentially malicious activity within these environments. The resource is designed to help defenders adapt their traditional response workflows to the unique telemetry of modern AI platforms.
 
 
+Russian hackers behind the 2025 Jaguar Land Rover hack
+The cyberattack that severely disrupted Jaguar Land Rover’s operations in September 2025 was mounted by Russian hackers, The New York Times says. Microsoft reportedly notified the car manufacturer about the hacking group, with Mandiant, Palo Alto Networks, and US and UK law enforcement agencies also involved in the investigation. 
 
-CISA mandates patching for actively exploited LiteLLM flaw
-CISA has added CVE-2026-42271, a critical command injection vulnerability in the AI gateway BerriAI LiteLLM, to its Known Exploited Vulnerabilities (KEV) catalog due to evidence of active exploitation in the wild. There does not appear to be any information on the attacks exploiting the vulnerability. 
 
 
+Pegasus spyware targeted a European Parliament member investigating it
+Former member of the European Parliament Stelios Kouloglou was hacked with NSO Group’s Pegasus spyware while he was investigating Pegasus abuse cases, as part of the PEGA committee, Citizen Lab discovered. The targeting has not been attributed to a specific government, and there is no evidence that the Greek Government was involved. 
 
-Regulators issue $400 million penalty over Coupang data leak
-The South Korean Personal Information Protection Commission (PIPC) has imposed a record $400 million fine on Coupang due to widespread security failures and data handling violations that exposed the personal information of more than 30 million customers. Investigations revealed critical deficiencies in access controls and authentication key management. Coupang plans to appeal the fine. 
 
 
+Researcher drops dozens of zero-days in open source projects
+A researcher known as Bikini has published proof-of-concept (PoC) code targeting dozens of zero-day vulnerabilities in multiple open source projects, including FFmpeg, Gogs, Gitea, Ghidra, 7-Zip, OpenVPN, and VLC. Nine of the security defects have been assigned a CVE identifier. The issues, the researcher says, were surfaced via LLM fuzzing. 
 
-Nokia debuts automated edge defense for proxy botnets
-Nokia has introduced Deepfield Genome Shield, an automated security platform designed to proactively defend against massive DDoS attacks driven by residential proxy botnets. The system mitigates threats from an estimated 200 million compromised devices by disrupting botnet command-and-control communications directly at the network edge. 
 
 
+Pro-Russia influence operations are shifting
+Four years into Russia’s invasion of Ukraine, pro-Russia influence operations are shifting from their single focus on Ukraine to pre-war objectives, Google says. Covert pro-Russia influence operations are targeting the US, European Union members, NATO, Russia’s neighbors, the Middle East and Africa, and internal entities. They focus on global events, elections, the war in Ukraine, and emerging geopolitical developments and events, and are increasingly relying on generative AI. 
 
-ICS device exposure remains flat as attack surface widens
-Bitsight’s 2026 Global State of ICS/OT Exposure report indicates that internet-facing industrial control systems (ICS) have plateaued at roughly 170,000 monthly exposures. Despite this flat count, the overall risk profile is expanding because modern ICS increasingly support non-traditional protocols such as SSH, HTTP, and MQTT alongside legacy protocols, widening the attack surface and making defenders’ jobs more challenging. 
 
 
+Venezuelans sentenced in the US over ATM jackpotting
+Two illegal aliens from Venezuela, Carlos Javier Padron, 36, and Arnoldo Cabrera Torrealba, 37, have been sentenced to 78 months in prison in the US for their involvement in ATM jackpotting activities. As part of a sophisticated criminal group, they built and deployed a variant of the Ploutus malware on ATMs across the US and used it to withdraw money without authorization. They were also ordered to jointly pay $1.5 million in restitution. 96 other defendants have been charged over their roles in the operation. 
 
-ENISA shifts focus to collective EU resilience
-The European Union Agency for Cybersecurity (ENISA) is centering its Cyber Europe 2026 exercise on enhancing collective response capabilities across the region. The focus highlights an ongoing effort to evaluate and strengthen the cooperative resilience of EU member states against large-scale cyber incidents. This strategic direction aims to ensure that European infrastructure can withstand and rapidly recover from coordinated, transnational digital threats.
 
 
+Cisco and Synology patches
+Cisco has released fixes for seven ClamAV vulnerabilities impacting Secure Endpoint Connector for Windows, Linux, and macOS, and Secure Endpoint Private Cloud, and for one flaw in Catalyst Center. Synology resolved three security defects in MailPlus Server, including two critical bugs that could allow attackers to read or write arbitrary files and cause DoS conditions.
 
-Global operation takes down crypto laundering service
-An international law enforcement coalition supported by Europol and Eurojust has dismantled AudiA6, a prominent cryptocurrency laundering network that laundered over $388 million for ransomware actors between 2022 and 2025. The operation disrupted an industrial-scale scheme that funneled illicit digital assets through thousands of fake exchange accounts opened with stolen identities. Additionally, authorities seized the platform’s web infrastructure and successfully shuttered Dark2Web, an underground cybercrime forum managed by the same operators to connect threat actors globally.
 
 
+Join the AI Risk Summit | Ritz-Carlton, Half Moon Bay"
+2026-07-05 19:34:21,"July 3, 2026 (7:00 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/,Agentic AI Used to Conduct Ransomware Attack via Langflow,"A threat actor exploited a vulnerability in Langflow to access an organization’s instance and abuse it in an agentic ransomware attack, cloud security firm Sysdig reports.
+Langflow is a Python-based, LLM-agnostic open source framework used for building LLM-driven applications and agent workflows.
 
-Related: In Other News: Industrial Router Exploitation, CISA KEV Nomination Form, Gas Station Hacking
-Related: In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA"
-2026-06-14 18:33:28,"June 12, 2026 (8:30 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/industry-reactions-to-claude-fable-5-feedback-friday/,Industry Reactions to Claude Fable 5: Feedback Friday,"Claude Fable 5 has become generally available, with Anthropic unveiling it as a powerful Mythos-class AI model. The release includes robust safeguards that restrict its capabilities in high-risk domains.
-In sensitive areas such as cybersecurity (where it could be misused to create exploits) and biology (where it could assist in developing bioweapons or chemical weapons), Fable 5 automatically falls back to the less capable Claude Opus 4.8.
 
 
+As part of the attack, a threat actor tracked as JadePuffer gained access to an internet-exposed Langflow instance through the exploitation of CVE-2025-3248 (CVSS score of 9.8), a critical missing authentication vulnerability disclosed in April.
 
-Anthropic stated that it performed extensive internal and external red-teaming to ensure the model is highly resistant to jailbreaking.
 
 
+Successful exploitation of the bug allows attackers to execute arbitrary Python code on the host on which Langflow is running. CISA flagged the flaw as exploited in early May.
 
-[ Read: Anthropic Disputes Fable 5 AI Jailbreak ]
-Industry professionals have commented on various aspects of the new Fable 5, including dual-use offensive and defensive cyber capabilities, safeguards, tiered access for select partners, a premium price tag creating a security poverty line, and the urgent need for proactive AI governance and faster defender adaptation.
 
 
+After gaining code execution, JadePuffer used the LLM for reconnaissance and swept the system for secrets, including API keys, cloud credentials, cryptocurrency wallets, configuration files, and database credentials.
 
-And the feedback begins…Advertisement. Scroll to continue reading.
 
 
-Greg Heon, VP, Product Strategy, Armadin: 
+Next, the threat actor dumped Langflow’s Postgres database to harvest the secrets in it, scanned the reachable internal address space and named services, probed for MinIO addresses for further credential extraction, and deployed a cron job for persistent access to the Langflow server.Advertisement. Scroll to continue reading.
 
 
+Throughout this initial phase, the LLM was observed adapting its actions in real time to complete tasks, extract credentials from different file types, and log into discovered endpoints.
 
-“The same massive investments that made AI models dramatically better at writing code have made them dramatically better at finding and exploiting vulnerabilities — those are two sides of the same capability, and the labs have poured tens of billions of dollars into it. Every enterprise should now be preparing for machine-speed, AI-orchestrated hyperattacks: campaigns that chain reconnaissance, discovery, exploitation, and lateral movement faster than any human defender can react. 
 
 
+During the second phase of the attack, JadePuffer used the LLM to pivot to a production server hosting a MySQL database and an Alibaba Naming and Configuration Service (Nacos) configuration platform.
 
-Preparing isn’t a tabletop exercise. It means testing your real attack surface against these techniques, and it means starting on the perimeter today — not just running tests in sandboxed pre-production environments that look nothing like what a real attacker sees. 
 
 
+Widely used in Alibaba microservice architectures, Nacos has been plagued by various security bypasses and uses a well-known default JWT signing key that allows for easy token forgery.
 
-The frontier labs are gating their most capable models specifically because of cyber risk. That should tell every CISO exactly where this is heading — and why the time to test against it is now, not after tomorrow’s AI-powered adversary launches a hyperattack.”
 
 
+Lateral movement and encryption
+JadePuffer connected to this server using a payload that contained root credentials for the MySQL port and abused the LLM to target the Nacos service through multiple vectors.
 
-Myke Lyons, CISO, Cribl:
 
 
+“That includes exploiting the auth-bypass family (CVE-2021-29441), forging a valid JWT using Nacos’s well-known default signing key, and, with root database access, injecting a backdoor administrator directly into the Nacos backing database,” Sysdig explains.
 
-“This is the emerging trend: develop cutting-edge models, highlight their risks, release a ‘safer’ version to the public, and reserve the unrestricted version for select partners. Anthropic’s rollout mirrors this pattern. Expect OpenAI, Google, and Meta to follow suit, creating a tiered model ecosystem. This isn’t just about safety. It’s about positioning. The real question for enterprises isn’t whether their AI vendor includes safety mechanisms, but whether they’re prepared to handle the unrestricted tier.
 
 
+During the attack, the LLM adjusted the payload to pass login verification, checked for User Defined Functions (UDF), which can lead to OS command execution, and issued a completion marker before ransomware deployment.
 
-On the defensive side, Fable 5 enables capabilities like long-term threat monitoring, large-scale account research, and automation of complex processes. On the offensive side, Mythos-class models demonstrate sophisticated agentic hacking capabilities, including autonomous reconnaissance, lateral movement, and exploitation. The most concerning aspect is the imbalance: defenders are constrained by procurement cycles and compliance processes, while attackers only need an account.
 
 
+Next, it encrypted 1,342 Nacos service configuration items and created an extortion table containing the ransom demand, a payment address, and a contact email address. The encryption key was randomly generated but never persisted or transmitted, essentially preventing data recovery.
 
-AI capabilities are advancing faster than security teams can adapt. Security leaders need to treat this as a wake-up call: AI governance must be dynamic and proactive, not reactive. Falling behind now means playing catch-up indefinitely.”
 
 
+“Captured payloads show the LLM escalating from row-level deletion to dropping entire database schemas, narrating its own targeting rationale,” Sysdig notes.
 
-Ben Bernstein, Cybersecurity Advisor, Huntress:
 
 
+The payloads analyzed by the cybersecurity firm contained natural-language commentary on each action, indicative of LLM-generated code. Furthermore, they showed how the LLM corrected its actions to address failures and provide accurate diagnoses.
 
-“Fable comes with a serious premium price tag compared to standard public models, which instantly prices out a lot of smaller organizations. We’ve dealt with this ‘security poverty line’ for years when it comes to prohibitively expensive security tooling, but Fable is really just the latest iteration of that exact problem. 
 
 
+“During the operation, the LLM parsed free-text context presented by the target and took an action that only makes sense if that text was read and understood, rather than pattern-matched by a scanner. This behavior recurred across sessions weeks apart,” Sysdig notes.
 
-The danger isn’t just that these smaller teams are missing out on a cool new tool; it’s that threat actors are using these AI advancements to drastically accelerate how they hunt for the same low-hanging fruit they always have: misconfigurations, exposed systems, and unpatched vulnerabilities. 
 
 
+According to the company, this attack shows that LLM agents significantly lower the barrier for malicious operations, which now require a capable model rather than a capable human. The AI combined known techniques in a successful attack against neglected infrastructure, with close to zero cost to the attacker.
 
-So, while the Fortune 500 and well-funded cyber criminals, organized crime, and nation-states are leveraging this premium tier of AI to either defend or attack at machine speed, historically under-resourced teams are going to be facing a massive, automated wave of threats without the budget for the advanced security tooling, or the human talent, required to keep up.”
 
 
+“Defenders should expect the volume and breadth of such campaigns to rise as agentic tooling matures, and they should treat exposed application servers, unhardened configuration stores, and internet-facing database admin accounts as the first surfaces that will be attacked,” Sysdig notes.
 
-Noelle Murata, Chief Operating Officer at Xcape, Inc:
 
 
+Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
 
-“Anthropic’s broad commercial release of Claude Fable 5 represents a calculated pivot in the frontier AI landscape: attempting to monetize elite, long-horizon reasoning architecture while strictly walling off its most “hazardous” capabilities. By implementing an aggressive, real-time classifier system that automatically downgrades high-risk cybersecurity, biochemical, or model-distillation requests to the less powerful Claude Opus 4.8 framework, Anthropic is trying to fulfill its commercial obligations without turning a public LLM into an on-demand zero-day factory.
+Related: Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution
+Related: ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials
+Related: Frontier AI: Six Questions Every Enterprise Should Ask Security Vendors
+Related: The AI Token Costs That Can Break Cybersecurity"
+2026-07-05 19:35:00,"July 3, 2026 (6:00 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/,Medtronic Data Breach Impacts 3.8 Million People,"Medical technology giant Medtronic is notifying more than 3.8 million individuals that their personal and medical information was compromised in a recent data breach.
+The incident occurred in April 2026, when the infamous extortion group ShinyHunters accessed the company’s corporate IT systems.
 
 
 
-However, this bifurcated release strategy highlights a growing divergence in enterprise defense. While everyday enterprise customers gain access to Fable 5’s highly advanced software engineering and long-running autonomous logic, Claude Mythos 5 remains exclusively accessible to a tight cohort of government intelligence agencies and select critical infrastructure defenders under Project Glasswing. This means the actual “cybersecurity tier” of this technology remains behind sovereign closed doors, leaving commercial security teams to defend against an increasingly automated threat landscape without the same unrestricted analytical tools being deployed by nation-state actors.”
+Medtronic confirmed the attack in late April, noting that its products and manufacturing and distribution operations were not affected.
 
 
 
-Varin Khera, Co-Founder and CTO, SECStrike.ai:
+ShinyHunters had added the company to its Tor-based leak site on April 17, claiming the theft of over 9 million records of personal information, and terabytes of corporate data.
 
 
 
-“Anthropic has reported a roughly 5% false positive rate for the Fable 5 model, and I would expect those safeguards to improve over time. 
+The group has since removed Medtronic from the website, which suggests that the company might have paid a ransom to recover the stolen information.
 
 
 
-However, in our testing, we observed significantly more instances where legitimate security prompts triggered the guardrails, terms central to routine defensive work like CVEs and impact analysis frequently triggered the fallback mechanism, routing queries to Claude Opus 4.8. 
+This week, the medical technology titan started sending written notification letters to the affected individuals, confirming that the hackers stole patients’ personal and medical information, including names, contact details, dates of birth, Social Security numbers, and health-related details.Advertisement. Scroll to continue reading.
 
 
+“We have no evidence that any of that information was posted publicly or exposed on the internet,” reads a copy of the company’s notification letter (PDF) submitted to the California Attorney General’s Office.
 
-The challenge is that cybersecurity professionals are locked out of the model precisely when their work demands it most.”
 
 
+Medtronic told the Indiana Attorney General’s Office that 3,834,294 individuals were affected by the incident.
 
-Jacob Krell, Senior Director: Secure AI Solutions & Cybersecurity, Suzu Labs:
 
 
+The company is providing them with 24 months of free credit monitoring, dark web monitoring, and identity theft restoration services.
 
-“Anthropic filed for its IPO on June 1 and launched Fable 5 eight days later at double the Opus token rate. The benchmark gains are real but concentrated in frontier-hard tasks. SWE-bench Pro jumps 11 points, from 69.2% to 80.3%. On routine work the gap shrinks to near-parity, and cost-per-solve still favors Opus 4.8 at $1.45 vs $2.49 per solved task.
 
 
+“Medtronic has implemented additional safeguards and continues to work with third-party cybersecurity experts to identify opportunities to further strengthen the security of its systems. Medtronic has also worked with law enforcement and is notifying relevant regulatory authorities,” the company said.
 
-The token economics compound the pricing. Fable 5 burns tokens at twice the Opus rate. A BleepingComputer reviewer exhausted a $100 daily allocation in nine minutes running Anthropic’s workflow mode. At $10/$50 per million tokens, heavy agentic work can clear three figures a day.
 
 
+Related: Aflac Japan Data Breach Impacts 4.38 Million
+Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack
+Related: More Klue Breach Victims Identified as Hackers Get Hacked
+Related: Xsolis Data Breach Affects 1.4 Million Individuals"
+2026-07-05 19:35:34,"July 3, 2026 (5:30 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/,Alleged Scattered Spider Hacker Extradited to US,"A dual US-Estonian citizen was extradited to the US to face charges for his alleged involvement in the activities of the infamous hacking group Scattered Spider.
+The individual, Peter Stokes, 19, also known as ‘Bouquet’, was arrested in Finland in April while boarding a flight to Japan. He was indicted with counts of conspiracy, computer intrusion, and fraud.
 
-I do complex offensive cybersecurity tasks on Opus 4.6. No cybersecurity classifier. No mandatory data retention. Fable 5 charges double, blocks those queries, and redirects them to Opus 4.8.
 
 
+In May 2025, together with other co-conspirators, Stokes allegedly hacked a luxury jewelry retailer’s computer system, stole data from it, and demanded an $8 million ransom in cryptocurrency from the victim.
 
-Anthropic needs to show public-market investors it can monetize a $965 billion valuation. Fable 5 doubles per-token revenue. The cybersecurity gains are locked behind Project Glasswing.
 
 
+While the retailer managed to evict the hackers from its network and no ransom was paid, the attack led to business disruption, which, together with the investigation and mitigation actions, caused at least $2 million in losses.
 
-Everyone else pays double and gets Opus 4.8 responses on security queries.”
 
 
+Also tracked as 0ktapus, Muddled Libra, Octo Tempest, Starfraud, Scatter Swine, and UNC3944, Scattered Spider is believed to have hacked at least 100 organizations and to have received over $100 million in ransom payments from its victims.
 
-Gidi Cohen, CEO & Co-founder, Bonfy.AI:
 
 
+The group is known for its widespread 2025 Salesforce hacking campaign and for the 0ktapus campaign, which hit over 130 organizations in 2022.Advertisement. Scroll to continue reading.
 
-“The most honest thing Anthropic has done here is ship one model as two products. Splitting Fable 5 and Mythos 5 is an acknowledgment that capability and safety are in genuine tension — and that pretending otherwise doesn’t serve anyone.
 
+Over the past several years, authorities charged, arrested, and sentenced multiple alleged members of the hacking group. In April this year, UK national Tyler Robert Buchanan pleaded guilty in the US for his role in the Scattered Spider operations.
 
 
-But the most important line in the entire announcement isn’t about the classifiers. It’s buried in the operational detail: a high-severity vulnerability found by the model takes about two weeks to patch on average. Meanwhile, Mythos Preview built working exploits from a disclosed CVE in under a day.
 
+In September last year, after making the headlines for high-profile attacks against the retail, insurance, and aviation industries, Scattered Spider announced its retirement.
 
 
-That gap is where risk lives. And no classifier closes it.
 
+Related: Third DraftKings Hacker Sentenced to 18 Months in Prison
+Related: Admins of Bulletproof Hosting Service Used by Russian Hackers Arrested in Netherlands
+Related: Canadian Man Arrested for Operating Kimwolf Botnet
+Related: Karakurt Ransomware Negotiator Sentenced to Prison"
+2026-07-05 19:36:16,"July 3, 2026 (4:13 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/,"Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices","Google, the FBI, and other organizations coordinated in a joint effort to dismantle NetNut, a massive residential proxy network.
+Also known as Popa, NetNut is believed to consist of more than 2 million Android devices such as smart TVs and streaming boxes, that have been infected through trojanized applications and malware such as Badbox 2.0.
 
 
-This makes concrete what the CSA data showed last week: enterprises aren’t failing because they can’t detect vulnerabilities. They’re failing because they can’t act on them fast enough. AI has collapsed the attacker’s timeline to hours. The defender’s timeline hasn’t moved.
 
+The network’s operator, linked to the publicly-traded Israeli firm Alarum Technologies Ltd, rented the residential proxies to various threat actors, including cybercriminal and espionage groups.
 
 
-Anthropic is right that the defensive head start only matters if the industry uses it. The harder truth is that most enterprises aren’t yet equipped to — not because the tools don’t exist, but because the governance architecture to deploy them safely hasn’t kept pace with the capability.”
 
+In a single week in June, Google observed 316 distinct threat clusters using NetNut to hide their locations in password-spray attacks and to access victim environments.
 
 
-Devin Maguire, Senior Manager, Product Marketing, Cycode:
 
+“We believe our coordinated actions have caused significant degradation to NetNut’s proxy network and its business operations, reducing the available pool of devices for the proxy operator by millions,” Google said.
 
 
-“Anthropic released Mythos more broadly in the form of Claude Fable 5. Models are getting dramatically better at finding vulnerabilities. That’s genuinely exciting progress.
 
+As part of the operation, the internet giant disabled Google accounts and associated services used for command-and-control (C&C), dismantling the botnet’s backend infrastructure.Advertisement. Scroll to continue reading.
 
 
-But better models don’t make the security team’s job easier. They make it harder. The same capability lands in the hands of attackers. And the flood of new CVEs that follows moves faster than any team can manually triage.
+Additionally, it disabled the infected applications via Google Play Protect and automatically warned victims of the threat. Google also shared threat intelligence with industry partners and law enforcement.
 
 
 
-The 2026 Verizon DBIR made this concrete. For the first time in 19 years, vulnerability exploitation is the #1 way organizations get breached. 31% of all breaches. Median time to patch: 43 days.
+According to Google, NetNut is not only selling access to the residential proxy network under its own brand, but also operates a reseller program, allowing other popular brands to whitelabel the NetNut botnet.
 
 
 
-The bottleneck has never been finding vulnerabilities. It’s always been knowing which ones are actually exploitable in your environment, and fixing them before attackers get there. Vulnerabilities found by AI still need to be managed. They need to be analyzed, triaged, assigned, remediated, and tracked. Another detection tool in the arsenal is also another tool in the adversary arsenal and doesn’t solve the persistent security challenge of managing risk posture and fixing what you found.
+The NetNut takedown follows the January disruption of IPIDEA, and is expected to have a ripple effect across the ecosystem.
 
 
 
-Every leap in model capability widens that gap. The organizations that close it will be the ones that treat remediation speed as a security metric, not an engineering backlog.
+“What we have observed is that when faced with the degradation of their own botnet, proxy operators begin buying capacity from their competitors, effectively becoming a reseller. We recognize that creating a lasting disruption in this fluid ecosystem means we must scale our efforts to target the infrastructure of several interconnected providers,” Google says.
 
 
 
-Congratulations to the Anthropic team. The hard work starts now for the rest of us.”
+Related: Google Sues Operators of 10-Million-Device Badbox 2.0 Botnet
+Related: 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown
+Related: Dutch Police Dismantle Massive 17-Million-Device Botnet
+Related: GlassWorm Botnet Disrupted
+Related: Aisuru and Kimwolf DDoS Botnets Disrupted in International Operation"
+2026-07-05 19:36:55,"July 3, 2026 (3:57 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/,Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution,"Two critical vulnerabilities in the popular AI code editor Cursor could lead to remote code execution on the underlying operating system, Cato Networks reports.
+The security defects are tracked as CVE-2026-50548 and CVE-2026-50549 (CVSS score of 9.8) and are referred to as DuneSlide, given that they lead to remote code execution (RCE) outside of the IDE’s sandbox.
 
 
 
-Etay Maor, Vice President of Threat Intelligence, Cato Networks:
+According to Cato, the flaws abuse Cursor’s automatic terminal command execution inside the sandbox, which does not prompt the user for approval, and can be triggered when a victim prompts the IDE to ingest an attacker-controlled payload.
 
 
 
-“Anthropic’s Claude Fable protections are good, and they will stop many of the direct attempts to get the model to do malicious things. For an opportunistic attacker — somebody who doesn’t have a lot of time, resources, or willingness to keep trying — those safeguards can be effective.
+The first issue is related to the sandbox’s security boundaries. While command execution should be restricted to the current working directory, a non-default value assigned to the working_directory parameter results in the path being added to the allow list.
 
 
 
-[…]
+Thus, an innocuous MCP server request could inject a prompt that would instruct the LLM to set the working directory to an attacker-supplied path outside the project scope.
 
 
 
-When we’re thinking about safeguards, we have to remember that the capabilities are in the model and the protections are layered on top. Those protections are important, but they’re not the same thing as removing the capability itself. That’s why I describe them as speed bumps rather than barricades. They can slow attackers down, and that’s valuable, but they’re unlikely to stop the threat actors we worry about most — the ones with the time, resources, and motivation to keep testing until they find another way in.
+A threat actor could overwrite the cursorsandbox executable, ensuring that “future commands run without sandbox restrictions, so future instructions within the same prompt injection lead to a non-sandboxed RCE,” Cato explains.Advertisement. Scroll to continue reading.
 
 
+Completely independent from this vulnerability, the second security defect affects the IDE’s file path resolution edge cases and could be exploited via symbolic links to bypass out-of-bounds write protections.
 
-From an enterprise perspective, the 30-day retention requirement deserves attention. Organizations in regulated industries need to understand exactly what data is being retained and whether that aligns with their compliance and legal requirements before they start using these models in sensitive environments.
 
 
+An attacker could craft a prompt that, when injected in Cursor, instructs the agent to create within the project directory a symlink pointing to an outside file.
 
-The other thing that stands out is the agentic component. The more autonomy you give an AI system and the more access you give it across infrastructure, code repositories, and internal systems, the more valuable it becomes to both defenders and attackers. If that system is manipulated or compromised, it can become a very effective tool for lateral movement. Most organizations are still figuring out what security looks like in a world where AI agents can take actions across multiple systems on their own.”
 
 
+A flaw in the agent’s path canonicalization logic (it attempts to resolve the symlink to determine its location and verify it is in the project’s directory) results in Cursor falling back to using the original symlink path.
 
-Roger Grimes, CISO Advisor, KnowBe4:
 
 
+“A threat actor can then create a write-only symlink, thus forcing Cursor to assume the resolved path is the symlink path, rather than the target path. This fails its detection that the ultimate destination is out of bounds, allowing the threat actor to link to the cursorsandbox executable once more,” Cato explains.
 
-“Regarding whether cybercriminals will get access to these tools faster: no, not really. Criminals have been using AI to find vulnerabilities, code exploits, and code malware since last year. Certainly, learning about Mythos put a renewed, more intense push on using AI to find vulnerabilities and exploit them, but it wasn’t like it hasn’t been what the elite cybercriminals haven’t been doing for a year already. They have been doing this. Heck, I saw similar non-AI versions of Mythos being used by nation-states and large red teams over a decade ago. They were pretty good then, but now AI-enabled, they are supercharged. The only thing Mythos substantially changed was how quickly the defenders would get these tools. Sure, it accelerated and helped attackers, but they didn’t need the push. Defenders needed the bigger wake-up call.
 
 
+Cato reported the two flaws to Cursor in February. Patches for both were included in Cursor 3.0, which was released on April 2, while the CVE IDs were assigned in early June.
 
-There are in fact no downsides to making Fable-5 public. The sooner the band-aid is ripped off, the sooner the defender lifecycle kicks in and helps us. What Mythos kicked off was defenders getting more secure code sooner. Mythos and Fable will help defenders get more secure code faster. We will see a huge spike in vulnerabilities found and exploited over the next 2-3 years, and after that, we will see more secure applications.
 
 
+Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
 
-The way this will change the cybersecurity industry is that we will see more usage of AI to both find and fix vulnerabilities faster, patch faster, and instruct the AI to code more securely from the start. The net result of Mythos and Fable is more secure apps.”"
-2026-06-14 18:34:10,"June 12, 2026 (7:30 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/iranian-cyber-group-handala-claims-cal-water-hack/,Iranian Cyber Group Handala Claims Cal Water Hack,"The Iran-linked threat actor Handala this week boasted to have hacked California Water Service (Cal Water), and published 5 gigabytes of data allegedly stolen from the US water utility.
-In a post on their blog, the hacking group said the intrusion was retaliation for recent US actions in Iran and claimed they had the ability to disrupt water access but chose not to.
+Related: Cursor AI Vulnerability Exposed Developer Devices
+Related: Several Vulnerabilities Patched in AI Code Editor Cursor
+Related: Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks
+Related: When Information Becomes the Attack Surface – Understanding AI Agent Traps"
+2026-07-05 19:37:32,"July 2, 2026 (11:04 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/,New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure,"Threat actors began exploiting the latest CitrixBleed-like vulnerability in NetScaler ADC and NetScaler Gateways less than 24 hours after public disclosure, Scottish cybersecurity firm Lupovis reports.
+Tracked as CVE-2026-8451 (CVSS score of 8.8), the security defect was disclosed on June 30, when Citrix rolled out patches, and attack surface management company watchTowr published technical details on it.
 
 
 
-While the level of access Handala had has not been confirmed, threat intelligence company Dataminr says the threat actor likely hacked into Cal Water’s RTKBase instance, a GNSS base station platform, and then moved laterally to a billing system.
+The bug is described as an out-of-bounds read issue affecting NetScaler appliances configured as SAML IDP and leading to memory disclosure.
 
 
 
-Cal Water is one of the largest investor-owned water utilities in the US, with roughly two million customers across 100 communities in California.
+It was discovered in NetScaler’s XML parser, which did not terminate unquoted XML attribute values if they were followed by a newline character. Because of the flaw, the parser would read past the intended buffer, and NetScaler would return memory contents in the NSC_TASS cookie in an HTTP response.
 
 
 
+While it requires that the targeted NetScaler appliances be configured as SAML IDP, the successful exploitation of the vulnerability does not require authentication.
 
 
-The cybersecurity firm says that Cal Water’s Chico District has been confirmed as the victim of the attack. Data leaked by Handala shows it likely accessed a customer billing database and Cal Water’s internal RTKBase application.
 
+Shortly after watchTowr shared details on the security hole and published a detection artefact generator, at least one threat actor started probing exposed NetScaler instances, Lupovis told SecurityWeek.Advertisement. Scroll to continue reading.
 
 
-“The RTKBase instance had been operational for approximately 783 continuous hours at the time of access, with GPS correction data streamed across all seven identified district mountpoints,” Dataminr notes.
+Initial scanning activity originated from an IP hosted on infrastructure in Frankfurt, Germany, likely using a disposable or purpose-built scanning node.
 
 
 
-“The billing system and RTKBase platform represent distinct infrastructure. The RTKBase network is assessed as a probable initial access vector or lateral pivot point that enabled the actor to reach the billing environment,” the company says.Advertisement. Scroll to continue reading.
+Multiple Lupovis sensors were targeted within a five-hour window, and a payload was immediately dropped on the sensor that responded with a 200 response.
 
 
-Handala’s dump appears to be a bulk database export containing personally identifiable information (PII) such as names, addresses, phone numbers, account numbers, and payment histories.
 
+The payload included a “bare <samlp:AuthnRequest> tag padded with 476 spaces followed by a newline”, which matches the overread variant in watchTowr’s detection artefact generator.
 
 
-It also includes administrative credentials for the RTKBase platform, and a mountpoint-level NTRIP source password. The threat actor also performed enumeration of IP addresses associated with Cal Water’s NTRIP network across seven districts.
 
+On Thursday, the cybersecurity firm observed a second threat actor probing for exposed NetScaler instances from a Koapu Cloud HK IP address.
 
 
-“While OT/ICS disruption is not confirmed in this incident, Handala’s deployed toolkit includes custom wipers (win.handala, Handala Wiper, Hamsa Wiper) and MBR-overwriting capabilities. The group has demonstrated willingness to escalate from data theft to destructive operations within the same campaign cycle, as evidenced by the Stryker incident,” Dataminr notes.
 
+“Both have demonstrated the same behaviour, probing for the right endpoint, upon receiving a 200 OK with the right response, they have delivered the payload immediately,” Lupovis CEO Xavier Bellekens said.
 
 
-All credentials exposed in the dump should be considered compromised and immediately rotated; the RTKBase instance should be taken offline and audited; and network segmentation and access logs to the billing system should be reviewed, the company says.
 
+Organizations are advised to patch their NetScaler appliances immediately, or to disable SAML IDP if patching is not possible. They should also check logs for /saml/login traffic, inspect the request values, and check NSC_TASS cookie values to identify exploitation.
 
 
-Cal Water has yet to publicly acknowledge the intrusion. SecurityWeek has emailed the company for a statement and will update this article if it responds.
 
+Related: Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability
+Related: CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability
+Related: Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities
+Related: Exploitation of Recent Oracle E-Business Suite Vulnerability Begins"
+2026-07-05 19:38:12,"July 2, 2026 (9:15 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/,How to Conduct a Successful Audit of AI-Driven Software Development,"Traditionally, an audit independently examines records, processes and controls to verify compliance and assess financial and operational integrity.
+In the modern world, such an approach should extend to the software development lifecycle (SDLC) – especially in the age of artificial intelligence (AI) or large language model (LLM)-assisted code. Chief Information Security Officers (CISOs) and their teams need proof that developers are producing protected products, because one in five organizations has experienced a serious security incident directly tied to AI-generated code. Getting to the root of the problems requires visibility into who is leveraging AI, what tools they are using and where AI-generated code is introduced into the SDLC. This is considered the ADLC: the agentic development lifecycle.
 
 
-Linked by the US to Iran’s Ministry of Intelligence and Security (MOIS), Handala has been active since at least 2008 and is also tracked as Handala Hack, Banished Kitten, Dune, Hanzalah Hacking Group, Homeland Justice, Red Sandstorm, Storm-0842, and Void Manticore.
 
+CISOs must feel confident that these tools are approved and safe. A thorough audit will identify specific AI-linked vulnerabilities, and which tools are causing the most issues. Even better, it will transform the information into action.
 
 
-The group is known for engaging in a broad range of activities, from hacktivism to destructive attacks, with a primary focus on data exfiltration, the deployment of wiper malware, and psychological operations.
 
+To be clear, AI/LLM-driven software development creates significant boosts in efficiencies and overall productivity. But it also introduces new, often unmanaged risks. Software vulnerabilities discovered “after the fact” will result in time-consuming fixes and reworks. Security and developer team leaders must work together to find an appropriate balance of efficacy, innovation and protection.
 
 
-“Handala’s operational pattern frequently involves an initial claim followed by escalated action. Security teams should treat the current disclosure as a possible precursor to a destructive follow-on and posture accordingly,” Dataminr notes.
 
+An impactful audit starts with establishing enterprise-level visibility into how AI influences production code. However, such visibility remains elusive. Individual developers have their own preferred LLM tools for daily tasks, but these tools often operate at completely different security proficiency levels, making it extremely difficult for CISOs to report quantifiable risks to stakeholders, and for their teams to enforce governance policies.
 
 
-Related: LA Metro Cyberattack Linked to Iranian State-Sponsored Hackers
-Related: Iranian APT Targets Aviation, Software Companies With Updated Tools
-Related: Iranian APT Intrusion Masquerades as Chaos Ransomware Attack
-Related: Iranian Cyber Group Handala Targets US Troops in Bahrain"
-2026-06-14 18:34:51,"June 12, 2026 (5:44 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/,Ivanti Sentry Exploitation Attempts Hitting Honeypots,"The US Cybersecurity and Infrastructure Security Agency (CISA) flagged a recently patched Ivanti Sentry vulnerability as exploited, but Ivanti says the activity was observed only on honeypots.
-Tracked as CVE-2026-10520 (CVSS score of 10/10), the security defect is described as an OS command injection issue that could be exploited remotely, without authentication, to execute arbitrary code with root privileges.
 
+Such actions prove critical, especially when our research has demonstrated a range of outcomes when comparing humans vs. machines on specific security tasks: The best LLMs perform comparably with proficient professionals for only a limited range of secure coding tasks, including the flagging of code smells (structural or design issues) and anti-patterns (common but harmful solutions). But we’ve also seen the tools struggle with DoS protection, insufficient logging or misconfigured permissions, to cite a few examples. Overall, top security-proficient developers will outperform LLMs, and average developers will not.Advertisement. Scroll to continue reading.
 
 
-Ivanti rolled out patches for the flaw on June 10, saying it has no evidence of in-the-wild exploitation. Ivanti Sentry versions 10.5.2, 10.6.2, and 10.7.1 contain the fixes.
+A new source of risk
+Indeed, it’s safe to say that the AI boom has created a new category of operational risk – one originating inside the SDLC as opposed to external attackers. Subsequently, CISOs are encountering greater visibility gaps due to unintentional developer actions, at a time when it’s already challenging to trace accountability and attribution.
 
 
 
-On Thursday, CISA added the bug to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to address it within three days, in line with BOD 26-04 guidance to prioritize patching based on risk.
+To successfully report quantifiable risk to stakeholders, they need to include these variables into a comprehensive audit of AI impact on the SDLC:
 
 
 
-“This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged state with its endpoints externally reachable. The use of mTLS with EPMM or restricted HTTPS access through Neurons for MDM makes interfaces inaccessible to external actors,” CISA notes.
+AI deployment. Who is using AI tools? How often? Where?
 
 
 
-Ivanti has updated its advisory to reflect the CVE’s addition to CISA’s KEV list, but pointed out that it was based on “attempted exploitation of honeypots”.Advertisement. Scroll to continue reading.
+Developer capabilities. Which team members are advanced enough to identify and eliminate LLM-introduced inaccuracies/vulnerabilities? Which one needs upskilling to do so?
 
 
-“It is important for customers to know that exploitation of CVE-2026-10520 requires access to the management port (8443). Management interfaces should never be exposed to the internet, though honeypots often have misconfigurations to identify malicious behavior,” Ivanti says.
 
+Vulnerability assessments. At what stage did something go wrong? How damaging was it?
 
 
-The company also underlines that, despite the vulnerability’s CVSS score, the risk it poses is significantly decreased based on deployment and configuration.
 
+With this, CISOs can answer essential board-level questions about the audit: Where is AI increasing risks? Which teams or behaviors are driving the risks? Do teams bring the right skills to routinely deploy AI/LLM?
 
 
-Ivanti’s note, which is mirrored in CISA’s KEV entry, explains that the vulnerable APIs are protected by mTLS for EPMM-managed Sentry appliances, and that unmanaged Sentry instances cannot be used in production, “as the management is what pushes the configuration for device connectivity and authentication”.
 
+To get to this point, CISOs should work closely with development team leaders to complete the following stages of an effective audit:
 
 
-For Neurons for MDM-managed Sentry appliances, the company recommends restricting internet access to the vulnerable API, regardless of deployment.
 
+Record tool usage. Compile a verifiable record of all AI/LLM assistants deployed for code generation – whether sanctioned or not. Map them directly to code outputs. These steps will allow CISOs to ensure audit and compliance readiness, and acquire the traceability required to meet emerging regulatory directives.
 
 
-Related: Google Confirms Exploitation of Oracle PeopleSoft Zero-Day by ShinyHunters
-Related: Alert Fatigue Is Becoming a Security Threat of Its Own
-Related: Splunk, Palo Alto Networks Patch Severe Vulnerabilities
-Related: ‘GreatXML’ Zero-Day Exploit Bypasses BitLocker"
-2026-06-14 18:35:27,"June 12, 2026 (5:27 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities/,Chrome 149 Update Patches 28 Vulnerabilities,"Google on Thursday rolled out a Chrome 149 update that resolves 28 critical and high-severity vulnerabilities.
-The update patches five critical-severity bugs: use-after-free issues in Core, DigitalCredentials, and WebMIDI, an insufficient validation of untrusted input flaw in Accessibility, and a heap buffer overflow defect in GPU.
 
+Evaluate and benchmark these tools – and make fixes. Gage AI models against known vulnerability patterns, and standardize those that produce secure products. Use this to determine approved tool selection and proper governance. Track and oversee model context protocol (MCP) integrations to ensure AI agents connect only to approved tools and data sources. Take advantage of “time travel” auditing to instantly isolate and fix every commit linked to a compromised LLM model, to avoid the excessive costs of lengthy, manual code reviews.
 
 
-The remaining 23 vulnerabilities are high-severity flaws: nine use-after-free, four insufficient validation of untrusted input, three inappropriate implementation, two insufficient policy enforcement, two out-of-bounds read, an out-of-bounds write, a race condition, and a heap buffer overflow.
 
+Invest in upskilling. Beyond continuous education and benchmarking, organizations should come up with a risk score. This is similar to a credit score, only it considers multiple factors to determine how much unintentional risk development team members cause, based upon their skillsets, practices and oversight capabilities.
 
 
-A dozen of them, including three critical and nine high-severity defects, are use-after-free issues, a type of memory safety bug that could be exploited for remote code execution (RCE), data corruption, or denial-of-service.
 
+Link AI to business goals. Insights from audits must connect AI tool deployment with productivity, code quality and secure outcomes. This informs decision-makers as they assess which tools to invest in, and how to balance innovation with risk management.
 
 
-In Chrome, use-after-free vulnerabilities could be exploited for sandbox escape, if combined with security defects in the operating system or in a privileged part of the browser.
 
+Fortunately, readily available solutions enable CISOs and development team leaders to raise visibility, identify risks and trigger policy-driven training and governance with respect to AI and the SDLC. And all of this starts with a comprehensive audit, ultimately resulting in the right people using the right tools – without delegating too much to AI. Inevitably, these initiatives will ensure that SDLCs are innovative, productive and safe.
 
 
-Google has been battling use-after-free bugs in Chrome for years: it introduced MiraclePtr in 2022 to make their exploitation more difficult and is transitioning Chrome’s codebases to Rust to eliminate this type of security defect entirely.Advertisement. Scroll to continue reading.
 
+Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
 
-The number of use-after-free flaws resolved in Chrome has increased over the past couple of months, amid a spike in vulnerabilities surfaced in Chrome, likely fueled by the use of AI.
 
+Related: When Information Becomes the Attack Surface – Understanding AI Agent Traps
+Related: macOS Weaknesses Chained to Silently Disable Endpoint Security Agents"
+2026-07-05 19:38:53,"July 2, 2026 (8:34 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/,"FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks","FortiBleed, the large-scale credential-harvesting operation targeting organizations in 150 countries, has led to the deployment of INC Ransom and Lynx ransomware families, SOCRadar reports.
+Uncovered in mid-June, FortiBleed has been targeting over 430,000 FortiGate firewalls for the deployment of a network sniffer dubbed FortigateSniffer to capture the traffic passing through them and extract cleartext credentials and password hashes for future compromise.
 
 
-Since the beginning of the year, Google patched over 700 bugs in Chrome, more than five times the total resolved in 2025. Five of them have been exploited as zero-days.
 
+The campaign is likely mounted by a Russian initial access broker aiming to gain access to Active Directory domains, steal sensitive information, and establish persistent access.
 
 
-The fresh Chrome 149 release follows the trend: 27 of the resolved security defects are marked as “reported by Google”, and only one as reported by an independent researcher.
 
+FortiBleed has been ongoing since at least February, and the attackers are estimated to have compromised over 110 million credentials.
 
 
-Google makes no mention of any of these vulnerabilities being exploited in the wild.
 
+Now, SOCRadar says it has observed scanning activity against roughly 11,250 FortiGate portals and that the attackers gained administrative access on 409 targets.
 
 
-The latest Chrome update is rolling out as versions 149.0.7827.114/.115 for Windows and macOS, and as version 149.0.7827.114 for Linux.
 
+The threat actor was observed completing the full attack chain on 354 targets, including compromising VPNs, accessing the domain controller, and gaining domain admin privileges.Advertisement. Scroll to continue reading.
 
 
-Related: Chrome 149 Patches 429 Vulnerabilities
-Related: Chrome 148 Update Patches 151 Vulnerabilities
-Related: CISA Directs Federal Agencies to Prioritize Security Patches Based on Risk
-Related: Hackers Exploit Langflow Vulnerability for Remote Code Execution"
-2026-06-14 18:36:07,"June 12, 2026 (4:43 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/anthropic-disputes-fable-5-ai-jailbreak/,Anthropic Disputes Fable 5 AI Jailbreak,"Anthropic has disputed allegations of a prompt-based jailbreak affecting its recently launched Claude Fable 5 AI model, underscoring the robustness of the advanced classifier system and extensive red-teaming efforts that underpinned the model’s deployment.
-Claude Fable 5 became generally available on Tuesday, when Anthropic introduced it as a powerful Mythos-class AI model with safeguards that restrict its use in high-risk domains such as cybersecurity, where Mythos has proved particularly potent. 
+Of these, 12 incidents have resulted in ransomware deployment, with “hundreds of endpoints encrypted across affected organizations,” SOCRadar says.
 
 
 
-In sensitive areas such as cybersecurity, where it could be abused to develop exploits, and biology, where it could be leveraged to develop bioweapons and chemical weapons, the model automatically falls back to the less capable Claude Opus 4.8.
+An operational security error by the attackers provided the cybersecurity company with visibility into their environment and with access to internal files, logs, and documentation.
 
 
 
-Anthropic said it conducted extensive internal and external red-teaming to ensure that Fable 5 cannot be easily jailbroken.
+SOCRadar observed both an operator logged into both INC Ransom and Lynx ransomware negotiation panels, and overlaps between FortiBleed victims and INC targets, confirming that the same organizations were targeted in both operations.
 
 
 
-However, shortly after its release, an individual with the online moniker Pliny the Liberator, who is known for AI jailbreaks, claimed to have “liberated” Fable 5 by circumventing its restrictive safety layer.
+“Finding a single operator working both panels, using infrastructure traceable back to FortiBleed, is the clearest evidence yet that FortiGate credentials harvested through this campaign are being handed off, or used directly, for ransomware deployment,” SOCRadar notes.
 
 
 
-The hacker said in a post on X that they used sophisticated multi-agent prompting methods, successfully eliciting useful information on sensitive topics, including cybersecurity, chemistry, psychological manipulation, and explosives.Advertisement. Scroll to continue reading.
+Analysis of an internal tracking document associated with FortiBleed suggests that the operation involves roughly 20 individuals, with some focused on high-impact intrusions and others providing technical support.
 
 
-Pliny the Liberator has published several screenshots to support the claims and released what is allegedly the Fable 5 internal system prompt, which contains instructions that define its personality, safety classifiers, fallback behaviors, tone guidelines, and refusal logic.
 
+“FortiBleed isn’t an isolated credential-theft operation sitting off to the side of the ransomware economy; it’s feeding directly into it. The same access broker infrastructure that quietly intercepted authentication traffic across hundreds of thousands of firewalls is connected, through a shared operator, to two of the more active ransomware brands operating today,” SOCRadar notes.
 
 
-Contacted by SecurityWeek, an Anthropic spokesperson said the AI researcher’s post does not demonstrate a jailbreak of Fable 5’s safety systems. 
 
+INC Ransom emerged in mid-2023 and has been one of the most prolific ransomware-as-a-service (RaaS) operations. Lynx was likely released as an updated variant a year later.
 
 
-The company explained that true jailbreaks would need to bypass its core safeguards and deliver meaningful assistance toward high-risk activities such as bioweapons development or sophisticated cyberattacks. 
 
+Related: BlueHammer Vulnerability Exploited in Ransomware Attacks
+Related: New ‘Mistic’ RAT Opens Door to Several Ransomware Families
+Related: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack
+Related: FBI: Cybercrime Losses Neared $21 Billion in 2025"
+2026-07-05 19:39:30,"July 2, 2026 (7:01 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/,Trump Administration Lifts Restrictions on Anthropic’s Claude Models After Cybersecurity Alarm,"The Trump administration has lifted restrictions on artificial intelligence company Anthropic’s latest versions of its Claude chatbot, ending a weekslong ban tied to cybersecurity concerns.
+Anthropic said Tuesday night that its AI model called Claude Fable 5 is now widely available. It’s also restoring access to its most powerful model, Mythos 5, but only to a select group of U.S.-based organizations approved by the federal government.
 
 
-Instead, the demonstrated approach relies on coaxing the model to continue responding despite its conversational refusals, which is a well-known and longstanding limitation present in nearly all large language models.
 
+The Commerce Department blocked foreign nationals from using both AI models on June 12, a move that San Francisco-based Anthropic said forced the company to immediately take the products down for all users just days after it unveiled them.
 
 
-Anthropic emphasizes that its strongest protections against the most dangerous risks are enforced by independent classifier systems that operate separately from the model itself, meaning that overcoming the model’s refusals does not disable these critical safeguards. 
 
+Anthropic said in a blog post this week that the government’s concerns were sparked by a report from cybersecurity researchers at Amazon, Anthropic’s primary cloud computing provider. The company “had found a method of bypassing Fable 5’s safeguards” that enabled it to discover and potentially exploit software vulnerabilities, Anthropic said.
 
 
-After examining the examples shared by the researcher, the company determined that some outputs were not produced by Fable 5 at all, while those that were contained only general information already available in public sources, offering no meaningful uplift for real-world harm.
 
+Officials have grown increasingly concerned since Anthropic warned earlier this year that its Mythos model was adept at finding software flaws in a way that could be weaponized by malicious hackers and threaten critical computer networks around the world.
 
 
- A wider review of recent usage found no evidence of their safeguards being successfully circumvented to generate genuinely dangerous content, Anthropic said.
 
+Anthropic’s chief rival, ChatGPT maker OpenAI, also said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration.Advertisement. Scroll to continue reading.
 
 
-Related: After AI Reaches Production: 12 Ways Security Teams Can Take Control
-Related: Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation
-Related: Will AI Kill the Bug Bounty Industry?"
-2026-06-14 18:36:46,"June 12, 2026 (2:44 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/google-confirms-exploitation-of-oracle-peoplesoft-zero-day-by-shinyhunters/,Google Confirms Exploitation of Oracle PeopleSoft Zero-Day by ShinyHunters,"Google has confirmed that a PeopleSoft vulnerability mitigated by Oracle this week has been exploited by ShinyHunters as a zero-day to steal data from organizations.
-Oracle has released an out-of-band advisory and security alert for CVE-2026-35273, a critical unauthenticated remote code execution vulnerability impacting PeopleSoft Enterprise PeopleTools versions 8.61 and 8.62, as well as PeopleSoft Enterprise Applications. 
+OpenAI said its new AI product, called GPT-5.6 Sol, would be accessible only to a select group of government-approved customers for a temporary period.
 
 
 
-The software giant has released mitigations, but patches do not appear to be available.
+Trump last month signed an executive order on AI oversight that established a framework for the federal government to vet the national security risks of the most advanced AI systems for up to 30 days before their public release. The order described participation by AI developers as voluntary, but the framework has not yet been fully developed.
 
 
 
-PeopleSoft is an ERP software suite used by many large organizations to manage a wide range of business functions, including HR, payroll, finance, supply chain, and campus operations. 
+Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
 
 
 
-While the solution is used across many industries, the ShinyHunters campaign exploiting CVE-2026-35273 appears to have focused on the education sector. The University of Nottingham in the UK is the first confirmed victim. 
+Related: OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review
+Related: When Information Becomes the Attack Surface – Understanding AI Agent Traps
+Related: macOS Weaknesses Chained to Silently Disable Endpoint Security Agents"
+2026-07-05 19:40:11,"July 2, 2026 (6:48 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/,Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability,"Cisco confirmed that a recently patched vulnerability in its Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME) has been exploited in the wild.
+Tracked as CVE-2026-20230 (CVSS score of 8.6), the security defect is described as the improper validation of specific HTTP requests, which could allow attackers to mount SSRF attacks.
 
 
 
-Mandiant and Google Threat Intelligence Group (GTIG) reported observing activity associated with the exploitation of the PeopleSoft zero-day between May 27 and June 9. The attacks have been attributed to ShinyHunters, which Google tracks as UNC6240.Advertisement. Scroll to continue reading.
+Successful exploitation of the bug could lead to arbitrary files being dropped to the underlying operating system, which could then be used to gain root access.
 
 
-Google’s researchers notified more than 100 global organizations of potential exposure, the majority of which are based in the US, with 68% in the higher education sector. 
 
+Only appliances with the WebDialer service enabled are vulnerable, Cisco says. The service is disabled by default.
 
 
-The tech giant said some of the targets blocked the attack, but others had their systems compromised and data stolen.
 
+In early June, Cisco rolled out patches for the CVE in Unified CM and Unified CM SME version 14SU6 and announced that the fixes would also be included in version 15SU5, which is expected to arrive in September.
 
 
-ShinyHunters claims to have targeted roughly 300 PeopleSoft instances belonging to 100 organizations.
 
+Cisco warned that proof-of-concept (PoC) code targeting the vulnerability exists, but said it was not aware of its in-the-wild exploitation.Advertisement. Scroll to continue reading.
 
 
-“The attacker staging environments hosted customized MeshCentral agents masquerading as legitimate cloud endpoints, which they used to run administrative command queries and deploy a custom lateral movement and defacement script, [victim_abbreviation]_fanout.sh,” Mandiant and GTIG explained. “This campaign directly correlates with subsequent data leaks of stolen organization data published on the ShinyHunters Data Leak Site (DLS) on June 9, 2026.”
+On Wednesday, the company updated its advisory to warn customers that the security defect is being actively exploited in attacks.
 
 
 
-Google has shared remediation and hardening recommendations, as well as technical details on the attacks and indicators of compromise (IoCs).
+“Cisco continues to strongly recommend that customers upgrade to a fixed software release to remediate this vulnerability,” the company said.
 
 
 
-Oracle has not responded to SecurityWeek’s inquiry regarding exploitation. 
+The warning comes a week after exploit intelligence firm Defused reported seeing exploitation “from a single source using an unvetted PoC” and after SSD Secure Disclosure, which was credited with finding the bug, published technical information and a PoC.
 
 
 
-TrendAI (Trend Micro’s enterprise business), whose researchers have been credited by Oracle for reporting CVE-2026-35273, told SecurityWeek that it’s currently seeing limited exploitation of the vulnerability, but its investigation is ongoing.
+At the time, Cisco told SecurityWeek it was not aware of any malicious use of the security weakness.
 
 
 
-Related: CISA Directs Federal Agencies to Prioritize Security Patches Based on Risk
-Related: Hackers Exploit Langflow Vulnerability for Remote Code Execution
-Related: ‘GreatXML’ Zero-Day Exploit Bypasses BitLocker"
-2026-06-14 18:37:26,"June 11, 2026 (9:57 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/oracle-addresses-peoplesoft-vulnerability-amid-reports-of-zero-day-attacks/,Oracle Addresses PeopleSoft Vulnerability Amid Reports of Zero-Day Attacks,"Oracle on Thursday released an out-of-band advisory addressing a PeopleSoft vulnerability that can be exploited by an unauthenticated attacker for remote code execution.
-The security alert comes amid reports that the notorious ShinyHunters hacker group has been targeting organizations that use PeopleSoft.
+Related: Cisco SD-WAN Zero-Day Exploited Months Before Patching
+Related: Critical Command Execution Vulnerability Patched in Cisco ISE
+Related: Cisco Patches Another SD-WAN Zero-Day Exploited in Attacks
+Related: Cisco Patches Critical Vulnerability in Secure Workload"
+2026-07-05 19:40:52,"July 2, 2026 (6:45 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/,‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials,"Researchers from cybersecurity firm LayerX are warning that several agentic browsers can be manipulated to abandon their safety guardrails and perform malicious actions.
+To demonstrate the weakness, the researchers created a web page containing a puzzle that the AI browsers were asked to solve. Inspired by the BioShock video game, the puzzle led to a manipulation attack called BioShocking.
 
 
 
-PeopleSoft is an integrated enterprise resource planning (ERP) software suite widely used by large organizations for managing core business functions, including HR, payroll, finance, supply chain, and campus operations.
+Per the game’s rules, incorrect actions were deemed acceptable, and the tested agentic browsers, namely ChatGPT Atlas, Comet, Fellou, Genspark Browser, Sigma Browser, and Claude Chrome, quickly learned that.
 
 
 
-The newly disclosed vulnerability is tracked as CVE-2026-35273, and Oracle says it’s a critical issue that affects PeopleSoft Enterprise PeopleTools versions 8.61 and 8.62. PeopleSoft Enterprise Applications users could also be impacted.
+After learning that an incorrect answer was the key to continue playing the game, the agents started reasoning out of reality, and eventually performed a nefarious action when asked to navigate to a URL and retrieve a textbox.
 
 
 
-It appears that only mitigations have been released by Oracle rather than a full patch. 
+“In the game, it turns out that /code redirects to the victim’s employer work GitHub repository. In this case, the malicious instructions fetched sensitive SSH login credentials,” LayerX explains.
 
 
 
-Oracle has not said whether CVE-2026-35273 has been exploited in the wild as a zero-day, but noted in its advisory, “We consider implementation of the recommended mitigations to be a high-priority risk reduction measure and strongly recommend immediate action to address the identified exposure.”Advertisement. Scroll to continue reading.
+While in the controlled test environment, the file was harmless, the attack technique could be abused in real-world scenarios to direct the agent anywhere in the browser session, including other tabs, authenticated repositories, or internal tools.Advertisement. Scroll to continue reading.
 
 
-Bleeping Computer and TechCrunch learned from hackers claiming to be affiliated with the ShinyHunters group that they targeted 300 PeopleSoft instances belonging to more than 100 organizations. 
+While winning the game means exfiltrating user credentials, the AI browser does not view the action as malicious and instead celebrates its victory.
 
 
 
-The hackers claimed to have chained old and zero-day vulnerabilities to gain access to data stored in the targeted PeopleSoft environments. The attacks appear to have been confirmed by a researcher, and Mandiant CTO Charles Carmakal has warned about zero-day exploitation.
+“The root cause of BioShocking is that AI browsers act within a context, but that context can be manipulated. If you convince an agent that it’s playing a game, then it will apply game logic – not real-world safety logic – to whatever it does,” LayerX says.
 
 
 
-It’s not surprising that ShinyHunters would target software widely used by major enterprises to steal data that could later be used to extort victims. The cybercriminals previously targeted Salesforce customers in a massive data-theft campaign. 
+Vendors can address the issue by requesting confirmation for sensitive operations, performing context checks, and limiting the scope of agent actions. Users should determine what their AI browser can see and to revoke its access when the session is closed.
 
 
 
-Bleeping Computer reported that the education sector was hit the hardest, and the University of Nottingham is one of the victims. The university has confirmed that it suffered a significant data breach. 
+LayerX says it reported the findings to all six vendors. OpenAI patched the issue, Anthropic’s patch failed, Perplexity AI ignored the report, and Fellou, Genspark, and Sigmabrowser OU never responded.
 
 
 
-While Oracle’s advisory does not mention exploitation, it’s not uncommon for the company to omit confirming in-the-wild attacks in its public documentation. 
+Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
 
+Related: Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines
+Related: Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings
+Related: Frontier AI: Six Questions Every Enterprise Should Ask Security Vendors
+Related: The AI Token Costs That Can Break Cybersecurity"
+2026-07-05 19:41:29,"July 2, 2026 (6:30 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/,CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability,"The US Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday said threat actors have been exploiting a high-severity vulnerability in Microsoft SharePoint Server.
+Described as a deserialization of untrusted data bug, the exploited security defect allows authenticated attackers to execute arbitrary code on vulnerable SharePoint servers.
 
 
-SecurityWeek reached out to Oracle for comment, but the company has not responded by the time of writing. 
 
+The flaw is tracked as CVE-2026-45659 (CVSS score of 8.8) and was patched in late May, via an out-of-band security update.
 
 
-TrendAI researchers have been credited by Oracle for reporting the vulnerability. Dustin Childs, Head of Threat Awareness at TrendAI’s Zero Day Initiative, told SecurityWeek, “Currently, we’re seeing limited exploitation, but our investigation is ongoing.”
 
+According to Microsoft, the vulnerability can be triggered by an authenticated attacker who has a minimum of Site Member permissions, without other elevated privileges.
 
 
-The news comes shortly after CISA warned of a 2024 Oracle WebLogic vulnerability being exploited in the wild.
 
+The tech giant also warned that the security defect is easy to exploit, “because an attacker does not require significant prior knowledge of the system and can achieve repeatable success with the payload against the vulnerable component.”
 
 
-*updated with comments from Dustin Childs
 
+SharePoint Server Subscription Edition, SharePoint Server 2019, SharePoint Server 2016, and SharePoint Enterprise Server 2016 are affected, Microsoft said.Advertisement. Scroll to continue reading.
 
 
-Related: Microsoft Patches Exploited Exchange Server Vulnerability
-Related: Oracle’s First Monthly Patches Resolve 77 Vulnerabilities
-Related: Oracle EBS Hack: Only 4 Corporate Giants Still Silent on Potential Impact"
-2026-06-14 18:38:07,"June 11, 2026 (9:45 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/alert-fatigue-is-becoming-a-security-threat-of-its-own/,Alert Fatigue Is Becoming a Security Threat of Its Own,"Alert fatigue and its related effects on SOC efficiency are self-evident problems. Less obvious and more complex are the cause, effect and possible solutions to these problems.
-SOC analysts are inundated with a huge and continuous volume of alerts generated by security tools. Each alert is often meaningless absent correlation with other alerts. But finding relationships is time-consuming, and even if found, might be irrelevant to business security. Much of the alert volume is simply noise, but attempting correlation to find true positive alerts (signals) from the huge number of false positives (noise) is difficult, boring, and often pointless.
+On Wednesday, CISA added CVE-2026-45659 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within three days, as mandated by BOD 26-04.
 
 
 
-The reasons are numerous:
+CISA has not shared details on the observed attacks, and there have been no reports of in-the-wild exploitation of the vulnerability before the agency’s warning.
 
 
 
-Absence of automated prioritization. Security tools are great at detecting alert signals but poor at prioritizing them. Alerts sometimes arrive with a score. “A tool might say, ‘I found a threat. The score is 32 out of 100’,” comments Obbe Knoop, founder and CEO at Lanxit. “What does that mean? What does a score of 100 out of 100 actually mean? Why give it a score of 32? Without context it is meaningless.”
+All organizations are advised to apply Microsoft’s patches as soon as possible. SharePoint is the backbone of document sharing, intranet, and collaboration within enterprises, and attackers frequently target security defects in it.
 
 
 
-Absence of alert context. Alerts suffer from a paucity if not complete lack of context. An alert might suggest the presence of a vulnerability and appear to be urgent; but full context might indicate that this device in that location has no outgoing connectivity and zero relevance to business continuity. It can be noted and queued behind more genuinely urgent alerts. It all depends on having accurate and full context to understand relevance. 
+In April, Microsoft patched a SharePoint bug exploited as a zero-day. In March, CISA warned of another flaw in Microsoft’s product being targeted in the wild.
 
 
 
-Jeff Reed, CTO at SentinelOne, summarizes: “Alert fatigue isn’t necessarily the volume of alerts, but rather the relevance of the alerts.”Advertisement. Scroll to continue reading.
-
-
-Criminal use of AI is increasing the pace, sophistication, and stealth of attacks. “Attackers are increasingly using AI to scale their operations – analyzing stolen data faster, generating more convincing phishing campaigns and automating parts of the intrusion process,” adds Reed. The result is continuous growth in the volume of alerts.
-
-
-
-Defensive use of AI simultaneously increases the attack surface that bad actors can target. “AI systems themselves are also becoming part of the attack surface, introducing new risks around model manipulation, data exposure and misuse – and yet more alerts,” explains Reed.
-
-
-
-“In short,” he adds, “human analysts simply cannot triage and investigate every signal at the pace modern environments produce them.”
-
-
-
-This has two effects. Firstly, the pressure is continuous, and the stress level is constant and high. Secondly, there is no escape other than moving to a different job, while the analyst’s personal situation (such as ‘family and high mortgage’) may rule this out. This is a seedbed for burnout.
-
-
-
-Put simply, the modern SOC analyst is in danger of both alert fatigue (affecting work) and burnout (affecting both work and health); and the business suffers from reduced security.
-
-
-
-Effects
-Burnout is not an illness. It is not something that can be cured; it can only be prevented or alleviated. One solution is indeed to change jobs – but then the company loses a highly specialized skill. It is easier to prevent burnout than to alleviate it. This would involve the simultaneous benefit of reducing or preventing alert fatigue. 
-
-
-
-Alert fatigue isn’t caused by occasional long hours and stress – it is caused by continuous long hours and continuous stress with no escape. If it isn’t prevented, the effect on the analyst could begin with a few missed false negatives and grow into a full business compromise. 
-
-
-
-For the analyst, it could start with subconscious, but overly aggressive filtering merely designed to keep up with the volume of fresh alerts. Within this filtering, too many alerts may be assumed to be false positives. Many will be but some may not, and true positive signals may be filtered out as noise.
-
-
-
-The solution must be a business solution rather than an analyst reaction. The alternative to not keeping up with the volume of new alerts is that the noise generated will continue to grow, and both the cause and effect of alert fatigue will worsen.
-
-
-
-Alert fatigue can transform an effective security defense into an unseen security threat. It can lead to slower containment, increased dwell time, and a consequent increase in blast radius.
-
-
-
-Solutions
-There are two obvious approaches to prevent alert fatigue: reduce the number of alerts by formal filtering to improve the signal to noise ratio, or improve the speed and efficiency of triaging through AI-assisted automation. The problem with the former is the potential to throw out true positives with the noise bathwater; while the problem with the latter is that AI is not yet foolproof.
-
-
-
-Ariel Parnes, former colonel at IDF 8200 Cyber Unit, and current co-founder and COO at Mitiga, believes the solution to alert fatigue is to increase rather than decrease the alerts, but to more clearly surface and correlate associated alerts for the analysts. 
-
-
-
-The goal is to reconstruct every action, log, and signal into a unified attack sequence, so analysts aren’t triaging individual events but reading a complete, decoded story of attacker behavior.
-
-
-
-“AI-native automation,” he suggests, “can turn alert floods into clear priorities: automating triage and accelerating investigations so the SOC leads every response rather than chasing it.”
-
-
-
-Ismael Valenzuela, VP of threat intelligence at Arctic Wolf, agrees with the principle of using automation to give SOC analysts more time on threat investigation rather than continuous and repetitive alert triaging.
-
-
-
-“Organizations are moving toward more operationalized models that combine automation, correlation, and continuous monitoring to reduce noise, improve prioritization, and give analysts the space to work both sides of that equation.”
-
-
-
-Reed agrees. “Repetitive tasks such as log analysis, enrichment and early-stage investigation can be handled automatically, allowing analysts to focus on understanding attacker behavior and making strategic decisions. When machines handle the heavy data processing,” he adds, “security teams gain the clarity and time they need to respond effectively.”
-
-
-
-His solution is to use artificial intelligence to provide automation. “AI is becoming essential for analyzing large volumes of telemetry, correlating signals across multiple environments and identifying the small number of events that actually represent real risk. Rather than presenting analysts with thousands of disconnected alerts, AI can group related activity, add context and prioritize incidents based on likely impact.”
-
-
-
-Michael Brown, Field CISO at Presidio, adds, “Analysts should not be working on any raw alerts, only correlated incidents. This enables much faster investigations and remediations while reducing staff burnout and attrition.”
-
-
-
-The question is, ‘How should this be done?’ Not all AI systems are created equal. AI only knows what it knows. It doesn’t know what it hasn’t learned – but it may still fabricate a wrong response.
-
-
-
-Merlin Gillespie, CTO of Cybanetix, offers one approach. He suggests that using known IoCs as the primary indication of compromise is no longer sufficient. “Over the past few years, attacks have become more subtle. Threat actors now obtain access via stolen credentials and maintain persistence using ‘living off the land’ techniques, which makes detection far more difficult.”
-
-
-
-So, agreeing with Parnes, he suggests, “This means we need to collect more alerts, not less, to catch and connect those small signs. Capturing more alerts and adopting a paranoid posture means those attacks can be spotted earlier, but it does of course increase the likelihood of alert fatigue and analyst burnout. It’s for this reason we need to let technology do the heavy lifting.”
-
-
-
-The technology he recommends is a combination of machine learning (ML) and large language models (LLMs). “Together, they can be used to carry out 90% of alert triage and investigation. ML can analyze vast sets of data and identify patterns, anomalies and potential breaches. Over time, ML can even make inferences to anticipate attacks and improve detection,” he says. 
-
-
-
-“LLMs, on the other hand, can explain alerts, investigation findings, and provide case summaries, speeding up investigations and producing intelligible outputs.”
-
-
-
-But he also warns there are still problems with AI. “The subjective nature means it is also prone to variance. During a recent experiment, we found an agent not only misinterpreted the threat but produced a fictitious killchain. This illustrates,” he says, “that AI doesn’t yet have the maturity needed.”
-
-
-
-The key seems to be context. Everybody accepts that alert context is necessary for accurate correlation and prioritization, but there is little definition over what constitutes and what provides the necessary context.
-
-
-
-Valenzuela links it to divergence from normal. “Effective noise reduction requires… understanding which assets are truly at risk and establishing what normal and abnormal look like in their specific environment,” he explains. 
-
-
-
-“Simply adding more tools without that context tends to increase complexity and volume rather than improve outcomes, creating what many describe as an ‘all noise, no signal’ problem.” 
-
-
-
-The priority, he adds, “Is to improve signal quality by enriching alerts with context and continuously adapting detection logic to reflect a changing environment, rather than relying on static rules.”
-
-
-
-Rob Demain, CEO of e2e-assure, suggests that context can be understood by the analyst after AI has removed the humdrum layer of analysis. “AI removes the repetitive layer of work that consumes so much of an analyst’s day. The result is faster, more consistent first-response times, and a team whose energy is directed where it matters most: understanding context, refining threat intelligence, and making nuanced judgement calls that no automated system can replicate.”
-
-
-
-Gillespie believes that context can be surfaced by the LLM part of a dual ML and gen-AI solution. Reed agrees. “AI can group related activity, add context and prioritize incidents based on likely impact.”
-
-
-
-Toby Lewis, global head of threat analysis at Darktrace, also concurs. He accepts that extracting context from the noise is humanly difficult. “Building a tech stack that can combine these feeds without a huge amount of human legwork seems like a near impossible task but it’s one that AI makes vastly more plausible. Its ability to combine, correlate and analyze data in real-time creates that single picture.”
-
-
-
-Brown provides a more complete description. “Mature SOCs auto-enrich their raw alert data so that analysts start their investigations with the context already assembled. This enrichment might include asset inventory data, asset criticality level, identity privileges, device ownership and physical location, historical behavior analytics, network traffic context, and much more.”
-
-
-
-He explains, “Correlation and contextualization is what allows analysts to look at attack chains and not just alerts. Signals from different sources (endpoints, cloud logs, IAM system, network device telemetry, etc.) are linked to create an incident narrative and help analysts understand the bigger picture much faster.”
-
-
-
-Full context can help locate the true positive alert within the noise. It can highlight what must be actioned immediately, and what may be queued for later action. 
-
-
-
-Knoop explains the importance of this context. “You could get an alert indicating a vulnerability on a machine. The vulnerability is scored at 100 out of 100 and is very urgent, so it needs immediate attention. The analyst panics.”
-
-
-
-But, adds Knoop, “If you look at the full context, you might find the machine is in a lab somewhere, and isn’t connected to any business information. So, if something does happen to it, the revenue impact – the operational impact – on the business might be zero. But current tool sets don’t reason across context and everything else that’s happening.”
-
-
-
-While artificial intelligence is a powerful new tool, it can also be a dangerous tool. AI only knows what it knows. If it doesn’t know the correct answer, it might hallucinate an inaccurate answer to fill the gap. Users of AI, which in our case are overworked and stressed SOC analysts, may not recognize the hallucination.
-
-
-
-“AI is used to sift alerts,” warns Knoop, “and is separately used to automate responses. But it does so without full context, and without full context, wrong decisions leading to wrong actions can be made.”
-
-
-
-His opinion is that context is vital to understanding and correctly responding to alerts, but that the current approach to context is generally too limited. To get full insight into whether the alert is important or just noise, context needs to be built through knowing everything about the business. He believes context needs to be taken to a new level – or in his own words, a new layer – that he calls ‘the reasoning layer’. For the last five years he has been developing such a reasoning layer – loosely classified in the emerging concept of security decision intelligence (SDI) – at Lanxit.
-
-
-
-This reasoning layer must understand the business in its entirety. So, for equipment, it uses the company’s CMDB. It doesn’t simply know each device, it knows what information is handled by that device, which other devices are connected to it and the potential blast radius of an incident affecting that device.
-
-
-
-This new reasoning layer also understands the company’s business sector; it understands what an attacker might be seeking; it understands through threat intelligence what current threats are targeting that sector. It has the potential to understand everything about the company – for example, which departments might be understaffed, and even potential attack areas that are not visible to the current security system.
-
-
-
-“It’s a system that can reason in context between all the signals that are currently available – a new layer in security that sits on top of all the current security solutions. It takes input from those security solutions, the signals, and reasons between them,” explains Knoop.
-
-
-
-“So, very simply, an alert is generated by a security tool. The reasoning layer picks up that alert and says, ‘Okay, this is an alert about this machine.’ It pulls the information about that machine from the CMDB, from the customer’s asset database. It compares it with the device information, then compares it with the business context. What industry is the customer in? Is it in the financial industry? Is it a manufacturer of cars? Is it a chemical manufacturer? So, what kind of threats have I seen in the world?”
-
-
-
-Armed with all the information about the alert and full device and business context, the reasoning layer reasons across everything and provides a natural language response to the analyst. It doesn’t simply give a score; it suggests what action needs to be taken.
-
-
-
-“It might respond, ‘this thing in your environment is a threat,” continues Knoop. “’The device has no access to anything else. Monitor it and patch it in the next cycle.’ Or it might respond, ‘This is a threat. You should act now, because it will have financial impact to your business.’”
-
-
-
-Knoop’s reasoning layer for finding the signal in the noise and what action should be taken is a work in progress. It is currently a beta in test at various sites. But what it promises is a new approach to alert analysis rather than incremental additions to the traditional approach, a solution could be found in a completely new approach focusing on context and advice.
-
-
-
-Whatever route is taken in the future, the need to solve the continuous and growing problem of alert fatigue is only getting more urgent.
-
-
-
-Related: Ox Security Bags $60M Series B to Tackle Appsec Alert Fatigue
-Related: XDR and the Age-old Problem of Alert Fatigue
-Related: Conifers.ai Scores $25M Investment for Agentic AI SOC Technology
-Related: AI Emerges as the Hope—and Risk—for Overloaded SOCs"
-2026-06-14 18:38:46,"June 11, 2026 (9:01 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/cisa-directs-federal-agencies-to-prioritize-security-patches-based-on-risk/,CISA Directs Federal Agencies to Prioritize Security Patches Based on Risk,"The US Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday announced a new directive that requires federal agencies to prioritize patching the highest-risk security flaws.
-CISA established the Known Exploited Vulnerabilities (KEV) catalog in 2021, accompanied by BOD 22-01, which directed agencies to aggressively patch bugs in the catalog within specific timeframes. It also required them to report the status of KEV vulnerabilities, without penalizing those that did not meet the deadlines.
-
-
-
-According to CISA, the new ‘Binding Operational Directive 26-04: Prioritizing Security Updates Based on Risk’ builds on BOD 22-01 and the KEV catalog to advance priorities in securing federal networks and outline critical steps to more aggressively fortify them.
-
-
-
-“The requirements in this Directive align with Office of Management and Budget (OMB) Circular A-130: Managing Information as a Strategic Resource, which establishes policy for the management of federal information resources,” CISA notes.
-
-
-
-BOD 26-04 requires federal agencies to review and update their vulnerability management policies, provide CISA with copies of these policies upon request, and prioritize the remediation of security weaknesses included in the KEV catalog.
-
-
-
-Federal agencies are also required to monitor KEV catalog updates, address the new issues in line with the provided timelines, ensure ongoing vulnerability remediation and automate reporting of the status of KEV vulnerabilities, and inventory and tag externally-accessible assets.Advertisement. Scroll to continue reading.
-
-
-To support the effort, CISA commits to updating the KEV catalog as soon as new exploited flaws are identified and to providing federal agencies with the necessary metadata and guidance.
-
-
-
-“Within 60 days, CISA will publish data requirements, outlining how agencies should supply machine-level asset tagging information using a standardized data schema,” CISA says.
-
-
-
-The agency also provided remediation timelines for security vulnerabilities, which have been developed based on the technical impact of each bug, or “how much post-exploitation control an adversary gains over the affected asset.”
-
-
-
-Thus, security defects in publicly exposed assets that have been added to the KEV catalog and can be automated by attackers should be addressed within three days. Even if automation is not possible, the same urgency applies to flaws that lead to total control over the vulnerable asset.
-
-
-
-Federal agencies should prioritize any security issue impacting publicly exposed assets that could lead to total control if automation is possible, even if the vulnerability has not been added to the KEV list, as well as any KEV flaw in any other asset, if it can be automated and can lead to total control.
-
-
-
-The remediation timeframe increases to 14 days or 60 days for security weaknesses considered to pose a lower risk: they are not on the KEV list, cannot be automated, and/or do not affect publicly exposed assets.
-
-
-
-“The BOD is narrowly focused on CVE prioritization, and in that focus, it misses the connection between downstream privilege debt and the acceleration of pre-positioning, persistence, and lateral movement. That matters because you can’t patch everything—but you can retire privilege debt in an environment to limit the blast radius and disrupt threat actors’ capabilities,” BeyondTrust chief cybersecurity technologist Kevin E. Greene commented. 
-
-
-
-“I wholeheartedly agree that moving away from CVSS as the prioritization driver is the right call. But understanding downstream privilege debt is equally important to making a CVE operationally ineffective. A CVE that cannot reach the privilege plane is operationally ineffective—even at a CVSS score of 10. The SSVC model in the BOD tells you how bad one CVE’s blast is on its component, but what it misses is whether that component sits on a path to a privilege plane, and where the chokepoint is to collapse that path,” Greene added.  
-
-
-
-Related: Hackers Exploit Langflow Vulnerability for Remote Code Execution
-Related: Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation
-Related: NIST Prioritizes NVD Enrichment for CVEs in CISA KEV, Critical Software
-Related: SAP Patches Critical NetWeaver, Commerce Vulnerabilities"
-2026-06-14 18:39:21,"June 11, 2026 (9:00 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/onyxc2-stealer-offers-cybercriminals-enterprise-grade-theft-for-250-a-month/,OnyxC2 Stealer Offers Cybercriminals Enterprise-Grade Theft for $250 a Month,"The OnyxC2 stealer surfaced on a cybercrime network earlier this year and is available through Malware-as-a-Service (MaaS) for hire starting at $250 per month.
-The rental price for OnyxC2 is at the higher end of stealer costs. This is primarily justified by its stealth and reach. The developers offer several options: ’normal’ at $250 per month, and ‘premium’ (which includes HNVC) at $500 per month); and are sufficiently confident to offer refunds if the build gets detected. 
-
-
-
-A third option is described as ‘private’: “Source code + installation guide and we can install it for you if you don’t have knowledge. Only 6k$.” This last option doesn’t specify a monthly price. The implication is that it is an outright purchase, but this is also not specified.
-
-
-
-Researchers at BlackFog obtained and analyzed two samples of the stealer. “It is software sold and supported like a commercial product, which is what puts a capable stealer in the hands of buyers who could never write one,” they write. To further assist such users, the package also includes several ready-made lures, including FinePrint, SystemSettings, fake Windows update packages, and for gamers (and who isn’t?), Fling-Standalone.
-
-
-
-The OnyxC2 reach is extensive. The developers claim access to 37 Chromium-based and 8 Gecko-based browsers; 95 Chromium and 14 Gecko extensions (including 6 dedicated two-factor authentication extensions); five password managers, 17 cryptocurrency wallets, 11 FTP clients, and 5 email clients; with a further set of VPN, remote access, messaging, note-taking, and gaming targets. Altogether, says BlackFog, that is roughly 210 applications and extensions across nine categories.
-
-
-
-It adds, “A stealer that scrapes password managers and 2FA extensions alongside saved logins is built to collect the credentials and session material that survive a password reset. The FTP and email targets push it past consumer credential theft and into the business systems that small finance and operations teams rely on every day. One infected host shown in the panel had already surrendered 55 saved passwords, 4,717 cookies, 719 autofill entries, 2 cards, and a wallet.” We should also add persistence to reach and stealth.Advertisement. Scroll to continue reading.
-
-
-The stealer is paired with a remote-access toolkit and provides HVNC over a web browser, LSASS dumping, RunPE in memory and on disk, a reverse SOCKS5 proxy, screenshot capture, a keylogger, a file manager, and a reverse shell over HTTP, a built-in TOR tunnel and AES-256-encrypted build downloads. Not all of these are mentioned in the developers’ online ’sales’ material, suggesting continuous development.
-
-
-
-Its stealth is verified by BlackFog. “Both delivery archives came back clean on their first VirusTotal upload, and the malicious component inside them was still unflagged when we last checked on May 30, 2026.” The build downloads are encrypted with AES256. 
-
-
-
-Within the build is a legitimate application with a valid Authenticate signature. On VirusTotal, this shows zero detections across 71 engines. It is paired with a DLL that is disguised as an NVIDIA graphics library, but with the payload appended at the end following legitimate content. When the victim runs install for the application, it loads the malicious DLL simultaneously. The payload remains encrypted until runtime – effectively when the stealer is loaded and starts its harvesting.
-
-
-
-A stealer with this reach turns one compromised workstation into standing access across a person’s working life. The combination of its stealth and persistence helps ensure that the standing access exists for an extended period.
-
-
-
-Overall, the very existence of OnyxC2, more like a commercial if malicious software product, amply demonstrates that the stealer threat is not going away. Rather, it is growing in sophistication and threat.
-
-
-
-Related: Infostealers Turn Millions of Devices Into Credential Theft Machines
-Related: Venom Stealer Raises Stakes With Continuous Credential Harvesting
-Related: Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs
-Related: Over 100 GitHub Repositories Distributing BoryptGrab Stealer"
+Related: Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities
+Related: Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack
+Related: Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari
+Related: Google Patches 382 Chrome Vulnerabilities"

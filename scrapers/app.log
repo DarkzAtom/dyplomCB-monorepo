@@ -13174,3 +13174,1498 @@ Call log:
 2026-03-21 01:42:17,681 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
 2026-03-21 01:42:17,867 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
 2026-03-21 01:42:17,879 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:23:17,286 - DEBUG - Starting new HTTPS connection (1): www.cybersecuritydive.com:443
+2026-07-05 18:23:17,819 - DEBUG - https://www.cybersecuritydive.com:443 "GET / HTTP/1.1" 200 None
+2026-07-05 18:23:18,105 - INFO - Anchor element found. Proceeding with link extraction.
+2026-07-05 18:23:18,118 - INFO - Anchor element content: <div class="page-inner-wrapper" id="skip-link-target">
+ <section class="dash-top">
+  <div class="row
+2026-07-05 18:23:18,127 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:23:34,719 - DEBUG - Starting new HTTPS connection (1): www.enisa.europa.eu:443
+2026-07-05 18:23:34,881 - DEBUG - https://www.enisa.europa.eu:443 "GET /news HTTP/1.1" 200 15227
+2026-07-05 18:23:34,882 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 18:23:34,988 - DEBUG - HTML content parsed successfully.
+2026-07-05 18:23:34,990 - DEBUG - Articles container found: True
+2026-07-05 18:23:34,991 - DEBUG - Number of articles found: 10
+2026-07-05 18:23:34,991 - DEBUG - Link element found: True
+2026-07-05 18:23:34,991 - INFO - link found: /news/your-perspective-matters-join-the-nis360-survey 
+2026-07-05 18:23:34,992 - DEBUG - Link element found: True
+2026-07-05 18:23:34,992 - INFO - link found: /news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience 
+2026-07-05 18:23:34,992 - DEBUG - Link element found: True
+2026-07-05 18:23:34,992 - INFO - link found: /news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors 
+2026-07-05 18:23:34,992 - DEBUG - Link element found: True
+2026-07-05 18:23:34,992 - INFO - link found: /news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge 
+2026-07-05 18:23:34,992 - DEBUG - Link element found: True
+2026-07-05 18:23:34,992 - INFO - link found: /news/new-cve-numbering-authorities-under-enisa-root 
+2026-07-05 18:23:34,992 - DEBUG - Link element found: True
+2026-07-05 18:23:34,992 - INFO - link found: /news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework 
+2026-07-05 18:23:34,992 - DEBUG - Link element found: True
+2026-07-05 18:23:34,992 - INFO - link found: /news/enisa-advances-the-certification-of-eu-digital-wallets 
+2026-07-05 18:23:34,992 - DEBUG - Link element found: True
+2026-07-05 18:23:34,992 - INFO - link found: /news/cybersecurity-preparedness-diy-build-your-own-cybersecurity-exercise 
+2026-07-05 18:23:34,992 - DEBUG - Link element found: True
+2026-07-05 18:23:34,993 - INFO - link found: /news/updated-international-strategy-to-empower-the-eu-cybersecurity-ecosystem 
+2026-07-05 18:23:34,993 - DEBUG - Link element found: True
+2026-07-05 18:23:34,993 - INFO - link found: /news/eu-agencies-network-leadership-at-a-time-of-change-in-the-eu 
+2026-07-05 18:23:34,993 - INFO - collected links
+2026-07-05 18:23:34,995 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:23:35,192 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:35,216 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:35,241 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:35,303 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:35,324 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:35,348 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:35,407 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:35,429 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:35,448 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:35,505 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:23:45,532 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:24:32,806 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 18:24:32,966 - DEBUG - HTML content parsed successfully.
+2026-07-05 18:24:40,482 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:24:42,471 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:42,809 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:42,846 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:43,159 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:43,195 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:43,251 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:43,540 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:43,885 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:44,231 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:44,631 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:44,717 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:45,063 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:45,083 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:45,242 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:45,451 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:24:55,475 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:24:58,496 - DEBUG - Page loaded, checking for popups.
+2026-07-05 18:25:03,506 - INFO - No ad popup appeared or failed to close popup: Locator expected to be visible
+Actual value: hidden 
+Call log:
+  - LocatorAssertions.to_be_visible with timeout 5000ms
+  - waiting for locator("button.pum-close")
+    8 × locator resolved to <button type="button" aria-label="Close" class="pum-close popmake-close">↵⇆⇆⇆Close⇆⇆⇆</button>
+      - unexpected value "hidden"
+
+2026-07-05 18:25:03,845 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 18:25:03,939 - DEBUG - HTML content parsed successfully.
+2026-07-05 18:25:03,941 - DEBUG - Articles container found: True
+2026-07-05 18:25:03,942 - DEBUG - Number of articles found: 13
+2026-07-05 18:25:03,942 - DEBUG - Link element found: True
+2026-07-05 18:25:03,943 - INFO - found a link: https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/
+2026-07-05 18:25:03,943 - DEBUG - Link element found: True
+2026-07-05 18:25:03,943 - INFO - found a link: https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/
+2026-07-05 18:25:03,943 - DEBUG - Link element found: True
+2026-07-05 18:25:03,943 - INFO - found a link: https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/
+2026-07-05 18:25:03,943 - DEBUG - Link element found: True
+2026-07-05 18:25:03,943 - INFO - found a link: https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/
+2026-07-05 18:25:03,943 - DEBUG - Link element found: True
+2026-07-05 18:25:03,943 - INFO - found a link: https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/
+2026-07-05 18:25:03,943 - DEBUG - Link element found: True
+2026-07-05 18:25:03,944 - INFO - found a link: https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/
+2026-07-05 18:25:03,944 - DEBUG - Link element found: True
+2026-07-05 18:25:03,944 - INFO - found a link: https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
+2026-07-05 18:25:03,944 - DEBUG - Link element found: True
+2026-07-05 18:25:03,944 - INFO - found a link: https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/
+2026-07-05 18:25:03,944 - DEBUG - Link element found: True
+2026-07-05 18:25:03,944 - INFO - found a link: https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/
+2026-07-05 18:25:03,944 - DEBUG - Link element found: True
+2026-07-05 18:25:03,944 - INFO - found a link: https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/
+2026-07-05 18:25:03,945 - DEBUG - Link element found: True
+2026-07-05 18:25:03,945 - INFO - found a link: https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/
+2026-07-05 18:25:03,945 - DEBUG - Link element found: True
+2026-07-05 18:25:03,945 - INFO - found a link: https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/
+2026-07-05 18:25:03,945 - DEBUG - Link element found: True
+2026-07-05 18:25:03,945 - INFO - found a link: https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/
+2026-07-05 18:25:10,459 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:33:48,642 - DEBUG - Starting new HTTPS connection (1): sekurak.pl:443
+2026-07-05 18:33:48,757 - DEBUG - https://sekurak.pl:443 "GET / HTTP/1.1" 200 None
+2026-07-05 18:33:48,777 - INFO - Anchor element found. Proceeding with link extraction.
+2026-07-05 18:33:48,783 - INFO - Anchor element content: <div id="content" role="main">
+ <div class="one" id="ppc-box">
+  <div class="ppc-box">
+   <div class="ppc">
+    <h3>
+     W biegu
+    </h3>
+    <ul>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/posiadasz-telewizor-podlaczony-na-stale-do-wi-fi-mozesz-nieswiadomie-scrapowac-dane-na-potrzeby-trenowania-modeli-ai/" title="Article Posiadasz telewizor podłączony na stałe do Wi-Fi? Możesz nieświadomie scrapować dane na potrzeby trenowania modeli AI published at 30 czerwca, 2026 7:57 am">
+       Posiadasz telewizor podłączony na stałe do Wi-Fi? Możesz nieświadomie scrapować dane na potrzeby trenowania modeli AI
+      </a>
+     </li>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/scam-na-gta-6-cyberprzestepcy-oferuja-wczesny-dostep-do-gry-w-zamian-za-kryptowaluty/" title="Article SCAM na GTA 6. Cyberprzestępcy oferują wczesny dostęp do gry w zamian za kryptowaluty published at 29 czerwca, 2026 7:41 am">
+       SCAM na GTA 6. Cyberprzestępcy oferują wczesny dostęp do gry w zamian za kryptowaluty
+      </a>
+     </li>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/czy-da-sie-wykorzystac-legalny-serwis-googla-do-dystrybucji-zlosliwego-oprogramowania-cyberprzestepcy-znalezli-sposob-szczegoly-kampanii-desckvb-rat/" title="Article Czy da się wykorzystać legalny serwis Googla do dystrybucji złośliwego oprogramowania? Cyberprzestępcy znaleźli sposób - szczegóły kampanii DesckVB RAT published at 26 czerwca, 2026 1:00 pm">
+       Czy da się wykorzystać legalny serwis Googla do dystrybucji złośliwego oprogramowania? Cyberprzestępcy znaleźli sposób - szczegóły kampanii DesckVB RAT
+      </a>
+     </li>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/prawidlowa-obsluga-incydentu-bezpieczenstwa-czyli-jak-nie-spalic-firmy-dowodow-i-obowiazkow-nis2-ksc2/" title="Article Prawidłowa obsługa incydentu bezpieczeństwa, czyli jak nie spalić firmy, dowodów i obowiązków NIS2/KSC2 published at 26 czerwca, 2026 12:53 pm">
+       Prawidłowa obsługa incydentu bezpieczeństwa, czyli jak nie spalić firmy, dowodów i obowiązków NIS2/KSC2
+      </a>
+     </li>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/onyxc2-infostealer-oferowany-jako-profesjonalne-narzedzie-klasy-enterprise/" title="Article OnyxC2 – infostealer oferowany jako profesjonalne narzędzie klasy enterprise published at 22 czerwca, 2026 11:30 am">
+       OnyxC2 – infostealer oferowany jako profesjonalne narzędzie klasy enterprise
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </div>
+ <div class="fb-like" data-action="like" data-href="http://facebook.com/sekurak" data-layout="standard" data-share="false" data-show-faces="false">
+ </div>
+ <br/>
+ <br/>
+ <article class="post" id="post-56533">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/praca-dla-osob-hackerskich-w-sekuraku-w-najblizszym-czasie-chcemy-zatrudnic-4-osoby/" title="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów">
+    Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów
+   </a>
+  </h2>
+  <div class="meta">
+   30 czerwca 2026, 15:07 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/praca-dla-osob-hackerskich-w-sekuraku-w-najblizszym-czasie-chcemy-zatrudnic-4-osoby/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/praca-dla-osob-hackerskich-w-sekuraku-w-najblizszym-czasie-chcemy-zatrudnic-4-osoby/" title="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów">
+    <img alt="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2019/10/hacker-150x150.jpeg" title="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów"/>
+   </a>
+   <p>
+    TL;DR – zapraszamy do pracy w Securitum/Sekuraku – w tej fali rekrutacji planujemy sumarycznie zatrudnić 4 osoby hackerskie 🙂 Trzy poziomy doświadczenia: junior, med, senior. Zapraszamy z terenu całego kraju :) Praca zdalna, fajne warunki, szczegóły poniżej! CV prześlij na praca@securitum.pl Co nas wyróżnia? Jeśli chcesz robić prawdziwe ofensywne bezpieczeństwo,…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/praca-dla-osob-hackerskich-w-sekuraku-w-najblizszym-czasie-chcemy-zatrudnic-4-osoby/" title="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56499">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/jak-z-hukiem-oblac-audyt-nis2-ksc2-krotki-przewodnik-dla-naprawde-odwaznych-i-bogatych/" title="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych">
+    Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych
+   </a>
+  </h2>
+  <div class="meta">
+   30 czerwca 2026, 06:54 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/jak-z-hukiem-oblac-audyt-nis2-ksc2-krotki-przewodnik-dla-naprawde-odwaznych-i-bogatych/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/jak-z-hukiem-oblac-audyt-nis2-ksc2-krotki-przewodnik-dla-naprawde-odwaznych-i-bogatych/" title="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych">
+    <img alt="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-30-o-06.49.42-150x150.png" title="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych"/>
+   </a>
+   <p>
+    Zacznijmy od faktów. 3 kwietnia 2026 roku weszła w życie nowelizacja ustawy o Krajowym Systemie Cyberbezpieczeństwa (to słynne KSC2 odmieniane przez wszystkie przypadki), wdrażająca unijną dyrektywę NIS2. Nowe przepisy objęły swoim zasięgiem blisko 40 tysięcy organizacji w Polsce – od administracji publicznej, przez transport i energetykę, aż po ochronę zdrowia…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/jak-z-hukiem-oblac-audyt-nis2-ksc2-krotki-przewodnik-dla-naprawde-odwaznych-i-bogatych/" title="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56479">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/podatnosc-w-webowym-vscode-github-pozwalala-przejac-token-uzytkownika/" title="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika">
+    Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika
+   </a>
+  </h2>
+  <div class="meta">
+   29 czerwca 2026, 07:35 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/podatnosc-w-webowym-vscode-github-pozwalala-przejac-token-uzytkownika/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/podatnosc-w-webowym-vscode-github-pozwalala-przejac-token-uzytkownika/" title="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika">
+    <img alt="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/vscode-150x150.png" title="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika"/>
+   </a>
+   <p>
+    Badacz bezpieczeństwa Ammar Askar odkrył podatność w webowym edytorze (Visual Studio Code) udostępnianym w ramach GitHub. Samo otwarcie repozytorium mogło umożliwić atakującemu kradzież tokenu, który pozwala uzyskać dostęp do repozytoriów ofiary. TLDR: GitHub udostępnia funkcję do łatwej edycji plików w ramach repozytorium. Wystarczy w adresie URL zmienić domenę github.com na…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/podatnosc-w-webowym-vscode-github-pozwalala-przejac-token-uzytkownika/" title="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56459">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/masowy-atak-na-urzadzenia-fortinet-prawie-74-tys-przejetych-urzadzen-kulisy-kampanii-fortibleed/" title="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed">
+    Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed
+   </a>
+  </h2>
+  <div class="meta">
+   25 czerwca 2026, 05:45 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/masowy-atak-na-urzadzenia-fortinet-prawie-74-tys-przejetych-urzadzen-kulisy-kampanii-fortibleed/#comments">
+    komentarzy 6
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/masowy-atak-na-urzadzenia-fortinet-prawie-74-tys-przejetych-urzadzen-kulisy-kampanii-fortibleed/" title="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed">
+    <img alt="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-25-o-05.43.28-150x150.png" title="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed"/>
+   </a>
+   <p>
+    To nie pierwszy raz, kiedy urządzenia mające gwarantować bezpieczeństwo sieci stały się “główną furtką” do uzyskania nieuprawnionego dostępu. Najsmutniejsze w tym wszystkim jest to, że cyberprzestępcy nie używali nawet skomplikowanych eksploitów. Wystarczyło masowe skanowanie internetu, wyciągnięcie plików konfiguracyjnych i klaster złożony z kilkudziesięciu kart graficznych. Efekt – ponad 73 tysiące…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/masowy-atak-na-urzadzenia-fortinet-prawie-74-tys-przejetych-urzadzen-kulisy-kampanii-fortibleed/" title="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56416">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/ai-nie-naprawi-za-ciebie-produkcji-ale-szybko-pokaze-gdzie-boli/" title="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli">
+    AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli
+   </a>
+  </h2>
+  <div class="meta">
+   16 czerwca 2026, 11:46 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/ai-nie-naprawi-za-ciebie-produkcji-ale-szybko-pokaze-gdzie-boli/#comments">
+    komentarze 2
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/ai-nie-naprawi-za-ciebie-produkcji-ale-szybko-pokaze-gdzie-boli/" title="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli">
+    <img alt="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/adminz-150x150.jpg" title="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli"/>
+   </a>
+   <p>
+    Widziałeś już pewnie te wszystkie efektowne pokazy na LinkedIn, w których AI „w 30 sekund robi robotę całego działu IT”? Wklejasz magiczny prompt, model wypluwa idealny raport, świat staje się piękny, a rozjechana produkcja sama wstaje z kolan. Bajka… No więc mały spoiler – nie, to tak nie działa 😉…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/ai-nie-naprawi-za-ciebie-produkcji-ale-szybko-pokaze-gdzie-boli/" title="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56412">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/the-gentlemen-ransomware-dzialajacy-w-modelu-raas-dostosowujacy-sie-do-srodowiska-celu/" title="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu">
+    The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu
+   </a>
+  </h2>
+  <div class="meta">
+   16 czerwca 2026, 09:24 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/the-gentlemen-ransomware-dzialajacy-w-modelu-raas-dostosowujacy-sie-do-srodowiska-celu/#comments">
+    1 komentarz
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/the-gentlemen-ransomware-dzialajacy-w-modelu-raas-dostosowujacy-sie-do-srodowiska-celu/" title="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu">
+    <img alt="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-16-o-09.23.34-150x150.png" title="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu"/>
+   </a>
+   <p>
+    Microsoft Threat Intelligence przeprowadził analizę odświeżonego wariantu ransomware The Gentlemen. Malware charakteryzuje się wysoce rozwiniętym mechanizmem self-propagation, czyli zdolnością do rozprzestrzeniania się w sieci. Ponadto, zaimplementowano w nim silne mechanizmy kryptograficzne oraz techniki zabezpieczające przed inżynierią wsteczną, co znacząco utrudnia analizę.  TLDR: Badacze z Microsoftu powiązali kampanię z grupą Storm-2697…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/the-gentlemen-ransomware-dzialajacy-w-modelu-raas-dostosowujacy-sie-do-srodowiska-celu/" title="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56375">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/alert-ataki-na-polskie-konta-gmail-dostep-do-skrzynek-probuje-uzyskac-grupa-hackerska-zwiazana-z-rzadem-bialorusi/" title="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi">
+    Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi
+   </a>
+  </h2>
+  <div class="meta">
+   12 czerwca 2026, 13:32 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/alert-ataki-na-polskie-konta-gmail-dostep-do-skrzynek-probuje-uzyskac-grupa-hackerska-zwiazana-z-rzadem-bialorusi/#comments">
+    komentarzy 9
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/alert-ataki-na-polskie-konta-gmail-dostep-do-skrzynek-probuje-uzyskac-grupa-hackerska-zwiazana-z-rzadem-bialorusi/" title="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi">
+    <img alt="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/gmail-atak-150x150.png" title="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi"/>
+   </a>
+   <p>
+    Jak donosi CERT Polska: Przejęte skrzynki są […] przeszukiwane pod kątem interesujących z punktu widzenia atakujących informacji, takich jak lista kontaktowa (do typowania dalszych celów kampanii), wrażliwe dokumenty czy powiązane konta (np. w mediach społecznościowych), które można przejąć z ich dalszym wykorzystaniem. Zaczyna się od maila tego typu jak widzisz…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/alert-ataki-na-polskie-konta-gmail-dostep-do-skrzynek-probuje-uzyskac-grupa-hackerska-zwiazana-z-rzadem-bialorusi/" title="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56358">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/signal-wdraza-mechanizmy-chroniace-przed-phishingiem-czy-sa-wystarczajace-do-ochrony-uzytkownika/" title="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?">
+    Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?
+   </a>
+  </h2>
+  <div class="meta">
+   11 czerwca 2026, 04:19 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/signal-wdraza-mechanizmy-chroniace-przed-phishingiem-czy-sa-wystarczajace-do-ochrony-uzytkownika/#comments">
+    komentarze 3
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/signal-wdraza-mechanizmy-chroniace-przed-phishingiem-czy-sa-wystarczajace-do-ochrony-uzytkownika/" title="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?">
+    <img alt="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/signal-smartphone-150x150.png" title="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?"/>
+   </a>
+   <p>
+    O kampaniach phishingowych, wykorzystujących komunikatory internetowe pisaliśmy już nie raz. Cyberprzestępcy stosują najróżniejsze metody socjotechniczne, aby zmanipulować użytkownika i przejąć dostęp do jego konta. Skala ataków nasila się z dnia na dzień, a jednym z najczęściej wybieranych komunikatorów jest Signal.  TLDR: Wybór ten nie jest przypadkowy. Jeżeli zależy nam na…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/signal-wdraza-mechanizmy-chroniace-przed-phishingiem-czy-sa-wystarczajace-do-ochrony-uzytkownika/" title="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56346">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/masz-iphonea-z-ios-16-i-zainstalowanym-komunikatorem-whatsapp-mozesz-pasc-ofiara-ataku-typu-zero-click/" title="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click">
+    Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click
+   </a>
+  </h2>
+  <div class="meta">
+   08 czerwca 2026, 10:55 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/masz-iphonea-z-ios-16-i-zainstalowanym-komunikatorem-whatsapp-mozesz-pasc-ofiara-ataku-typu-zero-click/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/masz-iphonea-z-ios-16-i-zainstalowanym-komunikatorem-whatsapp-mozesz-pasc-ofiara-ataku-typu-zero-click/" title="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click">
+    <img alt="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/whatsapp-0-day-150x150.png" title="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click"/>
+   </a>
+   <p>
+    Wyobraźmy sobie sytuację, w której nagle kontaktuje się z nami dobry znajomy z pytaniem kiedy oddamy mu pożyczone pieniądze. W trakcie rozmowy pokazuje nam zrzuty ekranu z wiadomościami na WhatsAppie, w których rzekomo prosimy go o niewielką kwotę, bo akurat tyle nam zabrakło podczas robienia zakupów. Jesteśmy zaskoczeni, ponieważ nigdy…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/masz-iphonea-z-ios-16-i-zainstalowanym-komunikatorem-whatsapp-mozesz-pasc-ofiara-ataku-typu-zero-click/" title="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56327">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/nowa-fala-atakow-na-programistow-cyberprzestepcy-zatruwaja-wyniki-wyszukiwania-seo-poisoning-aby-dystrybuowac-zlosliwe-instalatory-gemini-cli-oraz-claude-code/" title="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code">
+    Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code
+   </a>
+  </h2>
+  <div class="meta">
+   05 czerwca 2026, 13:08 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/nowa-fala-atakow-na-programistow-cyberprzestepcy-zatruwaja-wyniki-wyszukiwania-seo-poisoning-aby-dystrybuowac-zlosliwe-instalatory-gemini-cli-oraz-claude-code/#comments">
+    komentarze 3
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/nowa-fala-atakow-na-programistow-cyberprzestepcy-zatruwaja-wyniki-wyszukiwania-seo-poisoning-aby-dystrybuowac-zlosliwe-instalatory-gemini-cli-oraz-claude-code/" title="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code">
+    <img alt="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-5-o-13.05.55-150x150.png" title="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code"/>
+   </a>
+   <p>
+    Badacze bezpieczeństwa z EclecticIQ alarmują o trwającej kampanii cyberprzestępczej, wycelowanej głównie w programistów szukających instalatorów GeminiCLI oraz Claude Code. Atakujący używają techniki SEO poisoning (zatruwanie wyników wyszukiwania), aby pozycjonować fałszywe domeny nad oficjalnymi witrynami. Strony perfekcyjnie odzwierciedlają autentyczne witryny instalacyjne poszczególnych agentów. Jednak w pakiecie, oprócz instalacji samego agenta, użytkownik…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/nowa-fala-atakow-na-programistow-cyberprzestepcy-zatruwaja-wyniki-wyszukiwania-seo-poisoning-aby-dystrybuowac-zlosliwe-instalatory-gemini-cli-oraz-claude-code/" title="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56297">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/nis2-ksc2-ale-wlasciwie-od-czego-zaczac-starter-pack-od-sekuraka/" title="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka">
+    NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka
+   </a>
+  </h2>
+  <div class="meta">
+   02 czerwca 2026, 17:46 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/nis2-ksc2-ale-wlasciwie-od-czego-zaczac-starter-pack-od-sekuraka/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/nis2-ksc2-ale-wlasciwie-od-czego-zaczac-starter-pack-od-sekuraka/" title="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka">
+    <img alt="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-2-o-17.45.35-150x150.png" title="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka"/>
+   </a>
+   <p>
+    Wszyscy już wiemy, że w kwietniu weszła jedna z najważniejszych zmian regulacyjnych ostatnich lat w obszarze cyberbezpieczeństwa w Polsce – nowelizacja ustawy KSC2, implementująca unijną dyrektywę NIS2.   Kilkadziesiąt tysięcy podmiotów w Polsce stanęło przed następującymi pytaniami: Jeśli zadajesz sobie te pytania – zapewniamy Cię, że nie jesteś sam. Odpowiedzi na…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/nis2-ksc2-ale-wlasciwie-od-czego-zaczac-starter-pack-od-sekuraka/" title="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56292">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/edycja-plikow-konfiguracyjnych-przez-zmiane-nazwy-prompt-injection-w-github-codespaces/" title="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces">
+    Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces
+   </a>
+  </h2>
+  <div class="meta">
+   02 czerwca 2026, 09:10 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/edycja-plikow-konfiguracyjnych-przez-zmiane-nazwy-prompt-injection-w-github-codespaces/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/edycja-plikow-konfiguracyjnych-przez-zmiane-nazwy-prompt-injection-w-github-codespaces/" title="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces">
+    <img alt="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/github-creds-150x150.png" title="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces"/>
+   </a>
+   <p>
+    Informując w marcu o podatności prompt injection w GitHub Codespaces, napisaliśmy że będą pojawiać się kolejne luki. Jak się okazało, wcale nie trzeba było długo czekać. Badacze z Hacktron odkryli podatność prompt injection w GitHub Copilot (działającym w ramach Agent Mode). Tryb ten może zostać użyty w ramach issues, gdzie…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/edycja-plikow-konfiguracyjnych-przez-zmiane-nazwy-prompt-injection-w-github-codespaces/" title="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56282">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/57-tys-commitow-w-6-godzin-repozytoria-github-zainfekowane-w-kampanii-megalodon/" title="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”">
+    5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”
+   </a>
+  </h2>
+  <div class="meta">
+   02 czerwca 2026, 09:04 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/57-tys-commitow-w-6-godzin-repozytoria-github-zainfekowane-w-kampanii-megalodon/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/57-tys-commitow-w-6-godzin-repozytoria-github-zainfekowane-w-kampanii-megalodon/" title="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”">
+    <img alt="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/github-150x150.png" title="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”"/>
+   </a>
+   <p>
+    Badacze z SafeDep wykryli zautomatyzowaną kampanię – nazwaną megalodon – w ramach której wypchnięto ponad 5,7 tysięcy złośliwych commitów w ponad 5,5 tysiącach repozytoriów na GitHub. Całość zajęła ~6 godzin. Korzystając z jednorazowych kont atakujący wstrzyknęli złośliwe workflow GitHub Actions zawierające zakodowane w base64 payloady (bash), które wykradają sekrety CI,…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/57-tys-commitow-w-6-godzin-repozytoria-github-zainfekowane-w-kampanii-megalodon/" title="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56272">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/ponad-700-stron-opartych-na-ghost-cms-zainfekowano-falszywa-captcha-clickfix/" title="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)">
+    Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)
+   </a>
+  </h2>
+  <div class="meta">
+   01 czerwca 2026, 12:51 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/ponad-700-stron-opartych-na-ghost-cms-zainfekowano-falszywa-captcha-clickfix/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/ponad-700-stron-opartych-na-ghost-cms-zainfekowano-falszywa-captcha-clickfix/" title="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)">
+    <img alt="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/clickfix-150x150.png" title="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)"/>
+   </a>
+   <p>
+    Badacze z XLab wykryli kampanię wymierzoną w strony wykorzystujące Ghost CMS. Atakujący wykorzystał podatność SQL injection (CVE-2026-26980) do uzyskania klucza API, a następnie użył go do masowego modyfikowania treści, wstrzykując złośliwy kod JavaScript. TLDR: Chociaż podatność CVE-2026-26980 została publicznie ujawniona już 19 lutego, wiele stron nie zostało załatanych, co stworzyło…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/ponad-700-stron-opartych-na-ghost-cms-zainfekowano-falszywa-captcha-clickfix/" title="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56267">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/14-zlosliwych-pakietow-npm-podszywa-sie-pod-opensearch-i-elastic/" title="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic">
+    14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic
+   </a>
+  </h2>
+  <div class="meta">
+   01 czerwca 2026, 07:20 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/14-zlosliwych-pakietow-npm-podszywa-sie-pod-opensearch-i-elastic/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/14-zlosliwych-pakietow-npm-podszywa-sie-pod-opensearch-i-elastic/" title="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic">
+    <img alt="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-1-o-07.17.55-150x150.png" title="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic"/>
+   </a>
+   <p>
+    Badacze bezpieczeństwa z Microsoft zidentyfikowali złośliwą kampanię w ekosystemie pakietów npm. 28 maja 2026 roku pojedynczy użytkownik vpmdhaj (a39155771@gmail[.]com) opublikował 14 złośliwych pakietów w ciągu 4 godzin. Pakiety te podszywają się pod biblioteki OpenSearch i ElasticSearch, oraz narzędzia do konfiguracji środowiska. TLDR: Wszystkie paczki w ramach kampanii dostarczają ten sam…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/14-zlosliwych-pakietow-npm-podszywa-sie-pod-opensearch-i-elastic/" title="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <div class="wp-pagenavi" role="navigation">
+  <span class="pages">
+   Strona 1 z 101
+  </span>
+  <span aria-current="page" class="current">
+   1
+  </span>
+  <a class="page larger" href="https://sekurak.pl/page/2/" title="Strona 2">
+   2
+  </a>
+  <a class="page larger" href="https://sekurak.pl/page/3/" title="Strona 3">
+   3
+  </a>
+  <a class="page larger" href="https://sekurak.pl/page/4/" title="Strona 4">
+   4
+  </a>
+  <a class="page larger" href="https://sekurak.pl/page/5/" title="Strona 5">
+   5
+  </a>
+  <span class="extend">
+   ...
+  </span>
+  <a class="larger page" href="https://sekurak.pl/page/10/" title="Strona 10">
+   10
+  </a>
+  <a class="larger page" href="https://sekurak.pl/page/20/" title="Strona 20">
+   20
+  </a>
+  <a class="larger page" href="https://sekurak.pl/page/30/" title="Strona 30">
+   30
+  </a>
+  <span class="extend">
+   ...
+  </span>
+  <a aria-label="Następna strona" class="nextpostslink" href="https://sekurak.pl/page/2/" rel="next">
+   »
+  </a>
+  <a aria-label="Last Page" class="last" href="https://sekurak.pl/page/101/">
+   Ostatnia »
+  </a>
+ </div>
+</div>
+
+2026-07-05 18:33:48,789 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:33:59,217 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2026-07-05 18:33:59,381 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2026-07-05 18:33:59,407 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:34:10,788 - DEBUG - Starting new HTTPS connection (1): feeds.feedburner.com:443
+2026-07-05 18:34:11,132 - DEBUG - https://feeds.feedburner.com:443 "GET /TheHackersNews HTTP/1.1" 200 None
+2026-07-05 18:34:11,177 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:36:03,756 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:36:03,757 - INFO - Starting cookie collection for https://www.darkreading.com...
+2026-07-05 18:36:06,789 - INFO - Waiting 10 seconds for Cloudflare challenge to clear...
+2026-07-05 18:36:16,815 - INFO - Successfully saved session state to scrapers/darkreading/cf_state.json
+2026-07-05 18:36:26,153 - ERROR - Error processing https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders: Locator expected to be in viewport
+Actual value: <element(s) not found> 
+Call log:
+  - LocatorAssertions.to_be_in_viewport with timeout 5000ms
+  - waiting for locator("span[data-testid=\"article-title\"]")
+
+2026-07-05 18:59:07,536 - DEBUG - Starting new HTTPS connection (1): www.cybersecuritydive.com:443
+2026-07-05 18:59:07,827 - DEBUG - https://www.cybersecuritydive.com:443 "GET / HTTP/1.1" 200 None
+2026-07-05 18:59:07,897 - INFO - Anchor element found. Proceeding with link extraction.
+2026-07-05 18:59:07,909 - INFO - Anchor element content: <div class="page-inner-wrapper" id="skip-link-target">
+ <section class="dash-top">
+  <div class="row
+2026-07-05 18:59:07,916 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:59:23,651 - DEBUG - Starting new HTTPS connection (1): www.enisa.europa.eu:443
+2026-07-05 18:59:23,809 - DEBUG - https://www.enisa.europa.eu:443 "GET /news HTTP/1.1" 200 15227
+2026-07-05 18:59:23,810 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 18:59:23,855 - DEBUG - HTML content parsed successfully.
+2026-07-05 18:59:23,857 - DEBUG - Articles container found: True
+2026-07-05 18:59:23,858 - DEBUG - Number of articles found: 10
+2026-07-05 18:59:23,858 - DEBUG - Link element found: True
+2026-07-05 18:59:23,858 - INFO - link found: /news/your-perspective-matters-join-the-nis360-survey 
+2026-07-05 18:59:23,858 - DEBUG - Link element found: True
+2026-07-05 18:59:23,858 - INFO - link found: /news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience 
+2026-07-05 18:59:23,858 - DEBUG - Link element found: True
+2026-07-05 18:59:23,858 - INFO - link found: /news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors 
+2026-07-05 18:59:23,858 - DEBUG - Link element found: True
+2026-07-05 18:59:23,858 - INFO - link found: /news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge 
+2026-07-05 18:59:23,858 - DEBUG - Link element found: True
+2026-07-05 18:59:23,858 - INFO - link found: /news/new-cve-numbering-authorities-under-enisa-root 
+2026-07-05 18:59:23,859 - DEBUG - Link element found: True
+2026-07-05 18:59:23,859 - INFO - link found: /news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework 
+2026-07-05 18:59:23,859 - DEBUG - Link element found: True
+2026-07-05 18:59:23,859 - INFO - link found: /news/enisa-advances-the-certification-of-eu-digital-wallets 
+2026-07-05 18:59:23,859 - DEBUG - Link element found: True
+2026-07-05 18:59:23,859 - INFO - link found: /news/cybersecurity-preparedness-diy-build-your-own-cybersecurity-exercise 
+2026-07-05 18:59:23,859 - DEBUG - Link element found: True
+2026-07-05 18:59:23,859 - INFO - link found: /news/updated-international-strategy-to-empower-the-eu-cybersecurity-ecosystem 
+2026-07-05 18:59:23,859 - DEBUG - Link element found: True
+2026-07-05 18:59:23,859 - INFO - link found: /news/eu-agencies-network-leadership-at-a-time-of-change-in-the-eu 
+2026-07-05 18:59:23,859 - INFO - collected links
+2026-07-05 18:59:23,861 - DEBUG - Using selector: EpollSelector
+2026-07-05 18:59:24,077 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:59:24,101 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:59:24,194 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:59:24,253 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:59:24,276 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:59:24,300 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:59:24,357 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:59:24,381 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:59:24,399 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 18:59:24,453 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:38,794 - DEBUG - Starting new HTTPS connection (1): www.cybersecuritydive.com:443
+2026-07-05 19:13:38,966 - DEBUG - https://www.cybersecuritydive.com:443 "GET / HTTP/1.1" 200 None
+2026-07-05 19:13:39,028 - INFO - Anchor element found. Proceeding with link extraction.
+2026-07-05 19:13:39,039 - INFO - Anchor element content: <div class="page-inner-wrapper" id="skip-link-target">
+ <section class="dash-top">
+  <div class="row
+2026-07-05 19:13:39,044 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:13:40,219 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/china-nexus-multiyear-hacking-us-canadian-medical-research/822912/
+2026-07-05 19:13:40,594 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/anthropic-us-government-export-ban-mythos-fable/822909/
+2026-07-05 19:13:40,749 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/shinyhunters-exploitation-critical-flaw-oracle-peoplesoft/822796/
+2026-07-05 19:13:42,771 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/shinyhunters-exploitation-critical-flaw-oracle-peoplesoft/822796/
+2026-07-05 19:13:55,704 - DEBUG - Starting new HTTPS connection (1): www.enisa.europa.eu:443
+2026-07-05 19:13:55,906 - DEBUG - https://www.enisa.europa.eu:443 "GET /news HTTP/1.1" 200 15227
+2026-07-05 19:13:55,907 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 19:13:55,944 - DEBUG - HTML content parsed successfully.
+2026-07-05 19:13:55,946 - DEBUG - Articles container found: True
+2026-07-05 19:13:55,947 - DEBUG - Number of articles found: 10
+2026-07-05 19:13:55,947 - DEBUG - Link element found: True
+2026-07-05 19:13:55,947 - INFO - link found: /news/your-perspective-matters-join-the-nis360-survey 
+2026-07-05 19:13:55,947 - DEBUG - Link element found: True
+2026-07-05 19:13:55,947 - INFO - link found: /news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience 
+2026-07-05 19:13:55,947 - DEBUG - Link element found: True
+2026-07-05 19:13:55,947 - INFO - link found: /news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors 
+2026-07-05 19:13:55,947 - DEBUG - Link element found: True
+2026-07-05 19:13:55,947 - INFO - link found: /news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge 
+2026-07-05 19:13:55,947 - DEBUG - Link element found: True
+2026-07-05 19:13:55,947 - INFO - link found: /news/new-cve-numbering-authorities-under-enisa-root 
+2026-07-05 19:13:55,947 - DEBUG - Link element found: True
+2026-07-05 19:13:55,947 - INFO - link found: /news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework 
+2026-07-05 19:13:55,947 - DEBUG - Link element found: True
+2026-07-05 19:13:55,947 - INFO - link found: /news/enisa-advances-the-certification-of-eu-digital-wallets 
+2026-07-05 19:13:55,947 - DEBUG - Link element found: True
+2026-07-05 19:13:55,948 - INFO - link found: /news/cybersecurity-preparedness-diy-build-your-own-cybersecurity-exercise 
+2026-07-05 19:13:55,950 - DEBUG - Link element found: True
+2026-07-05 19:13:55,950 - INFO - link found: /news/updated-international-strategy-to-empower-the-eu-cybersecurity-ecosystem 
+2026-07-05 19:13:55,950 - DEBUG - Link element found: True
+2026-07-05 19:13:55,950 - INFO - link found: /news/eu-agencies-network-leadership-at-a-time-of-change-in-the-eu 
+2026-07-05 19:13:55,951 - INFO - collected links
+2026-07-05 19:13:55,952 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:13:56,164 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:56,188 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:56,284 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:56,343 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:56,372 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:56,393 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:56,448 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:56,472 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:56,490 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:13:56,588 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:06,608 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:14:34,327 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 19:14:34,511 - DEBUG - HTML content parsed successfully.
+2026-07-05 19:14:46,025 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:14:46,514 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:46,543 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:46,568 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:46,844 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:46,872 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:46,930 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:47,186 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:47,214 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:47,293 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:47,452 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:47,544 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:47,738 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:47,828 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:47,912 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:48,150 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:48,170 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:48,403 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:48,479 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:48,523 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:48,755 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:48,821 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:48,855 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:49,087 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:14:59,877 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:15:06,700 - DEBUG - Page loaded, checking for popups.
+2026-07-05 19:15:11,732 - INFO - No ad popup appeared or failed to close popup: Locator expected to be visible
+Actual value: hidden 
+Call log:
+  - LocatorAssertions.to_be_visible with timeout 5000ms
+  - waiting for locator("button.pum-close")
+    5 × locator resolved to <button type="button" aria-label="Close" class="pum-close popmake-close">↵⇆⇆⇆Close⇆⇆⇆</button>
+      - unexpected value "hidden"
+
+2026-07-05 19:15:12,425 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 19:15:12,478 - DEBUG - HTML content parsed successfully.
+2026-07-05 19:15:12,480 - DEBUG - Articles container found: True
+2026-07-05 19:15:12,480 - DEBUG - Number of articles found: 13
+2026-07-05 19:15:12,481 - DEBUG - Link element found: True
+2026-07-05 19:15:12,481 - INFO - found a link: https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/
+2026-07-05 19:15:12,481 - DEBUG - Link element found: True
+2026-07-05 19:15:12,481 - INFO - found a link: https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/
+2026-07-05 19:15:12,481 - DEBUG - Link element found: True
+2026-07-05 19:15:12,481 - INFO - found a link: https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/
+2026-07-05 19:15:12,481 - DEBUG - Link element found: True
+2026-07-05 19:15:12,481 - INFO - found a link: https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/
+2026-07-05 19:15:12,481 - DEBUG - Link element found: True
+2026-07-05 19:15:12,481 - INFO - found a link: https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/
+2026-07-05 19:15:12,481 - DEBUG - Link element found: True
+2026-07-05 19:15:12,481 - INFO - found a link: https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/
+2026-07-05 19:15:12,481 - DEBUG - Link element found: True
+2026-07-05 19:15:12,481 - INFO - found a link: https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
+2026-07-05 19:15:12,481 - DEBUG - Link element found: True
+2026-07-05 19:15:12,482 - INFO - found a link: https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/
+2026-07-05 19:15:12,482 - DEBUG - Link element found: True
+2026-07-05 19:15:12,482 - INFO - found a link: https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/
+2026-07-05 19:15:12,482 - DEBUG - Link element found: True
+2026-07-05 19:15:12,482 - INFO - found a link: https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/
+2026-07-05 19:15:12,482 - DEBUG - Link element found: True
+2026-07-05 19:15:12,482 - INFO - found a link: https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/
+2026-07-05 19:15:12,482 - DEBUG - Link element found: True
+2026-07-05 19:15:12,482 - INFO - found a link: https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/
+2026-07-05 19:15:12,482 - DEBUG - Link element found: True
+2026-07-05 19:15:12,482 - INFO - found a link: https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/
+2026-07-05 19:15:18,985 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:32:21,493 - DEBUG - Starting new HTTPS connection (1): www.cybersecuritydive.com:443
+2026-07-05 19:32:21,655 - DEBUG - https://www.cybersecuritydive.com:443 "GET / HTTP/1.1" 200 None
+2026-07-05 19:32:21,746 - INFO - Anchor element found. Proceeding with link extraction.
+2026-07-05 19:32:21,760 - INFO - Anchor element content: <div class="page-inner-wrapper" id="skip-link-target">
+ <section class="dash-top">
+  <div class="row
+2026-07-05 19:32:21,766 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:32:25,919 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/china-nexus-multiyear-hacking-us-canadian-medical-research/822912/
+2026-07-05 19:32:26,434 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/anthropic-us-government-export-ban-mythos-fable/822909/
+2026-07-05 19:32:26,643 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/shinyhunters-exploitation-critical-flaw-oracle-peoplesoft/822796/
+2026-07-05 19:32:28,446 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/china-nexus-multiyear-hacking-us-canadian-medical-research/822912/
+2026-07-05 19:32:28,498 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/anthropic-us-government-export-ban-mythos-fable/822909/
+2026-07-05 19:32:28,708 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/shinyhunters-exploitation-critical-flaw-oracle-peoplesoft/822796/
+2026-07-05 19:32:30,515 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/china-nexus-multiyear-hacking-us-canadian-medical-research/822912/
+2026-07-05 19:32:30,561 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/anthropic-us-government-export-ban-mythos-fable/822909/
+2026-07-05 19:32:30,777 - WARNING - Received status code 429 for https://www.cybersecuritydive.com/news/shinyhunters-exploitation-critical-flaw-oracle-peoplesoft/822796/
+2026-07-05 19:32:40,802 - DEBUG - Starting new HTTPS connection (1): www.enisa.europa.eu:443
+2026-07-05 19:32:40,975 - DEBUG - https://www.enisa.europa.eu:443 "GET /news HTTP/1.1" 200 15227
+2026-07-05 19:32:40,976 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 19:32:41,010 - DEBUG - HTML content parsed successfully.
+2026-07-05 19:32:41,013 - DEBUG - Articles container found: True
+2026-07-05 19:32:41,015 - DEBUG - Number of articles found: 10
+2026-07-05 19:32:41,015 - DEBUG - Link element found: True
+2026-07-05 19:32:41,015 - INFO - link found: /news/your-perspective-matters-join-the-nis360-survey 
+2026-07-05 19:32:41,015 - DEBUG - Link element found: True
+2026-07-05 19:32:41,015 - INFO - link found: /news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience 
+2026-07-05 19:32:41,015 - DEBUG - Link element found: True
+2026-07-05 19:32:41,015 - INFO - link found: /news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors 
+2026-07-05 19:32:41,015 - DEBUG - Link element found: True
+2026-07-05 19:32:41,015 - INFO - link found: /news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge 
+2026-07-05 19:32:41,015 - DEBUG - Link element found: True
+2026-07-05 19:32:41,015 - INFO - link found: /news/new-cve-numbering-authorities-under-enisa-root 
+2026-07-05 19:32:41,016 - DEBUG - Link element found: True
+2026-07-05 19:32:41,016 - INFO - link found: /news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework 
+2026-07-05 19:32:41,016 - DEBUG - Link element found: True
+2026-07-05 19:32:41,016 - INFO - link found: /news/enisa-advances-the-certification-of-eu-digital-wallets 
+2026-07-05 19:32:41,016 - DEBUG - Link element found: True
+2026-07-05 19:32:41,016 - INFO - link found: /news/cybersecurity-preparedness-diy-build-your-own-cybersecurity-exercise 
+2026-07-05 19:32:41,016 - DEBUG - Link element found: True
+2026-07-05 19:32:41,016 - INFO - link found: /news/updated-international-strategy-to-empower-the-eu-cybersecurity-ecosystem 
+2026-07-05 19:32:41,016 - DEBUG - Link element found: True
+2026-07-05 19:32:41,016 - INFO - link found: /news/eu-agencies-network-leadership-at-a-time-of-change-in-the-eu 
+2026-07-05 19:32:41,016 - INFO - collected links
+2026-07-05 19:32:41,017 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:32:41,205 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:41,229 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:41,292 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:41,318 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:41,381 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:41,471 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:41,520 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:41,553 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:41,685 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:41,713 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:32:51,742 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:32:56,863 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 19:32:56,934 - DEBUG - HTML content parsed successfully.
+2026-07-05 19:33:08,442 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:33:08,868 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:08,941 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:08,960 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:09,051 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:09,259 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:09,278 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:09,377 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:09,587 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:09,631 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:09,663 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:09,957 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:09,976 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:10,042 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:10,327 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:10,346 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:10,395 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:10,673 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:10,732 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:10,775 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:10,945 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:11,051 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:11,232 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:11,309 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:33:21,355 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:33:23,121 - DEBUG - Page loaded, checking for popups.
+2026-07-05 19:33:28,128 - INFO - No ad popup appeared or failed to close popup: Locator expected to be visible
+Actual value: hidden 
+Call log:
+  - LocatorAssertions.to_be_visible with timeout 5000ms
+  - waiting for locator("button.pum-close")
+    8 × locator resolved to <button type="button" aria-label="Close" class="pum-close popmake-close">↵⇆⇆⇆Close⇆⇆⇆</button>
+      - unexpected value "hidden"
+
+2026-07-05 19:33:28,232 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 19:33:28,294 - DEBUG - HTML content parsed successfully.
+2026-07-05 19:33:28,295 - DEBUG - Articles container found: True
+2026-07-05 19:33:28,296 - DEBUG - Number of articles found: 13
+2026-07-05 19:33:28,296 - DEBUG - Link element found: True
+2026-07-05 19:33:28,296 - INFO - found a link: https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/
+2026-07-05 19:33:28,297 - DEBUG - Link element found: True
+2026-07-05 19:33:28,297 - INFO - found a link: https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/
+2026-07-05 19:33:28,298 - DEBUG - Link element found: True
+2026-07-05 19:33:28,298 - INFO - found a link: https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/
+2026-07-05 19:33:34,801 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:42:18,656 - DEBUG - Starting new HTTPS connection (1): sekurak.pl:443
+2026-07-05 19:42:18,731 - DEBUG - https://sekurak.pl:443 "GET / HTTP/1.1" 200 None
+2026-07-05 19:42:18,752 - INFO - Anchor element found. Proceeding with link extraction.
+2026-07-05 19:42:18,755 - INFO - Anchor element content: <div id="content" role="main">
+ <div class="one" id="ppc-box">
+  <div class="ppc-box">
+   <div class="ppc">
+    <h3>
+     W biegu
+    </h3>
+    <ul>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/posiadasz-telewizor-podlaczony-na-stale-do-wi-fi-mozesz-nieswiadomie-scrapowac-dane-na-potrzeby-trenowania-modeli-ai/" title="Article Posiadasz telewizor podłączony na stałe do Wi-Fi? Możesz nieświadomie scrapować dane na potrzeby trenowania modeli AI published at 30 czerwca, 2026 7:57 am">
+       Posiadasz telewizor podłączony na stałe do Wi-Fi? Możesz nieświadomie scrapować dane na potrzeby trenowania modeli AI
+      </a>
+     </li>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/scam-na-gta-6-cyberprzestepcy-oferuja-wczesny-dostep-do-gry-w-zamian-za-kryptowaluty/" title="Article SCAM na GTA 6. Cyberprzestępcy oferują wczesny dostęp do gry w zamian za kryptowaluty published at 29 czerwca, 2026 7:41 am">
+       SCAM na GTA 6. Cyberprzestępcy oferują wczesny dostęp do gry w zamian za kryptowaluty
+      </a>
+     </li>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/czy-da-sie-wykorzystac-legalny-serwis-googla-do-dystrybucji-zlosliwego-oprogramowania-cyberprzestepcy-znalezli-sposob-szczegoly-kampanii-desckvb-rat/" title="Article Czy da się wykorzystać legalny serwis Googla do dystrybucji złośliwego oprogramowania? Cyberprzestępcy znaleźli sposób - szczegóły kampanii DesckVB RAT published at 26 czerwca, 2026 1:00 pm">
+       Czy da się wykorzystać legalny serwis Googla do dystrybucji złośliwego oprogramowania? Cyberprzestępcy znaleźli sposób - szczegóły kampanii DesckVB RAT
+      </a>
+     </li>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/prawidlowa-obsluga-incydentu-bezpieczenstwa-czyli-jak-nie-spalic-firmy-dowodow-i-obowiazkow-nis2-ksc2/" title="Article Prawidłowa obsługa incydentu bezpieczeństwa, czyli jak nie spalić firmy, dowodów i obowiązków NIS2/KSC2 published at 26 czerwca, 2026 12:53 pm">
+       Prawidłowa obsługa incydentu bezpieczeństwa, czyli jak nie spalić firmy, dowodów i obowiązków NIS2/KSC2
+      </a>
+     </li>
+     <li>
+      <a class="ppc-post-title" href="https://sekurak.pl/onyxc2-infostealer-oferowany-jako-profesjonalne-narzedzie-klasy-enterprise/" title="Article OnyxC2 – infostealer oferowany jako profesjonalne narzędzie klasy enterprise published at 22 czerwca, 2026 11:30 am">
+       OnyxC2 – infostealer oferowany jako profesjonalne narzędzie klasy enterprise
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </div>
+ <div class="fb-like" data-action="like" data-href="http://facebook.com/sekurak" data-layout="standard" data-share="false" data-show-faces="false">
+ </div>
+ <br/>
+ <br/>
+ <article class="post" id="post-56533">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/praca-dla-osob-hackerskich-w-sekuraku-w-najblizszym-czasie-chcemy-zatrudnic-4-osoby/" title="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów">
+    Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów
+   </a>
+  </h2>
+  <div class="meta">
+   30 czerwca 2026, 15:07 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/praca-dla-osob-hackerskich-w-sekuraku-w-najblizszym-czasie-chcemy-zatrudnic-4-osoby/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/praca-dla-osob-hackerskich-w-sekuraku-w-najblizszym-czasie-chcemy-zatrudnic-4-osoby/" title="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów">
+    <img alt="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2019/10/hacker-150x150.jpeg" title="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów"/>
+   </a>
+   <p>
+    TL;DR – zapraszamy do pracy w Securitum/Sekuraku – w tej fali rekrutacji planujemy sumarycznie zatrudnić 4 osoby hackerskie 🙂 Trzy poziomy doświadczenia: junior, med, senior. Zapraszamy z terenu całego kraju :) Praca zdalna, fajne warunki, szczegóły poniżej! CV prześlij na praca@securitum.pl Co nas wyróżnia? Jeśli chcesz robić prawdziwe ofensywne bezpieczeństwo,…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/praca-dla-osob-hackerskich-w-sekuraku-w-najblizszym-czasie-chcemy-zatrudnic-4-osoby/" title="Praca dla osób hackerskich ;) w sekuraku. W najbliższym czasie chcemy zatrudnić 4 pentesterów">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56499">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/jak-z-hukiem-oblac-audyt-nis2-ksc2-krotki-przewodnik-dla-naprawde-odwaznych-i-bogatych/" title="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych">
+    Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych
+   </a>
+  </h2>
+  <div class="meta">
+   30 czerwca 2026, 06:54 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/jak-z-hukiem-oblac-audyt-nis2-ksc2-krotki-przewodnik-dla-naprawde-odwaznych-i-bogatych/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/jak-z-hukiem-oblac-audyt-nis2-ksc2-krotki-przewodnik-dla-naprawde-odwaznych-i-bogatych/" title="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych">
+    <img alt="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-30-o-06.49.42-150x150.png" title="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych"/>
+   </a>
+   <p>
+    Zacznijmy od faktów. 3 kwietnia 2026 roku weszła w życie nowelizacja ustawy o Krajowym Systemie Cyberbezpieczeństwa (to słynne KSC2 odmieniane przez wszystkie przypadki), wdrażająca unijną dyrektywę NIS2. Nowe przepisy objęły swoim zasięgiem blisko 40 tysięcy organizacji w Polsce – od administracji publicznej, przez transport i energetykę, aż po ochronę zdrowia…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/jak-z-hukiem-oblac-audyt-nis2-ksc2-krotki-przewodnik-dla-naprawde-odwaznych-i-bogatych/" title="Jak z hukiem oblać audyt NIS2/KSC2?   Krótki przewodnik dla naprawdę odważnych i… bogatych">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56479">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/podatnosc-w-webowym-vscode-github-pozwalala-przejac-token-uzytkownika/" title="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika">
+    Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika
+   </a>
+  </h2>
+  <div class="meta">
+   29 czerwca 2026, 07:35 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/podatnosc-w-webowym-vscode-github-pozwalala-przejac-token-uzytkownika/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/podatnosc-w-webowym-vscode-github-pozwalala-przejac-token-uzytkownika/" title="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika">
+    <img alt="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/vscode-150x150.png" title="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika"/>
+   </a>
+   <p>
+    Badacz bezpieczeństwa Ammar Askar odkrył podatność w webowym edytorze (Visual Studio Code) udostępnianym w ramach GitHub. Samo otwarcie repozytorium mogło umożliwić atakującemu kradzież tokenu, który pozwala uzyskać dostęp do repozytoriów ofiary. TLDR: GitHub udostępnia funkcję do łatwej edycji plików w ramach repozytorium. Wystarczy w adresie URL zmienić domenę github.com na…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/podatnosc-w-webowym-vscode-github-pozwalala-przejac-token-uzytkownika/" title="Podatność w webowym VSCode (GitHub) pozwalała przejąć token użytkownika">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56459">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/masowy-atak-na-urzadzenia-fortinet-prawie-74-tys-przejetych-urzadzen-kulisy-kampanii-fortibleed/" title="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed">
+    Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed
+   </a>
+  </h2>
+  <div class="meta">
+   25 czerwca 2026, 05:45 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/masowy-atak-na-urzadzenia-fortinet-prawie-74-tys-przejetych-urzadzen-kulisy-kampanii-fortibleed/#comments">
+    komentarzy 6
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/masowy-atak-na-urzadzenia-fortinet-prawie-74-tys-przejetych-urzadzen-kulisy-kampanii-fortibleed/" title="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed">
+    <img alt="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-25-o-05.43.28-150x150.png" title="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed"/>
+   </a>
+   <p>
+    To nie pierwszy raz, kiedy urządzenia mające gwarantować bezpieczeństwo sieci stały się “główną furtką” do uzyskania nieuprawnionego dostępu. Najsmutniejsze w tym wszystkim jest to, że cyberprzestępcy nie używali nawet skomplikowanych eksploitów. Wystarczyło masowe skanowanie internetu, wyciągnięcie plików konfiguracyjnych i klaster złożony z kilkudziesięciu kart graficznych. Efekt – ponad 73 tysiące…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/masowy-atak-na-urzadzenia-fortinet-prawie-74-tys-przejetych-urzadzen-kulisy-kampanii-fortibleed/" title="Masowy atak na urządzenia Fortinet. Prawie 74 tys. przejętych urządzeń. Kulisy kampanii FortiBleed">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56416">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/ai-nie-naprawi-za-ciebie-produkcji-ale-szybko-pokaze-gdzie-boli/" title="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli">
+    AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli
+   </a>
+  </h2>
+  <div class="meta">
+   16 czerwca 2026, 11:46 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/ai-nie-naprawi-za-ciebie-produkcji-ale-szybko-pokaze-gdzie-boli/#comments">
+    komentarze 2
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/ai-nie-naprawi-za-ciebie-produkcji-ale-szybko-pokaze-gdzie-boli/" title="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli">
+    <img alt="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/adminz-150x150.jpg" title="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli"/>
+   </a>
+   <p>
+    Widziałeś już pewnie te wszystkie efektowne pokazy na LinkedIn, w których AI „w 30 sekund robi robotę całego działu IT”? Wklejasz magiczny prompt, model wypluwa idealny raport, świat staje się piękny, a rozjechana produkcja sama wstaje z kolan. Bajka… No więc mały spoiler – nie, to tak nie działa 😉…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/ai-nie-naprawi-za-ciebie-produkcji-ale-szybko-pokaze-gdzie-boli/" title="AI nie naprawi za Ciebie produkcji. Ale szybko pokaże, gdzie boli">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56412">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/the-gentlemen-ransomware-dzialajacy-w-modelu-raas-dostosowujacy-sie-do-srodowiska-celu/" title="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu">
+    The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu
+   </a>
+  </h2>
+  <div class="meta">
+   16 czerwca 2026, 09:24 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/the-gentlemen-ransomware-dzialajacy-w-modelu-raas-dostosowujacy-sie-do-srodowiska-celu/#comments">
+    1 komentarz
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/the-gentlemen-ransomware-dzialajacy-w-modelu-raas-dostosowujacy-sie-do-srodowiska-celu/" title="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu">
+    <img alt="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-16-o-09.23.34-150x150.png" title="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu"/>
+   </a>
+   <p>
+    Microsoft Threat Intelligence przeprowadził analizę odświeżonego wariantu ransomware The Gentlemen. Malware charakteryzuje się wysoce rozwiniętym mechanizmem self-propagation, czyli zdolnością do rozprzestrzeniania się w sieci. Ponadto, zaimplementowano w nim silne mechanizmy kryptograficzne oraz techniki zabezpieczające przed inżynierią wsteczną, co znacząco utrudnia analizę.  TLDR: Badacze z Microsoftu powiązali kampanię z grupą Storm-2697…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/the-gentlemen-ransomware-dzialajacy-w-modelu-raas-dostosowujacy-sie-do-srodowiska-celu/" title="The Gentlemen – ransomware działający w modelu RaaS dostosowujący się do środowiska celu">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56375">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/alert-ataki-na-polskie-konta-gmail-dostep-do-skrzynek-probuje-uzyskac-grupa-hackerska-zwiazana-z-rzadem-bialorusi/" title="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi">
+    Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi
+   </a>
+  </h2>
+  <div class="meta">
+   12 czerwca 2026, 13:32 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/alert-ataki-na-polskie-konta-gmail-dostep-do-skrzynek-probuje-uzyskac-grupa-hackerska-zwiazana-z-rzadem-bialorusi/#comments">
+    komentarzy 9
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/alert-ataki-na-polskie-konta-gmail-dostep-do-skrzynek-probuje-uzyskac-grupa-hackerska-zwiazana-z-rzadem-bialorusi/" title="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi">
+    <img alt="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/gmail-atak-150x150.png" title="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi"/>
+   </a>
+   <p>
+    Jak donosi CERT Polska: Przejęte skrzynki są […] przeszukiwane pod kątem interesujących z punktu widzenia atakujących informacji, takich jak lista kontaktowa (do typowania dalszych celów kampanii), wrażliwe dokumenty czy powiązane konta (np. w mediach społecznościowych), które można przejąć z ich dalszym wykorzystaniem. Zaczyna się od maila tego typu jak widzisz…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/alert-ataki-na-polskie-konta-gmail-dostep-do-skrzynek-probuje-uzyskac-grupa-hackerska-zwiazana-z-rzadem-bialorusi/" title="Alert. Ataki na polskie konta Gmail! Dostęp do skrzynek próbuje uzyskać grupa hackerska związana z rządem Białorusi">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56358">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/signal-wdraza-mechanizmy-chroniace-przed-phishingiem-czy-sa-wystarczajace-do-ochrony-uzytkownika/" title="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?">
+    Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?
+   </a>
+  </h2>
+  <div class="meta">
+   11 czerwca 2026, 04:19 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/signal-wdraza-mechanizmy-chroniace-przed-phishingiem-czy-sa-wystarczajace-do-ochrony-uzytkownika/#comments">
+    komentarze 3
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/signal-wdraza-mechanizmy-chroniace-przed-phishingiem-czy-sa-wystarczajace-do-ochrony-uzytkownika/" title="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?">
+    <img alt="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/signal-smartphone-150x150.png" title="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?"/>
+   </a>
+   <p>
+    O kampaniach phishingowych, wykorzystujących komunikatory internetowe pisaliśmy już nie raz. Cyberprzestępcy stosują najróżniejsze metody socjotechniczne, aby zmanipulować użytkownika i przejąć dostęp do jego konta. Skala ataków nasila się z dnia na dzień, a jednym z najczęściej wybieranych komunikatorów jest Signal.  TLDR: Wybór ten nie jest przypadkowy. Jeżeli zależy nam na…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/signal-wdraza-mechanizmy-chroniace-przed-phishingiem-czy-sa-wystarczajace-do-ochrony-uzytkownika/" title="Signal wdraża mechanizmy chroniące przed phishingiem. Czy są wystarczające do ochrony użytkownika?">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56346">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/masz-iphonea-z-ios-16-i-zainstalowanym-komunikatorem-whatsapp-mozesz-pasc-ofiara-ataku-typu-zero-click/" title="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click">
+    Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click
+   </a>
+  </h2>
+  <div class="meta">
+   08 czerwca 2026, 10:55 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/masz-iphonea-z-ios-16-i-zainstalowanym-komunikatorem-whatsapp-mozesz-pasc-ofiara-ataku-typu-zero-click/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/masz-iphonea-z-ios-16-i-zainstalowanym-komunikatorem-whatsapp-mozesz-pasc-ofiara-ataku-typu-zero-click/" title="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click">
+    <img alt="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/whatsapp-0-day-150x150.png" title="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click"/>
+   </a>
+   <p>
+    Wyobraźmy sobie sytuację, w której nagle kontaktuje się z nami dobry znajomy z pytaniem kiedy oddamy mu pożyczone pieniądze. W trakcie rozmowy pokazuje nam zrzuty ekranu z wiadomościami na WhatsAppie, w których rzekomo prosimy go o niewielką kwotę, bo akurat tyle nam zabrakło podczas robienia zakupów. Jesteśmy zaskoczeni, ponieważ nigdy…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/masz-iphonea-z-ios-16-i-zainstalowanym-komunikatorem-whatsapp-mozesz-pasc-ofiara-ataku-typu-zero-click/" title="Masz iPhone’a z iOS 16 i zainstalowanym komunikatorem WhatsApp? Możesz paść ofiarą ataku typu zero-click">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56327">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/nowa-fala-atakow-na-programistow-cyberprzestepcy-zatruwaja-wyniki-wyszukiwania-seo-poisoning-aby-dystrybuowac-zlosliwe-instalatory-gemini-cli-oraz-claude-code/" title="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code">
+    Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code
+   </a>
+  </h2>
+  <div class="meta">
+   05 czerwca 2026, 13:08 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/nowa-fala-atakow-na-programistow-cyberprzestepcy-zatruwaja-wyniki-wyszukiwania-seo-poisoning-aby-dystrybuowac-zlosliwe-instalatory-gemini-cli-oraz-claude-code/#comments">
+    komentarze 3
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/nowa-fala-atakow-na-programistow-cyberprzestepcy-zatruwaja-wyniki-wyszukiwania-seo-poisoning-aby-dystrybuowac-zlosliwe-instalatory-gemini-cli-oraz-claude-code/" title="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code">
+    <img alt="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-5-o-13.05.55-150x150.png" title="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code"/>
+   </a>
+   <p>
+    Badacze bezpieczeństwa z EclecticIQ alarmują o trwającej kampanii cyberprzestępczej, wycelowanej głównie w programistów szukających instalatorów GeminiCLI oraz Claude Code. Atakujący używają techniki SEO poisoning (zatruwanie wyników wyszukiwania), aby pozycjonować fałszywe domeny nad oficjalnymi witrynami. Strony perfekcyjnie odzwierciedlają autentyczne witryny instalacyjne poszczególnych agentów. Jednak w pakiecie, oprócz instalacji samego agenta, użytkownik…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/nowa-fala-atakow-na-programistow-cyberprzestepcy-zatruwaja-wyniki-wyszukiwania-seo-poisoning-aby-dystrybuowac-zlosliwe-instalatory-gemini-cli-oraz-claude-code/" title="Nowa fala ataków na programistów. Cyberprzestępcy zatruwają wyniki wyszukiwania (SEO poisoning), aby dystrybuować złośliwe instalatory Gemini CLI oraz Claude Code">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56297">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/nis2-ksc2-ale-wlasciwie-od-czego-zaczac-starter-pack-od-sekuraka/" title="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka">
+    NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka
+   </a>
+  </h2>
+  <div class="meta">
+   02 czerwca 2026, 17:46 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/nis2-ksc2-ale-wlasciwie-od-czego-zaczac-starter-pack-od-sekuraka/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/nis2-ksc2-ale-wlasciwie-od-czego-zaczac-starter-pack-od-sekuraka/" title="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka">
+    <img alt="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-2-o-17.45.35-150x150.png" title="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka"/>
+   </a>
+   <p>
+    Wszyscy już wiemy, że w kwietniu weszła jedna z najważniejszych zmian regulacyjnych ostatnich lat w obszarze cyberbezpieczeństwa w Polsce – nowelizacja ustawy KSC2, implementująca unijną dyrektywę NIS2.   Kilkadziesiąt tysięcy podmiotów w Polsce stanęło przed następującymi pytaniami: Jeśli zadajesz sobie te pytania – zapewniamy Cię, że nie jesteś sam. Odpowiedzi na…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/nis2-ksc2-ale-wlasciwie-od-czego-zaczac-starter-pack-od-sekuraka/" title="NIS2/KSC2… ale właściwie od czego zacząć? Starter Pack od sekuraka">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56292">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/edycja-plikow-konfiguracyjnych-przez-zmiane-nazwy-prompt-injection-w-github-codespaces/" title="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces">
+    Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces
+   </a>
+  </h2>
+  <div class="meta">
+   02 czerwca 2026, 09:10 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/edycja-plikow-konfiguracyjnych-przez-zmiane-nazwy-prompt-injection-w-github-codespaces/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/edycja-plikow-konfiguracyjnych-przez-zmiane-nazwy-prompt-injection-w-github-codespaces/" title="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces">
+    <img alt="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/github-creds-150x150.png" title="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces"/>
+   </a>
+   <p>
+    Informując w marcu o podatności prompt injection w GitHub Codespaces, napisaliśmy że będą pojawiać się kolejne luki. Jak się okazało, wcale nie trzeba było długo czekać. Badacze z Hacktron odkryli podatność prompt injection w GitHub Copilot (działającym w ramach Agent Mode). Tryb ten może zostać użyty w ramach issues, gdzie…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/edycja-plikow-konfiguracyjnych-przez-zmiane-nazwy-prompt-injection-w-github-codespaces/" title="Edycja plików konfiguracyjnych przez zmianę nazwy? Prompt injection w GitHub Codespaces">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56282">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/57-tys-commitow-w-6-godzin-repozytoria-github-zainfekowane-w-kampanii-megalodon/" title="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”">
+    5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”
+   </a>
+  </h2>
+  <div class="meta">
+   02 czerwca 2026, 09:04 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/57-tys-commitow-w-6-godzin-repozytoria-github-zainfekowane-w-kampanii-megalodon/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/57-tys-commitow-w-6-godzin-repozytoria-github-zainfekowane-w-kampanii-megalodon/" title="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”">
+    <img alt="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/github-150x150.png" title="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”"/>
+   </a>
+   <p>
+    Badacze z SafeDep wykryli zautomatyzowaną kampanię – nazwaną megalodon – w ramach której wypchnięto ponad 5,7 tysięcy złośliwych commitów w ponad 5,5 tysiącach repozytoriów na GitHub. Całość zajęła ~6 godzin. Korzystając z jednorazowych kont atakujący wstrzyknęli złośliwe workflow GitHub Actions zawierające zakodowane w base64 payloady (bash), które wykradają sekrety CI,…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/57-tys-commitow-w-6-godzin-repozytoria-github-zainfekowane-w-kampanii-megalodon/" title="5,7 tys. commitów w 6 godzin. Repozytoria GitHub zainfekowane w kampanii “megalodon”">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56272">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/ponad-700-stron-opartych-na-ghost-cms-zainfekowano-falszywa-captcha-clickfix/" title="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)">
+    Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)
+   </a>
+  </h2>
+  <div class="meta">
+   01 czerwca 2026, 12:51 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/ponad-700-stron-opartych-na-ghost-cms-zainfekowano-falszywa-captcha-clickfix/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/ponad-700-stron-opartych-na-ghost-cms-zainfekowano-falszywa-captcha-clickfix/" title="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)">
+    <img alt="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/clickfix-150x150.png" title="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)"/>
+   </a>
+   <p>
+    Badacze z XLab wykryli kampanię wymierzoną w strony wykorzystujące Ghost CMS. Atakujący wykorzystał podatność SQL injection (CVE-2026-26980) do uzyskania klucza API, a następnie użył go do masowego modyfikowania treści, wstrzykując złośliwy kod JavaScript. TLDR: Chociaż podatność CVE-2026-26980 została publicznie ujawniona już 19 lutego, wiele stron nie zostało załatanych, co stworzyło…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/ponad-700-stron-opartych-na-ghost-cms-zainfekowano-falszywa-captcha-clickfix/" title="Ponad 700 stron opartych na Ghost CMS zainfekowano fałszywą Captchą (ClickFix)">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <article class="post" id="post-56267">
+  <h2 class="postTitle">
+   <a href="https://sekurak.pl/14-zlosliwych-pakietow-npm-podszywa-sie-pod-opensearch-i-elastic/" title="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic">
+    14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic
+   </a>
+  </h2>
+  <div class="meta">
+   01 czerwca 2026, 07:20 |
+   <a href="https://sekurak.pl/aktualnosci/" rel="category tag">
+    Aktualności
+   </a>
+   |
+   <a href="https://sekurak.pl/14-zlosliwych-pakietow-npm-podszywa-sie-pod-opensearch-i-elastic/#respond">
+    0 komentarzy
+   </a>
+  </div>
+  <div class="entry excerpt">
+   <a href="https://sekurak.pl/14-zlosliwych-pakietow-npm-podszywa-sie-pod-opensearch-i-elastic/" title="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic">
+    <img alt="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic" class="onLeft" src="https://sekurak.pl/wp-content/uploads/2026/06/Zrzut-ekranu-2026-06-1-o-07.17.55-150x150.png" title="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic"/>
+   </a>
+   <p>
+    Badacze bezpieczeństwa z Microsoft zidentyfikowali złośliwą kampanię w ekosystemie pakietów npm. 28 maja 2026 roku pojedynczy użytkownik vpmdhaj (a39155771@gmail[.]com) opublikował 14 złośliwych pakietów w ciągu 4 godzin. Pakiety te podszywają się pod biblioteki OpenSearch i ElasticSearch, oraz narzędzia do konfiguracji środowiska. TLDR: Wszystkie paczki w ramach kampanii dostarczają ten sam…
+   </p>
+   <a class="readMore" href="https://sekurak.pl/14-zlosliwych-pakietow-npm-podszywa-sie-pod-opensearch-i-elastic/" title="14 złośliwych pakietów npm podszywa się pod OpenSearch i Elastic">
+    Czytaj dalej »
+   </a>
+  </div>
+ </article>
+ <div class="wp-pagenavi" role="navigation">
+  <span class="pages">
+   Strona 1 z 101
+  </span>
+  <span aria-current="page" class="current">
+   1
+  </span>
+  <a class="page larger" href="https://sekurak.pl/page/2/" title="Strona 2">
+   2
+  </a>
+  <a class="page larger" href="https://sekurak.pl/page/3/" title="Strona 3">
+   3
+  </a>
+  <a class="page larger" href="https://sekurak.pl/page/4/" title="Strona 4">
+   4
+  </a>
+  <a class="page larger" href="https://sekurak.pl/page/5/" title="Strona 5">
+   5
+  </a>
+  <span class="extend">
+   ...
+  </span>
+  <a class="larger page" href="https://sekurak.pl/page/10/" title="Strona 10">
+   10
+  </a>
+  <a class="larger page" href="https://sekurak.pl/page/20/" title="Strona 20">
+   20
+  </a>
+  <a class="larger page" href="https://sekurak.pl/page/30/" title="Strona 30">
+   30
+  </a>
+  <span class="extend">
+   ...
+  </span>
+  <a aria-label="Następna strona" class="nextpostslink" href="https://sekurak.pl/page/2/" rel="next">
+   »
+  </a>
+  <a aria-label="Last Page" class="last" href="https://sekurak.pl/page/101/">
+   Ostatnia »
+  </a>
+ </div>
+</div>
+
+2026-07-05 19:42:18,758 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:42:30,072 - DEBUG - Starting new HTTPS connection (1): thecyberwire.com:443
+2026-07-05 19:42:30,275 - DEBUG - https://thecyberwire.com:443 "GET /newsletters/daily-briefing HTTP/1.1" 200 None
+2026-07-05 19:42:30,292 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:42:40,854 - DEBUG - Starting new HTTPS connection (1): feeds.feedburner.com:443
+2026-07-05 19:42:41,187 - DEBUG - https://feeds.feedburner.com:443 "GET /TheHackersNews HTTP/1.1" 200 None
+2026-07-05 19:42:41,238 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:44:19,951 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:44:19,951 - INFO - Starting cookie collection for https://www.darkreading.com...
+2026-07-05 19:44:21,302 - INFO - Waiting 10 seconds for Cloudflare challenge to clear...
+2026-07-05 19:44:31,322 - INFO - Successfully saved session state to scrapers/darkreading/cf_state.json
+2026-07-05 19:44:40,200 - ERROR - Error processing https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders: Locator expected to be in viewport
+Actual value: <element(s) not found> 
+Call log:
+  - LocatorAssertions.to_be_in_viewport with timeout 5000ms
+  - waiting for locator("span[data-testid=\"article-title\"]")
+
+2026-07-05 19:53:35,282 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:53:57,696 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 19:53:57,836 - DEBUG - HTML content parsed successfully.
+2026-07-05 19:54:09,539 - DEBUG - Using selector: EpollSelector
+2026-07-05 19:54:09,978 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:10,035 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:10,067 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:10,178 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:10,413 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:10,449 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:10,527 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:10,721 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:10,824 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:10,979 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,081 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,164 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,316 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,419 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,494 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,624 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,730 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,858 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,965 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:11,988 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:12,164 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:12,212 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 19:54:12,356 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:14:07,762 - DEBUG - Using selector: EpollSelector
+2026-07-05 20:14:14,871 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 20:14:14,961 - DEBUG - HTML content parsed successfully.
+2026-07-05 20:14:14,964 - DEBUG - Using selector: EpollSelector
+2026-07-05 20:21:30,206 - DEBUG - Using selector: EpollSelector
+2026-07-05 20:21:35,178 - DEBUG - Page loaded successfully, proceeding to parse HTML content.
+2026-07-05 20:21:35,247 - DEBUG - HTML content parsed successfully.
+2026-07-05 20:21:46,753 - DEBUG - Using selector: EpollSelector
+2026-07-05 20:21:47,224 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:47,273 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:47,337 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:47,564 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:47,603 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:47,632 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:47,835 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:47,875 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:47,994 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:48,175 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:48,200 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:48,391 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:48,533 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:48,568 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:48,896 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:48,933 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:48,995 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:49,188 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:49,274 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:49,326 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:49,544 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:49,605 - INFO - Successfully fetched content, processing HTML...
+2026-07-05 20:21:49,770 - INFO - Successfully fetched content, processing HTML...

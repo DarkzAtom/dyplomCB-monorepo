@@ -99,8 +99,8 @@ class AsyncLinkProcessor:
             article_dict = {
                     'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
                     'creationDate': creation_date if creation_date else datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when the article was published on the source page
-                    'author': 'sekurak',
-                    'authorLink': 'https://www.sekurak.pl',
+                    'author': 'NASK',
+                    'authorLink': 'https://www.nask.pl',
                     'articleLink': url,
                     'articleTitle': article_title,
                     'articleText': article_text,

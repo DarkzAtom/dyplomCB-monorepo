@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup
 import os
+from dotenv import load_dotenv
+load_dotenv()  # load HEADLESS (from scrapers/.env) regardless of which entry point runs this
 import functools
 import time
 from playwright.sync_api import sync_playwright, expect
