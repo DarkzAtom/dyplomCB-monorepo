@@ -11,7 +11,7 @@ def main():
     # saving into the csv for now since we don't have a database yet
     # TODO: save into the database as a superstructure to the existing logic with saving to the csv
 
-    csv_file = "output.csv"
+    csv_file = "scrapers/nask/output.csv"
 
     if final_list:
         with open(csv_file, mode='w', newline='', encoding='utf-8') as file:

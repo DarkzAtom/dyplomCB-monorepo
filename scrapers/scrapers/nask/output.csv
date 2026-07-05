@@ -1,33 +1,1186 @@
 fetchingDate,creationDate,author,authorLink,articleLink,articleTitle,articleText
-2025-05-22 03:51:37,20/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/96,President Trump signs the Take It Down Act into law.,"President Trump yesterday signed the Take It Down Act, which criminalizes the distribution of nonconsensual intimate images (NCII), including AI deepfakes and revenge porn. Offenders could face up to three years in prison, plus fines. The law also requires social media companies to set up processes to remove NCII within 48 hours of being alerted.
-The bill unanimously cleared the Senate in February and passed the House 409–2 in April. POLITICO notes that many industry and victim advocate groups support the bill, though some digital rights organizations worry the law could be misused for censorship."
-2025-05-22 03:51:37,20/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/96,Arla Foods says cyberattack affected production operations.,"Danish multinational dairy giant Arla Foods has disclosed a cyberattack that disrupted operations at its production facility in Upahl, Germany, BleepingComputer reports. The company said in a statement, ""We can confirm that we have identified suspicious activity at our dairy site in Upahl that impacted the local IT network. Due to the safety measures initiated as a result of the incident, production was temporarily affected....Since then, we've been working diligently to restore full operations. We expect to return to normal operations at the site in the next few days. Production at other Arla sites is not affected.""
-The company didn't share details about the nature of the attack, and BleepingComputer notes that so far no criminal groups have taken credit."
-2025-05-22 03:51:37,20/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/96,Another ransomware attack disrupts the UK grocery sector.,"Somerset-based logistics company Peter Green Chilled, which supplies refrigerated food to supermarkets across the UK, was hit by a ransomware attack that disrupted order processing, the BBC reports. The company's managing director Tom Binks told the BBC, ""The transport activities of the business have continued unaffected throughout this incident.""
-The incident follows similar attacks against UK stores Marks & Spencer, Co-op, and Harrods. Industry sources note that the grocery sector is particularly vulnerable to ransomware because distribution and delivery are time-sensitive."
-2025-05-22 03:51:37,19/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/95,UK’s Ministry of Justice discloses major breach.,"The UK's Ministry of Justice has disclosed a ""significant"" breach affecting Legal Aid's online system, with hackers stealing ""a significant amount of personal data"" belonging to individuals who applied through the service since 2010. The stolen data ""may have included contact details and addresses of applicants, their dates of birth, national ID numbers, criminal history, employment status, and financial data such as contribution amounts, debts, and payments.""
-The BBC notes that the breach ""covers all areas of the aid system - including domestic abuse victims, those in family cases and others facing criminal prosecution.""
-According to the Guardian, British authorities believe the hack was carried out by a criminal gang, not a state-sponsored actor."
-2025-05-22 03:51:37,19/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/95,Healthcare data breaches affect hundreds of thousands.,"Enterprise management solutions provider Serviceaide has disclosed a data breach affecting 480,000 patients of Catholic Health, a New York-based non-profit healthcare system, SecurityWeek reports. Serviceaide says an Elasticsearch database it maintains for Catholic Health was mistakenly left public, exposing names, Social Security numbers, dates of birth, medical record numbers, patient account numbers, medical/health information, health insurance information, prescription/treatment information, clinical information, provider names and locations, emails, usernames, and passwords.
-Separately, Harbin Clinic, a healthcare system with 27 locations across the state of Georgia, is informing over 210,000 patients that their information was stolen during last year's breach affecting debt collector Nationwide Recovery Services (NRS). The leaked data included names, addresses, Social Security numbers, dates of birth, and financial account information."
-2025-05-22 03:51:37,19/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/95,SEC X account hacker sentenced to fourteen months in prison.,"A 26-year-old Alabama man, Eric Council Jr., has been sentenced to fourteen months in prison for hacking the X account of the US Securities and Exchange Commission (SEC) in January 2024. Council pleaded guilty to his role in carrying out a SIM swapping attack against the mobile phone account associated with the SEC's X account. One of his co-conspirators then used the account to make a fraudulent post that temporarily spiked the price of Bitcoin.
-The Justice Department stated, ""Council, aka 'Ronin' and 'Agiantschnauzer,' was arrested Oct. 17, 2024, and admitted to receiving about $50,000 to perform SIM swap. He pleaded guilty Feb. 10, 2025, in the District of Columbia to conspiracy to commit aggravated identity theft. In addition to the prison term, U.S. District Court Judge Amy Berman Jackson ordered forfeiture of $50,000 and three years of supervised release with the condition that he not use computers to access the dark web or commit further identity fraud."""
-2025-05-22 03:51:37,16/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/94,Co-op continues recovery from cyberattack.,"UK retail chain Co-op says systems are now running normally following a cyberattack earlier this month, Reuters reports. The incident disrupted grocery resupplies at some stores, leaving food shelves empty. The company says deliveries are back to normal, and stores should be better-stocked this weekend.
-The DragonForce ransomware gang claims to have stolen information belonging to 20 million people who signed up for Co-op's membership program, BleepingComputer reports. Co-op hasn't confirmed this exact number, but said the attackers accessed data belonging to ""a significant number of our current and past members."" The breached information includes ""Co-op Group members' personal data such as names and contact details, and did not include members' passwords, bank or credit card details, transactions or information relating to any members' or customers' products or services with the Co-op Group."""
-2025-05-22 03:51:37,16/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/94,US DOJ charges twelve more suspects in theft of $263 million in cryptocurrency,"The US Justice Department has charged twelve additional individuals for their alleged roles in ""a cyber-enabled racketeering conspiracy throughout the United States and abroad that netted them more than $263 million."" The defendants are accused of various activities related to cryptocurrency theft, including carrying out physical burglaries to steal hardware wallets. Several of the suspects were arrested in California this week, while two are believed to be living abroad in Dubai.
-The Justice Department stated, ""The various roles included database hackers, organizers, target identifiers, callers, money launderers, and residential burglars targeting hardware virtual currency wallets. Database hackers hacked websites and servers to obtain cryptocurrency-related databases or purchased databases on the darkweb. Organizers and target identifiers organized and collated information across the databases to determine the most valuable targets. Callers cold-called victims and used social engineering to convince them their accounts were the subject of cyberattacks and the enterprise callers were attempting to help secure their accounts. Money launderers received the stolen crypto currency and turned it into fiat U.S. currency in the form of bulk cash or wire transfers."""
-2025-05-22 03:51:37,16/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/94,APT28 exploits webmail vulnerabilities to target government agencies.,"ESET describes a Russia-aligned cyberespionage campaign that's exploiting cross-site scripting (XSS) vulnerabilities affecting webmail software, including Roundcube, Horde, MDaemon, and Zimbra. A vulnerability affecting MDaemon (CVE-2024-11182), which has since been patched, was exploited as a zero-day. The researchers attribute the campaign with medium confidence to Sednit (also known as ""APT28"" or ""Fancy Bear""), a threat actor associated with Russia's GRU.
-The majority of the victims were ""governmental entities and defense companies in Eastern Europe,"" although attacks were also observed against governments in Africa, Europe, and South America. The malware strains used in the campaign are designed ""to steal webmail credentials, and exfiltrate contacts and email messages from the victim’s mailbox."""
-2025-05-22 03:51:37,15/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/93,Google patches Chrome vulnerability with public exploit.,"Google has issued emergency security updates to fix a high-severity vulnerability (CVE-2025-4664) affecting Chrome, BleepingComputer reports. The vulnerability is an insufficient policy enforcement that can allow ""a remote attacker to leak cross-origin data via a crafted HTML page."" It's not clear if the flaw is under active exploitation, but Google says it's ""aware of reports that an exploit for CVE-2025-4664 exists in the wild.""
-Solidlab security researcher Vsevolod Kokorin, who discovered the flaw, explained in an X post, ""[U]nlike other browsers, Chrome resolves the Link header on subresource requests. But what's the problem? The issue is that the Link header can set a referrer-policy. We can specify unsafe-url and capture the full query parameters. Query parameters can contain sensitive data - for example, in OAuth flows, this might lead to an Account Takeover. Developers rarely consider the possibility of stealing query parameters via an image from a 3rd-party resource."""
-2025-05-22 03:51:37,15/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/93,Coinbase offers $20 million bounty for arrest of extortionists.,"Cryptocurrency exchange operator Coinbase has disclosed an extortion attempt involving theft of customer data, the Record reports. The company refused to pay a $20 million ransom demand, and is instead offering $20 million for information leading to the arrest of the crooks.
-Coinbase stated, ""Cyber criminals bribed and recruited a group of rogue overseas support agents to steal Coinbase customer data to facilitate social engineering attacks. These insiders abused their access to customer support systems to steal the account data for a small subset of customers. No passwords, private keys, or funds were exposed and Coinbase Prime accounts are untouched. We will reimburse customers who were tricked into sending funds to the attacker.""
-Coinbase Chief Security Officer Philip Martin told Fortune that the bribed workers, who were located in India, have been fired."
-2025-05-22 03:51:37,15/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/93,US steel manufacturer hit by cyberattack.,"North Carolina-based Nucor, one of the largest steel manufacturers in the world, has disclosed a cyberattack that led to ""unauthorized third party access to certain information technology systems."" The company took certain systems offline as a precaution, which halted production at some locations. The company says it is ""currently in the process of restarting the affected operations,"" and is ""actively investigating the incident with the assistance of leading external cybersecurity experts.""
-Manufacturing Dive notes that Nucor produces around a quarter of all raw steel in the US."
-2025-05-22 03:51:37,14/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/92,Microsoft patches five actively exploited zero-days.,"Microsoft's May 2025 Patch Tuesday fixed five actively exploited zero-days, as well as two other zero-days that were publicly disclosed with no observed exploitation, BleepingComputer reports. KrebsOnSecurity notes that two of the zero-days (CVE-2025-32701 and CVE-2025-32706) affect the Windows Common Log File System (CLFS) driver, and are being used in attacks to escalate privileges.
-Patch Tuesday also saw fixes from Adobe, Apple, SAP, Ivanti, Fortinet, Juniper Networks, VMware, and Zoom. ICS companies Siemens, Schneider Electric, and Phoenix Contact have patched vulnerabilities affecting industrial devices, SecurityWeek reports."
-2025-05-22 03:51:37,14/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/92,DarkCloud Stealer has a new attack chain.,"Palo Alto Networks' Unit 42 has published a report on a new attack chain used by the DarkCloud Stealer. The malware is using AutoIt-compiled executables as a dropper component, which helps the malware evade detection. Unit 42 notes, ""The compression and encryption prevent easy decompilation of the bytecode. The compiled AutoIt binary handles the decompression of the bytecode before interpreting and executing it.""
-The latest DarkCloud Stealer campaign is targeting a wide range of industries, with a notable focus on federal, state, and local government entities."
-2025-05-22 03:51:37,14/5/2025,CyberWire,https://www.thecyberwire.com/newsletters/daily-briefing,https://thecyberwire.com/newsletters/daily-briefing/14/92,US charges alleged cybercrime market operator.,"A Kosovo citizen has been extradited to the US to face charges related to his alleged role in operating the BlackDB cybercrime marketplace, the Record reports. 33-year-old Liridon Masurica is charged with one count of conspiracy to commit access device fraud and five counts of fraudulent use of fifteen or more unauthorized access devices, facing a maximum of 55 years in prison.
-The Justice Department stated, ""According to the indictment, Masurica was the lead administrator of BlackDB[.]cc—an online criminal marketplace in operation from 2018 until present. BlackDB[.]cc illegally offered for sale compromised account and server credentials, credit card information, and other personally identifiable information of individuals primarily located in the United States, including those located within the Middle District of Florida."""
+2026-07-05 21:11:24,03 Lipca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/zlot-osehero-2026-edukacja-dla-bezpieczenstwa-w-sieci,Zlot OSEhero 2026: edukacja dla bezpieczeństwa w sieci,"Osiem minut. Tyle wystarczyło, żeby zamknąć zapisy na tegoroczny Zlot OSEhero. Na chętnych czekało 150 miejsc. To rekordowe zainteresowanie najlepiej pokazuje, jak silną społeczność udało się zbudować wokół projektu NASK i jak wielu nauczycieli chce dziś uczyć o bezpieczeństwie w sieci w sposób praktyczny, aktualny i bliski doświadczeniom uczniów.
+
+Nauczyciele, dyrektorzy i pedagodzy szkolni z całej Polski – osoby, które przez cały rok działały w szkołach na rzecz bezpieczeństwa dzieci i młodzieży w internecie spotkali się 2 i 3 lipca w Warszawie. Zlot był finałem kolejnej edycji OSEhero, największego w Polsce projektu edukacyjnego dla nauczycieli. 
+To jeden z tych programów, które mają ogromne znaczenie i wpływ na to, jak Polska będzie wyglądać, za pięć, dziesięć, piętnaście i pięćdziesiąt lat. Takie są bowiem konsekwencje realizowanych przez nas procesów edukacyjnych, kształcenia dzieci i młodzieży.  
+– To wielkie wyzwanie, ale też przywilej, że możemy robić wspólnie projekty, które mają znaczenie w tak długiej perspektywie czasowej – mówił dyrektor NASK Radosław Nielek. 
+I podkreślał, zwracając się do nauczycieli i pedagogów: – W NASK staramy się robić wszystko, żeby wasza praca przebiegała w jak najlepszych warunkach, dlatego pracujemy właśnie nad tym, żeby od września uczniowie i nauczyciele wracali do 20 tysięcy szkół wyposażonych w lepszy, szybko działający internet, tak jak wymagają tego dzisiejsze potrzeby edukacyjne.  
+
+
+
+
+Zlot OSEhero. Uczestnicy.
+W kończącej się właśnie 4. edycji projektu OSEhero wzięło udział 2000 edukatorów. 870 z nich kończy ją z tytułem OSEhero, przyznawanym po wzięciu udziału w określonej liczbie szkoleń i spotkań, a także organizacji w szkołach inicjatyw związanych z bezpieczeństwem w sieci. W tej edycji projektu nauczyciele zorganizowali ich 2263. 
+Rekordowa edycja 
+Zlot OSEhero to coroczne zwieńczenie projektu i najważniejsze spotkanie jego uczestników. 
+– Możemy z satysfakcją powiedzieć, że projekt OSEhero cieszy się coraz większym zainteresowaniem, od 2022 roku wzięło w nim udział ponad 65 tysięcy nauczycieli i zrealizowano 7 tysięcy inicjatyw – mówiła Małgorzata Olszewska, zastępca dyrektora NASK ds. Projektów Infrastrukturalnych i Edukacyjnych. – W tegorocznej edycji biorą udział nauczyciele różnych przedmiotów. To pokazuje, że sprawy bezpieczeństwa dzieci i młodzieży w internecie, reagowania na zagrożenia, z którymi się spotykają, ich prawa do prywatności w sieci, korzystania ze sztucznej inteligencji, czy deepfaków to tematy, z którymi nauczyciele mierzą się na co dzień. Dobrze, że wspólnie szukamy odpowiedzi na wiele pytań. 
+
+
+
+
+Zlot OSEhero. Małgorzata Olszewska – zastępca dyrektora NASK ds. Projektów Infrastrukturalnych i Edukacyjnych.
+Udział w Zlocie to okazja do spotkania „na żywo” z pozostałymi uczestnikami projektu, wzięcia udziału w wykładach, warsztatach i spotkaniach z ekspertami.  
+Jednym z głównych punktów tegorocznego programu było wystąpienie prof. Agnieszki Gryszczyńskiej poświęcone cyberzagrożeniom w edukacji, potrzebie budowania nie tylko kompetencji cyfrowych, ale przede wszystkim świadomości cyfrowej. Wykład łączył w sobie perspektywy badacza i praktyka – prof. Gryszyńska jest również dyrektorem Departamentu do Spraw Cyberprzestępczości i Informatyzacji Prokuratury Krajowej.  
+Program uzupełniły warsztaty, które łączyły cyberbezpieczeństwo, edukację medialną i codzienną pracę z uczniami: „Architekci ułudy: Jak mechanizmy social mediów napędzają kryzys zdrowia psychicznego młodzieży”, „OSEhero w akcji: ABC cyberbezpieczeństwa – od teorii do praktyki”, „Fact-checking w praktyce” oraz „Jak budować argumentację i chęć do jej doskonalenia”. Edukatorzy wzięli też udział w zajęciach z myślenia wizualnego i jego  wykorzystania w szkole. 
+
+
+
+
+Zlot OSEhero.
+Silna społeczność 
+W projekcie biorą udział nauczyciele z całej Polski, z każdego województwa, uczący różnych przedmiotów. Najliczniejszą grupą są nauczyciele informatyki (480 osób) i matematyki (233), ale są także nauczyciele edukacji wczesnoszkolnej, języków obcych, języka polskiego, fizyki, wychowania fizycznego, a nawet religii, etyki czy muzyki. 
+– Największą wartością OSEhero są ludzie, którzy każdego dnia przekładają wiedzę o bezpieczeństwie cyfrowym na konkretne działania w swoich szkołach – podkreślał Marcin Tomczyk z NASK, koordynator projektu. – To dzięki wam uczniowie z całej Polski uczą się świadomie korzystać z nowoczesnych technologii. Zlot po raz kolejny pokazał, że wokół idei bezpiecznego internetu udało się nam zbudować silną i zaangażowaną społeczność, która inspiruje, dzieli się doświadczeniem i realnie wpływa na cyfrowe kompetencje młodych ludzi. Dziękujemy za wyjątkowy rok pełen inspirujących pomysłów i wspólnych działań. Nie możemy doczekać się kolejnej edycji OSEhero. Wierzymy, że wspólnie z nami nadal będziecie budować kulturę bezpieczeństwa cyfrowego wśród dzieci i młodzieży – dodał. 
+Nabór do kolejnej edycji OSEhero startuje już we wrześniu. 
+Więcej informacji o projekcie: https://osehero.pl/  
+
+
+
+
+Zlot OSEhero."
+2026-07-05 21:11:24,02 Lipca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/nask-z-przelomowym-narzedziem-od-openai,NASK z przełomowym narzędziem od OpenAI,"Mają go tylko dwa kraje w Europie. Dzięki NASK do tego elitarnego grona dołącza Polska. Instytut zyskuje dostęp do GPT-5.5 Cyber – innowacyjnego modelu sztucznej inteligencji stworzonego przez OpenAI z myślą o wykrywaniu i analizie cyberzagrożeń. To przełom dla polskiego cyberbezpieczeństwa i olbrzymie możliwości dla CERT Polska – zespołu, działającego w ramach NASK.
+
+Polska jako trzeci kraj europejski i jeden z niewielu na świecie otrzymał dostęp do GPT‑5.5 Cyber. 
+– To niewątpliwy sukces NASK – podkreśla Radosław Nielek, dyrektor NASK. – Ten dostęp nie jest przypadkiem. Instytut i nasi eksperci są znani i rozpoznawani na całym świecie, NASK ma swoją renomę. Udostępniamy nasze rozwiązania zagranicznym partnerom, a oni z nich korzystają i je chwalą. Wreszcie – co istotne – to efekt naszych kontaktów osobistych i zaufania.  
+Wykorzystanie GPT‑5.5 Cyber radykalnie podnosi możliwości, którymi dysponuje NASK. GPT‑5.5 Cyber to specjalistyczny model AI stworzony do zaawansowanego wykrywania luk, generowania poprawek i automatycznej naprawy – a to wszystko z o wiele większą prędkością, niż człowiek.  
+Jak podkreślają eksperci CERT Polska taki dostęp jest tym bardziej istotny, że znalezienie poważnych luk wymagało – i nadal wymaga – rzadkiej wiedzy specjalistycznej. Potrzeba było głębokiej analizy skomplikowanych systemów, co zabierało bardzo dużo czasu. Teraz modele takie jak GPT Cyber mogą przeszukiwać duże bazy kodu, analizować ścieżki ataków i wychwytywać podatności, które mogłyby pozostać niewidoczne. Dla takich zespołów, jak działający w NASK CERT Polska, to nieocenione narzędzie.  
+– Oczywiście, to nie jest tak, że nagle przestaniemy potrzebować specjalistów – wyjaśnia szef NASK. – Zawsze będę powtarzać, że narzędzia są tylko narzędziami i będą działać właściwie wyłącznie w rękach człowieka. To człowiek zawsze stoi na końcu analizy, którą przeprowadza model sztucznej inteligencji i to człowiek weryfikuje to, co zrobiło dane narzędzie. Bardzo przydatne, ale to nie znaczy, że bez GPT Cyber jesteśmy mniej skuteczni. 
+Polska jako “zweryfikowany obrońca” 
+Model GPT-5.5 od OpenAI udostępniany jest wyłącznie dla zaufanych partnerów. Polska i działający w NASK CERT Polska właśnie dołączają do tego grona jako “zweryfikowany obrońca”. Eksperci zyskają zaawansowany dostęp za pośrednictwem programu Government Trusted Access for Cyber dla rządowych jednostek.    
+– Jesteśmy dumni, że możemy współpracować z naszymi partnerami w Polsce, których głęboka wiedza techniczna oraz bogate doświadczenie w przeciwdziałaniu złośliwym zagrożeniom w świecie cyber czynią z nich kluczowych partnerów we wzmacnianiu bezpieczeństwa sektorów infrastruktury krytycznej – zaznacza Tom Duff-Gordon, szef polityki w regionie EMEA (Europa, Bliski Wschód i Afryka) w OpenAI. – W OpenAI wierzymy, że sztuczna inteligencja może przyczynić się do zwiększenia bezpieczeństwa ludzi, instytucji i systemów o krytycznym znaczeniu. Oznacza to odpowiedzialne rozwijanie tych możliwości oraz współpracę z zaufanymi partnerami, takimi jak Polska, aby wspierać tych, którzy każdego dnia chronią naszą demokratyczność.  
+Model usprawni pracę analityków 
+Daybreak to inicjatywa, która ma spowodować, że obrońcy będą o krok przed przestępcami w wykorzystaniu sztucznej inteligencji w cyberbezpieczeństwie. GPT-5.5 Cyber posłuży do analizy złośliwego oprogramowania, zadań z obszaru informatyki śledczej czy właśnie szukania podatności. Nacisk położono na to, aby przyspieszać cały cykl wykrywania i naprawy podatności przy współpracy z wiodącymi, światowymi organizacjami z branży cyberbezpieczeństwa jako partnerami. Twórcy rozwiązania podkreślają, że zadania te należy realizować odpowiedzialnie. OpenAI od 2015 roku systematycznie rozwija swoje modele i jest jednym z globalnych liderów w tym obszarze.   
+– Nasi eksperci absolutnie potrzebują dostępu do tych rozwiązań, by sprawnie wykrywać i naprawiać podatności zanim zrobią to atakujący – zaznacza kierujący CERT Polska Marcin Dudek i dodaje, że możliwości wykorzystania nowych narzędzi jest wiele. – Naszą wiedzą z wykorzystania dużych modeli językowych już teraz dzielimy się na naszej stronie i planujemy to kontynuować. Wszystkie te elementy znacząco przyczyniają się do budowy bezpieczniejszej cyberprzestrzeni."
+2026-07-05 21:11:24,01 Lipca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/rekordowa-domena-pl-najlepszy-wynik-od-2019-roku,Rekordowa – domena .pl. Najlepszy wynik od 2019 roku,"Już pierwsze półrocze 2026 pokazuje, że NASK idzie na rekord nowych rejestracji w domenie .pl. W czerwcu było to ponad 70 tys., czyli aż jedną trzecią więcej niż w ubiegłym roku. To najlepszy wynik od 2019 roku. Polacy ufają domenie pl, której rejestr prowadzi NASK. Rosnące liczby są tego najlepszym dowodem.
+
+Internauci już dawno tak chętnie nie tworzyli własnych adresów internetowych. Przedsiębiorcy oraz osoby prywatne coraz częściej stawiają na własną domenę zamiast uzależniać swoją obecność w internecie wyłącznie od mediów społecznościowych. 
+Pierwsze półrocze 2026 roku przynosi bardzo dobre wyniki dla rejestru domeny .pl prowadzonego przez NASK. Od stycznia liczba nowych rejestracji mocno rośnie, a ten rok jest najlepszym od 2019. 
+–  Wykonaliśmy dużo pracy, żeby zwiększyć atrakcyjność domeny .pl dla użytkowników. Przede wszystkim podnieśliśmy bezpieczeństwo – zaznacza Radosław Nielek, dyrektor NASK. – Dziś domena .pl jest jedną z najbezpieczniejszych na świecie – przestępcom już po prostu nie opłaca się stawiać stron służących oszustwom w naszej domenie, bo tak szybko reagujemy. Jednocześnie budujemy świadomość użytkowników, że gwarancją stabilności prowadzenia biznesu jest właśnie własna domena. Ludzie nie raz już się sparzyli na tym, że ich biznesowe konta w mediach społecznościowych zostały z jakichś przyczyn zablokowane. Dziś kontakt z klientem to podstawa. Nagle zostają odcięci. Co wtedy? Dlatego tak ważna jest niezależność, a tę daje domena .pl – podsumowuje.  
+
+
+
+
+
+Domena .pl – stabilność i bezpieczeństwo 
+Rosnąca liczba rejestracji potwierdza, że domena .pl pozostaje jednym z najważniejszych elementów budowania wiarygodności w internecie. Własny adres internetowy to nie tylko miejsce prowadzenia strony czy sklepu, ale również gwarancja stabilnej komunikacji z klientami oraz większa kontrola nad marką.  
+Rekordowe wyniki potwierdzają, że domena .pl umacnia swoją pozycję jako stabilne i bezpieczne środowisko dla biznesu w sieci. Badania potwierdzają, że internauci mają zaufanie do krajowych stron, a podmioty z własną witryną internetową z końcówką .pl postrzegane są jako profesjonalne.  
+Zadbaj o ciągłość swojej obecności online 
+Dobra domena to inwestycja na lata. Dlatego równie ważne jak jej rejestracja jest regularne odnawianie. Dzięki temu strona internetowa i poczta elektroniczna działają bez przerw, a adres pozostaje chroniony przed przejęciem. To także element budowania wiarygodności marki – użytkownicy mają pewność, że pod znanym adresem zawsze znajdą tę samą firmę, usługę lub treści. 
+–  Domena internetowa to nie tylko adres strony – to fundament obecności w sieci, element wiarygodności i bezpieczeństwa działalności online. Ze zbieranych przez nas danych wynika, że domena .pl jest silnie kojarzona z profesjonalizmem i zaufaniem, a firmy posiadające własną domenę są postrzegane jako bardziej wiarygodne niż te działające wyłącznie w mediach społecznościowych – podkreśla Katarzyna Chałubińska-Jentkiewicz, dyrektorka ds. Rejestru Domen Internetowych w NASK. 
+Jednocześnie praktyka pokazuje, że wielu użytkowników nie monitoruje aktywnie cyklu życia swojej domeny. Średni wskaźnik odnowień domen .pl wynosi 71,5%, ale po pierwszym roku spada do ok. 36–37%. Oznacza to, że znaczna część domen wygasa bardzo wcześnie – często nie z powodu świadomej decyzji, lecz braku kontroli nad terminami. 
+Wakacje – moment zwiększonego ryzyka 
+Latem zwalniamy tempo, co sprzyja odpoczynkowi, ale niestety nie domenom. Podczas urlopów rzadziej zaglądamy do skrzynek mailowych i paneli administracyjnych, dlatego przypomnienia od rejestratorów łatwo przeoczyć. Tymczasem właśnie w tym okresie wiele domen zbliża się do terminu wygaśnięcia. 
+Brak reakcji w odpowiednim momencie może oznaczać: 
+
+przerwę w działaniu strony internetowej, 
+niedostępność poczty e-mail, 
+konieczność podejmowania pilnych działań w trakcie urlopu, 
+a w skrajnych przypadkach – utratę domeny. 
+
+Kluczowe rady dla abonentów: 
+
+ Regularnie sprawdzaj status domeny
+Kontroluj datę wygaśnięcia i loguj się do panelu klienta u swojego rejestratora. Pomocna może być także wyszukiwarkaWHOIS dostępna na dns.pl. 
+ Dbaj o aktualność danych kontaktowych
+Aktualny adres e-mail to podstawa – to właśnie na niego trafiają ważne komunikaty związane z obsługą domeny.
+ Reaguj z wyprzedzeniem
+Nie odkładaj odnowienia domeny ani ewentualnych zmian (np. transferu do innego rejestratora) na ostatnią chwilę – szczególnie przed planowanym wyjazdem.
+ Znaj swoje możliwości
+Abonenci domeny .plmogą korzystać z oferty blisko 200 rejestratorów. Możliwe jest porównanie usług oraz przeniesienie domeny do innego operatora, jeśli zajdzie taka potrzeba. 
+
+Domena pod kontrolą 
+Świadome zarządzanie domeną to dziś nieodzowny element prowadzenia działalności online – zarówno dla firm, jak i twórców czy freelancerów. To także sposób na utrzymanie pełnej kontroli nad własnym wizerunkiem, komunikacją i bezpieczeństwem w sieci."
+2026-07-05 21:11:25,01 Lipca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/sprawdz-sie-w-kwalifikacjach-do-ecsc-2026,Sprawdź się w kwalifikacjach do ECSC 2026!,"Drużyny z całej Europy. Młodzi specjaliści, studenci, uczniowie, samoucy i pasjonaci. Łączy ich techniczne myślenie, odporność na presję i gotowość do mierzenia się z problemami, przy których znajomość teorii nie wystarcza. Trzeba analizować, testować rozwiązania, wyciągać wnioski i nie odpuszczać, gdy pierwsza odpowiedź okazuje się błędna.
+
+Na tym polega rywalizacja w European Cybersecurity Challenge – najważniejszych europejskich zawodach dla młodych talentów cyberbezpieczeństwa. Uczestnicy rozwiązują techniczne zadania, szukają luk, łamią szyfry, analizują kod i zdobywają tzw. flagi, które potwierdzają poprawne rozwiązanie.
+Właśnie takich osób szuka CERT Polska. Ruszają kwalifikacje do ECSC 2026. To pierwszy krok do znalezienia się w reprezentacji Polski, która jesienią zmierzy się z najlepszymi drużynami z Europy.
+
+To już 12 Edycja!
+Zawody ECSC organizowane są z inicjatywy ENISA, czyli Agencji Unii Europejskiej ds. Cyberbezpieczeństwa. W 2026 roku odbędzie się już 12. edycja ECSC, a do rywalizacji stanie ponad 400 uczestników z ponad 35 krajów.
+Polska cyberreprezentacja szuka nowych talentów
+W ECSC liczy się nie tylko techniczna wiedza, ale też odporność na presję, kreatywność i umiejętność szukania rozwiązań tam, gdzie na pierwszy rzut oka ich nie widać. Uczestnicy mierzą się z zadaniami z obszarów takich jak kryptografia, bezpieczeństwo aplikacji, inżynieria wsteczna, analiza podatności, steganografia czy bezpieczeństwo sieciowe.
+– To konkurs, w którym o wyniku decyduje nie tylko wiedza techniczna. Równie ważne są opanowanie w trudnych sytuacjach, umiejętność współpracy i determinacja. Kwalifikacje pozwalają nam wyłonić zawodników, którzy nie tylko potrafią udzielić poprawnych odpowiedzi, rozwiązać problem, ale także umieją spokojnie analizować, sprawdzać kolejne tropy i nie zniechęcać się po pierwszej nieudanej próbie – mówi Iwona Prószyńska z CERT Polska i dodaje – Wielu naszych byłych reprezentantów zasila dziś szeregi najlepszych ekspertów od cyberbezpieczeństwa w Polsce i na świecie. To doświadczenie, które może otworzyć drzwi do przyszłości zawodowej.
+Zawody rozgrywane są w formule Capture The Flag. To popularny w świecie cyberbezpieczeństwa format, w którym uczestnicy rozwiązują zadania przypominające techniczne śledztwa: analizują kod, szukają luk w aplikacjach, łamią szyfry, badają ślady w plikach, odtwarzają sposób działania systemów i zdobywają tzw. flagi, czyli ukryte ciągi znaków potwierdzające rozwiązanie zadania. Liczy się wiedza, ale też pomysłowość, cierpliwość i umiejętność sprawdzania kolejnych tropów.
+W poprzednich latach polska drużyna wielokrotnie pokazywała, że należy do europejskiej czołówki. W 2021 roku zdobyła srebrny medal, w 2024 roku – brązowy, a w 2025 roku, podczas finałów w Warszawie, zajęła 7. miejsce wśród 34 drużyn. Teraz zaczyna się budowa kolejnej reprezentacji.
+Kwalifikacje startują 3 lipca
+Krajowe kwalifikacje rozpoczynają się w piątek 3 lipca 2026 roku o godzinie 16:00 na platformie hack.cert.pl i potrwają 48 godzin do niedzieli 5 lipca. Uczestnicy będą rozwiązywać zadania w formule Capture The Flag, przygotowane przez ekspertów CERT Polska.
+Do udziału mogą zgłaszać się osoby w wieku od 14 do 25 lat. Uczestnicy zostaną podzieleni na dwie grupy wiekowe: juniorów i seniorów. Wystarczy konto na platformie hack.cert.pl, dostęp do internetu i gotowość do zmierzenia się z zadaniami, które sprawdzają wiedzę, konsekwencję i sposób prowadzenia analizy.
+W kwalifikacjach uczestnicy pracują samodzielnie. Do rozwiązań dołączają krótkie opisy, czyli write-upy, pokazujące drogę dojścia do odpowiedzi. W cyberbezpieczeństwie sam wynik to dopiero część pracy. Równie ważne jest wyjaśnienie, co się wydarzyło, dlaczego zadziałało i jak można to odtworzyć.
+– Write-upy są dla nas bardzo ważne, bo pokazują sposób myślenia uczestnika. Dzięki nim widzimy nie tylko, że ktoś rozwiązał zadanie, ale również jak analizował problem, jakie narzędzia wykorzystywał i w jaki sposób dochodził do kolejnych wniosków. W cyberbezpieczeństwie liczy się nie tylko skuteczność, ale też umiejętność dokumentowania swojej pracy i komunikowania rezultatów – podkreśla Karol Bojke z CERT Polska i tłumaczy – Podczas analizy incydentów, testów bezpieczeństwa czy badań zagrożeń kluczowe jest, aby inni specjaliści mogli zrozumieć tok postępowania i w razie potrzeby odtworzyć cały proces. Dlatego write-upy są dla nas cennym źródłem informacji o kompetencjach uczestników i ich gotowości do pracy w profesjonalnym środowisku cyberbezpieczeństwa.
+Najlepsi uczestnicy kwalifikacji stworzą reprezentację Polski na ECSC 2026. Przed wyjazdem czekają ich przygotowania z ekspertami CERT Polska, wspólne treningi, praca nad zadaniami i budowanie zespołu, który będzie reprezentował kraj podczas europejskiego finału.
+Finał w Bochum. Europa patrzy na młodych
+Tegoroczny finał European Cybersecurity Challenge odbędzie się w dniach 12–16 października 2026 roku w Bochum w Niemczech. Na miejscu spotkają się drużyny z całej Europy – młodzi specjaliści, studentki, uczniowie, samoucy i pasjonaci, których łączy umiejętność technicznego myślenia, działania pod presją i mierzenia się z trudnymi problemami.
+Dla wielu osób ECSC jest pierwszym momentem, w którym ich umiejętności wychodzą poza domowy komputer, uczelniane laboratorium czy lokalną społeczność CTF. To, co zaczęło się od ciekawości, może stać się początkiem bardzo konkretnej drogi zawodowej.
+– Branża cyberbezpieczeństwa wymaga nieustannego podnoszenia kwalifikacji. Niezależnie od tego, czy zdobywamy wiedzę z kursów i materiałów edukacyjnych, czy korzystamy z doświadczeń innych specjalistów, kluczowe pozostaje ciągłe doskonalenie umiejętności. To dziedzina, w której praktyka i determinacja mają równie duże znaczenie jak wiedza teoretyczna – mówi Karol Bojke – Do kwalifikacji zgłaszają się osoby z bardzo różnym doświadczeniem. Są uczestnicy, którzy od dawna rozwiązują zadania CTF, ale są też tacy, którzy dopiero sprawdzają, czy cyberbezpieczeństwo jest dla nich. I to jest w tym konkursie bardzo cenne.
+Jeśli interesujesz się bezpieczeństwem systemów, uczysz się samodzielnie, studiujesz informatykę albo po prostu lubisz techniczne wyzwania – to dobry moment, żeby się sprawdzić.
+Wejdź na hack.cert.pl, załóż konto, ustaw grupę wiekową w profilu i przygotuj się na start kwalifikacji. Konkurs rozpoczyna się 3 lipca o godzinie 16:00.
+Polska cyberreprezentacja nie zbuduje się sama. Ktoś musi znaleźć lukę, rozwiązać zadanie i zrobić pierwszy krok. W tym roku to możesz być Ty."
+2026-07-05 21:11:25,30 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/w-nask-powstaje-laboratorium-aitas-bedzie-sprawdzac-odpornosc-ai,W NASK powstaje Laboratorium AITAS. Będzie sprawdzać odporność AI,"Rozwój sztucznej inteligencji, w tym modeli językowych, stwarza ogrom szans, jednocześnie generując olbrzymie ryzyko. AI jest wykorzystywana przez cyberprzestępców do automatyzacji ich działań czy przeprowadzania zaawansowanych ataków. W odpowiedzi na te zagrożenia powstaje Laboratorium AITAS, w którym eksperci NASK będą m.in. badać odporność modeli AI na cyberzagrożenia.
+
+Laboratorium AITAS (AI Trustworthiness, Assurance and Safety czyli Wiarygodność, Gwarancja i Bezpieczeństwo AI) powstaje w ramach ultranowoczesnego Centrum Cyberbezpieczeństwa NASK (CCN). Budynek to inwestycja nie tylko w infrastrukturę, ale i w zwiększanie ludzkich kompetencji. To jeden z elementów projektu CCN, które ma strategiczne znaczenie, gdy mówimy o suwerenności w obszarze cyber. AITAS będzie stanowić jedną z kluczowych części tego ekosystemu, koncentrując się na cyberbezpieczeństwie rozwiązań, które wykorzystują sztuczną inteligencję. 
+– Cyberprzestępcy wykorzystują modele językowe do tworzenia personalizowanych wiadomości mailowych albo treści, które przypominają informacje rozsyłane przez banki czy inne instytucje – mówi Radosław Nielek, dyrektor NASK. – To sprawia, że kampanie phishingowe stają się nie dość, że coraz skuteczniejsze, jeśli chodzi o liczbę poszkodowanych, to także coraz trudniejsze do wykrycia. Laboratorium AITAS pozwoli m.in. na badanie bezpieczeństwa modeli językowych, a to oznacza lepszą ochronę cyberprzestrzeni i większe bezpieczeństwo dla naszego kraju.  
+Jak podkreśla dr inż. Sebastian Cygert, kierownik Zakładu Bezpieczeństwa i Przejrzystości w NASK, “w ostatnich latach modele generatywnej sztucznej inteligencji osiągnęły zupełnie nowy poziom”. 
+– Ten poziom umożliwia im wykonywanie skomplikowanych i złożonych zadań dotyczących np. analizy danych czy tworzenia treści – mówi ekspert NASK. – Ale te rosnące możliwości oznaczają też coraz większe ryzyko. Cyberprzestępcy wykorzystują modele do ataków, dezinformowania czy wspierania innych działań, które nie są zgodne z prawem. 
+Kluczowy zakres prac AITAS 
+Laboratorium AITAS będzie rozwijać metody, narzędzia i procedury służące ocenie współczesnych modeli sztucznej inteligencji pod kątem bezpieczeństwa, niezawodności i zgodności z wymaganiami regulacyjnymi. Prace zespołu ekspertów NASK będą koncentrować się między innymi na: 
+
+opracowywaniu metodologii ewaluacji modeli AI pod kątem zagrożeń związanych z niewłaściwym użyciem, 
+badaniu bezpieczeństwa modeli w kontekście cyberbezpieczeństwa, 
+tworzeniu narzędzi wspierających testowanie i audyt systemów AI, 
+przygotowywaniu raportów technologicznych dotyczących bezpieczeństwa oraz rozwoju sztucznej inteligencji, 
+wspieraniu administracji publicznej i partnerów zewnętrznych w ocenie ryzyka związanego z wdrażaniem systemów AI. 
+
+Działania laboratorium wpisują się w rosnące międzynarodowe zainteresowanie tematyką AI Safety oraz potrzebę budowy wiarygodnych mechanizmów oceny nowoczesnych systemów sztucznej inteligencji. 
+Międzynarodowa współpraca 
+Eksperci laboratorium aktywnie uczestniczą w międzynarodowych inicjatywach dotyczących bezpieczeństwa AI. Dr inż. Sebastian Cygert został powołany do panelu naukowego EU AI Office przy Komisji Europejskiej, wspierającego rozwój regulacji oraz nadzoru nad najbardziej zaawansowanymi systemami sztucznej inteligencji. 
+Laboratorium rozwija również współpracę z zagranicznymi ośrodkami badawczymi, uczestniczy w międzynarodowych programach, takich jak MATS Program, oraz współpracuje z uczelniami, m.in. New York University i środowiskiem ELLIS. 
+Kroki milowe w rozwoju Centrum Cyberbezpieczeństwa NASK 
+Powstanie Laboratorium AITAS stanowi kolejny etap rozwoju Centrum Cyberbezpieczeństwa NASK, którego realizacja jest coraz bliżej. W maju instytut otrzymał pozwolenie na budowę. Decyzja to kamień milowy w projekcie CCN, która kończy fazę przygotowawczą projektu. To oznacza, że NASK przechodzi do etapu realizacji robót budowlanych.  
+W ramach Centrum Cyberbezpieczeństwa NASK powstają m.in.: 
+
+Krajowe Centrum Odzyskiwania Danych (KCOD); 
+Krajowe Centrum Operacyjne Cyberbezpieczeństwa (KCOC); 
+Modelowy Ośrodek treningowo – szkoleniowy w obszarze Cyberbezpieczeństwa (OSC); 
+Laboratorium Bezpieczeństwa AI (AITAS); 
+Laboratorium Fuzzingu i Badania Złośliwego Oprogramowania (FUMAL); 
+Krajowe Centrum Wsparcia Security dla JST (KCWS); 
+Ośrodek Modelowania Certyfikacji Cyberbezpieczeństwa (OMCC). 
+
+– To jest ogromny projekt, ale mam na myśli nie tylko sam budynek. Centrum Cyberbezpieczeństwa NASK to choćby szkolenia dla samorządowców z cyberbezpieczeństwa czy centra odzyskiwania danych. Te laboratoria i centra już funkcjonują w ramach NASK, ale potrzebna nam większa skala. Bo trzeba mieć świadomość, że na przykład macierz dyskowa waży kilkaset kilogramów i żeby przeanalizować zawarte w niej dane, należy mieć odpowiednie możliwości i sprzęt, żeby ją przetransportować i umieścić w danym miejscu – wyjaśnia dyrektor NASK. 
+Centrum Cyberbezpieczeństwa NASK to gwarancja nowoczesności, stabilności, rozwoju i bezpieczeństwa – wszystko w obszarze cyber i nowych technologii.  
+Projekt CCN jest dofinansowany ze środków Europejskiego Funduszu Rozwoju Regionalnego oraz ze środków Budżetu Państwa w ramach Programu Fundusze Europejskie na Rozwój Cyfrowy 2021-2027."
+2026-07-05 21:11:25,29 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/kolejny-etap-rozwoju-polskiej-ai-trzecie-sniadanie-z-pllum,Kolejny etap rozwoju polskiej AI. Trzecie śniadanie z PLLuM,"Polska sztuczna inteligencja szybko się rozwija, zyskuje nowe funkcje i kolejne wdrożenia, a wkrótce będzie analizować także obrazy. Wszystko w oparciu o bezpieczne i legalne dane. Za nami kolejne wydarzenie z serii Śniadanie z PLLuM.
+
+–  Światowy trend to tworzenie modeli coraz większej skali, wymagających znacznych zasobów obliczeniowych. Nie zawsze jednak wiąże się to z poprawą efektywności tego, co sztuczna inteligencja miała usprawnić. Ważne, by wdrożenia AI zwiększały naszą wydajność, z drugiej strony – komfort naszej pracy. I to jest cel, który przyświeca zarówno Ministerstwu Cyfryzacji, NASK, ale także w wielu Państwa instytucjach – mówi Dariusz Standerski, wiceminister cyfryzacji. 
+Podczas Śniadania z PLLuMem eksperci rozmawiali o wykorzystaniu dużych modeli językowych w administracji publicznej – od prezentacji nowego projektu HIVE2, który wspiera rozwój modeli PLLuM, przez przygotowanie urzędów do wdrażania AI po bezpieczeństwo modeli oraz wewnętrzne zasady ich wykorzystywania. Uczestnicy śniadania omawiali także doświadczenia z realizacji pilotaży wdrożeń sztucznej inteligencji prowadzonych w Ministerstwie Rozwoju i Technologii oraz Kancelarii Senatu. 
+ – Największą wartością, jaką wypracowaliśmy w ciągu ostatnich dwóch lat, jest wiedza. Powstała ona zarówno w zespołach rozwijających PLLuM, jak i wśród wszystkich osób oraz instytucji, które testowały i wykorzystywały modele w praktyce. Dziś naszym zadaniem jest zamiana tej wiedzy na skuteczne wdrożenia, które będą rozwiązywać realne problemy – zarówno w administracji publicznej, jak i w całej polskiej gospodarce – wskazuje Radosław Nielek, dyrektor NASK. 
+Nowe modele i funkcjonalności – HIVE2 
+Kolejnym etapem w rozwoju modeli PLLuM będzie realizacja projektu HIVE2, który połączy cele badawcze z wdrożeniowymi i rozszerzy możliwości polskiej sztucznej inteligencji. Jednym z najważniejszych planów jest stworzenie pierwszego polskiego modelu wizyjno-językowego dostępnego na licencji do zastosowań komercyjnych. Będzie on zdolny do analizowania zarówno tekstu, jak i obrazów.  
+– To następny duży krok w rozwoju polskiej sztucznej inteligencji. Tworzymy rozwiązania odpowiadające światowym trendom, jednocześnie rozwijane w oparciu o wysokiej jakości dane i ścisłą współpracę nauki z administracją publiczną – podkreśla Wojciech Kusa, kierownik Zakładu Przetwarzania Języka Naturalnego w NASK.  
+
+
+
+
+
+Równolegle będą prowadzone prace nad oceną jakości danych wykorzystywanych do trenowania modeli oraz stworzeniem platformy, która umożliwi naukowcom i instytucjom publicznym wspólne rozwijanie zasobów. 
+Coraz więcej wdrożeń w administracji 
+Podczas spotkania w NASK zaprezentowano również doświadczenia instytucji publicznych wykorzystujących rozwiązania AI w codziennej pracy. Przedstawiciele Ministerstwa Rozwoju i Technologii opowiedzieli o organizacji pilotażu “Ambasadorzy AI”, harmonogramie wdrożenia oraz funkcjonalnościach przygotowanych z myślą o pracownikach resortu. Urzędnicy mogą korzystać z kilku modeli, które co ważne, nie mają dostępu do zewnętrznych źródeł danych i dostępu do internetu. Wśród nich znalazł się PLLuM. 
+–  W centrum naszego pilotażu postawiliśmy człowieka – jego potrzeby i doświadczenia – mówi Małgorzata Piekarska z MRiT. –  Pracownicy ministerstwa wykorzystują modele m.in. do analizy przepisów, wyszukiwania definicji, streszczania publikacji, tłumaczenia na inne język, generowania treści pomocniczych, co też jest zadaniem bardzo często wykonywanym przez sztuczną inteligencję – dodaje Karol Konarski z MRiT. 
+Swoimi doświadczeniami podzieliła się także Kancelaria Senatu, Robert Ciołek zaprezentował drogę od pierwszych eksperymentów z technologią, przez budowę wewnętrznych narzędzi i środowiska testowego, po plany dalszego rozwoju rozwiązań opartych na sztucznej inteligencji. To tylko potwierdzenie, że PLLuM znajduje praktyczne zastosowanie w administracji publicznej i wspiera pracowników w wykonywaniu codziennych zadań."
+2026-07-05 21:11:25,25 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/projekt-dla-obywateli-i-urzednikow-konferencja-ezd-rp,Projekt dla obywateli i urzędników. Konferencja EZD RP,"Kilkaset osób z samorządów z całego kraju podzieliło się swoimi doświadczeniami z rewolucji cyfrowej w administracji. Szybciej, bezpieczniej i nieodpłatnie, a co najważniejsze - z korzyścią dla obywateli. O tym rozmawiali uczestnicy konferencji poświęconej EZD RP. Wręczono też nagrody dla Liderów Wdrożenia systemu.
+
+Kilkaset osób to zaledwie skromna reprezentacja ponad ćwierć miliona użytkowników systemu EZD RP. To system elektronicznego zarządzania dokumentacją, stworzony przez NASK i wdrażany we współpracy z Ministerstwem Cyfryzacji.
+– Jeżdżąc po całej Europie jestem dumny, mówiąc o EZD RP i mogąc się nim pochwalić. To prawdziwa rewolucja cyfrowa w świecie administracji – mówił podczas otwarcia wydarzenia Dariusz Standerski, Sekretarz Stanu w resorcie cyfryzacji.
+
+
+
+
+Dariusz Standerski, Sekretarz Stanu w Ministerstwie Cyfryzacji podczas konferencji o EZD RP.
+– Proszę sobie wyobrazić, że z systemu korzysta już ponad 3,5 tys. jednostek, a drugie tyle zgłosiło chęć wdrożenia EZD RP. Te liczby mówią same za siebie, a ten sukces osiągnęliśmy w stosunkowo krótkim czasie – dodał minister na konferencji w warszawskim hotelu Sheraton.
+Dariusz Standerski, Sekretarz Stanu w Ministerstwie Cyfryzacji podczas konferencji o EZD RP.
+Cyfryzacja, bezpieczeństwo, nowoczesność. To trzy słowa, którymi – w skrócie – można opisać EZD RP. System, który sprawia, że polskie jednostki samorządowe żegnają się z papierowymi dokumentami, przechodząc na elektroniczne zarządzanie, rewolucjonizuje nasz kraj.
+– To, co jeszcze kilka miesięcy temu było celem, dziś staje się faktem. Transformacja usług publicznych na taką skalę jest możliwa dzięki środkom z KPO – mówiła z kolei Magdalena Sawicka, dyrektorka Pionu Wdrożeń i Utrzymania EZD RP w NASK podczas otwarcia. – Wspólnie z jednostkami samorządu terytorialnego zrealizowaliśmy i nadal realizujemy założenia przedsięwzięcia EZD-KPO i po raz kolejny pokazujemy, że działania w regionie mają realny wpływ na cyfryzację Polski.
+Jak podkreślała Magdalena Sawicka, EZD RP nie jest projektem „dla informatyków”. System w praktyce wypełnia cele Strategii Cyfryzacji Państwa do 2035 r. i przygotowuje administrację do modelu, w którym elektroniczne zarządzanie dokumentacją będzie standardem pracy.
+– To projekt dla obywateli, urzędników i kierowników jednostek. Sprawniejszy obieg dokumentów oznacza szybszą obsługę spraw, większą przejrzystość i lepszą ciągłość działania – mówiła dyrektorka.
+
+Liderzy EZD RP z nagrodami
+Konferencja podzielona była na dwie części – tę z debatami i panelami dyskusyjnymi, i tę z Gali, na której wręczono nagrody dla jednostek, które okazały się być Liderami Wdrożenia EZD RP.
+Statuetki uroczyście wręczyli Dariusz Standerski oraz Radosław Nielek. Nagrody powędrowały w ręce:
+
+Urzędu Miasta Stołecznego Warszawy – m.in. za zrealizowanie jednego z największych wdrożeń systemu EZD RP w ramach KPO, co potwierdziło wysokie kompetencje w zarządzaniu złożoną transformacją cyfrową.
+Urzędu Miasta Siedlce – m.in. za zastosowanie modelu kaskadowego z wykorzystaniem SaaS EZD RP, umożliwiającym efektywne skalowanie wdrożenia i rekordowy czas implementacji systemu – trzy miesiące.
+Urzędu Miasta Krakowa m.in. za zapewnienie wysokiej jakości wsparcia we współpracy z NASK, co przełożyło się na szybkie osiągnięcie pełnej funkcjonalności systemu, a także przeszkolenie ponad 1600 użytkowników.
+Urzędu Miasta w Białymstoku – m.in. za zapewnienie wzorcowej koordynacji i sprawnie działającej linii wsparcia dla wszystkich jednostek.
+Urzędu Gminy Radziejów – m.in. za bardzo wysoki poziom przygotowania przedwdrożeniowego, który przełożył się na sprawną, uporządkowaną realizację projektu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wyzwania i przyszłość EZD RP
+Podczas konferencji eksperci z NASK oraz Centralnego Ośrodka Informatyki przedstawili najważniejsze zagadnienia związane z cyfryzacją administracji samorządowej.
+Magdalena Sawicka, omówiła wsparcie świadczone przez NASK na rzecz elektronizacji procedur wewnętrznych jednostek samorządu terytorialnego. O bezpiecznym modelu udostępniania systemu EZD RP w formule SaaS mówił Tomasz Stojek, dyrektor Pionu Operacji Centralnego Ośrodka Informatyki, prezentując korzyści płynące z centralnie zarządzanego rozwiązania dla samorządów.
+Z kolei Norbert Staszak, kierownik Działu Wsparcia EZD w NASK, podsumował realizację zadań prowadzonych w ramach projektu EZD-KPO, wskazując na postępy w rozwoju nowoczesnej administracji publicznej. O zasadach współpracy z NASK i organizacyjnych aspektach wdrożenia EZD RP w jednostkach samorządu terytorialnego mówiła Agnieszka Reizer, zastępca kierownika Zespołu Wsparcia Merytorycznego.
+A Jacek Orłowski, kierownik Działu Współpracy z Podmiotami Otoczenia EZD w NASK zwrócił uwagę na kwestie, które należy uwzględnić przy zlecaniu integracji oprogramowania, aby zapewnić sprawne funkcjonowanie procesów administracyjnych.
+Konferencja EZD RP w Sheratonie.
+Bezpieczeństwo i efektywne zarządzanie dokumentacją w EZD RP
+Druga część konferencji koncentrowała się na zagadnieniach technicznych, organizacyjnych oraz związanych z bezpieczeństwem cyfrowego obiegu dokumentów w administracji publicznej.
+Uczestnicy omawiali kwestie wymagań technicznych, które są niezbędne do wdrożenia EZD RP. Istotną częścią konferencji były również kwestie prawne. Eksperci NASK omówili obowiązujące regulacje i dobre praktyki, dzięki którym procesy administracyjne pozostają zgodne z wymogami prawnymi. Konferencję zamknęła prezentacja dotycząca archiwizacji dokumentu.
+Panele były okazją nie tylko do wzbogacenia wiedzy uczestników, ale także do wymiany doświadczeń, związanych z wdrażaniem EZD RP. Konferencja pokazała, że skuteczne zarządzanie dokumentacją elektroniczną jest możliwe tylko przy połączeniu odpowiednich kompetencji, właściwej organizacji i dbałości o bezpieczeństwo."
+2026-07-05 21:11:25,25 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/wschodzaca-gwiazda-cyberbezpieczenstwa-wybrana,Wschodząca gwiazda cyberbezpieczeństwa wybrana!,"Cyberbezpieczeństwo już dawno nie jest zamknięte w serwerowni. Obecne jest dokładnie tam, gdzie technologia spotyka się z codzienną pracą ludzi. W procesach, które muszą działać mimo kryzysu. W fabrykach, gdzie bezpieczeństwo systemów ma wpływ na produkcję. W dostępie do aplikacji, który powinien być prosty dla pracownika i bezpieczny dla całej organizacji.
+
+O takich właśnie projektach mówiły finalistki 5. edycji konkursu Rising Star in Cybersecurity. Jego laureatką została Joanna Lebiecka, IAM Governance Manager w ISS World Services.
+W ramach nagrody, ufundowanej przez NASK, zwyciężczyni weźmie udział w konferencji Black Hat Europe 2026 w Londynie. To jedno z najważniejszych wydarzeń branży cyberbezpieczeństwa w Europie.
+
+Gala dwóch jubileuszy
+Tegoroczna gala połączyła finał 5. edycji Rising Star in Cybersecurity z obchodami 10-lecia CSO Council – społeczności skupiającej osoby odpowiedzialne za bezpieczeństwo informacji i cyberbezpieczeństwo w największych organizacjach. To z tego środowiska wyrosło Cyber Woman Community, a później konkurs, który daje kobietom przestrzeń do pokazania projektów wdrażanych w praktyce.
+NASK był partnerem wspierającym wydarzenia i fundatorem nagrody głównej. Podczas gali Radosław Nielek, dyrektor NASK, podkreślał znaczenie inicjatyw, które od lat budują środowisko związane z cyberbezpieczeństwem.
+– Chciałem pogratulować organizatorom wytrwałości w dążeniu do stworzenia tej gali i także tej zdolności patrzenia w przyszłość i przewidywania tego, co się zdarzy, bo o cyberbezpieczeństwie dzisiaj mówią wszyscy i wszyscy wiedzą, że jest to ważne. 10 lat temu to nie było takie oczywiste – mówił dr inż. Radosław Nielek.
+Najważniejsze tego wieczoru były jednak finalistki i ich projekty.
+– My tworzymy tutaj tylko scenę. Ale najlepsza scena byłaby co najwyżej smutna, a być może żałosna, bez pań, bez aktorek, bez tych osób, które prezentują tutaj swoje rozwiązania, swoje pomysły, więc my dostarczamy scenę, natomiast to panie są tutaj gwiazdami – podkreślił dyrektor NASK.
+Trzy projekty, trzy spojrzenia na cyberbezpieczeństwo
+W finale znalazły się trzy projekty z bardzo różnych obszarów cyberbezpieczeństwa. Karolina Hojka z Imperial Brands pracowała nad globalnym programem zarządzania ciągłością działania w kryzysie w organizacji obecnej na ponad 120 rynkach. Katarzyna Woźniak z Johnson & Johnson zajęła się cyberbezpieczeństwem OT (Operational Technology – technologie operacyjne) w środowiskach przemysłowych, gdzie bezpieczeństwo systemów łączy się z jakością i dostępnością produktów medycznych.
+Pierwsze zajęła Joanna Lebiecka za One ID. Zaprezentowała projekt dotyczący zarządzania tożsamością i dostępem w ISS World Services.
+Punktem wyjścia nie był sam system, ale codzienność pracowników pierwszej linii. To osoby pracujące m.in. w hotelach, restauracjach, szpitalach, biurach i obiektach technicznych. Nie wszyscy mają służbowe komputery. Część korzysta z telefonów, część z prywatnych urządzeń, a w niektórych lokalizacjach nie może używać telefonu wcale. Mimo to potrzebują dostępu do aplikacji biznesowych, systemów i platform szkoleniowych.
+– To był moment, w którym zrozumiałam, że moją rolą jest zapewnienie, aby każda z tych osób, niezależnie od tego, w jakim jest kraju, jaką pełni rolę w organizacji, czy jaki ma poziom dojrzałości cyfrowej, miała bezpieczny dostęp do naszych systemów – mówiła Joanna Lebiecka.
+One ID został wdrożony w 20 krajach i objął ponad 280 tys. pracowników. Skrócił onboarding z pięciu dni do jednego, ograniczył liczbę wniosków o dostęp i pozwolił blokować konta odchodzących osób w kilka minut. W praktyce oznaczało to uporządkowanie jednego z najbardziej podstawowych, a jednocześnie najbardziej wrażliwych obszarów cyberbezpieczeństwa: wiedzy o tym, kto, kiedy i do czego ma dostęp.
+– Ten projekt nauczył mnie tego, że cyberbezpieczeństwa nie buduje się tylko systemami. Buduje się go poprzez zdobycie zaufania, empatię, ale też odwagę do zadawania trudnych pytań – mówiła Joanna Lebiecka.
+Nagroda NASK: krok na międzynarodową scenę
+Nagroda NASK dla laureatki ma wymiar bardzo konkretny. Black Hat Europe to wydarzenie, podczas którego spotykają się praktycy, badacze i liderzy cyberbezpieczeństwa z całego świata. Udział w konferencji daje dostęp do wiedzy, trendów i kontaktów, które mogą przełożyć się na kolejne projekty oraz dalszy rozwój zawodowy.
+Rising Star in Cybersecurity dobrze pokazuje, że za skutecznym cyberbezpieczeństwem stoją osoby, które potrafią zamienić wiedzę w działające rozwiązania. Tegoroczna laureatka zrobiła to w projekcie obejmującym setki tysięcy pracowników."
+2026-07-05 21:11:25,24 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/kontrola-czy-wsparcie-raport-style-cyfrowego-rodzicielstwa-w-polsce,"Kontrola czy wsparcie? Raport ""Style Cyfrowego Rodzicielstwa"" w Polsce","Niemal 80 proc. rodziców uważa, że największe zagrożenia w internecie dotyczą dzieci w wieku 10-13 lat. Paradoksalnie właśnie wtedy zaczynają ograniczać swoją kontrolę i zaangażowanie. Tłumaczą to brakiem czasu albo tym, że “dzieci poradzą sobie same”. Z nowego raportu NASK wynika także, że cyfrowe wychowanie w Polsce ma twarz matki. Ojcowie są znacznie mniej zaangażowani w dialog z dziećmi o cyberbezpieczeństwie.
+
+Kontrolować, rozmawiać czy może odpuścić? To pytanie zadaje sobie każdy rodzic, gdy przychodzi mu zmierzyć się z wychowywaniem dziecka w świecie, który już dawno stał się cyfrowy. Z badania NASK przeprowadzonego wśród polskich rodziców wynika, że aż 35 proc. opiekunów nie ma spójnej strategii wychowania cyfrowego. Choć są świadomi niebezpieczeństw, związanych z obecnością ich dzieci w internecie, to ich działania są doraźne i reaktywne.
+Z raportu wyłaniają się cztery style rodzicielstwa: niezaangażowany, liberalny, wspierający i kontrolujący. Eksperci NASK omówili je podczas premiery raporty w Polskiej Agencji Prasowej.
+Ponad jedna trzecia badanych reprezentuje styl niezaangażowany – pozbawiony konsekwentnych zasad i długofalowego podejścia do korzystania z technologii. Mimo że to właśnie z nim wiąże się największa liczba konfliktów na linii dziecko-rodzic, to opiekunowie nie potrafią zmienić swojego podejścia.
+Z kolei jedynie 18 proc. rodziców stosuje styl wspierający, który eksperci uznają za najbardziej efektywny, ponieważ łączy wyznaczanie granic z rozmową i budowaniem zaufania. Ponad połowa wybiera styl liberalny, a co czwarty rodzic – kontrolujący.
+
+Rodzice wycofują się w kluczowym momencie
+Jednym z najważniejszych wniosków badania jest zjawisko określane jako „paradoks wycofania”.
+– Choć to właśnie starsza młodzież (10–17 lat) była postrzegana przez rodziców jako najbardziej narażona na niebezpieczeństwa w sieci (stwierdziła tak ponad połowa badanych), to właśnie w tej grupie następował znaczący spadek stosowania niemal wszystkich aktywnych strategii ochrony, takich jak regulacje, monitoring technologiczny czy wspólne spędzanie czasu online – mówi dr Agnieszka Ładna, współautorka raportu i ekspertka NASK.
+
+
+
+
+Agnieszka Ładna, współautorka raportu i ekspertka NASK.
+Większość rodziców deklaruje, że zamiast restrykcji wybiera rozmowę z dzieckiem. Takie podejście wskazuje ok. 60 proc. badanych. Jednak rozjazd między deklaracjami, a praktyką jest duży – regularnie rozmowy o bezpieczeństwie w sieci prowadzi jedynie 36 proc. opiekunów. Niemal połowa robi to tylko okazjonalnie, a 14 proc. nie rozmawia o tym z dziećmi wcale.
+Co więcej, rozmowy najczęściej są reakcją na konkretne wydarzenia. Ponad 60 proc. rodziców zaczyna je dopiero wtedy, gdy pojawiają się obawy o bezpieczeństwo dziecka, a blisko połowa pod wpływem informacji z mediów lub szkoły. To pokazuje, że w wielu domach edukacja cyfrowa nie jest elementem świadomie realizowanej strategii wychowawczej.
+Dlaczego tak się dzieje? Powodów jest zwykle kilka, a rzadko wynikają one z braku troski o dziecko.
+– Wielu rodziców ma ogólne przekonanie, że z dzieckiem należy rozmawiać o bezpieczeństwie w internecie, jednak nie wie, kiedy takie rozmowy prowadzić, jak często do nich wracać i jakie zagadnienia poruszać – mówi Anna Borkowska, ekspertka NASK ds. edukacji cyfrowej. – Bez konkretnego planu edukacja cyfrowa schodzi na dalszy plan, a rozmowy odbywają się okazjonalnie i przypadkowo.
+Jak dodaje, współczesne rodzicielstwo wiąże się z dużym obciążeniem obowiązkami zawodowymi i domowymi. – W efekcie łatwiej jest reagować na problem, gdy już się pojawi, niż regularnie prowadzić działania profilaktyczne. To naturalny mechanizm psychologiczny: zagrożenie uruchamia naszą uwagę i motywację do działania. Problem polega jednak na tym, że edukacja cyfrowa staje się wówczas „gaszeniem pożaru”, a nie budowaniem odporności dziecka na przyszłe ryzyka – mówi.
+
+
+
+
+Uczestnicy śniadania prasowego w PAP.
+Konflikty o telefon nie znikają wraz z wiekiem
+Badanie obala także popularny mit, że ze starszymi dziećmi rodzice mają mniej powodów do napięć związanych z technologią. Spory dotyczące korzystania z telefonów i internetu utrzymują się na podobnym poziomie od 16 do 20 proc. niezależnie od wieku dziecka.
+Jeśli więc rodzic zadaje sobie pytanie, jak zmniejszyć liczbę kłótni i konfliktów w tym obszarze, to z badania wynika prosta odpowiedź. Najmniej konfliktów występuje w rodzinach stosujących styl wspierający. Wystarczy więc jasno określić zasady korzystania z urządzeń cyfrowych i rozmawiać z dziećmi na ten temat – to właśnie robią rodzice wspierający.
+Raport pokazuje także, że mniejsze zaangażowanie rodzica nie jest receptą na konflikty. W rodzinach, reprezentujących styl niezaangażowany, występuje najwięcej napięć związanych z technologią. Ten styl jest najczęściej spotykanym modelem wychowania cyfrowego w Polsce.
+Eksperci NASK. Od lewej: Agnieszka Ładna, Filip Konopczyński, Anna Borkowska.
+Matki częściej przejmują odpowiedzialność za wychowanie cyfrowe
+Badanie pokazuje również wyraźny podział ról pomiędzy rodzicami. Kobiety stanowią blisko 67 proc. rodziców stosujących styl wspierający i 60 proc. reprezentujących styl kontrolujący. Mężczyźni częściej deklarują natomiast postawę niezaangażowaną – odpowiadają za ponad połowę tej grupy. To pokazuje, że cyfrowe wychowanie w Polsce ma twarz matki.
+Dlaczego? Agnieszka Ładna wymienia kilka czynników na podstawie raportu. Jednym z nich jest poczucie obowiązku wychowawczego, które w naszej kulturze spoczywa głównie na kobietach. Kolejnym – reakcja na sygnały płynące z otoczenia – doniesień medialnych czy rozmów z innymi rodzicami.
+– Analiza statystyczna pokazuje też, że kobiety są bardziej wrażliwe na sygnały płynące z otoczenia i rozwoju podopiecznego – częściej niż mężczyźni inicjują dialog z powodu ogólnej obawy o bezpieczeństwo (64 proc. vs 56 proc.), wejścia dziecka na kolejny etap edukacji (39 proc. vs 32 proc.) oraz w wyniku własnych obserwacji zmian w zachowaniu dziecka (36 proc. vs 28 proc.) – wylicza dr Agnieszka Ładna.
+Rodzice obecni przy nauce, nieobecni w mediach społecznościowych
+Raport pokazuje bardzo zróżnicowane zaangażowanie w poszczególne sfery życia dziecka i jest to determinowane stylem cyfrowego rodzicielstwa. Największe zaangażowanie rodzice wykazują w obszarze edukacji i rozrywki, a najmniejsze – w korzystaniu z mediów społecznościowych i komunikatorów, czyli właśnie tam, gdzie zagrożenie dla dzieci jest największe.
+Najczęściej wskazywaną przeszkodą w aktywnym rodzicielstwie cyfrowym jest brak czasu, który deklaruje co trzeci badany. Jednocześnie niemal co piąty rodzic uważa, że nie napotyka żadnych barier.
+Wyniki pokazują, że największym wyzwaniem nie jest sama technologia, lecz brak konsekwentnej strategii jej obecności w życiu dzieci. Eksperci wskazują, że skuteczne cyfrowe rodzicielstwo powinno opierać się na regularnym dialogu, świadomym towarzyszeniu dziecku oraz jasno określonych zasadach korzystania z internetu.
+
+
+
+
+Okładka raportu Style Cyfrowego Rodzicielstwa."
+2026-07-05 21:11:25,22 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/psychologia-w-erze-ai-i-dezinformacji-nask-na-re_mind,Psychologia w erze AI i dezinformacji. NASK na Re_Mind,"Psychologia wychodzi z gabinetów i mierzy się z wyzwaniami 21. wieku – we Wrocławiu trwa kongres Re_Mind. To dpowiedź na narastający kryzys zdrowia psychicznego oraz rosnącą obecność pseudopsychologii w przestrzeni cyfrowej.  Razem z badaczami i ekspertami, również z NASK, organizatorzy obalają mity i mylne przekonania w oparciu o potwierdzoną naukowo wiedzę.
+
+Na uczestników czeka aż 14 ścieżek tematycznych i 3 dni dyskusji – to w części kongresowej wydarzenia. W różnych częściach Wrocławia odbywa się także Festiwal Re_Mind – w programie wystawy, spacery, spotkania z twórcami, ekspertami i moc warsztatów. 
+Wśród panelistów nie mogło zabraknąć ekspertów NASK. Dyskusje w Hali Stulecia to jednak nie wszystko. Życiem tętni też Miasteczko Młodych, gdzie w strefie NASK uczestnicy odkrywają swojego wewnętrznego cyberzwierzaka i sprawdzają, jak wygląda walka z dezinformacją na odległej planecie Koryntia.  
+– Świat cyfrowy splata się i wpływa na nasze zdrowie psychiczne. Widzimy to na różnych poziomach i potwierdzają to prowadzone przez NASK badania. Niezależnie od tego, czy mówimy o uzależnieniu od mediów społecznościowych, hejcie w sieci, czy dezinformacji, która budzi w nas np. poczucie zagrożenia, ale też skłania do podejmowania ryzykownych terapii pozbawionych podstaw medycznych – to wszystko przekłada się na nasze samopoczucie i zachowania. Eksperci instytutu analizują te zjawiska i im przeciwdziałają. NASK jest w szkołach, organizuje warsztaty dla uczniów, nauczycieli, rodziców. Naukowcy z kolei badają m.in. wpływ technologii na codzienność młodzieży, czego owocem jest słynny, cykliczny raport Nastolatki. Dlatego też nie mogło nas nie być na tegorocznym Re_Mind – podkreśla Radosław Nielek, dyrektor NASK.
+NASK na scenie głównej 
+Od wojny informacyjnej po sztuczną inteligencję w gabinecie psychologa – podczas Re_Mind eksperci NASK przyglądają się temu, jak cyfrowe technologie kształtują nasze myślenie, zachowania i odporność na manipulację.  
+Magdalena Wilczyńska, dyrektorka Pionu Ochrony Informacyjnej Cyberprzestrzeni w NASK w panelu “Wojna informacyjna: jak dezinformacja kształtuje współczesne konflikty?” będzie dyskutować o tym, jak budować odporność informacyjną państwa na różnych poziomach od szkół i urzędów po prywatne firmy, biorąc po uwagę specyfikę państwa przyfrontowego. 
+– Dezinformacja wykracza daleko poza świat online. Jej skutki widoczne są w codziennych decyzjach, relacjach społecznych czy nawet zaufaniu do instytucji publicznych. Dlatego budowanie odporności informacyjnej stało się dziś koniecznością, a rozmowa o tym, jak rozpoznawać manipulację i świadomie korzystać z informacji, jest ważniejsza niż kiedykolwiek – mówi Magdalena Wilczyńska.  
+NASK zabiera także głos w dyskusji o wpływie sztucznej inteligencji na psychologię i codziennie funkcjonowanie człowieka. Oprócz wykładu Szymona Łukasika, dyrektora Ośrodka Badań nad Bezpieczeństwem Sztucznej Inteligencji w NASK, słuchacze wysłuchają także wniosków płynących z raportu NASK przygotowanego we współpracy z Międzynarodową Organizacją Pracy (ILO) “Generatywna sztuczna inteligencja a polski rynek pracy”.  
+– Debata o wpływie AI na rynek pracy często skupia się na skrajnych scenariuszach. Obawy są zrozumiałe, bo modele językowe mają duży potencjał. W raporcie udało nam się m.in. uchwycić które stanowiska pracy są najbardziej podatne na wpływ sztucznej inteligencji – wyjaśnia Marek Troszyński, kierownik Zespołu Analiz Strategicznych dla Cyberprzestrzeni i Cyberbezpieczeństwa w NASK, jeden z autorów raportu. 
+Sprawdź, które zawody czekają największe zmiany.
+Poznaj dezinformację od środka – NASK w Miasteczku Młodych 
+W Miasteczku Młodych NASK zamienia teorię w praktykę. Jedną z głównych atrakcji jest gra edukacyjna LARP „Koryntia – Eksperyment”, która przenosi uczestników do futurystycznego świata pełnego niekompletnych informacji, presji czasu i manipulacji. Uczestnicy, zamiast słuchać o dezinformacji, wcielą się w role, będą negocjować, podejmować decyzje i na własnej skórze przekonają się, jak łatwo ulec fałszywym narracjom. 
+– Najlepiej zapamiętujemy to, czego sami doświadczymy. LARP pozwala bezpiecznie przećwiczyć sytuacje, z którymi spotykamy się na co dzień w internecie – uczy krytycznego myślenia, współpracy i świadomego podejmowania decyzji w świecie pełnym informacyjnego szumu – mówi Anna Pudłowska, ekspertka ds. działań edukacyjnych NASK. 
+Na uczestników czeka także strefa NASK pełna interaktywnych wyzwań. Chętni wezmą udział w quizie z przymrużeniem oka, w którym odpowiadają na pytania o cyfrowych nawykach, by przekonać się… do jakiego cyberzwierzaka im najbliżej. Na koniec otrzymują praktyczne wskazówki dotyczące cyberhigieny. Nie zabraknie również quizu, w którym trzeba odróżnić grafiki stworzone przez człowieka od tych wygenerowanych przez sztuczną inteligencję. 
+– Nie chcemy straszyć zagrożeniami, ale pokazać, że o cyberbezpieczeństwie można rozmawiać w angażujący sposób. Przygotowaliśmy aktywności, które bawią, zaskakują i jednocześnie uczą umiejętności przydatnych każdego dnia – zachęca do odwiedzenia strefy instytutu Kamil Oleszkiewicz, starszy specjalista ds. projektów edukacyjnych w NASK. 
+Każda z atrakcji została zaprojektowana tak, aby połączyć dobrą zabawę z praktyczną wiedzą. Czekamy w Miasteczku Młodych!"
+2026-07-05 21:11:26,22 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/ruszyla-rejestracja-na-20-konferencje-safer-internet,Ruszyła rejestracja na 20. konferencję Safer Internet!,"Przez dwie dekady zmieniło się niemal wszystko: urządzenia, z których korzystają dzieci, aplikacje, w których spędzają czas, język internetu i skala wyzwań, przed którymi stoją dorośli. Jedno pozostało niezmienne – potrzeba rozmowy o tym, jak chronić najmłodszych w świecie cyfrowym. Wydarzenie odbędzie się w dniach 15–18 września 2026 r. w Warszawie oraz online. A rejestracja już ruszyła!
+
+Konferencja Safer Internet od lat jest jednym z najważniejszych w Polsce wydarzeń poświęconych bezpieczeństwu najmłodszych użytkowników sieci. Gromadzi osoby, które na co dzień pracują z dziećmi i młodzieżą, prowadzą działania edukacyjne, wspierają rodziny, zajmują się profilaktyką, pomocą psychologiczną oraz badaniami dotyczącymi cyfrowego świata najmłodszych. Tegoroczne spotkanie będzie miało szczególny charakter, ponieważ odbędzie się po raz dwudziesty.
+
+Dwadzieścia edycji, jeden cel
+Pierwsze edycje odbywały się w innej rzeczywistości, kiedy internet był mniej mobilny, a media społecznościowe dopiero się rozwijały. Wtedy ważne było z kim dzieci rozmawiają online. Z czasem pojawiły się smartfony, social media i komunikatory, a także takie zjawiska jak patotreści, cyberprzemoc, grooming, dezinformacja. Zaczęły być także odczuwalne różne formy presji, które coraz mocniej wpływają na codzienność młodych ludzi.
+Dziś bezpieczeństwo dzieci i młodzieży online nie sprowadza się już wyłącznie do ustawień prywatności i silnych haseł. To także rozmowa o relacjach, dobrostanie psychicznym, odpowiedzialności platform, roli szkoły i rodziców.
+– Przez dwadzieścia edycji konferencji zmieniał się internet, ale nie zmieniła się jedna rzecz: dzieci nadal potrzebują dorosłych, którzy będą dla nich mądrym wsparciem w świecie cyfrowym. Młodzi ludzie często świetnie radzą sobie z obsługą technologii, ale to nie znaczy, że potrafią sami rozpoznać wszystkie ryzyka, nazwać krzywdę albo poprosić o pomoc w odpowiednim momencie – mówi Anna Rywczyńska, kierowniczka Działu Profilaktyki Cyberzagrożeń w NASK i koordynatorka Polskiego Centrum Programu Safer Internet.
+Dzieciństwo w świecie algorytmów
+Tegoroczna edycja konferencji skupi się na tym, jak zmienia się dzieciństwo i dorastanie w świecie kształtowanym przez algorytmy oraz sztuczną inteligencję. Uczestnicy przyjrzą się m.in. wpływowi systemów rekomendacji na codzienne doświadczenia młodych ludzi, roli generatywnej AI w edukacji i komunikacji oraz wyzwaniom związanym z oceną wiarygodności treści. W centrum dyskusji znajdą się także pytania o odpowiedzialność dorosłych za wspieranie dzieci i młodzieży w coraz bardziej złożonym środowisku cyfrowym.
+– Dorosłym czasem wydaje się, że jeśli dziecko nie zgłasza problemu, to znaczy, że go nie ma. Tymczasem młodzi ludzie często nie wiedzą, jak nazwać to, co ich spotyka albo obawiają się reakcji: zakazu, oceny, zabrania telefonu. Dlatego tak ważne jest, żeby budować zaufanie wcześniej, zanim wydarzy się coś trudnego. Bezpieczeństwo online zaczyna się dużo wcześniej niż w momencie interwencji – mówi Anna Rywczyńska
+Podczas konferencji spotkają się eksperci, osoby pracujące z dziećmi i młodzieżą, przedstawiciele instytucji publicznych, organizacji społecznych, świata nauki oraz sektora technologicznego. W programie znajdą się wystąpienia, rozmowy i sesje dotyczące najważniejszych zjawisk, które kształtują cyfrową codzienność młodych ludzi
+Dołącz do jubileuszowej edycji
+Część konferencyjna odbędzie się 15–16 września 2026 r. stacjonarnie w Warszawie, w Focus Hotel Premium przy ul. Suwak 15 oraz online. Wystąpienia będzie można śledzić również podczas transmisji internetowej. W dniach 17–18 września zaplanowano sesje webinarowe, które rozszerzą program o dodatkowe spotkania eksperckie i praktyczne rozmowy dotyczące bezpieczeństwa dzieci i młodzieży w sieci.
+Rejestracja na jubileuszową, 20. edycję konferencji Safer Internet jest już otwarta. Do udziału zaproszone są osoby, które pracują z dziećmi i młodzieżą, zajmują się edukacją, profilaktyką, badaniami, technologiami, pomocą psychologiczną, bezpieczeństwem online lub po prostu chcą lepiej rozumieć cyfrowy świat młodych ludzi.
+Wrześniowe spotkanie będzie okazją, by spojrzeć na dwie dekady zmian w internecie, ale przede wszystkim porozmawiać o tym, co przed nami. Bo technologia zmienia się szybko, ale odpowiedzialność za bezpieczeństwo dzieci i młodzieży wciąż zaczyna się od uważnych dorosłych.
+Więcej https://www.saferinternet.pl/"
+2026-07-05 21:11:26,18 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/nask-rusza-w-polske-z-latem-z-radiem,NASK rusza w Polskę z Latem z Radiem!,"Wakacje już tu są. To czas koncertów pod gołym niebem, rodzinnych wyjazdów, festiwali i weekendów spędzanych poza domem. To także czas, gdy w trasę rusza jedno z najbardziej rozpoznawalnych letnich wydarzeń w Polsce – „Lato z Radiem i Telewizją Polską”, któremu w tym roku towarzyszy NASK.
+
+W pięciu z nich będzie można spotkać również ekspertów NASK, którzy przygotowali dla najmłodszych i ich opiekunów sporą dawkę wiedzy, zabaw, konkursów i atrakcji związanych z bezpiecznym korzystaniem z internetu.
+Pierwszym przystankiem będzie Bielsko-Biała, gdzie już 20 czerwca rozpocznie się wakacyjne tournée. Przez całe lato NASK pojawi się także w Zakopanem, Ełku, Lublinie i Białych Błotach, rozmawiając z uczestnikami o tym, jak zadbać o bezpieczeństwo dzieci w sieci i mądrze korzystać z technologii nie tylko podczas wakacyjnej przerwy.
+
+Wakacyjna kampania o sharentingu
+Obecność NASK na trasie jest częścią wakacyjnej kampanii dotyczącej sharentingu, czyli publikowania przez dorosłych zdjęć, filmów i informacji o dzieciach w internecie. Latem ten temat wraca szczególnie mocno. Zdjęcie z plaży, relacja z kolonii, film z rodzinnego pikniku albo post z pierwszego wakacyjnego koncertu często trafiają do sieci szybciej, niż pojawia się pytanie: kto to właściwie zobaczy?
+Eksperci NASK pokażą, jak dzielić się wakacyjnymi wspomnieniami z głową. Czy zdjęcie zdradza miejsce pobytu dziecka? Czy podpis nie mówi za dużo o planach rodziny? Czy dziecko wie, że jego zdjęcie trafi do internetu? To proste pytania, które pomagają chronić prywatność, a jednocześnie nie odbierają rodzicom prawa do cieszenia się wspólnymi chwilami. Więcej informacji o sharentingu znajduje się na stronie: https://www.nask.pl/bezpiecznydzien/sharenting
+Gry, roboty i cyfrowe zagadki
+Strefa NASK będzie miejscem dla całych rodzin. Na uczestników czekają quizy, zadania i aktywności, które łączą zabawę z praktyczną wiedzą o nowych technologiach.
+W quizie „AI vs rzeczywistość” można sprawdzić, czy łatwo odróżnić obraz stworzony przez sztuczną inteligencję od prawdziwego zdjęcia. To proste zadanie szybko pokazuje, jak technologia potrafi zaskakiwać nawet tych, którzy korzystają z niej na co dzień.
+Dla młodszych uczestników przygotowano analogowy test „Chill czy FOMO”, który w lekki sposób pomoże porozmawiać o emocjach, odpoczynku i byciu online. Będzie też coś dla tych, którzy lubią budować, programować i eksperymentować: klocki LEGO, warsztaty robotów oraz zadania z Minecraft Education. Dzieci przejdą cybermisje, rozwiążą logiczne zagadki, zaprogramują robota i sprawdzą, jak działają zabezpieczenia w cyfrowym świecie.
+Wszystkie atrakcje mają jeden cel: pokazać, że o internecie można rozmawiać bez wykładów i trudnych pojęć. Czasem wystarczy quiz, wspólne zadanie albo rozmowa, żeby dziecko zapamiętało prostą zasadę bezpieczeństwa, a dorosły spojrzał na cyfrowe nawyki swojej rodziny trochę uważniej.
+Konkurs dla rodziców i opiekunów
+Rodzice i opiekunowie będą mogli wziąć udział w konkursie edukacyjnym z nagrodami, dotyczącym bezpieczeństwa dzieci w sieci. Zadania będą nawiązywać do sytuacji, z którymi wiele rodzin spotyka się na co dzień: publikowania zdjęć dzieci, udostępniania informacji o wakacyjnych planach, rozpoznawania ryzykownych treści czy reagowania wtedy, gdy w internecie dzieje się coś niepokojącego.
+Regulamin konkursu 
+NASK na pięciu przystankach trasy
+Strefę NASK będzie można odwiedzić na pięciu przystankach tegorocznego „Lata z Radiem i Telewizją Polską”. Po inauguracji w Bielsku-Białej eksperci pojawią się 4 lipca w Zakopanem, 11 lipca w Ełku, 8 sierpnia w Lublinie oraz 5 września w Białych Błotach.
+Każde spotkanie będzie okazją do wspólnej zabawy, ale też do spokojnej rozmowy o tym, jak dzieci korzystają z internetu, co robią w mediach społecznościowych, jak rozpoznają ryzykowne sytuacje i kiedy powinny poprosić dorosłych o pomoc. Wakacyjna przerwa nie oznacza przecież przerwy od sieci. Telefon jedzie na obóz, tablet trafia do plecaka, gry i komunikatory zostają z dziećmi także poza domem.
+Dlatego warto wykorzystać lato nie tylko na odpoczynek, ale też na kilka dobrych rozmów o cyfrowym świecie. Najlepiej takich, które nie zaczynają się od zakazów, lecz od ciekawości, wspólnych aktywności i prostego pytania: jak korzystać z internetu tak, żeby było bezpiecznie i mądrze?"
+2026-07-05 21:11:26,16 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/odszedl-prof-andrzej-piotr-wierzbicki-pionier-i-wizjoner-polskiej-informatyki,Odszedł prof. Andrzej Piotr Wierzbicki – pionier i wizjoner polskiej informatyki,"Z wielkim żalem żegnamy prof.  dr hab. inż. Andrzeja Piotra Wierzbickiego – wybitnego naukowca, pierwszego przewodniczącego Rady Naukowej NASK i jednego z pionierów rozwoju nowoczesnych technologii w Polsce. Jego wkład w budowę społeczeństwa informacyjnego na trwałe zapisał się w historii polskiej nauki.
+
+Profesor Andrzej Piotr Wierzbicki (1937–2026) był wybitnym polskim naukowcem, specjalistą w dziedzinie teorii sterowania, optymalizacji i wspomagania decyzji oraz jednym z pionierów rozwoju technologii informacyjnych w Polsce. Przez ponad cztery dekady związany z Politechniką Warszawską, pozostawił imponujący dorobek naukowy obejmujący książki, monografie, setki publikacji oraz rozwiązania, które zyskały międzynarodowe uznanie. Szczególne miejsce w historii światowej nauki zajmuje opracowane przez niego podejście do teorii optymalizacji wielokryterialnej i wspomagania decyzji, znane jako “metoda punktu odniesienia”. Jako pierwszy badacz spoza Stanów Zjednoczonych otrzymał za nią prestiżową nagrodę Georg Cantor Award.
+– Z ogromnym smutkiem żegnam prof. Andrzeja Piotra Wierzbickiego – człowieka niezwykle zasłużonego dla polskiej nauki, ale także dla NASK. Od początku istnienia instytutu dzielił się swoją wiedzą, doświadczeniem i wizją. Trudno wyobrazić sobie historię NASK bez jego wkładu. Pozostanie w pamięci jako wybitny naukowiec, autorytet i mentor wielu pokoleń badaczy – mówi dyrektor NASK, Radosław Nielek.
+Przez wiele lat aktywnie wspierał rozwój polskiej nauki i cyfryzacji. W latach 1996–2004 pełnił funkcję Dyrektora Instytutu Łączności. Dla NASK Profesor Wierzbicki był postacią szczególną. Jako pierwszy przewodniczący Rady Naukowej NASK (1994 – 2004) przez dekadę służył instytutowi swoją wiedzą, doświadczeniem i autorytetem. Z kolei w 2004 roku został uhonorowany przez NASK nagrodą im. prof. Tomasza Hofmokla za inicjatywę i zaangażowanie w budowę miejskich sieci komputerowych w Polsce – przedsięwzięcia pionierskiego i bezprecedensowego w skali światowej – oraz za upowszechnianie wiedzy o roli nowoczesnych technologii teleinformatycznych w rozwoju społeczeństwa. Jego działalność naukowa i organizacyjna na trwałe wpisała się w historię polskiej informatyki i telekomunikacji.
+Rodzinie i bliskim profesora Wierzbickiego składamy szczere wyrazy współczucia."
+2026-07-05 21:11:26,15 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/jak-budowac-odpornosc-cyfrowa-spoleczenstwa-digital-skills-summit-2026,Jak budować odporność cyfrową społeczeństwa? Digital Skills Summit 2026,"Cyberataków na Polskę i Polaków jest coraz więcej, a kompetencje cyfrowe obywateli naszego kraju wciąż są na niskim poziomie. Jednocześnie – niemal wszyscy korzystamy dziś z internetu, AI coraz wyraźniej zaznacza swoją obecność w naszym życiu, a rzeczywistość zmienia się w tempie błyskawicznym. Jak nie dać się cyberprzestępcom i budować cyfrową odporność? O tym podczas trzeciej edycji Digital Skills Summit – konferencji o cyberbezpieczeństwie.
+
+Choć większość z nas uważa, że jest odporna na dezinformację, z badań NASK i ostatniego raportu „Paradoks spiskowy” wynika co innego. Okazuje się, że jako społeczeństwo jesteśmy podatni na manipulacje, wierzymy w teorie spiskowe i nie potrafimy dokładnie zdefiniować terminu „deepfake”.
+– Nasze przekonania o tym, kto ulega teoriom spiskowym i dezinformacji także bywają wynikiem stereotypów i uproszczeń – mówił Filip Konopczyński, dyrektor Biura Analiz i Badań w NASK. – Nasze badania wskazują, że to nie poziom wykształcenia, płeć czy wielkość zamieszkania decydują o podatności. Większość z nas jest nadmiernie przekonana o tym, że dobrze radzimy sobie z manipulacjami w sieci. Tymczasem kluczowe dla odporności i ochrony przed dezinformacją okazują się być konkretne umiejętności jak wiedza o technologiach czy zdrowiu. Oraz umiejętność pohamowania emocji i chłodnej analizy źródeł, o co ciężko np. u osób o poglądach radykalnych.
+Digital Skill Summit, organizowana przez Ministerstwo Cyfryzacji i NASK, zgromadziła przedstawicieli administracji publicznej, organizacji międzynarodowych, sektora technologicznego, środowiska naukowego i ekspertów zajmujących się cyberbezpieczeństwem. Wśród nich eksperci NASK: Filip Konopczyński, dyrektor Biura Analiz i Badań, dr Agnieszka Ładna, kierowniczka Zespołu Badań nad Cyberprzestrzenią i Cyberbezpieczeństwem, Maciej Dudkiewicz, dyrektor Pionu Rozwoju Społeczeństwa Informacyjnego i Projektów, dr Michał Marek, kierownik Zespołu Analizy Zagrożeń Zewnętrznych w Ośrodku Analizy Dezinformacji oraz Maciej Siciarek, dyrektor Pionu CSIRT NASK.
+
+Pięta achillesowa w cyberświecie – umiejętności
+Świat, w którym żyjemy, jest światem cyfrowym. Dlatego tematem przewodnim tegorocznej edycji konferencji jest hasło: „Kompetencje cyfrowe społeczeństwa a rozwój odporności informacyjnej państwa w obliczu zagrożeń hybrydowych”.
+– Wśród najważniejszych dziś umiejętności społecznych, są właśnie te cyfrowe. Ale nie chodzi o to, żeby być programistą – chodzi o tak zwane “miękkie kompetencje” – wyjaśniał Michał Marek, z Ośrodka Analizy Dezinformacji w NASK, który podczas konferencji bierze udział w panelu “Analiza zagrożeń informacyjnych w kontekście wojny hybrydowej”. – Musimy uczyć się jak odróżniać fakty od kłamstw i manipulacji, jak identyfikować teorie spiskowe, wiedzieć jakie techniki stosują cyberprzestępcy, żeby wyłudzić od nas dane albo pieniądze, czym są i osiągnięciu jakich celów służą działania propagandowe i dezinformacyjne prowadzone w polskiej infosferze przez podmioty zagraniczne, które dążą do zasiania chaosu – szczególnie w dobie kryzysu, tworzą podziały społeczne i dążą do zerwania więzi łączących obywateli z ich własnym państwem – wyliczał ekspert.
+Odporność cyfrowa państwa to nie tylko sprzęt i wyspecjalizowani pracownicy. To także świadomość społeczna na temat zagrożeń hybrydowych, wiedza, jak się przed nimi chronić i co robić w przypadku ataku. Wśród paneli o na temat wojny informacyjnej czy podatności na narracje dezinformacyjne, były także te o kompetencjach obywateli i roli mediów w kształtowaniu owych kompetencji. Głos zabrali Marek Błoński, dyrektor generalny Polskiej Agencji Prasowej, Przemysław Kuna, prezes Urzędu Komunikacji Elektronicznej czy Paweł Majcher, prezes Polskiego Radia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rozmawiali przede wszystkim o współpracy, jaka musi istnieć pomiędzy różnymi sektorami – publicznymi instytucjami, biznesem, organizacjami międzynarodowymi i właśnie mediami. To od niej zależy odporność cyfrowa naszego kraju, bo tylko całościowe podejście do budowania świadomości społeczeństwa, może dać wymierne efekty.
+Ochrona infrastruktury krytycznej
+Jednym z ważniejszych punktów programu był panel poświęcony cyberbezpieczeństwu państwa i ochronie infrastruktury krytycznej, w którym udział wziął Maciej Siciarek, dyrektor Pionu CSIRT w NASK. Dyskusja koncentrowała się na rosnącej liczbie incydentów wymierzonych w administrację publiczną, sektor energetyczny, transport czy usługi cyfrowe oraz na konieczności budowania odporności całego ekosystemu państwa.
+Ekspert mówił o skali i dynamice incydentów cyberbezpieczeństwa obsługiwanych przez CSIRT NASK oraz o znaczeniu szybkiej wymiany informacji pomiędzy administracją, sektorem prywatnym i użytkownikami internetu.
+Siciarek podkreślał, że skuteczna obrona przed cyberatakami wymaga nie tylko zaawansowanych narzędzi technicznych, ale również świadomych użytkowników, którzy potrafią rozpoznawać próby oszustw, phishingu czy manipulacji. Paneliści zwracali też uwagę na rosnącą rolę sztucznej inteligencji w działaniach cyberprzestępców.
+Współpraca kluczowa dla odporności
+Konferencja Digital Skills Summit to od trzech lat platforma wymiany doświadczeń pomiędzy przedstawicielami różnych środowisk zaangażowanych w rozwój kompetencji cyfrowych. Tegoroczna edycja konferencji odbyła się w wyjątkowej formule – debaty i wystąpienia ekspertów zorganizowano w przestrzeni Senatu RP w Warszawie, który był nie tylko gospodarzem, ale również partnerem wydarzenia.
+Udział ekspertów NASK w połączeniu z przedstawicielami innych instytucji publicznych, a także sektora prywatnego i mediów, pozwolił spojrzeć na problem odporności informacyjnej zarówno z perspektywy badań naukowych, jak i praktycznych doświadczeń związanych z monitorowaniem zagrożeń cyfrowych oraz edukacją społeczeństwa."
+2026-07-05 21:11:26,15 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/cybersec-2026-o-bezpieczenstwie-panstwa-gospodarki-i-technologii,Nagrody dla NASK. CYBERSEC 2026,"Dwie nagrody – Lidera Cyberedukacji i Innowacji Roku – trafiły do NASK podczas CYBERSEC EXPO – FORUM 2026. W Katowicach eksperci instytutu wzięli również udział w debatach poświęconych ochronie infrastruktury krytycznej, suwerenności technologicznej Europy i cyberbezpieczeństwu państwa.
+
+NASK w centrum rozmów o cyfrowej suwerenności
+Jeszcze kilka lat temu dostęp do technologii wydawał się czymś oczywistym. Jeśli rozwiązanie było dostępne na rynku, wystarczyło je kupić. Dziś coraz częściej okazuje się, że nawet najlepsza technologia może być poza naszym zasięgiem – z powodów politycznych, biznesowych albo geopolitycznych.
+To właśnie suwerenność technologiczna była tematem otwierającym tegoroczny CYBERSEC. Bo jak podkreślał dr inż. Radosław Nielek, dyrektor NASK, bezpieczeństwo nie kończy się dziś na ochronie systemów przed cyberatakami.
+– Nie jest już oczywiste, że jeśli firma oferuje na rynku rozwiązanie, to każdy może je kupić – mówił podczas debaty.
+Zdaniem dyrektora NASK równie ważne jak ochrona przed zagrożeniami staje się budowanie własnych kompetencji technologicznych oraz rozwijanie rozwiązań, od których zależeć będą inni.
+– Moim marzeniem z perspektywy zarówno dyrektora instytutu, jak i kraju jest to, żebyśmy byli w stanie zbudować rozwiązania, od których będzie zależał cały świat – podkreślał.
+Jak zaznaczył, Polska nie startuje od zera. Narzędzia rozwijane przez CERT Polska, działającego w strukturach NASK, takie jak MWDB czy Artemis, są wykorzystywane przez instytucje zajmujące się cyberbezpieczeństwem także poza granicami kraju. NASK rozwija również technologie związane z bezpieczeństwem sztucznej inteligencji, ochroną sieci komputerowych i technologiami kwantowymi.
+Jednocześnie uczestnicy debaty zwracali uwagę, że pełna niezależność technologiczna pozostaje bardziej kierunkiem niż realnym celem. Współczesne technologie powstają bowiem w globalnych łańcuchach dostaw, które łączą producentów, dostawców i odbiorców z różnych części świata.
+– Nawet jak popatrzymy na rolnictwo w Polsce, to oczywiście w takiej przydomowej uprawie w ogródku pewnie jesteśmy suwerenni. Ale jak popatrzymy na to od strony przemysłowej, to już teraz widać, że tak do końca suwerenni nie jesteśmy – podsumował Radosław Nielek.
+Technologia nie wystarczy
+Dyskusje podczas CYBERSEC pokazują, że cyberbezpieczeństwo coraz rzadziej jest problemem technologicznym. Narzędzia, procedury i systemy są dziś dostępne dla większości organizacji. Coraz częściej problem zaczyna się dopiero wtedy, gdy trzeba z nich skorzystać.
+W panelu “Cyberportret polskiego biznesu 2026″ Marcin Dudek, kierownik działającego w NASK CERT Polska, zwracał uwagę, że wiele instytucji posiada rozwiązania pozwalające wykryć zagrożenie odpowiednio wcześnie. Nie zawsze jednak za alarmem idzie reakcja.
+– Obecnie jest tak, że jak jest incydent, na przykład ransomware, to zazwyczaj podmiot miał jakieś narzędzie bezpieczeństwa, które wykrywało ten incydent tydzień wcześniej, dwa tygodnie wcześniej. Problem jest taki, że albo nikt nie przejął tego maila, albo nikt nie spojrzał na konsolę, albo nikt nie podjął działania – mówił.
+Jak podkreślał, jeszcze kilka lat temu główną barierą były pieniądze i dostęp do technologii. Dziś coraz większym wyzwaniem stają się kompetencje oraz brak specjalistów, którzy potrafią właściwie interpretować sygnały ostrzegawcze i reagować na incydenty.
+Podobne wnioski płynęły z debaty poświęconej bezpieczeństwu administracji publicznej. Jacek Orłowski, kierownik Działu Współpracy z Podmiotami Otoczenia EZD w NASK, zwracał uwagę, że samo tworzenie procedur nie oznacza jeszcze skutecznego zarządzania bezpieczeństwem.
+– Każdy podmiot publiczny już dzisiaj ma obowiązek prowadzić rejestr incydentów. Większość te rejestry ma, tylko z badań wynika, że są po prostu puste – zauważył.
+Zdaniem ekspertów bezpieczeństwo zaczyna się od kultury organizacyjnej. Pracownicy muszą wiedzieć nie tylko jak rozpoznać zagrożenie, ale również mieć pewność, że mogą je zgłosić bez obawy o konsekwencje. To szczególnie ważne w świecie, w którym cyberprzestępcy coraz częściej wykorzystują socjotechnikę, fałszywe wiadomości czy materiały generowane przez sztuczną inteligencję.
+Dudek przypominał również, że organizacje nie są pozostawione same sobie. Wskazał m.in. na rozwijany przez CERT Polska bezpłatny serwis moje.cert.pl który pozwala monitorować podatności, wycieki danych oraz widoczność organizacji w internecie.
+Dwie nagrody dla NASK! 
+Pierwsza edycja CYBERSEC Awards miała wyróżnić osoby i organizacje, które nie tylko reagują na współczesne zagrożenia, ale także wyznaczają kierunki rozwoju cyberbezpieczeństwa w Polsce. W gronie laureatów znalazł się również NASK, który wraca z Katowic z dwiema statuetkami.
+Instytut został wyróżniony w kategorii Lider w Cyberedukacji. Jury doceniło prowadzone od lat działania edukacyjne budujące kompetencje cyfrowe i wiedzę o bezpieczeństwie wśród uczniów, nauczycieli i użytkowników internetu.
+– Mam taki dashboard pokazujący liczbę osób, które przeszkoliliśmy w obszarze cyberbezpieczeństwa w danym roku. Te liczby mają najczęściej co najmniej sześć zer. Więc to jest skala wpływu, jaki mamy na cyberbezpieczeństwo i to jest to, co powoduje, że hasło „We are the firewall” staje się rzeczywistością – mówił dyrektor NASK.
+Drugą nagrodę NASK otrzymał w kategorii Innowacja Roku za Polski System Dystrybucji Klucza Kwantowego. Jury podkreśliło, że jest to jeden z najbardziej zaawansowanych projektów rozwijanych obecnie w obszarze bezpieczeństwa przyszłości.
+– To praktyczne rozwiązanie, które już teraz jest wykorzystywane do spinania punktów w Polsce, między którymi chcielibyśmy, żeby informacje wymieniane były z zachowaniem najwyższych klauzul, najwyższej poufności tego, co się dzieje pomiędzy tymi punktami – wyjaśniał podczas gali dr inż. Radosław Nielek, dyrektor NASK.
+Tegoroczny CYBERSEC pokazuje, że cyberbezpieczeństwo nie zaczyna się od technologii i na niej się nie kończy. To kwestia ludzi, kompetencji i decyzji podejmowanych każdego dnia – zarówno przez pracowników, jak i osoby odpowiedzialne za rozwój technologii, od których coraz bardziej zależy funkcjonowanie państw i gospodarek."
+2026-07-05 21:11:28,12 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/jedno-miejsce-jeden-system-szybsza-reakcja-s46-cyber-hub-juz-dziala,"Jedno miejsce, jeden system, szybsza reakcja. S46 Cyber Hub już działa","Tysiące organizacji, po wdrożeniu dyrektywy NIS2, będą musiały zgłaszać incydenty, reagować na zagrożenia i spełniać nowe obowiązki związane z cyberbezpieczeństwem. To odpowiedź na rzeczywistość, w której cyberataki coraz częściej wymierzone są nie tylko w wielkie korporacje czy instytucje państwowe, ale także firmy i organizacje odpowiadające za usługi, z których korzystamy każdego dnia.
+
+Dla krajowego systemu cyberbezpieczeństwa oznacza to największą zmianę od lat. Dla NASK – instytucji współtworzącej ten system i odpowiedzialnej za jego rozwój – również. Więcej uczestników to więcej zgłoszeń incydentów, więcej informacji o zagrożeniach i większa potrzeba sprawnej współpracy pomiędzy wszystkimi podmiotami zaangażowanymi w ochronę polskiej cyberprzestrzeni.
+Wraz ze skalą rośnie jednak także wyzwanie: jak sprawić, żeby wszystkie te informacje trafiały tam, gdzie są potrzebne, bez mnożenia kolejnych formularzy, systemów i procedur?
+Odpowiedzią na ten problem jest S46 Cyber Hub – nowe cyfrowe centrum krajowego systemu cyberbezpieczeństwa rozwijane przez NASK i Ministerstwo Cyfryzacji, zaprezentowane podczas konferencji „Centrum krajowego systemu cyberbezpieczeństwa – jeden system, wspólna ochrona”. System ma usprawnić wymianę informacji o incydentach, podatnościach i cyberzagrożeniach oraz połączyć w jednym miejscu procesy, które do tej pory funkcjonowały w różnych narzędziach i systemach.
+
+Cyberbezpieczeństwo w nowej skali
+Krajowy system cyberbezpieczeństwa powstał po to, by chronić usługi, bez których trudno wyobrazić sobie funkcjonowanie państwa. Mowa o sektorach takich jak energetyka, zdrowie, transport, administracja czy wodociągi. Nowelizacja ustawy o KSC wdrażająca unijną dyrektywę NIS2 znacząco rozszerza grono podmiotów objętych systemem.
+– Rok 2026 to rok absolutnego przełomu, jeśli chodzi o cyberbezpieczeństwo – podkreślał podczas otwarcia konferencji Paweł Olszewski, sekretarz stanu w Ministerstwie Cyfryzacji.
+Jak zaznaczał, liczba incydentów cyberbezpieczeństwa stale rośnie. Tylko w ostatnim roku ich liczba wzrosła o 150 proc. W praktyce oznacza to, że zagrożenia cyfrowe coraz częściej przekładają się na funkcjonowanie usług, z których korzystamy każdego dnia.
+– Dzisiaj cyberbezpieczeństwo należy do głównych obszarów zaangażowania. Tak jak trzeba umieć sprzedawać, opiekować się procesami czy zarządzać pracownikami, tak dzisiaj na agendzie każdego szefa – bez względu na to, czy jest to firma prywatna czy instytucja publiczna – ma być napisane cyberbezpieczeństwo – mówił wicepremier i minister cyfryzacji Krzysztof Gawkowski.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Zdaniem wicepremiera nowe przepisy nie mają być kolejnym obciążeniem administracyjnym. Ich celem jest budowanie świadomości i przygotowanie firm na sytuacje, które jeszcze kilka lat temu wydawały się mało prawdopodobne.
+– Mówimy o zagrożeniach, które mogą wpłynąć na twoją firmę, twój urząd, twój dom. Ich konsekwencje mogą dotknąć każdej sfery życia, na przykład doprowadzić do tego, że w naszym domu nie będzie wody, albo że nie będzie jej w mieście – podkreślał.
+Jedno okienko zamiast wielu procedur
+S46 nie jest nowym systemem. Od lat wspiera funkcjonowanie krajowego systemu cyberbezpieczeństwa. Jednak wraz z nowelizacją ustawy i rozszerzeniem systemu o kolejne podmioty konieczne stało się jego dostosowanie do nowej rzeczywistości.
+Tak powstał S46 Cyber Hub – nowa odsłona systemu, która ma stać się centralnym miejscem wymiany informacji o incydentach, podatnościach i zagrożeniach.
+Jednym z głównych założeń projektu jest uproszczenie procesów, które dziś często wymagają kontaktu z wieloma instytucjami jednocześnie.
+Cyber Hub ma być wykorzystywany zarówno przez instytucje odpowiedzialne za cyberbezpieczeństwo, jak i organizacje, które dopiero wejdą do systemu po wdrożeniu nowych przepisów. Dlatego dużą wagę poświęcono przejrzystości i wygodzie korzystania z platformy.
+Jak wyjaśniał Piotr Kudrys z NASK
+– Nowa odsłona została przygotowana z myślą o użytkownikach, dla których krajowy system cyberbezpieczeństwa będzie czymś nowym. Odświeżona warstwa wizualna i nowe funkcjonalności mają ułatwić zarówno zgłaszanie incydentów, jak i odbieranie informacji o zagrożeniach.
+Cyber Hub ma być więc miejscem codziennej pracy uczestników systemu. To właśnie tam podmioty objęte przepisami będą mogły zgłaszać incydenty, odbierać komunikaty o zagrożeniach i podatnościach oraz realizować obowiązki wynikające z ustawy o KSC. Z rozwiązania będą korzystać zarówno organizacje objęte nowymi regulacjami, jak i instytucje odpowiedzialne za obsługę zgłoszeń oraz koordynację działań w obszarze cyberbezpieczeństwa.
+Wspólny system dla wspólnego bezpieczeństwa
+Twórcy Cyber Hubu podkreślają, że jego rolą nie jest wyłącznie przyjmowanie zgłoszeń. System ma stać się miejscem współpracy uczestników krajowego systemu cyberbezpieczeństwa i wspierać organizacje w realizacji nowych obowiązków.
+To właśnie wokół tej idei budowana jest nowa odsłona systemu. Im większy staje się krajowy system cyberbezpieczeństwa, tym większe znaczenie ma szybki przepływ informacji i sprawna współpraca pomiędzy jego uczestnikami.
+– KSC ma być formatem: jesteśmy koło ciebie. Państwo ci pomaga. Podajemy ci rękę. System S46 i pozostałe elementy są blisko ciebie. Mówimy: słuchaj, jesteśmy tutaj, my ci pomożem– podsumował Krzysztof Gawkowski."
+2026-07-05 21:11:28,09 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/administracja-bez-papieru-ezd-rp-staje-sie-nowym-standardem,Administracja bez papieru. EZD RP staje się nowym standardem,"Ćwierć miliona ludzi i ponad trzy tysiące jednostek administracyjnych. Te liczby pokazują skalę wdrożeń EZD RP – pierwsza to użytkownicy, druga – liczba podmiotów, które z niego korzystają. System do elektronicznego zarządzania dokumentacją, stworzony przez NASK, to rewolucja w świecie administracji publicznej. Rewolucja, po którą sięga coraz więcej jednostek, a to najlepsze potwierdzenie jakości.
+
+– Od grudniowej konferencji nastąpił wyraźny przełom. Wtedy mówiliśmy o 686 jednostkach korzystających z EZD RP – mówił Krzysztof Gawkowski, wicepremier i minister cyfryzacji podczas konferencji w Łodzi, poświęconej EZD RP. – Dziś mamy 2540 jednostek, które potwierdziły wdrożenie. To ponad trzykrotny wzrost w kilka miesięcy i formalne osiągnięcie wskaźnika KPO, który wynosił 2 tys. wdrożeń. Te liczby pokazują, że cyfryzacja w Polsce postępuje szybko i śmiało możemy mówić już o rewolucji w administracji. EZD RP przestał być projektem wdrożeniowym, a stał się realnym mechanizmem transformacji administracji publicznej. 
+Konferencja NASK w Łodzi zgromadziła kilkuset przedstawicieli jednostek administracji rządowej, państwowej, samorządowej i innych podmiotów publicznych – tych, którzy już korzystają z EZD RP oraz tych, którzy dopiero będą wdrażać system w swoich jednostkach. Wydarzenie było dla uczestników okazją do wymiany doświadczeń, a także dyskusji na temat przyszłości polskiej administracji.  
+– W naszych kampaniach o EZD RP mówimy: “Zmieniamy polską administrację. Dla Was”. I to jest fakt. A dowodem na to, że system działa tak, jak powinien, jest kolejka chętnych do wdrożenia EZD RP – taką chęć wyraziło 3700 jednostek – mówił Radosław Nielek, dyrektor NASK, podczas oficjalnego otwarcia łódzkiej konferencji. – Jednak zawsze będę podkreślać, że system informatyczny to jedno – on oczywiście musi być dobrze zaprojektowany, żeby dobrze służył. Ale drugie, ważniejsze nawet niż sam system, to ludzie i ich kompetencje. To człowiek tworzy EZD RP i na końcu człowiek z niego korzysta.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Podczas konferencji wiele mówiło się właśnie o człowieku i jego roli we wdrażaniu nowych technologii. NASK wzmacnia kompetencje użytkowników EZD RP – nie tylko udostępnia usługę chmurową SaaS EZD RP, ale także szkoli pracowników jednostek administracyjnych i zapewnia stałe wsparcie podczas wdrażania systemu. Eksperci instytutu, Ministerstwa Cyfryzacji i Centralnego Ośrodka Informatyki podczas swoich wystąpień poruszali tematy od współpracy z samorządami, przez wyzwania które stoją przed użytkownikami systemu, aż po nieformalną dyskusję o tym, jak wdrożyć EZD RP i… nie zwariować? Niektórym udało się nawet znaleźć odpowiedź na to pytanie.  
+EZD RP jak Word i Microsoft 
+W ramach funduszy KPO, z którego realizowany jest projekt EZD RP, przeszkolonych zostało ponad 170 tys. ludzi, którzy na co dzień korzystają z systemu NASK. Już ponad 3,5 tysiąca jednostek używa EZD RP, a kolejnych 700 jest w trakcie wdrożenia. 
+– EZD RP to jest jeden z najbardziej uniwersalnych i najbardziej powszechnie wykorzystywanych systemów w administracji w Polsce – zaznaczał Radosław Nielek. – Konkurujemy w zasadzie chyba tylko z Wordem i Microsoft Officem, ale mam nadzieję, że jeśli dalej proces wdrażania będzie tak efektywnie przebiegał, to pobijemy i Worda, i Office’a. Obiecuję państwu, że będziemy pilnować, aby to oprogramowanie było zawsze zgodne i zintegrowane z nowymi rozwiązaniami i przepisami prawnymi, które się pojawiają. Dodatkowo – oczywiście nieustannie pracujemy nad systematycznym i szybkim usuwaniem błędów z systemu, a także wprowadzaniem nowych funkcji – wsłuchując się w państwa sugestie – mówił, zwracając się do uczestników konferencji. 
+Od celu do realizacji 
+Jak podkreślali eksperci NASK, niezwykle ważnym aspektem dla jednostek administracyjnych, jest nieodpłatność EZD RP. Instytucje nie ponoszą kosztów związanych z jego wdrożeniem, utrzymaniem, aktualizacją ani dostępem do chmury – w przypadku korzystania z modelu SaaS EZD RP. 
+Współpraca NASK oraz Ministerstwa Cyfryzacji i Centralnego Ośrodka Informatyki z jednostkami administracyjnymi, zaowocowała cyfryzacją Polski na skalę, która jeszcze kilka miesięcy temu wydawała się odległym celem, a dziś jest faktem. EZD RP wpisuje się w Strategię Cyfryzacji Państwa – w obszarze administracji to prawdziwa transformacja. Tym bardziej, że system może być wdrażany nie tylko w dużych jednostkach, takich jak ministerstwa czy duże oddział KRUS, ale także w przedszkolach, bibliotekach czy małych urzędach gminnych.  
+Konferencje takie jak ta zorganizowana w Łodzi pokazują, że system, stworzony przez NASK, już teraz staje się fundamentem cyfryzacji Polski. EZD RP to nie tylko technologia. To nowa filozofia pracy administracji publicznej – cyfrowa, odpowiedzialna i przyjazna obywatelom."
+2026-07-05 21:11:28,08 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/nie-daj-sie-oszukac-na-booking-zobacz-jak-sie-chronic,"Nie daj się oszukać „na Booking”! Zobacz, jak się chronić","Planowanie urlopu zaczyna się w sieci – od łatwego porównania ofert po szybką rezerwację noclegu. Wygoda ma jednak swoją cenę. W sezonie wakacyjnym rośnie aktywność oszustów, którzy próbują wykorzystać pośpiech i nieuwagę urlopowiczów. Można się jednak przed tym uchronić.
+
+Eksperci działającego w NASK CERT Polska ostrzegają przed zjawiskiem tzw. oszustw „na nocleg”. Wspólny mianownik tych ataków jest prosty: oszuści próbują skłonić potencjalną ofiarę do podania danych logowania lub karty płatniczej czy wykonania przelewu poza platformą rezerwacyjną. Najczęściej robią to, wywołując presję czasu („płać natychmiast, inaczej rezerwacja zostanie anulowana”) albo podszywając się pod gospodarza czy obsługę serwisu. Wszystko zazwyczaj w znanym „opakowaniu” wykorzystującym wizerunek platformy Booking.com.
+– Wakacje to czas żniw nie tylko dla rolników, ale też dla cyberprzestępców. Rezerwacja noclegu ma być początkiem udanego odpoczynku, a nie prowadzić do stresu i utraty pieniędzy. Niestety w sezonie urlopowym oszuści wykorzystują pośpiech i emocje, by nakłonić użytkowników do podania swoich danych lub wykonania przelewu. Dlatego warto pamiętać o podstawowej zasadzie: zatrzymajmy się na chwilę i dokładnie sprawdźmy, z jaką stroną i z jakim podmiotem mamy do czynienia. Kilka minut ostrożności może uchronić nas przed utratą pieniędzy, ale też przed poważniejszymi konsekwencjami, takimi jak kradzież danych – mówi Iwona Prószyńska, która kieruje w NASK zespołem ds. strategicznej komunikacji cyberbezpieczeństwa.
+
+Trzy najczęstsze schematy oszustw „na Booking”
+CERT Polska obserwuje kilka powtarzalnych wariantów. Warto znać te różnice, aby wiedzieć, gdzie zgłosić problem.
+
+„Fałszywa strona przypominająca Booking, ale pod inną domeną
+
+To jeden z najczęstszych scenariuszy. Użytkownik dostaje wiadomość z linkiem do strony łudząco podobnej do Booking: ta sama kolorystyka, układ, „okienko płatności” czy „panel logowania”. Różnica jest kluczowa: adres strony nie jest prawidłowy – to może być drobna literówka, dodatkowy myślnik, nietypowa końcówka lub zupełnie inny adres, który tylko wizualnie „udaje” oryginał.
+
+
+
+
+
+Cyberprzestępcy chcą w ten sposób wyłudzić dane karty płatniczej lub dane logowania. Naszą czujność powinny wzbudzić: błędny adres strony, link prowadzący poza platformę, presja czasu, groźba anulowania rezerwacji lub prośba o „ponowną weryfikację płatności”.
+
+Przejęte konto gospodarza i „dopłata” od rzekomego obiektu
+
+W tym wariancie przestępcy nie zawsze tworzą fałszywą stronę. Zdarza się, że przejmują konto gospodarza, którego ogłoszenie już istnieje na platformie. Następnie kontaktują się z osobami, które mają rezerwację i proszą o „dodatkową wpłatę” – czasem podając numer konta do przelewu, a czasem kierując do fałszywej bramki płatności lub fikcyjnej strony podszywającej się pod Booking.com.
+Wiadomość może wyglądać wiarygodnie: pochodzić „z rozmowy” dotyczącej rezerwacji, zawierać dane obiektu, termin pobytu, a nawet podpis gospodarza.
+
+
+
+
+
+W tym przypadku sygnałem ostrzegawczym powinny być dla nas prośba o płatność poza platformą, nietypowe uzasadnienie dopłaty, naglący ton.
+
+Fałszywa oferta na prawdziwej platformie (nieuczciwy wystawca)
+
+Trzeci wariant jest inny: oferta dostępna jest na prawdziwej platformie, ale pochodzi od nieuczciwego wystawcy. To nadużycie polegające na wprowadzeniu w błąd co do samej oferty, warunków lub tożsamości wynajmującego.
+W takim przypadku decyzje o usunięciu oferty lub blokadzie konta leżą po stronie platformy rezerwacyjnej, dlatego warto zgłaszać do niej takie przypadki.
+Gdzie zgłaszać próby oszustwa?
+Eksperci CERT Polska podkreślają, że zgłaszanie incydentów ma sens: pomaga analizować skalę zjawiska, rozpoznawać powtarzalne schematy i – co bardzo ważne – blokować fałszywe domeny.
+W przypadku opisywanych powyżej dwóch pierwszych sytuacji mamy do czynienia z phishingiem. Warto zgłosić to do CERT Polska przez formularz na stronie: incydent.cert.pl lub w aplikacji mObywatel w usłudze „Bezpiecznie w sieci”. Dzięki temu chronisz siebie i innych.
+W przypadku ostatniej sytuacji – fałszywą ofertę zgłoś bezpośrednio do administracji platformy (procedura zgłaszania nadużyć/ofert) oraz, jeśli doszło do oszustwa, także organom ścigania.
+Jak nie dać się oszustom?
+Najlepszą ochroną jest połączenie trzech rzeczy: spokoju, czujności i ograniczonego zaufania. Oszuści liczą na naszą automatyczną reakcję: szybki przelew lub podanie danych.
+Jeśli dostaniesz wiadomość, która nalega na zalogowanie się lub wykonanie przelewu, przypomnij sobie te punkty:
+
+Nie działaj pod presją czasu. Komunikaty typu „natychmiast”, „ostatnia szansa”, „anulujemy rezerwację” traktuj jako czerwone flagi.
+Sprawdź adres strony. Nawet drobna literówka powinna wzbudzić Twoja czujność. Tu znajdziesz więcej informacji na ten temat.
+Nie podawaj danych karty ani logowania w witrynie z linku w wiadomości. W razie wątpliwości samodzielnie wpisz adres platformy w przeglądarce lub wyszukaj ją i dopiero wtedy zaloguj się.
+Płać i rozmawiaj wyłącznie w ramach platformy. Unikaj przelewów na „prywatne konto” i zewnętrznych bramek płatności.
+Włącz uwierzytelnianie dwuskładnikowe (2FA). To istotnie utrudnia przejęcie konta, nawet jeśli hasło wycieknie.
+
+I co najważniejsze, jeśli ktoś prosi Cię o dopłatę lub ponowne logowanie, zatrzymaj się i zweryfikuj to w panelu rezerwacji pamiętaj, że zawsze możesz skontaktować się bezpośrednio z hotelem lub właścicielem kwatery i wyjaśnić wątpliwości dotyczące rezerwacji."
+2026-07-05 21:11:28,08 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/naukowiec-nask-przypilnuje-ai-w-brukseli-3-pytania-do-sebastiana-cygerta,Naukowiec NASK przypilnuje AI w Brukseli – 3 pytania do Sebastiana Cygerta,"Komisja Europejska powołała dr. inż. Sebastiana Cygerta, kierownika Zakładu Bezpieczeństwa i Przejrzystości Sztucznej Inteligencji NASK do Panelu naukowego ds. wdrażania AI Act. W 60-cio osobowym gremium znaleźli się naukowcy z całego świata, w tym m.in. kanadyjski profesor Yoshua Bengio – laureat prestiżowej Nagrody Turinga. Wszystko w trosce o bezpieczny rozwój sztucznej inteligencji.
+
+Gratulujemy, jesteś jednym z 60 ekspertów z całego świata powołanym do Panelu naukowego ds. wdrażania AI Act, który utworzyła Komisja Europejska. To duży sukces.
+Bardzo się cieszę, że mogłem znaleźć się w gronie ekspertów zajmujących się bezpieczeństwem AI, obok takich osób jak Yoshua Bengio. To również bardzo ważne, że nasz kraj odgrywa ważną rolę w tym wyborze. Zwłaszcza, że oprócz mnie do Panelu powołano dwóch innych naukowców z Polski – prof. Katarzynę Wac oraz prof. Jakuba Growca. Możemy być dumni z poziomu i osiągnięć naszych naukowców.
+Dodatkowo myślę, że Polska jako jedno z pierwszych państw, które rozwija i wdraża własne modele językowe w administracji publicznej, może wnieść do prac Panelu unikalną perspektywę i doświadczenie. Ten wybór nie jest przypadkowy.
+Jednym z zadań panelu jest ocena ryzyk związanych z najbardziej zaawansowanymi modelami AI. Które zagrożenie budzi dziś największy niepokój ekspertów?
+Takich zagrożeń jest bardzo wiele. Mówimy o systemach – często agentowych¹ – o rosnącej złożoności, które podejmują coraz bardziej skomplikowane decyzje. Niestety, w dużej skali i przy trudnych problemach systemy te mogą zachowywać się w sposób nieprzewidywalny, co budzi obawy dotyczące ich dalszego wdrażania.
+Jednym z najistotniejszych problemów, w mojej ocenie, jest również wykorzystywanie modeli AI w działalności nielegalnej. Mam tu na myśli między innymi użycie modeli do wspierania cyberataków, szerzenie dezinformacji czy projektowania niebezpiecznych rozwiązań. Pomimo stosowanych zabezpieczeń obecne modele wciąż bywają relatywnie łatwe do wykorzystania w takich celach, a jednocześnie potrafią być w nich bardzo skuteczne. Już w 2025 roku mieliśmy do czynienia z pierwszymi masowymi cyberatakami z wykorzystaniem sztucznej inteligencji, o czym miałem okazję wspominać na podkomisji sejmowej w tym roku.
+Kiedy słyszymy o zagrożeniach związanych ze sztuczną inteligencją, często myślimy o scenariuszach rodem z filmów science fiction. Jakie są faktyczne zagrożenia tu i teraz?
+Oprócz wcześniej wymienionych zagrożeń warto zwrócić uwagę na te, z którymi stykamy się na co dzień, często nawet nie będąc ich w pełni świadomi.
+Dobrym przykładem są media społecznościowe. Wykorzystywane w nich algorytmy – coraz częściej oparte na AI – sprzyjają rosnącemu uzależnieniu od nieustannego przewijania treści. Jest to szczególnie niebezpieczne w przypadku dzieci, ale dotyczy również dorosłych. Jednocześnie systemy te często promują treści bardziej skrajne i emocjonalne, co może prowadzić do pogłębiania polaryzacji społecznej.
+Przy tak dynamicznym rozwoju AI niezwykle istotne jest, aby pamiętać, że technologia ta powinna przede wszystkim przyczyniać się do zwiększania dobrostanu społecznego, a nie wyłącznie do maksymalizacji zysków największych firm."
+2026-07-05 21:11:29,01 Czerwca 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/ty-tez-masz-wplyw-nask-na-see-bloggers-2026,Ty też masz wpływ!  NASK na See Bloggers 2026,"Tysiące twórców internetowych, godziny rozmów, prelekcje i ...cały nakład przewodnika NASK dla influencerów rozdany już pierwszego dnia. Tak wyglądał weekend NASK podczas See Bloggers 2026 – największego festiwalu dla twórców internetowych w Polsce.
+
+Tegoroczna edycja See Bloggers, która odbyła w Łodzi zgromadziła około 2,5 tysiąca uczestników, setki twórców internetowych i ekspertów oraz dziesiątki wystąpień poświęconych mediom społecznościowym i temu, co dzieje się w sieci. Dla NASK była to okazja nie tylko do dzielenia się wiedzą, ale przede wszystkim do bezpośrednich rozmów z osobami, które współtworzą dzisiejszy internet i każdego dnia wpływają na swoich odbiorców.
+– Fajnie, że oprócz zgarnięcia kosmetyków można się czegoś dowiedzieć, zwłaszcza że cyberbezpieczeństwo powinno być teraz najważniejsze. Ja sama raz straciłam Facebooka, poinformowałam odbiorców. Od tamtej pory używam uwierzytelniania dwuskładnikowego – mówiła jedna z uczestniczek odwiedzających stoisko NASK.
+
+Rozmowy, które zaczynały się od jednego pytania
+Podczas rozmów w strefie NASK najczęściej wracały bardzo praktyczne tematy: jak zabezpieczyć konto przed przejęciem, co zrobić po utracie dostępu do profilu, jak rozpoznać fałszywą propozycję współpracy i kiedy wiadomość od „marki” powinna zapalić czerwoną lampkę. Ale też jak informować swoich odbiorców o tego typu zagrożeniach. Wielu twórców odczuło to na własnej skórze. Część z nich mówiła wprost, że ktoś próbował przejąć ich konto, podszyć się pod nich albo wykorzystać ich zasięgi do oszustwa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Duże zainteresowanie wzbudziła premiera poradnika dla influencerów „Masz wpływ” przygotowanego przez ekspertów NASK. Przez weekend po poradnik sięgnęło ponad 2 tys. twórców. A kilkaset sztuk poradnika trafiło do osób, które w polskim internecie gromadzą wokół swoich profili najliczniejsze społeczności. Pierwszego dnia w strefie NASK pojawiła się także Karolina Czak – twórczyni internetowa, trenerka i jedna ze współautorek publikacji.
+– Nie każdy twórca ma świadomość, że ma wpływ – niezależnie od tego, czy jego rolka ma 300 tysięcy wyświetleń, czy 300. Wśród tych 300 osób może być kilka albo kilkanaście, które przekażą dalej to, czego się dowiedziały. Dlatego tak ważne jest, żeby publikowane treści były prawdziwe i odpowiedzialne. Viral, nowe powiadomienia i rosnące zasięgi dają ogromną satysfakcję, ale internet nie znika po jednym sezonie. Kiedyś online i offline były dwoma osobnymi światami. Dziś to jedna rzeczywistość, w której wszystko się przenika. Dlatego warto poświęcić chwilę na lekturę przewodnika NASK – zarówno jako twórca, jak i odbiorca. Może pomóc uniknąć wielu przykrych sytuacji w przyszłości – mówi Karolina Czak, twórczyni internetowa, trenerka i współautorka poradnika „Masz wpływ”.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+– Misją NASK jest wspieranie bezpiecznego i świadomego funkcjonowania w świecie cyfrowym. Podczas See Bloggers mogliśmy przekonać się, że twórcy internetowi chcą nie tylko rozwijać swoje zasięgi, ale także budować odpowiedzialną obecność online. – mówiła współautorka poradnika Monika Ciślak.
+Zasięgi są ważne. Wiarygodność ważniejsza
+Większość osób social media tylko przegląda. Niewielka część zostawia serduszko, komentarz albo udostępnia dalej. Treści tworzy garstka – według zasady 90–9–1 to zaledwie 1 procent użytkowników sieci. I właśnie do tego jednego procenta zwróciła się Anna Kwaśnik z NASK podczas warsztatu dla twórców.
+– Wasze konto to nie tylko konto. To wasza marka, źródło utrzymania, biznes i praca. To także społeczność, którą wokół siebie budujecie, i ludzie, dla których jesteście inspiracją albo autorytetem – mówiła Anna Kwaśnik.
+Dlatego przejęcie profilu może oznaczać dużo więcej niż utratę dostępu do aplikacji.
+Właśnie dlatego przy propozycji współpracy, wiadomości o rzekomym problemie z kontem czy linku do „pilnego potwierdzenia” najważniejszy jest pierwszy odruch. Nie kliknięcie, tylko zatrzymanie się na chwilę. Sprawdzenie nadawcy. Potwierdzenie kontaktu innym kanałem. Wyjście z tempa, które próbuje narzucić oszust.
+Dużo emocji wzbudził wątek deepfake’ów i fałszywych reklam. Spreparowane materiały coraz częściej wykorzystują wizerunek osób znanych, ale nie kończy się to na celebrytach i politykach. Twórcy też są celem, bo ich twarz, głos i zaufanie odbiorców mają konkretną wartość.
+– Jeśli oglądamy kogoś, kogo znamy, lubimy albo szanujemy, łatwiej nam uwierzyć w to, co mówi. Właśnie dlatego takie materiały są niebezpieczne – mogą zachęcać do fałszywych inwestycji, manipulować emocjami albo wykorzystywać czyjś wizerunek bez zgody – mówiła.
+Na koniec zostaje jeszcze wiarygodność. W internecie można usunąć relację, poprawić post albo wycofać się z błędnej informacji, ale screen, nagranie czy reakcja odbiorców mogą zostać dużo dłużej.
+– My też zawsze mówimy, że cyberbezpieczeństwo to nasza wspólna odpowiedzialność i chciałabym, żebyście wy też po tych dwóch dniach różnych warsztatów i i różnych spotkań też wyszli z takim przeświadczeniem, że dbacie nie tylko o siebie, nie tylko o swoje konto, ale również każda wasza działalność ma wpływ na to, jak postępują wasi obserwatorzy – dodała na koniec napisz kto, bo już tyle minęło tekstu, że nie wiem
+Jeden follow konta nie przejmie. Jedna chwila nieuwagi może wystarczyć
+Dużym zainteresowaniem cieszyła się także prelekcja Karola Bojke z CERT Polska. Już sam tytuł – „Cyberprzestępca dał mi follow, potem straciłem dostęp do konta!” – dobrze pasował do wydarzenia dla twórców internetowych:
+– Jeśli zapisaliście się na tę prezentację, przeczytawszy jej tytuł, to padliście ofiarą delikatnego clickbaitu. Ponieważ jeden follow jeszcze do przejęcia konta nie prowadzi. Natomiast jedna chwila nieuwagi pewnie bardziej może. I właśnie o takich chwilach nieuwagi chciałbym wam dzisiaj powiedzieć. Pokazać wam, w jaki sposób zaczynają się schematy przestępstw, które mogą prowadzić do utraty konta, w jaki sposób temu przeciwdziałać, jak się zabezpieczać i gdzie zgłaszać takie przypadki, żeby pomóc ochronić także innych – mówił Karol Bojke.
+Ekspert CERT Polska zwracał uwagę, że oszustwa są dopasowywane do różnych grup: rodziców, przedsiębiorców, studentów, graczy, osób publicznych czy twórców internetowych. Raz jest to SMS o paczce, innym razem fałszywa inwestycja z wizerunkiem znanej osoby, wiadomość o wygasającym hostingu, rzekomy zwrot podatku albo link do potwierdzenia danych. Mechanizm pozostaje podobny: wzbudzić emocje, skrócić czas na reakcję i doprowadzić użytkownika do kliknięcia, płatności albo podania danych.
+Dla twórców szczególnie ważny był temat przejmowania kont w mediach społecznościowych. Profil influencera to narzędzie pracy, źródło kontaktu z odbiorcami, miejsce współprac i często realne źródło dochodu. Jeśli przejmą go przestępcy, mogą wykorzystać nie tylko zasięg, ale przede wszystkim zaufanie odbiorców: wysłać prośbę o BLIKA, opublikować fałszywy link, podszyć się pod twórcę albo przekierować społeczność do kolejnego oszustwa.
+– Dla zwykłego użytkownika konto społecznościowe jest częścią naszej tożsamości, ale jest w jakiś sposób oddzielną szufladką. Dla was jest również sposobem zarobku. I dlatego bardzo ważne jest, żebyście je świetnie zabezpieczali – mówił ekspert CERT Polska.
+W praktyce oznacza to podstawy, które naprawdę działają: długie i unikalne hasła, menedżery haseł, uwierzytelnianie dwuskładnikowe, klucze U2F, sprawdzanie wycieków danych i szybkie zamykanie aktywnych sesji, jeśli doszło do przejęcia profilu. Równie ważne jest poinformowanie o tym odbiorców.
+– Ktoś może się pod was podszywać, może próbować wykorzystać wasz autorytet, żeby naciągnąć waszych odbiorców. I raz, że przykro, jeżeli kolejne osoby dadzą się naciąć, a dwa, że wasza reputacja też na tym cierpi. To w waszym interesie jest też, żeby chronić swoich użytkowników, swoich odbiorców, swoich obserwujących – przypominał.
+Do zobaczenia za rok?
+See Bloggers 2026 pokazało, że zainteresowanie cyberbezpieczeństwem wśród twórców internetowych jest naprawdę duże. Widać to było przy stoisku NASK, podczas prelekcji, w pytaniach zadawanych ekspertom i w reakcjach uczestników, którzy zabierali poradnik ze sobą, pokazywali go w relacjach i polecali dalej.
+Tylko przez weekend materiały opublikowane na profilu NASK na Facebooku zostały wyświetlone 1,7 mln razy. Na Instagramie NASK zasięgi treści przekroczyły 220 tys. To dla nas ogromna motywacja i dowód, że rozmowa o bezpieczeństwie w sieci ma sens także poza salą wykładową i stoiskiem festiwalowym.
+–Zgromadzeni w publiczności twórcy cyfrowi pokazali, jak wiele sami wiedzą o zasadach bezpieczeństwa, ale też jak wiele mogą się od siebie nawzajem nauczyć. Mam poczucie, że udało się zaszczepić słuchaczom myśl przyświecającą codziennej pracy Instytutu – wszyscy mamy wpływ na bezpieczny Internet i powinniśmy chronić siebie nawzajem. – podsumował warsztaty Bojke. – Cieszy mnie też to jak wielu uczestników udostępniło po prelekcji informacje o sposobach zgłaszania niebezpiecznych treści W zeszłym roku przyjęliśmy ponad 660 tysięcy zgłoszeń, więc w tym czekamy na więcej! – Podsumował Karol Bojke z CERT Polska.
+Do zobaczenia za rok."
+2026-07-05 21:11:28,19 Maja 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/od-kodu-do-relacji-jak-ai-wplywa-na-uczniow,Od kodu do relacji. Jak AI wpływa na uczniów?,"Sztuczna inteligencja jako „proteza myślenia” i bliskie relacje z chatbotami, czyli AI, która wszystko za nas zrobi i wszystko „rozumie”. Tylko jaką cenę za to zapłacą uczniowie i nauczyciele? Co dzieje się z mózgiem, gdy nadmiernie polegamy na sztucznej inteligencji? Na te i inne pytania odpowiadają autorzy najnowszej publikacji NASK „AI w szkole. Od algorytmu do relacji”.
+
+Za wygodę używania AI płacimy wysoką cenę – od ryzyka obniżenia aktywności mózgu, przez nawiązywanie zbyt bliskich relacji z chatbotami, po gonienie za ideałem piękna. Pułapek wykorzystywania sztucznej inteligencji jest wiele. O tym, jak ich uniknąć, piszą w poradniku badacze, popularyzatorzy nauki i eksperci NASK. „AI w szkole. Od algorytmu do relacji” to publikacja, która pomoże zrozumieć mechanizmy działania sztucznej inteligencji. Poradnik zawiera też wskazówki dotyczące profilaktyki – jak nie dać się wciągnąć w pułapki AI.
+– W publikacji wyjaśniamy, dlaczego AI nie rozumie świata tak jak człowiek i skąd biorą się halucynacje, czyli wiarygodnie brzmiące, ale fałszywe, odpowiedzi – opowiada Aleksandra Krasnodębska, współautorka publikacji i ekspertka NASK. – Przestrzegamy w niej też, że bezrefleksyjne wyręczanie się AI może sprawić, że u młodego człowieka nie zdążą rozwinąć się ważne zdolności, takie jak argumentowanie czy samodzielne pisanie.
+Jak zaznacza ekspertka, w rozwoju dzieci i nastolatków kluczowy jest bowiem umiarkowany wysiłek, który buduje trwałe ścieżki neuronalne, poczucie sprawczości i kompetencji. Zaniedbanie tych sfer przekłada się też bezpośrednio na budowanie relacji międzyludzkich.
+
+Kiedy chatbot staje się przyjacielem
+AI dla wielu nastolatków staje się rozmówcą, doradcą, a czasem – emocjonalnym towarzyszem. Dzięki pamięci rozmów, awatarom i zdolności generowania empatycznie brzmiących odpowiedzi systemy generatywnej sztucznej inteligencji (ang. generative artificial intelligence, GenAI) mogą być odbierane niemal jak wypowiedzi prawdziwych osób, z którymi młodzi nawiązują hiperpersonalne relacje. Czy to znaczy, że z czasem uczniowie mogą porzucić realne interakcje na rzecz zawsze „dostępnego” modelu? By się tego dowiedzieć, warto sięgnąć po poradnik NASK.
+Deepfake, nudyfikacja, sextortion, dezinformacja i presja doskonałości
+Ciemna strona sztucznej inteligencji jest coraz bardziej niebezpieczna – od deepfake’ów wykorzystywanych do cyberprzemocy, przez rozbierane zdjęcia i sextortion, po groomig i „chatbotowych oprawców”. Autorzy opisują m.in. przypadki użycia generatywnej AI do tworzenia fałszywych materiałów seksualnych z wizerunkiem nieletnich, szantażu w mediach społecznościowych oraz symulowania rozmów z podtekstem erotycznym z „wirtualnym dzieckiem”.
+– Nie możemy też zapominać o nowych zjawiskach związanych z AI. Chodzi o wpływ influencerów AI i wizerunków generowanych przez sztuczną inteligencję w mediach społecznościowych na dobrostan nastolatków – podkreśla Marta Witkowska, współautorka poradnika i ekspertka NASK. – Masowa obecność w sieci obrazów „idealnych” ciał może prowadzić do obniżenia samooceny, podejmowania ryzykownych zachowań związanych z kontrolą wagi i wycofania się z aktywności fizycznej.
+W publikacji zwrócono też uwagę na dezinformację i brak nawyku weryfikacji źródeł. Autorzy apelują o potrzebę edukacji o cyberzagrożeniach, a także naukę zgłaszania niebezpiecznych materiałów, np. do działającego w NASK zespołu Dyżurnet.pl.
+
+
+
+
+
+Etyka i prawo – szkoła jako strażnik wartości
+Dziś o regulacjach dotyczących sztucznej inteligencji mówi się coraz głośniej. W poradniku szeroko omówiono etyczne i prawne ramy użycia AI w edukacji – od rekomendacji UNESCO po europejski AI Act (Akt o sztucznej inteligencji), który klasyfikuje systemy AI w edukacji jako wysokiego ryzyka. Oznacza to m.in. konieczność zapewnienia przejrzystości działania narzędzi, jakości danych i nadzoru człowieka nad decyzjami wspieranymi przez AI.
+Autorzy podkreślają, że nauczyciel nie może pozostać biernym odbiorcą technologii. Powinien pełnić rolę „strażnika wartości”, który potrafi wychwycić, kiedy narzędzie przestaje wspierać ucznia, a zaczyna kształtować go w niezamierzony sposób.
+AI jako wsparcie
+W poradniku eksperci pokazują również potencjał GenAI, m.in. w pracy z uczniami ze zróżnicowanymi potrzebami edukacyjnymi. Sztuczna inteligencja pomaga nauczycielom dostosować treści do odpowiadających im uczniom form komunikacji. Jest przydatna podczas różnicowania materiałów, ale też znacząco przyspiesza pracę pedagogów.
+Jednocześnie autorzy ostrzegają przed sytuacjami, w których AI staje się „protezą” myślenia zamiast „rusztowaniem” rozwoju. Niedopuszczalne jest też powierzanie modelom roli diagnosty, terapeuty czy wprowadzanie do otwartych narzędzi wrażliwych danych o uczniach.
+AI będzie coraz silniej obecna w edukacji – zarówno w narzędziach wykorzystywanych w szkole, jak i w osobistych urządzeniach uczniów. Sztuczna inteligencja powinna wspierać, a nie zastępować proces uczenia się.
+Autorzy Urszula Dąbrowska, Aleksandra Krasnodębska, dr Jakub Kuś, prof. UWr dr hab. Piotr Plichta, prof. UAM dr hab. Jacek Pyżalski, Jakub Rogowiecki i Marta Witkowska – opracowali swoje artykuły z myślą o nauczycielach oraz wszystkich osobach pracujących z dziećmi i młodzieżą, które chcą nie tylko nadążyć za technologią, ale też świadomie kształtować cyfrową dojrzałość młodego pokolenia.
+Publikacja „AI w szkole. Od algorytmu do relacji” powstała w ramach realizowanego w NASK programu Ogólnopolska Sieć Edukacyjna (OSE). Dostępna jest bezpłatnie na platformie OSE IT Szkoła."
+2026-07-05 21:11:29,27 Kwietnia 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/badania-nie-spiski-raport-nask-o-tym-kto-wierzy-w-teorie-spiskowe,"Badania, nie spiski. Raport NASK o tym, kto wierzy w teorie spiskowe","Wykształcony, młody, z dużego miasta – wydaje się odporny na teorie spiskowe. Pozory mylą, a rzeczywistość jest jednak bardziej złożona. Najnowszy raport NASK „Paradoks spiskowy” pokazuje, co naprawdę decyduje o podatności na dezinformację.
+
+Raport NASK „Paradoks spiskowy. O lęku przed innymi, potrzebie silnego państwa i podatności na narracje dezinformacyjne” rzuca nowe światło na stare przekonania. Pokazuje, co ma wpływ na wiarę w spiski, a co w zasadzanie nie ma znaczenia. 
+Wnioski oparto na badaniach przeprowadzonych na reprezentatywnej próbie dorosłych Polaków (ponad 3,6 tys. osób), a ich wyniki pozwalają przyjrzeć się temu, jak na wiarę w spiski wpływają m.in. poglądy, poziom wiedzy czy sposób korzystania z mediów. 
+– Raport obala wiele mitów na temat podatności na teorie spiskowe. Ani wiek, ani płeć, ani poziom wykształcenia, ani nawet czytanie „wszystkiego” nie są wystarczającą ochroną przed dezinformacją. Najważniejsze jest to, jak podchodzimy do informacji i czy umiemy je weryfikować – mówi Agnieszka Ładna, Kierownik Zespołu Badań nad Cyberprzestrzenią i Cyberbezpieczeństwem w NASK – jedna z autorek raportu. 
+Młodzi bardziej podatni niż seniorzy
+Płeć ani miejsce zamieszkania nie decydują o podatności na teorie spiskowe. Analiza danych pokazuje, że różnice między kobietami a mężczyznami są znikome. Również miejsce zamieszkania nie ma istotnego znaczenia. Oznacza to, że mechanizmy myślenia spiskowego działają ponad tymi podziałami.
+Dane przeczą też tezie, że najłatwiej w dezinformację wierzą seniorzy. Badania pokazują, że jest wręcz przeciwnie – to osoby starsze wykazują największą odporność na narracje spiskowe. Mniej odporni są młodzi dorośli w przedziałach wiekowych 30-39 lat i 18-29 lat.
+Kluczową rolę odgrywa też światopogląd. Raport wskazuje na tzw. „paradoks spiskowy” – oznacza to, że największą podatność na wiarę w spiski wykazują osoby łączące konserwatywne podejście kulturowe z oczekiwaniem silnej i opiekuńczej roli państwa w gospodarce.
+Dyplom to za mało
+Sam dyplom uczelni wyższej nie chroni przed wiarą w teorie spiskowe. Raport pokazuje, że znacznie większe znaczenie mają umiejętność sprawdzania informacji i oceny źródeł. A w tym zakresie Polacy czują się pewnie. Co trzeci badany wysoko ocenia swoje umiejętności rozpoznawania fałszywych treści.
+Kolejnym wnioskiem z raportu jest fakt, że teorie spiskowe funkcjonują na zasadzie naczyń połączonych. Rzadko zdarza się, by ktoś wierzył tylko w jedną narrację. Ostatecznie powstaje spójny obraz świata, w którym przypadek nie istnieje, a za wydarzeniami stoją „tajne grupy sterujące światem”. 
+Spiski chodzą parami
+Skrajne poglądy to kolejny czynnik, który wpływa na podatność na narracje dezinformacyjne. Najbardziej odporne są osoby o umiarkowanych poglądach, które dopuszczają różne perspektywy i unikają patrzenia na świat wyłącznie w czarno-białych barwach. Z kolei ksenofobia to najsilniejszy czynnik wpływający na wiarę w teorie spiskowe.
+–  Algorytmy mediów wizualnych promują emocjonalne i uproszczone treści. Chaos informacyjny utrudnia oddzielanie faktów od opinii, a utknięcie w “bańce informacyjnej” sprzyja wybiórczemu sięganiu po treści bez kontekstu. Z badań wynika, że w tej sytuacji to właśnie śledzenie mediów głównego nurtu, opartych na weryfikacji informacji i standardach redakcyjnych, zmniejsza podatność na wiarę w spiski – wyjaśnia Filip Konopczyński, dyrektor Biura Analiz i Badań. 
+Z badań wynika też, że czytanie wielu źródeł – od rzetelnych mediów po treści skrajne czy plotkarskie – wcale nie buduje odporności. Osoby narażone na wiele, często sprzecznych, informacji są bardziej zdezorientowane, a to sprzyja przyjmowaniu spiskowych teorii wyjaśniających rzeczywistość. 
+Rodzaj platformy, z której czerpie się treści również ma znaczenie. Wyższa podatność na teorie spiskowe częściej występuje u użytkowników serwisów opartych na krótkich filmikach, które podają algorytmy. Zaś niższa – wśród osób korzystających z platform tekstowych i relacyjnych.  
+Teorie, które nie tracą na popularności
+– Badania nad zjawiskiem dezinformacji są dla nas kluczowe choć niezwykle trudne – podkreśla Magdalena Wilczyńska, szefowa Pionu Ochrony Informacyjnej Cyberprzestrzeni NASK. – Pozwalają nam zrozumieć głębsze społeczne i poznawcze mechanizmy, które czynią je skutecznymi. Bez rzetelnej diagnozy ryzykujemy, że nasze reagowanie będzie intuicyjne i doraźne. Ten raport powstał z przekonania, że odporność informacyjna zaczyna się od zrozumienia ludzi: ich lęków, oczekiwań, sposobów korzystania z informacji i relacji z instytucjami – podsumowuje.
+Tło dla wyników badania jest konkretne. Polską infosferę wypełniają dziś narracje o celowych wysiedleniach ludności, szczepieniach jako narzędziu depopulacji, klimatycznych spiskach jako mechanizmach zniewolenia obywateli czy manipulacji pogodą. Wątki te rzadko funkcjonują osobno – zazębiają się, wzmacniają nawzajem. Tworzą w ten sposób spójny, alternatywny obraz rzeczywistości. Dominują narracje o nadużyciach rządów i globalnych konspiracyjnych układach – i to właśnie one stanowią dziś główne pole walki z dezinformacją."
+2026-07-05 21:11:29,20 Maja 2026,NASK,https://www.nask.pl,https://www.nask.pl/aktualnosci/ccn-nowy-wymiar-ochrony-w-cyfrowym-swiecie,CCN. Nowy wymiar ochrony w cyfrowym świecie,"Polska zyskuje prawdziwą tarczę w cyberprzestrzeni. Centrum Cyberbezpieczeństwa NASK (CCN), które powstaje w Warszawie, to odpowiedź na aktualne wyzwania i potrzeby związane z szybko rosnącą liczbą zagrożeń w świecie wirtualnym. Budynek CCN to m.in. nowe laboratoria, w których eksperci NASK będą udoskonalać wykrywanie złośliwego oprogramowania, pracować nad rozwojem sztucznej inteligencji i jeszcze lepszym zabezpieczaniem naszych danych.
+
+Centrum Cyberbezpieczeństwa NASK to strategiczny element budowania, wzmacniania i rozwijania infrastruktury, która ma służyć jak najlepszej ochronie w cyberprzestrzeni. To także rozwój kompetencji wśród specjalistów i budowanie nowych umiejętności w społeczeństwie. Nowa siedziba CCN powstanie przy ul. 11 listopada w Warszawie.
+– Liczba zagrożeń w cyberprzestrzeni szybko rośnie, dlatego Polska coraz więcej inwestuje w cyfrową ochronę i odpowiednią infrastrukturę. To oznacza nie tylko bezpieczeństwo w wirtualnym świecie, ale też w tym realnym, bo skutki działań grup hakerskich z innych krajów oraz cyberprzestępców odczuwamy przede wszystkim w rzeczywistości – mówi dyrektor NASK Radosław Nielek. – W NASK mamy świetnych ludzi, którzy wiedzą, co robić, żeby wzmacniać cyberbezpieczeństwo. Mogę nawet powiedzieć, że wiedzą, jak być o krok przed cyberprzestępcami. W ramach projektu CCN powstaną centra i laboratoria, w których eksperci NASK będą pracować m.in. nad sztuczną inteligencją i wykrywaniem złośliwego oprogramowania. Powstanie też ośrodek szkoleniowy, z którego będą korzystać nie tylko pracownicy NASK, ale też np. uczniowie, bo jednym z naszym głównych celów jest edukacja na temat cyberbezpieczeństwa – dodaje.
+Centra i laboratoria CCN
+W ramach Centrum Cyberbezpieczeństwa NASK powstanie szereg centrów i laboratoriów, które będą tworzyć jeden spójny organizm.
+
+Krajowe Centrum Odzyskiwania Danych (KCOD)
+Krajowe Centrum Operacyjne Cyberbezpieczeństwa (KCOC)
+Modelowy Ośrodek treningowo – szkoleniowy w obszarze Cyberbezpieczeństwa (OSC)
+Laboratorium Bezpieczeństwa AI (AITAS)
+Laboratorium Fuzzingu i Badania Złośliwego Oprogramowania (FUMAL)
+Krajowe Centrum Wsparcia Security dla JST (KCWS)
+Ośrodek Modelowania Certyfikacji Cyberbezpieczeństwa (OMCC)
+
+Jednym z ważnych kroków, które wzmocnią cyberochronę kraju w ramach CCN jest też rozbudowa infrastruktury NASK, działającej na rzecz CSIRT NASK. Częścią CSIRT NASK jest CERT Polska – zespół reagowania na incydenty bezpieczeństwa w cyberprzestrzeni. Kluczowym dla CSIRT NASK projektem jest budowa prywatnej chmury usługowej oraz obliczeniowej. Będzie ona zlokalizowana w dwóch centrach danych, co gwarantuje bezpieczeństwo informacji.
+– To między innymi wdrożenie zaawansowanych systemów monitorowania sieci, automatyzacja wykrywania i reagowania na incydenty bezpieczeństwa oraz integracja narzędzi do analizy zagrożeń – mówi Adam Marczyński, zastępca dyrektora NASK. – Dzięki temu pracownicy będą mogli szybciej identyfikować potencjalne ataki i skuteczniej chronić kluczowe zasoby organizacji. Modernizacja infrastruktury i wdrożenie nowych mechanizmów ochrony bezpośrednio przekłada się na zwiększenie bezpieczeństwa danych Polaków.
+Inwestycja w przyszłość
+Projekt przewiduje również powstanie profesjonalnych centrów operacyjnych SOC (Security Operations Center) i NOC (Network Operating System), odpowiedzialnych za monitorowanie oraz szybką reakcję na incydenty zarówno w infrastrukturze wewnętrznej, jak i projektowej NASK.
+
+– Nie zapominamy o ludziach – w ramach rozbudowy infrastruktury na rzecz CSIRT NASK wdrażany jest program szkoleń z cyberbezpieczeństwa dla wszystkich pracowników NASK – mówi Daniel Kierepka, dyrektor Pionu Informatyki i Telekomunikacji w NASK. – Podnoszenie kompetencji i świadomości w zakresie cyberhigieny to nie tylko ochrona infrastruktury, ale również budowa silnego, eksperckiego wizerunku NASK jako lidera w obszarze cyberbezpieczeństwa w Polsce.
+Projekt CCN to inwestycja w przyszłość – gwarantuje nowoczesność, bezpieczeństwo, niezawodność oraz komfort pracy na najwyższym poziomie. Nowoczesne rozwiązania to gwarancja dalszego, dynamicznego rozwoju. Centrum Cyberbezpieczeństwa jest fundamentem, który pozwoli NASK na skuteczne dbanie o cyberbezpieczeństwo na poziomie ogólnokrajowym.
+Tysiące metrów dla bezpieczeństwa
+Centrum Cyberbezpieczeństwa to ultranowoczesny projekt. Nowoczesny 4 kondygnacyjny budynek o powierzchni użytkowej 7701.24m² pomieści m.in. w pełni wyposażoną aulę, która umożliwi NASK prowadzenie działań edukacyjnych na jeszcze większą niż obecnie skalę. Sercem CCN będą krajowe centra: Odzyskiwania Danych i Operacyjnego Cyberbezpieczeństwa, a także super-nowoczesne laboratoria umożliwiające badania nad bezpieczeństwem AI,  rozwojem krajowego systemu certyfikacji cyberbezpieczeństwa oraz – po raz pierwszy w Polsce – fuzzingiem i złośliwym oprogramowaniem.
+Za wybór koncepcji architektury wnętrz odpowiadali sami pracownicy NASK. Wnętrza budynku inspirowane będą naturą, co doskonale oddaje misję instytutu: tu nowe technologie służyć mają człowiekowi.
+Rozwój Warszawy
+Centrum Cyberbezpieczeństwa NASK to inwestycja, która wzmacnia nie tylko bezpieczeństwo cyfrowe Polski, ale także rozwój Warszawy. Powstające na Pradze-Północ CCN stanie się impulsem dla lokalnej gospodarki, tworząc nowe miejsca pracy i przyciągając biznes związany z nowoczesnymi technologiami. Dziś, dzięki takim inwestycjom, praska strona stolicy staje się miejscem innowacji, nowoczesnej infrastruktury i strategicznych inwestycji państwowych.
+To także symbol zmiany wizerunku dzielnicy — miejsca, które jeszcze niedawno kojarzyło się z przemysłową przeszłością, a dziś staje się przestrzenią dla cyberbezpieczeństwa i zaawansowanych technologii. CCN pokazuje, że strategiczne inwestycje mogą jednocześnie rozwijać miasto, wspierać lokalną społeczność i budować odporność państwa na cyfrowe zagrożenia.
+Projekt CCN jest dofinansowany ze środków Europejskiego Funduszu Rozwoju Regionalnego oraz ze środków Budżetu Państwa w ramach Programu Fundusze Europejskie na Rozwój Cyfrowy 2021-2027."
