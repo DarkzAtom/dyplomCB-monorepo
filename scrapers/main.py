@@ -32,6 +32,7 @@ def run_step(label, func, *args):
 
 # --- Phase 1: run each scraper to collect data into its own output.csv ---
 run_step("scrape cybersecuritydive", cybersecuritydive_main.main)
+run_step("scrape darkreading", darkreading_main.main)
 run_step("scrape enisaeuropa", enisaeuropa_main.main)
 run_step("scrape nask", nask_main.main)
 run_step("scrape securityweek", securityweek_main.main)
@@ -41,6 +42,7 @@ run_step("scrape thehackernews", thehackernews_main.main)
 
 # --- Phase 2: vectorize each source's output.csv and upsert to Pinecone ---
 run_step("sync cybersecuritydive", pineconesync_main, "scrapers/cybersecuritydive/output.csv")
+run_step("sync darkreading", pineconesync_main, "scrapers/darkreading/output.csv")
 run_step("sync enisaeuropa", pineconesync_main, "scrapers/enisaeuropa/output.csv")
 run_step("sync nask", pineconesync_main, "scrapers/nask/output.csv")
 run_step("sync securityweek", pineconesync_main, "scrapers/securityweek/output.csv")

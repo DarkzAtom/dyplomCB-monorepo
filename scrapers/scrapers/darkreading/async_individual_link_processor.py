@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()  # load HEADLESS (from scrapers/.env) regardless of which entry point runs this
 import asyncio
 import random
+import re
 from playwright.async_api import async_playwright, expect, Playwright
 from playwright_stealth import stealth_async, StealthConfig
 import logging
@@ -27,7 +28,9 @@ async def process_article(url, semaphore, list_of_processed_articles, browser, c
             await page.goto(url)
             await page.wait_for_load_state('networkidle')
 
-            await expect(page.locator('span[data-testid="article-title"]')).to_be_in_viewport()
+            # DR dropped span[data-testid="article-title"] from its markup —
+            # the title lives in a plain h1 now; accept either (DYP-32)
+            await expect(page.locator('h1, span[data-testid="article-title"]').first).to_be_in_viewport()
 
             # Get the page content
             content = await page.content()
@@ -37,10 +40,20 @@ async def process_article(url, semaphore, list_of_processed_articles, browser, c
             # Here you can add your specific parsing logic
             # For example:
             creation_date = soup.select_one('p[data-testid="contributors-date"]').text.strip()
-            article_title = soup.select_one('span[data-testid="article-title"]').text.strip()
+            title_el = soup.select_one('span[data-testid="article-title"]') or soup.select_one('h1')
+            article_title = title_el.text.strip()
             article_header_summary = soup.select_one('p[data-testid="article-summary"]').text.strip()
-            article_base = soup.select_one('div[data-module="content"]').text.strip()
+
+            content_div = soup.select_one('div[data-module="content"]')
+            # the 'Related: <title>' link boxes DR embeds in the body (DYP-33)
+            for el in content_div.select('.RelatedArticle'):
+                el.decompose()
+            # separator keeps paragraphs apart — .text used to glue them
+            # together ('...Battle' + 'While...' with no break)
+            article_base = content_div.get_text(separator='\n').strip()
             article_text = article_header_summary + '\n' + article_base
+            article_text = re.sub(r'[ \t]+\n', '\n', article_text)
+            article_text = re.sub(r'\n{3,}', '\n\n', article_text)
 
             article_dict_to_append = {
                 'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
