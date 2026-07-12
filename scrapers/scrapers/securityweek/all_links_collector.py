@@ -8,6 +8,7 @@ from playwright.sync_api import sync_playwright, expect
 
 
 # ---LOGGER SETUP ------------------------------------------------------------
+import sys
 import logging
 
 logging.basicConfig(
@@ -15,7 +16,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',  # Log message format
     handlers=[
         logging.FileHandler("app.log", encoding='utf-8'),  # Write logs to a file
-        logging.StreamHandler()  # Print logs to the console
+        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm (DYP-31)  # Print logs to the console
     ]
 )
 

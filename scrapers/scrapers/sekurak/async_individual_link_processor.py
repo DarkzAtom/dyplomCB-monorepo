@@ -1,6 +1,8 @@
 import aiohttp
 import asyncio
 import random
+import re
+import sys
 import logging
 from typing import List, Dict, Optional, Any
 from bs4 import BeautifulSoup
@@ -12,7 +14,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler("processor.log", encoding='utf-8'),
-        logging.StreamHandler()
+        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm (DYP-31)
     ]
 )
 
@@ -58,6 +60,15 @@ class AsyncLinkProcessor:
                 async with session.get(url, proxy=proxy) as response:
                     if response.status == 200:
                         return await response.text()
+                    if response.status == 429:
+                        # too many requests — honor Retry-After if present,
+                        # otherwise back off exponentially (DYP-35)
+                        retry_after = response.headers.get('Retry-After')
+                        wait = int(retry_after) if retry_after and retry_after.isdigit() else self.retry_delay * (2 ** attempt)
+                        logger.warning(f"429 Too Many Requests for {url}, backing off {wait}s (attempt {attempt+1}/{self.max_retries})")
+                        if attempt < self.max_retries - 1:
+                            await asyncio.sleep(wait)
+                        continue
                     logger.warning(f"Received status code {response.status} for {url}")
                     
             except asyncio.TimeoutError:
@@ -82,9 +93,14 @@ class AsyncLinkProcessor:
 
             creation_date = soup.select_one('div.meta').text.strip().split('|')[0].strip()
             article_title = soup.select_one('article#articleContent > h1').text.strip()
-            article_text = soup.select_one('article#articleContent > div.entry').text.strip()
-
-            # TODO: clean the article_text from the "div.boxBlue" inside of it
+            entry = soup.select_one('article#articleContent > div.entry')
+            # drop the blue promo/callout boxes before flattening to text (DYP-14)
+            for box in entry.select('div.boxBlue'):
+                box.decompose()
+            article_text = entry.text.strip()
+            # collapse layout-newline runs, keep paragraph breaks (DYP-21)
+            article_text = re.sub(r'[ \t]+\n', '\n', article_text)
+            article_text = re.sub(r'\n{3,}', '\n\n', article_text)
 
 
             article_dict = {

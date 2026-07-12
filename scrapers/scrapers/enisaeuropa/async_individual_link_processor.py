@@ -1,6 +1,7 @@
 import aiohttp
 import asyncio
 import random
+import sys
 import logging
 from typing import List, Dict, Optional, Any
 from bs4 import BeautifulSoup
@@ -12,7 +13,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(lineno)d - %(message)s',
     handlers=[
         logging.FileHandler("processor.log", encoding='utf-8'),
-        logging.StreamHandler()
+        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm (DYP-31)
     ]
 )
 

@@ -1,6 +1,7 @@
 import aiohttp
 import asyncio
 import random
+import sys
 import logging
 from typing import List, Dict, Optional, Any
 from bs4 import BeautifulSoup
@@ -12,7 +13,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler("processor.log", encoding='utf-8'),
-        logging.StreamHandler()
+        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm (DYP-31)
     ]
 )
 
@@ -58,6 +59,15 @@ class AsyncLinkProcessor:
                 async with session.get(url, proxy=proxy) as response:
                     if response.status == 200:
                         return await response.text()
+                    if response.status == 429:
+                        # too many requests — honor Retry-After if present,
+                        # otherwise back off exponentially (DYP-35)
+                        retry_after = response.headers.get('Retry-After')
+                        wait = int(retry_after) if retry_after and retry_after.isdigit() else self.retry_delay * (2 ** attempt)
+                        logger.warning(f"429 Too Many Requests for {url}, backing off {wait}s (attempt {attempt+1}/{self.max_retries})")
+                        if attempt < self.max_retries - 1:
+                            await asyncio.sleep(wait)
+                        continue
                     logger.warning(f"Received status code {response.status} for {url}")
                     
             except asyncio.TimeoutError:
@@ -110,26 +120,31 @@ class AsyncLinkProcessor:
             articles_container = soup.select_one('div.nl-section.summary > div.content')
 
             articles_unrefined = articles_container.select('div.text')
-            
-            # TODO: finish refinng logic to get rid of 'At glance' that is being added to every first article in the bulk
-            # for article in articles_unrefined:
-            #     if 
 
             articles = articles_unrefined
 
             for article in articles:
-                
+
                 h2_elements = article.select('h2')
+                title_h2 = None
                 if h2_elements and h2_elements[0].text.strip() == 'At a glance.':
                     if len(h2_elements) > 1:
-                        article_title = h2_elements[1].text.strip()
+                        title_h2 = h2_elements[1]
+                        article_title = title_h2.text.strip()
                     else:
                         # Handle case where there's no second h2
                         article_title = "Unknown title"
                 else:
-                    article_title = h2_elements[0].text.strip() if h2_elements else "Unknown title"
+                    title_h2 = h2_elements[0] if h2_elements else None
+                    article_title = title_h2.text.strip() if title_h2 else "Unknown title"
 
-                article_text_unconcated = article.select('p')
+                # only paragraphs AFTER the title h2: the first div.text block on
+                # a briefing page is [h2 'At a glance.', ul, h2 <real title>, p...],
+                # so this keeps the glance summary out of the first article (DYP-11)
+                if title_h2 is not None:
+                    article_text_unconcated = title_h2.find_next_siblings('p')
+                else:
+                    article_text_unconcated = article.select('p')
 
                 article_text = '\n'.join([p.text.strip() for p in article_text_unconcated])
 

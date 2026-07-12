@@ -16,50 +16,55 @@ SEMAPHORE_LIMIT = 1
 
 
 async def process_article(url, semaphore, list_of_processed_articles, browser, context):
-    async with semaphore: 
-        async with async_playwright() as p:
-            page = await context.new_page()
-            await stealth_async(page)  
-            
-            try:
-                await page.goto(url)
-                await page.wait_for_load_state('networkidle')
+    async with semaphore:
+        # pages come from the shared context created in process_articles;
+        # the extra `async with async_playwright()` driver that used to wrap
+        # this block was never used for anything
+        page = await context.new_page()
+        await stealth_async(page)
 
-                await expect(page.locator('span[data-testid="article-title"]')).to_be_in_viewport()
-                
-                # Get the page content
-                content = await page.content()
-                soup = BeautifulSoup(content, 'html.parser')
+        try:
+            await page.goto(url)
+            await page.wait_for_load_state('networkidle')
 
-                
-                # Here you can add your specific parsing logic
-                # For example:
-                creation_date = soup.select_one('p[data-testid="contributors-date"]').text.strip()
-                article_title = soup.select_one('span[data-testid="article-title"]').text.strip()
-                article_header_summary = soup.select_one('p[data-testid="article-summary"]').text.strip()
-                article_base = soup.select_one('div[data-module="content"]').text.strip()
-                article_text = article_header_summary + '\n' + article_base
+            await expect(page.locator('span[data-testid="article-title"]')).to_be_in_viewport()
 
-                article_dict_to_append = {
-                    'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
-                    'creationDate': creation_date, # date of when the article was published on the source page
-                    'author': 'Dark Reading',
-                    'authorLink': 'https://www.darkreading.com',
-                    'articleLink': url,
-                    'articleTitle': article_title,
-                    'articleText': article_text,
-                }
+            # Get the page content
+            content = await page.content()
+            soup = BeautifulSoup(content, 'html.parser')
 
-                # debug
-                print(article_dict_to_append)
 
-                list_of_processed_articles.append(article_dict_to_append)
-            except Exception as e:
-                logging.error(f"Error processing {url}: {str(e)}")
-                return None
-            finally:
-                await browser.close()
-                await asyncio.sleep(random.uniform(30, 40))
+            # Here you can add your specific parsing logic
+            # For example:
+            creation_date = soup.select_one('p[data-testid="contributors-date"]').text.strip()
+            article_title = soup.select_one('span[data-testid="article-title"]').text.strip()
+            article_header_summary = soup.select_one('p[data-testid="article-summary"]').text.strip()
+            article_base = soup.select_one('div[data-module="content"]').text.strip()
+            article_text = article_header_summary + '\n' + article_base
+
+            article_dict_to_append = {
+                'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
+                'creationDate': creation_date, # date of when the article was published on the source page
+                'author': 'Dark Reading',
+                'authorLink': 'https://www.darkreading.com',
+                'articleLink': url,
+                'articleTitle': article_title,
+                'articleText': article_text,
+            }
+
+            # debug
+            print(article_dict_to_append)
+
+            list_of_processed_articles.append(article_dict_to_append)
+        except Exception as e:
+            logging.error(f"Error processing {url}: {str(e)}")
+            return None
+        finally:
+            # close only this article's page — closing the shared browser here
+            # killed every article after the first one (DYP-32: scraper "dies"
+            # after one item)
+            await page.close()
+            await asyncio.sleep(random.uniform(30, 40))
 
 
 async def collect_and_save_cookies(base_url="https://www.darkreading.com", state_file="scrapers/darkreading/cf_state.json"):
@@ -150,11 +155,18 @@ async def setup_browser_context(playwright: Playwright):
         ]
     )
 
+    # reuse the Cloudflare clearance cookies that collect_and_save_cookies
+    # writes at the start of every run — they were saved but never loaded
+    # into the scraping context before
+    state_file = "scrapers/darkreading/cf_state.json"
     context = await browser.new_context(
         locale='en-US',
-        user_agent='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+        # must be the SAME UA string as in collect_and_save_cookies — the
+        # cf_clearance cookie is bound to the UA it was issued for
+        user_agent='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         no_viewport=True,
-        ignore_https_errors=True,  
+        ignore_https_errors=True,
+        storage_state=state_file if os.path.exists(state_file) else None,
     )
 
     # some selenium-like features

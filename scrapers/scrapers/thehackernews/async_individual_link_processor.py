@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()  # load HEADLESS (from scrapers/.env) regardless of which entry point runs this
 import asyncio
 import random
+import re
 from playwright.async_api import async_playwright, expect, Playwright
 from playwright_stealth import stealth_async, StealthConfig
 import logging
@@ -47,7 +48,10 @@ async def process_article(context, url, semaphore, list_of_processed_articles):
                     article_text = article_text.split(marker)[0].strip()
                     break
 
-            
+            # collapse layout-newline runs, keep paragraph breaks (DYP-21)
+            article_text = re.sub(r'[ \t]+\n', '\n', article_text)
+            article_text = re.sub(r'\n{3,}', '\n\n', article_text)
+
             article_dict_to_append = {
                 'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
                 'creationDate': creation_date, # date of when the article was published on the source page

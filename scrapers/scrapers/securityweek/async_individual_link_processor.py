@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()  # load HEADLESS (from scrapers/.env) regardless of which entry point runs this
 import asyncio
 import random
+import re
 from playwright.async_api import async_playwright, expect, Playwright
 from playwright_stealth import stealth_async, StealthConfig
 import logging
@@ -39,6 +40,17 @@ async def process_article(url, semaphore, list_of_processed_articles):
                 article_title = soup.select_one('h1[itemprop="headline"]').text.strip()
                 article_text = soup.select_one("div.zox-post-body.left.zoxrel.zox100").text.strip()
 
+                # site template junk that ends up inside the post body (DYP-33):
+                # inline ad placeholder + "Related: <title>" link lines
+                article_text = article_text.replace('Advertisement. Scroll to continue reading.', '')
+                article_text = '\n'.join(
+                    line for line in article_text.split('\n')
+                    if not line.strip().startswith('Related: ')
+                )
+                # collapse the leftover blank-line runs (DYP-21)
+                article_text = re.sub(r'[ \t]+\n', '\n', article_text)
+                article_text = re.sub(r'\n{3,}', '\n\n', article_text).strip()
+
                 article_dict_to_append = {
                     'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
                     'creationDate': creation_date, # date of when the article was published on the source page
@@ -64,19 +76,19 @@ async def process_article(url, semaphore, list_of_processed_articles):
 
 async def process_articles(links):
     semaphore = asyncio.Semaphore(SEMAPHORE_LIMIT)
-    
-    async with async_playwright() as p:
-        browser, context = await setup_browser_context(p)
-        tasks = []
-        list_of_processed_articles = []
-        
-        for link in links:
-            task = asyncio.create_task(process_article(link, semaphore, list_of_processed_articles))
-            tasks.append(task)
-        
-        await asyncio.gather(*tasks, return_exceptions=True)
-        await browser.close()
-        return list_of_processed_articles
+
+    # Each process_article launches its own browser+context (the working CF
+    # setup); the extra shared browser that used to be launched here was never
+    # passed to the tasks — one wasted Chrome per run (DYP-37).
+    tasks = []
+    list_of_processed_articles = []
+
+    for link in links:
+        task = asyncio.create_task(process_article(link, semaphore, list_of_processed_articles))
+        tasks.append(task)
+
+    await asyncio.gather(*tasks, return_exceptions=True)
+    return list_of_processed_articles
     
 
 async def setup_browser_context(playwright: Playwright):
