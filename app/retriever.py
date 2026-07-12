@@ -188,6 +188,61 @@ def create_response(client, pinecone_response, query):
     return response.choices[0].message.content
 
 
+def retrieve_articles(query, top_k=6):
+    """Raw retrieval for external clients (DYP-49): embed the query, search
+    Pinecone, and return the matched chunks grouped per source article —
+    no LLM answer generation. Each result carries the article's best-chunk
+    similarity score.
+    """
+    load_dotenv(dotenv_path=".env")
+
+    vectorized_request = embedding_openai(query)
+    if not vectorized_request:
+        return []
+
+    apikey_pinecone = os.getenv("APIKEY_PINECONE")
+    pc = Pinecone(api_key=apikey_pinecone)
+    dense_index = pc.Index(os.getenv("PINECONE_INDEX_NAME"))  # type: ignore
+
+    response = dense_index.query(  # type: ignore
+        namespace="sosomuzika",
+        vector=vectorized_request,
+        top_k=top_k,
+        include_metadata=True,
+        include_values=False,
+    )
+
+    articles = {}
+    order = []
+    for match in response.matches:  # type: ignore
+        md = match.metadata
+        link = md.get("articleLink", "")
+        if link not in articles:
+            articles[link] = {
+                "articleTitle": md.get("articleTitle", ""),
+                "articleLink": link,
+                "score": match.score,  # matches arrive sorted, so this is the article's best chunk
+                "chunks": [],
+            }
+            order.append(link)
+        text = md.get("chunk_text", md.get("summary", ""))
+        articles[link]["chunks"].append((_chunk_index(md.get("chunk_index")), text))
+
+    results = []
+    for link in order:
+        art = articles[link]
+        ordered = sorted(art["chunks"], key=lambda c: c[0])
+        results.append(
+            {
+                "articleTitle": art["articleTitle"],
+                "articleLink": art["articleLink"],
+                "score": art["score"],
+                "text": "\n\n".join(text for _, text in ordered),
+            }
+        )
+    return results
+
+
 if __name__ == "__main__":
     load_dotenv(".env")
     process_user_query(query=query)

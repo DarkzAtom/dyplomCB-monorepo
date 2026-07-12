@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Interface</title>
+    <title>Cybersecurity News Chat</title>
     <style>
+        /* dark theme (DYP-60) — slate background + teal accent */
         * {
             margin: 0;
             padding: 0;
@@ -13,7 +14,8 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: #f7f7f8;
+            background: #0f1115;
+            color: #e6e8eb;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -22,34 +24,91 @@
         .chat-container {
             flex: 1;
             overflow-y: auto;
-            padding: 20px;
+            padding: 24px 20px;
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 18px;
+        }
+
+        .chat-container::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .chat-container::-webkit-scrollbar-thumb {
+            background: #2a2f3a;
+            border-radius: 4px;
+        }
+
+        .chat-container::-webkit-scrollbar-thumb:hover {
+            background: #3a4150;
         }
 
         .message {
             max-width: 700px;
             margin: 0 auto;
             width: 100%;
+            display: flex;
         }
 
         .user-message {
-            background: white;
-            padding: 16px 20px;
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-left: auto;
+            max-width: 85%;
+            background: #1d2733;
+            border: 1px solid #2b3a4a;
+            padding: 12px 16px;
+            border-radius: 14px 14px 4px 14px;
         }
 
         .assistant-message {
-            padding: 16px 20px;
-            line-height: 1.6;
+            max-width: 100%;
+            padding: 14px 18px;
+            line-height: 1.65;
+            background: #151a21;
+            border: 1px solid #232a35;
+            border-left: 3px solid #2dd4a7;
+            border-radius: 4px 14px 14px 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .assistant-message a {
+            color: #2dd4a7;
+            text-decoration: underline;
+            word-break: break-all;
+        }
+
+        .assistant-message a:hover {
+            color: #5ce8c2;
+        }
+
+        .typing-indicator {
+            display: flex;
+            gap: 5px;
+            padding: 16px 18px;
+            align-items: center;
+        }
+
+        .typing-indicator span {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #2dd4a7;
+            opacity: .3;
+            animation: blink 1.2s infinite;
+        }
+
+        .typing-indicator span:nth-child(2) { animation-delay: .2s; }
+        .typing-indicator span:nth-child(3) { animation-delay: .4s; }
+
+        @keyframes blink {
+            0%, 80%, 100% { opacity: .25; transform: translateY(0); }
+            40% { opacity: 1; transform: translateY(-3px); }
         }
 
         .input-container {
-            background: white;
-            border-top: 1px solid #e5e5e5;
-            padding: 20px;
+            background: #12161c;
+            border-top: 1px solid #232a35;
+            padding: 16px 20px 20px;
         }
 
         .input-wrapper {
@@ -62,64 +121,82 @@
             width: 100%;
             min-height: 60px;
             max-height: 200px;
-            padding: 16px 50px 16px 16px;
-            border: 1px solid #d1d1d6;
-            border-radius: 8px;
+            padding: 16px 56px 16px 16px;
+            background: #1a2029;
+            border: 1px solid #2b3442;
+            color: #e6e8eb;
+            caret-color: #2dd4a7;
+            border-radius: 12px;
             font-family: inherit;
             font-size: 15px;
             resize: none;
             outline: none;
-            transition: border-color 0.2s;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        textarea::placeholder {
+            color: #5b6572;
         }
 
         textarea:focus {
-            border-color: #c17d4a;
+            border-color: #2dd4a7;
+            box-shadow: 0 0 0 3px rgba(45, 212, 167, 0.15);
         }
 
         button {
             position: absolute;
             right: 12px;
             bottom: 12px;
-            background: #c17d4a;
-            color: white;
+            background: #2dd4a7;
+            color: #0f1115;
             border: none;
-            border-radius: 6px;
+            border-radius: 8px;
             width: 36px;
             height: 36px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: background 0.2s;
+            transition: background 0.2s, transform 0.1s;
         }
 
         button:hover {
-            background: #a86b3e;
+            background: #24b890;
+        }
+
+        button:active {
+            transform: scale(0.94);
         }
 
         button:disabled {
-            background: #d1d1d6;
+            background: #2a3140;
+            color: #5b6572;
             cursor: not-allowed;
         }
 
         .empty-state {
             text-align: center;
-            color: #666;
+            color: #8b95a3;
             margin-top: 100px;
         }
 
         .empty-state h1 {
             font-size: 28px;
             margin-bottom: 10px;
-            color: #333;
+            color: #e6e8eb;
+        }
+
+        .empty-state h1::before {
+            content: '● ';
+            color: #2dd4a7;
         }
     </style>
 </head>
 <body>
     <div class="chat-container" id="chatContainer">
         <div class="empty-state">
-            <h1>Chat Interface</h1>
-            <p>Start a conversation by typing a message below</p>
+            <h1>Cybersecurity News Chat</h1>
+            <p>Ask about recent cybersecurity news, threats and vulnerabilities</p>
         </div>
     </div>
 
@@ -181,6 +258,8 @@
             messageInput.disabled = true;
             sendButton.disabled = true;
 
+            const typingEl = showTypingIndicator();
+
             try {
                 // Call FastAPI backend
                 const response = await fetch('/chat', {
@@ -190,13 +269,15 @@
                     },
                     body: JSON.stringify({ message: message })
                 });
-                
+
                 const data = await response.json();
-                addMessage(data.response, 'assistant');
+                // never render an empty bubble — surface the problem instead (DYP-56)
+                addMessage(data.response ?? 'Error: empty response from server', 'assistant');
             } catch (error) {
                 addMessage('Error: Could not connect to server', 'assistant');
                 console.error('Error:', error);
             } finally {
+                typingEl.remove();
                 // Re-enable input
                 messageInput.disabled = false;
                 sendButton.disabled = false;
@@ -204,20 +285,59 @@
             }
         }
 
+        function showTypingIndicator() {
+            const wrap = document.createElement('div');
+            wrap.className = 'message';
+
+            const dots = document.createElement('div');
+            dots.className = 'typing-indicator';
+            for (let i = 0; i < 3; i++) {
+                dots.appendChild(document.createElement('span'));
+            }
+
+            wrap.appendChild(dots);
+            chatContainer.appendChild(wrap);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+            return wrap;
+        }
+
+        // build text nodes + real <a> elements (no innerHTML) so the source
+        // links the assistant appends are clickable but nothing is injectable
+        function renderWithLinks(el, text) {
+            const urlRe = /(https?:\/\/[^\s)]+)/g;
+            let last = 0;
+            let m;
+            while ((m = urlRe.exec(text)) !== null) {
+                el.appendChild(document.createTextNode(text.slice(last, m.index)));
+                const a = document.createElement('a');
+                a.href = m[0];
+                a.textContent = m[0];
+                a.target = '_blank';
+                a.rel = 'noopener noreferrer';
+                el.appendChild(a);
+                last = m.index + m[0].length;
+            }
+            el.appendChild(document.createTextNode(text.slice(last)));
+        }
+
         function addMessage(text, sender) {
             const messageDiv = document.createElement('div');
             messageDiv.className = 'message';
-            
+
             const contentDiv = document.createElement('div');
             contentDiv.className = sender === 'user' ? 'user-message' : 'assistant-message';
-            contentDiv.textContent = text;
-            
+            if (sender === 'assistant') {
+                renderWithLinks(contentDiv, text);
+            } else {
+                contentDiv.textContent = text;
+            }
+
             messageDiv.appendChild(contentDiv);
             chatContainer.appendChild(messageDiv);
-            
+
             // Scroll to bottom
             chatContainer.scrollTop = chatContainer.scrollHeight;
-            
+
             messages.push({ text, sender });
         }
     </script>

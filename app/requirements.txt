@@ -35,3 +35,5 @@ uvicorn==0.38.0
 uvloop==0.22.1
 watchfiles==1.1.1
 websockets==15.0.1
+python-telegram-bot==22.8
+rouge-score==0.1.2
