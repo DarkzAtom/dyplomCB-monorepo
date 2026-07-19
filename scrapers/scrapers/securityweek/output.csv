@@ -1,625 +1,337 @@
 fetchingDate,creationDate,author,authorLink,articleLink,articleTitle,articleText
-2026-07-05 19:33:40,"July 3, 2026 (11:10 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/,"In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting","SecurityWeek’s cybersecurity news weekly roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape.
+2026-07-19 20:29:46,"July 17, 2026 (10:27 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/,"In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint","SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.
 This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment.
 
+Here are this week’s highlights: 
 
+Dutch authorities eye local actors in Odido telecom breach
+Law enforcement in the Netherlands suspects domestic cybercriminals played a role in the recent network intrusion at telecom operator Odido. Investigators are focusing on local hacking groups that may have facilitated or directly executed the data theft. 
 
-Here are this week’s highlights:
-Anonymous-linked hacker Aubrey Cottle jailed over Texas GOP cyberattack
-Aubrey Cottle, a Canadian hacker associated with the hacktivist group Anonymous, has been sentenced to 18 months in prison for his involvement in a cyberattack on the Texas Republican Party’s website in September 2021. Cottle, 39, of Oshawa, Ontario, pleaded guilty to defacing the website, exfiltrating data from a Texas GOP server, and publishing the data online.
+Third-party vendor breach exposes Lidl customer information
+A cyberattack targeting an external IT service provider for supermarket giant Lidl has resulted in the theft of customer data. The compromise led to the exposure of personal details, prompting the company to issue warning notices to affected consumers in Belgium and the Netherlands. Security teams are working to determine the full scope of the supply chain incident.
 
+Cyberattack triggers bankruptcy for German manufacturer after extended downtime
+A German manufacturing company has filed for insolvency following a devastating cyberattack that forced a complete production shutdown lasting six weeks. The prolonged operational stoppage caused severe financial losses that ZEGO Textilveredelungszentrum, a firm specializing in textile finishing and customization, was ultimately unable to recover from. 
 
+Major Japanese transport network takes systems offline following hack
+Nihon Kotsu, Japan’s largest taxi operator, was forced to deactivate its IT and dispatch systems after detecting a cyberattack on its network. The proactive shutdown disrupted booking services and administrative operations across the country as response teams worked to contain the threat. Analysts suspect the incident involved a ransomware group named AiLock. 
 
-14 million impacted by KDDI data breachAdvertisement. Scroll to continue reading.
+New CrashStealer macOS malware masquerades as system crash reporter
+Security researchers have uncovered a novel macOS information stealer written in C++ that disguises itself as a legitimate crash reporting application. Dubbed CrashStealer, the malware exfiltrates sensitive user data, credentials, and system information from compromised Apple devices. Its stealthy design allows it to evade standard operating system defenses by mimicking native password prompts.
 
+Cellular roaming and ad data exploited to track American troops
+Foreign threat actors linked to Iran are leveraging advertising technology metadata and global cellular roaming protocols to track and target the smartphones of US military personnel, FT reported [paywalled]. By exploiting location data and device identifiers embedded in commercial ad networks, adversaries can monitor the movements of service members. 
 
-Japanese telecoms provider KDDI has disclosed (PDF) a data breach likely impacting the email addresses and passwords of 14,22 million people. The incident affected five ISP operators, including BIGLOBE, Chubu Telecommunications C., JCOM Co., NIFTY Corporation, and STNet. 
+Federal agencies publish blueprint for building effective bug bounty and disclosure initiatives
+CISA and its international partners have released a joint guide outlining framework recommendations for establishing a Coordinated Vulnerability Disclosure program. The publication provides enterprises with step-by-step instructions on handling external bug reports, establishing legal safe harbors, and collaborating with ethical hackers. 
 
+AI vulnerabilities allow arbitrary code execution via WhatsApp
+A security researcher has demonstrated an architectural vulnerability in an OpenClaw AI agent integrated with WhatsApp that permits remote code execution on the underlying host system. By sending a specially crafted message, the researcher bypassed validation checks to force the AI into executing arbitrary system commands. 
 
+Sophisticated Spirals ransomware targets IT firm
+A newly discovered ransomware variant named Spirals has been deployed in an attack against an IT services firm operating in Asia. Investigators report that the unidentified threat group behind the operation is combining file encryption with data theft tactics to demand a ransom.
 
-Push Security targeted in poisoned tenant attack
-Three years after detailing the poisoned tenant attack, Push Security was targeted using the technique via OpenAI’s organization invitation feature. Multiple employees received an OpenAI invitation to join Push Security Inc. After they would join the tenant, the attacker could spy on their activities or target them with further social engineering. 
+Cybercrime group claims naval defense manufacturer hack
+The cybercrime collective known as The Gentlemen posted Thyssenkrupp Marine Systems (TKMS) and its subsidiary Atlas Elektronik to its leak portal, claiming the exfiltration of more than 1TB of data. Although the parent organization acknowledged a network compromise at an isolated North American unit, officials stated that the impacted environment was segmented from the core corporate infrastructure and contained no classified military records."
+2026-07-19 20:30:31,"July 17, 2026 (8:11 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive/,"Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive","In this exclusive SecurityWeek interview, Brian “SchleiF” Schleifer sits down with Clint Bodungen, Director of AI/ML Engineering at Arcovo, founder of ThreatGen, and one of the industry’s leading voices in industrial cybersecurity.
+Together they tackle why traditional governance often fails practitioners, how cybersecurity has evolved over the past two decades, and why the biggest vulnerability is still people not technology. Clint also shares, for the first time publicly, the story behind the MindStone Agent, his open-source agentic AI project designed to bring persistent memory, identity, and continuity to AI assistants. The conversation concludes with a real-world ransomware response where autonomous AI agents coordinated incident response, forensic analysis, recovery, and infrastructure migration with minimal human intervention. (SecurityWeek TV)
+Learn More at the ICS Cybersecurity Conference | Nasvhille"
+2026-07-19 20:30:58,"July 17, 2026 (7:43 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/,Beacon Security Raises $13 Million for Security Data Platform,"Cybersecurity startup Beacon Security has announced raising $13 million in a seed funding round led by Notable Capital.
+AlphaDrive Ventures, Holly Ventures, Jefferies Family Office, SVCI, and dozens of angel investors also participated in the investment round.
 
+Based in New York, Beacon was founded in 2024 by IDF veterans Gal Tal-Hochberg (CEO), Or Mattatia (CPO), and Iddo Israely (CTO).
 
+Beacon is providing organizations with a agentic security data platform that enables defenders to prevent, detect, and respond to threats with critical context, history, and real-time visibility.
 
-Rust-based PamStealer targeting macOS
-Jamf has detailed PamStealer, an information stealer targeting macOS that validates the harvested credentials via Pluggable Authentication Modules (PAM) before using them. The malware is distributed as a compiled AppleScript file impersonating the open source clipboard manager Maccy.
+The platform combines telemetry from multiple sources, normalizing and enriching it for both AI agents and human analysts. It continuously maps sources against threats and compliance to surface weaknesses before they can be exploited.
 
+Beacon enables security teams to leverage AI agents for building detections, investigations, shadow AI analysis, and other tasks. Defenders can run agentic workflows or build new ones tailored to their needs.
 
+Additionally, the platform provides a library of specialized cybersecurity agents connected to Beacon’s context layer that can catch AI attacks, emerging techniques, and other types of threats that traditional tools may miss.
 
-Russian hackers behind the 2025 Jaguar Land Rover hack
-The cyberattack that severely disrupted Jaguar Land Rover’s operations in September 2025 was mounted by Russian hackers, The New York Times says. Microsoft reportedly notified the car manufacturer about the hacking group, with Mandiant, Palo Alto Networks, and US and UK law enforcement agencies also involved in the investigation. 
+Beacon says its solution is seeing rapid adoption across enterprise customers, including Fortune 500 companies.
 
+“The acceleration of AI agents in the enterprise is creating a distinct need for a legible context layer for cyber defenders, which is fueling a fundamentally new security architecture. We built Beacon to solve these challenges by providing the trusted data layer that allows organizations to deploy security agents compliantly and effectively,” Tal-Hochberg said."
+2026-07-19 20:31:36,"July 17, 2026 (7:08 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/,Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday,"The Department of War has suspended CMMC Phase 2’s mandatory third-party assessment requirement, citing concerns that the assessor ecosystem couldn’t scale to meet demand and that compliance costs were pushing small and mid-sized firms out of the defense industrial base. 
+A newly formed CMMC Reform Task Force will spend 60 days reviewing the program, gathering industry feedback, and reporting recommendations by mid-September. 
 
+Crucially, the pause only affects independent verification, with Phase 1 self-assessment obligations, SPRS score submissions, and the underlying DFARS 252.204-7012 requirement to protect controlled unclassified information (CUI) remaining fully in effect. 
 
-Pegasus spyware targeted a European Parliament member investigating it
-Former member of the European Parliament Stelios Kouloglou was hacked with NSO Group’s Pegasus spyware while he was investigating Pegasus abuse cases, as part of the PEGA committee, Citizen Lab discovered. The targeting has not been attributed to a specific government, and there is no evidence that the Greek Government was involved. 
+Industry professionals broadly agree that the suspension pauses third-party CMMC audits but not the underlying legal obligation to protect CUI, warning that self-attestation without verification raises False Claims Act exposure. However, experts are split on whether the fix should be to scope assessments down, automate them, or preserve them largely as-is.
 
+And the feedback begins…
 
+Abdie Mohamed, GRC Engineering Lead, NR Labs:
 
-Researcher drops dozens of zero-days in open source projects
-A researcher known as Bikini has published proof-of-concept (PoC) code targeting dozens of zero-day vulnerabilities in multiple open source projects, including FFmpeg, Gogs, Gitea, Ghidra, 7-Zip, OpenVPN, and VLC. Nine of the security defects have been assigned a CVE identifier. The issues, the researcher says, were surfaced via LLM fuzzing. 
+“Phase 1 is still in place. If you handle CUI, you’re still self-assessing against all 110 NIST 800-171 requirements and posting that score to SPRS. DFARS 252.204-7012 is still in your contracts.
 
+And if you report a perfect 110, the government audits you down the road, and it turns out you never did the due diligence, that’s False Claims Act exposure. DOJ has already settled these cases: Aerojet Rocketdyne ($9M), Raytheon ($8.4M), Penn State ($1.25M), and MORSE Corp, which paid $4.6M over the gap between its self-reported score and what assessors actually found.
 
+I understand why the department hit pause. There are roughly 100 authorized C3PAOs for over 100,000 companies, and that math was never going to work. My concern is the interim, because self-attestation on its own hasn’t been enough. Having a third party audit you keeps you accountable, and every settlement I just listed started with a company attesting to its own compliance.
 
-Pro-Russia influence operations are shifting
-Four years into Russia’s invasion of Ukraine, pro-Russia influence operations are shifting from their single focus on Ukraine to pre-war objectives, Google says. Covert pro-Russia influence operations are targeting the US, European Union members, NATO, Russia’s neighbors, the Middle East and Africa, and internal entities. They focus on global events, elections, the war in Ukraine, and emerging geopolitical developments and events, and are increasingly relying on generative AI. 
+I believe it’s a tough moment for C3PAOs too. They built businesses around assessments going mandatory this November, and now they’re waiting on the same clock as everyone else: the CMMC Reform Task Force reports back in about 60 days.
 
+That’s what we know. What we don’t know is what comes out of that report, due around mid-September. If I had to predict, we see a different form of CMMC take shape, and a complete erasure of the program would surprise me. Everything DoW flagged was the assessor math and the burden on small businesses, and nobody questioned whether verification should exist. My hope is that independent verification stays in the picture.”
 
+Chris Nyhuis, CEO, Vigilant:
 
-Venezuelans sentenced in the US over ATM jackpotting
-Two illegal aliens from Venezuela, Carlos Javier Padron, 36, and Arnoldo Cabrera Torrealba, 37, have been sentenced to 78 months in prison in the US for their involvement in ATM jackpotting activities. As part of a sophisticated criminal group, they built and deployed a variant of the Ploutus malware on ATMs across the US and used it to withdraw money without authorization. They were also ordered to jointly pay $1.5 million in restitution. 96 other defendants have been charged over their roles in the operation. 
+“This may not be popular, however, suspending CMMC Phase II is the right call, and it’s overdue. Speed done securely is a security requirement now, not a nice-to-have. Our adversaries move in days. When it takes a small defense supplier a year and six figures to clear a third-party audit before it can even bid, we’re not protecting the mission, we’re slowing it down. DoD named the real problem: the audit regime was pricing small, fast, innovative shops out of the defense industrial base, and those are the shops a lot of our edge comes from. We have to be faster to market and faster to readiness in this country. Cutting that friction moves us the right way.
 
+Let’s be clear about what changed here. The requirements and the controls are very much the same. It’s the validation part that changed. DoD isn’t saying don’t have controls. It’s saying self-attest and let’s focus on protecting the country. That’s a reasonable trade. But here’s the catch: the audits existed for a reason. Sadly, in my experience over my career a lot of these companies skirt the rules, and that’s exactly why third-party validation showed up in the first place. Suspending the audit doesn’t suspend the threat, and it doesn’t change the legal obligation to protect controlled unclassified information. The bar is the same. Only the person checking your homework went away. If self-attestation turns into a checkbox, we’ve traded a slow process for a fast lie, and the breach will cost way more than any audit would.
 
+Truth is, we shouldn’t need most of these audits in the first place. If a company did what it said it did, there’d be nothing for an assessor to find. So put the accountability where it belongs, on the people who sign the contract. Phase I already makes a senior official affirm compliance every year. Give that affirmation teeth. If you’re a decision maker or a board member and your company takes DoD money while cutting corners on security, that should land on you personally. And if an org lies about its readiness to win a federal contract, the penalty should be steep. Misrepresenting your security posture to grab DoD dollars isn’t a paperwork slip. It puts the whole country at risk, and it should carry consequences serious enough that no board would ever treat it as a gamble worth taking. Personal accountability scales in a way audits never will, and it costs a fraction as much.”
 
-Cisco and Synology patches
-Cisco has released fixes for seven ClamAV vulnerabilities impacting Secure Endpoint Connector for Windows, Linux, and macOS, and Secure Endpoint Private Cloud, and for one flaw in Catalyst Center. Synology resolved three security defects in MailPlus Server, including two critical bugs that could allow attackers to read or write arbitrary files and cause DoS conditions.
+Ned Butler, Manager, CMMC Services and Lead Assessor, Redspin: 
 
+“Much of the industry’s reaction to this pause conflates two very different costs. DFARS 252.204-7012 is what requires contractors to implement NIST SP 800-171 and that implementation is where the real costs are. CMMC (32 CFR §170) only validates that the work was done. Assessment costs under CMMC are actually in line with, or lower than, other certification regimes like PCI, HITRUST, or ISO. When contractors complain about the high cost of “CMMC compliance,” they are usually describing the cost of doing what DFARS 252.204-7012 already required them to do in the first place which, if it’s expensive to catch up on now, suggests they weren’t fully there to begin with.
 
+That said, there are real structural problems worth fixing during this review. Requiring full recertification after every merger or acquisition is an unreasonable burden. Contractors should be able to leverage their own assessed change-management practices to handle these transitions, saving a full reassessment for the next triennial cycle, or DoW should build a lightweight “delta” assessment for material changes instead. There’s also a persistent, unresolved problem with identifying what is actually CUI. Program offices, prime contractors, and subcontractors all struggle with basic questions like when a derivative technical drawing stops being CUI, or who in the supply chain genuinely needs to receive, store, process, or transmit it. Flowing down 7012 requirements uniformly to subcontractors who never touch CUI just adds cost and headaches without adding protection. 
 
-Join the AI Risk Summit | Ritz-Carlton, Half Moon Bay"
-2026-07-05 19:34:21,"July 3, 2026 (7:00 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/,Agentic AI Used to Conduct Ransomware Attack via Langflow,"A threat actor exploited a vulnerability in Langflow to access an organization’s instance and abuse it in an agentic ransomware attack, cloud security firm Sysdig reports.
-Langflow is a Python-based, LLM-agnostic open source framework used for building LLM-driven applications and agent workflows.
+That scoping problem is also the root of the capacity crisis DoW cited in pausing Phase II. DoW’s own estimate was that 76,598 entities would need Level 2 C3PAO certification (a number the assessment ecosystem was never going to keep pace with) even accounting for capacity growth. I’d argue the right fix isn’t to weaken third-party assessment, but to shrink its scope dramatically, e.g., down to a target range of roughly 15,000 to 20,000 entities, prioritizing contractors that handle genuinely sensitive CUI or work on critical programs. Getting there requires primes and program offices to be far more disciplined about who actually needs CUI disseminated to them in the first place. A tighter scope would also force the process improvements above, because it removes the volume pressure that’s currently driving DoW toward shortcuts.”
 
+Robert Teague, VP of CMMC Services and Lead CCA, Redspin:
 
+“Redspin has supported almost 200 CMMC assessments across the Defense Industrial Base as a C3PAO, MSS, or readiness consultant giving us direct insight into where the program is working, and where the Department has an opportunity to improve it during this review.
 
-As part of the attack, a threat actor tracked as JadePuffer gained access to an internet-exposed Langflow instance through the exploitation of CVE-2025-3248 (CVSS score of 9.8), a critical missing authentication vulnerability disclosed in April.
+[…]
 
+Small and mid-sized contractors are already succeeding. Of the nearly 150 CMMC assessments Redspin conducted, 79 were for organizations with fewer than 600 employees, and several have already completed successful recertifications. The narrative that CMMC is unattainable for small businesses is not reflected in our assessment experience.
 
+The “only 100 assessors” narrative is inaccurate. There are now 107 Authorized C3PAOs, over 590 Lead Certified CMMC Assessors (LCCAs), more than 1,000 Certified CMMC Assessors (CCAs), and nearly 2,000 Certified CMMC Professionals (CCPs). A more significant constraint is the Tier 3 background investigation required for assessors, which can take six months or longer and delays qualified personnel from performing assessments.
 
-Successful exploitation of the bug allows attackers to execute arbitrary Python code on the host on which Langflow is running. CISA flagged the flaw as exploited in early May.
+Assessment staffing requirements drive up cost — 32 CFR Part 170 requires C3PAOs to staff assessment teams with a fixed mix of Lead CCAs and CCAs, increasing costs for contractors regardless of the size or complexity of the organization being assessed. Allowing C3PAOs to scale teams based on assessment scope, and permitting CCPs to fill appropriate assessment roles, could reduce costs without compromising assessment quality.”
 
+Chetrice Romero, Senior Cybersecurity Advisor, Ice Miller:
 
+“As the Department of War continues implementing the Cybersecurity Maturity Model Certification (CMMC), much of the conversation has centered on assessment requirements, technical controls, and certification timelines. Those are certainly important. But the organizations that will be most successful are the ones that recognize CMMC is not simply another compliance exercise. At its core, CMMC is about building organizational resilience. Many of the required practices, from incident response planning and testing to workforce training and recovery planning, are capabilities every organization should already be investing in regardless of regulation. As emerging technologies like artificial intelligence continue to accelerate both innovation and cyber threats, resilience has become a business imperative, not just a compliance requirement.
 
-After gaining code execution, JadePuffer used the LLM for reconnaissance and swept the system for secrets, including API keys, cloud credentials, cryptocurrency wallets, configuration files, and database credentials.
+For organizations just beginning their CMMC journey, my advice is simple: don’t start with the controls. Start with your business. Understand where your Controlled Unclassified Information (CUI) resides, how your organization operates, what your greatest risks are, and where you stand today. From there, build a strategic roadmap that prioritizes the highest risks and aligns compliance efforts with business operations. Organizations that take the time to develop a thoughtful strategy almost always reach certification more efficiently, with less disruption, and with a stronger security posture than those rushing to implement disconnected requirements simply to “check the box.”
 
+[…]
 
+[While] many organizations understandably view CMMC as a technology initiative, I believe its long-term success depends far more on people than products. Policies only matter if they are understood and followed. Incident response plans only matter if they have been exercised. Security awareness training only matters if it changes behavior. Technology is an essential enabler, but resilience is built through leadership, culture, preparation, and practice. Organizations that embrace CMMC as an opportunity to strengthen those fundamentals will discover that compliance is simply the byproduct of becoming a more resilient organization, one that is better prepared for whatever challenge comes next.”
 
-Next, the threat actor dumped Langflow’s Postgres database to harvest the secrets in it, scanned the reachable internal address space and named services, probed for MinIO addresses for further credential extraction, and deployed a cron job for persistent access to the Langflow server.Advertisement. Scroll to continue reading.
+Emil Sayegh, CEO, CyberSheath:
 
+“It’s important for defense contractors to understand that the Pentagon didn’t repeal a law with a press conference. While third-party CMMC assessments are paused during the 60-day review, the underlying cybersecurity obligations have not changed. NIST SP 800-171, DFARS requirements and truthful SPRS reporting remain in effect. Contractors are still responsible for implementing the required security controls and accurately representing their cybersecurity posture.
 
-Throughout this initial phase, the LLM was observed adapting its actions in real time to complete tasks, extract credentials from different file types, and log into discovered endpoints.
+The Department of Justice’s Civil Cyber-Fraud Initiative and the False Claims Act are still active, and contractors are still on the hook for what they attest to. Without a C3PAO in the loop, a government investigation can become the moment of truth. If a contractor claimed 110 controls were in place, and a forensic review says otherwise, that gap has serious financial and reputational consequences. The same principle applies to an investigation that happens after a breach. Self-attestation without verification simply moves the reckoning later in the process.
 
+The timing is also worth noting. The same week this suspension was announced, agencies across 14 countries issued a joint advisory warning about state-sponsored actors targeting critical infrastructure and defense supply chains. While the Department reviews the implementation of third-party assessments, the broader threat landscape will continue to evolve, raising important questions about how best to strengthen confidence in the cybersecurity of organizations entrusted with Controlled Unclassified Information (CUI).”
 
+Frank Balonis, Field CISO, Kiteworks:
 
-During the second phase of the attack, JadePuffer used the LLM to pivot to a production server hosting a MySQL database and an Alibaba Naming and Configuration Service (Nacos) configuration platform.
+“CMMC Phase II being paused doesn’t touch the reason it existed in the first place. Controlled unclassified information still needs to be protected, and DFARS 252.204 7012 hasn’t gone anywhere; the safeguarding clause is still sitting in every affected contract […].
 
+What’s actually changed is narrower and, in some ways, sharper than people are giving it credit for: self attestation is no longer checked by a third party before it becomes something the government can hold you to. For the length of this review, your SPRS score is the verification mechanism. There’s no C3PAO between what you submit and what a Department of Justice attorney can cite under the Civil Cyber Fraud Initiative if that score turns out to be wrong. That’s not a lighter compliance burden; it’s the same legal exposure with one fewer checkpoint standing between an inflated self assessment and a qui tam suit.
 
+I’d argue this raises the bar rather than lowering it. Every access control, audit log, and encryption standard you can actually demonstrate today is what turns a self assessed SPRS score from a number on a form into something defensible. A C3PAO wasn’t the only thing standing behind that score; the controls themselves were always supposed to be the substance, and the assessment was just the check. Suspending the check doesn’t suspend the standard. It just means the first person to test whether your controls match your attestation might now be a prosecutor instead of an assessor, and that’s a conversation you want to be ready for on your terms, not on a compressed timeline once the review ends.
 
-Widely used in Alibaba microservice architectures, Nacos has been plagued by various security bypasses and uses a well-known default JWT signing key that allows for easy token forgery.
+The contractors who treat this 60 day window as a chance to close technical gaps (tightening access controls, hardening audit logging, verifying encryption actually matches what’s written in the SSP) are going to be in a fundamentally stronger position than the ones who read “suspended” as “optional”.”
 
+Michael G. Gruden, Partner, Head of Cybersecurity & Incident Response, Steptoe:
 
+“Secretary Hegseth’s decision to figuratively pump the brakes on Phase 2 reflects the reality that a significant portion of the defense industrial base was not prepared for the rigor of a formal C3PAO assessment. An independent certification assessment is substantially more demanding than a self-assessment, even though the underlying requirements themselves have not materially changed. The suspension highlights an ongoing tension between cybersecurity expectations and the financial and operational burdens many contractors face in implementing required controls. While those challenges are real, the fundamental objective of CMMC—to improve protection of CUI and other sensitive defense information throughout the supply chain—remains as important as ever. There is a balance to be struck between reducing compliance burdens and ensuring that government regulated data is adequately protected in support of national security and mission objectives.
 
-Lateral movement and encryption
-JadePuffer connected to this server using a payload that contained root credentials for the MySQL port and abused the LLM to target the Nacos service through multiple vectors.
+[…]
 
+Rather than slowing compliance efforts, contractors should use this period to strengthen their readiness. A critical first step is accurately identifying CUI, determining where it resides within the enterprise, and properly scoping the systems that store, process, or transmit that information. Attorney-client privileged readiness assessments conducted under the direction of outside cybersecurity counsel can provide organizations with a realistic understanding of their compliance posture while helping identify gaps and prioritize remediation efforts in a legally protected manner. These assessments can also help companies implement technical and administrative controls in a way that is more likely to be viewed as sufficient by the DoD. The certification requirement may be paused, but cybersecurity compliance is not. Contractors that use this window to improve CUI governance, validate self-assessments, and prepare for future certification requirements will be far better positioned when the next phase of CMMC implementation resumes.”
 
+Kate M. Growley, Partner, Crowell & Moring:
 
-“That includes exploiting the auth-bypass family (CVE-2021-29441), forging a valid JWT using Nacos’s well-known default signing key, and, with root database access, injecting a backdoor administrator directly into the Nacos backing database,” Sysdig explains.
+“The DoW’s suspension of CMMC’s Phase II rollout does not fundamentally change what it expects of its contractors.  Those who were preparing for now-paused C3PAO assessments were almost certainly already subject to contract terms similar to but separate from those driving CMMC.  These pre-existing terms already required the implementation of NIST SP 800-171 and the submission of self-assessed scores to the DoW’s Supplier Performance Risk System (hence the oft-cited term “SPRS scores”).  The difference is that these terms do not define a clear timeline for when contractors must have a “perfect” NIST implementation score.  But recent government investigations into contractors attempting to comply with these terms suggest that the timeline to perfection cannot be indefinite. 
 
+[…]
 
+The suspension of C3PAO assessments alleviates some of the immediate resource needs around the perceived “audit theatre” of C3PAO assessments.  Contractors expended tremendous effort to prepare for every possible example of assessor discretion to ensure they would pass, often going far beyond what they reasonably felt was sufficient.  At least for now, contractors can redirect those resources to meaningfully closing implementation gaps – because the requirement to do so has likely already been sitting in their contracts, just not with the same clear deadline that CMMC Phase II provided.”
 
-During the attack, the LLM adjusted the payload to pass login verification, checked for User Defined Functions (UDF), which can lead to OS command execution, and issued a completion marker before ransomware deployment.
+Tyler Fordham, Director of Offensive Security, Dark Wolf:
 
+“The Pentagon is right to pause CMMC to cut red tape, but reverting to paper-based self-attestations is not the answer. The future of DIB security lies in technical security validation; penetration testing and red teaming to emulate adversaries, machine-readable compliance (like OSCAL) and automated validation of Infrastructure-as-Code (IaC). By automating compliance checks, the DoW can verify security at scale without forcing small businesses to pay exorbitant fees to manual compliance gatekeepers. 
 
+However, reducing administrative burden cannot come at the expense of meaningful oversight. While the pause relieves administrative pressure, the DoD must ensure it doesn’t create a security vacuum. Self-attestation without a robust, randomized government audit mechanism has historically failed to protect sensitive information. Whatever replaces third-party assessments must include active enforcement to preserve trust in the system. 
 
-Next, it encrypted 1,342 Nacos service configuration items and created an extortion table containing the ransom demand, a payment address, and a contact email address. The encryption key was randomly generated but never persisted or transmitted, essentially preventing data recovery.
+Contractors also need predictability. The sudden suspension of CMMC milestones penalizes the forward-leaning companies that invested heavily in compliance early on, while rewarding those that lagged. The DoW’s 60-day review must establish a durable, transparent framework that protects national security and the economic viability of small defense contractors.”
 
+Austin Berglas, Global Head of Professional Services, BlueVoyant:
 
+“The requirement to remain compliant with NIST 800-171 is not new. While NIST defines the “what”, CMMC provides the “how,” or the formal process to verify those controls. Organizations that have invested time and resources preparing for Phase 2 are doing exactly what all Defense Industrial Base (DIB) companies should have been doing already. Compliance is a continuous process, not a one-time effort. While compliant companies will always have an edge in winning RFPs and new contracts, the ground truth is that protecting our country’s sensitive information is a requirement; those not properly prepared to receive, store, and process this information should not be permitted to do so.
 
-“Captured payloads show the LLM escalating from row-level deletion to dropping entire database schemas, narrating its own targeting rationale,” Sysdig notes.
+With the pause of the CMMC roll-out, there is a potential rise in violations of the False Claims Act if companies treat this as an opportunity to reduce their security posture and enter incorrect or inflated scores into the Supplier Performance Risk System (SPRS). It is imperative that DIB organizations remain compliant. Third-party certification is the only way to drive meaningful change; if the DoW wants to lessen the financial burden for small and medium-sized companies, the answer lies in government-sponsored incentives, not the reduction of standards.
 
+Uncertainty is never good for business. While nobody knows what the reformed program will require or if CMMC might be cancelled entirely, the requirement to be compliant with Phase 1, conduct self-assessments, submit accurate scores into SPRS, and provide annual affirmations remains unchanged.”"
+2026-07-19 20:32:17,"July 17, 2026 (5:06 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/cyberattack-disrupts-operations-of-japanese-frozen-food-giant-nichirei/,Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei,"Japanese frozen food giant Nichirei says it is ready to gradually restore operations affected by a cyberattack on July 13.
+Headquartered in Tokyo, Nichirei is one of Japan’s top frozen food producers. It also provides cold storage warehousing and operates globally through 80 subsidiaries.
 
+In response to the cyberattack, the company disconnected its systems on July 13, affecting operations at Nichirei Logistics Group’s refrigerated warehouses and Nichirei Foods’ shipping operations.
 
-The payloads analyzed by the cybersecurity firm contained natural-language commentary on each action, indicative of LLM-generated code. Furthermore, they showed how the LLM corrected its actions to address failures and provide accurate diagnoses.
+The disruption has affected multiple restaurant chains, retailers, and delivery services, according to local media reports.
 
+On Thursday, Nichirei announced (PDF) that it would gradually restore the impacted operations starting Friday, but did not provide details on when services would be fully operational.
 
+The frozen food company said its investigation has established that hackers targeted its servers as part of the attack, and that some of the affected systems stored personal information.
 
-“During the operation, the LLM parsed free-text context presented by the target and took an action that only makes sense if that text was read and understood, rather than pattern-matched by a scanner. This behavior recurred across sessions weeks apart,” Sysdig notes.
+“Accordingly, the company has submitted an initial report to the Personal Information Protection Commission as a matter involving the possibility of leakage. The company will continue its investigation and, should any leakage be confirmed, will promptly report the matter to the relevant parties,” it said.
 
+Nichirei said it was withholding details of the cyberattack as a precautionary measure, so it is unclear whether it was hit by a known ransomware or data extortion group.
 
+The company also noted that it is currently assessing the incident’s impact on its consolidated financial results and that it will disclose any identified material impact."
+2026-07-19 20:32:44,"July 17, 2026 (4:31 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/risk-ledger-raises-32-million-in-series-b-funding/,Risk Ledger Raises $32 Million in Series B Funding,"British supply chain security firm Risk Ledger has announced raising £24 million (roughly $32.3 million) in a Series B funding round that brings the total raised by the company to £33.8 million (roughly $45 million).
+The fresh investment round was led by Axiom Equity, with additional support from previous investor Mercia Ventures.
 
-According to the company, this attack shows that LLM agents significantly lower the barrier for malicious operations, which now require a capable model rather than a capable human. The AI combined known techniques in a successful attack against neglected infrastructure, with close to zero cost to the attacker.
+Founded in 2018, London-based Risk Ledger has built a network-first platform that tackles modern supply chain cyber risks by connecting organizations and suppliers for faster, comprehensive assessments.
 
+The supply chain security solution enables connected organizations to view supplier profiles created after every supplier completes a standardized assessment and maintains it in real-time.
 
+The approach, Risk Ledger says, moves third-party risk management toward Active Supply Chain Security, enabling organizations to defend together against systemic risks.
 
-“Defenders should expect the volume and breadth of such campaigns to rise as agentic tooling matures, and they should treat exposed application servers, unhardened configuration stores, and internet-facing database admin accounts as the first surfaces that will be attacked,” Sysdig notes.
+According to the company, over 16,000 organizations across financial services, critical national infrastructure, government, and insurance have joined the network.
 
+The fresh investment will help Risk Ledger to bring more organizations to the network, deepen the intelligence they share, and build more AI tools to automate reviews and surface risk signals.
 
+Additionally, the company will use the funding to expand into the US.
 
-Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
+“Risk Ledger is creating a category rather than competing in an old one. The network it has built is hard to replicate and grows more valuable with every organisation that joins, which is exactly the kind of business we look to back. The team has earned real trust with serious customers, and the product reflects that discipline,” Axiom Equity founding partner Jonathan Organ said."
+2026-07-19 20:33:19,"July 17, 2026 (3:15 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/,Fresh SharePoint Vulnerability Exploited Soon After Disclosure,"Threat actors have begun exploiting a fresh critical-severity remote code execution (RCE) vulnerability in Microsoft SharePoint, the US cybersecurity agency CISA warns.
+Tracked as CVE-2026-58644 (CVSS score of 9.8) and fixed as part of Microsoft’s July 2026 Patch Tuesday updates, the flaw is described as a deserialization of untrusted data issue.
 
-Related: Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution
-Related: ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials
-Related: Frontier AI: Six Questions Every Enterprise Should Ask Security Vendors
-Related: The AI Token Costs That Can Break Cybersecurity"
-2026-07-05 19:35:00,"July 3, 2026 (6:00 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/,Medtronic Data Breach Impacts 3.8 Million People,"Medical technology giant Medtronic is notifying more than 3.8 million individuals that their personal and medical information was compromised in a recent data breach.
-The incident occurred in April 2026, when the infamous extortion group ShinyHunters accessed the company’s corporate IT systems.
+“In a network-based attack, an attacker authenticated as at least a Site Owner could write arbitrary code to inject and execute code remotely on the SharePoint Server,” Microsoft explains.
 
+Microsoft’s security updates resolved several other SharePoint defects, including CVE-2026-56164, which was flagged as exploited in the wild as a zero-day, and CVE-2026-55040, a critical security bypass weakness that could allow attackers to disclose files and modify data.
 
+Although CVE-2026-58644 was not initially marked as exploited, Microsoft has since updated its advisory to note that exploitation was detected and to update the vulnerability’s CVSS score.
 
-Medtronic confirmed the attack in late April, noting that its products and manufacturing and distribution operations were not affected.
+On Thursday, two days after warning of the risk posed by these SharePoint security defects, CISA added the CVE to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within three days, as mandated by BOD 26-04.
 
+The cybersecurity agency also added to the KEV list CVE-2026-25089 and CVE-2026-39808, two OS command injection flaws in Fortinet FortiSandbox that were patched in June and April.
 
+Both security defects allow attackers to execute arbitrary code or commands on vulnerable appliances. In mid-June, exploit intelligence company Defused flagged both as exploited in the wild.
 
-ShinyHunters had added the company to its Tor-based leak site on April 17, claiming the theft of over 9 million records of personal information, and terabytes of corporate data.
+In line with BOD 26-04 recommendations, federal agencies are required to patch the three exploited bugs within three days."
+2026-07-19 20:33:50,"July 17, 2026 (2:23 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/,Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack,"American soft drinks giant Coca-Cola announced Thursday that it has suspended production at its subsidiary Fairlife after detecting a ransomware attack.
+Based in Chicago, Fairlife is a Coca-Cola wholly owned dairy company that distributes ultra-filtered milk in five flavors: chocolate, fat-free, reduced fat, strawberry, and whole milk.
 
+In a July 16 filing with the US Securities and Exchange Commission (SEC), Coca-Cola said hackers had accessed a portion of Fairlife’s systems, including production-related systems.
 
+“After detecting the issue, the Company promptly activated its incident response and business continuity protocols. The Company’s investigation and assessment of the impact of the incident is ongoing, with the assistance of outside advisors and cybersecurity experts,” Coca-Cola said.
 
-The group has since removed Medtronic from the website, which suggests that the company might have paid a ransom to recover the stolen information.
+The company told the SEC it has notified law enforcement of the attack and that it has yet to determine the full scope, nature, and impact of the incident.
 
+“Product quality and safety have not been impacted. However, as a result of the incident, production operations at Fairlife in the United States are temporarily suspended. Fairlife’s Canada production operations are not currently impacted,” the company said.
 
+Coca-Cola said it is scrambling to complete its investigation into the attack and to determine whether the incident will have any material impact.
 
-This week, the medical technology titan started sending written notification letters to the affected individuals, confirming that the hackers stole patients’ personal and medical information, including names, contact details, dates of birth, Social Security numbers, and health-related details.Advertisement. Scroll to continue reading.
+The company has not shared details on how the incident occurred, who was behind it, or whether it has received any extortion demands from the attackers. SecurityWeek has emailed Coca-Cola for additional information and will update this article if the company responds.
 
+SecurityWeek has not seen any known ransomware groups claim responsibility for the incident."
+2026-07-19 20:34:20,"July 16, 2026 (11:15 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/legacy-systems-real-world-impacts-the-reality-of-ot-security/,"Legacy Systems, Real-World Impacts: The Reality of OT Security","I’m here today to write about one particularly thorny area of operational technology (OT) and security that I run into somewhat routinely. Given my own particular interests as an incorrigible vulnerability-gazer, and my professional role as vice president of security research at runZero, I deal with OT security issues more often than the average bear. I’ve noticed that there’s definitely a vibe of, “IT be like this, but OT be like that” going on in the wider world of vulnerability management. The process of discovering, documenting, and disclosing vulnerabilities all have their own little quirks here in OT-land, so let’s jump into it!
 
-“We have no evidence that any of that information was posted publicly or exposed on the internet,” reads a copy of the company’s notification letter (PDF) submitted to the California Attorney General’s Office.
+Here, everything is legacy
+At DEF CON, the ICS Village is one of the more popular places to hang out. It works well for folks who are either new to the field of infosec and cybersecurity, or old-hands in the industry, for the same reason: once you get close enough to a piece of OT technology with your modern IT vulnerability-hunting tooling and instincts, it often feels like you’re hacking like it’s 1999, all over again. Until very recently, OT, as a class, hasn’t been much concerned with prompting for passwords or validating user-supplied inputs; the assumption was that the local network is trusted. The software itself is typically run as compiled objects with limited hardware resources, so there’s not much room for fancy 21st Century defenses like ASLR and DEP (Address Space Layout Randomization and Data Execution Protection, respectively). Therefore, it’s an ideal platform species to practice, and kind of nostalgic for the more, shall we say, life-experienced.
 
+Denial of service is catastrophic
+Many classic OT attacks, though, aren’t really even about remote code execution (RCE) or local privilege escalations (LPE), which are the usual prize bugs for an IT-based attacker. Instead, the value of a denial of service (DoS) effect is of paramount importance in OT. A legitimate one-packet killer that bricks a wildly expensive piece of equipment (which, to be fair, would itself raise eyebrows in the IT world), a mere “temporary” condition like a sustained flow of garbage traffic that stops the device from doing its OT thing, or a safety-control tripping sequence (which intentionally causes a fail-safe condition) all end up in the same place: Actuators stop, robots freeze, and the whole purpose of the OT buildout is interrupted, off-schedule, and sometimes with human life and limb hanging in the balance.
 
+This is a huge deal for OT operators, much more so than in IT environments where graceful failure is normal, handled, and usually solvable in a pinch by throwing cheap bandwidth and CPUs at the problem. Almost nobody has a spare backup factory.
 
-Medtronic told the Indiana Attorney General’s Office that 3,834,294 individuals were affected by the incident.
+See something, say something
+So, if you find yourself with a new (to you) vulnerability in OT gear, what do you do? In IT, the normal route typically comes down to notifying the software producer, grabbing a CVE, maybe getting a fix in the works (or maybe not), then publishing findings. Rarely, some IT bugs warrant more care and scrutiny on the pre-disclosure side, but there’s nearly always some kind of mitigation or configuration that can blunt the bug even without a patch. Occasionally, there are bugs in core libraries (or entire software supply chains) that warrant some extra level of coordination. It’s bad, but manageable.
 
+OT bugs are different; unlike in IT, in OT, it’s routine to describe the effects of a theoretical attack ending with “and that’s how you poison an entire community” or “once power delivery is interrupted, hospitals go offline,” or something equally apocalyptic. Even discussing the presence of the vulnerability is fraught, with media outlets and the government freaking out. And don’t get me started on releasing a full proof-of-concept bit of code.
 
+The icing on this terrible, terrible cake is the fact that actually patching many OT devices is difficult to impossible, even when you know about the bug. The vulnerable code may live on a board that’s hundreds of miles away on an oil field, or subject to very strict regulations for unscheduled updates. It may not be reprogrammable at all, and instead require a costly forklift update to mitigate, and it’s anyone’s guess if the new hardware is even compatible with your suddenly-legacy control plane. Oftentimes, the best you can do is segment the vulnerable devices off to their own naughty corner of the network, and tightly control access to that network, living with the fact that anyone who touches it, physically or virtually, has the power to destroy it.
 
-The company is providing them with 24 months of free credit monitoring, dark web monitoring, and identity theft restoration services.
+When worlds collide
+The fact of the matter is, most of the defensive posture of OT is precisely network segmentation, and network segmentation alone. But, that’s changing, and like it or not, the OT/IT convergence is upon us, which means that OT is increasingly becoming IT’s problem. We cannot keep these bugs bottled up forever. So, what do you do with your fresh OT 0-day? I would argue that you cannot just sit on it. In a world of frontier AI versus soft targets, it’s only a matter of time when your easy finding becomes someone else’s critical infrastructure weapon. I’d urge you to swing by https://cisa.gov/report, and hit the “Report a software or ICS vulnerability” button. It’s the first step in what’s often a confusing and scary process, but in recent years, the major OT vendors have been taking these reports seriously and have good relationships with both CISA in the U.S. and the regional CERT/CC’s where they operate.
 
+While “see something, say something” may not have been popular in the past, the reality of OT/IT convergence demands that we evolve our thinking and tooling to address the fundamental cybersecurity challenges facing OT before AI-assisted attackers turn off the lights or worse.
 
+Learn More at the ICS Cybersecurity Conference | Nasvhille"
+2026-07-19 20:34:53,"July 16, 2026 (9:21 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/,Two Scattered Spider Hackers Sentenced to Jail in UK,"Two members of the Scattered Spider cybercrime group have been sentenced to jail in the United Kingdom, the country’s National Crime Agency (NCA) announced on Thursday.
+Thalha Jubair, 20, and Owen Flowers, 18, were charged over their role in a 2024 cyberattack targeting Transport for London (TfL), which caused significant disruptions and generated costs of £29 million ($39 million).
 
-“Medtronic has implemented additional safeguards and continues to work with third-party cybersecurity experts to identify opportunities to further strengthen the security of its systems. Medtronic has also worked with law enforcement and is notifying relevant regulatory authorities,” the company said.
+Jubair and Flowers were arrested in September 2025. They initially pleaded not guilty but changed their pleas to guilty when their trial started in June.
 
+On Thursday, they were each sentenced to five years and six months in prison following what officials described as “the largest cybercrime prosecution ever brought before the UK courts”. 
 
+Despite several arrests last year, hackers operating under the Scattered Spider name continued to take credit for cyberattacks through the first months of 2026, although no new attacks have been announced in recent months.
 
-Related: Aflac Japan Data Breach Impacts 4.38 Million
-Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack
-Related: More Klue Breach Victims Identified as Hackers Get Hacked
-Related: Xsolis Data Breach Affects 1.4 Million Individuals"
-2026-07-05 19:35:34,"July 3, 2026 (5:30 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/,Alleged Scattered Spider Hacker Extradited to US,"A dual US-Estonian citizen was extradited to the US to face charges for his alleged involvement in the activities of the infamous hacking group Scattered Spider.
-The individual, Peter Stokes, 19, also known as ‘Bouquet’, was arrested in Finland in April while boarding a flight to Japan. He was indicted with counts of conspiracy, computer intrusion, and fraud.
+Following the sentencing of Jubair and Flowers, the NCA noted, “Although other cybercriminals may continue to use the damaged Scattered Spider brand, the NCA’s action against Jubair and Flowers effectively halted the group’s criminal activity. Independent assessment supports this, with Microsoft confirming that the arrests materially degraded the group’s ability to continue conducting cybercriminal operations.”
 
+In the meantime, authorities continue prosecuting other suspected members of the group. An alleged member, 19-year-old Peter Stokes, a dual US-Estonian national, was recently extradited to the US to face charges. 
 
+Tyler Buchanan, a British national believed to be part of the cybercrime gang, pleaded guilty in a US court in April."
+2026-07-19 20:35:30,"July 16, 2026 (9:00 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/ai-data-centers-are-being-built-faster-than-they-can-be-secured/,AI Data Centers Are Being Built Faster Than They Can Be Secured,"The use and reliance on AI is the biggest single growth area in technology. But AI is enormously energy-intensive and requires a new quality of data center. 
+The demand is fueling rapid growth in AI data center builds. The danger is that those building this new type of data center, at speed, do not readily understand the difference between traditional data centers and AI data centers – and the result is leaving the new AI data centers open to a new scale of risk. 
 
-In May 2025, together with other co-conspirators, Stokes allegedly hacked a luxury jewelry retailer’s computer system, stole data from it, and demanded an $8 million ransom in cryptocurrency from the victim.
+Traditional data centers are primarily data processing warehouses serving a known clientele. AI data centers are more akin to high power data compute factories serving a larger and unknown clientele. Traditional data centers can comprise a series of independent servers, an AI data center must function as a single engine capable of massive parallel processing to handle a much greater computational demand. AI data centers simply cannot be built in the same way as traditional data centers.
 
+Lava Labs has examined and now reports (PDF) on the security needs of AI data centers (The Top 10 Data Center and AI Infrastructure Security Risks) and concludes they are being built faster than they are being secured. Both traditional data centers and new AI data centers carry largely similar risks; but AI changes their exploitability and blast radius: “Systems originally designed for trusted operators are now supporting high-value, multi-tenant workloads from unrelated customers,” it notes.
 
+The Lava Labs report lists the top ten AI data center and infrastructure security risks, naming them ‘Forge’ (because the purpose is to ‘harden the metal beneath the model’).
 
-While the retailer managed to evict the hackers from its network and no ransom was paid, the attack led to business disruption, which, together with the investigation and mitigation actions, caused at least $2 million in losses.
+Forge 01: firmware and hardware integrity compromise
+Forge 02: network and interconnect vulnerabilities
+Forge 03: unsafe multi‑tenant isolation and resource reuse
+Forge 04: insecure out‑of‑band management plane
+Forge 05: AI infrastructure supply chain compromise
+Forge 06: insecure facility and data center management systems
+Forge 07: insecure data and artifact handling
+Forge 08: certification gaps and provider transparency failures
+Forge 09: insecure operational infrastructure services
+Forge 10: vendor embargo gaps and patch velocity failures
 
+The sequencing of these risks is primarily based on severity. Risks 01 to 05 operate below the operating system, are difficult to detect, and have a cluster-wide blast radius. Risks 06 to 09 are generally easier to detect and recover from. Risk 10 is the easiest to detect and remediate; and is the least likely to cause catastrophic tenant compromise.
 
+FORGE IDs are ordered by severity, from highest to lowest. The matrix groups each risk by domain and shows its likelihood, impact, and detection difficulty.
+The risks arise because the nature of AI breaks the basic trust model of traditional data centers. For 03, 07, and 08. AI introduces unrelated commercial tenants, high‑value workloads, and GPU nodes that are reassigned between customers. 
 
-Also tracked as 0ktapus, Muddled Libra, Octo Tempest, Starfraud, Scatter Swine, and UNC3944, Scattered Spider is believed to have hacked at least 100 organizations and to have received over $100 million in ransom payments from its victims.
+For 01, 06 and 10, new hardware realities from the dense GPU clusters require complex firmware stacks, have extreme thermal sensitivity, and a larger blast radius for facility failures. 
 
+For 02, the required high performance fabrics such as InfiniBand, RoCE, RDMA, and NVLink are often unencrypted, poorly monitored, and highly privileged. Weak fabric isolation can expose paths to discovery, abuse, or lateral movement. 
 
+In 04 and 09, an operational concentration of privilege can result from a heavy reliance on BMC automation, Redfish/IPMI, firmware pipelines, and orchestration systems.
 
-The group is known for its widespread 2025 Salesforce hacking campaign and for the 0ktapus campaign, which hit over 130 organizations in 2022.Advertisement. Scroll to continue reading.
+For 05 and 10, a scarcity of GPU processors often means that new AI data centers opt for processors that are less suitable, with weaker isolation that can lead to more likely supply chain compromise.
 
+The functional purpose of Lava Labs analysis and report is threefold: to expose the unique risks of AI data centers; to prioritize the most severe risks, thus effectively providing a triage sequence; and to provide example attack scenarios and practical mitigations for those risks.
 
-Over the past several years, authorities charged, arrested, and sentenced multiple alleged members of the hacking group. In April this year, UK national Tyler Robert Buchanan pleaded guilty in the US for his role in the Scattered Spider operations.
+The moral from the Lava Labs analysis is, yes, you will need a new data center to feed your AI; but, no, you cannot use your existing data center model as a design blueprint.
 
+Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay"
+2026-07-19 20:36:07,"July 16, 2026 (8:43 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/clicklock-stealer-bypasses-macos-security-with-social-engineering-process-killing/,"‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing","A new macOS malware named ClickLock Stealer leverages social engineering and process killing to bypass the operating system’s protections and obtain valuable information from victims. 
+Cybersecurity firm Group-IB came across ClickLock Stealer in early June, and the malware appears to have been around since at least late May. Researchers say it has targeted at least 100 users across 33 countries, more than half in Europe.
 
+The stealer is designed to collect various types of data from compromised systems, including web browsers, cryptocurrency wallets and wallet extensions, and password manager extensions. It can also harvest blockchain addresses from six chains and target the macOS Keychain, FTP credentials, and shell history. The stolen data is added to an archive file and exfiltrated to a Telegram bot.
 
-In September last year, after making the headlines for high-profile attacks against the retail, insurance, and aviation industries, Scattered Spider announced its retirement.
+While Group-IB researchers could not definitively determine how ClickLock Stealer is distributed, they believe threat actors may have used SEO poisoning, social media posts, or compromised websites to lure victims to a ClickFix attack page disguised as a Cloudflare verification. 
 
+Users who land on this page are instructed to copy a bash command, paste it into macOS’s Terminal, and execute it. Once the command is run, an orchestrator script file is downloaded and executed, which in turn fetches four other scripts representing a credential stealer, a cryptocurrency stealer, a Keychain stealer, and a backdoor installer. 
 
+The backdoor remains on the compromised machine, but the other scripts are removed once they have harvested the targeted data and sent it back to the attacker.
 
-Related: Third DraftKings Hacker Sentenced to 18 Months in Prison
-Related: Admins of Bulletproof Hosting Service Used by Russian Hackers Arrested in Netherlands
-Related: Canadian Man Arrested for Operating Kimwolf Botnet
-Related: Karakurt Ransomware Negotiator Sentenced to Prison"
-2026-07-05 19:36:16,"July 3, 2026 (4:13 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/,"Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices","Google, the FBI, and other organizations coordinated in a joint effort to dismantle NetNut, a massive residential proxy network.
-Also known as Popa, NetNut is believed to consist of more than 2 million Android devices such as smart TVs and streaming boxes, that have been infected through trojanized applications and malware such as Badbox 2.0.
+macOS’s design and built-in protections make it harder to deploy malware. However, ClickLock Stealer succeeds primarily through social engineering because the malware is downloaded and executed directly by the victim with their own privileges. Unlike other malware, it does not need exploits or privilege escalation. 
 
+To access the targeted data, the malware employs aggressive process-killing loops. The orchestrator component displays a fake macOS dialog to capture the user’s password, killing every visible process so that only the password window is shown on the screen until the victim complies.
 
+“A background loop also starts killing macOS NotificationCenter continuously for approximately ~6 hours, suppressing any Gatekeeper or security warnings that might alert the victim,” Group-IB explained in a blog post describing ClickLock Stealer. 
 
-The network’s operator, linked to the publicly-traded Israeli firm Alarum Technologies Ltd, rented the residential proxies to various threat actors, including cybercriminal and espionage groups.
+Other components also aggressively terminate applications that the victim may use to analyze or disrupt the attack. The credential stealer component also displays a fake macOS password dialog and keeps it open in a long loop while other applications are terminated, forcing the victim to enter the password. 
 
+When the malware queries the macOS Keychain for the Chrome Safe Storage encryption key, which protects passwords and other browser data, the user is prompted to authorize the action. Again, all processes are killed until the user complies and Keychain access is granted."
+2026-07-19 20:36:50,"July 16, 2026 (7:23 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/oak-emerges-from-stealth-mode-with-60-million-in-funding/,Oak Emerges From Stealth Mode With $60 Million in Funding,"Israeli cybersecurity startup Oak has emerged from stealth mode with $60 million in seed funding to build an AI-powered Identity Operating System.
+The investment round was co-led by Accel, Greylock Partners, and CRV, with additional support from Hetz Ventures, AlphaDrive Ventures, and angel investors.
 
+Founded in late 2025, Tel Aviv- and San Francisco-based Oak has built a platform that unifies identity governance within a single, continuously updated control plane.
 
-In a single week in June, Google observed 316 distinct threat clusters using NetNut to hide their locations in password-spray attacks and to access victim environments.
+Already generally available, Oak’s Identity Operating System aims to replace legacy identity governance and security tools with a single solution covering all human, AI, and machine identities across an organization’s environment.
 
+The platform connects to an organization’s applications across cloud, on-premises, SaaS, and homegrown systems to build connectors within hours, understanding each identity based on raw evidence instead of static records.
 
+By creating a map of each identity’s access against what it uses, Oak’s platform provides identity governance throughout the entire lifecycle, complemented by AI-driven real-time risk decisions and remediation.
 
-“We believe our coordinated actions have caused significant degradation to NetNut’s proxy network and its business operations, reducing the available pool of devices for the proxy operator by millions,” Google said.
+Oak was co-founded by Shai Morag (Chief Executive Officer), who previously founded Integrity-Project (acquired by NVIDIA’s Mellanox), Secdo (acquired by Palo Alto Networks), and Ermetic (acquired by Tenable); and Tal Marom (Chief Product Officer), who previously led product teams at Tenable and Salesforce.
 
+“We spent months speaking with more than 100 CISOs and IAM leaders, and they all share the same problems of running too many disconnected tools, being unable to see how access is used, and having no way to govern AI agents,” Marom said.
 
-
-As part of the operation, the internet giant disabled Google accounts and associated services used for command-and-control (C&C), dismantling the botnet’s backend infrastructure.Advertisement. Scroll to continue reading.
-
-
-Additionally, it disabled the infected applications via Google Play Protect and automatically warned victims of the threat. Google also shared threat intelligence with industry partners and law enforcement.
-
-
-
-According to Google, NetNut is not only selling access to the residential proxy network under its own brand, but also operates a reseller program, allowing other popular brands to whitelabel the NetNut botnet.
-
-
-
-The NetNut takedown follows the January disruption of IPIDEA, and is expected to have a ripple effect across the ecosystem.
-
-
-
-“What we have observed is that when faced with the degradation of their own botnet, proxy operators begin buying capacity from their competitors, effectively becoming a reseller. We recognize that creating a lasting disruption in this fluid ecosystem means we must scale our efforts to target the infrastructure of several interconnected providers,” Google says.
-
-
-
-Related: Google Sues Operators of 10-Million-Device Badbox 2.0 Botnet
-Related: 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown
-Related: Dutch Police Dismantle Massive 17-Million-Device Botnet
-Related: GlassWorm Botnet Disrupted
-Related: Aisuru and Kimwolf DDoS Botnets Disrupted in International Operation"
-2026-07-05 19:36:55,"July 3, 2026 (3:57 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/,Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution,"Two critical vulnerabilities in the popular AI code editor Cursor could lead to remote code execution on the underlying operating system, Cato Networks reports.
-The security defects are tracked as CVE-2026-50548 and CVE-2026-50549 (CVSS score of 9.8) and are referred to as DuneSlide, given that they lead to remote code execution (RCE) outside of the IDE’s sandbox.
-
-
-
-According to Cato, the flaws abuse Cursor’s automatic terminal command execution inside the sandbox, which does not prompt the user for approval, and can be triggered when a victim prompts the IDE to ingest an attacker-controlled payload.
-
-
-
-The first issue is related to the sandbox’s security boundaries. While command execution should be restricted to the current working directory, a non-default value assigned to the working_directory parameter results in the path being added to the allow list.
-
-
-
-Thus, an innocuous MCP server request could inject a prompt that would instruct the LLM to set the working directory to an attacker-supplied path outside the project scope.
-
-
-
-A threat actor could overwrite the cursorsandbox executable, ensuring that “future commands run without sandbox restrictions, so future instructions within the same prompt injection lead to a non-sandboxed RCE,” Cato explains.Advertisement. Scroll to continue reading.
-
-
-Completely independent from this vulnerability, the second security defect affects the IDE’s file path resolution edge cases and could be exploited via symbolic links to bypass out-of-bounds write protections.
-
-
-
-An attacker could craft a prompt that, when injected in Cursor, instructs the agent to create within the project directory a symlink pointing to an outside file.
-
-
-
-A flaw in the agent’s path canonicalization logic (it attempts to resolve the symlink to determine its location and verify it is in the project’s directory) results in Cursor falling back to using the original symlink path.
-
-
-
-“A threat actor can then create a write-only symlink, thus forcing Cursor to assume the resolved path is the symlink path, rather than the target path. This fails its detection that the ultimate destination is out of bounds, allowing the threat actor to link to the cursorsandbox executable once more,” Cato explains.
-
-
-
-Cato reported the two flaws to Cursor in February. Patches for both were included in Cursor 3.0, which was released on April 2, while the CVE IDs were assigned in early June.
-
-
-
-Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
-
-Related: Cursor AI Vulnerability Exposed Developer Devices
-Related: Several Vulnerabilities Patched in AI Code Editor Cursor
-Related: Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks
-Related: When Information Becomes the Attack Surface – Understanding AI Agent Traps"
-2026-07-05 19:37:32,"July 2, 2026 (11:04 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/,New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure,"Threat actors began exploiting the latest CitrixBleed-like vulnerability in NetScaler ADC and NetScaler Gateways less than 24 hours after public disclosure, Scottish cybersecurity firm Lupovis reports.
-Tracked as CVE-2026-8451 (CVSS score of 8.8), the security defect was disclosed on June 30, when Citrix rolled out patches, and attack surface management company watchTowr published technical details on it.
-
-
-
-The bug is described as an out-of-bounds read issue affecting NetScaler appliances configured as SAML IDP and leading to memory disclosure.
-
-
-
-It was discovered in NetScaler’s XML parser, which did not terminate unquoted XML attribute values if they were followed by a newline character. Because of the flaw, the parser would read past the intended buffer, and NetScaler would return memory contents in the NSC_TASS cookie in an HTTP response.
-
-
-
-While it requires that the targeted NetScaler appliances be configured as SAML IDP, the successful exploitation of the vulnerability does not require authentication.
-
-
-
-Shortly after watchTowr shared details on the security hole and published a detection artefact generator, at least one threat actor started probing exposed NetScaler instances, Lupovis told SecurityWeek.Advertisement. Scroll to continue reading.
-
-
-Initial scanning activity originated from an IP hosted on infrastructure in Frankfurt, Germany, likely using a disposable or purpose-built scanning node.
-
-
-
-Multiple Lupovis sensors were targeted within a five-hour window, and a payload was immediately dropped on the sensor that responded with a 200 response.
-
-
-
-The payload included a “bare <samlp:AuthnRequest> tag padded with 476 spaces followed by a newline”, which matches the overread variant in watchTowr’s detection artefact generator.
-
-
-
-On Thursday, the cybersecurity firm observed a second threat actor probing for exposed NetScaler instances from a Koapu Cloud HK IP address.
-
-
-
-“Both have demonstrated the same behaviour, probing for the right endpoint, upon receiving a 200 OK with the right response, they have delivered the payload immediately,” Lupovis CEO Xavier Bellekens said.
-
-
-
-Organizations are advised to patch their NetScaler appliances immediately, or to disable SAML IDP if patching is not possible. They should also check logs for /saml/login traffic, inspect the request values, and check NSC_TASS cookie values to identify exploitation.
-
-
-
-Related: Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability
-Related: CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability
-Related: Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities
-Related: Exploitation of Recent Oracle E-Business Suite Vulnerability Begins"
-2026-07-05 19:38:12,"July 2, 2026 (9:15 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/,How to Conduct a Successful Audit of AI-Driven Software Development,"Traditionally, an audit independently examines records, processes and controls to verify compliance and assess financial and operational integrity.
-In the modern world, such an approach should extend to the software development lifecycle (SDLC) – especially in the age of artificial intelligence (AI) or large language model (LLM)-assisted code. Chief Information Security Officers (CISOs) and their teams need proof that developers are producing protected products, because one in five organizations has experienced a serious security incident directly tied to AI-generated code. Getting to the root of the problems requires visibility into who is leveraging AI, what tools they are using and where AI-generated code is introduced into the SDLC. This is considered the ADLC: the agentic development lifecycle.
-
-
-
-CISOs must feel confident that these tools are approved and safe. A thorough audit will identify specific AI-linked vulnerabilities, and which tools are causing the most issues. Even better, it will transform the information into action.
-
-
-
-To be clear, AI/LLM-driven software development creates significant boosts in efficiencies and overall productivity. But it also introduces new, often unmanaged risks. Software vulnerabilities discovered “after the fact” will result in time-consuming fixes and reworks. Security and developer team leaders must work together to find an appropriate balance of efficacy, innovation and protection.
-
-
-
-An impactful audit starts with establishing enterprise-level visibility into how AI influences production code. However, such visibility remains elusive. Individual developers have their own preferred LLM tools for daily tasks, but these tools often operate at completely different security proficiency levels, making it extremely difficult for CISOs to report quantifiable risks to stakeholders, and for their teams to enforce governance policies.
-
-
-
-Such actions prove critical, especially when our research has demonstrated a range of outcomes when comparing humans vs. machines on specific security tasks: The best LLMs perform comparably with proficient professionals for only a limited range of secure coding tasks, including the flagging of code smells (structural or design issues) and anti-patterns (common but harmful solutions). But we’ve also seen the tools struggle with DoS protection, insufficient logging or misconfigured permissions, to cite a few examples. Overall, top security-proficient developers will outperform LLMs, and average developers will not.Advertisement. Scroll to continue reading.
-
-
-A new source of risk
-Indeed, it’s safe to say that the AI boom has created a new category of operational risk – one originating inside the SDLC as opposed to external attackers. Subsequently, CISOs are encountering greater visibility gaps due to unintentional developer actions, at a time when it’s already challenging to trace accountability and attribution.
-
-
-
-To successfully report quantifiable risk to stakeholders, they need to include these variables into a comprehensive audit of AI impact on the SDLC:
-
-
-
-AI deployment. Who is using AI tools? How often? Where?
-
-
-
-Developer capabilities. Which team members are advanced enough to identify and eliminate LLM-introduced inaccuracies/vulnerabilities? Which one needs upskilling to do so?
-
-
-
-Vulnerability assessments. At what stage did something go wrong? How damaging was it?
-
-
-
-With this, CISOs can answer essential board-level questions about the audit: Where is AI increasing risks? Which teams or behaviors are driving the risks? Do teams bring the right skills to routinely deploy AI/LLM?
-
-
-
-To get to this point, CISOs should work closely with development team leaders to complete the following stages of an effective audit:
-
-
-
-Record tool usage. Compile a verifiable record of all AI/LLM assistants deployed for code generation – whether sanctioned or not. Map them directly to code outputs. These steps will allow CISOs to ensure audit and compliance readiness, and acquire the traceability required to meet emerging regulatory directives.
-
-
-
-Evaluate and benchmark these tools – and make fixes. Gage AI models against known vulnerability patterns, and standardize those that produce secure products. Use this to determine approved tool selection and proper governance. Track and oversee model context protocol (MCP) integrations to ensure AI agents connect only to approved tools and data sources. Take advantage of “time travel” auditing to instantly isolate and fix every commit linked to a compromised LLM model, to avoid the excessive costs of lengthy, manual code reviews.
-
-
-
-Invest in upskilling. Beyond continuous education and benchmarking, organizations should come up with a risk score. This is similar to a credit score, only it considers multiple factors to determine how much unintentional risk development team members cause, based upon their skillsets, practices and oversight capabilities.
-
-
-
-Link AI to business goals. Insights from audits must connect AI tool deployment with productivity, code quality and secure outcomes. This informs decision-makers as they assess which tools to invest in, and how to balance innovation with risk management.
-
-
-
-Fortunately, readily available solutions enable CISOs and development team leaders to raise visibility, identify risks and trigger policy-driven training and governance with respect to AI and the SDLC. And all of this starts with a comprehensive audit, ultimately resulting in the right people using the right tools – without delegating too much to AI. Inevitably, these initiatives will ensure that SDLCs are innovative, productive and safe.
-
-
-
-Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
-
-
-Related: When Information Becomes the Attack Surface – Understanding AI Agent Traps
-Related: macOS Weaknesses Chained to Silently Disable Endpoint Security Agents"
-2026-07-05 19:38:53,"July 2, 2026 (8:34 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/,"FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks","FortiBleed, the large-scale credential-harvesting operation targeting organizations in 150 countries, has led to the deployment of INC Ransom and Lynx ransomware families, SOCRadar reports.
-Uncovered in mid-June, FortiBleed has been targeting over 430,000 FortiGate firewalls for the deployment of a network sniffer dubbed FortigateSniffer to capture the traffic passing through them and extract cleartext credentials and password hashes for future compromise.
-
-
-
-The campaign is likely mounted by a Russian initial access broker aiming to gain access to Active Directory domains, steal sensitive information, and establish persistent access.
-
-
-
-FortiBleed has been ongoing since at least February, and the attackers are estimated to have compromised over 110 million credentials.
-
-
-
-Now, SOCRadar says it has observed scanning activity against roughly 11,250 FortiGate portals and that the attackers gained administrative access on 409 targets.
-
-
-
-The threat actor was observed completing the full attack chain on 354 targets, including compromising VPNs, accessing the domain controller, and gaining domain admin privileges.Advertisement. Scroll to continue reading.
-
-
-Of these, 12 incidents have resulted in ransomware deployment, with “hundreds of endpoints encrypted across affected organizations,” SOCRadar says.
-
-
-
-An operational security error by the attackers provided the cybersecurity company with visibility into their environment and with access to internal files, logs, and documentation.
-
-
-
-SOCRadar observed both an operator logged into both INC Ransom and Lynx ransomware negotiation panels, and overlaps between FortiBleed victims and INC targets, confirming that the same organizations were targeted in both operations.
-
-
-
-“Finding a single operator working both panels, using infrastructure traceable back to FortiBleed, is the clearest evidence yet that FortiGate credentials harvested through this campaign are being handed off, or used directly, for ransomware deployment,” SOCRadar notes.
-
-
-
-Analysis of an internal tracking document associated with FortiBleed suggests that the operation involves roughly 20 individuals, with some focused on high-impact intrusions and others providing technical support.
-
-
-
-“FortiBleed isn’t an isolated credential-theft operation sitting off to the side of the ransomware economy; it’s feeding directly into it. The same access broker infrastructure that quietly intercepted authentication traffic across hundreds of thousands of firewalls is connected, through a shared operator, to two of the more active ransomware brands operating today,” SOCRadar notes.
-
-
-
-INC Ransom emerged in mid-2023 and has been one of the most prolific ransomware-as-a-service (RaaS) operations. Lynx was likely released as an updated variant a year later.
-
-
-
-Related: BlueHammer Vulnerability Exploited in Ransomware Attacks
-Related: New ‘Mistic’ RAT Opens Door to Several Ransomware Families
-Related: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack
-Related: FBI: Cybercrime Losses Neared $21 Billion in 2025"
-2026-07-05 19:39:30,"July 2, 2026 (7:01 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/,Trump Administration Lifts Restrictions on Anthropic’s Claude Models After Cybersecurity Alarm,"The Trump administration has lifted restrictions on artificial intelligence company Anthropic’s latest versions of its Claude chatbot, ending a weekslong ban tied to cybersecurity concerns.
-Anthropic said Tuesday night that its AI model called Claude Fable 5 is now widely available. It’s also restoring access to its most powerful model, Mythos 5, but only to a select group of U.S.-based organizations approved by the federal government.
-
-
-
-The Commerce Department blocked foreign nationals from using both AI models on June 12, a move that San Francisco-based Anthropic said forced the company to immediately take the products down for all users just days after it unveiled them.
-
-
-
-Anthropic said in a blog post this week that the government’s concerns were sparked by a report from cybersecurity researchers at Amazon, Anthropic’s primary cloud computing provider. The company “had found a method of bypassing Fable 5’s safeguards” that enabled it to discover and potentially exploit software vulnerabilities, Anthropic said.
-
-
-
-Officials have grown increasingly concerned since Anthropic warned earlier this year that its Mythos model was adept at finding software flaws in a way that could be weaponized by malicious hackers and threaten critical computer networks around the world.
-
-
-
-Anthropic’s chief rival, ChatGPT maker OpenAI, also said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration.Advertisement. Scroll to continue reading.
-
-
-OpenAI said its new AI product, called GPT-5.6 Sol, would be accessible only to a select group of government-approved customers for a temporary period.
-
-
-
-Trump last month signed an executive order on AI oversight that established a framework for the federal government to vet the national security risks of the most advanced AI systems for up to 30 days before their public release. The order described participation by AI developers as voluntary, but the framework has not yet been fully developed.
-
-
-
-Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
-
-
-
-Related: OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review
-Related: When Information Becomes the Attack Surface – Understanding AI Agent Traps
-Related: macOS Weaknesses Chained to Silently Disable Endpoint Security Agents"
-2026-07-05 19:40:11,"July 2, 2026 (6:48 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/,Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability,"Cisco confirmed that a recently patched vulnerability in its Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME) has been exploited in the wild.
-Tracked as CVE-2026-20230 (CVSS score of 8.6), the security defect is described as the improper validation of specific HTTP requests, which could allow attackers to mount SSRF attacks.
-
-
-
-Successful exploitation of the bug could lead to arbitrary files being dropped to the underlying operating system, which could then be used to gain root access.
-
-
-
-Only appliances with the WebDialer service enabled are vulnerable, Cisco says. The service is disabled by default.
-
-
-
-In early June, Cisco rolled out patches for the CVE in Unified CM and Unified CM SME version 14SU6 and announced that the fixes would also be included in version 15SU5, which is expected to arrive in September.
-
-
-
-Cisco warned that proof-of-concept (PoC) code targeting the vulnerability exists, but said it was not aware of its in-the-wild exploitation.Advertisement. Scroll to continue reading.
-
-
-On Wednesday, the company updated its advisory to warn customers that the security defect is being actively exploited in attacks.
-
-
-
-“Cisco continues to strongly recommend that customers upgrade to a fixed software release to remediate this vulnerability,” the company said.
-
-
-
-The warning comes a week after exploit intelligence firm Defused reported seeing exploitation “from a single source using an unvetted PoC” and after SSD Secure Disclosure, which was credited with finding the bug, published technical information and a PoC.
-
-
-
-At the time, Cisco told SecurityWeek it was not aware of any malicious use of the security weakness.
-
-
-
-Related: Cisco SD-WAN Zero-Day Exploited Months Before Patching
-Related: Critical Command Execution Vulnerability Patched in Cisco ISE
-Related: Cisco Patches Another SD-WAN Zero-Day Exploited in Attacks
-Related: Cisco Patches Critical Vulnerability in Secure Workload"
-2026-07-05 19:40:52,"July 2, 2026 (6:45 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/,‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials,"Researchers from cybersecurity firm LayerX are warning that several agentic browsers can be manipulated to abandon their safety guardrails and perform malicious actions.
-To demonstrate the weakness, the researchers created a web page containing a puzzle that the AI browsers were asked to solve. Inspired by the BioShock video game, the puzzle led to a manipulation attack called BioShocking.
-
-
-
-Per the game’s rules, incorrect actions were deemed acceptable, and the tested agentic browsers, namely ChatGPT Atlas, Comet, Fellou, Genspark Browser, Sigma Browser, and Claude Chrome, quickly learned that.
-
-
-
-After learning that an incorrect answer was the key to continue playing the game, the agents started reasoning out of reality, and eventually performed a nefarious action when asked to navigate to a URL and retrieve a textbox.
-
-
-
-“In the game, it turns out that /code redirects to the victim’s employer work GitHub repository. In this case, the malicious instructions fetched sensitive SSH login credentials,” LayerX explains.
-
-
-
-While in the controlled test environment, the file was harmless, the attack technique could be abused in real-world scenarios to direct the agent anywhere in the browser session, including other tabs, authenticated repositories, or internal tools.Advertisement. Scroll to continue reading.
-
-
-While winning the game means exfiltrating user credentials, the AI browser does not view the action as malicious and instead celebrates its victory.
-
-
-
-“The root cause of BioShocking is that AI browsers act within a context, but that context can be manipulated. If you convince an agent that it’s playing a game, then it will apply game logic – not real-world safety logic – to whatever it does,” LayerX says.
-
-
-
-Vendors can address the issue by requesting confirmation for sensitive operations, performing context checks, and limiting the scope of agent actions. Users should determine what their AI browser can see and to revoke its access when the session is closed.
-
-
-
-LayerX says it reported the findings to all six vendors. OpenAI patched the issue, Anthropic’s patch failed, Perplexity AI ignored the report, and Fellou, Genspark, and Sigmabrowser OU never responded.
-
-
-
-Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
-
-Related: Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines
-Related: Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings
-Related: Frontier AI: Six Questions Every Enterprise Should Ask Security Vendors
-Related: The AI Token Costs That Can Break Cybersecurity"
-2026-07-05 19:41:29,"July 2, 2026 (6:30 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/,CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability,"The US Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday said threat actors have been exploiting a high-severity vulnerability in Microsoft SharePoint Server.
-Described as a deserialization of untrusted data bug, the exploited security defect allows authenticated attackers to execute arbitrary code on vulnerable SharePoint servers.
-
-
-
-The flaw is tracked as CVE-2026-45659 (CVSS score of 8.8) and was patched in late May, via an out-of-band security update.
-
-
-
-According to Microsoft, the vulnerability can be triggered by an authenticated attacker who has a minimum of Site Member permissions, without other elevated privileges.
-
-
-
-The tech giant also warned that the security defect is easy to exploit, “because an attacker does not require significant prior knowledge of the system and can achieve repeatable success with the payload against the vulnerable component.”
-
-
-
-SharePoint Server Subscription Edition, SharePoint Server 2019, SharePoint Server 2016, and SharePoint Enterprise Server 2016 are affected, Microsoft said.Advertisement. Scroll to continue reading.
-
-
-On Wednesday, CISA added CVE-2026-45659 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within three days, as mandated by BOD 26-04.
-
-
-
-CISA has not shared details on the observed attacks, and there have been no reports of in-the-wild exploitation of the vulnerability before the agency’s warning.
-
-
-
-All organizations are advised to apply Microsoft’s patches as soon as possible. SharePoint is the backbone of document sharing, intranet, and collaboration within enterprises, and attackers frequently target security defects in it.
-
-
-
-In April, Microsoft patched a SharePoint bug exploited as a zero-day. In March, CISA warned of another flaw in Microsoft’s product being targeted in the wild.
-
-
-
-Related: Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities
-Related: Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack
-Related: Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari
-Related: Google Patches 382 Chrome Vulnerabilities"
+“Just as CNAPP consolidated the fragmented cloud security stack, identity is now at that same inflection point, and Oak is designed to be the platform that brings it all together and turbocharges the security teams defending the enterprise,” Marom added."

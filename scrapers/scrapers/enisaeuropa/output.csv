@@ -1,5 +1,77 @@
 fetchingDate,creationDate,author,authorLink,articleLink,articleTitle,articleText
-2026-07-05 19:32:41,"Jul 01,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/your-perspective-matters-join-the-nis360-survey,Your Perspective Matters: Join the NIS360 survey,"ENISA launches a survey for both national authorities and high criticality entities under NIS2 in preparation of the next edition of the NIS360 report.
+2026-07-19 20:28:58,"Jul 14,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai,ENISA on Air: Our first podcast launches on Frontier AI,"ENISA launches a podcast series to decrypt the latest cybersecurity developments and discuss issues that shape Europe's cybersecurity landscape.
+
+ENISA wanted to provide its audiences with a new channel to share updates from the Agency but importantly to create a space where we will have the opportunity to promote ENISA’s cybersecurity expertise and raise awareness for EU level cybersecurity and its opportunities.
+Through this podcast series, the Agency looks at the risks, the trends, the decisions that matter from cyber resilience to emerging technologies to trust and cooperation needed for Europe's digital future. Hosted by ENISA Associate Chief Cybersecurity and Operations Officer Florian Pennings and ENISA Spokesperson Laura Heuvinck, this first series will bring a number of podcasts throughout 2026.
+For our first episode, we welcomed Jaya Baloo, co-founder of AISLE™ and Razvan Gavrila, Head of Sector at ENISA, to explore the latest developments and impact of Frontier AI on cybersecurity. In July 2026, the Agency published a note on ‘ENISA’s View on Cybersecurity in the Frontier AI Era’ which provides national competent authorities in Member States and EU policymakers, defenders, and service providers with an initial set of recommendations to support them in their respective roles towards developing the necessary operational capabilities to face machine-speed threats.
+Future episodes will address on key cybersecurity topics such as Europe’s cyber threat landscape, vulnerability management as well as flagship ENISA work such as the upcoming Single Reporting Platform and State of Cybersecurity in the Union 2026 report. 
+Tune in, follow along and join the conversation! The podcast is available on YouTube, Spotify and Apple podcast and Deezer, with new episodes coming soon. 
+
+ENISA on Air – YouTube Channel
+ENISA on Air - Podcast - Apple Podcasts
+ENISA on Air | Podcast on Spotify
+ENISA on Air - Deezer
+ENISA’s view on Cybersecurity in the Frontier AI Era | ENISA"
+2026-07-19 20:28:58,"Jul 13,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/where-do-smes-stand-in-preparing-for-the-cyber-resilience-act,Where do SMEs stand in preparing for the Cyber Resilience Act?,"The EU Agency for Cybersecurity (ENISA) publishes the Micro, Small and Medium-sized enterprises (SME) Cyber Resilience Maturity Assessment Model, a simple and practical guidance for SMEs to support them assess their current status, identify improvements and strengthen their cyber resilience practices.
+
+As SMEs make up a large part of EU´s digital ecosystem, their ability to understand and implement the Cyber Resilience Act (CRA)is significant for the regulation’s success. Particularly, as smaller organisations face practical challenges related to resources, expertise, time and implementation capacity. To help address this, as part of the European Commission’s SME cybersecurity strategy, ENISA is working on practical guidance, tools and support activities tailored to the realities and needs of smaller organisations.
+The SME Cyber Resilience Maturity Assessment Model provides a structured approach for SMEs to evaluate and strengthen their overall cyber resilience, while taking into account the requirements of the CRA. The model is primarily intended for organisations that manufacture and place products with digital elements on the market, as these are directly subject to CRA requirements. However, it can also be used by other organisations involved in the product life cycle, such as integrators or service providers, to assess and improve their product security practices.
+It focuses on the following five domains, with each domain divided into five maturity criteria that reflect expected practices under the CRA and product security approaches:
+
+governance and documentation,
+risk management and security by design and by default,
+vulnerability and patch management,
+product life cycle management,
+awareness, competence and skills.
+
+The model suggests three maturity profiles: basic, intermediate and advanced, intended to show how consistently product-related risks are managed in the organisation. Overall, this model reflects practices supporting the implementation of the CRA and supports organisations in strengthening their product security and cyber resilience over time in a structured and manageable way. However, having an advanced maturity level does not replace legal obligations and should not be considered evidence of compliance. 
+To support practical implementation, the maturity model includes a downloadable Excel tool that guides users through the process, automatically calculates maturity scores and helps SMEs to track progress across repeated self-checks.
+A survey on SMEs preparedness in light of the CRA
+ENISA recently published the findings of the ENISA SME CRA Survey, conducted in February and March 2026. The survey covered awareness of the CRA, understanding of its requirements, existing cybersecurity practices, organisational responsibilities and anticipated challenges related to compliance. Additionally, the survey gathered feedback on the support SMEs need and established a baseline for their maturity in product security practices. 
+In line with the European Commission definition of SMEs, the sample included SMEs, covering microcompanies, small companies and medium-sized companies. A total of 194 organisations responded from 31 countries, including 25 EU Member States, and geographical groupings.
+Key findings of the report
+
+Gap between awareness and practical readiness. 66 % of respondents had heard of CRA before the survey but results suggest that there is still room for improvement in understanding practical requirements.
+The size of the enterprise is the most consistent factor influencing the level of maturity. Across all five domains in the survey, medium-sized companies scored about one point higher than microcompanies on average. 
+Incident response and product life cycle management is the weakest area overall, particularly for microcompanies. 
+Practical templates are the most requested form of support. Technical documentation templates and secure development templates were each requested by more than 70 % of respondents.
+The challenge of resources, cost and time management for SMEs, with 142 of the responded underlining the need for financial support.
+SMEs do not rely on a single source of CRA information, thus effective outreach will require a combination of communication formats and platforms.
+
+Based on the findings, the report provides recommendations on the identified challenges covering documentation and conformity assessment, technical documentation templates, incident response and product life cycle management, financial support as well as the specific recommendations for microcompanies. 
+
+SME Cyber Resilience Maturity Assessment Model
+SME CRA Survey Report | ENISA
+SME Cyber Resilience Act Survey | ENISA
+SMEs Cybersecurity | ENISA"
+2026-07-19 20:28:58,"Jul 10,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/team-europe-wins-1st-ever-international-cybersecurity-challenge-for-women,Team Europe wins 1st ever International Cybersecurity Challenge for women,"For the past 2 days, women only international teams competed against one another and tested their cybersecurity skills and related competences. Ireland staged this first international competition dedicated to women. Congratulations to the winning team: Team Europe!
+
+The 2-day event hosted in Dublin, brought together elite women cybersecurity competitors coming from all over the world. The challenge tested them on technical excellence, but also adaptability, coordination, communication, and strategic thinking under pressure.
+The success of the female Team Europe in past competitions is a testimony of how our European values remain at the core of ENISA’s endeavours to lead change in an impactful way.
+Objectives
+The event aims to foster the next generation of women leadership in cybersecurity. This international challenge therefore offered a unique opportunity for the promotion of women in cybersecurity roles.
+9 teams competed, each representing a region of the world 
+These teams included team Asia, team Africa, LAC Women’s Cyber Team, Team Oceania, UK Cyber Team, US Cyber Team, Ukraine G1rlUn1ty, Team Canada and Team Europe. Each team was associated with the name drawn from myth or urban legends.
+What did the challenge consist of?
+The WICC moves beyond traditional ‘Capture The Flag’ (CTF) formats to create a more dynamic and engaging competitive experience.
+Teams were challenged on cryptography, reverse engineering, digital forensics, web exploitation, binary exploitation, hardware security, open-source intelligence (OSINT) and attack & defence.
+However, in the process of solving such challenges, teams also needed to remain alert to evaluate opportunities and risks so that they could take time-sensitive tactical decisions throughout the event.
+The competition was therefore designed to be technically demanding, to require a strategic mindset, and collaborative efforts.
+And the winners are:
+1st place: Team Europe
+2nd place: US Cyber Team
+3rd place: Team Oceania
+Side networking events
+Workshops, discussion panels and other events allowed participants to meet organisers, industry professionals, researchers, and the wider cybersecurity community. The full programme came in support of collaboration, knowledge sharing, mentorship and international community building.
+The role of ENISA
+ENISA directly supports the participation of the female Team Europe in the Women International Cybersecurity Challenge 2026 (WICC2026), in close partnership with the European Cybersecurity Competence Centre (ECCC) and the European Commission.
+ENISA is a dedicated advocate of initiatives addressing gender inequality in cybersecurity. This includes supporting the participation of the female Team Europe as well as all the women who volunteered as coaches and trainers. ENISA is particularly grateful to all these women who helped run the bootcamps in order to prepare competitors for the qualifiers and hence form the final team.
+
+Home - Women's International Cybersecurity Challenge 2026
+European Cybersecurity Competence Centre and Network
+International Cybersecurity Challenge (ICC) | ENISA
+European Cybersecurity Challenge (ECSC) | ENISA"
+2026-07-19 20:28:58,"Jul 01,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/your-perspective-matters-join-the-nis360-survey,Your Perspective Matters: Join the NIS360 survey,"ENISA launches a survey for both national authorities and high criticality entities under NIS2 in preparation of the next edition of the NIS360 report.
 
 Following the publication of the NIS360 2026 report in May 2026, a new assessment cycle has now started with the launch of data collection and surveys for the NIS360 2027 edition.
 For this assessment, data is collected via an online platform using two structured questionnaires designed to assess cybersecurity maturity by combining insights from the private sector with perspectives from national authorities. The NIS360 surveys are carefully designed to ensure that data collected each year remains comparable and reflects overall trends. All responses are analysed in aggregate form, ensuring confidentiality.
@@ -16,7 +88,7 @@ The assessment relies on a structured methodology developed and continuously ref
 ENISA NIS360 survey 
 ENISA NIS360 – 2026 Report 
 NIS360: The bigger picture on maturity and criticality of NIS critical sectors | ENISA – Press release 2026"
-2026-07-05 19:32:41,"Jun 11,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience,Cyber Europe 2026: All eyes on the EU’s collective response and resilience,"Powered by the EU Agency for Cybersecurity, the 8th edition of the Cyber Europe exercise took place on 10-11 June, with the goal of enhancing cyber preparedness and ensuring continuity of essential services while protecting European rail and maritime networks.
+2026-07-19 20:28:59,"Jun 11,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/cyber-europe-2026-all-eyes-on-the-eus-collective-response-and-resilience,Cyber Europe 2026: All eyes on the EU’s collective response and resilience,"Powered by the EU Agency for Cybersecurity, the 8th edition of the Cyber Europe exercise took place on 10-11 June, with the goal of enhancing cyber preparedness and ensuring continuity of essential services while protecting European rail and maritime networks.
 
 The two-day exercise simulated realistic large-scale cybersecurity incidents that escalated to cyber crises affecting EU’s interconnected transportation systems. Participants needed to analyse advanced technical cybersecurity incidents, while dealing with the pressure generated by complex scenarios, inspired by real-case events and threats. Central to their efforts was the effective sharing of relevant information with the right stakeholders and peers, contributing to an adequate level of situational awareness at technical, operational and political level. To bring this year's edition to life, ENISA collaborated with over 100 leading cybersecurity experts from national cybersecurity agencies, EU and EFTA's public and private sectors, as well as from EU Entities, bringing together over 5000 participants. 
 Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security, and Democracy, said: “Transport is essential to our economy and daily lives, but it is also a target for cyber threats. When ports or railways are hit, effects can reach far beyond transport, disrupting trade, military mobility and crisis response. As hybrid threats blur the line between civilian and military infrastructure, preparedness is not optional. Cyber threats cross borders in seconds. Europe must be able to act just as fast, together with its closest partners.”
@@ -36,7 +108,7 @@ Cyber Europe | ENISA
 Cybersecurity Preparedness DIY: Build Your Own Cybersecurity Exercise | ENISA
 Cyber Europe 2024: Unveiling key insights from the cyber exercise that tested the cybersecurity of EU’s energy sector | ENISA
 Cyber Europe tests the EU Cyber Preparedness in the Energy Sector | ENISA"
-2026-07-05 19:32:41,"May 28,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors,NIS360: The bigger picture on maturity and criticality of NIS critical sectors,"This year’s edition of the ENISA NIS360 report shows improvement in cybersecurity maturity of EU critical sectors while the level of criticality in sectors remains comparatively more stable.
+2026-07-19 20:28:59,"May 28,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors,NIS360: The bigger picture on maturity and criticality of NIS critical sectors,"This year’s edition of the ENISA NIS360 report shows improvement in cybersecurity maturity of EU critical sectors while the level of criticality in sectors remains comparatively more stable.
 
 The ENISA NIS360 aims to work as an annual assessment tool supporting national authorities, policymakers and other stakeholders in assessing the cybersecurity maturity and criticality of high criticality sectors under the NIS2 Directive.
 ENISA Executive Director, Juhan Lepassaar, said: “The findings of this NIS360 report provide grounds to be optimistic. The implementation of the comprehensive EU cybersecurity regulatory framework, and particularly NIS2, has brought significant improvements. ENISA stands for prioritising cybersecurity and advancing the implementation of EU policies, which are vital now more than ever, to enhance the cyber resilience of our critical infrastructure and societies.”.
@@ -62,11 +134,11 @@ Despite maturity steadily improving across critical sectors, progress still rema
 Moving forward
 In the future, it is anticipated that cybersecurity legislation and organisations’ efforts to strengthen their cybersecurity maturity will continue to prompt cybersecurity investment and drive preparedness, leading to more sectors moving out of the risk zone.
 
-NIS360 Report
+NIS360 report
 ENISA NIS360 2024 report: A comprehensive look at cybersecurity maturity and criticality of NIS2 sectors | ENISA
 ENISA NIS360 2024 | ENISA
 NIS Investments 2025 | ENISA"
-2026-07-05 19:32:41,"May 20,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge,"5th consecutive victory for Team Europe, the still undefeated EU Champions of the International Cybersecurity Challenge","Outstanding Team Europe made it again to the top step of the podium of the 5th edition of the International Cybersecurity Challenge, taking ownership of the winning title for the past five years.
+2026-07-19 20:28:59,"May 20,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/5th-consecutive-victory-for-team-europe-the-still-undefeated-eu-champions-of-the-international-cybersecurity-challenge,"5th consecutive victory for Team Europe, the still undefeated EU Champions of the International Cybersecurity Challenge","Outstanding Team Europe made it again to the top step of the podium of the 5th edition of the International Cybersecurity Challenge, taking ownership of the winning title for the past five years.
 
 This year’s edition of the International Cybersecurity Challenge was hosted in Brisbane, Australia. With a total of 7 teams from Europe, Asia, LATAM and Caribe, Africa and North America more than 60 countries were represented.The ICC gathers top cybersecurity talents every year who come from all over the world. They are given a unique opportunity to compete and test their cybersecurity skills in an international setting.
 ENISA warmly congratulates all the winning teams:
@@ -95,7 +167,7 @@ The initiative builds on ongoing efforts to promote diversity, inclusion, and eq
 Home - International CyberSecurity Challenge
 International Cybersecurity Challenge (ICC) | ENISA
 Cyber Unbeatable: Team Europe Aces the 2025 International Cybersecurity Challenge | ENISA"
-2026-07-05 19:32:41,"May 06,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root,New CVE Numbering Authorities Under ENISA Root,"Today, four organisations have newly joined the Common Vulnerabilities and Exposures (CVE™) Program as CVE Numbering Authorities (CNAs) under ENISA Root. These organisations were all trained and onboarded by ENISA.
+2026-07-19 20:28:59,"May 06,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/new-cve-numbering-authorities-under-enisa-root,New CVE Numbering Authorities Under ENISA Root,"Today, four organisations have newly joined the Common Vulnerabilities and Exposures (CVE™) Program as CVE Numbering Authorities (CNAs) under ENISA Root. These organisations were all trained and onboarded by ENISA.
 
 ENISA acts as CVE Root for European entities within its scope, including vulnerabilities discovered by or reported to EU CSIRTs. As CVE Root, ENISA also supports the gradual transition of existing European CNAs under its Root. As part of the shared global responsibility for vulnerability management, currently, seven CNAs have moved from MITRE Root to ENISA Root, in addition to the four new CNAs in the Program.
 Hans de Vries, Chief Cybersecurity and Operations Officer, stated: ""Onboarding and training our first CNAs under ENISA Root is a major milestone for European cybersecurity. It strengthens Europe’s operational contribution to the global CVE Program and improves the reliability, timeliness, and coordination of vulnerability handling across the EU. At a time when frontier AI models are accelerating vulnerability discovery and exploitation, Europe’s vulnerability management capacity must keep pace and provide trusted operational support to the wider cybersecurity community.""
@@ -115,7 +187,7 @@ ENISA became a CVE Root for European entities in November 2025. As such, ENISA s
 ENISA’s role as Root includes recruiting, onboarding, training, supporting, and managing CNAs within its scope, facilitating their transition where relevant, and ensuring the effective assignment of CVE Identifiers (CVE IDs) and publication of CVE Records. This role also helps ensure that CVE Program rules, guidelines, and processes are followed.
 About the CVE Program 
 The mission of the CVE™ Program is to identify, define, and catalog publicly disclosed cybersecurity vulnerabilities. There is one CVE Record for each vulnerability in the catalog. The vulnerabilities are discovered then assigned and published by organizations from around the world that have partnered with the CVE Program. Partners publish CVE Records to communicate consistent descriptions of vulnerabilities. Information technology and cybersecurity professionals use CVE Records to ensure they are discussing the same issue, and to coordinate their efforts to prioritize and address the vulnerabilities."
-2026-07-05 19:32:41,"Apr 22,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework,Assess your National Cybersecurity Capabilities and Maturity with the updated ENISA Framework,"ENISA has released the updated National Capabilities Assessment framework – NCAF 2.0,  a methodology aimed at supporting national authorities strenghten their cybersecurity capabilities and assess the maturity of national cybersecurity strategies’ implementation.
+2026-07-19 20:28:59,"Apr 22,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/assess-your-national-cybersecurity-capabilities-and-maturity-with-the-updated-enisa-framework,Assess your National Cybersecurity Capabilities and Maturity with the updated ENISA Framework,"ENISA has released the updated National Capabilities Assessment framework – NCAF 2.0,  a methodology aimed at supporting national authorities strenghten their cybersecurity capabilities and assess the maturity of national cybersecurity strategies’ implementation.
 
 The revised National Cybersecurity Capabilities Framework – NCAF 2.0 and online tool provide national authorities with a practical and flexible tool to better understand where the implementation of National Cybersecurity Strategies (NCSS) stands and where further efforts should be directed. Through its structured assessment approach, the framework allows Member States to identify strengths, gaps, and priority areas.  By assessing the maturity of the objectives defined within national strategies, it helps authorities track progress, both at strategic and operational levels.
 At EU level, NCAF 2.0 provides a common reference framework to facilitate mutual learning, the exchange of best practices, and discussions on cybersecurity capability development. It reflects the evolving EU cybersecurity policy landscape and is aligned with key legislative initiatives such as the NIS2 Directive. It also supports Member States in preparing for the voluntary peer review process foreseen under Article 19 of the NIS2 Directive. 
@@ -128,7 +200,7 @@ National Capabilities Assessment Framework 2.0 - 2026
 NCAF 2.0 Online tool – 2026
 National Cybersecurity Strategies – Guidelines Tools
 National Cybersecurity Strategies – Interactive map"
-2026-07-05 19:32:41,"Apr 03,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets,ENISA advances the certification of EU Digital Wallets,"ENISA launches a public consultation on the draft candidate EU Digital Wallet certification scheme, subsequent to the scheme’s development with the dedicated Ad Hoc Working Group.
+2026-07-19 20:28:59,"Apr 03,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/enisa-advances-the-certification-of-eu-digital-wallets,ENISA advances the certification of EU Digital Wallets,"ENISA launches a public consultation on the draft candidate EU Digital Wallet certification scheme, subsequent to the scheme’s development with the dedicated Ad Hoc Working Group.
 
 Following the adoption of a regulation to establish the European Digital Identity Framework, the European Commission has requested ENISA to provide support for the certification of European Digital Identity (EUDI) Wallets, including the development of a candidate European cybersecurity certification scheme in accordance with the Cybersecurity Act.
 The public consultation aims to validate the principles and general organisation of the proposed scheme, and to gather feedback on the proposed elements of the draft candidate scheme and on its annexes. The deadline for providing responses is 30 April 2026.
@@ -151,61 +223,3 @@ The EU Digital Identity Wallets will also be discussed at the 2026 European Cybe
 Draft candidate EUDIW Scheme v0.4.614 for Public Review - European Union Cybersecurity Certification
 EUDI Wallet - European Union Cybersecurity Certification - European Union
 EU Digital Identity Wallet: A leap towards secure and trusted electronic identification through certification | ENISA"
-2026-07-05 19:32:41,"Feb 16,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/cybersecurity-preparedness-diy-build-your-own-cybersecurity-exercise,Cybersecurity Preparedness DIY: Build Your Own Cybersecurity Exercise,"The ENISA Cybersecurity Exercise Methodology aims to empower and guide organisations in developing effective cybersecurity exercises from start to finish.
-
-Cybersecurity exercises are essential for preparing, testing and enhancing team and system capabilities to respond to the emerging cyber threats. For over a decade, ENISA has been leading the way in cybersecurity preparedness by organising cybersecurity exercises at a local, international, and EU-wide level. One of the biggest is the biennial Cyber Europe exercise. This is a series of large-scale, cross-border cyber crisis management exercises, featuring complex realistic scenarios inspired by real-case events and threats. 
-In this direction, and building on its long-term experience, ENISA has developed a cybersecurity exercise methodology to provide a practical yet comprehensive approach to simulating cyber crisis and training, building resilience and agility in mitigating cyber risks. 
-Cybersecurity Exercise Methodology at a glanceThe methodology offers an end-to-end theoretical framework for planning, running and evaluating cybersecurity exercises. Its main objective is to support organisations develop and plan exercises that are impactful and effective in building capabilities through testing their skills, processes and policies. The material is based on lessons identified, industry best practices and cybersecurity expertise. Complemented by a support toolkit that includes a set of examples, templates and practical guidance, this ENISA methodology provides a structured and straightforward approach to the whole cybersecurity exercise lifecycle. The lifecycle can be divided into six key phases:
-Go/no-go checklists at each stage aim to eliminate oversights, making sure that all necessary requirements are met in view of timely minimising potential risks and improving overall effectiveness. 
-Who can benefit from the Methodology?
-This methodology aims to help professionals, organisations, and governments plan and execute cybersecurity exercises that effectively stress-test their skills and resilience. Originally developed for EU-level crisis management, this methodology is ideal for planners organising national or sector-specific exercises. 
-This documentation was created to be useful for organisations regardless of their current maturity level. Beyond just identifying lessons learned, it guides you in building a concrete plan to close gaps and strengthen your organisations preparedness.
-Cyber Exercises by ENISA
-ENISA has tested and validated the methodology in practice through past exercises, capturing both the Agency's approach to delivering exercises and reflecting the input of the growing exercise community. ENISA has been involved in organising diverse cybersecurity exercises to test the cybersecurity of the EU's critical infrastructure and its ability to coordinate cross-border responses. The Agency has been supporting the organisation of exercises, such as the annual BlueOLex exercise for EU-CyCLONe Members, as well as the EU-ELEx exercise for the European Commission and the European Parliament. Additionally, it has assisted the execution of national exercises by EU Member States (HealthEx.DK, HealthEx.LV) and other EU Institutions, Bodies and Agencies, for example the security and business continuity exercise with eu-LISA or the Joint Awareness & Preparedness Cyber Security Exercise (JASPER) with CERT-EU.
-A living document shaped by real-world use
-As the cybersecurity landscape continuously evolves, we also need to improve our approach, adapt our strategies and learn from each other. This methodology is designed to be a living document, not a static rulebook. All users are encouraged to actively support its evolution through the collective experience gained by its use. From practical challenges to innovative approaches and real-life examples, feedback is valuable to further enhance the methodology and eventually benefit the entire community. To share practical feedback or insights, please contact us directly at exercises@enisa.europa.eu
-
-ENISA Cybersecurity Exercise Methodology
-Cyber Europe | ENISA
-Cyber Europe 2024: Unveiling key insights from the cyber exercise that tested the cybersecurity of EU’s energy sector | ENISA"
-2026-07-05 19:32:41,"Feb 09,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/updated-international-strategy-to-empower-the-eu-cybersecurity-ecosystem,Updated International Strategy to empower the EU Cybersecurity Ecosystem,"The revised ENISA International Strategy renews the Agency’s approach to engagement with its international partners. It strengthens the alignment to the EU’s international cybersecurity policies, the promotion of EU values, and fortifies our mission to achieve higher common level of cybersecurity across Europe.
-
-The digital landscape we navigate today is increasingly interconnected. Cyber threats have no borders, and therefore cooperation is essential. ENISA therefore seeks to strategically engage with its international partners outside of the EU working within its mandate. The main objective of ENISA in doing so is to raise cybersecurity levels within the European Union. ENISA hence engages internationally when such cooperation supports this mission. 
-ENISA Executive Director, Juhan Lepassaar stated: “International cooperation is essential in cybersecurity. It complements and strengthens the core tasks of ENISA, to achieve a high common level of cybersecurity across the Union. Together with our Management Board, ENISA determines how we engage at international level to achieve our mission and mandate. ENISA stands fully prepared to cooperate on the global stage to support the EU Member States in doing so.” 
-
-As an integrated part of ENISA’s overall strategy and in particular its recently renewed stakeholders’ strategy, the renewed international strategy focuses on international partners sharing the EU’s values, and with which the Union has strategic relationships. Cooperation currently covers:
-
-More tailored working arrangements with specific countries (Ukraine, the US), focusing on capacity-building, best practice exchange and information / knowledge exchange;
-Supporting the European Commission and the European External Action Service (EEAS) in the EU’s cyber dialogues, for example with Japan or the UK;
-Support for the EU candidate countries of the Western Balkans region. Starting in 2026, this is designed to extend specific ENISA frameworks and tools for instance through the development of comparative cyber indexes or exercise methodologies or by providing trainings;
-Making the EU Cybersecurity Reserve established through the 2025 EU Cyber Solidarity Act operational for third countries associated with the Digital Europe Programme such as Moldova;
-Support for the cybersecurity work of the G7 cybersecurity Working Group, providing EU level cybersecurity expertise where required and;
-Exploring cooperation with like-minded partners.
-
-The strategy confirms the principles which guide the international cooperation work of ENISA and the working modalities with the European Commission, the EEAS and EU Member States. These were put in place by the ENISA Management Board, following the adoption of the first international strategy in 2021 and have been further consolidated and clarified based on best practices. 
-
-New ENISA International Strategy
-ENISA International Cooperation
-ENISA International Strategy 2021-2025"
-2026-07-05 19:32:41,"Feb 06,2026",enisa-europa,https://enisa.europa.eu/,https://enisa.europa.eu/news/eu-agencies-network-leadership-at-a-time-of-change-in-the-eu,EU Agencies Network leadership at a time of change in the EU,"As Chair of the EU Agencies Network (EUAN) 2025-2026, ENISA pursued key priorities on implementing the new governance framework of the network, it asserted the role of Agencies as key institutional partner and strengthed cybersecurity across the EU Agencies and Joint Undertakings, leading to greater efficiency through sharing services.
-
-Bringing together 52 EU Agencies and Joint Undertakings, EUAN supports over 14,000 staff located across almost all Member States covering many portfolios. In the first week of February 2026, Agency Directors and leaders on resources and human resources alike joined topical coordination meetings in Athens to discuss ways to respond to challenges at a time of change for the EU. These events brought together the Heads of Agency Directors, Heads of Resources and Heads of Human Resources.
-Efficient public management by means of Shared Services
-On the sidelines of the Heads of Agencies meeting, the Directors of European Institute of Innovation and Technology (EIT), European Food Safety Authority (EFSA) and ENISA signed a Memorandum of Understanding (MoU) to reassert cooperation on shared services that had previously been launched as a pilot.
-Shared Services have long been scoped and the latest iteration of the pilot in 2026 focuses on selected HR services, cybersecurity compliance, preparedness and response, as well as legal services. The pilot established an operational framework, with a view to bringing about concrete change and to consolidating the experience acquired.
-A valued institutional partner
-During its term at the coordination help, ENISA proactively interacted with selected EU Institutions including European Commission, European Parliament and the Council of the European Union, as well as with the European Court of Auditors, and other stakeholders as appropriate.
-Member of the European Parliament Mr. Hélder Sousa Silva, Standing Rapporteur of the European Parliament BUDG Committee, visited ENISA’s headquarters for a bilateral exchange with the Executive Director and senior management. The meeting built on the dialogue launched at the EU Agencies Network (EUAN) Heads of Agencies meeting in February 2025, where he joined as a guest speaker on the next EU long-term budget, the Multiannual Financial Framework 2028-2034, which heralds EU policy change at a scale.
-During his visit to ENISA, MEP Sousa Silva underlined his commitment to work closely with de-centralised Agencies and Joint Undertakings and highlighted the need to balance longstanding EU priorities with emerging ones, while ensuring greater flexibility and cutting unnecessary red tape.
-ENISA, has led close collaboration with the European Commission on key HR priorities - encouraging staff performance, attracting and retaining talent, and fostering inclusive workplaces while addressing challenging topics, including aspects of recruitment, staff management and teleworking and financial planning.
-Alongside collaboration on increasing efficiency and better resource planning, the focus of the inter-institutional cooperation was on the next Multiannual Financial Framework. These exchanges helped connect policies’ priorities with the concrete ways to deliver tangible results.
-Supporting an enhanced cybersecurity
-In an effort to step up on user awareness, making available tools and methods to strengthen cybersecurity across EU Agencies and Joint Undertakings has been a standing priority of the ENISA EUAN Chair. In this vein, ENISA supports Agencies in improving cybersecurity preparedness and thus, helps them comply with EU compliance requirements. In the plenary meeting in Athens, gamification in cybersecurity let Agencies’ Directors come to terms with the challenges that cybersecurity response is all about.
-EU Agencies Network
-The role of the EUAN is to enable structured collaboration across EU decentralised Agencies and Joint Undertakings to drive innovation, enhance efficiency, and strengthen Europe’s competitiveness. Through closer cooperation, EUAN members deliver better services and build a smarter, safer Europe that meets the needs of all citizens.
-EUAN is led by a Steering Board (SB) which in 2025 was composed of the Directors of EIT, CEPOL, ELA, SESAR JU, CPVO as well as Pillar Coordinators from EEA, EFSA, F4E and later CdT; in 2025-26, ENISA chaired the EUAN SB. The EUAN Shared Services Office supports a broad range of cost-effective services to EUAN Board and the Network as a whole.
-ENISA has been grateful to all stakeholders for their enthusiasm to contribute to EUAN, be constructive in the face of change and strengthen the EU further. Our wishes for success go to ELA, the incoming Chair of EUAN in the next term.
- 
-
-EU Agencies Network website
-ENISA to Walk the Walk as EU Agencies Network Coordinator | ENISA"
