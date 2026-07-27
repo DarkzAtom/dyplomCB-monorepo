@@ -5,6 +5,7 @@ from scrapers.nask import main as nask_main
 from scrapers.sekurak import main as sekurak_main
 from scrapers.enisaeuropa import main as enisaeuropa_main
 from scrapers.cybersecuritydive import main as cybersecuritydive_main
+from clean_lastsaved_links import clean_lastsaved_links
 from dotenv import load_dotenv
 import time
 
@@ -12,6 +13,13 @@ import time
 # os.getenv("HEADLESS") at launch time, and this runner is invoked directly
 # (it doesn't import pinecone_sync, which is what loads dotenv on the main.py path)
 load_dotenv(dotenv_path=".env")
+
+# DYP-62: wipe every scraper's lastsaved_articlelink.txt before testing. The
+# collectors stop at the first link equal to that pointer, so after a normal run
+# a healthy scraper finds nothing new and still reports OK — testing nothing. An
+# empty pointer matches no link, so each scraper re-fetches its listing in full.
+# The collectors write the newest link back at the end of their run anyway.
+clean_lastsaved_links()
 
 
 # just trying to run the scrapers to check which one is alive and which one is not
