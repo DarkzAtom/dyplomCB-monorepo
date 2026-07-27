@@ -37,9 +37,9 @@ scrapers/.venv/bin/python -m pip install -r scrapers/requirements.txt
 
 echo "== scrapers: playwright browsers =="
 (cd scrapers && .venv/bin/python -m playwright install chromium)
-# darkreading/securityweek launch with channel='chrome' and need real Chrome
+# securityweek launches with channel='chrome' and needs real Chrome
 (cd scrapers && .venv/bin/python -m playwright install chrome) ||
-    echo "warning: couldn't install the Chrome channel (darkreading/securityweek use it) — install Google Chrome manually"
+    echo "warning: couldn't install the Chrome channel (securityweek uses it) — install Google Chrome manually"
 
 echo "== checking .env files =="
 for envfile in app/.env scrapers/.env; do

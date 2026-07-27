@@ -1,6 +1,5 @@
 from scrapers.thehackernews import main as thehackernews_main
 from scrapers.thecyberwire import main as thecyberwire_main
-from scrapers.darkreading import main as darkreading_main
 from scrapers.securityweek import main as securityweek_main
 from scrapers.nask import main as nask_main
 from scrapers.sekurak import main as sekurak_main
@@ -26,7 +25,6 @@ results = {
     "sekurak": "OK",
     "thecyberwire": "OK",
     "thehackernews": "OK",
-    "darkreading": "OK",
 }
 
 
@@ -110,19 +108,7 @@ except Exception as e:
     results["thehackernews"] = f"FAILED: {e}"
     print(f"Error running thehackernews_main: {e}")
 finally:
-    print("Finished running thehackernews_main. Moving to the next scraper.")
-    time.sleep(10)
-
-
-#DARKREADING
-try:
-    print("Running darkreading_main...")
-    darkreading_main.main()
-except Exception as e:
-    results["darkreading"] = f"FAILED: {e}"
-    print(f"Error running darkreading_main: {e}")
-finally:
-    print("Finished running darkreading_main. All scrapers have been tested.")
+    print("Finished running thehackernews_main. All scrapers have been tested.")
     time.sleep(10)
 
 

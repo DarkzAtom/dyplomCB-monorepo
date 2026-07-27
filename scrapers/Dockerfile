@@ -26,7 +26,7 @@ RUN pip install --no-cache-dir -r requirements-docker.txt
 # runtime libs explicitly, then download the browsers:
 #   - chromium: the bundled browser used by the *_links_collector scrapers.
 #   - chrome:   real Google Chrome, required by the article processors that pass
-#               channel='chrome' (thehackernews, securityweek, darkreading).
+#               channel='chrome' (thehackernews, securityweek).
 # Both use the pinned playwright==1.52.0 so versions stay matched.
 RUN apt-get update && apt-get install -y --no-install-recommends \
       libnss3 libnspr4 libdbus-1-3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \

@@ -1,186 +1,142 @@
 fetchingDate,creationDate,author,authorLink,articleLink,articleTitle,articleText
-2026-07-19 20:37:20,"17 lipca 2026, 13:47",sekurak,https://www.sekurak.pl,https://sekurak.pl/gigawiper-wiper-stealer-ransomware-w-jednym-szczegolowa-analiza-malware/,"GigaWiper: wiper, stealer, ransomware w jednym. Szczegółowa analiza malware","Badacze bezpieczeństwa z Microsoft Threat Intelligence przeprowadzili analizę zaawansowanej kampanii, w której cyberprzestępcy wykorzystali rodzinę złośliwego oprogramowania o nazwie GigaWiper. Jak sama nazwa wskazuje, malware należy do kategorii wiperów, których głównym zadaniem jest bezpowrotne niszczenie danych na zainfekowanej maszynie. Działania te są realizowane poprzez usuwanie metadanych partycji dysków, szyfrowanie danych z losowym kluczem (nigdzie nie zapisywanym) oraz nadpisywanie sektorów na dysku losowymi bajtami. 
+2026-07-27 22:06:34,"26 lipca 2026, 00:56",sekurak,https://www.sekurak.pl,https://sekurak.pl/jak-ugryzc-nis2-bez-wydawania-fortuny-i-bez-wiecznego-strachu-przed-karami-tylko-z-sekurakiem/,Jak ugryźć NIS2 bez wydawania fortuny i bez wiecznego strachu przed karami? Tylko z sekurakiem ;-),"7 lipca wystartowaliśmy z naszą Akademią NIS2/KSC2 od sekuraka – autorskim cyklem szkoleń opracowanych specjalnie dla osób odpowiedzialnych za wdrożenie nowych regulacji w organizacjach. Do miesiąca od startu szkolenia, tj. do 7 sierpnia br. można nadal dołączyć do kursu, z tym linkiem zgarniając jeszcze 10% zniżki.
+Temat unijnych dyrektyw i krajowych regulacji spędza sen z powiek wielu osobom – od administratorów i analityków, przez inspektorów ochrony danych, aż po zarządy firm oraz przedstawicieli sektora publicznego. W sekuraku postanowiliśmy podejść do tego tak, jak umiemy najlepiej – pokazać maksymalnie dużo merytoryki, odczarować prawniczy język i pokazać praktykę. Efekt?
+1400 osób zapisanych na pierwszą edycję kursu! Widać, że temat jest gorący i że szukacie merytorycznego wsparcia u zaufanego partnera. Uczestnicy oceniają dotychczasowe szkolenia na świetne 9/10 (były i takie z oceną 9,8/10!) i potwierdzają konkretny charakter Akademii (nie lejemy wody, podajemy praktyczne rozwiązania i wskazówki). Mocnymi punktami programu są materiały dodatkowe w postaci prezentacji, dokumentacji do wykorzystania w organizacjach oraz słowniczka pojęć. Dedykowany Discord szkolenia, na którym spotykają się sami uczestnicy kursu i trenerzy, rozgrzewa nieustająca dyskusja, jak ogarnąć to całe NIS2/KSC2, jakie rozwiązania się sprawdzają, a jakie wcale. To nas cieszy szczególnie, lubimy integrować społeczność!
+Jak widać, dzieje się sporo– i mimo wakacji program szkoleniowy ruszył z impetem i działa pełną parą. Poniżej krótkie podsumowanie tego, co zdążyliśmy już pokazać na żywo. Jeśli przegapiliście któreś ze spotkań – przypominamy, że do 7 sierpnia br. możecie się cały czas zapisać. Są dostępne nagrania, a do nagrań i materiałów zawsze możecie wrócić w dogodnym dla Was momencie.
+
+Dołączcie do 1400 uczestników Akademii NIS2/KSC2 od sekuraka. Kliknijcie w poniższy link i skorzystajcie z 10-procentowej zniżki.
+Zapisy"
+2026-07-27 22:06:34,"24 lipca 2026, 09:47",sekurak,https://www.sekurak.pl,https://sekurak.pl/nowa-wariant-ataku-wstrzykniecia-bioshocking-ai-badacze-przekonali-ai-ze-to-tylko-gra-efekt-zignorowanie-zasad-bezpieczenstwa-i-kradziez-danych/,"Nowy wariant ataku wstrzyknięcia – BioShocking AI. Badacze przekonali AI, że to tylko gra. Efekt? Zignorowanie zasad bezpieczeństwa i kradzież danych","Badacze z LayerX znaleźli sposób na “oszukanie” przeglądarek AI, aby wykonały one dowolną instrukcję. Udało im się przekonać je do naruszenia zabezpieczeń, ujawnienia danych użytkownika, kopiowania kodu, wykonywania poleceń systemowych i nie tylko.
 TLDR:
 
-Badacze z Microsoft przeprowadzili analizę kampanii, w której atakujący wykorzystali złośliwe oprogramowanie o nazwie GigaWiper.
-Nie zostało dokładnie przedstawione, w jaki sposób dochodziło do infekcji.
-Malware oprócz niszczenia danych zapewnia cyberprzestępcom stały dostęp do infrastruktury celu (backdoor). Umożliwia szyfrowanie danych oraz wymuszanie okupu (ransomware). Pozwala na wykonanie dowolnego polecenia w środowisku użytkownika (RAT/stealer).
-Microsoft zaleca włączenie funkcji Tamper Protection oraz wdrożenie systemów EDR.
+Badacze z LayerX opisali atak BioShocking na przeglądarki AI, w którym wykorzystali manipulację kontekstem.
+Atak działa poprzez symulację gry, która skłania agenta do udzielania niepoprawnych odpowiedzi, co finalnie prowadzi do zignorowania zasad bezpieczeństwa.
+Badacze przetestowali atak na 6 narzędziach AI – żadne z nich nie wykryło próby wykradzenia danych z prywatnego repozytorium GitHub.
 
-Z drugiej strony, złośliwe oprogramowanie nosi znamiona backdoora, czyli narzędzia umożliwiającego atakującym stały, zdalny dostęp do zainfekowanego systemu. Dzięki niemu cyberprzestępcy mają możliwość monitorowania aktywności użytkownika oraz zdalnego zarządzania malware, poprzez wysyłanie odpowiednich komend sterujących.
-GigaWiper skupił uwagę analityków, głównie z uwagi na swoją strukturę. Analiza pokazała, że nie jest to pojedyncze, celowo zaprojektowane narzędzie, tylko zlepek różnych wariantów złośliwego oprogramowania (znanych z poprzednich kampanii). W jego architekturze można odnaleźć elementy:
+Odkrytej podatności nadali oni nazwę BioShocking. Inspiracją była gra wideo BioShock, w której postać gracza zostaje poddana praniu mózgu, aby uwierzyć w fałszywą rzeczywistość.
+Gdy sprawimy, że przeglądarka AI “uwierzy”, iż nie znajduje się w prawdziwym świecie (zwykle poprzez wstrzykiwanie promptów lub zatruwanie pamięci), możemy skłonić ją do wykonania dowolnego polecenia – ujawnienia poufnych informacji, zmiany haseł, czy zainstalowania malware.
+Metoda badaczy zadziałała na:
 
-ransomware Crucio – szyfrowanie plików za pomocą algorytmu AES w trybie CBC z losowo wygenerowanym kluczem, który nie jest nigdzie zapisywany/przesyłany. Taki sposób modyfikacji danych uniemożliwia ich odzyskanie. Zaszyfrowane pliki otrzymują rozszerzenie .candy.
-logiki FlockWipera – narzędzie początkowo zaimplementowane w języku C, przepisane na nowo na Golang (Go) umożliwiające wieloprzebiegowe, bezpieczne usuwanie danych na dysku systemowym. Coś na zasadzie linuksowego polecenia shred z kilkoma przebiegami.
-samodzielny wiper – kompaktowy komponent niszczący, który działa na poziomie dysków fizycznych. Odpowiada za usuwanie metadanych partycji oraz nadpisywanie sektorów.
+ChatGPT Atlas (OpenAI)
+Comet (Perplexity AI)
+Fellou (Fellou / ASI X INC)
+Genspark Browser (Genspark)
+Sigma Browser (Sigmabrowser OÜ)
+Claude Chrome plugin (Anthropic)
 
-Biorąc pod uwagę unikanie technik wykrycia, zastosowane mechanizmy są ściśle powiązane z tymi, które widzieliśmy przy okazji analizy HermeticWiper, CaddyWiper oraz ransomware BlackCat (ALPHV). Co ciekawe, badacze zidentyfikowali w kodzie artefakty (ścieżki PDB) odwołujące się bezpośrednio do nazwy GRAT. Może to świadczyć, że narzędzia te zostały zaimplementowane przez ten sam zespół deweloperski lub powstały wewnątrz jednego frameworka.
-Badacze nie wskazali w jaki sposób malware dostaje się do środowiska użytkownika. Skupili się przede wszystkim na tym, co się dzieje w systemie po uruchomieniu złośliwego oprogramowania.
-Wiper
-W pierwszej fazie następuje skanowanie dysków za pomocą WMI (Windows Management Instrumentation). 
-Enumeracja dysków za pomocą WMI. Źródło: microsoft.com
-W ten sposób zostaną zwrócone identyfikatory urządzeń oraz metadane dysków. Dane te są wykorzystywane m.in. do ustalenia miejsca instalacji systemu operacyjnego (najczęściej jest to \\.\PHYSICALDRIVE0). Kolejnym krokiem jest usunięcie struktur partycji z pozostałych dysków (funkcja main.unallocateDrive) oraz rozpoczęcie procedury wymazywania ich zawartości (main.writeRandToDrive). Warto dodać, że malware losuje za pomocą funkcji crypto/rand.Read pierwszy bajt każdego bufora, a pozostałą część wypełnia bajtami 0x00. Działanie to ma na celu unikanie wykrycia przez mechanizmy obronne, które w czasie rzeczywistym monitorują operacje na dysku i w przypadku wykrycia standardowego zerowania nośnika (bajt po bajcie) mogą zaalarmować o anomalii. 
-Po wyczyszczeniu dysków niezawierających systemu następuje ponowne uruchomienie komputera. Z racji tego, że metadane pozostałych dysków zostały usunięte, a system został zamknięty brutalnie, komputer nie wystartuje prawidłowo. Może pojawić się komunikat o braku systemu operacyjnego lub o uszkodzeniu sektora rozruchowego. Niemniej jednak, dane zapisane na dysku systemowym w tej konkretnej sytuacji nie zostały nadpisane ani usunięte. Poprzez odtworzenie partycji rozruchowej lub podpięcie dysku do innego komputera istnieje możliwość przywrócenia dostępu do danych.
-Funkcje realizowane przez malware (wiper, backdoor). Źródło: microsoft.com
-Backdoor
-Dalsza analiza kodu wykazała, że złośliwe oprogramowanie posiada szereg funkcji przypominających backdoora. Podszywa się pod legalną aplikację OneDrive, tworząc w Harmonogramie zadań nowe zadanie o nazwie OneDrive Update. W efekcie złośliwy kod uruchamia się co minutę oraz przy każdym starcie systemu, zgłaszając gotowość do działania i oczekując na komendy z serwera C2 (Command & Control). Komunikacja z infrastrukturą atakującego odbywa się za pośrednictwem protokołów RabbitMQ oraz Redis. 
-Ponadto, malware wykorzystuje klucz rejestru HKCU\SOFTWARE\OneDrive\Environment do monitorowania liczby swoich uruchomień. Jeśli klucz nie zostanie wykryty w systemie, GigaWiper uznaje, że został uruchomiony po raz pierwszy, a następnie tworzy go i inicjuje wartością 0. Przy każdym kolejnym uruchomieniu zadania wartość klucza zostaje inkrementowana o jeden. Zabieg ten ma na celu zamaskowanie obecności złośliwego oprogramowania w systemie.
-Funkcje tworząca nowe zadanie w Harmonogramie zadań (persistence). Źródło: microsoft.com
-Komendy realizowane przez malware
-Badacze dosyć szczegółowo przeanalizowali komendy przesyłane za pośrednictwem serwera C2. Ustalili, że każda z nich złożona jest z trzech parametrów: task_id, command_code oraz args. W efekcie udało im się zidentyfikować 20 unikalnych poleceń, wśród których najbardziej destrukcyjne z nich umożliwiają całkowite uszkodzenie systemu, zaszyfrowanie danych oraz umieszczenie notatki z żądaniem okupu. Na szczególną uwagę zasługują następujące komendy:
+Wszyscy dostawcy zostali powiadomieni o problemie.
+Dostawcy narzędzi opartych na LLM projektują je uwzględniając ograniczenia mające zapobiegać szkodliwemu wykorzystaniu. W efekcie, poproszenie modelu o pomoc przy np.:
 
-polecenie nr 2 – uruchomienie procedury powodującej wyświetlenie tzw. niebieskiego ekranu śmierci (BSOD). Przed jego wyświetleniem malware blokuje mechanizmy odzyskiwania systemu (Windows Recovery Environment) oraz usuwa pliki rozruchowe,
-polecenie nr 3 – malware rozpoczyna proces szyfrowania danych na wzór oprogramowania typu ransomware. Szyfruje pliki za pomocą algorytmu szyfrującego AES, nadaje plikom wynikowym rozszerzenie .candy oraz zmienia tapetę na pulpicie. W ten sposób sygnalizuje użytkownikowi, że padł ofiarą ataku. Warto dodać, że parametry algorytmu AES (wektor IV, klucz szyfrujący) nie zostają zapisane, a co za tym idzie odzyskanie danych w sensownym czasie staje się nierealne.
+tworzeniu kampanii phishingowej
+włamaniu na stronę internetową
+ujawnieniu poświadczeń
 
-Przykładowa tapeta umieszczona na pulpicie po zakończeniu procesu szyfrowania danych. Źródło: microsoft.com
-
-polecenie nr 5 – szyfrowanie danych za pomocą algorytmu AES z wykorzystaniem parametrów kryptograficznych (key, IV) przesłanych w komendzie sterującej.
-polecenie nr 4 – eksfiltracja zaszyfrowanych danych za pomocą klienta pamięci masowej MinIO (mc.exe).
-
-Pozostałe polecenia noszą znamiona oprogramowania typu stealer/RAT. Umożliwiają m.in. rejestrowanie uderzeń klawiatury, wykonywanie zrzutów ekranu oraz nagrań w czasie rzeczywistym, zdalne sterowanie systemem, czyszczenie dzienników zdarzeń (Event Logs) w celu zatarcia śladów, a także wykonywanie dowolnych poleceń, zleconych przez atakującego.
-Obrona przed tego typu zagrożeniem polega przede wszystkim na wdrożenie wielowarstwowej strategii. Microsoft rekomenduje włączenie funkcji Tamper Protection, która chroni kluczowe ustawienia systemu oraz oprogramowanie antywirusowe przed próbami ich wyłączenia lub zmodyfikowania. Ponadto, zalecane jest wdrożenie systemów EDR oraz monitorowanie Harmonogramu zadań i rejestru.
-IoC
-WskaźnikTypOpis633d4cbd496b1094495da89a64f5e6c31a0f6d4d1488411db5b0cba1cfe42001SHA-256GigaWiper backdoorce9ad5f6c12019f4aae5b189bd8ddf5bb09e75b06a0a587b25a855c65948c913SHA-256GigaWiper backdoorf622ed85ef31ad4ab973f4e74524866fe1bb44f0965ad2b2ad796cd657a05bfdSHA-256GigaWiper backdoor9706a192e2c1a1faaf0a521daf31c2af60ff4590e3f47bbb4abc227f42af0683SHA-256GigaWiper backdoor3c30deb6556a94cfb84ae51798f4aecfae8c7358e55fdb321c5f2376579631cdSHA-256GigaWiper Wiper440b5385d3838e3f6bc21220caa83b65cd5f3618daea676f271c3671650ce9a3SHA-256Crucio12c39f052f030a77c0cd531df86ad3477f46d1287b8b98b625d1dcf89385d721SHA-256FlockWiperdb41e0da7ab3305be8d9720769c6950b4dc1c1984ef857d3310eb873a0fc7674SHA-256FlockWiper185.182.193[.]21IP addressGigaWiper C2212.8.248[.]104IP addressGigaWiper C2
-IoC. Źródło: microsoft.com
-Źródło: microsoft.com
-~_secmike"
-2026-07-19 20:37:20,"10 lipca 2026, 17:41",sekurak,https://www.sekurak.pl,https://sekurak.pl/drugi-semestr-sekurak-academy-2026-startuje-w-sierpniu-trzy-lata-15-tys-uczestnikow-i-mega-nowosci/,"Drugi semestr Sekurak.Academy 2026 startuje w sierpniu. Trzy lata, 15 tys. uczestników i… mega nowości!","Za nami ponad trzy lata Sekurak.Academy! Do tej pory zgromadziliśmy 15 000 uczestników, którzy regularnie szlifują swoje umiejętności razem z najlepszymi trenerami-praktykami w Polsce.
-A teraz rozsiądź się wygodnie, bo zrobi się naprawdę ciekawie.
-W sierpniu rusza drugi semestr 2026 i tym razem agenda jest szczególnie mocna – pełna praktycznych, aktualnych, mocno „technicznych” szkoleń. Nie zapominamy też o lżejszych tematach na złapanie oddechu 😉
-Jeśli czujesz, że potrzebujesz solidnego kopa w rozwoju, to jest dobry moment, żeby dołączyć do Akademii. Czytaj dalej i przekonaj się sam.
-
-Do 31 lipca (do godz. 23:59) możesz dołączyć z 50-procentową zniżką. Rabat nalicza się automatycznie po kliknięciu w link (bez kodu, dla wszystkich rodzajów biletów).
-Zapisuję się"
-2026-07-19 20:37:20,"07 lipca 2026, 16:24",sekurak,https://www.sekurak.pl,https://sekurak.pl/dirty-clone-kolejny-sposob-na-roota-pod-linuksem/,Dirty Clone – kolejny sposób na roota pod Linuksem,"Nie tak dawno pisaliśmy o serii podatności Dirty Frag występujących w większości nowoczesnych dystrybucji Linuksa. I choć mogłoby się wydawać, że deweloperzy naprawili błędy, to najnowsze badania pokazują, że problem nie został jednak wyeliminowany. W jądrze pozostała bowiem niezałatana luka, którą badacze z JFrog ochrzcili mianem Dirty Clone (CVE-2026-43503). Podobnie jak jej poprzedniczki, nowa podatność należy do klasy LPE (local privilege escalation).
-TLDR:
-
-Badacze z JFrog wykryli kolejną podatność klasy LPE (Local Privilege Escalation) z rodziny Dirty Frag – Dirty Clone (CVE-2026-43503).
-Luka pozwala na uzyskanie uprawnień roota w większości współczesnych dystrybucji Linuksa.
-Poprzez manipulację funkcjami klonującymi pakiety, cyberprzestępca jest w stanie zmodyfikować zawartość pamięci podręcznej stron (page cache) dla plików systemowych z flagą SUID. 
-W efekcie zyskuje możliwość wykonania dowolnego kodu z najwyższymi uprawnieniami.
-Oficjalne poprawki bezpieczeństwa wydane z końcem maja 2026 r. naprawiają wykryty błąd.
-
-Podobieństwo do luki z rodziny DirtyFrag. Źródło: research.jfrog.com 
-Okazało się, że poprawki bezpieczeństwa (naprawiające Dirty Frag) załatały jedynie jedną z alternatywnych ścieżek przetwarzania pakietów sieciowych w podsystemie XFRM/IPSec. Z powodu nieprawidłowego zarządzania referencjami do współdzielonych stron pamięci (w strukturach sk_buff), jądro systemu może zostać zmanipulowane do nadpisanie danych w pamięci podręcznej (page cache), które teoretycznie powinny być dostępne wyłącznie w trybie do odczytu (read only). W efekcie prowadzi to do manipulacji krytycznych plików systemowych i pozwala na podniesienie uprawnień lokalnego użytkownika do roota.
-Aby dokładnie zrozumieć na czym polegał błąd, należy wyjaśnić pokrótce czego dotyczą optymalizacje sieciowe w Linuksie. Kiedy jądro tworzy pakiet sieciowy (opisany za pomocą struktury sk_buff), jego dane mogą pochodzić bezpośrednio z systemowej pamięci podręcznej stron (page cache). Jeżeli strony pamięci są powiązane na przykład z bibliotekami systemowymi lub innymi plikami na dysku (/usr/bin/su), wtedy jądro oznacza taki pakiet specjalną flagą bezpieczeństwa – SKBFL_SHARED_FRAG. Dzięki niej podsystem sieciowy wie, że dane w pakiecie są współdzielone z plikami i nie mogą być bezpośrednio modyfikowane. Ewentualne zmiany są możliwe dopiero po utworzeniu kopii (mechanizm Copy-on-Write).
-Deweloperzy łatając wcześniejsza podatność z rodziny Dirty Frag, zapomnieli o funkcjach pomocniczych odpowiedzialnych za replikację pakietów podczas ich klonowania, czyli __pskb_copy_fclone oraz skb_shift. Atakujący mógł wykorzystać je do utworzenia kopii pakietów, które wskazywały na te same, wrażliwe strony pamięci, ale miały wyczyszczoną flagę SKBFL_SHARED_FRAG. 
-W efekcie powstawał “specjalny” pakiet wskazujący na pamięć podręczną pliku systemowego, ale pozbawiony znaczników ochronnych. Gdy trafiał na ścieżkę odbiorczą IPSec, jądro – przekonane, że operuje na prywatnym buforze sieciowym przeprowadzało proces deszyfrowania danych, bezpośrednio w miejscu ich przechowywania. W ten sposób atakujący mógł “wstrzyknąć” własną zawartość (złośliwy kod), prosto do pamięci podręcznej zaufanego pliku wykonywalnego. A z racji tego, że plik wykonywalny posiadał flagę SUID i należał do roota, atakujący mógł wykonywać dowolne akcje w systemie z najwyższymi uprawnieniami.
-
-PoC. Źródło: research.jfrog.com 
-Najbardziej niepokojący jest fakt, że wszelkie operacje wykonywały się bezpośrednio w pamięci RAM, nie powodując przy tym zmian na dysku twardym. W tej sytuacji proces wykrycia próby ataku jest znacząco utrudniony. 
-Zgodnie z opinią badaczy z JFrog, podatne są wszystkie nowoczesne dystrybucje Linuksa (Ubuntu, Debian, RHEL, Fedora, openSUSE), które nie wdrożyły jeszcze poprawek bezpieczeństwa wydanych pod koniec maja 2026 roku. 
-Jeżeli z jakiegoś powodu aktualizacje nie mogą zostać wdrożone, jako rozwiązanie tymczasowe rekomenduje się zablokowanie możliwości pozyskania uprawnień poprzez ustawienie parametru kernel.unprivileged_userns_clone=0.
-Źródło: research.jfrog.com 
-~_secmike"
-2026-07-19 20:37:20,"06 lipca 2026, 12:05",sekurak,https://www.sekurak.pl,https://sekurak.pl/niesmieszna-edycja-nazw-obiektow-w-mapach-google/,NIEśmieszna edycja nazw obiektów w Mapach Google,"Wielkie projekty takie, jak Mapy Google nie mogłyby istnieć bez społeczności zasilających je swoją wiedzą i najświeższymi informacjami z pierwszej ręki. Na swoim blogu Google deklaruje, że codziennie otrzymuje około 20 milionów wpisów od użytkowników Map Google. Dzięki temu Mapy Google mogą udostępniać aktualne i sprawdzone informacje pochodzące bezpośrednio od lokalnych społeczności, jednak nie zawsze publikowane na platformie informacje są sprawdzone i poprawne. Google zdaje sobie sprawę, że przy tak ogromnej liczbie zgłoszeń możliwe są błędy, a także celowe działania mające na celu „zatrucie” nazw obiektów w Mapach Google. 
-TLDR:
-
-Masowa edycja wielu nazw obiektów w Warszawie w Mapach Google. Ktoś w niedzielny wieczór masowo podmienił wiele nazw obiektów w Mapach Google.
-W artykule przegląd tego, co padło ofiarą cyfrowych wandali, a także smutna konstatacja.
-
-W niedzielę wieczorem (06.07. br.) zaobserwowano niezbyt zabawną w skutkach edycję nazw wielu obiektów w Warszawie. Poniżej namierzone przez nas „zaatakowane” obiekty (zrzuty ekranu własne):
-
-Zjawisko to określane przez Google jest jako fake lub fraudulent contributed. Nie jest to nowe zjawisko. Do takich zdarzeń dochodzi regularnie już od lat, jednak w tym przypadku zaskakiwać może skuteczność i skala tych działań.
-
-Klienci zmierzający do jednej z popularnych galerii handlowych w centrum Warszawy korzystający z Map Google mogli poczuć się nieco zagubieni (zrzut własny).
-Szczególnie w przypadku map ważne jest, aby nowe informacje pojawiały się możliwie szybko. Google na swoich stronach przyznaje, że moderacja wpisów składa się z kilku warstw. Pierwszą linię obrony stanowią mechanizmy automatycznej moderacji. Mają one na celu dopasować przesłany wpis do wzorców.
-
-Our machines look at reviews from multiple angles, such as:
-    The content of the review: Does it contain offensive or off-topic content?
-    The account that left the review: Does the Google account have any history of suspicious behavior?
-    The place itself: Has there been uncharacteristic activity — such as an abundance of reviews over a short period of time? Has it recently gotten attention in the news or on social media that would motivate people to leave fraudulent reviews?
-
-Google podaje, że już od lat korzysta ze sztucznej inteligencji do identyfikowania potencjalnych wzorców nadużyć, a stale udoskonalane modele uczenia maszynowego pomagają usunąć coraz więcej fałszywych treści. Firma chwali się, że wykorzystuje Gemini do wykrywania fałszywych edycji. Można zastanawiać się, co się stało, że w tym przypadku te mechanizmy okazały się tak bardzo nieskuteczne. Czy mogły do tego posłużyć masowo przejęte konta użytkowników posiadające dobrą reputację? Jakie inne czynniki przyczyniły się do takiej skuteczności tej akcji?
-W przeszłości do podobnych wrogich edycji dochodziło już wielokrotnie. Wspomniany powyżej Pomnik Ofiar Tragedii Smoleńskiej 2010 roku w Warszawie stał się celem podobnego aktu cyfrowego wandalizmu zaledwie dwa miesiące temu. Z podobnymi problemami borykały się szkoły oraz inne obiekty użyteczności publicznej. Dzisiejszy incydent powinien po raz kolejny jasno nam uzmysłowić, że nie wszystko, co jest w internecie, jest prawdą i to nawet wtedy, gdy pojawia się w pozornie bezpiecznej, uważanej za wiarygodną, części internetu. Demokratyzacja w zakresie możliwości publikacji informacji dostępnych dla szerokiego grona odbiorców na co dzień przynosi nam wiele oczywistych korzyści, jednak niesie ze sobą także wiele mniej oczywistych zagrożeń. Publikujący fałszywe informacje mogą chcieć nie tylko zrobić niezbyt mądry żart. Mogą także sprawić, że ktoś dokona niekorzystnych dla siebie decyzji finansowych lub nawet doprowadzić do napięć społecznych. Bądźmy na to odporni.
-~pu"
-2026-07-19 20:37:20,"06 lipca 2026, 03:43",sekurak,https://www.sekurak.pl,https://sekurak.pl/bledy-przy-autoryzacji-i-obsludze-sesji-w-aplikacjach-johnson-johnson/,Błędy przy autoryzacji i obsłudze sesji w aplikacjach Johnson & Johnson,"Badacz bezpieczeństwa o pseudonimie Eaton ujawnił podatności, które znalazł w 2 aplikacjach webowych firmy Johnson & Johnson. Pierwsza umożliwiała dostęp do danych niemal tysiąca studentów, a druga pozwalała na uzyskanie uprawnień administratora w wewnętrznym systemie.
-TLDR:
-
-Badacz bezpieczeństwa Eaton ujawnił dwie podatności w aplikacjach Johnson & Johnson: systemie rekrutacji na kampusach oraz wewnętrznym systemie audytu ATMS.
-W Campus Recruiting możliwy był dostęp do danych niemal 1000 studentów z powodu błędnej implementacji uwierzytelniania.
-W ATMS odkrył brak autoryzacji w API oraz możliwość manipulacji logiką logowania i sesji po stronie klienta, co prowadziło do dostępu do danych pracowników i funkcji administracyjnych.
-W obu przypadkach główną przyczyną była zależność od logiki po stronie frontendu oraz niewystarczające egzekwowanie kontroli dostępu po stronie backendu. Obie aplikacje zostały już załatane.
-
-Rekrutacja studentów
-Firma Johnson & Johnson chętnie pojawiała się na targach pracy i wydarzeniach rekrutacyjnych organizowanych na uczelniach. Aby łatwiej zarządzać tymi wydarzeniami, zbudowali stronę “Campus Recruiting”.
-Rys. 1 – strona Campus Recruiting, źródło: eaton-works.com
-Studenci otrzymują klucz danego wydarzenia i z jego użyciem wypełniają formularz rekrutacyjny:
-Rys. 2 – formularz Campus Recruiting, źródło: eaton-works.com
-Badacz postanowił przyjrzeć się źródłom strony, gdzie znalazł kilka podstron dla rekruterów:
-Rys. 3 – linki do wewnętrznych podstron w kodzie, źródło: eaton-works.com
-Po przejściu do /recruiter został przekierowany na stronę logowania Microsoft SSO:
-Rys. 4 – strona logowania Microsoft SSO, źródło: eaton-works.com
-Konfiguracja uwierzytelniania była prosta. Biblioteka Microsoft Authentication Library (MSAL) zintegrowana z frontendem odpowiadała za sprawdzenie, czy pracownik jest zalogowany:
-Rys. 4 – kod obsługujący logowanie z Microsoft SSO, źródło: eaton-works.com
-Eaton postanowił sprawdzić, czy uda się zmusić MSAL do uznania, że ktoś jest zalogowany. Pozwala to wykryć nieprawidłową obsługę tokenów API. Wystarczyło zmodyfikować kod, aby zawsze zwracał dane jednego konta, które jest “zalogowane”:
-Rys. 6 – kod wywołujący fałszywe logowanie, źródło: eaton-works.com
-Menu dla rekruterów stało się dostępne. Można było zarządzać wydarzeniami, tworzyć nowe oraz przeglądać informacje wszystkich studentów. Panel rekrutera pozwalał również zobaczyć oceny i notatki przypisane konkretnym studentom, z którymi przeprowadzono rozmowę:
-
-Rys. 7,8 – panel rekrutera, źródło: eaton-works.com
-Co poszło nie tak? Token związany z uwierzytelnianiem przez MSAL w rzeczywistości nie był nigdzie używany. Zamiast tego do komunikacji z API AWS używano zapisanego na stałe klucza:
-Rys. 9,10 – żądania do API z zahardkodowanym tokenem, źródło: eaton-works.com
-Problem dotknął danych niemal 1000 studentów. Strona Campus Recruiting została od tego czasu zaktualizowana i uwierzytelnianie za pomocą klucza API zastąpiono uwierzytelnianiem za pomocą tokenu Bearer (MSAL).
-ATMS – zarządzanie audytami
-Audit Tracking Management System (ATMS) to wewnętrzna aplikacja webowa pomagająca w zarządzaniu audytami w całym JnJ oraz w powiązanych z nim firmach:
-
-LifeScan
-Ethicon, Inc
-Biosense Webster
-ITS
-Depuy
-Ethicon-Endo
-Janssen
-Vistakon
-Acclarent
-JDx
-Sterilmed
-CLS
-JJSV
-Cerenovus
-EQ
-Janssen UK & Ireland
-RAD
-Abiomed Inc.
-CQ MedTech
-V-Wave
-
-Dostanie się do tego systemu wymagało od Eatona nieco więcej pracy niż w przypadku Campus Recruiting. Natychmiast po wejściu na stronę następowało przekierowanie do strony logowania Microsoft SSO. Zanim to nastąpiło, pobierana była aplikacja ReactJS, której kod zawierał wiele interesujących API:
-Rys. 11 – fragment kodu ATMS, źródło: eaton-works.com
-Badacz postanowił sprawdzić API getAllUsers, aby zobaczyć, co się stanie. Otrzymał listę 13,6 tys. pracowników JnJ:
-Rys. 12 – odpowiedź API, źródło: eaton-works.com
-Okazało się więc, że ten endpoint API działa bez uwierzytelnienia i wystarczyło zmodyfikować kod po stronie klienta aby uzyskać pełny dostęp do danych.
-Podobnie jak Campus Recruiting strona używała MSAL do uwierzytelnienia użytkownika za pomocą Microsoft SSO, a następnie dokonywała zapisu w local storage:
-Rys. 13 – kod obsługujący logowanie z Microsoft SSO, źródło: eaton-works.com
-Aby podszyć się pod uprawnionego użytkownika, Eaton musiał znaleźć nazwę użytkownika i WWID któregoś z pracowników JnJ korzystających z tego systemu. Natrafił na stronę pomocy, która zawierała dane administratora systemu:
-Rys. 14 – strona pomocy z danymi administratora, źródło: eaton-works.com
-Wystarczyło wyszukać nazwisko wśród użytkowników zwróconych przez API getAllUsers, które ujawniło potrzebne informacje i pozwoliło przygotować odpowiedni kod:
-Rys. 15 – kod obsługujący fałszywe logowanie, źródło: eaton-works.com
-W efekcie zamiast przekierowania do logowania ustawiane są odpowiednie wartości w localStorage, tak jakby właśnie nastąpiło prawidłowe logowanie. Pierwsza próba zakończyła się jednak błędem:
-Rys. 16 – błąd sesji, źródło: eaton-works.com
-Okazało się, że utworzenie sesji to po prostu żądanie GET do API, które zwraca GUID sesji i ustawia znacznik czasu w celu obliczenia, kiedy wygaśnie. Po odwiedzeniu tego endpointu zwrócił on prawidłowy identyfikator sesji:
-Rys. 17 – wygenerowany przez API identyfikator sesji, źródło: eaton-works.com
-Wystarczyło wstawić go ręcznie do localStorage i odświeżyć stronę, aby uzyskać dostęp do systemu.
-Rys. 18 – panel ATMS, źródło: eaton-works.com
-Można było użyć listy rozwijanej do przełączania się między firmami:
-Rys. 19 – panel ATMS, źródło: eaton-works.com
-Eaton, zalogowany jako administrator, miał też dostęp do specjalnego menu:
-Rys. 20 – menu administratora ATMS, źródło: eaton-works.com
-Eaton zgłaszał już podatności bezpieczeństwa do JnJ w 2024 roku. Firma podjęła wtedy natychmiastowe działania, a współpracę badacz opisał jako prawdziwą przyjemność. Jednak w przypadku dwóch pokazanych podatności, doświadczenie nie było już tak pozytywne.
-Obie podatności zostały zgłoszone w październiku 2025 roku. Do końca miesiąca usunięto lukę w Campus Recruiting. Jednak w ATMS nic się nie zmieniło. Przez kolejne miesiące Eaton ponawiał kontakt aż do kwietnia 2026 roku, kiedy poprosił zaprzyjaźnionego dziennikarza o pomoc. Zgodnie z przewidywaniami jego e-mail do działu relacji z mediami JnJ ostatecznie skłonił firmę do naprawienia problemu.
-W obu przypadkach wspólnym problemem była błędna implementacja mechanizmów uwierzytelniania i autoryzacji po stronie backendu. Logika ta była w dużej mierze realizowana po stronie klienta, a więc łatwo było nią manipulować. Z kolei API nie egzekwowało odpowiednich uprawnień. Stosowanie zapisanych na stałe kluczy sprawiło, że to nie serwer, a przeglądarka stała się “źródłem prawdy”.
-Programistom polecamy zwracać uwagę na spójne wdrażanie mechanizmów uwierzytelniania i autoryzacji – zarówno w warstwie front-endu (np. wyświetlenie odpowiedniej treści/menu w zależności od uprawnień) jak i backendu (zwrócenie przez API konkretnych danych, lub błędu jeśli brak uprawnień).
-Pełna oś czasu:
-
-6 października 2025: zgłoszenie do programu zgłaszania podatności JnJ
-16 października 2025: ponowny kontakt po braku odpowiedzi i braku działań
-17 października 2025: pierwsza odpowiedź od JnJ z potwierdzeniem, że zajmą się ustaleniami
-31 października 2025: naprawiona podatność Campus Recruiting; pytanie o ATMS
-17 listopada 2025: ponowny kontakt po braku odpowiedzi i działań
-22 grudnia 2025: ponowny kontakt po braku odpowiedzi i działań
-22 stycznia 2026: ponowny kontakt po braku odpowiedzi i działań
-8 kwietnia 2026: kontakt się z dziennikarzem
-21 kwietnia 2026: podatność ATMS została ostatecznie naprawiona
-24 czerwca 2026: publikacja badacza
-
-Źródło: eaton-works.com
+spowoduje odmowę z uwagi na zasady zdefiniowane przez dostawcę modelu.
+Gdyby jednak udało się oszukać AI i zmienić kontekst na fantazję – gdzie zasady są zmyślone i wszystko jest dozwolone – może udałoby się ominąć te zabezpieczenia?
+Badacze stworzyli stronę z zagadką inspirowaną BioShock. Zgodnie z jej dystopijną tematyką nagradzane były celowo niepoprawne odpowiedzi (np. 2+2=5).
+Następnie poprosili 5 przeglądarek AI i jedną wtyczkę o rozwiązanie zagadki i wygranie gry. Gdy agenci “zrozumieli” zasady i nauczyli się, że niepoprawne działania są akceptowalne, przestali respektować swoje ograniczenia. Na końcowym etapie zagadki – polegającym na wykradnięciu poświadczeń użytkownika – żadne z 6 narzędzi nie wykryło, że jest to sprzeczne z ich zabezpieczeniami.
+Z punktu widzenia zaatakowanego w ten sposób użytkownika – całość zaczyna się, gdy korzystając z przeglądarki AI wejdzie na złośliwą stronę. Następnie prosi agenta o wygranie gry:
+Rys. 1 – pierwszy prompt wpisany na złośliwej stronie, źródło: layerxsecurity.com
+Agent otrzymuje pozornie proste pytanie matematyczne:
+Rys. 2 – pytanie w ramach złośliwej gry, źródło: layerxsecurity.com
+Zgodnie z oczekiwaniami agent udziela prawidłowej (matematycznie) odpowiedzi. Strona informuje go jednak, że 2 + 2 nie równa się 4, więc model zaczyna w swoim “rozumowaniu” uwzględniać nieprawidłowość działań:
+Rys. 3 – rozumowanie o nieprawidłowej odpowiedzi, źródło: layerxsecurity.com
+Po udzieleniu oczekiwanej odpowiedzi “5” agent otrzymuje polecenie przejścia do podstrony /code i skopiowania zawartości z pola tekstowego. To naprawdę złowroga część tego exploitu:
+Rys. 4 – otrzymanie przez agenta złośliwych instrukcji, źródło: layerxsecurity.com
+Endpoint /code przekierowuje do repozytorium GitHub (zdefiniowanego przez badaczy, czyli potencjalnie przez atakującego). W tym przypadku złośliwe instrukcje spowodowały pobranie zawartości pliku z prywatnego repozytorium:
+Rys. 5 – prywatne repozytorium otwarte w przeglądarce AI, źródło: layerxsecurity.com
+Oczywiście w tym przypadku było to kontrolowane środowisko testowe. W rzeczywistym scenariuszu ataku takie przekierowanie mogłoby prowadzić do dowolnego miejsca w przeglądarce użytkownika, także na stronach, na których był zalogowany.
+Agent po skopiowaniu danych z pliku wysyła je przez formularz na stronie gry, czym ją wygrywa:
+Rys. 6 – agent AI wygrał grę, źródło: layerxsecurity.com
+Podstawowym problemem jest fakt, że przeglądarki AI działają w kontekście, którym można manipulować. Jeśli “przekonasz” agenta, że gra w grę, będzie podchodził do niej jak do gry – a nie jak do prawdziwego świata, gdzie obowiązują go pewne zasady.
+Użytkownikom tego typu narzędzi przypominamy o ograniczonym zaufaniu do narzędzi AI. Przed tego typu atakiem może uchronić nas ograniczenie dostępów w tego typu narzędziach – np. przez skorzystanie z osobnych kont z dostępem tylko do ograniczonych, niezbędnych informacji. Warto przyjąć założenie, że nie mamy pełnej kontroli nad tym, co robi agent – dlatego nie dajemy mu dostępu do istotnych dla nas zasobów.
+Przeglądarki AI mogą ułatwiać pracę i być wsparciem przy np. szukaniu informacji, porównywaniu faktów z różnych źródeł, ale każdy dostęp udzielany agentom AI niesie za sobą potencjalne wektory ataku. Narzędzia tego typu nie powinny zastępować głównej przeglądarki, w której logujemy się na konta w różnych usługach.
+Źródło: layerxsecurity.com
 ~Tymoteusz Jóźwiak"
+2026-07-27 22:06:34,"23 lipca 2026, 09:55",sekurak,https://www.sekurak.pl,https://sekurak.pl/busysnake-stealer-atakujacy-cele-o-znaczeniu-krytycznym-w-rosji-za-kampanie-odpowiada-grupa-apt-armored-likho/,BusySnake – stealer atakujący cele o znaczeniu krytycznym w Rosji. Za kampanię odpowiada grupa APT Armored Likho,"Badacze bezpieczeństwa za pośrednictwem portalu Securelist poinformowali o wykryciu nowej kampanii phishingowej powiązanej z nieznaną dotąd grupą APT (nazwaną przez analityków Armored Likho). Wszelkie poszlaki wskazują, że grupa ta jest również znana pod nazwą Eagle Werewolf. Jej celem są przede wszystkim instytucje rządowe oraz przedsiębiorstwa z sektora krytycznego w Rosji, Brazylii oraz Kazachstanie. Działania cyberprzestępców są głównie motywowane finansowo, chociaż patrząc na kierunek zainteresowań można dostrzec znamiona cyberszpiegostwa.
+TLDR:
+
+Na portalu Securelist pojawiła się analiza nowej kampanii phishingowej prowadzonej przez grupę Armored Likho.
+Na celowniku cyberprzestępców znalazły się instytucje rządowe oraz przedsiębiorstwa z sektora krytycznego w Rosji, Brazylii oraz Kazachstanie.
+Oprócz motywacji finansowej, realizowane działania mają charakter cyberszpiegostwa.
+Atak rozpoczyna się od precyzyjnie targetowanej kampanii phishingowej. Nie jest do końca powiedziane, w jaki sposób atakujący ustalają listę celów.
+Cyberprzestępcy używają zaawansowanego stealera – BusySnake do wykradania danych z przeglądarek, wykonywania zrzutów ekranu oraz nawiązywania odwrotnego tunelu SSH.
+
+Podczas ataków używają przede wszystkim modułowych trojanów typu RAT (Remote Access Trojan) oraz infostealerów. Ponadto wykorzystują proste narzędzia takie jak Go2Tunnel do utrzymania zdalnego dostępu do infrastruktury celu oraz tunelowanie ruchu sieciowego. 
+W analizowanej kampanii po raz pierwszy zaobserwowano użycie nieudokumentowanego wcześniej stealera – BusySnake. Malware został napisany w Pythonie oraz zaciemniony z wykorzystaniem narzędzia PyArmor.
+Schemat ataku to w zasadzie klasyka gatunku. Rozpoczyna się od wiadomości spear-phishingowych wysyłanych do starannie dobranych adresatów. Cyberprzestępcy działają precyzyjnie, treść maila nawiązuje do bieżących spraw administracyjnych i do złudzenia przypomina oficjalną korespondencję, przez co użytkownik może być nieświadomy zagrożenia.
+Często jako załącznik dołączane jest złośliwe archiwum, którego nazwa zawiera unikalny identyfikator GUID oraz zarys tematyczny zgodny z treścią wiadomości np. [GUID]_psihologicheskiy_test.zip (test psychologiczny), zayavka_gumanitarnayapomosch.rar (wniosek o pomoc humanitarną). Po rozpakowaniu paczki i uruchomieniu pliku, na ekranie wyświetla się obiecany dokument lub aplikacja przypominająca  test psychologiczny. Ich zadaniem jest uśpienie czujności użytkownika i uwiarygodnienie atakujących. W tle natomiast startuje złośliwy loader, który wstrzykuje się do legalnego procesu (pnx.exe), a następnie pobiera właściwy ładunek.
+Przykład wiadomości phishingowej. Źródło: securelist.com
+Przykład wiadomości phishingowej. Źródło: securelist.com
+I tu ciekawostka, złośliwy kod jest pobierany bezpośrednio z kontrolowanych przez napastników repozytoriów GitHub. Wpisuje się to w coraz częściej obserwowany trend nadużywania legalnych serwisów do dystrybucji malware. Z uwagi na szybką rotację ładunku, bardzo trudno jest przeciwdziałać takim praktykom. Gdy tylko wykryte konto zostanie zablokowane, w jego miejsce natychmiast pojawiają się nowe repozytoria hostujące złośliwe oprogramowanie.
+Kolejny etap infekcji obejmował instalację środowiska uruchomieniowego Python 3.12, pobranie niezbędnych zależności (pip) oraz komponentów narzędzia PyArmor. Na samym końcu pobierany był właściwy ładunek BusySnake, który trafiał bezpośrednio do %AppData%\WindowsHelper.
+W tym miejscu należy wspomnieć, że w ocenie analityków kod loadera został wygenerowany przy użyciu narzędzi sztucznej inteligencji. Rozwiązanie to pozwala cyberprzestępcom na sprawne modyfikowanie go podczas kolejnych ataków, utrudniając w ten sposób detekcję przez systemy EDR. Na wykorzystanie AI wskazują między innymi rozbudowane komentarze pozostawione w skrypcie.
+Kod loadera. Źródło: securelist.com 
+Utrzymanie dostępu (persystencję) zapewniono poprzez nadużycie Harmonogramu zadań w systemie Windows. Atakujący zdefiniowali cykliczne zadanie, które co 5 minut uruchamia skrypt VBScript inicjujący działanie stealera.
+Persystencja. Źródło: securelist.com 
+Kod źródłowy BusySnake został zaciemniony z wykorzystaniem narzędzia PyArmor Pro w wersji 9.2.0. Analiza wykazała, że malware dynamicznie deszyfruje swój kod bajtowy wyłącznie w momencie wywołania konkretnej funkcji, a następnie ponownie go szyfruje. 
+Klucz szyfrujący znajduje się najprawdopodobniej w pliku _pyarmor.pyd. Co ciekawe, nie jest to stały ciąg znaków ładowany do pamięci w całości, od razu po uruchomieniu. Procedura jego odtwarzania oraz wczytywania do pamięci jest realizowana bezpośrednio przez mechanizm uruchomieniowy (runtime) PyArmora. Badania pokazały, że klucz jest dostępny w pamięci RAM tylko przez ułamek sekundy, akurat na potrzeby odszyfrowania kodu bajtowego funkcji, która będzie wykonywana w danej chwili. Natychmiast po odszyfrowaniu obszaru pamięci klucz jest zerowany. Procedura jest analogiczna dla kolejnych funkcji.
+Badaczom w toku analizy udało się przechwycić klucz szyfrujący oraz pomyślnie odszyfrować złośliwy kod. W efekcie otrzymali szczegółową konfigurację stealera w tym między innymi:
+
+adres serwera dowodzenia (Command & Control), 
+parametr User-Agent na potrzeby komunikacji sieciowej,
+ścieżki do katalogów,
+wyrażenia regularne,
+interwały czasowe związane z wykonywaniem zrzutów ekrany.
+
+Przykład odczytanej konfiguracji został przedstawiony poniżej.
+Przykładowa konfiguracja malware. Źródło: securelist.com
+Biorąc pod uwagę funkcje realizowane przez malware, wykryto wiele modułów umożliwiających:
+
+wykonywanie zrzutów ekranu w określonych interwałach czasowych,
+wykradanie zawartości schowka systemowego,
+wyszukiwanie 64 znakowych kluczy zapisanych w systemie szesnastkowym (hex) najprawdopodobniej szukał prywatnych kluczy do portfeli kryptowalutowych,
+eksfiltracja plików z domyślnych folderów użytkownika (Desktop, Downloads, Documents),
+przechwytywanie wrażliwych danych z przeglądarki, w tym zapisanych haseł, zaszyfrowanych lokalnych baz danych oraz plików cookie,
+zestawienie odwrotnego tunelu SSH (reverse SSH tunnel) po otrzymaniu z serwera C2 odpowiednie polecenie oraz klucz prywatny (w postaci zamaskowanej).
+
+Formularz logowania do panelu administracyjnego C2. Źródło: securelist.com 
+Zaprezentowana kampania doskonale obrazuje kierunek rozwoju współczesnego złośliwego oprogramowania. Korzystanie z narzędzi bazujących na sztucznej inteligencji, modułowość oraz bezpośrednie zintegrowanie funkcji tunelowania ruchu (reverse SSH) znacząco ułatwia cyberprzestępcom omijanie tradycyjnych zabezpieczeń sieciowych i utrzymanie stałego dostępu do zainfekowanych systemów.
+Atak rozpoczyna się od precyzyjnie przygotowanej wiadomości phishingowej, z tego powodu świadomość użytkownika oraz ograniczone zaufanie to jedne z najskuteczniejszych metod obrony przed tego typu zagrożeniami.
+Źródło: securelist.com 
+~_secmike"
+2026-07-27 22:06:34,"21 lipca 2026, 11:00",sekurak,https://www.sekurak.pl,https://sekurak.pl/czy-open-source-wystarczy-do-zapewnienia-zgodnosci-z-nis2-ksc2/,[NIS2/KSC2 Toolkit # 1] Czy open-source wystarczy do zapewnienia zgodności z NIS2/KSC2?,"NIS2/KSC2 Toolkit # 1 to seria krótkich, praktycznych poradników, w których pokazujemy, jak wymagania NIS2 i nowej ustawy o KSC przełożyć na konkretne narzędzia, konfiguracje i procesy. Każdy artykuł bierze na warsztat jeden obszar i omawia go czysto wdrożeniowo – od wyboru rozwiązań po dowody zgodności dla audytora.
+Od kwietnia 2026 roku nowelizacja ustawy o KSC jest już faktem, a tysiące podmiotów i instytucji właśnie odkrywają, że spoczywają na nich (tak naprawdę od kilku lat zapowiadane) nowe obowiązki: samoidentyfikacja, wdrożenie SZBI, raportowanie incydentów i audyty. Terminy się zbliżają, a kary, choć objęte dwuletnią karencją (art. 35 ustawy nowelizującej), przestały być teoretyczne. Nic dziwnego, że na rynku od razu pojawiła się fala „gotowych rozwiązań NIS2″, czyli pudełek i platform, które rzekomo gwarantują zgodność za jednym podpisem na zamówieniu. Tyle że ich ceny bywają niemałe, zwłaszcza dla mniejszych podmiotów, które dopiero co zdały sobie sprawę, że w ogóle podlegają ustawie.
+To pytanie wraca przy konsultacjach dla klientów, na szkoleniach i podczas audytów: skoro nie mamy worka pieniędzy na drogie pudełka z mrugającą diodą, to czy obronimy się darmowymi narzędziami i spełnimy wymogi dyrektywy NIS2?
+Weźmy choćby to komercyjne pudełko, które ktoś przedstawiał na konferencji jako „gotowe rozwiązanie NIS2”, i zajrzyjmy do środka. Linux. OpenSSL. nginx. Pewnie gdzieś fork Suricaty albo silnik na bazie ClamAV. Za open-source w zasadzie już zapłaciliśmy, tylko z ładnym logo na obudowie. Zatem pytanie: „Open-source czy komercja” jest trochę nie na temat. Lepiej zastanowić się, czy mamy to jak obsłużyć.
+Ustawa nie każe nic kupować
+Dobra wiadomość jest taka, że ani dyrektywa NIS2, ani polska znowelizowana ustawa o Krajowym Systemie Cyberbezpieczeństwa (KSC) nie wskazują żadnego producenta ani konkretnego produktu. Przepisy wymagają wdrożenia Systemu Zarządzania Bezpieczeństwem Informacji (SZBI) opartego na systematycznym szacowaniu ryzyka oraz katalogu środków technicznych i organizacyjnych (art. 8 ust. 1). Sam katalog (od analizy ryzyka, przez ciągłość działania, po uwierzytelnianie wieloskładnikowe) wynika z art. 21 ust. 2 dyrektywy NIS2, a w polskiej ustawie – z przepisów o SZBI. Cała ta regulacja nie powstała przy tym po to, żeby zatapiać firmy kosztami. Jak podkreśla Ministerstwo Cyfryzacji w swoim Q&A, środki mają być odpowiednie i proporcjonalne do oszacowanego ryzyka, a nie do grubości portfela.
+Wydany w czerwcu 2025 roku przewodnik techniczny ENISA do rozporządzenia wykonawczego 2024/2690 rozkłada każdy wymóg na praktyczne wskazówki, przykłady dowodów do okazania podczas kontroli oraz odniesienia do norm. Nie ma w nim ani cennika, ani nazwy producenta. Oficjalny zestaw pytań i odpowiedzi (Q&A) Ministerstwa Cyfryzacji podkreśla to samo: liczy się faktyczne wdrożenie i możliwość jego wykazania. Minister może przy tym opublikować, na podstawie art. 45 ust. 3, zestawienie dokumentów normalizacyjnych, czyli listę uznanych norm, a nie listę zakupów u dystrybutorów. Dokumenty normalizacyjne uzupełniają Narodowe Standardy Cyberbezpieczeństwa oraz inne zbiory dobrych praktyk, wydawane jako rekomendacje Pełnomocnika Rządu, z których warto skorzystać. Nigdzie natomiast nie pojawia się nakłanianie do ich zakupu.
+Co open-source rzeczywiście załatwi?
+Open-source potrafi naprawdę dużo, a większość wymagań technicznych z art. 8 znowelizowanej ustawy o KSC da się spełnić dzięki odpowiednim, darmowym narzędziom. W praktyce wymogi te możemy przypisać do przykładowych rozwiązań, jak poniżej.Dobór jest celowo zachowawczy: to projekty dojrzałe, aktywnie rozwijane i szeroko stosowane produkcyjnie, także w polskich SOC-ach, więc łatwo o dokumentację, społeczność i ludzi, którzy już na nich pracowali. Przy każdym obszarze wskazujemy konkretny artykuł i literę ze znowelizowanej ustawy o KSC:
+
+Obsługa incydentów (art. 11 ust. 1 pkt 1): Wazuh do korelacji logów, reguł detekcji i automatycznej reakcji, Graylog do przeglądania zdarzeń, Suricata lub Snort w roli IDS/IPS albo Zeek jako źródło telemetrii sieciowej. Do reakcji na żywo służy Velociraptor (zdalne zbieranie artefaktów i threat hunting na setkach końcówek naraz), a prowadzenie i orkiestrację spraw incydentów ułatwi otwarta platforma zarządzania zgłoszeniami, jak DFIR IRIS albo TheHive. Autopsy zostaje do głębszej, laboratoryjnej analizy nośników offline. Co ciekawe, samo Ministerstwo Cyfryzacji w swoim przewodniku (Q&A pkt 3.3 ppkt 2 lit. g)  wprost dopuszcza, że do ciągłego monitorowania „można skorzystać z narzędzi open-source typu SIEM i ustawić adekwatne reguły”.
+Ciągłość działania (art. 8 ust. 1 pkt 2 lit. f): kopie zapasowe na Borg lub restic, a monitorowanie dostępności i przewidywanie wyczerpania zasobów na Zabbixie (same testy odtworzenia to już procedura, nie narzędzie, co warto podkreślić).
+Zarządzanie podatnościami (art. 8 ust. 1 pkt 3): moduł Vulnerability Detection w Wazuhu (zasilany zagregowanymi źródłami danych o podatnościach, m.in. NVD i biuletynami producentów), OpenVAS do skanów aktywnych. Solidna alternatywa dla płatnego Tenable/Nessusa..
+Kryptografia (art. 8 ust. 1 pkt 2 lit. k): weryfikacja konfiguracji (polityki TLS w module SCA Wazuha, testssl.sh), ale zarządzanie kluczami i sama polityka to proces.
+Kontrola dostępu, aktywa i integralność plików (art. 8 ust. 1 pkt 2 lit. m i n oraz pkt 5 lit. c): Keycloak na kontrolę dostępu (lit. n), GLPI lub OCS Inventory na inwentaryzację aktywów (lit. m), a FIM z “who-data” w Wazuhu jako odpowiedź na wymóg ochrony przed nieuprawnioną modyfikacją (pkt 5 lit. c), czyli na pytanie: „Kto zmienił istotny plik konfiguracyjny w środku nocy”. Segmentację sieci i zaporę zapewni pfSense CE albo OPNsense (na nich z kolei działa Suricata lub Snort jako IDS/IPS).
+Uwierzytelnianie wieloskładnikowe (art. 8 ust. 1 pkt 2 lit. l): Keycloak, który natywnie obsługuje nowoczesne standardy uwierzytelniania.
+
+To produkcyjne rozwiązania, które działają w niejednym SOC-u i potrafią wesprzeć nas w tworzeniu raportów, które mogą przydać się przy audycie. Pod kątem samej techniki open-source nie ma się czego wstydzić. 
+Dwa obszary z ustawowego katalogu zostawiamy celowo puste: zarządzanie ryzykiem w łańcuchu dostaw oraz budowanie świadomości i szkolenia personelu. To przede wszystkim umowy, procesy i program szkoleniowy. Narzędzia dostarczą tu najwyżej danych, a nie gotowej zgodności. 
+Narzędzie to jeszcze nie jest zgodność
+I tu zaczyna się część, którą pomija większość entuzjastów „darmowego NIS2”. Wazuh, do którego alarmów nikt nie zagląda, nie jest zgodnością. Jest tylko dziennikiem zdarzeń. Samo postawienie oprogramowania to jakieś 30 procent pracy. Reszta to strojenie reguł, przechowywanie logów, procedury reagowania, szacowanie ryzyka, obsługa incydentu w reżimie 24/72 godzin (art. 11 ust. 1) i papier z podpisem zarządu. Zgodność robią procesy i ludzie, a nie sam fakt, że usługa działa na porcie.
+
+Zaawansowane funkcje Wazuha? Gotowe scenariusze wdrożeniowe? Integracje Wazuha z innymi narzędziami? Ataki i metody obrony przed nimi. To wszystko na szkoleniu: “Wazuh Expert 2.0 – edycja kompletna. Od podstaw do zaawansowanych wdrożeń w praktyce”. Z linkiem dla czytelników sekuraka aż 50% taniej."
+2026-07-27 22:06:34,"20 lipca 2026, 11:27",sekurak,https://www.sekurak.pl,https://sekurak.pl/krytyczne-dwie-podatnosci-w-wordpressie-tworzac-lancuch-prowadzacy-do-zdalnego-wykonania-kodu-rce/,Krytyczne dwie podatności w WordPressie tworząc łańcuch prowadzący do zdalnego wykonania kodu (RCE),"Trudno wyobrazić sobie współczesny internet bez WordPressa. Ten blogowy system zarządzania treścią z czasem stał się potężnym narzędziem, z którego korzystają nawet najwięksi gracze. Różne dane wskazują, że udział WordPressa w rynku od lat oscyluje w okolicach 60%. Tym bardziej nie powinno dziwić, że WP ciągle pozostaje w zainteresowaniu badaczy, zarówno tych działających po dobrej, jak i złej stronie mocy. Adam Kues z działu Assetnote w Searchlight Cyber w ramach programu WordPressa na Hacker One zgłosił dwie podatności stanowiące łańcuch ataku nazwany WP2Shell.
+TLDR:
+
+Adam Kues z działu Assetnote w Searchlight Cyber zgłosił dwie podatności w WordPressie. Pierwsza podatność to zwykłe SQL Injection. Druga dotyczy błędu w obsłudze żądań wsadowych REST API. Obie podatności tworzą łańcuch ataku prowadzący do zdalnego wykonania kodu (RCE).
+Do przeprowadzenia ataku nie jest wymagane uwierzytelnienie ani jakakolwiek interakcja ze strony użytkownika. Dostępny jest już proof of concept (PoC).
+Łatajcie się tak szybko, jak to tylko możliwe, a jeśli nie jest to możliwe, zapoznajcie się z poradami dotyczącymi mitygowania tego problemu bezpieczeństwa w dalszej części tekstu.
+
+Pierwsza zgłoszona podatność została oznaczona identyfikatorem CVE-2026-60137. W ramach programu CNA otrzymała ocenę 5.9 w CVSS 3.1 (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N). To błąd pozwalający na SQL injection w parametrze author__not_in w WP_Query. Taki rodzaj podatności pozwala na wstrzyknięcie własnych danych wejściowych do zapytania SQL. Podatne wersje to 6.8.0 – 6.8.5, 6.9.0 – 6.9.4 oraz 7.0.0 – 7.0.1. Natomiast załatane wersje to odpowiednio 6.8.6, 6.9.5 i 7.0.2.
+Druga podatność otrzymała identyfikator CVE-2026-63030 i ocenę 9.8 w ramach programu CNA w CVSS 3.1 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). To błąd w obsłudze żądań wsadowych REST API (batch-route confusion). Luka umożliwia nieuwierzytelnionemu atakującemu wykonanie kodu za pośrednictwem wsadowego endpointa API REST w środowiskach bez trwałej pamięci podręcznej obiektów. Co istotne, do wykorzystania tej luki nie jest wymagane logowanie ani jakakolwiek inna interakcja ze strony uprawnionego użytkownika. Wykorzystanie obydwu tych podatności może doprowadzić do zdalnego wykonania kodu (RCE).
+Feralny błąd prowadzący do RCE został wprowadzony w wersji 6.9, która została wydana 2 grudnia 2025 roku. Badacze z Searchlight Cyber na stronie podatności udostępnili tester pokazujący, czy dana strona jest podatna na atak.
+Tester podatności przygotowany przez zespół Searchlight Cyber (zrzut własny).
+Zalecana jest natychmiastowa aktualizacja. Dla podatnych wersji włączone zostały wymuszone aktualizacje automatyczne. W sytuacji, kiedy pilna aktualizacja jest niemożliwa zaleca się blokadę batch route w WAF-ie. Chodzi o ścieżkę /wp-json/batch/v1 oraz formę ciągu zapytania ?rest_route=/batch/v1. Zablokowanie tylko tej pierwszej ścieżki pozostawiłoby otwartą furtkę poprzez drugi sposób komunikowania się z API.
+W celu zmniejszenia ryzyka ataku można także wyłączyć API REST dla anonimowych użytkowników (np. Disable WP REST API). Ponadto badacze na swojej stronie zamieścili wtyczkę odrzucającą anonimowe żądania wsadowe (batch requests). Użytkownicy korzystający z Cloudflare oraz posiadający plany Pro, Business lub Enterprise powinni upewnić się, że Cloudflare Managed Rules są włączone. Klienci korzystający z planów bezpłatnych są automatycznie chronieni przez zestaw reguł bezpłatnych. Nowe reguły wdrażane są wraz z domyślną akcją blokowania w Managed Ruleset.
+REST API w WordPressie to interfejs, przez który aplikacje mogą komunikować się ze stroną, wysyłając i odbierając dane w formacie JSON. Dzięki REST API można m.in. pobierać posty, tworzyć treści lub aktualizować wpisy. WordPress podkreśla, że publiczna treść jest zwykle dostępna publicznie przez REST API, a prywatne treści wymagają uwierzytelnienia. W tym przypadku problem dotyczy mechanizmu batch route, który pozwala wysłać wiele żądań REST API w jednym żądaniu HTTP. Warto mieć świadomość, że zastosowanie środków zaradczych w określonych przypadkach może zakłócić poprawne działanie REST API, a tym samym wpłynąć na działanie blokowego edytora i innych funkcji strony.
+Niestety, transparentność projektu open source, jakim jest WordPress, umożliwiła szybką analizę wprowadzonych poprawek, na podstawie której powstał już gotowy do użycia eksploit udostępniony w serwisie GitHub. Co prawda w prowadzonym przez CISA rejestrze KEV nie ma jeszcze dostępnych informacji o aktywnym wykorzystaniu podatności, jednak wydaje się to tylko kwestią czasu. Na przykład w przeszłości dzięki błędowi we wtyczce cache’ującej Breeze grupie WP-SHELLSTORM udało się uzyskać nieautoryzowany dostęp do ponad 17 000 instancji WordPressa. W tym przypadku mamy do czynienia z błędem bezpośrednio w samym WordPressie, co może tylko spotęgować skalę skutków spodziewanych ataków.
+Jeśli posiadasz stronę korzystającą z WordPressa upewnij się, że nie działa ona na podatnej wersji i w razie potrzeby niezwłocznie ją zaktualizuj. Jeżeli nie możesz zaktualizować, zastosuj się do porad w piątym i szóstym akapicie. Aby upewnić się, czy Twoja strona jest podatna na atak możesz skorzystać z testera na stronie podatności. Sprawdź, czy automatyczne aktualizacje zostały włączone. Z pewnością mechanizm ten przyda się jeszcze nie raz. Warto sprawdzić, czy nie ma nieznanych kont administratorów i ostatnio modyfikowanych plików. Warto także przejrzeć logi pod kątem nietypowej aktywności REST API.
+~pu"
