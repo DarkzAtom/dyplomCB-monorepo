@@ -1,0 +1,108 @@
+query,reference,candidate,seconds,expected_link,cited_expected
+Russia-backed threat actor targets Western organizations in phishing campaign,"Russia-backed threat actor targets Western organizations in phishing campaign
+
+U.S. authorities warned in an advisory released Thursday that a state-sponsored threat actor has targeted government and private sector organizations since mid-2025 through a sophisticated phishing campaign that exploits a high-severity flaw in Zimbra Collaboration Suite.
+A Russia-backed threat actor known as Laundry Bear targeted cloud environments in Ukraine before expanding to Western targets in various industrial sectors, according to the Cybersecurity and Infrastructure Security Agency and National Security Agency. 
+After initially focusing on Microsoft Exchange environments, the hacker targeted a zero-day flaw in Zimbra, tracked as CVE-2025-66376, beginning around May 2025.  
+
+The flaw allows an attacker to execute a Javascript payload due to improper sanitation of Cascading Style Sheets’ import directives. The CVE was not published until January 2026, meaning the exploitation continued for months as a zero-day. 
+The exploit allows an attacker to steal up to 90 days of email, the users’ global address list and other sensitive information, according to the advisory. The exploit also allows an attacker to gain persistent access to an environment.  
+Authorities said users should immediately patch their systems. If immediate patching is not possible, they should switch to another email client.","A Russia-backed threat actor known as Laundry Bear has been targeting Western government and private sector organizations through a sophisticated phishing campaign since mid-2025. They exploited a high-severity zero-day vulnerability in the Zimbra Collaboration Suite email platform (CVE-2025-66376). This flaw allowed the attacker to execute malicious JavaScript code by exploiting improper handling of Cascading Style Sheets, enabling them to steal up to 90 days of email, user address books, and gain persistent access to the target environments. The exploitation went undetected for months as the vulnerability was only made public in January 2026. Authorities have urged all users of the affected systems to immediately patch their software or switch email clients if patching is not feasible. 
+
+This activity fits a broader pattern of Russia-linked cyber espionage groups leveraging vulnerabilities in webmail servers and cloud environments to harvest sensitive information. For example, groups like APT28 have also exploited flaws in various webmail platforms (including Roundcube and MDaemon) to harvest credentials and emails, focusing on government and defense organizations in Eastern Europe and beyond.
+
+If you're concerned about this, the key mitigation step is promptly updating Zimbra Collaboration Suite to patch this zero-day and remaining vigilant to phishing emails that could carry such exploits.
+
+Sources:
+- https://www.cybersecuritydive.com/news/russia-threat-actor-western-organizations-Zimbra-phishing/826029/
+- https://thehackernews.com/2025/05/russia-linked-apt28-exploited-mdaemon.html",10.88,https://www.cybersecuritydive.com/news/russia-threat-actor-western-organizations-Zimbra-phishing/826029/,yes
+Have your say on the certification of EU Managed Security Services,"Have your say on the certification of EU Managed Security Services
+
+ENISA is launching a public consultation on the draft candidate cybersecurity certification scheme on EU Managed Security Services (EUMSS), following its work with the dedicated Ad Hoc Working Group.
+
+At the request of the European Commission, ENISA has developed a candidate certification scheme for Managed Security Services. ENISA has found that cybersecurity investment increasingly focuses on technology and outsourcing rather than internal cybersecurity teams. The EUMSS scheme will address current diversity and fragmentation in the approach and requirements that apply to the delivery of managed security services in EU Member States.
+ENISA Executive Director, Juhan Lepassaar, said: “Common baselines can guarantee a level of confidence in services offered. This scheme can offer Member States trust in the services that reinforce their prevention and response capabilities, especially in the context of the EU Cybersecurity Reserve.”
+
+Take part in the public consultation and share your feedback through the following EU Survey by 13 September 2026.
+A close up to the draft scheme
+The draft of the EUMSS scheme builds on existing European cybersecurity certification practices and assessment methodologies.
+The scheme follows a layered approach, consisting of a horizontal and a vertical layer. 
+The horizontal layer outlines a common set of baseline requirements applicable to all Managed Security Services to be certified under this scheme. These baseline requirements apply as a mandatory prerequisite for each certified service profile. These are the same for all three established assurance levels (i.e. 'basic', 'substantial', and 'high') and cover the following domains: 
+
+Secure service and platform design;
+Deployment and transition management;
+Availability and continuity management;
+Operational service management; 
+Continuous improvement and technology maintenance.
+
+The vertical layer defines service-specific requirements applicable to particular managed security services and the services profiles included in these services. The present version of the scheme focuses on the ‘Incident Management Lifecycle’ vertical and more specifically to the ‘Incident Response’ service profile.
+Reinforcing trust in the EU Cybersecurity Reserve
+The development of the scheme can further support the EU Cybersecurity Reserve, as providers delivering services under the umbrella of the EU Cybersecurity Reserve have to be certified in accordance with the EUMSS within 2 years once the scheme is in place. 
+The draft scheme is designed to provide a harmonised and proportionate framework that supports cross-border service provision and Union-level crisis response capabilities. 
+The context behind the development of the scheme
+The European Commission has requested ENISA to prepare a candidate European cybersecurity certification scheme for Managed Security Services pursuant to Article 48(1) of the Cybersecurity Act. ENISA established an Ad Hoc Working Group on Managed Security Services Certification to support the preparation of the candidate scheme, which kicked-off its work in October 2025. The document currently under public consultation is the first version of the result of the work of ENISA with the support this group.
+
+EU Managed Security Services Certification to drive the cybersecurity market | ENISA
+EUMSS - European Union Cybersecurity Certification - European Union
+Product Security and Certification | ENISA
+Certification and Standards | ENISA
+Developing Certification Schemes - European Union Cybersecurity Certification","Based on what I found, the EU is working on a cybersecurity certification scheme specifically for Managed Security Services (EUMSS). ENISA has released a draft of this scheme and is asking for public feedback by 13 September 2026. The goal is to create common baseline requirements that all certified Managed Security Services must meet, covering areas like secure service design, operational management, and continuous improvement.
+
+The scheme aims to reduce fragmentation in how Managed Security Services are delivered across EU member states and to reinforce trust in services, particularly supporting the EU Cybersecurity Reserve by requiring providers under this reserve to be certified within two years after the scheme is finalized.
+
+If you want to have your say, you can participate in the public consultation through the EU Survey ENISA has provided. This is a great chance to share your views on how managed security services should be certified to improve cybersecurity across the EU.
+
+Here's the link where you can find more info and join the consultation: https://enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services
+
+Let me know if you want help understanding the scheme's details or how to submit your feedback!",4.53,https://enisa.europa.eu/news/have-your-say-on-the-certification-of-eu-managed-security-services,yes
+NASK częścią polsko-brytyjskiego porozumienia,"NASK częścią polsko-brytyjskiego porozumienia
+
+Broń XXI wieku stosowana jest nie tylko na polu bitwy, walka przeniosła się do sfery cyber, internetu i mediów społecznościowych. Dlatego skuteczna odpowiedź na zagraniczne operacje wpływu wymaga współpracy ponad granicami. NASK wraz z partnerami z Polski oraz brytyjskim Ministerstwem Spraw Zagranicznych podpisało porozumienie o współpracy. Wszystko w trosce o bezpieczeństwo informacyjne w Europie.
+
+NASK, Ministerstwo Spraw Zagranicznych, Ministerstwo Cyfryzacji oraz brytyjskie ministerstwo odpowiedzialne za politykę zagraniczną, współpracę międzynarodową oraz bezpieczeństwo międzynarodowe (FCDO) rozpoczynają strategiczną współpracę w zakresie przeciwdziałania zagranicznym manipulacjom i ingerencjom w przestrzeni informacyjnej (FIMI). Podpisane porozumienie zakłada rozwój wspólnych zdolności analitycznych, wymianę informacji o zagrożeniach oraz koordynację działań służących ochronie bezpieczeństwa informacyjnego i demokracji w Europie.
+– Operacje wpływu i zagraniczne manipulacje to już codzienność. Są stałym elementem rywalizacji między państwami. Żeby skutecznie je wykrywać i ograniczać, nie wystarczy działać lokalnie. Potrzebujemy zaufanych partnerów, wspólnych metod analitycznych i szybkiej wymiany informacji. Właśnie dlatego to porozumienie ma tak duże znaczenie – mówi Wojciech Szajnar, dyrektor Centrum Nowych Technologii dla Polityk Publicznych w NASK.
+
+Trzy filary współpracy
+Pierwszy filar współpracy koncentruje się na wymianie wiedzy i doświadczeń. Sygnatariusze będą wspólnie rozwijać metody badawcze, wymieniać informacje o zagrożeniach oraz współpracować w obszarze OSINT (wywiad jawnoźródłowy)i analizy danych. Porozumienie zakłada także ujednolicanie narzędzi i standardów analitycznych oraz rozwój międzynarodowej sieci ekspertów zajmujących się analizą operacji informacyjnych.
+– Cieszymy się, że możemy dziś podpisać porozumienie, które pogłębi współpracę między Wielką Brytanią a Polską w zakresie przeciwdziałania zagrożeniom hybrydowym, w tym zagranicznej manipulacji i ingerencji w przestrzeń informacyjną (FIMI). To zagrożenie nie zna granic, dlatego aby skutecznie mu przeciwdziałać musimy ściśle współpracować na poziomie międzynarodowym – mówi Jonny Hall, Dyrektor Departamentu ds. Zagrożeń Informacyjnych i Operacji Wpływu w brytyjskim Ministerstwie Spraw Zagranicznych. – Łącząc potencjał Wielkiej Brytanii i Polski, chcemy zacieśnić współpracę zarówno na poziomie analitycznym, jak i operacyjnym, aby przeciwdziałać temu zagrożeniu u jego źródeł. Naszym celem jest identyfikowanie i ograniczanie działalności sieci odpowiedzialnych za manipulowanie przestrzenią informacyjną oraz zwiększanie kosztów prowadzenia przez nie tego typu działań.
+Drugi filar współpracy ma charakter operacyjny. Partnerzy będą wspólnie analizować zagraniczne operacje wpływu, prowadzić dochodzenia dotyczące wybranych kampanii FIMI oraz koordynować działania służące ich ujawnianiu i ograniczaniu ich wpływu. W najbliższych miesiącach planują również pierwsze wspólne przedsięwzięcie ukierunkowane na identyfikację i neutralizację konkretnej sieci dezinformacyjnej.
+– Dezinformacja nie może pozostawać bez odpowiedzi. Dzięki tej współpracy będziemy mogli nie tylko szybciej identyfikować zagraniczne operacje wpływu, ale także wspólnie je analizować, a przede wszystkim ograniczać ich oddziaływanie. To praktyczny wymiar naszego partnerstwa i jego największa wartość – podkreśla Magdalena Wilczyńska, dyrektorka Pionu Ochrony Informacyjnej Cyberprzestrzeni w NASK.
+Trzeci filar rozszerza współpracę na poziom międzynarodowy. Polska i Wielka Brytania będą wspólnie działać na forach międzynarodowych, m.in. NATO, G7 i OBWE, a także w inicjatywach, które przeciwdziałają dezinformacji sponsorowanej przez państwa. Współpraca obejmie regularne spotkania ekspertów, bezpieczną wymianę informacji, wspólne szkolenia oraz bieżącą koordynację działań operacyjnych i strategicznych.","NASK jest częścią polsko-brytyjskiego porozumienia, które ma na celu współpracę w przeciwdziałaniu zagranicznym manipulacjom i ingerencjom w przestrzeń informacyjną. Razem z polskimi i brytyjskimi partnerami, w tym brytyjskim Ministerstwem Spraw Zagranicznych, NASK podpisał umowę o strategicznej współpracy mającej poprawić bezpieczeństwo informacyjne w Europie.
+
+Porozumienie opiera się na trzech filarach. Po pierwsze, chodzi o wymianę wiedzy i doświadczeń, wspólne rozwijanie metod badawczych oraz standaryzację narzędzi analitycznych. Po drugie, współpraca ma charakter operacyjny – partnerzy będą wspólnie analizować i zwalczać zagraniczne operacje wpływu, także prowadząc dochodzenia i ujawniając dezinformację. Po trzecie, współpraca będzie prowadzona także na arenie międzynarodowej, m.in. w ramach NATO, G7 i OBWE, dzięki czemu NASK i Wielka Brytania będą działać razem na różnych poziomach, zwiększając odporność na zagrożenia hybrydowe.
+
+W praktyce oznacza to szybsze identyfikowanie i ograniczanie wpływu dezinformacyjnych kampanii oraz zwiększanie kosztów dla podmiotów odpowiedzialnych za manipulacje w internecie i mediach społecznościowych.
+
+Jeśli chcesz, mogę przesłać link do szczegółów tego porozumienia.
+
+Źródło: https://www.nask.pl/aktualnosci/nask-czescia-polsko-brytyjskiego-porozumienia",6.58,https://www.nask.pl/aktualnosci/nask-czescia-polsko-brytyjskiego-porozumienia,yes
+"New GitHub, PyPI Policies Boost Supply Chain Security","New GitHub, PyPI Policies Boost Supply Chain Security
+
+GitHub and the Python Package Index (PyPI) have introduced new policies meant to boost supply chain security by preventing the fast propagation of poisoned package versions and the poisoning of old and long-stable releases.
+To prevent the fast delivery of malicious code through the immediate fetching of brand-new releases, GitHub has introduced a Dependabot cooldown, where the automation tool waits for at least three days after a release has been published before opening a pull request.
+
+“Waiting a few days before adopting a new release gives maintainers, security researchers, and automated scanners time to spot a malicious version and get it pulled before it ever reaches your pull requests,” GitHub explains.
+
+The three-day cooldown only applies to non-security version bumps, and the behavior can be modified through the configuration option in the dependabot.yml.
+
+“Three days as the default balances two goals: it pushes you past the window where most of these attacks live, and it doesn’t hold your dependencies back longer than necessary,” GitHub notes.
+
+PyPI, on the other hand, is preventing the poisoning of releases older than 14 days by blocking the upload of new files to them.
+
+“This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware, this has not yet been abused, but there is no technical reason beyond that attackers weren’t aware it was possible,” PyPI says.
+
+The behavior will be enforced once ‘Upload 2.0 API’ and ‘Staged Previews’ have been standardized by PEP 694 and will affect only a small fraction of projects that still publish new files to older releases.
+
+Testing has shown that only 56 of the top 15,000 packages “had published a 3.14-compatible wheel more than 14 days after a release was available,” PyPI explains.
+
+According to the platform, the change should not only protect users but also eliminate cleanup work in the event of an attack, as it would be much easier to distinguish between compromised and non-compromised releases.","Based on what I found, GitHub and PyPI have rolled out new policies aimed at improving supply chain security by reducing the risk of malicious code quickly spreading through new package releases. GitHub has introduced a ""Dependabot cooldown,"" which delays automations like Dependabot from proposing updates for at least three days after a new release. This waiting period gives maintainers and security tools a chance to detect malicious versions before they reach user codebases. This cooldown applies only to non-security-related version bumps and can be adjusted in the dependabot.yml file.
+
+PyPI, on its side, is preventing the addition of new files to any package release older than 14 days. This stops attackers who might gain access to publishing credentials from injecting malicious code into previously published, stable releases. Although this hasn't yet been exploited, PyPI is enforcing this to eliminate the risk. The new rules are planned to be enforced after standardizing related APIs and previews via PEP 694.
+
+Together, these measures aim to narrow the attack window for fast-moving supply chain attacks and help users avoid compromised dependencies while reducing cleanup workloads if an attack occurs. However, GitHub acknowledges this is just one layer of defense and recommends complementary practices like locking dependency versions, disabling install scripts in continuous integration, and carefully reviewing dependency updates.
+
+If you're a developer relying on packages from GitHub or PyPI, these changes mean your tools will be a bit more cautious and secure by default, helping to protect your projects from some classes of supply chain threats.
+
+If you want to read the detailed announcements, here are the links:
+- https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/
+- https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",4.72,https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/,yes

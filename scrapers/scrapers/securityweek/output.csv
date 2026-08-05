@@ -1,270 +1,293 @@
 fetchingDate,creationDate,author,authorLink,articleLink,articleTitle,articleText
-2026-07-27 21:58:28,"July 27, 2026 (10:26 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/new-github-pypi-policies-boost-supply-chain-security/,"New GitHub, PyPI Policies Boost Supply Chain Security","GitHub and the Python Package Index (PyPI) have introduced new policies meant to boost supply chain security by preventing the fast propagation of poisoned package versions and the poisoning of old and long-stable releases.
-To prevent the fast delivery of malicious code through the immediate fetching of brand-new releases, GitHub has introduced a Dependabot cooldown, where the automation tool waits for at least three days after a release has been published before opening a pull request.
+2026-08-04 05:53:43,"August 3, 2026 (9:54 PM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/new-york-awards-9-million-to-strengthen-cybersecurity-at-153-water-systems/,New York Awards $9 Million to Strengthen Cybersecurity at 153 Water Systems,"New York is awarding more than $9 million to help 153 drinking water and wastewater systems strengthen their defenses against cyberattacks.
+Governor Kathy Hochul announced the funding Monday through the state’s Strengthening Essential Cybersecurity for Utilities and Resiliency Enhancements (SECURE) grant program.
 
-“Waiting a few days before adopting a new release gives maintainers, security researchers, and automated scanners time to spot a malicious version and get it pulled before it ever reaches your pull requests,” GitHub explains.
+The grants will fund cybersecurity assessments and the implementation of security improvements at local utilities. Recipients will also have access to no-cost technical assistance from the New York State Environmental Facilities Corporation (EFC).
 
-The three-day cooldown only applies to non-security version bumps, and the behavior can be modified through the configuration option in the dependabot.yml.
+The funding is intended to help utilities comply with minimum cybersecurity standards introduced by New York in March. Those standards include mandatory cybersecurity training for certified operators, incident reporting requirements, risk-based protections for critical operations and sensitive information, and the designation of a cybersecurity lead at larger drinking water systems.
 
-“Three days as the default balances two goals: it pushes you past the window where most of these attacks live, and it doesn’t hold your dependencies back longer than necessary,” GitHub notes.
+When the SECURE program was launched, New York said utilities could receive up to $50,000 for cybersecurity assessments and up to $100,000 for implementing security upgrades.
 
-PyPI, on the other hand, is preventing the poisoning of releases older than 14 days by blocking the upload of new files to them.
+“These threats are real and escalating,” Hochul said, pointing to the recent cyberattacks against water systems in multiple states.
 
-“This restriction was put in place to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware, this has not yet been abused, but there is no technical reason beyond that attackers weren’t aware it was possible,” PyPI says.
+The funding announcement comes shortly after a coordinated cyber campaign targeted operational technology systems at water and wastewater facilities across the United States. More than 30 community water systems in Minnesota were targeted on July 26 and 27.
 
-The behavior will be enforced once ‘Upload 2.0 API’ and ‘Staged Previews’ have been standardized by PEP 694 and will affect only a small fraction of projects that still publish new files to older releases.
+Some municipalities reported disruptions to automated control functions, although contingency procedures allowed most facilities to remain operational.
 
-Testing has shown that only 56 of the top 15,000 packages “had published a 3.14-compatible wheel more than 14 days after a release was available,” PyPI explains.
+The city of Braham briefly took its water plant offline after attackers shut down operating controls, stopping the well and water treatment plant. Other affected municipalities said their drinking water remained safe and services continued operating.
 
-According to the platform, the change should not only protect users but also eliminate cleanup work in the event of an attack, as it would be much easier to distinguish between compromised and non-compromised releases."
-2026-07-27 21:59:01,"July 27, 2026 (9:19 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/ptc-windchill-vulnerability-exploited-in-ransomware-campaign/,PTC Windchill Vulnerability Exploited in Ransomware Campaign,"A Cl0p ransomware affiliate has been observed exploiting a critical-severity remote code execution (RCE) vulnerability in PTC’s product lifecycle management (PLM) platforms Windchill and FlexPLM.
-Tracked as CVE-2026-12569 (CVSS score of 9.3), the security defect is described as a deserialization of untrusted data issue that can be exploited without authentication.
+The campaign was subsequently found to have affected water infrastructure in at least seven states.Michigan confirmed malicious activity involving a small number of communities, while Rapid City, South Dakota, reported an incident involving a wastewater lift station. Georgia was also reportedly among the states targeted. No New York utility has been publicly linked to the campaign.
 
-Patched on June 17, the bug was flagged as exploited in the wild the next day, when PTC published indicators of compromise (IoCs). It was added to CISA’s KEV catalog at the end of June.
+Federal investigators have not formally attributed the attacks. However, Iran has emerged as a leading suspect because the activity reportedly resembles previous campaigns linked to Iranian threat actors known to target industrial control systems and water utilities.
 
-Fresh warnings from ReliaQuest and Ransom-ISAC (in collaboration with eCrime.ch and Defused) show that the vulnerability is now exploited in the wild by a Cl0p affiliate.
+Following the attacks, the US Cybersecurity and Infrastructure Security Agency (CISA) urged water and wastewater operators to remove publicly exposed programmable logic controllers and other operational technology from the internet.
 
-“The actor behind these attacks remains unconfirmed. However, the observed tradecraft shares characteristics with previous Cl0p campaigns targeting enterprise applications and high-value data repositories,” ReliaQuest says.
+The agency also recommended changing default passwords, routing necessary remote access through secure gateways or virtual private networks, and restricting connections to trusted IP addresses.
 
-A detailed Ransom-ISAC advisory shows that the attackers have been chaining a “pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet” to achieve RCE and deploy JSP webshells.
+The $9 million in cybersecurity grants is separate from a five-year, $3.8 billion clean water infrastructure investment included in New York’s fiscal year 2027 budget. The state said that investment will bring its total water infrastructure grants since 2017 to more than $10 billion."
+2026-08-04 05:54:22,"August 3, 2026 (11:50 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1/,Black Hat USA 2026 – Summary of Vendor Announcements (Part 1),"Many companies are showcasing their cybersecurity products and services this week at the 2026 edition of the Black Hat conference in Las Vegas.
+To help cut through the clutter, the SecurityWeek team is publishing a digest summarizing vendor announcements at Black Hat USA 2026, including new products and services, updates to existing offerings, reports, and other initiatives. 
 
-Following initial access, the hackers have been observed enumerating filesystems, staging data, and exfiltrating data for extortion.
+The first part of this roundup covers announcements made in the days leading up to the event, as well as some of the announcements made on Monday, August 3.
 
-Starting July 20, the attackers have been targeting organizations across the aerospace, automotive, manufacturing, and retail/apparel sectors, Ransom-ISAC’s advisory reads.
+Acalvio launches Deception Guardrails for AI agents
+Acalvio has launched Deception Guardrails, a new capability within its ShadowPlex platform aimed at protecting AI agents from compromise. The feature deploys honeytokens, decoy tools, and fake infrastructure to lure and expose malicious activity targeting agentic AI environments. It also monitors agent interactions to flag jailbreak attempts, prompt injection, and other manipulation in real time. 
 
-As part of the observed campaign, the threat actor has been sending extortion emails with a subject line “Windchill PDMLink module serious data leak” to hundreds of users within the impacted organizations.
+Artiphishell introduces Verifiable Remediation
 
-“As of 22 July, Cl0p ransomware has not begun listing victims of this latest campaign on their dark web data leak site or has publicly claimed credit for this latest campaign,” Ransom-ISAC says.
+Artiphishell, a DARPA-backed company, launched Verifiable Remediation as part of its Automated VulnOps Platform, aimed at helping teams cut through scanner noise and confirm that fixes actually work. The feature validates whether flagged vulnerabilities are real, filters out duplicates and false positives, and checks for exploitability before generating automated remediation. It then produces evidence-backed proof that a fix has addressed the underlying issue.
 
-Organizations are advised to apply PTC’s patches and to use previously published and newly shared IoCs to conduct threat hunting. They should also follow PTC’s remediation steps."
-2026-07-27 21:59:35,"July 27, 2026 (9:00 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/medusahvnc-malware-uses-hidden-windows-desktops-to-evade-detection/,MedusaHVNC Malware Uses Hidden Windows Desktops to Evade Detection,"Hidden desktops are a legitimate Windows capability, often used by specialized software, and occasionally used by malware.
+Arctic Wolf launches cyber resilience offering
+Arctic Wolf has introduced a new Cyber Resilience offering that packages several of its existing products and services into one bundle. The suite combines managed detection and response, attack surface and vulnerability management, endpoint defense, and security awareness training. Customers using the offering are also eligible for the company’s security operations warranty, which covers up to $3 million in costs tied to a security incident.
 
-MedusaHVNC is a remote access trojan (RAT) being sold as malware-as-a-service (MaaS). It is promoted through its own website and a Telegram channel. It was found and analyzed by BlackFog, with the analysis finding a hidden virtual network computing (HVNC) module that opens a legitimate browser on a separate hidden Windows desktop,
+BeyondTrust report ties majority of attacks to identity and privilege gaps
+BeyondTrust’s Phantom Labs research team released its annual Research Index, drawing on the group’s offensive security work over the past year. The report found that 75% of attacks involved some form of identity or privilege issue, with credential exposure, privilege escalation, and identity misconfiguration among the leading root causes. These issues often compounded each other rather than appearing in isolation, with standing privilege and escalation frequently occurring together. 
 
-Since it operates from a hidden desktop, its operation is invisible to the user.
+Cato Networks adds agentic capability to predict AI-driven attacks
+Cato Networks has launched Cato Agentic Threat Prevention, a new capability that uses autonomous agents to anticipate likely attack paths and tailor defenses to each customer’s environment. The feature draws on combined network and security telemetry from Cato’s platform to model risk across users, applications, and traffic patterns, then predicts how attackers might chain techniques or evade controls.
 
-The malware uses a 5-stage infection chain. It starts when the legitimate wscript.exe executes a JScript launcher. The script waits for just over 7.5 seconds and then builds its embedded files under %TEMP%\Nx2981Okkr2\.
+Cribl adds new AI security and observability capabilities to platform
+Telemetry platform provider Cribl has unveiled new tools to help enterprises manage AI security and observability through their own telemetry data. The new tools include the Cribl App for AI Observability, which manages AI usage and risk; new detection engineering capabilities that identify coverage gaps; and stream-native detections in Cribl Stream that pinpoint high-confidence threats earlier.
 
-Several files are written to disc, including an encrypted payload and a .bat in the Startup folder to maintain persistence.
+Cycode adds agentic workflows to automate risk response
+Cycode has launched Agentic Workflows, a new capability that lets AI agents autonomously triage, remediate, and manage security risks as they emerge across the application development lifecycle. Security teams define a workflow’s triggers, agent actions, and confidence thresholds, then let agents act automatically once a matching event occurs (such as a new critical CVE or a missed SLA on an exploitable finding). Teams can also set which actions require human review versus running autonomously. The feature is currently in early access.
 
-Windows AutoIT is used to decrypt the payload and start charmap.exe (the Windows character map utility. The loader, now inside charmap.exe, contains two further layers of encryption. “The first applies a 16-byte repeating XOR operation to 1,009,152 bytes from the .data section. The second uses ChaCha20 to decrypt 998,912 bytes of ciphertext with a 32-byte key, a 12-byte nonce, and an initial counter value of 1,” write the researchers.
+Cyera launches Agent Guardian, new AI agent risk product
+Cyera has introduced Agent Guardian and Cyera Endpoint, new capabilities designed to secure enterprise AI agents by providing visibility into agent activity, governing what agents can access, and enforcing runtime controls across cloud and endpoint environments. Agent Guardian continuously discovers, monitors, and protects AI agents from threats like prompt injection and unauthorized data access, while Cyera Endpoint extends those guardrails to local AI tools running directly on employee devices.
 
-That installed final payload ‘is an unsigned PE32+ x86-64 console executable containing a .pay section and the family string MedusaHVNC.’ It communicates with the operator’s C2 at a hardcoded address: 51.89.204.28:4444.
+Flashpoint adds custom summary builder to threat intelligence platform
+Flashpoint has launched a Custom Summary Builder within its AI Workspace for Investigations Management, part of the Flashpoint Ignite platform. The tool lets analysts choose from a set of report sections (such as executive summary, actors and entities, and TTPs) to tailor AI-generated investigation findings for different audiences, and save those configurations as reusable templates. Generated content can be traced back to the underlying Ignite data for review, and analysts can also query the investigation material through an AI chat function for follow-up questions. 
 
-The operator can create a browser of choice within the hidden desktop from Chrome, Edge, and Firefox. Legitimate Windows functions, including BitBlt, EnumWindows, and PrintWindow support screen and window capture, while SendInput and SetWindowsHookExW are associated with synthetic input and interaction. 
+KnowBe4 extends Agent Risk Manager to cover Claude
+KnowBe4 has added support for Anthropic’s Claude to its Agent Risk Manager, extending the tool’s governance layer beyond its existing support for Microsoft Copilot. The tool monitors agent behavior without altering the underlying model, using six detection engines to flag prompt injection, sensitive data leaks, privilege escalation, and unapproved tool access. It also includes a visual map of connected APIs and credentials to help security teams identify high-risk points if an agent is compromised. The feature is currently in early access for SAT Advanced customers on US-tenant accounts.
 
-“Clipboard functions, including OpenClipboard, GetClipboardData, and SetClipboardData, provide another way to move information into or out of the session,” comment the researchers.
+Miggo Security launches defense-in-depth mitigation solution
+Miggo Security launched a defense-in-depth mitigation solution that closes the gap between vulnerability disclosure and patching. It uses AI-generated, tested controls at the edge and inside the application to quickly stop exploits and cut exposure windows. Miggo demonstrated the approach against two recent LiteLLM vulnerabilities, blocking one at the WAF and the other at runtime based on how each exploit actually worked.
 
-The hidden desktop allows the attacker to take full advantage of legitimate Windows tools without being observed by the user. The C2 is hardcoded into the malware but is relatively safe from observation. The result is a stealthy and persistent RAT.
+Novee expands AI pentesting platform to mobile applications
+Novee has expanded its AI pentesting platform to mobile applications, bringing continuous testing across mobile, web and the APIs connecting them into one platform. Customers can upload an Android app and receive proven findings within hours, combining reverse engineering with live runtime testing.
 
-The only obvious mitigation is detection of unexpected data exfiltration. Even if the RAT’s operation is out of view in the unknown and hidden desktop, the data must still be exfiltrated from the network. Detection of unexplained data leaving the network is always an indication that something is wrong somewhere."
-2026-07-27 22:00:09,"July 27, 2026 (8:25 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/nvidia-and-tech-giants-launch-ai-security-alliance/,Nvidia and Tech Giants Launch AI Security Alliance,"Nvidia and a large group of technology, cybersecurity, and enterprise software companies announced on Monday the launch of the Open Secure AI Alliance, a new initiative aimed at developing and sharing open source tools, models, and techniques for securing AI systems and agents. 
-The effort builds on existing work from the Linux Foundation’s recently launched Akrites initiative and the OpenSSF community.
+Prophet Security adds AI-driven detection engineering to SOC platform
+Prophet Security has released AI Detection Engineer, a new addition to its Agentic AI SOC Platform that automates the process of building and maintaining detection rules. The tool analyzes an organization’s past investigations and threat hunting results to identify coverage gaps, author new detections, and tune existing rules to cut down on false positives. Each recommendation is backtested against historical data and comes with supporting evidence and a confidence score before being applied.
 
-Inaugural partners of the Open Secure AI Alliance also include Adobe, Cadence, Capital One, Cisco, Cloudera, Cloudflare, Cognition, CrowdStrike, Databricks, Dell, DoorDash, Elastic, HPE, Hugging Face, IBM, LangChain, Microsoft, Naver, NetApp, Nous Research, OpenClaw, Palantir, Palo Alto Networks, Red Hat, Reflection AI, Salesforce, SAP, SK Telecom, ServiceNow, Siemens, Snowflake, SpaceXAI, Synopsys, Thinking Machines Lab, and TrendAI.
+Realm Security adds detection integrity and search features to data platform
+Realm Security has introduced two new capabilities, Detection Integrity and search in Data Haven. Detection Integrity maps SIEM detection rules to the log sources they depend on, letting teams reduce log volume while confirming existing detections still work. Data Haven, the platform’s retention layer, keeps a raw, OCSF-normalized copy of security data and now allows teams to search that history directly rather than restoring archived logs first. Both features are aimed at letting organizations lower SIEM ingestion costs without losing detection coverage.
 
-Nvidia’s contribution to the project includes open models, weights, data, and agent harness research, including a newly released open source project called NOOA, designed to help harnesses make agent behavior easier to trace, test, and audit.
+SentinelOne expands autonomous SOC and Wayfinder AI services
+SentinelOne unveiled two updates at Black Hat USA 2026. The first adds governed, closed-loop response to its Singularity Platform, letting Purple AI investigate alerts, reach verdicts, and execute response actions within limits set by security teams, with every action traceable and reversible (expected generally available later this quarter). The second expands Wayfinder Frontier AI Services, its managed offering that now pairs Anthropic’s latest models with SentinelOne analysts to find and validate exploitable vulnerabilities, backed by a new remediation partnership with LevelBlue, customizable MDR workflows, and threat hunting extended to identity platforms like Okta and Microsoft Entra ID.
 
-HPE is contributing to SPIFFE/SPIRE, a zero-trust identity framework for cryptographically verifying AI agents and services, while Hugging Face is donating its Safetensors model weight storage format to the PyTorch Foundation.
+Sweet Security announces new blocking capabilities
+Sweet Security announced Agentic AI Blocking, the ability to stop rogue AI agents in live production, in real time. The new capabilities enable organizations to terminate unauthorized tool calls and sessions at runtime, stop secrets, PII, and sensitive data from leaving through an agent, and block prompt injections before they steer an agent off course. 
 
-IBM and Red Hat are extending open source supply chain security through the Lightwell project, which is designed to deliver automated vulnerability remediation at scale.
+Varonis adds intent-based access control to Atlas platform
+Varonis has introduced Agent Intent-Based Access Control (IBAC), a new capability in its Atlas platform that monitors whether an AI agent’s actions match its assigned instructions. The feature compares an agent’s reasoning, tool calls, and data access against its original task, with adjustable sensitivity settings, and can flag or block actions that fall outside that scope. It evaluates entire sessions to catch risks that build up over multiple turns, such as gradual jailbreak attempts. When a violation occurs, Atlas can quarantine the associated identity for a set period, while flagged actions can also be routed to a human for approval.
 
-Microsoft is contributing MDASH, a multi-model agentic scanning harness that coordinates AI agents to find, debate, and validate exploitable software bugs.
+XM Cyber released open source exposure hunting tools
+XM Cyber has released open source exposure hunting tools for macOS and Oracle Cloud. At Black Hat Arsenal, it will demonstrate FAInd my XPC, which uncovers macOS trust flaws that could let unprivileged attackers invoke privileged services, including paths to root code execution. At DEF CON, XM Cyber will unveil its Offensive OCI toolset, which maps effective Oracle Cloud permissions and exposes hidden privilege-escalation paths.
 
-SpaceXAI is open-sourcing its Grok Build terminal-based AI coding agent, with plans to eventually open-source the weights of the Grok model line.
+Zero Networks launches new tool for enterprise AI
+Zero trust security firm Zero Networks has launched Least Agency Enforcement, a new AI security capability that allows enterprises to limit what AI agents can access, what actions they can perform, and when human approval is required, preventing agents from exceeding their intended authority. Least Agency Enforcement applies identity-based microsegmentation, automated policy enforcement, and just-in-time MFA to ensure AI agents communicate only with authorized systems, access only approved resources, and are contained if they’re manipulated, over-permissioned, or compromised."
+2026-08-04 05:54:55,"August 3, 2026 (11:32 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/visa-to-acquire-fraud-intelligence-firm-biocatch-for-2-4-billion/,Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion,"Visa has agreed to acquire fraud prevention company BioCatch for $2.4 billion in cash as the payments giant looks to expand its cybersecurity and financial crime detection capabilities.
+Founded in 2011, BioCatch provides behavioral biometrics technology that analyzes application, device, network and user activity to distinguish legitimate customers from fraudsters in real time.
 
-The new alliance argues that open models, harnesses, and security tooling should be treated as defensive assets rather than liabilities, and warns policymakers and regulators that broad restrictions on open frontier AI could weaken collective cyber defense capacity.
+Its artificial intelligence and machine learning models examine thousands of signals, including keystrokes, mouse activity, touchscreen gestures, device handling and signs that a user may be acting under coercion. The technology is designed to identify account takeovers, scams, money mule activity, application fraud and other financial crimes before a transaction is completed.
 
-Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay
+BioCatch says its technology analyzes 19 billion online banking sessions each month and protects 760 million users across 1.8 billion devices. The company serves more than 350 financial institutions in 21 countries, including over 100 of the world’s largest banks.
 
-Nvidia points to the recent security incident involving OpenAI and Hugging Face, noting that when closed AI tools could not differentiate between attackers and defenders and blocked forensic work, Hugging Face used the open-weight GLM 5.2 model on its own systems to review over 17,000 actions and contain the breach.
+“BioCatch will help our clients stop fraud before it reaches the point of payment,” said Andrew Torre, president of value-added services at Visa. “This acquisition is part of our strategy to help clients prevent cyber threats upstream, building trust into every transaction.”
 
-“The right response is not to deny defenders access to capable open systems. It is to pair openness with strong safeguards, clear rules against malicious misuse, rigorous evaluation and rapid remediation. In cybersecurity, the safer path is the one that gives more defenders the ability to test, verify and strengthen the systems on which society relies,” Nvidia said.
+The acquisition will add BioCatch’s behavioral and device intelligence to Visa’s existing portfolio of cyber, fraud, risk and security products. Visa said it has invested more than $13 billion in technology and infrastructure over the past five years to protect the payments ecosystem.
 
-“Defenders need both frontier closed models and frontier open models, working together, so they can choose the right system for the job and ensure that transparency, adaptation and sovereign control are available wherever security demands them,” it added."
-2026-07-27 22:00:50,"July 27, 2026 (7:29 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/coca-cola-confirms-data-breach-after-fairlife-ransomware-attack/,Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack,"Coca-Cola on Monday confirmed that the recent ransomware attack on its dairy products subsidiary Fairlife resulted in a data breach.
-The soft drinks giant disclosed the cybersecurity incident on July 16, when it announced suspending production at Fairlife facilities in the United States while it investigated and responded to a cybersecurity intrusion.
+Permira initially invested in BioCatch in 2023 and acquired a majority stake the following year in a transaction that valued the company at $1.3 billion.
 
-The Anubis ransomware group listed Coca-Cola and Fairlife on its leak website on July 20, suggesting that it had encrypted files on compromised systems and claiming to have stolen 1 TB of confidential data.
+The deal is part of a broader push by major payment companies to expand beyond transaction processing into cybersecurity and fraud intelligence. Mastercard completed its $2.65 billion acquisition of threat intelligence firm Recorded Future in 2024, while Visa acquired fraud prevention company Featurespace that same year.
 
-In a statement issued on Monday, Coca-Cola said a majority of production has been resumed at the four Fairlife facilities in the US. 
+BioCatch is being acquired from funds advised by private equity firm Permira and other shareholders. The transaction is subject to regulatory approvals and other customary closing conditions and is expected to close by the end of Visa’s fiscal second quarter of 2027."
+2026-08-04 05:55:26,"August 3, 2026 (11:15 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/cyberattack-hits-liechtensteins-register-of-people-behind-companies-and-foundations/,Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations,"A cyberattack tapped the data of some 31,000 people in Liechtenstein’s register of people behind companies and foundations in the wealthy principality, the government said.
+The “register of economic beneficiaries” was accessed at night from Wednesday into Thursday last week, the government said. It said that the breach was noticed on Thursday, that measures were taken to secure data and the system taken offline.
 
-The statement also confirms that the incident involved the “taking of certain data”, but no other details have been shared at this time.
+The government said there were no indications that any data was altered or deleted.
 
-“Retail availability of Fairlife products has been largely unimpacted, due to the availability of existing inventory. Product quality and safety have not been impacted,” Coca-Cola stated.
+The list of people behind companies, foundations and trusteeships is part of efforts to combat money laundering and terror financing.
 
-It added, “Based on the information currently available, the company believes the incident has not had, and is not reasonably likely to have, a material impact on the company’s financial condition or results of operations.”
+Liechtenstein is a nation of 40,000 people between Switzerland and Austria, and the financial industry is central to its economy.
 
-At the time of writing, a timer on the Anubis website indicates that the stolen data will be made public in two hours unless a ransom is paid. 
+The government set up a crisis unit over the weekend to investigate the attack."
+2026-08-04 05:55:58,"August 3, 2026 (9:02 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/river-bank-says-hackers-deleted-data-stolen-in-ransomware-attack/,River Bank Says Hackers Deleted Data Stolen in Ransomware Attack,"River Financial Corporation, the bank holding company behind River Bank & Trust, says it received confirmation that data stolen in a ransomware attack was deleted.
+The attack occurred on June 16 and was identified three days later. River’s investigation into the incident determined that ransomware was deployed across portions of its server environment.
 
-It’s unclear exactly what type of data has been compromised, but it’s not uncommon for extortion gangs to exaggerate the importance of the files they have stolen to put pressure on victims. 
+In response, the company took the affected systems offline and disabled administrative accounts that had been compromised.
 
-Active since December 2024, the Anubis ransomware group has listed roughly 100 targeted organizations on its website.
+“River, with the assistance of a third-party forensic firm, is investigating the nature and scope of the incident, including whether any personally identifiable information was subject to unauthorized access or exfiltration,” the company said in a June 25 filing with the US Securities and Exchange Commission (SEC).
 
-Anubis uses a double-extortion model that involves encrypting files on compromised systems and exfiltrating valuable data to increase its chances of getting paid.
+Subsequent 8-K forms filed with the SEC revealed that hackers accessed portions of River’s network and exfiltrated certain data and that at least four lawsuits have been filed against the company.
 
-The cybercrime gang caught the attention of the cybersecurity industry for a ‘wiper mode’ feature that enables it to permanently delete victims’ files and prevent their recovery."
-2026-07-27 22:01:29,"July 27, 2026 (7:06 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/beelzebub-raises-3-4-million-for-hacker-trapping-platform/,Beelzebub Raises $3.4 Million for Hacker-Trapping Platform,"Italian AI-native cybersecurity company Beelzebub today announced raising €3 million (~$3.4 million) in a seed funding round led by VC United Ventures, bringing the total raised by the company to $3.8 million.
-Founded in 2025, Milan-based Beelzebub has built a platform that combines red- and blue-teaming capabilities to level the odds in the fight against AI-powered cyber threats.
+The investigation into the nature, scope, and impact of the incident, however, continues, and a July 30 filing shows that River has yet to determine if the hackers stole any personal information from its systems.
 
-The startup’s platform assumes that attackers have already breached the network and are waiting for the right moment to act. When the attackers make their move, the platform ensnares them in a closed loop that combines simulation, detection, and threat intelligence.
+The filing’s wording, however, shows that the company has engaged with the hackers to have the stolen data deleted, likely as the result of a ransom payment.
 
-It relies on continuous adversary emulation to uncover attack paths before they are exploited, and on runtime deception technology that uses LLM-powered traps to identify intrusions and contain them instantly.
+“As part of its response, River took steps to attempt to suppress the affected data, including obtaining representations from the threat actor that it deleted the data in its possession,” River said.
 
-In addition to isolating affected systems and initializing incident response, Beelzebub relies on autonomous threat intelligence to transform intercepted attacks into actionable defenses.
+The company has not shared details on the threat actor responsible for the incident, and it is unclear how the attackers compromised its network.
 
-The platform uses an AI analyst to dissect detected malware and deliver full incident reports, and can be used entirely on-premises in sensitive environments that cannot send data to cloud-based tools.
+“River has not yet confirmed whether the incident is reasonably likely to materially impact its business or financial condition,” the company said.
 
-NIS2-ready by design, Beelzebub’s platform receives live threat intelligence feeds from over 60 independent researchers around the world and can be used as a SaaS or can be deployed on-premises.
+SecurityWeek has emailed River for additional details on the ransomware attack and will update this article if the company responds."
+2026-08-04 05:56:34,"August 3, 2026 (9:00 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/horizon3-raises-250-million-to-fund-continuing-growth/,Horizon3 Raises $250 Million to Fund Continuing Growth,"Horizon3 has raised $250 million in a Series E funding round, tripling the firm’s valuation from $650 million to $2 billion in the year from June 2025. The new funding was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers.
+These are the facts. The details provide a code for the confidence that VCs and private investors have in a firm. A key number in this code is the valuation. It sounds important – and it is – but it is somewhat tenuous, being based on assumptions rather than fact. It is based on financiers’ belief in the firm concerned.
 
-The startup plans to use the fresh investment to expand its research team, open new offices in Rome and San Francisco, and acquire additional clients across Europe, mainly focusing on NIS2-regulated organizations.
+That belief comes from the firm’s past performance, the size of market it serves, and assumptions that both performance and market will continue to grow.
 
-“Cybersecurity is a nonstop battle, and one that humans can no longer fight alone. AI-powered attackers are too powerful, too competent, too fast, and too numerous, meaning the only way to fight back is at the same pace and intensity. Beelzebub’s product adapts to new types of malware and is always updated to match the current state of the most sophisticated attacks,” said Beelzebub founder and CEO Mario Candela."
-2026-07-27 22:02:07,"July 27, 2026 (7:00 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/whats-hiding-in-your-mobile-apps-lookout-msec-aims-to-find-out/,What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out,"Mobile devices present a serious security problem: they operate outside the security perimeter and beyond the visibility of the security team. While security may know what applications live on those devices, they rarely understand the components and dependencies that comprise those applications; nor what vulnerabilities are buried within those components.
-Jim Dolce, CEO at Lookout, gave an example: WolfSSL. It’s a small, fast, and portable SSL/TLS library written in ANSI C, designed mainly for devices with limited memory – and it exists on more than a billion devices. “If you have a banking app on a mobile device for online banking, that app is likely using WolfSSL. It has a very serious vulnerability. If exploited by a bad actor, it can mimic your bank, and when you put in your credentials, it will steal your banking credentials.” 
+Horizon3 was founded in 2019. Its founders had concluded, explains the firm’s chief revenue officer, Matt Hartley, “AI will allow attacks at a speed and scale that will render human-centric defenses inadequate – cybersecurity will inevitably evolve into machines fighting machines at machine speed.”
 
-The Mythos Glasswing project found and publicized this WolfSSL vulnerability. So, the bad guys know the banking app may be vulnerable, but does the security team know that employees are using it?
+Since every firm in the world requires cybersecurity defenses, and – at that time – most were human-centric and potentially obsolete, Horizon3 had identified a massive market and proceeded to develop a machine solution to the machine threat: the use of AI to tackle the growing AI threat.
 
-“Knowing an application’s name and version reveals only a fraction of its risk profile,” explains Lookout. “Security teams need visibility into the software components, dependencies, and vulnerabilities embedded beneath the surface.”
+The solution involves friendly agents that live inside the customer’s IT network. These agents probe the network, using the same AI techniques that an attacker would use, looking for weaknesses, and effectively writing a tutor’s report card on what they find.
 
-This is what the firm’s new Mobile Security Exposure Center (MSEC) provides: full visibility into (rather simply ‘about’) an organization’s potentially vast mobile fleet. In a nutshell, MSEC examines every device in the fleet, so it knows what apps are present. It then creates its own proprietary software bill of materials (SBOM) from the binary for the different apps.
+“Here’s how we beat your defenses,” explains Hartley, “and most critically, here’s how you can fix those weaknesses so that you can’t be attacked in the same way by bad actors using similar AI.” The idea is to fix it before falling to it.
 
-From this SBOM it learns every component within the app and correlates those components with the vulnerability databases (such as the KEV list) that exist. The results are fed into the organization’s CTEM to assist the security team to take any necessary remediation steps.
+Horizon3 now has more than 7,000 customers in diverse vertical sectors including multinational banks and healthcare, with four Fortune 10 enterprises. Its market is unlimited by geography, sector, or size of customer, and it has achieved 120% year-over-year ARR growth.
 
-“The system will identify which apps use WolfSSL, the version of that app, the user and the device that is using that app, and all of that information then can be used to remediate the exposure. So MSEC basically identifies the exposure and provides that information,” continued Dolce. This applies to all the software components of all the apps on all the mobile devices.
+Horizon3’s revenue performance since its founding, the continuous increase in the number of its customers, and recognition that this is only scratching the surface of the full potential market size provides confidence that the company will continue to grow in size and profitability. That confidence translates into further capital injection to assist further growth.
 
-MSEC also complements Lookout’s existing AI Visibility & Governance product. “While AI Visibility & Governance helps organizations understand AI adoption and usage across the enterprise,” says Lookout, “MSEC reveals the software composition and exposure profile of those applications. Together, they provide a more complete view of application risk, security, and governance.”
+It’s not altruism. Hartley uses the pie metaphor. “The size of the pie keeps growing, and the financiers want a larger slice of the pie.” The key figure of valuation is an assumption of the size of the pie. Given the performance of the company and the size of the market, a further assumption is that further injection of capital assists further growth to benefit the company and enrich the investors.
 
-The result, it continues, is “A shift from reactive application management to proactive exposure management.”
+Of course, gaining the investment is only half the equation. The investee must now prove the assumptions are correct or it will stagnate and eventually perish to rivals. 
 
-However, there is a slight issue here. MSEC correlates the app components it unearths in its SBOM creation with the vulnerability databases that exist. We’ve mentioned one – the KEV list, or the Known Exploited Vulnerabilities Catalog produced by CISA. The clue to the issue is in the name, known vulnerabilities. No vulnerability database can include unknown vulnerabilities. So, while MSEC can help remediate known vulnerabilities, there is always the possibility that a new frontier AI model will unearth new vulnerabilities.
+“The predominant use of the funds will be for our go to market strategies,” says Hartley. Go to market (GTM) is the process of bringing a product to customers to generate revenue. To serve the size of its market, Horizon3 has partnered with MSPs and telcos. “Building the capacity to get out and service those various markets through those paths to market is a top priority for use of the funds we raise.”
 
-Lookout is obviously aware of this, and has it covered. 
+The second use is continued investment in R&D. “AI attacks and innovation in AI never stops,” he continues. “Twenty years ago, you could build a product, go to market, and reduce or even stop R&D. That’s not the case where AI is involved. The AI threat grows hourly, if not by every minute, for the customer market. So, we will be using a lot of the funding proceeds to accelerate our R&D efforts to continue to stay ahead of these AI threats for our customers and partners.”
 
-“Bad actors can use frontier AI models, Mythos as an example, in order to find vulnerabilities and exploit them,” agreed Dolce. “That’s the offensive use of a frontier AI model. Well, Lookout can use that same model defensively. We can go beyond KEV and the other vulnerability databases by using the frontier models ourselves to find unknown vulnerabilities across the SBOM. That will be the next iteration of MSEC.” 
+Equity investment is thus a dance between investors, whether VC firms or private investors or both, and the investee. Potential is the dance hall – potential revenue to benefit both parties.
 
-He continued, “We will take our SBOM and use the frontier AI models defensively to go and find unknown vulnerabilities for ourselves, and catalog those as well.” 
+We have used today’s Series E funding round for Horizon3 to illustrate and explain this dance. In this we have specifics – but the basic dance steps apply to all equity investment."
+2026-08-04 05:57:05,"August 3, 2026 (8:34 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/n-able-patches-vulnerability-exploited-to-hack-n-central-servers/,N‑able Patches Vulnerability Exploited to Hack N-central Servers,"N‑able has released patches for a vulnerability that has been exploited in the wild against users of its N-central remote monitoring and management (RMM) product.
+The vulnerability, tracked as CVE-2026-18577, has been described as an authentication bypass issue that can be exploited to take over accounts in N-central versions prior to 2026.3.1.7. Both on-premises and cloud-hosted deployments are affected.
 
-But it all starts with knowing the app inventory across the enterprise mobile fleet, creating the accurate SBOM for all the apps in the fleet, and then correlating the app components against known vulnerability databases, and then, he added, “The last step is find unknown vulnerabilities using the same frontier AI models defensively that the bad guys are using offensively.”"
-2026-07-27 22:02:46,"July 27, 2026 (6:50 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/hacked-public-wi-fi-gateways-used-to-harvest-corporate-credentials/,Hacked Public Wi-Fi Gateways Used to Harvest Corporate Credentials,"A threat actor has been hacking public Wi-Fi gateway appliances at organizations running captive portal networks to compromise the Microsoft 365 accounts of traveling corporate employees, ReliaQuest reports.
-As part of the attacks, the hackers modified the DNS configurations of the compromised small office/home office (SOHO) routers to redirect users to attacker-controlled infrastructure for credential theft.
+N-central is widely used by MSPs to monitor, patch, and remotely access customer servers and endpoints.
 
-Ongoing since at least June 2026, the activity is similar to the previously observed FrostArmada campaign, which was attributed to APT28, also known as Forest Blizzard, and Fancy Bear, a state-sponsored group believed to be linked to Russia’s General Staff Main Intelligence Directorate (GRU).
+CVE-2026-18577 is not a new zero-day. Instead, N‑able has described it as a new method to exploit a previously patched vulnerability tracked as CVE-2026-18556.
 
-Using the adversary-in-the-middle (AitM) technique, the hackers can intercept the victims’ traffic and harvest their credentials and other sensitive information.
+It appears threat actors bypassed the patch for CVE-2026-18556 and started exploiting it in late July. The vendor initially saw an increase in licensing issues on July 31 and confirmed exploitation of CVE-2026-18577 on August 2.
 
-The newly observed activity, ReliaQuest says, involved hacked Wi-Fi gateways at shared venues such as hotels and conference centers across the US, India, and Saudi Arabia.
+Exploitation of the vulnerability has allowed attackers to gain admin access to the hacked N-central servers.
 
-The cybersecurity firm warns that any organization running captive Wi-Fi services, including airports, conference centers, healthcare facilities, universities, and event venues, faces a similar attack surface.
+“Following exploitation, the attacker leveraged the Take Control feature and connected to systems within the N‑central managed environment. Once on those devices, the attackers registered a new service for a CloudFlare tunnel, enabling persistence into an environment after access to the N‑central server was revoked,” N-able said in its incident notice.
 
-“We observed traffic to these compromised gateways from organizations in a range of industries, including financial services, professional services, legal, health care, energy, and retail—confirming this isn’t sector-specific targeting, but a campaign that highly likely goes after traveling employees wherever they connect,” ReliaQuest notes.
+N-able said a “limited number of customers have been impacted,” but cybersecurity firm Huntress, which has also confirmed seeing attacks exploiting CVE-2026-18577, said many organizations had yet to patch their installations as of August 3.
 
-The cybersecurity firm identified four attacker-registered domains used as part of these attacks to deliver Microsoft-impersonation lures.
+“From an MSP perspective, exploitation of this flaw can grant an attacker full administrative access to an N-central console — the same level of control normally reserved for trusted NOC and engineering staff,” Huntress warned.
 
-Unlike the FrostArmada campaign, the fresh attacks used DNS poisoning to redirect all users to attacker-controlled infrastructure, “potentially an indicator of a less sophisticated or less careful actor than APT28”, ReliaQuest says.
+It added, “Once inside the console, a threat actor can: push new scripts and jobs to many or all managed endpoints; deploy and run dual‑use tools (for example, remote tunnels or discovery utilities) via the N-able agent; initiate remote‑control sessions into servers and workstations, including domain controllers and other critical systems; and modify security‑relevant configuration such as roles, accounts, and policies to pave the way for follow‑on activity.”
 
-Overall, the tactics, techniques, and procedures (TTPs) observed in the new campaign suggest that the threat actor has been at least reusing APT28’s tradecraft, but do not fully overlap with FrostArmada.
+Indicators of compromise (IoCs) have been made available by both N-able and Huntress.
 
-“The targeting of captive portal appliances—especially those used in hotels and conference centers—wasn’t previously documented in FrostArmada reporting. Attacker infrastructure also differed from prior FrostArmada activity. The domain registrations and IP addresses used don’t align with infrastructure previously seen in APT28 campaigns,” ReliaQuest notes."
-2026-07-27 22:03:26,"July 27, 2026 (6:02 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/,"Anthropic’s Opus 5 Nears Mythos 5 on Finding Bugs, but Falls Short on Exploits","Anthropic on Friday rolled out Claude Opus 5, pitching it as a cheaper alternative to its top-tier Fable 5 model. In terms of cybersecurity, the new model is nearly as good as the AI giant’s most capable system, Mythos 5, at spotting software vulnerabilities, but remains well behind it in turning those findings into working exploits.
-The difference comes from Anthropic’s own OSS-Fuzz-based evaluation, which measures how well a model can locate and then exploit vulnerabilities with minimal human steering. According to the company, Opus 5 identifies vulnerabilities at a rate close to Mythos 5, but its exploit-development score trails considerably. 
+News of the exploitation of CVE-2026-18577 comes almost exactly one year after organizations were warned about the exploitation of the N-central vulnerabilities CVE-2025-8875 and CVE-2025-8876."
+2026-08-04 05:57:45,"August 3, 2026 (7:45 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/brinks-home-discloses-data-breach-as-hackers-leak-files/,Brinks Home Discloses Data Breach as Hackers Leak Files,"The infamous ShinyHunters extortion group has leaked over 41 gigabytes of data allegedly stolen from the physical security firm Brinks Home.
+Headquartered in Dallas, Texas, Brinks Home provides home security systems backed by an alarm response center.
 
-Anthropic frames this as a deliberate outcome, noting that it has avoided training Opus 5 directly on offensive cyber tasks. The gains it does show, the company says, are a byproduct of broader capability improvements.
+Last week, the company announced that hackers accessed a portion of its IT systems and that they threatened to leak information allegedly stolen during the incident.
 
-Opus 5’s safety classifiers are tuned to be less restrictive than those on Fable 5, with Anthropic expecting roughly 85 percent fewer interventions. 
+“We are aware that such material may be posted publicly. Brinks Home is working diligently to determine what information was involved and who may be affected,” the company said in an incident notice.
 
-The model is permitted to search for vulnerabilities directly in source code, but binary-based vulnerability scanning, penetration testing, and exploit generation remain blocked. Requests that trip those classifiers fall back automatically to the older Opus 4.8 model inside Claude.ai, Claude Code, and Claude Cowork.
+Noting that it would notify potentially affected individuals if their personal information was compromised, Brinks Home pointed out that customers should remain “vigilant against unsolicited emails, text messages, or phone calls requesting personal information or account credentials”.
 
-Enterprises and researchers enrolled in Anthropic’s Cyber Verification Program can get a version of Opus 5 with those restrictions loosened further.
+According to Brinks Home, its alarm monitoring and system functionality has not been affected, as the attackers did not access its products or services.
 
-Mythos 5 also remains withheld from general release, while Fable 5 is described as the safeguarded, publicly available counterpart built on the same underlying model. Both models were taken offline by Anthropic last month due to the Trump administration’s concerns over their use by foreign nationals. The restrictions were later lifted.
+The company has not shared details on the threat actor responsible for the incident, but its disclosure came around the same time that ShinyHunters added Brinks Home to its Tor-based leak site.
 
-Pricing for Opus 5 holds at $5 per million input tokens and $25 per million output tokens (same as for Opus 4.8), with a faster-response mode available at double the base rate."
-2026-07-27 22:04:01,"July 27, 2026 (5:34 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/,DentaQuest Data Breach Potentially Impacts Over 23 Million People,"Dental and vision benefits administrator DentaQuest is notifying millions of people that their personal and dental health information might have been stolen in a data breach.
-The incident was discovered on May 20, and DentaQuest’s investigation determined that the hackers had access to the organization’s network between May 17 and May 20.
+More than 4.9 million records were stolen from Brinks Home’s Salesforce instance during the incident, the extortion group says.
 
-During the timeframe, the attackers accessed information such as names, addresses, Social Security numbers, member identification numbers, Medicaid and Medicare numbers, benefits provider names, diagnosis, treatment details, and billing information.
+Brinks Home hacked by ShinyHunters
 
-DentaQuest is providing the affected individuals with 24 months of free credit monitoring, fraud consultation, and identity theft restoration services, the benefits administrator writes in an incident notice.
+As the physical security firm did not pay a ransom, the hackers have leaked online more than 41GB of files allegedly stolen during the incident.
 
-Based on filings with Attorney General’s Offices in Texas, Massachusetts, and South Carolina, DentaQuest is sending written notification letters to at least 4.5 million people.
+Some of the stolen records, ShinyHunters claims, include personally identifiable information (PII). SecurityWeek has not independently confirmed the hackers’ claims."
+2026-08-04 05:58:17,"August 3, 2026 (6:39 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/,Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks,"The INC Ransomware group is responsible for most of the recent activity surrounding two fresh vulnerabilities in SonicWall’s SMA1000 secure remote access appliances, Resecurity reports.
+Tracked as CVE-2026-15409 (CVSS score of 10) and CVE-2026-15410 (CVSS score of 7.2), the security defects allow unauthenticated remote attackers to open a WebSocket tunnel to restricted services and escalate their privileges to root.
 
-According to the HIPAA Journal, more than 23.4 million individuals were potentially impacted by the data breach, and DentaQuest reportedly confirmed that at least 15 million were affected.
+Patched on July 14 and added to CISA’s Known Exploited Vulnerabilities (KEV) catalog on the same day, the two flaws had been exploited in the wild as zero-days since at least June 22.
 
-While the organization has not shared details on the threat actor behind the attack, the infamous extortion group ShinyHunters claimed responsibility for the incident and leaked roughly 234 GB of data allegedly stolen from the dental benefits administrator.
+Cybersecurity firm Volexity attributed the observed exploitation to a threat actor tracked as UTA0533, noting that it was harvesting credentials from the hacked appliances and deploying malicious files, but was less successful in moving laterally to other systems.
 
-The leaked information, data breach notification website HaveIBeenPwned said in early June, also included email addresses, phone numbers, dates of birth, and government-issued IDs.
+Rapid7, on the other hand, observed threat actors pivoting from SMA1000 devices into internal corporate networks, likely after deploying a backdoor on the compromised appliances.
 
-A Sun Life subsidiary serving 35 million people in 50 states, DentaQuest is one of the largest administrators of dental benefits in the US."
-2026-07-27 22:04:41,"July 27, 2026 (12:51 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/,MCBS Data Breach Affects 1.2 Million Individuals,"A data breach suffered last year by Atlanta-based medical business management company MCBS (Medical Computer Business Services) affects more than 1.2 million individuals.
-According to a data breach notification posted on its website, MCBS was targeted by hackers in September 2025. 
+Now, Resecurity says that, of the various threat actors chaining CVE-2026-15409 and CVE-2026-15410 for SMA1000 compromise, the INC Ransomware gang has emerged as the most active one.
 
-An investigation showed that attackers had access to its systems between September 22 and September 26, potentially stealing files that contained personal information such as name, address, SSN, date of birth, health insurance information, and medical information. 
+“Notably, as of the beginning of August 2026, INC Ransomware has accelerated its activity. Multiple new victims have been published on their Data Leak Site (DLS),” the company says.
 
-The medical revenue cycle management and billing company’s data breach notification names seven healthcare organizations whose data was compromised in this cyberattack.
+Over the past couple of weeks, the ransomware group has listed on its leak site private and government sector organizations from the US, Australia, UAE, Colombia, and Switzerland, among others.
 
-The healthcare data breach tracker maintained by the US Department of Health and Human Services shows that the MCBS hack impacts 1,261,464 individuals.
+“Resecurity has assisted several victims with DFIR and vulnerability assessments to contain the root cause of the compromise, but also learned about the following new developments: many of the new victims received emails, as well as phone calls from unknown organizations claiming to assist with ransomware issues,” the company says.
 
-The PEAR ransomware group took credit for hacking MCBS in late September 2025, claiming to have stolen more than 3 TB worth of files, including company and client financials, HR and business operations documents, partner and vendor data, patient PII and PHI records, payment details, and emails. 
+In one instance, the email came from a domain registered after the exploitation activity, through a Chinese domain registrar.
 
-The hackers have made available for download the information allegedly stolen from the company.
+The victims were also contacted by phone by a threat actor calling themselves Andrew and claiming to be representing a group of hackers. 
 
-The PEAR ransomware group emerged in mid-2025, and its leak website currently lists more than 100 alleged victims.
+“At the end of the call, the individual provided the email address info@helprans[.]com for further negotiations and then ended the call. Such methods are frequently used by ransomware groups as ‘pressure tactics’,” Resecurity notes.
 
-The cybercrime gang has also taken credit for the Motility Software Solutions hack, which affected 766,000 people, and the Tri-Century Eye Care breach, which affected 200,000 people."
-2026-07-27 22:05:23,"July 25, 2026 (4:30 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/,Rockwell Patches Code Execution Flaws in Arena Simulation Software,"Rockwell Automation has patched four vulnerabilities in its Arena Simulation software that could let an attacker execute arbitrary code on an affected system, according to advisories published by CISA and Rockwell.
-Arena Simulation is a discrete-event simulation software that provides organizations with a virtual environment to model, visualize, and test complex operational workflows, allowing them to identify issues and evaluate process changes before implementing them in production.
+As ransomware groups continue to target the SonicWall vulnerabilities, users are advised to patch their SMA1000 appliances as soon as possible and to perform threat hunting to identify potential compromises."
+2026-08-04 05:58:52,"August 3, 2026 (5:17 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/russian-state-apt-linked-to-recent-public-wi-fi-gateway-hacking/,Russian State APT Linked to Recent Public Wi-Fi Gateway Hacking,"A Russian state-sponsored APT is behind a recent credential theft campaign mounted via hacked public Wi-Fi gateway appliances at organizations running captive portal networks, Microsoft reports.
+The campaign was flagged roughly a week ago by ReliaQuest, which noticed that hackers had modified the DNS configurations of compromised small office/home office (SOHO) routers to redirect users to attacker-controlled infrastructure.
 
-The four high-severity flaws — CVE-2026-8085, CVE-2026-8312, CVE-2026-8313, and CVE-2026-8314 — are memory corruption issues stemming from improper validation of user-supplied data that can result in an out-of-bounds write. 
+The attackers were using the adversary-in-the-middle (AitM) technique to intercept the Microsoft 365 credentials of traveling employees within the financial services, professional services, legal, healthcare, energy, and retail sectors.
 
-SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity
-Successful exploitation could allow an attacker to execute arbitrary code in the context of the current process. Arena versions up to and including 17.00.00 are affected. Rockwell has patched the vulnerabilities in version 17.00.01. 
+ReliaQuest pointed out that the campaign shared similarities with FrostArmada, an espionage operation mounted by Russia-linked APT28 (also known as Forest Blizzard and Fancy Bear), but did not make a clear attribution.
 
-Exploitation is not possible remotely without user interaction — an attacker would need to convince a user to open a malicious file to trigger any of the four bugs. 
+Now Microsoft says that Storm-2945, a subgroup of Midnight Blizzard (also tracked as APT29, Cozy Bear, the Dukes, and Yttrium), a threat actor believed to be sponsored by the Russian Foreign Intelligence Service (SVR), is behind the fresh campaign, dubbed CaptiveCrunch.
 
-Michael Heinzl, the researcher who discovered the vulnerabilities, told SecurityWeek that the file types involved (Arena experiment and model files) are opened routinely by users as part of normal workflows, meaning a booby-trapped file would not necessarily stand out to an Arena user targeted in a social engineering attempt. 
+Midnight Blizzard is known for targeting government and diplomatic entities, non-governmental organizations (NGOs), and IT services providers in the US and Europe for intelligence gathering in support of Russian foreign policy interests.
 
-Asked what an attacker could realistically accomplish given that Arena is simulation software rather than a live industrial control system (ICS), the researcher said code execution would be confined to the same privileges as the Arena process itself. Whether an attacker could pivot to more sensitive systems from there would depend on how an organization has deployed and segmented Arena on its network.
+“Midnight Blizzard operations often involve compromise of valid accounts and, in some highly targeted cases, advanced techniques to compromise authentication mechanisms within an organization to expand access and evade detection,” Microsoft notes.
 
-The researcher also pointed to Arena’s broad footprint as a reason the flaws matter despite the software not directly controlling physical processes, citing Rockwell’s own customer materials describing adoption among top global supply chain companies, hospitals across multiple countries, and organizations such as defense contractors.
+Storm-2945, the tech giant says, started manipulating DNS and HTTP traffic from captive portal networks, such as those at hotels, conference centers, and other shared venues, in May, likely through access to shared services within the captive portal ecosystem.
 
-The advisories published by CISA and Rockwell indicate that there is no evidence of in-the-wild exploitation.
+As part of CaptiveCrunch, the attackers have been serving Golang-based Windows remote access trojans (RATs) in the form of browser updates. The malware enabled reconnaissance, credential and session token theft, file and keystroke collection, audio and video surveillance, and remote shell access.
 
-Heinzl noted that he has actually identified 17 distinct vulnerabilities in Arena, but Rockwell decided to group them by the affected component, which resulted in only four CVEs being assigned.
+The threat actor has been using various ClickFix techniques to convince users to download malware and appears to have been targeting Android users with similar methods to entice them into fetching and installing an APK file.
 
-The researcher has published 17 advisories on his personal website."
-2026-07-27 22:06:00,"July 24, 2026 (10:20 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/in-other-news-dolphin-x-ai-powered-malware-car-anti-theft-device-hack-400-linux-kernel-flaws/,"In Other News: Dolphin X AI-Powered Malware, Car Anti-Theft Device Hack, 400 Linux Kernel Flaws","SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.
-This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment.
+“To date, Microsoft has identified widespread compromise of Wi-Fi networks at hospitality-related organizations and other networks serviced by captive portal equipment in several countries,” the company notes.
 
-Here are this week’s highlights: 
+Storm-2945 targeted Windows users with the CornFlake RAT and infostealer implant and the ChocoShell PowerShell-based infostealer, and managed its infrastructure and agents via the FruitStone web-based command-and-control (C&C) panel.
 
-Dolphin X malware leverages AI to profile victims 
-Varonis Threat Labs discovered a new infostealer called Dolphin X that uses an AI behavioral profiler to score and prioritize infected users based on their activity and installed software. The malware targets more than 300 applications, aiming to exfiltrate everything from browser passwords and cryptocurrency wallets to SSH keys and cloud tokens. An infection on a developer’s machine could potentially grant attackers access to an entire production environment.
+Over the past two weeks, Microsoft says, some CaptiveCrunch landing pages have been directing victims to device code authentication flow experiences, instructing them to enter device codes into Microsoft sign-in pages to authenticate the threat actor’s session.
 
-Abbott investigates hack 
+“This activity is consistent with previously reported device code phishing operations conducted by Midnight Blizzard since August 2024. The observed technique does not appear fundamentally novel; however, integrating device code phishing into captive portal and traffic manipulation operations might increase the likelihood that users perceive the authentication request as legitimate,” Microsoft notes."
+2026-08-04 05:59:33,"August 3, 2026 (4:48 AM ET)",Security Week,https://www.securityweek.com,https://www.securityweek.com/us-water-cyberattacks-extend-beyond-minnesota-to-at-least-6-other-states/,US Water Cyberattacks Extend Beyond Minnesota to at Least 6 Other States,"The recent cyber campaign targeting the water and wastewater sector in the United States has hit at least seven states as more information has come to light regarding Iran’s connection to the hacker attacks.
+Minnesota reported last week that operational technology (OT) systems at more than 30 water and wastewater facilities were targeted in a cyberattack on July 26 and 27. 
 
-Abbott has disclosed a cybersecurity incident involving unauthorized access to a limited number of systems within its Cancer Diagnostics business. The company stated that the breach has not disrupted business operations, manufacturing, or patient care. The notorious ShinyHunters group has taken credit for the hack.
+Only a handful of cities issued public statements about the attack. One city briefly took down its water plant in response, but most reported no operational impact, reassuring citizens that drinking water remains safe.
 
-Cyberattack disrupts internet services across 23 Maine towns
-A recent cyberattack targeting a telecommunications provider in Maine resulted in widespread internet service outages across 23 towns. The disruption impacted municipal networks and local government operations that rely on the regional telecom’s infrastructure.
+As expected, the campaign was not limited to Minnesota, and several mainstream media outlets reported learning from sources that at least seven states are impacted. 
 
-Palo Alto Networks details exploit chain in Siemens ROX II switches
-Unit 42 researchers identified three zero-day vulnerabilities in Siemens ROX II OT switches that can be chained together to achieve persistent root-level access. By exploiting an arbitrary file disclosure flaw (CVE-2025-40948), an attacker can gather sensitive system intelligence to facilitate a subsequent privilege escalation via command injection (CVE-2025-40947). The compromise is then cemented using a third vulnerability (CVE-2025-40949) in the web management task scheduler, allowing malicious code execution to survive system reboots.
+Michigan has also officially confirmed that a “small number” of communities have seen malicious cyber activity, noting that all systems continued to operate safely and there were no public health concerns.
 
-Ransomware gang demands millions from Swiss train manufacturer Stadler
-Swiss train manufacturer Stadler Rail has refused to pay a 10 million Swiss franc ($12 million) extortion demand from the Everest ransomware group following a targeted data theft incident. The attackers breached a data exchange platform shared with a supplier in mid-July, stealing technical information without impacting Stadler’s IT systems or global production operations. The company maintains that no critical security or personal data was compromised.
+Rapid City in South Dakota also reported experiencing a cybersecurity incident, and its description suggests that it may be part of the same campaign. 
 
-German authorities dismantle Kratos phishing group
-German law enforcement authorities have successfully dismantled the Kratos phishing group following a coordinated operation. The takedown disrupts a dedicated cybercrime ring responsible for organized credential theft and phishing campaigns.
+“Recently, the City of Rapid City experienced a cyber incident involving one of its lift stations, which is used as part of the city’s wastewater system,” the city said in a Facebook post, adding, “At no time was the city’s water or wastewater infrastructure systems placed in jeopardy and city officials assure Rapid City residents the city’s water supply remains safe and protected.”
 
-Hundreds of Linux kernel vulnerabilities published in massive single-day drop
-The cybersecurity community observed an unprecedented release of 432 CVEs related to the Linux kernel within a 24-hour period. This massive influx of disclosures requires security teams to rapidly triage affected systems and evaluate patching priorities.
+ABC News reported that Georgia is also among the seven states targeted in the water sector cyberattacks. The names of the other affected states remain unknown at the time of writing. 
 
-Google launches CodeMender preview
-Google has launched the preview of CodeMender, a security service designed to help developers identify and remediate software vulnerabilities more efficiently. The tool integrates directly into development workflows to streamline finding and patching insecure code before it reaches production.
+Iran blamed for the water sector cyberattacks
+Iran was immediately named as the primary suspect considering that its hackers have been known to target ICS and other OT systems, including in the water sector. 
 
-Russian APT Laundry Bear exploits Zimbra flaw in espionage campaign
-A joint advisory from CISA and international partners warns that a Russian state-sponsored threat group, known as Laundry Bear, is actively exploiting a patched vulnerability (CVE-2025-66376) in the Zimbra Collaboration Suite. The attackers use a view-based exploit that triggers simply by opening a malicious email, instantly exfiltrating the victim’s inbox. The espionage campaign targets Western government and commercial entities to silently gather intelligence for Russia.
+While the US government has not publicly blamed Iran for the attacks, several mainstream media outlets reported last week that federal investigators had been looking into Iran’s potential involvement. 
 
-Dealer-installed security devices expose millions of vehicles to Bluetooth hijacking
-Researchers at UC San Diego discovered a vulnerability in aftermarket anti-theft systems manufactured by Acrisure, leaving at least 2.2 million vehicles susceptible to remote compromise. Attackers can exploit a hardcoded Bluetooth key from up to five yards away to unlock doors. Acrisure has since released a patch to secure the affected KARR and SWDS devices, which were installed primarily by dealerships in Southern California. “The vulnerability described in the research is highly complex and presents a low risk to customers under real-world conditions,” a KARR spokesperson told The Register."
+In addition, WaterISAC, which serves as the communications and information-sharing organization for the water sector, reportedly wrote a report revealing that Minnesota’s Fusion Center had found evidence that the attacks were “aligned” with hacking campaigns previously linked by the US to Iran. 
+
+Wired obtained a copy of the report, but WaterISAC noted that it was marked TLP:Amber and was not meant for public release or broad sharing. 
+
+Technical details for OT defenders
+Few technical details have been made available by the cities whose water facilities have been targeted by hackers. 
+
+However, one city in Minnesota noted that the incident was limited to “equipment connected via cellular communications,” and industry professionals agree that OT endpoints connected to the internet via cellular networks are a potential intrusion vector.
+
+Iran-linked hackers previously targeted water facilities in Israel via vulnerable cellular routers. 
+
+Infracritical has made available a continuously updated report that summarizes all of the currently known technical information for the OT security community and defenders.
+
+After the attacks on Minnesota water facilities came to light, CISA urged the sector to protect OT, specifically programmable logic controllers (PLCs).
+
+In addition, days before the Minnesota attacks, federal agencies updated an April advisory on Iranian attacks aimed at OT devices, warning that industrial control systems (ICS) made by Siemens, Schneider Electric, and Rockwell Automation have been targeted. 
+
+Internet security firm Censys reported that roughly 10,000 Rockwell, Siemens, and Schneider PLCs are exposed to the internet, though it’s unclear how many are actually vulnerable to attacks."

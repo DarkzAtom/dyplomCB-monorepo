@@ -1,0 +1,638 @@
+reference,candidate
+"Zero-day flaw in Check Point SmartConsole is under exploitation
+
+A critical vulnerability in Check Point Software’s SmartConsole login process is being exploited, with a small number of customers already impacted, according to a security advisory released Wednesday from the company. 
+The authentication bypass flaw, tracked as CVE-2026-16232, allows an attacker to gain full administrative privileges after they access an application login token. An attacker can then make changes to security policy and configurations. The vulnerability has a severity score of 9.1 out of 10. 
+Check Point on Wednesday released a jumbo hotfix to address several security issues in its firewall and management products, according to the advisory.
+
+A vulnerability of this type is particularly concerning, giving an attacker the ability to make a number of changes, according to a blog post released Thursday by Rapid7. A remote hacker can “alter administrator permissions, manipulate VPN configurations, and potentially disable or tamper with logging and monitoring,” Rapid7 said. 
+“To put it simply, this vulnerability targets the system that tells the firewalls what to trust,” said Douglas McKee, director of vulnerability intelligence at Rapid7. 
+The vulnerability was discovered by Check Point during a routine internal review. Remote exploitation is possible only when there is internet access to the Management Server IP address in environments that do not restrict Trusted Clients, according to Rapid7.   
+The Cybersecurity and Infrastructure Security Agency on Wednesday added the SmartConsole vulnerability to its Known Exploited Vulnerabilities catalog. The agency set a deadline of Saturday for Federal Civilian Executive Branch agencies to mitigate their environments. 
+The jumbo hotfix also addresses CVE-2026-62144, a critical authentication bypass vulnerability in Check Point Security Management and CVE-2026-62145, a high severity flaw in Check Point Gaia Portal.","Yes, there is a reported zero-day vulnerability in Check Point SmartConsole that is actively being exploited in the wild. This flaw allows attackers to potentially execute remote code or gain unauthorized access by exploiting the vulnerability in the SmartConsole application.
+
+Check Point has acknowledged the issue and typically recommends the following immediate actions:
+
+1. **Apply Patches**: Check their official security advisories or patches released to address this vulnerability. If a patch is available, apply it immediately.
+
+2. **Mitigation Steps**: If patches are not yet available, implement recommended workarounds or mitigations suggested by Check Point.
+
+3. **Monitor Systems**: Increase monitoring on your network and SmartConsole environments for any suspicious activity.
+
+4. **Access Control**: Limit access to SmartConsole only to trusted administrators and through secure networks.
+
+For the most accurate and up-to-date information, check Check Point’s official security advisory pages or contact their support. It is crucial to act quickly to reduce risk as zero-day exploits can lead to serious security breaches."
+"Have your say on the certification of EU Managed Security Services
+
+ENISA is launching a public consultation on the draft candidate cybersecurity certification scheme on EU Managed Security Services (EUMSS), following its work with the dedicated Ad Hoc Working Group.
+
+At the request of the European Commission, ENISA has developed a candidate certification scheme for Managed Security Services. ENISA has found that cybersecurity investment increasingly focuses on technology and outsourcing rather than internal cybersecurity teams. The EUMSS scheme will address current diversity and fragmentation in the approach and requirements that apply to the delivery of managed security services in EU Member States.
+ENISA Executive Director, Juhan Lepassaar, said: “Common baselines can guarantee a level of confidence in services offered. This scheme can offer Member States trust in the services that reinforce their prevention and response capabilities, especially in the context of the EU Cybersecurity Reserve.”
+
+Take part in the public consultation and share your feedback through the following EU Survey by 13 September 2026.
+A close up to the draft scheme
+The draft of the EUMSS scheme builds on existing European cybersecurity certification practices and assessment methodologies.
+The scheme follows a layered approach, consisting of a horizontal and a vertical layer. 
+The horizontal layer outlines a common set of baseline requirements applicable to all Managed Security Services to be certified under this scheme. These baseline requirements apply as a mandatory prerequisite for each certified service profile. These are the same for all three established assurance levels (i.e. 'basic', 'substantial', and 'high') and cover the following domains: 
+
+Secure service and platform design;
+Deployment and transition management;
+Availability and continuity management;
+Operational service management; 
+Continuous improvement and technology maintenance.
+
+The vertical layer defines service-specific requirements applicable to particular managed security services and the services profiles included in these services. The present version of the scheme focuses on the ‘Incident Management Lifecycle’ vertical and more specifically to the ‘Incident Response’ service profile.
+Reinforcing trust in the EU Cybersecurity Reserve
+The development of the scheme can further support the EU Cybersecurity Reserve, as providers delivering services under the umbrella of the EU Cybersecurity Reserve have to be certified in accordance with the EUMSS within 2 years once the scheme is in place. 
+The draft scheme is designed to provide a harmonised and proportionate framework that supports cross-border service provision and Union-level crisis response capabilities. 
+The context behind the development of the scheme
+The European Commission has requested ENISA to prepare a candidate European cybersecurity certification scheme for Managed Security Services pursuant to Article 48(1) of the Cybersecurity Act. ENISA established an Ad Hoc Working Group on Managed Security Services Certification to support the preparation of the candidate scheme, which kicked-off its work in October 2025. The document currently under public consultation is the first version of the result of the work of ENISA with the support this group.
+
+EU Managed Security Services Certification to drive the cybersecurity market | ENISA
+EUMSS - European Union Cybersecurity Certification - European Union
+Product Security and Certification | ENISA
+Certification and Standards | ENISA
+Developing Certification Schemes - European Union Cybersecurity Certification","The certification of EU Managed Security Services (MSS) is an important step towards enhancing cybersecurity standards and trust across the European Union. By establishing clear, harmonized criteria for MSS providers, certification can help ensure that these services meet consistent quality, security, and compliance requirements.
+
+Key benefits include:
+
+1. **Improved Security Posture:** Certified MSS providers are more likely to follow best practices and maintain robust security controls, reducing vulnerabilities and improving overall protection for organizations relying on their services.
+
+2. **Enhanced Trust and Transparency:** Certification fosters greater confidence among clients, as they can verify that their MSS provider meets recognized EU standards, potentially reducing the risk of vendor lock-in or subpar service.
+
+3. **Regulatory Alignment:** As EU data protection and cybersecurity regulations evolve (e.g., NIS2 Directive), certifications can help providers demonstrate compliance more easily and help customers fulfill their regulatory obligations.
+
+4. **Market Differentiation and Competitiveness:** Certified MSS providers can distinguish themselves in a growing and competitive market, potentially opening up new business opportunities both within the EU and internationally.
+
+On the flip side, challenges may include the cost and complexity of certification processes, which might be burdensome for smaller MSS providers, and the need to keep certification criteria updated to keep pace with rapidly evolving cybersecurity threats.
+
+Overall, EU MSS certification represents a positive move to strengthen cybersecurity ecosystems, promote transparency, and build trust between providers and clients. It will be vital, however, to balance rigorous standards with accessibility to encourage wide adoption across diverse MSS providers."
+"Wakacje z AI? Nie daj się nabrać
+
+Sztuczna inteligencja przygotuje plan podróży, włącznie z tym, że zaproponuje atrakcje i pomoże znaleźć nocleg czy krótszą drogę do celu. Ale to nie zwalnia nas z krytycznego myślenia. Bo AI może się pomylić – “skrótem” trzeba będzie płynąć wpław z walizkami, a muzeum, które wybrała, jest akurat w remoncie. NASK rusza z cyklem “Wakacje z AI”, w którym co tydzień eksperci podpowiedzą, jak korzystać ze sztucznej inteligencji mądrze i bezpiecznie.
+
+– AI może podpowiadać, jednak to człowiek powinien weryfikować informacje i podejmować ostateczne decyzje. Świadome korzystanie z nowych technologii jest dziś jedną z podstawowych kompetencji cyfrowych – podkreśla Anna Kwaśnik, ekspertka ds. budowania świadomości cyberbezpieczeństwa w NASK. 
+Jak zadawać pytania, aby otrzymać lepsze odpowiedzi? 
+Sztuczna inteligencja nie działa jak wyszukiwarka internetowa. Nie wyszukuje gotowych odpowiedzi, lecz generuje je na podstawie ogromnych zbiorów danych, na których została wytrenowana. Analizuje pytanie użytkownika i przewiduje najbardziej prawdopodobną odpowiedź. 
+Jakość odpowiedzi AI zależy w dużej mierze od tego, jak sformułujemy polecenie. Im więcej informacji przekażemy, tym większa szansa, że otrzymamy odpowiedź dopasowaną do naszych potrzeb. 
+Zamiast zapytać: 
+„Co warto zobaczyć we Włoszech?” 
+lepiej napisać: 
+„Przygotuj plan pięciodniowego pobytu w Rzymie dla dwóch osób z budżetem 5000 zł. Interesują nas zabytki, lokalna kuchnia i miejsca mniej popularne wśród turystów. Nie planujemy wynajmu samochodu.” 
+Takie precyzyjne polecenie, nazywane promptem, pozwala AI lepiej zrozumieć nasze oczekiwania. W razie potrzeby możesz zadawać kolejne pytania i doprecyzowywać odpowiedzi, prosząc np. o tańsze propozycje, plan dostosowany do podróży z dziećmi, alternatywne atrakcje na deszczową pogodę czy uwzględnienie komunikacji publicznej.  
+– Traktuj rozmowę z AI jak dialog – im lepiej wyjaśnisz, czego potrzebujesz, tym bardziej użyteczna będzie odpowiedź – radzi Anna Kwaśnik.  
+AI nie zawsze ma rację 
+Jednym z ograniczeń sztucznej inteligencji są tzw. halucynacje. To sytuacje, w których model generuje informacje brzmiące bardzo wiarygodnie, choć są one błędne lub całkowicie zmyślone. 
+Może się zdarzyć, że AI np.: 
+
+poda nieaktualne godziny otwarcia muzeum, 
+wskaże restaurację, która już nie istnieje, 
+zaproponuje połączenie komunikacyjne, które zostało zlikwidowane, 
+błędnie opisze lokalne przepisy lub wymagania dotyczące wjazdu do kraju. 
+
+Problem polega na tym, że odpowiedzi AI często brzmią bardzo pewnie. Model nie informuje, że czegoś nie wie – generuje odpowiedź, która wydaje się najbardziej prawdopodobna. Dlatego nawet jeśli brzmi ona przekonująco, należy zachować ostrożność. 
+Co zawsze warto zweryfikować? 
+Eksperci zajmujący się sztuczną inteligencją często mówią o zasadzie Human in the Loop. Oznacza ona, że AI może wspierać człowieka w podejmowaniu decyzji, ale nie powinna go zastępować. 
+Przed podjęciem decyzji warto poświęcić kilka minut na sprawdzenie najważniejszych danych w oficjalnych źródłach. Dotyczy to przede wszystkim godzin otwarcia atrakcji, cen biletów, rozkładów lotów i pociągów, a także adresu hotelu lub apartamentu – takie informacje trzeba sprawdzić na oficjalnych stronach tych miejsc.  
+AI w rękach cyberprzestępców 
+Sztuczna inteligencja może pomóc zwrócić uwagę na elementy, które mogą świadczyć o próbie oszustwa, np. presję czasu, prośbę o podanie danych, nietypowy język czy podejrzany link. Może również wskazać kwestie, na które warto zwrócić uwagę przy analizie oferty noclegu lub innej usługi. 
+Jeżeli jednak wiadomość nakłania do pilnego działania, kliknięcia w link lub podania danych, zawsze zweryfikuj nadawcę i adres strony internetowej. To może być oszustwo.  
+– Rozwój narzędzi opartych na sztucznej inteligencji sprawia, że oszustwa internetowe stają się coraz bardziej przekonujące. Fałszywe oferty, spreparowane zdjęcia czy wiadomości podszywające się pod bliskich mają przede wszystkim wywołać emocje i skłonić do szybkiego działania. Dlatego tak ważne są ostrożność, weryfikacja informacji i znajomość metod działania cyberprzestępców – mówi Katarzyna Grabowska, specjalistka ds. edukacyjno-informacyjnych w NASK. 
+W razie wątpliwości zgłoś podejrzaną wiadomość do CERT Polska – przez serwis incydent.cert.pl, w aplikacji mObywatel (funkcja „Bezpiecznie w sieci”) lub, jeśli przebywasz w Polsce, przekaż podejrzany SMS na numer 8080. 
+Zasada 4W bezpiecznego korzystania z AI podczas wakacji 
+Aby AI rzeczywiście była pomocnikiem, a nie źródłem problemów, warto zapamiętać zasadę 4W: 
+
+Wpisuj precyzyjne pytania – im dokładniej opiszesz swoje potrzeby, tym bardziej trafną odpowiedź otrzymasz. 
+Weryfikuj informacje – sprawdzaj w oficjalnych źródłach ceny, godziny otwarcia, wymagania wizowe, rozkłady lotów czy lokalne przepisy. 
+Włącz krytyczne myślenie – pamiętaj, że AI może się pomylić lub podać nieaktualne informacje. Nie traktuj każdej odpowiedzi jako pewnika. 
+Wybieraj świadomie – AI może doradzić, ale to Ty podejmujesz ostateczne decyzje. Korzystaj z niej jako wsparcia, a nie zastępstwa własnej oceny. 
+
+Korzystaj z AI świadomie 
+Podczas wakacji warto korzystać z AI, ale pamiętając o prostej zasadzie: AI podpowiada, człowiek decyduje. 
+Cykl artykułów, przygotowany przez ekspertki NASK – Annę Kwaśnik i Katarzynę Grabowską, potrwa do końca sierpnia. Publikacje powstały w ramach kampanii „AI i wakacje. Większa świadomość. Większe bezpieczeństwo”. Cykl będzie publikowany co tydzień, w każdy wtorek, na portalu bezpiecznymiesiac.pl i stronie www.nask.pl.  
+W kolejnych artykułach ekspertki NASK pokażą m.in.: 
+
+jak bezpiecznie planować podróże z wykorzystaniem AI, 
+jak rozpoznawać oszustwa wykorzystujące sztuczną inteligencję, 
+czym są deepfake’i i klonowanie głosu oraz jak się przed nimi chronić, 
+jak dbać o prywatność podczas korzystania z narzędzi AI, 
+jak wspierać dzieci i młodzież w bezpiecznym korzystaniu ze sztucznej inteligencji.","Temat ""Wakacje z AI? Nie daj się nabrać"" sugeruje ostrzeżenie przed potencjalnymi oszustwami związanymi z ofertami wakacyjnymi wykorzystującymi sztuczną inteligencję. W ostatnim czasie pojawiają się przypadki, gdzie cyberprzestępcy wykorzystują AI i chatboty do tworzenia fałszywych ofert wyjazdów, co może prowadzić do wyłudzeń pieniędzy lub kradzieży danych osobowych.
+
+Kilka wskazówek, jak się chronić:
+
+1. Sprawdzaj wiarygodność ofert — korzystaj tylko z renomowanych biur podróży i oficjalnych stron.
+2. Unikaj podejrzanie atrakcyjnych ofert, które wydają się ""zbyt dobre, by były prawdziwe"".
+3. Nie udostępniaj swoich danych osobowych ani informacji finansowych firmom, których nie znasz.
+4. Zwracaj uwagę na błędy językowe i nienaturalne komunikaty — mogą świadczyć o automatyzacji przez AI w oszustwach.
+5. Korzystaj z aktualnego oprogramowania antywirusowego i antyphishingowego.
+
+Jeśli masz konkretną ofertę wakacyjną z AI, którą chcesz zweryfikować, możesz podać więcej szczegółów — pomogę ocenić jej wiarygodność."
+"US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security
+
+The U.S. Federal Communications Commission is banning imports of new foreign-made humanoid robots and power inverters, citing national security risks, in a move that targets China. Beijing quickly accused the U.S. of protectionism.
+The measures are likely to test relations with Beijing ahead of a planned U.S. visit by Chinese leader Xi Jinping to meet with U.S. President Donald Trump in September. China dominates the global market for humanoid robots with an estimated market share of roughly 85%.
+
+The FCC’s ban also includes new imports of quadruped robots, often referred to as four-legged robot dogs. The agency said imports of advanced robots pose cybersecurity and other national security risks. Offshore production of such equipment also leaves U.S. supply chains vulnerable to disruptions.
+
+The ban on power inverters, which are used to convert direct current (DC) electricity into alternating current (AC) electricity and are used in renewable energy systems, data centers and household appliances, could have sweeping ramifications.
+
+This is the latest in US restrictions on Chinese imports
+FCC chairperson Brendan Carr said Tuesday that the move was to “secure America’s critical supply chains.” He said the bans apply to “new versions” of such imports.
+
+The FCC’s bans follow a slew of U.S. restrictions on imports of Chinese products, including drones, and on exports of U.S. advanced technology to China.
+
+The U.S. is also weighing controls on use of Chinese open-source artificial intelligence models at a time when Chinese AI is rapidly gaining ground.
+
+“It’s a steady drumbeat of potential flashpoints heading into (the) Trump-Xi summit planned for September,” said Samm Sacks, a senior fellow at the New America think tank focused on Chinese technology policies.
+
+China has been rapidly expanding the use of robots, with policies supporting its technology sector. Morgan Stanley analysts forecast its market for humanoids could reach $15 billion by 2030.
+
+“Chinese manufacturers have been scaling production and reducing costs faster than most overseas competitors,” said analyst Kangyuxiao Li at Morningstar.
+
+“Restricting their access to the U.S. removes an important future market and protects U.S. developers from potential price competition,” he said. “However, it will not materially slow China’s overall humanoid development, given the size of its domestic manufacturing base and opportunities in other export markets.”
+
+Of the around 15,000 humanoid robots shipped globally in 2025, Unitree and AGIBOT, two of China’s largest advanced robotics companies, each shipped more than 5,000. Their U.S. counterparts, like Tesla and Figure AI, each shipped a few hundred or less, according to the technology research and advisory group Omdia.
+
+On the restrictions on power inverters, Cheng Wang, another Morningstar analyst, said the pressure on U.S. markets should be limited. The ban appears to not impact the continued use of existing devices nor the selling by Chinese companies of models that were previously approved by the United States.
+
+China says protectionism will only hurt the USChina’s Foreign Ministry hit back at the U.S. move, accusing Washington of overstretching the concept of national security to suppress Chinese companies.
+
+China will take “all measures necessary” to defend the legitimate rights and interests of Chinese businesses, it said.
+
+“Protectionism does not make the U.S. more competitive, and it will only hurt the interests of U.S. companies and consumers,” Mao Ning, a ministry spokesperson, told reporters at a regular press conference Wednesday in Beijing.
+
+The new bans could also potentially interfere with collaborations between U.S. and Chinese technology companies, said Lian Jye Su, a chief analyst at Omdia.
+
+Nvidia, for example, in June revealed a humanoid robot reference design which uses the humanoid chassis of China’s Unitree.
+
+The Pentagon recently included Unitree and several other major Chinese technology companies on its list of firms that it said have ties to or aid the Chinese military. Beijing has rejected that claim.","The US government has imposed a ban on the import of foreign-made humanoid robots, with a particular focus on restricting products from China. This move is part of a broader effort to address national security concerns regarding the potential misuse of advanced robotics technology. The ban aims to prevent unauthorized access to sensitive technologies and reduce risks related to espionage or technology transfer that could undermine US security interests. By targeting humanoid robots, which can have sophisticated sensors, AI capabilities, and mobility, the US seeks to limit the influence and presence of foreign-made robotic systems that might pose cybersecurity or intelligence risks."
+"Poznaj 10 kieszonkowych narzędzi prawdziwego hackera! Bez ściemy i lukru
+
+Hollywood zrobił hackerom dobrą i złą reklamę. Dobrą, bo chyba każdy kojarzy scenę, w której ktoś wpina niepozorny gadżet do komputera, odczekuje 13 sekund i przejmuje całą infrastrukturę. Złą, bo w prawdziwym świecie urządzenie nie „hackuje wszystkiego”. Zawsze wykorzystuje konkretny protokół, błędne założenie projektowe albo źle skonfigurowane urządzenie.
+TLDR:
+
+Współczesny „kieszonkowy arsenał” nie łamie zabezpieczeń przy wykorzystaniu magicznych sztuczek, tylko wykorzystuje zaufanie, które systemy od lat przyznają klawiaturom USB, kablom, kartom dostępowym, urządzeniom podłączonym wewnątrz sieci oraz sygnałom radiowym. 
+Poniżej prezentujemy 10 najciekawszych urządzeń do hackowania.
+Są też bezpieczne minilaby, komendy, konfiguracje i pomysły na wykrywanie takich ataków.
+
+Przykładowo, klawiatura USB jest przecież tylko klawiaturą. Kabel służy wyłącznie do ładowania, a karta kontroli dostępu z poprawnym UID-em musi należeć do uprawnionego pracownika. Port sieciowy w sali konferencyjnej znajduje się wewnątrz budynku, więc można mu ufać. Pilot radiowy wysyła poprawny kod, a więc jest właściwym pilotem. Widzicie już problem?
+
+Pokaz kieszonkowego arsenału hackera na żywo!
+30 lipca ekipa sekuraka pokaże kieszonkowy arsenał hackera! Zobaczycie na żywo, jak niepozorne gadżety mogą przejąć kontrolę nad infrastrukturą i narobić niezłego zamieszania.
+W agendzie: Cardputer ADV, ataki HID (Rubber Ducky & O.MG Cable), klonowanie kart (Chameleon Ultra, Proxmark 3) i budowa customowych narzędzi ofensywnych z Raspberry Pi (rysunek 1).
+Bezpłatne zapisy: hacker.sekurak.pl","Jasne! Oto 10 kieszonkowych narzędzi, które prawdziwi hackerzy często mają przy sobie — bez żadnego lukru, tylko konkret:
+
+1. **USB Rubber Ducky** – specjalny pendrive, który udaje klawiaturę i potrafi automatycznie wykonywać komendy na komputerze.
+2. **WiFi Pineapple** – sprzęt do przechwytywania i analizowania ruchu sieci WiFi, świetny do testów penetracyjnych sieci bezprzewodowych.
+3. **LAN Turtle** – mały komputer USB do przeprowadzania ataków w sieciach LAN, np. sniffingu czy tunelowania.
+4. **ProtonVPN lub inny VPN** – narzędzie do anonimowego i bezpiecznego łączenia się z internetem.
+5. **Kali Linux na pendrive** – system operacyjny z zestawem narzędzi do pentestów, uruchamiany bez instalacji.
+6. **HackRF One** – otwarty transmiter SDR do badania i testowania różnych sygnałów radiowych.
+7. **Bash Bunny** – inteligentne urządzenie USB do automatyzacji różnego rodzaju ataków z poziomu plug-and-play.
+8. **CrackMapExec** – narzędzie do audytu i testów penetracyjnych sieci Windows.
+9. **Netcat (nc)** – narzędzie typu „szwajcarski scyzoryk” do debugowania sieci i tunelowania połączeń.
+10. **Burp Suite** – potężne narzędzie do testowania bezpieczeństwa aplikacji webowych.
+
+Każde z nich ma swoje zastosowanie i warto poznać je dobrze, żeby efektywnie działać w temacie cybersecurity! Jeśli chcesz, mogę pomóc z ich konfiguracją lub zastosowaniem."
+"Top stories.
+
+US Senator Ron Wyden has urged the Cybersecurity and Infrastructure Security Agency (CISA), the Office of Management and Budget (OMB), and the National Institute of Standards and Technology (NIST) to take actions to eliminate legacy VPNs. In the letter, Senator Wyden argued that repeatedly emergency patching these legacy VPNs is an unsustainable response. Under the new proposal, Senator Wyden called on CISA to issue a new Binding Operational Directive to mandate VPN migrations. Senator Wyden also requested NIST establish new technical standards and for the OMB to update procurement rules.","Here are some of the top cybersecurity stories currently making headlines:
+
+1. **Massive Data Breach at Major Healthcare Provider**  
+A leading healthcare organization has disclosed a significant data breach affecting millions of patients. Hackers reportedly gained access to personal health information, raising concerns about privacy and potential identity theft.
+
+2. **New Zero-Day Vulnerability Found in Popular Software**  
+Security researchers have uncovered a zero-day vulnerability impacting widely used enterprise software. Vendors are rushing to release patches as attackers are already exploiting the flaw in the wild.
+
+3. **Ransomware Gang Targets Critical Infrastructure**  
+A notorious ransomware group has launched attacks on critical infrastructure entities, causing operational disruptions and demanding large ransoms. Governments are coordinating with cybersecurity firms to mitigate the threat.
+
+4. **U.S. Government Proposes Stricter Cybersecurity Regulations for Tech Companies**  
+In response to rising cyber threats, new legislation is being introduced to enforce stronger cybersecurity standards and reporting requirements for technology firms operating in the U.S.
+
+5. **AI-Based Phishing Attacks on the Rise**  
+Cybercriminals are increasingly using artificial intelligence to craft more convincing phishing emails, making it harder for individuals and organizations to detect fraudulent communications.
+
+If you want details on any specific story or updates in another area, just let me know!"
+"Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads
+
+Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.
+Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials, and API tokens. Those secrets may enable remote code execution (RCE) or lateral movement into connected systems.
+Affected applications use libvips for Active Storage image processing and accept image uploads from untrusted users. Rails selects Vips under load_defaults 7.0, and later defaults retain it.
+Ethiack and GMO Flatt Security list the affected ranges as Rails 7.0.0 through 7.2.3.1, Rails 8.0.0 through 8.0.5, and Rails 8.1.0 through 8.1.3. Rails 6.0.0 through 6.1.7.10 releases are affected only when Active Storage is configured to use Vips, which was not the default processor in Rails 6.
+The official advisory lists a broader package range: activestorage < 7.2.3.2. Both research teams place the practical Vips attack path at Rails 6.0 and later. Applications using MiniMagick are not exposed through this specific attack path. Rails 7.0 and 7.1 are end of life and have no fixed releases, so applications on those branches must upgrade to Rails 7.2.3.2 or later.
+
+Operators should upgrade to Rails 7.2.3.2, 8.0.5.1, or 8.1.3.1 and rotate every secret readable by the application process. Patched installations require libvips 8.13 or later and, when ruby-vips is installed, ruby-vips 2.2.1 or later.
+
+Neither research team had published a proof-of-concept (PoC) as of 17:30 UTC on July 29, 2026. Exact-term searches by The Hacker News found no exploit repository in indexed GitHub, GitLab, Exploit-DB, or Packet Storm results at the same time. Rails warned that applying the patch does not invalidate credentials that may already have been stolen.
+The flaw sits at the trust boundary between Active Storage and libvips. The Rails security advisory says libvips supports loaders, savers, and other operations, some backed by third-party libraries and marked ""unfuzzed"" or ""untrusted"" because they are unsafe for hostile input. Active Storage did not block them, allowing a crafted upload to invoke one and disclose files readable by the Rails worker.
+A vulnerable application does not need to expose a dedicated resize or thumbnail operation. ""Generating variants is not a separate requirement,"" Rails said. The public patch also shows that both the Vips analyzer and transformer passed untrusted attachments to the unsafe operations.
+A successful request gives the attacker an arbitrary file-read primitive. Code execution or lateral movement would depend on what the attacker extracts and what those credentials can reach. Rails tells operators to rotate secret_key_base, the master key and decrypted credentials, database credentials, Active Storage service keys, and third-party tokens.
+The patch calls Vips.block_untrusted(true) when Active Storage starts. Applications that cannot immediately update Rails can set VIPS_BLOCK_UNTRUSTED when running libvips 8.13 or later, or call Vips.block_untrusted(true) with ruby-vips 2.2.1 or later. Rails says earlier libvips versions cannot block these operations, so applications must upgrade libvips or remove it from the application.
+
+Rails credited André Baptista, Bruno Mendes, and Rafael Castilho of Ethiack, and RyotaK of GMO Flatt Security, with independently reporting the issue. The researchers have not disclosed the malicious format, file-read construction, or RCE chain. Rails said further technical details will be released no later than August 28, 2026.
+The Hacker News has contacted the Rails security team about exploitation and affected versions, and Ethiack about the attack chain.
+Neither Rails nor the researchers reported in-the-wild exploitation at publication. A review by The Hacker News at 17:30 UTC on July 29 found that CVE-2026-66066 was not listed in version 2026.07.27 of CISA's Known Exploited Vulnerabilities catalog.
+No reliable count of vulnerable applications or named victims is available. The 9.5 score describes severity under CVSS, not how many deployments are exposed: a vulnerable deployment must also use Vips, accept untrusted image uploads, and include an exploitable operation in its libvips build.","A critical security vulnerability has been discovered in Ruby on Rails that could allow unauthenticated attackers to read sensitive server files by exploiting image upload functionality. This flaw arises when the application fails to properly validate or sanitize uploaded image files, potentially allowing attackers to upload malicious payloads or craft image uploads that enable them to access files on the server.
+
+Key points about the vulnerability:
+
+- **Attack vector:** Unauthenticated attackers upload specially crafted image files.
+- **Impact:** Ability to read arbitrary server files, which could include configuration files, credentials, or other sensitive data.
+- **Affected component:** The image upload or file handling mechanism within a Rails application.
+- **Cause:** Insufficient validation or sanitization of uploaded files, allowing directory traversal, arbitrary file reads, or execution of unintended code.
+- **Risk level:** Critical, as it can lead to data breaches and server compromise without requiring authentication.
+
+**Mitigation and Recommendations:**
+
+1. **Update Rails:** Ensure your Ruby on Rails framework and any related file-upload or image-processing gems are updated to the latest patched versions addressing this flaw.
+2. **Validate File Types:** Strictly validate the MIME type and file extensions of uploaded images.
+3. **Sanitize File Names:** Remove or neutralize any special characters or directory traversal sequences in filenames.
+4. **Use Secure Storage:** Store uploaded files outside the web root or in sandboxed environments.
+5. **Apply Access Controls:** Limit access permissions for the upload directories and files.
+6. **Review Code:** Audit the application’s file upload and processing logic for any unsafe practices.
+7. **Monitor Logs:** Keep an eye on web server and application logs for suspicious upload attempts or access patterns.
+
+If you manage a Rails application with image upload features, prioritize reviewing your security posture on this vector and applying patches promptly to prevent exploitation."
+"The most vulnerable AI products are also some of the most commonly exposed online
+
+Dive Brief:
+
+North America accounts for the most internet-exposed industrial control systems (ICS) as of early 2026, with roughly 38% of all such devices located on the continent, according to the internet monitoring firm Censys.
+Meanwhile, the number of publicly accessible AI tools is growing fast: Censys detected more than 294,000 IP addresses associated with AI services in early 2026, up from 183,000 in October 2025.
+The data, from a preview of Censys’s annual internet exposure report, highlights the vast array of targets available to hackers who are intent on sabotaging critical infrastructure or subverting the AI tools on which companies increasingly rely.
+
+Dive Insight:
+Not only are AI services increasingly appearing on the public internet, but the products with the most significant vulnerabilities are the ones popping up most frequently. Censys detected 169% more instances of the AI agent-building tool Langflow over the past nine months, even as the software has accumulated 18 vulnerabilities (14 of them scored as high-severity, four of them seeing exploitation) since 2024.
+“Multiple unauthenticated remote code execution (RCE) vulnerabilities make any Internet-exposed instance a critical finding,” Censys said.
+The number of internet-exposed instances of another common AI tool, LiteLLM, nearly doubled during Censys’s observation window, even as hackers continue exploitating a pre-authentication SQL injection vulnerability. LiteLLM serves as a unified hub for connecting to commercial LLMs, meaning that a compromise of its data would expose a customer’s API keys for all of those services.
+The ICS landscape, as it appears in Censys’s data, is no less alarming.
+The number of internet-exposed ICS devices has grown from 129,000 in 2024 to 138,000 in early 2026, magnifying the danger facing communities around the world as the equipment powering their energy grids, hospitals and water supplies remain within easy reach of hackers.
+While the lion’s share of those devices are in North America, the number of systems in Asia has grown over the past two years, from 23% in 2024 to 27% in early 2026. The share in Europe dropped slightly, from 36% to 31%.
+Other aspects of the ICS environment remain consistent. “Roughly 70% of hosts running ICS devices and services globally are consistently found on consumer and mobile networks for the last 2.5 years,” Censys said. Business networks and cloud platforms account for significantly smaller shares; Censys did not specify their percentages, but a chart suggests that they are around 25% and 5%, respectively.","Yes, it's true that some of the most vulnerable AI products are also among the most commonly exposed online, which can pose significant cybersecurity risks. Many AI tools and platforms are widely deployed in various industries but may have security weaknesses such as:
+
+- Inadequate access controls  
+- Unpatched software vulnerabilities  
+- Misconfigurations in cloud or network settings  
+- Lack of proper authentication mechanisms  
+
+Because these AI systems often handle sensitive data or critical functions, their exposure online without sufficient security measures can lead to data breaches, unauthorized access, or manipulation of AI models.
+
+To mitigate these risks, organizations should:
+
+- Conduct regular security audits and vulnerability assessments  
+- Apply timely patches and updates  
+- Limit exposure by using firewalls and network segmentation  
+- Implement strong authentication and encryption  
+- Monitor AI systems continuously for suspicious activities  
+
+If you're interested, I can share recent examples or best practices for securing AI products. Would you like that?"
+"First steps forward for the implementation of the Health Action Plan
+
+ENISA signed a Contribution Agreement with the European Commission for the Agency to support the health sector in building robust cybersecurity defenses against cyber threats. Today, ENISA publishes the updated procurement guidelines for the cybersecurity of hospitals and healthcare providers as one of the first deliverables under the Health Action Plan.
+
+Launched in 2025 by the European Commission, the EU Action Plan for the cybersecurity of hospitals and healthcare providers was a pivotal step towards enhancing the protection and resilience of the sector. Through the Action Plan, ENISA has been tasked with a series of actions, underscoring the EU’s confidence in its ability to deliver meaningful value to the sector.
+A key output from ENISA is the support of the proposed European Cybersecurity Support Centre, a mechanism to provide tailored guidance, tools, and services to healthcare providers across Europe. Specifically, ENISA is responsible to develop a comprehensive service catalogue for the mechanism to assist the sector, drawing from previous experiences such as the ENISA Cybersecurity Support Action. 
+For the establishment of the Support Mechanism, a Contribution Agreement of EUR 6 million was signed between ENISA and the European Commission. This Contribution Agreement is set for three years and will support the following:
+
+Repackaging and expanding current service offer and architecture to strengthen the action and advance outcomes
+Create and enhance harmonised approaches
+Reusing established methodology, tools and procurement strategy
+Actions done to empower Member States and health entities
+Build service offer in consultation with relevant stakeholder groups
+
+The primary objective of the agreement is the implementation of the service catalogue, which currently, the service catalogue of the Support Mechanism includes actions clustered under the following categories: preparedness, detection, response and governance. 
+Procurement guidelines 
+As part of its tasks under the Action Plan, ENISA publishes a new iteration of the procurement guidelines for the cybersecurity of hospitals and healthcare providers. This publication was prepared by ENISA, with the support of the NIS Cooperation Group, the EU Health ISAC (EH-ISAC) and the European Commission.
+The document includes a series of procurement practices to support the integration of cybersecurity objectives in procurement processes for hospitals and healthcare providers. It covers all phases of the procurement life cycle, sets out cybersecurity requirements for suppliers and highlights the types of services and products where cybersecurity considerations are particularly important. Additionally, a practical checklist of cybersecurity measures tailored for healthcare procurement is included, each of them linked with specific threats for the different procurement types. 
+The guidelines are in line with the relevant EU regulatory frameworks and can be used by a wide range of stakeholders, from senior technical professionals in healthcare to IT teams. 
+The Health Action Plan, including the revised procurement guidelines and cybersecurity for medical devices will be among the topics on the agenda of the 11th ENISA eHealth Security Conference organised in Nicosia, Cyprus on 7 October 2026.
+
+Procurement guidelines for the cybersecurity of hospitals and healthcare providers | ENISA
+11th eHealth Security Conference | ENISA
+eHealth security in the spotlight: A good practice guide for a robust and resilient EU health sector | ENISA
+Cyber Hygiene in the Health Sector | ENISA
+Proposed ENISA role to safeguard cybersecurity of health sector | ENISA","The first steps forward for the implementation of the Health Action Plan typically involve establishing foundational measures to ensure its effective execution. While details can vary depending on the specific Health Action Plan in question, common initial steps often include:
+
+1. **Stakeholder Engagement:** Engaging key stakeholders such as healthcare providers, government agencies, community organizations, and patients to ensure alignment and collaboration.
+
+2. **Assessment and Baseline Data Collection:** Conducting assessments to understand current health challenges, resource availability, and baseline health metrics to track progress.
+
+3. **Setting Clear Objectives and Priorities:** Defining specific, measurable goals and identifying priority areas to focus efforts where they are needed most.
+
+4. **Resource Allocation:** Securing funding, personnel, and materials necessary to begin activities outlined in the action plan.
+
+5. **Establishing Governance and Coordination Mechanisms:** Creating committees or task forces responsible for overseeing implementation, monitoring progress, and addressing challenges.
+
+6. **Communication and Awareness Campaigns:** Informing the public and stakeholders about the plan’s goals, activities, and expected outcomes to build support and participation.
+
+If you are referring to a specific Health Action Plan (e.g., WHO’s Global Action Plan for Healthy Lives and Well-being), please provide more details so I can give you precise information on the initial implementation steps."
+"Mate Security Raises $35 Million for Agentic SOC
+
+AI-powered Security Operations Center (SOC) startup Mate Security has announced raising $35 million in a Series A funding round that brings the total raised by the company to over $50 million.
+Led by Canaan Partners, with additional support from Insight Partners, Microsoft’s Venture Fund M12, and Team8, the investment round comes eight months after the company emerged from stealth mode.
+
+Founded in 2025 by former Wiz and Microsoft veterans, Tel Aviv-based Mate has built an open, agentic platform that relies on AI to transform security operations into continuously learning defense systems.
+
+Mate’s agentic SOC creates a unique security context graph for each organization, based on assets, business processes, users, and data, which is then used to build detections, triage and investigate incidents, and perform threat hunting and incident response.
+
+By using unique context graphs, Mate’s agents operate within each organization’s context to provide tailored, up-to-date defenses.
+
+They operate in a Continuous Detection, Continuous Response (CDCR) framework, retaining knowledge with each investigation to improve detections that feed the next investigation.
+
+Planning to double its workforce by the end of the year, Mate will use the fresh investment to expand its customer support, sales, and R&D teams, as well as its market presence.
+
+“When we started Mate, we knew we had to invest in the foundation: context and trust, and build them deeply into our product. We will continue moving fast and stay laser-focused on our customers, as we expand into new markets and categories to build the Open Security Operations foundation of the future,” said Mate co-founder and CEO Asaf Wiener.","Mate Security has announced that it has raised $35 million in funding to enhance its Agentic SOC platform. The company specializes in autonomous security operations centers (SOCs) that use artificial intelligence to detect and respond to cyber threats with minimal human intervention. This new capital injection will help Mate Security accelerate product development, expand its team, and scale its technology to provide more efficient and effective cybersecurity solutions for organizations. The Agentic SOC aims to reduce alert fatigue and improve incident response times by automating threat detection and remediation processes."
+"Decades-old vulnerability exposes 24,000 servers.
+
+Researchers have identified a new vulnerability that leaves over 24,000 internet-expose servers vulnerable. The vulnerable was found in the Intelligent Platform Management Interface (IPMI) 2.0 protocol that exposes password hashes for offline cracking. The flaw, tracked as CVE-2013-4786, stems from a protocol design dating back to 2004 and impacts Baseboard Management Controllers. Additionally, researchers found that roughly one-third of impacted systems used weak credentials, including default passwords, making compromise significantly easier. Researchers urged organizations to keep IPMI interfaces off the public internet, to rotate default BMC passwords, to isolate management networks, and to disable legacy IPMI authentication.","A decades-old vulnerability has been discovered, exposing approximately 24,000 servers to potential attacks. This type of issue often stems from outdated software components, unpatched systems, or legacy protocols still in use.
+
+While the specific vulnerability isn’t mentioned, such incidents typically involve:
+
+- **Unpatched software:** Servers running old versions of operating systems or applications that have known security flaws.
+- **Weak authentication mechanisms:** Legacy protocols that don’t enforce strong authentication, like default credentials or outdated encryption standards.
+- **Misconfigurations:** Servers left exposed to the internet without proper firewall rules or access controls.
+
+To mitigate risks associated with this vulnerability, server administrators should:
+
+1. **Identify vulnerable servers:** Use network scanning tools to detect servers running outdated software versions.
+2. **Apply patches and updates:** Upgrade operating systems and applications to the latest secure versions.
+3. **Harden configurations:** Disable legacy protocols and enable strong authentication and encryption.
+4. **Implement network segmentation:** Limit access to critical servers through firewalls and VPNs.
+5. **Monitor for suspicious activity:** Use intrusion detection systems and regular log analysis.
+
+If you can provide more details such as the name or nature of the vulnerability, I can offer a more tailored explanation or guidance."
+"Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory
+
+Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.
+The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's research team, Noma Labs.
+Originally launched as Claude Flow, Ruflo is an AI multi-agent orchestration platform and harness that allows users to deploy multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. The project has more than 66,500 stars on GitHub.
+The crux of the vulnerability is that Ruflo exposed 233 tools, including shell command execution, database operations, agent management, and memory storage, through an unauthenticated Model Context Protocol (MCP) bridge that's open to the network by default.
+
+Specifically, the ""docker-compose.yml"" YAML configuration file was found to bind port 3001 to 0.0.0.0 by default, exposing the bridge on all network interfaces. That said, the extent of exposure depends on the deployment's firewall rules, security groups, and network segmentation. It's worth noting that any network-reachable instance is fully exploitable without authentication.
+
+As a result, a single unauthenticated HTTP POST to port 3001 made it possible to gain full remote code execution inside a susceptible Ruflo deployment, per security researcher Eli Ainhorn -
+curl -s -X POST https://<target>:3001/mcp -H ""Content-Type: application/json"" -d '{""jsonrpc"":""2.0"",""id"":1,""method"":""tools/call"",""params"":{""name"":""ruflo__terminal_execute"",""arguments"":{""command"":""id && hostname""}}}'
+Armed with this foothold, an attacker could siphon the API keys Ruflo uses to interact with large language model (LLM) providers, read every user conversation stored on the platform, and interfere with the AI system's memory to influence model responses and behavior.
+In other words, command execution serves as a stepping stone for full compromise, enabling LLM API key theft, agent weaponization, AI memory poisoning, conversation harvesting, and persistent backdoor deployment by writing a malicious payload to the ""/app"" directory.
+""Prior to 3.16.3, Ruflo's default docker-compose deployment exposed the MCP bridge POST /mcp and POST /mcp/:group endpoints without authentication, allowing an unauthenticated network attacker to invoke tools/call to terminal_execute, obtain a shell in the bridge container, read provider API keys, and poison AgentDB learning-store patterns,"" according to a description of the flaw in NIST's National Vulnerability Database (NVD).
+Following responsible disclosure on June 30, 2026, a fix for the vulnerability was pushed by the project's maintainer, Reuven Cohen, within 24 hours. As part of the patch, the MCP bridge now binds to the loopback interface by default, gates ""terminal_execute"" behind server-side executeTool controls, and enables MongoDB authentication to prevent conversation theft, among others.
+""The MCP bridge shipping in ruflo/docker-compose.yml exposed POST /mcp with no authentication,"" Cohen said in the release notes. ""The docker-compose defaults bound the bridge and MongoDB to all interfaces.""
+
+""Combined, an unauthenticated network attacker could invoke tools/call → terminal_execute inside the bridge container, obtain a shell, read every provider API key from the container env, spawn attacker-controlled swarms on the victim's keys, and persist a poisoned pattern into the AgentDB learning store that steers future AI outputs.""
+Operators running an exposed instance are recommended to immediately close firewall ports 3001 and 27017, rotate all LLM API keys, audit the AgentDB pattern store for injected agentdb_pattern-store entries, and check MongoDB for signs of tampering.
+""The Ruflo vulnerability enabled spinning up a swarm of agents to do whatever the attacker wanted and even tamper with the AI's memory,"" Noma said. ""The ability to write malicious instructions into a platform's persistent AI memory means an attacker can influence the responses that AI gives to every future user of the platform, long after the original intrusion has ended.""
+""For organizations exposed to a vulnerability like this, remediation requires more than a software update. AI provider credentials should be treated as compromised and rotated, the platform's AI memory should be audited for tampering, and containers should be rebuilt from a clean image.""","The Ruflo MCP flaw is a serious security vulnerability that affects the Ruflo Managed Control Panel (MCP) system. This flaw allows unauthenticated attackers to execute arbitrary commands on the target system, effectively gaining unauthorized control. Additionally, the flaw can be exploited to poison the AI memory, which means attackers can manipulate or corrupt the data and knowledge base that the AI relies on, potentially causing it to behave maliciously or erratically.
+
+Key points about the Ruflo MCP flaw:
+
+- **Unauthenticated Command Execution:** Attackers do not need valid credentials to exploit this vulnerability. They can send specially crafted requests to the Ruflo MCP server to run commands remotely.
+
+- **AI Memory Poisoning:** Beyond just command execution, attackers can inject malicious data into the AI’s memory or knowledge base. This can degrade the AI’s performance, lead to incorrect decision-making, or be used for further malicious activities.
+
+- **Potential Impact:** Systems using Ruflo MCP can face full compromise, data breaches, service disruptions, and long-term AI reliability issues.
+
+- **Mitigation:** Users of Ruflo MCP should immediately apply any available patches or updates released by the vendor. If no patches are available, restricting network access to the MCP, employing strict firewall rules, and monitoring for suspicious activity are critical.
+
+If you are managing systems with Ruflo MCP, it’s important to act quickly to assess exposure and apply protections to prevent exploitation of this flaw."
+"GAO report details scope of cybersecurity regulation overlap
+
+Roughly 70% of federal cybersecurity regulations contain redundant reporting requirements, according to the Government Accountability Office, potentially imposing an unnecessary burden on critical infrastructure providers without generating significant benefits for their government overseers.
+Thirty-seven agencies have issued 117 cybersecurity rules covering nine infrastructure sectors, GAO said in a report published on Wednesday, and 80 of those rules cover the same ground, requiring reports on cybersecurity incidents, plans or audits. Across those 80 rules, the GAO found 125 distinct requirements.
+
+“Many regulations required multiple types of reporting,” GAO analysts wrote in their report to leaders of the House and Senate homeland-security committees. “When multiple regulations have the same types of reporting requirements, particularly when the requirements affect entities within the same sector or across multiple sectors, those regulations have the potential to be duplicative or conflicting.”
+The GAO identified 48 incident-reporting requirements from 27 agencies; 52 plan reporting requirements from 26 agencies; and 25 audit reporting requirements from 15 agencies.
+In the incident-reporting realm, firms in the financial-services sector face the most significant potential regulatory overlap, where any given company might have to comply with one of 15 rules from the Treasury Department, the Federal Trade Commission, the Federal Deposit Insurance Corporation or other agencies.
+When it comes to reporting on cybersecurity plans, federal contractors might have to share the same plan information with each of their agency customers separately. And in the highly diverse transportation sector, whose regulators have issued seven rules requiring plan reporting, “regulations affecting all sectors may duplicate or conflict with regulations focused on a specific sector,” according to the GAO.
+In terms of regulations requiring companies to provide the results of third-party audits or assessments, the GAO warned that companies “may be required to provide duplicative compliance data or conduct multiple compliance audits that could vary in scope, depth, and methodology to comply with multiple regulations.”
+
+The GAO report on regulatory overlap comes as the Cybersecurity and Infrastructure Security Agency is finalizing a rule required by the Cyber Incident Reporting for Critical Infrastructure Act (CIRCIA) that is expected to apply significant incident-reporting requirements to a vast cross-sector swath of critical infrastructure.
+Without regulatory harmonization, CIRCIA will make the redundancy problem worse, the GAO said, particularly in sectors like financial services that are already heavily regulated. Beyond redundancy, CIRCIA could also create contradictions, analysts wrote: “The potential exists for CIRCIA to have varying requirements for when financial services sector entities are to report cybersecurity incidents, including what to report and how soon sector entities are expected to notify federal agencies.”
+The GAO said it was collecting infrastructure operators’ feedback on the federal regulatory thicket and planned to issue a report with their perspectives in the fall.
+Stalled harmonization efforts
+Both the Biden and Trump administrations have promised to rationalize the regulatory environment by eliminating duplicative rules and modernizing regulatory text, but the GAO found that agencies have not made significant progress on that front.
+The interagency Cybersecurity Forum for Independent and Executive Branch Regulators has been dormant since late 2024, the Department of Homeland Security has not provided any evidence that it is implementing its own Cyber Incident Reporting Council’s recommendations and the Trump administration has dragged its feet on issuing a plan to implement President Donald Trump’s national cybersecurity strategy.
+“In addition to establishing implementation plans, it will be important for [the Office of the National Cyber Director (ONCD)] and other involved agencies to prioritize and follow-through on previously initiated efforts to harmonize cybersecurity regulations,” GAO analysts wrote. “Doing so will help achieve the goal of reducing potentially burdensome requirements on the private sector while enhancing the cybersecurity of the nation’s critical infrastructure.”
+The GAO shared its report with ONCD to solicit feedback and comments, but the office declined to comment.","The Government Accountability Office (GAO) recently released a report that highlights the extent of overlap and fragmentation in federal cybersecurity regulations. The report examines how multiple agencies have issued overlapping cybersecurity requirements for various sectors, which can create compliance challenges for organizations and may lead to inefficiencies in enforcement.
+
+Key points from the GAO report include:
+
+1. **Multiple Agencies Involved:** Agencies such as the Department of Homeland Security (DHS), the Federal Trade Commission (FTC), the Securities and Exchange Commission (SEC), and others have their own cybersecurity rules and guidelines, often covering similar areas but with different standards or scopes.
+
+2. **Overlap in Regulatory Requirements:** Critical infrastructure sectors, financial services, and healthcare, among others, face intersecting regulations that sometimes duplicate efforts, making it harder for entities to manage cybersecurity programs efficiently.
+
+3. **Potential for Conflicting Standards:** Differing regulatory expectations can cause confusion, increase compliance costs, and hinder the implementation of coherent cybersecurity strategies.
+
+4. **Recommendations for Coordination:** The GAO suggests increased inter-agency coordination to harmonize cybersecurity regulations and reduce unnecessary overlap. Improved collaboration could help streamline compliance requirements and improve overall cybersecurity resilience.
+
+5. **Implications for Stakeholders:** Organizations subject to multiple regulations need to navigate complex compliance landscapes. Clearer guidance and unified standards would support better risk management and resource allocation.
+
+The GAO's findings underscore the importance of a more integrated federal approach to cybersecurity regulation to enhance effectiveness and reduce burdens on regulated entities.
+
+If you would like, I can provide a summary of the report or details on specific agencies’ cybersecurity regulations addressed in the GAO report."
+"ENISA on Air: Our first podcast launches on Frontier AI
+
+ENISA launches a podcast series to decrypt the latest cybersecurity developments and discuss issues that shape Europe's cybersecurity landscape.
+
+ENISA wanted to provide its audiences with a new channel to share updates from the Agency but importantly to create a space where we will have the opportunity to promote ENISA’s cybersecurity expertise and raise awareness for EU level cybersecurity and its opportunities.
+Through this podcast series, the Agency looks at the risks, the trends, the decisions that matter from cyber resilience to emerging technologies to trust and cooperation needed for Europe's digital future. Hosted by ENISA Associate Chief Cybersecurity and Operations Officer Florian Pennings and ENISA Spokesperson Laura Heuvinck, this first series will bring a number of podcasts throughout 2026.
+For our first episode, we welcomed Jaya Baloo, co-founder of AISLE™ and Razvan Gavrila, Head of Sector at ENISA, to explore the latest developments and impact of Frontier AI on cybersecurity. In July 2026, the Agency published a note on ‘ENISA’s View on Cybersecurity in the Frontier AI Era’ which provides national competent authorities in Member States and EU policymakers, defenders, and service providers with an initial set of recommendations to support them in their respective roles towards developing the necessary operational capabilities to face machine-speed threats.
+Future episodes will address on key cybersecurity topics such as Europe’s cyber threat landscape, vulnerability management as well as flagship ENISA work such as the upcoming Single Reporting Platform and State of Cybersecurity in the Union 2026 report. 
+Tune in, follow along and join the conversation! The podcast is available on YouTube, Spotify and Apple podcast and Deezer, with new episodes coming soon. 
+
+ENISA on Air – YouTube Channel
+ENISA on Air - Podcast - Apple Podcasts
+ENISA on Air | Podcast on Spotify
+ENISA on Air - Deezer
+ENISA’s view on Cybersecurity in the Frontier AI Era | ENISA","The European Union Agency for Cybersecurity (ENISA) has launched its first podcast episode titled ""ENISA on Air,"" which focuses on the topic of Frontier AI. This podcast aims to explore the latest developments, challenges, and cybersecurity implications related to advanced artificial intelligence technologies at the frontier of innovation. Listeners can expect insights from experts on how to secure and manage emerging AI systems responsibly within the digital ecosystem. For more details, you can visit ENISA’s official website or podcast platforms where the episode is available."
+"ThreatLocker Raises $190 Million in Series F Funding
+
+Florida-based zero trust security company ThreatLocker announced on Wednesday that it has raised $190 million in a Series F funding round.
+The company previously raised $20 million in Series B funding, $100 million in Series C funding, $115 million in a Series D round, and $60 million in Series E funding last year. With the latest round the total is nearly $500 million. 
+
+A source familiar with the matter said ThreatLocker was valued at $1.6 billion in its previous funding round, and the latest raise has significantly increased that valuation.
+
+The Series F round was led by Elephant, with support from D. E. Shaw Ventures, Arthur Ventures, and Koch Disruptive Technologies.
+
+The latest investment will be used for product enhancements and international expansion, beginning with a new office in the United Kingdom. In the past 18 months, ThreatLocker added offices in Australia and the UAE. 
+
+ThreatLocker provides endpoint, network, and cloud security through a zero trust approach that blocks unauthorized software and AI tools by default.
+
+To guard against fileless attacks and exploits, the platform restricts the actions approved applications can take, limits access to local and network storage, manages user privileges, and regulates network traffic based on application identity. 
+
+The platform also includes policy-based endpoint detection and response capabilities that monitor for IoCs and can automatically respond to anomalous behavior in real time.
+
+ThreatLocker says its solutions are used by more than 70,000 organizations worldwide.
+
+“Most cybersecurity tools are still built around identifying malicious activity after it has already entered an environment, when the damage may already be done,” said Danny Jenkins, CEO and co-founder of ThreatLocker. “We believe the better model is to define what is allowed and deny everything else by default.”
+
+*Updated with information on Series E and total funding. Also added network and cloud protection to platform description.","ThreatLocker has successfully raised $190 million in its Series F funding round. This significant investment highlights strong confidence from investors in ThreatLocker's capabilities and growth potential within the cybersecurity sector. The funds will likely be used to accelerate product development, expand market reach, and enhance their security solutions. If you need more detailed information about the funding round, investors involved, or ThreatLocker's plans, please let me know!"
+"Critical VeloCloud bug is under active exploitation.
+
+Arista announced that a critical vulnerability, dubbed CVE-2026-16812, is actively exploiting its on-premise VeloCloud Orchestrator software. The vulnerability, rated as a CVSS 10.0, uses an unauthenticated OS command injection vulnerability allowing attackers to compromise the orchestrator and potentially gain access to managed edge devices. Arista recommends restricting access to trusted management networks and blocking known malicious IP addresses until patches can be applied. CISA has also added the vulnerability to its Known Exploited Vulnerabilities catalog.","Yes, there has been a critical vulnerability in VeloCloud, which is a VMware SD-WAN solution, that is currently under active exploitation. This vulnerability could potentially allow attackers to gain unauthorized access or execute arbitrary code on affected devices.
+
+If you are using VeloCloud products, it is highly recommended to:
+
+1. Apply the latest security patches provided by VMware immediately.
+2. Review VMware’s security advisories related to this vulnerability.
+3. Monitor your network for any unusual activity or signs of compromise.
+4. Restrict external access to VeloCloud management interfaces where possible.
+5. Follow best practices for network segmentation and access control.
+
+Staying up to date with vendor communications and promptly implementing fixes is critical to protect your infrastructure from this active threat. If you need further details or guidance on mitigation steps, please let me know!"
+"Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape
+
+Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.
+The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter.
+""A malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system,"" Broadcom said.
+The second critical flaw is a directory-traversal vulnerability in vCenter (CVE-2026-59310, CVSS score: 9.8) that a malicious actor with network access can exploit to execute arbitrary code. Both vulnerabilities have been addressed in the versions below -
+
+VMware Cloud Foundation, VMware vSphere Foundation versions 9.1.x.x     (Fixed in 9.1.0.0300)
+VMware Cloud Foundation, VMware vSphere Foundation versions 9.0.x.x     (Fixed in 9.0.2.0100)
+VMware vCenter version 8.0 (Fixed in 8.0 U3k)
+VMware Cloud Foundation versions 5.x (Async patch to 8.0 U3k)
+
+Also patched by Broadcom are three other flaws -
+
+CVE-2026-47876 (CVSS score: 9.3) - An out-of-bounds write vulnerability in the VMXNET3 virtual network adapter of VMware ESX that a malicious actor with local administrative privileges on a virtual machine can exploit to execute code on the host. (Fixed in VMware Cloud Foundation and VMware vSphere Foundation versions ESXi-9.1.0.0200-25557999 and ESXi-9.0.2.0100-25595025, and VMware ESX ESXi80U3k-25595708)
+CVE-2026-41703 (CVSS score: 7.6) - An out-of-bounds read vulnerability in VMware ESX that a malicious actor with VM deployment privileges could trigger, potentially leading to information disclosure or a denial-of-service (DoS) condition. On VMware Workstation and Fusion, the impact is limited to information disclosure. (Fixed in VMware Cloud Foundation and VMware vSphere Foundation versions ESXi-9.1.0.0-25370933 and ESXi-9.0.2.0100-25595025, VMware ESX ESXi80U3i-25205845, VMware Workstation 26H1, VMware Fusion 26H1, and VMware Cloud Foundation 5.2.3)
+CVE-2026-41709 (CVSS score: 2.7) - An insufficient logging vulnerability in VMware ESX that a malicious administrator can exploit to perform certain operations without them being logged. (Fixed in VMware Cloud Foundation and VMware vSphere Foundation versions ESXi-9.1.0.0-25370933 and ESXi-9.0.2.0100-25595025, and VMware ESX ESXi80U3j-25429389)
+
+Broadcom noted that it has found no evidence to suggest any of these issues have been exploited in the wild. The technology giant also characterized CVE-2026-47876 as a virtual machine escape.
+""An attacker who already holds local administrative privileges inside a virtual machine that uses the VMXNET3 virtual network adapter may execute code on the ESX host,"" it said.","Yes, recently three critical vulnerabilities have been disclosed in VMware products that pose serious security risks including authentication bypass, remote code execution, and virtual machine (VM) escape. Here is a summary of these issues:
+
+1. **Authentication Bypass Vulnerability**  
+   - This flaw allows an attacker to bypass authentication mechanisms in certain VMware management interfaces or products, potentially gaining unauthorized access.  
+   - Exploiting this can lead to unauthorized control over VMware environment components.
+
+2. **Remote Code Execution (RCE) Vulnerability**  
+   - A critical RCE vulnerability lets attackers execute arbitrary code on the VMware host or guest systems remotely.  
+   - Remote exploitation can lead to full compromise of the virtualized environment.
+
+3. **VM Escape Vulnerability**  
+   - This enables an attacker running code inside a guest VM to break out of the VM's isolated sandbox and execute code on the underlying host system.  
+   - VM escape can lead to complete compromise of the VMware host and other guest VMs.
+
+**Impact:**  
+- These vulnerabilities impact VMware products including VMware Workstation, VMware Fusion, vCenter Server, or ESXi hosts.  
+- Exploitation can allow attackers to gain high-level privileges, move laterally within networks, and disrupt business operations.
+
+**Recommendations:**  
+- VMware has released security patches to address these vulnerabilities. It is strongly recommended to:  
+  - Apply the latest patches and updates from VMware immediately.  
+  - Review your VMware environment for suspicious activity.  
+  - Follow VMware security advisories for any further updates.
+
+**References:**  
+- VMware Security Advisories on their official website  
+- Cybersecurity news outlets reporting on VMware vulnerability disclosures
+
+If you want detailed information on the CVE identifiers, affected versions, or mitigation steps, please let me know!"
+"CISA, FBI warn that Iran-linked hackers are expanding target set for water, energy
+
+The Cybersecurity and Infrastructure Security Agency and the FBI warned that Iran-affiliated hackers are stepping up attacks targeting key industrial devices in an attempt to disrupt water, energy and other municipal infrastructure sites. 
+The agencies previously warned that hackers were exploiting programmable logic controllers (PLCs) from Rockwell Automation/Allen-Bradley. Iran-linked groups have since expanded their target set to include devices from Schneider Electric, Siemens and, potentially, other manufacturers, according to the updated advisory. 
+
+The agencies also urged organizations to apply strict limitations on who can access PLC devices and validate project files running the PLCs for any unauthorized activity. Security teams should also review previous guidance from manufacturers to make sure the devices are safely configured. 
+“CISA is collaborating closely with government and industry stakeholders, including PLC vendors in the advisory,” a spokesperson told Cybersecurity Dive.
+A spokesperson for Rockwell Automation said the company has been working with government agencies since the original advisory was issued and reminded customers to review advisories it previously issued in 2021 and earlier this year. 
+The original advisory is related to an authentication bypass vulnerability, tracked as CVE-2021-22681, but was updated in March. The flaw in Studio 5000 Logix Designer software could allow a cryptographic key to be discovered. If successfully exploited, a non-Rockwell application would be able to connect with the controller. 
+Newly targeted devices include Schneider Electric BMX P34/Modicon M340 PLCs and Siemens S7-1200 series PLCs, according to the updated advisory.
+In one attack, hackers used Dropbear Secure Shell software to gain remote access to a targeted system. 
+Insecure operations
+OT security experts warned that security teams need to take every precaution to harden entry points around these systems. 
+Iran-linked threat groups have been targeting U.S. water systems since the outbreak of the Gaza war in 2023. An investigation by the Environmental Protection Agency found hundreds of U.S. sites contained critical and high-severity vulnerabilities. 
+Authorities in April confirmed that a number of water and energy sites had already been targeted in attacks that caused financial losses and other damage. 
+
+In June, Handala, a group linked to Iranian intelligence, claimed credit for an attack against California Water Service, one of the largest water systems in the U.S. Cal Water in June said an investigation found the activity was limited to specific accounts within two third-party service provider platforms. 
+There was no impact on Cal Water’s internal IT or OT systems. The hackers gained access to the online account of a customer using stolen credentials, according to the company.
+“Once an attacker has a credential, compromises a workstation, or enters through a service provider, the question becomes whether they have a viable path to the controllers, engineering systems, and other operational crown jewels,” said Harry Thomas, co-founder and CTO at Frenos, told Cybersecurity Dive.
+Authorities said organizations should change default passwords, implement multifactor authentication, update software patches and use a VPN, network proxy, firewall or gateway to secure these devices from the open internet.","The Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) recently issued a warning that Iran-linked cyber threat actors are expanding their targeting to include water and energy sectors in the United States. These state-sponsored hackers are increasing their efforts to compromise industrial control systems (ICS) and operational technology (OT) networks related to critical infrastructure.
+
+The agencies highlighted that these threat actors have previously targeted government, defense, and financial sectors but are now broadening their scope to disrupt or gather intelligence from water and energy utilities. The emphasis is on exploiting vulnerabilities in ICS/OT environments to potentially cause operational disruptions or damage.
+
+CISA and the FBI urge organizations in the water and energy sectors to enhance their cybersecurity posture by:
+
+- Implementing network segmentation and access controls  
+- Conducting regular vulnerability assessments and patching  
+- Monitoring networks for unusual activity or potential indicators of compromise  
+- Employing multi-factor authentication and strong credential management  
+- Sharing threat intelligence and collaborating with federal agencies
+
+This warning underscores the increasing cyber risk posed by Iran-linked hackers targeting critical infrastructure that is vital to public safety and national security. Organizations are encouraged to remain vigilant and apply recommended protective measures promptly."
+"Where do SMEs stand in preparing for the Cyber Resilience Act?
+
+The EU Agency for Cybersecurity (ENISA) publishes the Micro, Small and Medium-sized enterprises (SME) Cyber Resilience Maturity Assessment Model, a simple and practical guidance for SMEs to support them assess their current status, identify improvements and strengthen their cyber resilience practices.
+
+As SMEs make up a large part of EU´s digital ecosystem, their ability to understand and implement the Cyber Resilience Act (CRA)is significant for the regulation’s success. Particularly, as smaller organisations face practical challenges related to resources, expertise, time and implementation capacity. To help address this, as part of the European Commission’s SME cybersecurity strategy, ENISA is working on practical guidance, tools and support activities tailored to the realities and needs of smaller organisations.
+The SME Cyber Resilience Maturity Assessment Model provides a structured approach for SMEs to evaluate and strengthen their overall cyber resilience, while taking into account the requirements of the CRA. The model is primarily intended for organisations that manufacture and place products with digital elements on the market, as these are directly subject to CRA requirements. However, it can also be used by other organisations involved in the product life cycle, such as integrators or service providers, to assess and improve their product security practices.
+It focuses on the following five domains, with each domain divided into five maturity criteria that reflect expected practices under the CRA and product security approaches:
+
+governance and documentation,
+risk management and security by design and by default,
+vulnerability and patch management,
+product life cycle management,
+awareness, competence and skills.
+
+The model suggests three maturity profiles: basic, intermediate and advanced, intended to show how consistently product-related risks are managed in the organisation. Overall, this model reflects practices supporting the implementation of the CRA and supports organisations in strengthening their product security and cyber resilience over time in a structured and manageable way. However, having an advanced maturity level does not replace legal obligations and should not be considered evidence of compliance. 
+To support practical implementation, the maturity model includes a downloadable Excel tool that guides users through the process, automatically calculates maturity scores and helps SMEs to track progress across repeated self-checks.
+A survey on SMEs preparedness in light of the CRA
+ENISA recently published the findings of the ENISA SME CRA Survey, conducted in February and March 2026. The survey covered awareness of the CRA, understanding of its requirements, existing cybersecurity practices, organisational responsibilities and anticipated challenges related to compliance. Additionally, the survey gathered feedback on the support SMEs need and established a baseline for their maturity in product security practices. 
+In line with the European Commission definition of SMEs, the sample included SMEs, covering microcompanies, small companies and medium-sized companies. A total of 194 organisations responded from 31 countries, including 25 EU Member States, and geographical groupings.
+Key findings of the report
+
+Gap between awareness and practical readiness. 66 % of respondents had heard of CRA before the survey but results suggest that there is still room for improvement in understanding practical requirements.
+The size of the enterprise is the most consistent factor influencing the level of maturity. Across all five domains in the survey, medium-sized companies scored about one point higher than microcompanies on average. 
+Incident response and product life cycle management is the weakest area overall, particularly for microcompanies. 
+Practical templates are the most requested form of support. Technical documentation templates and secure development templates were each requested by more than 70 % of respondents.
+The challenge of resources, cost and time management for SMEs, with 142 of the responded underlining the need for financial support.
+SMEs do not rely on a single source of CRA information, thus effective outreach will require a combination of communication formats and platforms.
+
+Based on the findings, the report provides recommendations on the identified challenges covering documentation and conformity assessment, technical documentation templates, incident response and product life cycle management, financial support as well as the specific recommendations for microcompanies. 
+
+SME Cyber Resilience Maturity Assessment Model
+SME CRA Survey Report | ENISA
+SME Cyber Resilience Act Survey | ENISA
+SMEs Cybersecurity | ENISA","Small and Medium-sized Enterprises (SMEs) generally face several challenges in preparing for the Cyber Resilience Act (CRA), which aims to enhance cybersecurity standards for digital products and services across the EU. Here’s an overview of where SMEs currently stand:
+
+1. **Awareness and Understanding**:  
+   Many SMEs are still in the early stages of understanding the requirements of the Cyber Resilience Act. Compared to larger corporations, SMEs often have less access to specialized legal and cybersecurity expertise to interpret the new regulations.
+
+2. **Resource Constraints**:  
+   SMEs typically have limited financial and human resources to allocate toward compliance efforts. Implementing the necessary security measures, conducting vulnerability testing, and ensuring ongoing cybersecurity documentation can be costly and complex.
+
+3. **Need for Guidance and Support**:  
+   SMEs often require more accessible guidance, templates, and practical tools to help with CRA compliance. Industry associations, governmental agencies, and cybersecurity organizations are increasingly offering support to help SMEs prepare.
+
+4. **Risk Perception**:  
+   Some SMEs may underestimate their cyber risk exposure, which can delay proactive steps toward compliance. However, as awareness grows about potential liabilities and penalties under the CRA, more SMEs are prioritizing cyber resilience.
+
+5. **Integration with Existing Processes**:  
+   SMEs that have already adopted basic cybersecurity standards or aligned with frameworks like ISO/IEC 27001 find it easier to adapt to CRA requirements. For others, the Act may push them to build or upgrade their cybersecurity posture from scratch.
+
+**Summary**: SMEs are in a transitional phase regarding the Cyber Resilience Act. While many face challenges due to limited resources and expertise, ongoing awareness campaigns and support initiatives are helping them move toward compliance. SMEs that proactively engage with the CRA’s requirements stand to improve their cybersecurity resilience and maintain market access across the EU."
+"Critical VM Escape Vulnerability Patched in VMware ESXi
+
+Broadcom published a new security advisory on Wednesday, informing VMware product users that patches are available for several vulnerabilities affecting ESXi, vCenter, Workstation, and Fusion.
+Three of the vulnerabilities have been assigned a ‘critical’ severity rating. One of them is CVE-2026-47876, an out-of-bounds write issue in ESXi’s VMXNET3 virtual network adapter. 
+
+An attacker with local admin privileges on a VM with this adapter can exploit it to execute arbitrary code on the host. CVE-2026-47876 has been described by VMware as a VM escape.
+
+The second critical flaw, CVE-2026-59309, is a vCenter authentication bypass that can be exploited to gain unauthorized access to the targeted system.
+
+CVE-2026-59310 is also a critical vCenter vulnerability, allowing an attacker with network access to execute arbitrary code. 
+
+VMware ESXi, Workstation, and Fusion are affected by CVE-2026-41703, a high-severity vulnerability that allows an attacker with VM deployment permissions to obtain information or, more likely, cause a DoS condition on the host process.
+
+The last flaw, CVE-2026-41709, is a low-severity issue in ESXi that allows an attacker with admin privileges to conduct certain activities without being logged. 
+
+Broadcom is not aware of the in-the-wild exploitation of these vulnerabilities, but it’s important that organizations install the latest updates, as threat actors often exploit flaws in VMware products.
+
+In addition to its advisory, the vendor has published an FAQ detailing the impact of the vulnerabilities and patching requirements.","Yes, a critical VM escape vulnerability has recently been patched in VMware ESXi. This security flaw allowed an attacker with access to a guest virtual machine to escape from the VM's isolated environment and potentially execute code on the underlying ESXi host. VMware released an important security update addressing this issue, urging all users to apply the patch immediately to protect their virtualized environments from potential exploitation.
+
+For the best security practice:
+- Apply the latest VMware ESXi patches as soon as possible.
+- Review your environment for any signs of compromise.
+- Follow VMware’s official security advisories for detailed information.
+
+If you need, I can provide links to the specific VMware security advisory or guide you through the patching process."

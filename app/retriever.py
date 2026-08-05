@@ -1,5 +1,7 @@
 from similarity_search import embedding_openai
 import os
+import re
+from datetime import date
 import openai
 from dotenv import load_dotenv
 from pinecone import Pinecone
@@ -26,6 +28,7 @@ Guidelines:
 4. Stay Relevant: If search results don't match the question, say "I couldn't find relevant information about [topic] in the available articles"
 5. Be Honest: Don't make up information not in the articles
 6. Providing sources: always provide links to the articles you worked with at the end of your response
+7. Mind Recency: Each article carries a Date. When the user asks for recent / latest / newly disclosed events, lead with the most recently dated articles and state each item's date explicitly. If the freshest article you actually have is not recent, say so plainly (e.g. "the most recent I found is from May 2025") instead of presenting older news as if it were current. Treat a Date of "unknown" as undated, not as recent.
 
 Bad Example (Too formal/article-focused):
 "Article 1 titled 'North Korean Economy' by Smith (2023) provides a summary of economic sanctions. The main findings indicate..."
@@ -40,11 +43,13 @@ Question: [question]
 
 [Article 1]
 Title: [title]
+Date: [publication date]
 Source: [source]
 Content: [text]
 
 [Article 2]
 Title: [title]
+Date: [publication date]
 Source: [source]
 Content: [text]
 
@@ -142,6 +147,23 @@ def _chunk_index(value):
         return 0
 
 
+def _article_date(md):
+    """Best-effort publication date for the LLM context.
+
+    The scrapers' creationDate metadata is inconsistent across sources, and for
+    The Hacker News the column actually holds the author name, not a date. So:
+    if creationDate carries any digit, trust it as-is; otherwise fall back to
+    the YYYY/MM embedded in the article URL (e.g. .../2026/08/...); else unknown.
+    """
+    raw = (md.get("creationDate") or "").strip()
+    if any(c.isdigit() for c in raw):
+        return raw
+    m = re.search(r"/(20\d{2})/(\d{1,2})/", md.get("articleLink", "") or "")
+    if m:
+        return f"{m.group(1)}-{m.group(2).zfill(2)}"
+    return "unknown"
+
+
 def create_response(client, pinecone_response, query):
     # The chunked ingest (pinecone_sync.py) stores the readable text under
     # "chunk_text"; the legacy whole-article ingest (app/main.py) used "summary".
@@ -157,6 +179,7 @@ def create_response(client, pinecone_response, query):
             articles[link] = {
                 "title": md.get("articleTitle", ""),
                 "link": link,
+                "date": _article_date(md),
                 "chunks": [],
             }
             order.append(link)
@@ -170,15 +193,23 @@ def create_response(client, pinecone_response, query):
         ordered = sorted(art["chunks"], key=lambda c: c[0])
         content = "\n\n".join(text for _, text in ordered)
         blocks.append(
-            f"[Article {n}]\nTitle: {art['title']}\nSource: {art['link']}\nContent: {content}"
+            f"[Article {n}]\nTitle: {art['title']}\nDate: {art['date']}\n"
+            f"Source: {art['link']}\nContent: {content}"
         )
 
     parsed_response = f"[User's question]\nQuestion: {query}\n\n" + "\n\n".join(blocks)
 
+    # Inject today's date at call time (not into the static prompt constant,
+    # which would freeze it) so the model can judge each article's recency.
+    system_prompt = (
+        f"{RETRIEVER_SYSTEM_PROMPT}\n\nFor recency judgments: today's date is "
+        f"{date.today().isoformat()}. Compare each article's Date against it."
+    )
+
     response = client.chat.completions.create(
         model="gpt-4.1-mini",
         messages=[
-            {"role": "system", "content": RETRIEVER_SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": parsed_response},
         ],
     )

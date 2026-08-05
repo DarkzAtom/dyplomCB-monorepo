@@ -1,0 +1,488 @@
+{
+  "source": "golden_noretrieval.csv",
+  "n_pairs": 20,
+  "averages": {
+    "rouge1": {
+      "precision": 0.2189,
+      "recall": 0.3331,
+      "f1": 0.2575
+    },
+    "rouge2": {
+      "precision": 0.0292,
+      "recall": 0.0435,
+      "f1": 0.0338
+    },
+    "rougeL": {
+      "precision": 0.1012,
+      "recall": 0.1536,
+      "f1": 0.1187
+    },
+    "rougeLsum": {
+      "precision": 0.1505,
+      "recall": 0.2312,
+      "f1": 0.1779
+    }
+  },
+  "per_row": [
+    {
+      "query": "ransomware attacks targeting healthcare organizations",
+      "rouge1": {
+        "precision": 0.2404,
+        "recall": 0.3791,
+        "f1": 0.2942
+      },
+      "rouge2": {
+        "precision": 0.0175,
+        "recall": 0.0276,
+        "f1": 0.0214
+      },
+      "rougeL": {
+        "precision": 0.0976,
+        "recall": 0.1538,
+        "f1": 0.1194
+      },
+      "rougeLsum": {
+        "precision": 0.1777,
+        "recall": 0.2802,
+        "f1": 0.2175
+      }
+    },
+    {
+      "query": "critical vulnerabilities currently being actively exploited",
+      "rouge1": {
+        "precision": 0.248,
+        "recall": 0.3675,
+        "f1": 0.2961
+      },
+      "rouge2": {
+        "precision": 0.0327,
+        "recall": 0.0485,
+        "f1": 0.039
+      },
+      "rougeL": {
+        "precision": 0.1098,
+        "recall": 0.1627,
+        "f1": 0.1311
+      },
+      "rougeLsum": {
+        "precision": 0.1545,
+        "recall": 0.2289,
+        "f1": 0.1845
+      }
+    },
+    {
+      "query": "North Korean state-sponsored hacking activity",
+      "rouge1": {
+        "precision": 0.2018,
+        "recall": 0.3793,
+        "f1": 0.2635
+      },
+      "rouge2": {
+        "precision": 0.0307,
+        "recall": 0.0578,
+        "f1": 0.0401
+      },
+      "rougeL": {
+        "precision": 0.0948,
+        "recall": 0.1782,
+        "f1": 0.1238
+      },
+      "rougeLsum": {
+        "precision": 0.1376,
+        "recall": 0.2586,
+        "f1": 0.1796
+      }
+    },
+    {
+      "query": "recent large-scale data breaches",
+      "rouge1": {
+        "precision": 0.2877,
+        "recall": 0.3885,
+        "f1": 0.3306
+      },
+      "rouge2": {
+        "precision": 0.0142,
+        "recall": 0.0192,
+        "f1": 0.0163
+      },
+      "rougeL": {
+        "precision": 0.1179,
+        "recall": 0.1592,
+        "f1": 0.1355
+      },
+      "rougeLsum": {
+        "precision": 0.1981,
+        "recall": 0.2675,
+        "f1": 0.2276
+      }
+    },
+    {
+      "query": "phishing campaigns using AI and deepfakes",
+      "rouge1": {
+        "precision": 0.2122,
+        "recall": 0.4269,
+        "f1": 0.2835
+      },
+      "rouge2": {
+        "precision": 0.0087,
+        "recall": 0.0176,
+        "f1": 0.0117
+      },
+      "rougeL": {
+        "precision": 0.0843,
+        "recall": 0.1696,
+        "f1": 0.1126
+      },
+      "rougeLsum": {
+        "precision": 0.1395,
+        "recall": 0.2807,
+        "f1": 0.1864
+      }
+    },
+    {
+      "query": "software supply chain attacks",
+      "rouge1": {
+        "precision": 0.1888,
+        "recall": 0.3616,
+        "f1": 0.2481
+      },
+      "rouge2": {
+        "precision": 0.0414,
+        "recall": 0.0795,
+        "f1": 0.0545
+      },
+      "rougeL": {
+        "precision": 0.0914,
+        "recall": 0.1751,
+        "f1": 0.1202
+      },
+      "rougeLsum": {
+        "precision": 0.1327,
+        "recall": 0.2542,
+        "f1": 0.1744
+      }
+    },
+    {
+      "query": "SAP NetWeaver vulnerability exploitation",
+      "rouge1": {
+        "precision": 0.1853,
+        "recall": 0.2912,
+        "f1": 0.2265
+      },
+      "rouge2": {
+        "precision": 0.0246,
+        "recall": 0.0387,
+        "f1": 0.03
+      },
+      "rougeL": {
+        "precision": 0.1049,
+        "recall": 0.1648,
+        "f1": 0.1282
+      },
+      "rougeLsum": {
+        "precision": 0.1364,
+        "recall": 0.2143,
+        "f1": 0.1667
+      }
+    },
+    {
+      "query": "Lazarus Group cryptocurrency theft",
+      "rouge1": {
+        "precision": 0.2101,
+        "recall": 0.2809,
+        "f1": 0.2404
+      },
+      "rouge2": {
+        "precision": 0.0169,
+        "recall": 0.0226,
+        "f1": 0.0193
+      },
+      "rougeL": {
+        "precision": 0.0882,
+        "recall": 0.118,
+        "f1": 0.101
+      },
+      "rougeLsum": {
+        "precision": 0.1345,
+        "recall": 0.1798,
+        "f1": 0.1538
+      }
+    },
+    {
+      "query": "vulnerabilities added to the CISA known exploited catalog",
+      "rouge1": {
+        "precision": 0.4198,
+        "recall": 0.25,
+        "f1": 0.3134
+      },
+      "rouge2": {
+        "precision": 0.0875,
+        "recall": 0.0519,
+        "f1": 0.0651
+      },
+      "rougeL": {
+        "precision": 0.2222,
+        "recall": 0.1324,
+        "f1": 0.1659
+      },
+      "rougeLsum": {
+        "precision": 0.284,
+        "recall": 0.1691,
+        "f1": 0.212
+      }
+    },
+    {
+      "query": "malware targeting macOS users",
+      "rouge1": {
+        "precision": 0.22,
+        "recall": 0.3235,
+        "f1": 0.2619
+      },
+      "rouge2": {
+        "precision": 0.0281,
+        "recall": 0.0414,
+        "f1": 0.0335
+      },
+      "rougeL": {
+        "precision": 0.088,
+        "recall": 0.1294,
+        "f1": 0.1048
+      },
+      "rougeLsum": {
+        "precision": 0.164,
+        "recall": 0.2412,
+        "f1": 0.1952
+      }
+    },
+    {
+      "query": "Microsoft security updates and patched flaws",
+      "rouge1": {
+        "precision": 0.2275,
+        "recall": 0.3295,
+        "f1": 0.2691
+      },
+      "rouge2": {
+        "precision": 0.0354,
+        "recall": 0.0514,
+        "f1": 0.042
+      },
+      "rougeL": {
+        "precision": 0.098,
+        "recall": 0.142,
+        "f1": 0.116
+      },
+      "rougeLsum": {
+        "precision": 0.1686,
+        "recall": 0.2443,
+        "f1": 0.1995
+      }
+    },
+    {
+      "query": "Chinese APT cyber espionage campaigns",
+      "rouge1": {
+        "precision": 0.2194,
+        "recall": 0.3716,
+        "f1": 0.2759
+      },
+      "rouge2": {
+        "precision": 0.0227,
+        "recall": 0.0385,
+        "f1": 0.0285
+      },
+      "rougeL": {
+        "precision": 0.1161,
+        "recall": 0.1967,
+        "f1": 0.146
+      },
+      "rougeLsum": {
+        "precision": 0.1355,
+        "recall": 0.2295,
+        "f1": 0.1704
+      }
+    },
+    {
+      "query": "attacks exploiting VPN and firewall appliances",
+      "rouge1": {
+        "precision": 0.1647,
+        "recall": 0.4242,
+        "f1": 0.2373
+      },
+      "rouge2": {
+        "precision": 0.0283,
+        "recall": 0.0732,
+        "f1": 0.0408
+      },
+      "rougeL": {
+        "precision": 0.0847,
+        "recall": 0.2182,
+        "f1": 0.122
+      },
+      "rougeLsum": {
+        "precision": 0.1153,
+        "recall": 0.297,
+        "f1": 0.1661
+      }
+    },
+    {
+      "query": "malware stealing cryptocurrency wallets",
+      "rouge1": {
+        "precision": 0.1783,
+        "recall": 0.2706,
+        "f1": 0.215
+      },
+      "rouge2": {
+        "precision": 0.0389,
+        "recall": 0.0592,
+        "f1": 0.0469
+      },
+      "rougeL": {
+        "precision": 0.0853,
+        "recall": 0.1294,
+        "f1": 0.1028
+      },
+      "rougeLsum": {
+        "precision": 0.1473,
+        "recall": 0.2235,
+        "f1": 0.1776
+      }
+    },
+    {
+      "query": "Russian hackers targeting Ukraine",
+      "rouge1": {
+        "precision": 0.2752,
+        "recall": 0.244,
+        "f1": 0.2587
+      },
+      "rouge2": {
+        "precision": 0.027,
+        "recall": 0.024,
+        "f1": 0.0254
+      },
+      "rougeL": {
+        "precision": 0.1208,
+        "recall": 0.1071,
+        "f1": 0.1136
+      },
+      "rougeLsum": {
+        "precision": 0.1544,
+        "recall": 0.1369,
+        "f1": 0.1451
+      }
+    },
+    {
+      "query": "security vulnerabilities in AI and LLM tools",
+      "rouge1": {
+        "precision": 0.1494,
+        "recall": 0.2771,
+        "f1": 0.1941
+      },
+      "rouge2": {
+        "precision": 0.0261,
+        "recall": 0.0485,
+        "f1": 0.0339
+      },
+      "rougeL": {
+        "precision": 0.0812,
+        "recall": 0.1506,
+        "f1": 0.1055
+      },
+      "rougeLsum": {
+        "precision": 0.1071,
+        "recall": 0.1988,
+        "f1": 0.1392
+      }
+    },
+    {
+      "query": "fake IT worker and job interview scams",
+      "rouge1": {
+        "precision": 0.1486,
+        "recall": 0.2905,
+        "f1": 0.1966
+      },
+      "rouge2": {
+        "precision": 0.0143,
+        "recall": 0.0281,
+        "f1": 0.019
+      },
+      "rougeL": {
+        "precision": 0.0686,
+        "recall": 0.1341,
+        "f1": 0.0907
+      },
+      "rougeLsum": {
+        "precision": 0.1086,
+        "recall": 0.2123,
+        "f1": 0.1437
+      }
+    },
+    {
+      "query": "Linux kernel security vulnerabilities",
+      "rouge1": {
+        "precision": 0.2247,
+        "recall": 0.3817,
+        "f1": 0.2829
+      },
+      "rouge2": {
+        "precision": 0.0571,
+        "recall": 0.0973,
+        "f1": 0.072
+      },
+      "rougeL": {
+        "precision": 0.0886,
+        "recall": 0.1505,
+        "f1": 0.1116
+      },
+      "rougeLsum": {
+        "precision": 0.1487,
+        "recall": 0.2527,
+        "f1": 0.1873
+      }
+    },
+    {
+      "query": "credential theft and infostealer malware",
+      "rouge1": {
+        "precision": 0.2158,
+        "recall": 0.2857,
+        "f1": 0.2459
+      },
+      "rouge2": {
+        "precision": 0.0292,
+        "recall": 0.0387,
+        "f1": 0.0333
+      },
+      "rougeL": {
+        "precision": 0.1037,
+        "recall": 0.1374,
+        "f1": 0.1182
+      },
+      "rougeLsum": {
+        "precision": 0.1369,
+        "recall": 0.1813,
+        "f1": 0.156
+      }
+    },
+    {
+      "query": "cloud security misconfigurations and breaches",
+      "rouge1": {
+        "precision": 0.16,
+        "recall": 0.3377,
+        "f1": 0.2171
+      },
+      "rouge2": {
+        "precision": 0.0031,
+        "recall": 0.0065,
+        "f1": 0.0042
+      },
+      "rougeL": {
+        "precision": 0.0769,
+        "recall": 0.1623,
+        "f1": 0.1044
+      },
+      "rougeLsum": {
+        "precision": 0.1292,
+        "recall": 0.2727,
+        "f1": 0.1754
+      }
+    }
+  ]
+}

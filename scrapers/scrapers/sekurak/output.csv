@@ -1,142 +1,69 @@
 fetchingDate,creationDate,author,authorLink,articleLink,articleTitle,articleText
-2026-07-27 22:06:34,"26 lipca 2026, 00:56",sekurak,https://www.sekurak.pl,https://sekurak.pl/jak-ugryzc-nis2-bez-wydawania-fortuny-i-bez-wiecznego-strachu-przed-karami-tylko-z-sekurakiem/,Jak ugryźć NIS2 bez wydawania fortuny i bez wiecznego strachu przed karami? Tylko z sekurakiem ;-),"7 lipca wystartowaliśmy z naszą Akademią NIS2/KSC2 od sekuraka – autorskim cyklem szkoleń opracowanych specjalnie dla osób odpowiedzialnych za wdrożenie nowych regulacji w organizacjach. Do miesiąca od startu szkolenia, tj. do 7 sierpnia br. można nadal dołączyć do kursu, z tym linkiem zgarniając jeszcze 10% zniżki.
-Temat unijnych dyrektyw i krajowych regulacji spędza sen z powiek wielu osobom – od administratorów i analityków, przez inspektorów ochrony danych, aż po zarządy firm oraz przedstawicieli sektora publicznego. W sekuraku postanowiliśmy podejść do tego tak, jak umiemy najlepiej – pokazać maksymalnie dużo merytoryki, odczarować prawniczy język i pokazać praktykę. Efekt?
-1400 osób zapisanych na pierwszą edycję kursu! Widać, że temat jest gorący i że szukacie merytorycznego wsparcia u zaufanego partnera. Uczestnicy oceniają dotychczasowe szkolenia na świetne 9/10 (były i takie z oceną 9,8/10!) i potwierdzają konkretny charakter Akademii (nie lejemy wody, podajemy praktyczne rozwiązania i wskazówki). Mocnymi punktami programu są materiały dodatkowe w postaci prezentacji, dokumentacji do wykorzystania w organizacjach oraz słowniczka pojęć. Dedykowany Discord szkolenia, na którym spotykają się sami uczestnicy kursu i trenerzy, rozgrzewa nieustająca dyskusja, jak ogarnąć to całe NIS2/KSC2, jakie rozwiązania się sprawdzają, a jakie wcale. To nas cieszy szczególnie, lubimy integrować społeczność!
-Jak widać, dzieje się sporo– i mimo wakacji program szkoleniowy ruszył z impetem i działa pełną parą. Poniżej krótkie podsumowanie tego, co zdążyliśmy już pokazać na żywo. Jeśli przegapiliście któreś ze spotkań – przypominamy, że do 7 sierpnia br. możecie się cały czas zapisać. Są dostępne nagrania, a do nagrań i materiałów zawsze możecie wrócić w dogodnym dla Was momencie.
+2026-08-04 06:00:03,"03 sierpnia 2026, 13:09",sekurak,https://www.sekurak.pl,https://sekurak.pl/grozny-atak-na-szyfrowany-komunikator-gajim-przez-luke-w-kde-plasma/,Groźny atak na szyfrowany komunikator Gajim przez lukę w KDE Plasma,"Wiele współczesnych naruszeń bezpieczeństwa nie wynika z pojedynczego, spektakularnego błędu (np. klasy naruszenia ochrony pamięci). Prawdziwa esencja ofensywnego rzemiosła leży w łańcuchach podatności. Często dwie właściwości aplikacji, które pojedynczo wyglądają na niegroźne słabości lub błędy o niskim priorytecie, po połączeniu mogą dać zabójczy efekt.
+To historia o tym, jak jedna subtelna cecha komunikatora Gajim w połączeniu z luką logiczną w środowisku KDE Plasma stworzyła mechanizm umożliwiający zdalne wykonanie kodu (RCE). Wystarczy jedno kliknięcie w otrzymany w wiadomości link.
+Nazywam się Patryk Ptak, w sieci działam jako SivertPL. Jestem niezależnym badaczem bezpieczeństwa. W trakcie moich własnych badań nad klientami protokołu XMPP (jak Gajim) oraz ich interakcjami m.in z KDE Plasma, zidentyfikowałem lukę logiczną w ekosystemie KDE. Zanim jednak sfinalizowałem proces ujawnienia, doszło do częstej w świecie researchu kolizji – podatność ta bowiem została w międzyczasie niezależnie odkryta również przez innego badacza (Dennisa Dasta) i zarejestrowana jako CVE-2025-49091. 
+Opublikowany biuletyn skupiał się jednak głównie na surowym błędzie w KDE Plasma, prezentując wymagający sporej interakcji użytkownika scenariusz z poziomu przeglądarki Firefox, która również mogła funkcjonować jako wehikuł dla tej podatności, tak jak potencjalnie wiele innych aplikacji.
+Poniższy materiał to mój autorski, niezależnie opracowany łańcuch. Pokazuje on, jak tę samą lukę logiczną można było rozwinąć w bardziej skryty i praktyczny sposób ataku na użytkownika końcowego innej aplikacji – znanego szyfrowanego komunikatora.
+Mit absolutnego bezpieczeństwa
+Gajim od lat cieszy się reputacją jednego z najbezpieczniejszych klientów do szyfrowanej komunikacji opartej na protokole XMPP. Jest szczególnie popularny wśród użytkowników ceniących maksymalną prywatność, w szczególności w społecznościach w sieci TOR.
+Ta opinia nie wzięła się znikąd. W przeciwieństwie do alternatywy – Pidgina (i innych aplikacji bazujących na libpurple), Gajim:
+1. Jest napisany w Pythonie, języku zapewniającym bezpieczeństwo pamięci (memory safety).
+2. Posiada dojrzały, stabilny kod źródłowy (mature codebase).
+3. W pełni implementuje nowoczesny protokół szyfrowania (OMEMO).
+Te cechy sprawiają, że klasyczna niskopoziomowa eksploitacja jest tu niezwykle trudna, jeśli nie niemożliwa. Niestety, reputacja czasem wpędza użytkowników w fałszywe poczucie bezpieczeństwa. Zabezpieczenia Gajima zostały tu bowiem ominięte pewną interesującą drogą.
 
-Dołączcie do 1400 uczestników Akademii NIS2/KSC2 od sekuraka. Kliknijcie w poniższy link i skorzystajcie z 10-procentowej zniżki.
-Zapisy"
-2026-07-27 22:06:34,"24 lipca 2026, 09:47",sekurak,https://www.sekurak.pl,https://sekurak.pl/nowa-wariant-ataku-wstrzykniecia-bioshocking-ai-badacze-przekonali-ai-ze-to-tylko-gra-efekt-zignorowanie-zasad-bezpieczenstwa-i-kradziez-danych/,"Nowy wariant ataku wstrzyknięcia – BioShocking AI. Badacze przekonali AI, że to tylko gra. Efekt? Zignorowanie zasad bezpieczeństwa i kradzież danych","Badacze z LayerX znaleźli sposób na “oszukanie” przeglądarek AI, aby wykonały one dowolną instrukcję. Udało im się przekonać je do naruszenia zabezpieczeń, ujawnienia danych użytkownika, kopiowania kodu, wykonywania poleceń systemowych i nie tylko.
-TLDR:
+Status podatności: Łatka dla KDE Plasma została już oficjalnie wydana. Atak w domyślnej konfiguracji (out-of-the-box) dotyczył użytkowników dystrybucji jak Debian, Fedora, openSUSE czy Arch Linux, i potencjalnie innych, korzystających ze środowiska KDE Plasma, o ile w systemie brakowało binarki klienta telnet, co w wymienionych wyżej dystrybucjach miało miejsce domyślnie. 
 
-Badacze z LayerX opisali atak BioShocking na przeglądarki AI, w którym wykorzystali manipulację kontekstem.
-Atak działa poprzez symulację gry, która skłania agenta do udzielania niepoprawnych odpowiedzi, co finalnie prowadzi do zignorowania zasad bezpieczeństwa.
-Badacze przetestowali atak na 6 narzędziach AI – żadne z nich nie wykryło próby wykradzenia danych z prywatnego repozytorium GitHub.
+Źródło problemu: Niekontrolowany fallback przy obsłudze linków 
+Głównym bohaterem tej historii jest wspomniana luka logiczna CVE-2025-49091 w KDE Plasma, w komponencie obsługującym niektóre rodzaje linków (emulator Konsole). Podatność była bezpośrednio związana z interpretacją przezeń schematu URI telnet://.
+W przypadku, gdy użytkownik wywołał taki link, a w systemie brakowało klienta telnet, mechanizm KDE wykonywał niekontrolowany powrót (fallback) do interpretera poleceń:
+bash -c
+W efekcie, błąd ten pozwalał na przekazanie zawartości dowolnego pliku lokalnego z dysku ofiary wprost do wykonania przez powłokę bash w Konsole.
+Błąd sam w sobie ma jednak ograniczone pole manewru – w scenariuszu Dennisa Dasta na Firefox, użytkownik jest atakowany wyskakującymi oknami z pytaniem, czy na pewno chce otworzyć dany link w zewnętrznej aplikacji. Link nie jest zaciemniony, co dodatkowo utrudnia praktyczne wykorzystanie ataku.
+Ponadto napastnik musi mieć pewność, że na dysku ofiary istnieje plik o kontrolowanej przez niego zawartości i znanej mu lokalizacji.
+I w tym momencie mój research skrzyżował się z komunikatorem Gajim.
+Gajim jako wehikuł umożliwiający zdalny atak
+Gajim posiada specyficzną właściwość, której nie można wprost sklasyfikować jako błąd bezpieczeństwa, ale stanowi dobry punkt wyjścia dla ataku. Komunikator ten wspiera automatyczną detekcję i podświetlanie linków do wielu niszowych bądź przestarzałych protokołów sieciowych. Jednym z nich jest właśnie telnet://.
+Jeśli wyślemy do ofiary wiadomość zawierającą link:
+telnet://sciezka_do_pliku
+To Gajim posłusznie uzna go za prawidłowy URL, podświetli i umożliwi kliknięcie. Po kliknięciu, kontrolę przejmie podatny mechanizm KDE Plasma. Ponieważ klienta telnet domyślnie nie ma w wielu systemach wskazaną w linku ścieżkę Konsole wyegzekwuje jako skrypt Bash.
+Pojawia się jednak kluczowe wyzwanie: Jak niepostrzeżenie dostarczyć złośliwy skrypt na dysk ofiary i poznać jego dokładną lokalizację?
+Krok 1: Pamięć podręczna awatarów, czyli silent upload (cache poisoning) 
+Najbardziej eleganckim i wolnym od interakcji sposobem na umieszczenie pliku na dysku ofiary w mojej ocenie okazał się mechanizm obsługi awatarów kontaktów w Gajim.
+Gdy atakujący wyśle odpowiednią stanzę XMPP, czyli np. zaktualizuje swój awatar, proces Gajim ofiary automatycznie pobierze ten awatar i zapisze go w lokalnej pamięci podręcznej (cache) w katalogu domowym użytkownika (~/.cache/gajim/avatars/). 
+Analizując ten mechanizm, zauważyłem trzy kluczowe cechy:
+1. Nazwa pliku na dysku ofiary jest deterministyczna – to hash SHA-1 zawartości przesyłanego pliku („awatara”).
+2. Gajim nie weryfikuje rygorystycznie struktury wysyłanego pliku graficznego. Jeśli wyślemy tam surowy kod skryptu shell, zostanie on bez ostrzeżenia zapisany jako “awatar”.
+3. Jeśli atakujący nie miał ustawionego wcześniej poprawnego, widocznego awatara, nie dojdzie do żadnej zauważalnej zmiany po stronie ofiary.
+Jako napastnik przygotowuję skrypt (np. generujący reverse shell w Pythonie), wyliczam jego hash SHA-1 i ustawiam ten plik jako swój awatar. Plik ląduje w systemie ofiary w przewidywalnym miejscu, bez jej wiedzy i interakcji.
+Krok 2: Konstrukcja linku i obfuskacja 
+Teraz należy wysłać link telnet:// wskazujący na nasz ukryty w cache skrypt. Aby ofiara nie nabrała podejrzeń, trzeba zadbać o wizualną prezentację linku, między innymi za pomocą techniki RTLO (Right-To-Left Override). Techniki bardzo starej, kojarzonej głównie z malware na Windows, która pomoże i w tym przypadku.
+Wstrzyknięcie specjalnego znaku Unicode (U+202E), oraz spacji tuż za nim (aby zachować poprawny pierwszy znak hiperłącza), pozwala na odwrócenie kierunku wyświetlania tekstu. Konstrukcja zobfuskowanego linku wykorzystuje również znak Null-Byte (%00) oraz percent encoding niektórych znaków – poniżej wyjściowa treść linku:
+[Znak RTLO] telnet:.cache/gajim/avatars/HASH_SHA1%00/moc.x//:sptth
+Gotowy do wysyłki, zaciemniony link może wyglądać tak:
+https://x.com/00%317076d6aadee1744dbdbcdcfaf0a7295f6cc479/s27%at16%va/miA6%ag/eh36%acE2%:tenlet
+Dzięki znakowi RTLO, ofiara w oknie czatu Gajima zobaczy pozornie bezpieczny odnośnik, wyglądający na standardowy adres zaczynający się od https://.
+Z kolei użycie Null-Byte (%00) jest kluczowe dla błędu w KDE – odcina ono sztuczny ogon linku w momencie przekazania go do interpretera Bash, dzięki czemu system szuka na dysku czystego pliku awatara, odrzucając doklejony na końcu sufiks.
+Krok 3: Egzekucja kodu i zacieranie śladów
+Co się stanie na urządzeniu ofiary gdy wejdzie w ten odnośnik?
+1. Wywołanie handlera: Ofiara klika w link. Gajim przekazuje URI telnet:// do handlera linków KDE Plasma.
+2. Wyzwolenie fallbacku Bash: Handler linków próbuje obsłużyć ten link w Konsole, ale tam system stwierdza brak klienta telnet. Zachodzi podatność CVE-2025-49091 – ścieżka do złośliwego “awatara” z pamięci podręcznej staje się argumentem do bash -c, zamiast telnet.
+3. Egzekucja skryptu: Po uruchomieniu, Konsole wykonuje skrypt z podanej ścieżki, możliwe jest mignięcie okna. Skrypt nawiązuje w tle połączenie z serwerem Command & Control napastnika. 
+4. Odwrócenie uwagi: By zachować wrażenie normalnego działania linku, skrypt otwiera w domyślnej przeglądarce prawidłowy URL.
+5. Zacieranie śladów: Skrypt nadpisuje i kasuje sam siebie by utrudnić analizę powłamaniową, a na koniec czyści pozostałe ślady.
 
-Odkrytej podatności nadali oni nazwę BioShocking. Inspiracją była gra wideo BioShock, w której postać gracza zostaje poddana praniu mózgu, aby uwierzyć w fałszywą rzeczywistość.
-Gdy sprawimy, że przeglądarka AI “uwierzy”, iż nie znajduje się w prawdziwym świecie (zwykle poprzez wstrzykiwanie promptów lub zatruwanie pamięci), możemy skłonić ją do wykonania dowolnego polecenia – ujawnienia poufnych informacji, zmiany haseł, czy zainstalowania malware.
-Metoda badaczy zadziałała na:
+Ważna uwaga: Klasyczne, proste formy izolacji Gajima (jak uruchamianie go z poziomu użytkownika o niższych uprawnieniach czy w niektórych sandboxach) mogą okazać się tu niewystarczające. Kod nie wykona się bowiem z uprawnieniami Gajima, a zewnętrznego procesu utworzonego przez KDE Plasma. 
 
-ChatGPT Atlas (OpenAI)
-Comet (Perplexity AI)
-Fellou (Fellou / ASI X INC)
-Genspark Browser (Genspark)
-Sigma Browser (Sigmabrowser OÜ)
-Claude Chrome plugin (Anthropic)
+Wideo i eksploit
+Demonstrację ataku z perspektywy ofiary – od kliknięcia w link do wykonania kodu napastnika (podmiana tapety) – można obejrzeć na poniższym wideo.
 
-Wszyscy dostawcy zostali powiadomieni o problemie.
-Dostawcy narzędzi opartych na LLM projektują je uwzględniając ograniczenia mające zapobiegać szkodliwemu wykorzystaniu. W efekcie, poproszenie modelu o pomoc przy np.:
-
-tworzeniu kampanii phishingowej
-włamaniu na stronę internetową
-ujawnieniu poświadczeń
-
-spowoduje odmowę z uwagi na zasady zdefiniowane przez dostawcę modelu.
-Gdyby jednak udało się oszukać AI i zmienić kontekst na fantazję – gdzie zasady są zmyślone i wszystko jest dozwolone – może udałoby się ominąć te zabezpieczenia?
-Badacze stworzyli stronę z zagadką inspirowaną BioShock. Zgodnie z jej dystopijną tematyką nagradzane były celowo niepoprawne odpowiedzi (np. 2+2=5).
-Następnie poprosili 5 przeglądarek AI i jedną wtyczkę o rozwiązanie zagadki i wygranie gry. Gdy agenci “zrozumieli” zasady i nauczyli się, że niepoprawne działania są akceptowalne, przestali respektować swoje ograniczenia. Na końcowym etapie zagadki – polegającym na wykradnięciu poświadczeń użytkownika – żadne z 6 narzędzi nie wykryło, że jest to sprzeczne z ich zabezpieczeniami.
-Z punktu widzenia zaatakowanego w ten sposób użytkownika – całość zaczyna się, gdy korzystając z przeglądarki AI wejdzie na złośliwą stronę. Następnie prosi agenta o wygranie gry:
-Rys. 1 – pierwszy prompt wpisany na złośliwej stronie, źródło: layerxsecurity.com
-Agent otrzymuje pozornie proste pytanie matematyczne:
-Rys. 2 – pytanie w ramach złośliwej gry, źródło: layerxsecurity.com
-Zgodnie z oczekiwaniami agent udziela prawidłowej (matematycznie) odpowiedzi. Strona informuje go jednak, że 2 + 2 nie równa się 4, więc model zaczyna w swoim “rozumowaniu” uwzględniać nieprawidłowość działań:
-Rys. 3 – rozumowanie o nieprawidłowej odpowiedzi, źródło: layerxsecurity.com
-Po udzieleniu oczekiwanej odpowiedzi “5” agent otrzymuje polecenie przejścia do podstrony /code i skopiowania zawartości z pola tekstowego. To naprawdę złowroga część tego exploitu:
-Rys. 4 – otrzymanie przez agenta złośliwych instrukcji, źródło: layerxsecurity.com
-Endpoint /code przekierowuje do repozytorium GitHub (zdefiniowanego przez badaczy, czyli potencjalnie przez atakującego). W tym przypadku złośliwe instrukcje spowodowały pobranie zawartości pliku z prywatnego repozytorium:
-Rys. 5 – prywatne repozytorium otwarte w przeglądarce AI, źródło: layerxsecurity.com
-Oczywiście w tym przypadku było to kontrolowane środowisko testowe. W rzeczywistym scenariuszu ataku takie przekierowanie mogłoby prowadzić do dowolnego miejsca w przeglądarce użytkownika, także na stronach, na których był zalogowany.
-Agent po skopiowaniu danych z pliku wysyła je przez formularz na stronie gry, czym ją wygrywa:
-Rys. 6 – agent AI wygrał grę, źródło: layerxsecurity.com
-Podstawowym problemem jest fakt, że przeglądarki AI działają w kontekście, którym można manipulować. Jeśli “przekonasz” agenta, że gra w grę, będzie podchodził do niej jak do gry – a nie jak do prawdziwego świata, gdzie obowiązują go pewne zasady.
-Użytkownikom tego typu narzędzi przypominamy o ograniczonym zaufaniu do narzędzi AI. Przed tego typu atakiem może uchronić nas ograniczenie dostępów w tego typu narzędziach – np. przez skorzystanie z osobnych kont z dostępem tylko do ograniczonych, niezbędnych informacji. Warto przyjąć założenie, że nie mamy pełnej kontroli nad tym, co robi agent – dlatego nie dajemy mu dostępu do istotnych dla nas zasobów.
-Przeglądarki AI mogą ułatwiać pracę i być wsparciem przy np. szukaniu informacji, porównywaniu faktów z różnych źródeł, ale każdy dostęp udzielany agentom AI niesie za sobą potencjalne wektory ataku. Narzędzia tego typu nie powinny zastępować głównej przeglądarki, w której logujemy się na konta w różnych usługach.
-Źródło: layerxsecurity.com
-~Tymoteusz Jóźwiak"
-2026-07-27 22:06:34,"23 lipca 2026, 09:55",sekurak,https://www.sekurak.pl,https://sekurak.pl/busysnake-stealer-atakujacy-cele-o-znaczeniu-krytycznym-w-rosji-za-kampanie-odpowiada-grupa-apt-armored-likho/,BusySnake – stealer atakujący cele o znaczeniu krytycznym w Rosji. Za kampanię odpowiada grupa APT Armored Likho,"Badacze bezpieczeństwa za pośrednictwem portalu Securelist poinformowali o wykryciu nowej kampanii phishingowej powiązanej z nieznaną dotąd grupą APT (nazwaną przez analityków Armored Likho). Wszelkie poszlaki wskazują, że grupa ta jest również znana pod nazwą Eagle Werewolf. Jej celem są przede wszystkim instytucje rządowe oraz przedsiębiorstwa z sektora krytycznego w Rosji, Brazylii oraz Kazachstanie. Działania cyberprzestępców są głównie motywowane finansowo, chociaż patrząc na kierunek zainteresowań można dostrzec znamiona cyberszpiegostwa.
-TLDR:
-
-Na portalu Securelist pojawiła się analiza nowej kampanii phishingowej prowadzonej przez grupę Armored Likho.
-Na celowniku cyberprzestępców znalazły się instytucje rządowe oraz przedsiębiorstwa z sektora krytycznego w Rosji, Brazylii oraz Kazachstanie.
-Oprócz motywacji finansowej, realizowane działania mają charakter cyberszpiegostwa.
-Atak rozpoczyna się od precyzyjnie targetowanej kampanii phishingowej. Nie jest do końca powiedziane, w jaki sposób atakujący ustalają listę celów.
-Cyberprzestępcy używają zaawansowanego stealera – BusySnake do wykradania danych z przeglądarek, wykonywania zrzutów ekranu oraz nawiązywania odwrotnego tunelu SSH.
-
-Podczas ataków używają przede wszystkim modułowych trojanów typu RAT (Remote Access Trojan) oraz infostealerów. Ponadto wykorzystują proste narzędzia takie jak Go2Tunnel do utrzymania zdalnego dostępu do infrastruktury celu oraz tunelowanie ruchu sieciowego. 
-W analizowanej kampanii po raz pierwszy zaobserwowano użycie nieudokumentowanego wcześniej stealera – BusySnake. Malware został napisany w Pythonie oraz zaciemniony z wykorzystaniem narzędzia PyArmor.
-Schemat ataku to w zasadzie klasyka gatunku. Rozpoczyna się od wiadomości spear-phishingowych wysyłanych do starannie dobranych adresatów. Cyberprzestępcy działają precyzyjnie, treść maila nawiązuje do bieżących spraw administracyjnych i do złudzenia przypomina oficjalną korespondencję, przez co użytkownik może być nieświadomy zagrożenia.
-Często jako załącznik dołączane jest złośliwe archiwum, którego nazwa zawiera unikalny identyfikator GUID oraz zarys tematyczny zgodny z treścią wiadomości np. [GUID]_psihologicheskiy_test.zip (test psychologiczny), zayavka_gumanitarnayapomosch.rar (wniosek o pomoc humanitarną). Po rozpakowaniu paczki i uruchomieniu pliku, na ekranie wyświetla się obiecany dokument lub aplikacja przypominająca  test psychologiczny. Ich zadaniem jest uśpienie czujności użytkownika i uwiarygodnienie atakujących. W tle natomiast startuje złośliwy loader, który wstrzykuje się do legalnego procesu (pnx.exe), a następnie pobiera właściwy ładunek.
-Przykład wiadomości phishingowej. Źródło: securelist.com
-Przykład wiadomości phishingowej. Źródło: securelist.com
-I tu ciekawostka, złośliwy kod jest pobierany bezpośrednio z kontrolowanych przez napastników repozytoriów GitHub. Wpisuje się to w coraz częściej obserwowany trend nadużywania legalnych serwisów do dystrybucji malware. Z uwagi na szybką rotację ładunku, bardzo trudno jest przeciwdziałać takim praktykom. Gdy tylko wykryte konto zostanie zablokowane, w jego miejsce natychmiast pojawiają się nowe repozytoria hostujące złośliwe oprogramowanie.
-Kolejny etap infekcji obejmował instalację środowiska uruchomieniowego Python 3.12, pobranie niezbędnych zależności (pip) oraz komponentów narzędzia PyArmor. Na samym końcu pobierany był właściwy ładunek BusySnake, który trafiał bezpośrednio do %AppData%\WindowsHelper.
-W tym miejscu należy wspomnieć, że w ocenie analityków kod loadera został wygenerowany przy użyciu narzędzi sztucznej inteligencji. Rozwiązanie to pozwala cyberprzestępcom na sprawne modyfikowanie go podczas kolejnych ataków, utrudniając w ten sposób detekcję przez systemy EDR. Na wykorzystanie AI wskazują między innymi rozbudowane komentarze pozostawione w skrypcie.
-Kod loadera. Źródło: securelist.com 
-Utrzymanie dostępu (persystencję) zapewniono poprzez nadużycie Harmonogramu zadań w systemie Windows. Atakujący zdefiniowali cykliczne zadanie, które co 5 minut uruchamia skrypt VBScript inicjujący działanie stealera.
-Persystencja. Źródło: securelist.com 
-Kod źródłowy BusySnake został zaciemniony z wykorzystaniem narzędzia PyArmor Pro w wersji 9.2.0. Analiza wykazała, że malware dynamicznie deszyfruje swój kod bajtowy wyłącznie w momencie wywołania konkretnej funkcji, a następnie ponownie go szyfruje. 
-Klucz szyfrujący znajduje się najprawdopodobniej w pliku _pyarmor.pyd. Co ciekawe, nie jest to stały ciąg znaków ładowany do pamięci w całości, od razu po uruchomieniu. Procedura jego odtwarzania oraz wczytywania do pamięci jest realizowana bezpośrednio przez mechanizm uruchomieniowy (runtime) PyArmora. Badania pokazały, że klucz jest dostępny w pamięci RAM tylko przez ułamek sekundy, akurat na potrzeby odszyfrowania kodu bajtowego funkcji, która będzie wykonywana w danej chwili. Natychmiast po odszyfrowaniu obszaru pamięci klucz jest zerowany. Procedura jest analogiczna dla kolejnych funkcji.
-Badaczom w toku analizy udało się przechwycić klucz szyfrujący oraz pomyślnie odszyfrować złośliwy kod. W efekcie otrzymali szczegółową konfigurację stealera w tym między innymi:
-
-adres serwera dowodzenia (Command & Control), 
-parametr User-Agent na potrzeby komunikacji sieciowej,
-ścieżki do katalogów,
-wyrażenia regularne,
-interwały czasowe związane z wykonywaniem zrzutów ekrany.
-
-Przykład odczytanej konfiguracji został przedstawiony poniżej.
-Przykładowa konfiguracja malware. Źródło: securelist.com
-Biorąc pod uwagę funkcje realizowane przez malware, wykryto wiele modułów umożliwiających:
-
-wykonywanie zrzutów ekranu w określonych interwałach czasowych,
-wykradanie zawartości schowka systemowego,
-wyszukiwanie 64 znakowych kluczy zapisanych w systemie szesnastkowym (hex) najprawdopodobniej szukał prywatnych kluczy do portfeli kryptowalutowych,
-eksfiltracja plików z domyślnych folderów użytkownika (Desktop, Downloads, Documents),
-przechwytywanie wrażliwych danych z przeglądarki, w tym zapisanych haseł, zaszyfrowanych lokalnych baz danych oraz plików cookie,
-zestawienie odwrotnego tunelu SSH (reverse SSH tunnel) po otrzymaniu z serwera C2 odpowiednie polecenie oraz klucz prywatny (w postaci zamaskowanej).
-
-Formularz logowania do panelu administracyjnego C2. Źródło: securelist.com 
-Zaprezentowana kampania doskonale obrazuje kierunek rozwoju współczesnego złośliwego oprogramowania. Korzystanie z narzędzi bazujących na sztucznej inteligencji, modułowość oraz bezpośrednie zintegrowanie funkcji tunelowania ruchu (reverse SSH) znacząco ułatwia cyberprzestępcom omijanie tradycyjnych zabezpieczeń sieciowych i utrzymanie stałego dostępu do zainfekowanych systemów.
-Atak rozpoczyna się od precyzyjnie przygotowanej wiadomości phishingowej, z tego powodu świadomość użytkownika oraz ograniczone zaufanie to jedne z najskuteczniejszych metod obrony przed tego typu zagrożeniami.
-Źródło: securelist.com 
-~_secmike"
-2026-07-27 22:06:34,"21 lipca 2026, 11:00",sekurak,https://www.sekurak.pl,https://sekurak.pl/czy-open-source-wystarczy-do-zapewnienia-zgodnosci-z-nis2-ksc2/,[NIS2/KSC2 Toolkit # 1] Czy open-source wystarczy do zapewnienia zgodności z NIS2/KSC2?,"NIS2/KSC2 Toolkit # 1 to seria krótkich, praktycznych poradników, w których pokazujemy, jak wymagania NIS2 i nowej ustawy o KSC przełożyć na konkretne narzędzia, konfiguracje i procesy. Każdy artykuł bierze na warsztat jeden obszar i omawia go czysto wdrożeniowo – od wyboru rozwiązań po dowody zgodności dla audytora.
-Od kwietnia 2026 roku nowelizacja ustawy o KSC jest już faktem, a tysiące podmiotów i instytucji właśnie odkrywają, że spoczywają na nich (tak naprawdę od kilku lat zapowiadane) nowe obowiązki: samoidentyfikacja, wdrożenie SZBI, raportowanie incydentów i audyty. Terminy się zbliżają, a kary, choć objęte dwuletnią karencją (art. 35 ustawy nowelizującej), przestały być teoretyczne. Nic dziwnego, że na rynku od razu pojawiła się fala „gotowych rozwiązań NIS2″, czyli pudełek i platform, które rzekomo gwarantują zgodność za jednym podpisem na zamówieniu. Tyle że ich ceny bywają niemałe, zwłaszcza dla mniejszych podmiotów, które dopiero co zdały sobie sprawę, że w ogóle podlegają ustawie.
-To pytanie wraca przy konsultacjach dla klientów, na szkoleniach i podczas audytów: skoro nie mamy worka pieniędzy na drogie pudełka z mrugającą diodą, to czy obronimy się darmowymi narzędziami i spełnimy wymogi dyrektywy NIS2?
-Weźmy choćby to komercyjne pudełko, które ktoś przedstawiał na konferencji jako „gotowe rozwiązanie NIS2”, i zajrzyjmy do środka. Linux. OpenSSL. nginx. Pewnie gdzieś fork Suricaty albo silnik na bazie ClamAV. Za open-source w zasadzie już zapłaciliśmy, tylko z ładnym logo na obudowie. Zatem pytanie: „Open-source czy komercja” jest trochę nie na temat. Lepiej zastanowić się, czy mamy to jak obsłużyć.
-Ustawa nie każe nic kupować
-Dobra wiadomość jest taka, że ani dyrektywa NIS2, ani polska znowelizowana ustawa o Krajowym Systemie Cyberbezpieczeństwa (KSC) nie wskazują żadnego producenta ani konkretnego produktu. Przepisy wymagają wdrożenia Systemu Zarządzania Bezpieczeństwem Informacji (SZBI) opartego na systematycznym szacowaniu ryzyka oraz katalogu środków technicznych i organizacyjnych (art. 8 ust. 1). Sam katalog (od analizy ryzyka, przez ciągłość działania, po uwierzytelnianie wieloskładnikowe) wynika z art. 21 ust. 2 dyrektywy NIS2, a w polskiej ustawie – z przepisów o SZBI. Cała ta regulacja nie powstała przy tym po to, żeby zatapiać firmy kosztami. Jak podkreśla Ministerstwo Cyfryzacji w swoim Q&A, środki mają być odpowiednie i proporcjonalne do oszacowanego ryzyka, a nie do grubości portfela.
-Wydany w czerwcu 2025 roku przewodnik techniczny ENISA do rozporządzenia wykonawczego 2024/2690 rozkłada każdy wymóg na praktyczne wskazówki, przykłady dowodów do okazania podczas kontroli oraz odniesienia do norm. Nie ma w nim ani cennika, ani nazwy producenta. Oficjalny zestaw pytań i odpowiedzi (Q&A) Ministerstwa Cyfryzacji podkreśla to samo: liczy się faktyczne wdrożenie i możliwość jego wykazania. Minister może przy tym opublikować, na podstawie art. 45 ust. 3, zestawienie dokumentów normalizacyjnych, czyli listę uznanych norm, a nie listę zakupów u dystrybutorów. Dokumenty normalizacyjne uzupełniają Narodowe Standardy Cyberbezpieczeństwa oraz inne zbiory dobrych praktyk, wydawane jako rekomendacje Pełnomocnika Rządu, z których warto skorzystać. Nigdzie natomiast nie pojawia się nakłanianie do ich zakupu.
-Co open-source rzeczywiście załatwi?
-Open-source potrafi naprawdę dużo, a większość wymagań technicznych z art. 8 znowelizowanej ustawy o KSC da się spełnić dzięki odpowiednim, darmowym narzędziom. W praktyce wymogi te możemy przypisać do przykładowych rozwiązań, jak poniżej.Dobór jest celowo zachowawczy: to projekty dojrzałe, aktywnie rozwijane i szeroko stosowane produkcyjnie, także w polskich SOC-ach, więc łatwo o dokumentację, społeczność i ludzi, którzy już na nich pracowali. Przy każdym obszarze wskazujemy konkretny artykuł i literę ze znowelizowanej ustawy o KSC:
-
-Obsługa incydentów (art. 11 ust. 1 pkt 1): Wazuh do korelacji logów, reguł detekcji i automatycznej reakcji, Graylog do przeglądania zdarzeń, Suricata lub Snort w roli IDS/IPS albo Zeek jako źródło telemetrii sieciowej. Do reakcji na żywo służy Velociraptor (zdalne zbieranie artefaktów i threat hunting na setkach końcówek naraz), a prowadzenie i orkiestrację spraw incydentów ułatwi otwarta platforma zarządzania zgłoszeniami, jak DFIR IRIS albo TheHive. Autopsy zostaje do głębszej, laboratoryjnej analizy nośników offline. Co ciekawe, samo Ministerstwo Cyfryzacji w swoim przewodniku (Q&A pkt 3.3 ppkt 2 lit. g)  wprost dopuszcza, że do ciągłego monitorowania „można skorzystać z narzędzi open-source typu SIEM i ustawić adekwatne reguły”.
-Ciągłość działania (art. 8 ust. 1 pkt 2 lit. f): kopie zapasowe na Borg lub restic, a monitorowanie dostępności i przewidywanie wyczerpania zasobów na Zabbixie (same testy odtworzenia to już procedura, nie narzędzie, co warto podkreślić).
-Zarządzanie podatnościami (art. 8 ust. 1 pkt 3): moduł Vulnerability Detection w Wazuhu (zasilany zagregowanymi źródłami danych o podatnościach, m.in. NVD i biuletynami producentów), OpenVAS do skanów aktywnych. Solidna alternatywa dla płatnego Tenable/Nessusa..
-Kryptografia (art. 8 ust. 1 pkt 2 lit. k): weryfikacja konfiguracji (polityki TLS w module SCA Wazuha, testssl.sh), ale zarządzanie kluczami i sama polityka to proces.
-Kontrola dostępu, aktywa i integralność plików (art. 8 ust. 1 pkt 2 lit. m i n oraz pkt 5 lit. c): Keycloak na kontrolę dostępu (lit. n), GLPI lub OCS Inventory na inwentaryzację aktywów (lit. m), a FIM z “who-data” w Wazuhu jako odpowiedź na wymóg ochrony przed nieuprawnioną modyfikacją (pkt 5 lit. c), czyli na pytanie: „Kto zmienił istotny plik konfiguracyjny w środku nocy”. Segmentację sieci i zaporę zapewni pfSense CE albo OPNsense (na nich z kolei działa Suricata lub Snort jako IDS/IPS).
-Uwierzytelnianie wieloskładnikowe (art. 8 ust. 1 pkt 2 lit. l): Keycloak, który natywnie obsługuje nowoczesne standardy uwierzytelniania.
-
-To produkcyjne rozwiązania, które działają w niejednym SOC-u i potrafią wesprzeć nas w tworzeniu raportów, które mogą przydać się przy audycie. Pod kątem samej techniki open-source nie ma się czego wstydzić. 
-Dwa obszary z ustawowego katalogu zostawiamy celowo puste: zarządzanie ryzykiem w łańcuchu dostaw oraz budowanie świadomości i szkolenia personelu. To przede wszystkim umowy, procesy i program szkoleniowy. Narzędzia dostarczą tu najwyżej danych, a nie gotowej zgodności. 
-Narzędzie to jeszcze nie jest zgodność
-I tu zaczyna się część, którą pomija większość entuzjastów „darmowego NIS2”. Wazuh, do którego alarmów nikt nie zagląda, nie jest zgodnością. Jest tylko dziennikiem zdarzeń. Samo postawienie oprogramowania to jakieś 30 procent pracy. Reszta to strojenie reguł, przechowywanie logów, procedury reagowania, szacowanie ryzyka, obsługa incydentu w reżimie 24/72 godzin (art. 11 ust. 1) i papier z podpisem zarządu. Zgodność robią procesy i ludzie, a nie sam fakt, że usługa działa na porcie.
-
-Zaawansowane funkcje Wazuha? Gotowe scenariusze wdrożeniowe? Integracje Wazuha z innymi narzędziami? Ataki i metody obrony przed nimi. To wszystko na szkoleniu: “Wazuh Expert 2.0 – edycja kompletna. Od podstaw do zaawansowanych wdrożeń w praktyce”. Z linkiem dla czytelników sekuraka aż 50% taniej."
-2026-07-27 22:06:34,"20 lipca 2026, 11:27",sekurak,https://www.sekurak.pl,https://sekurak.pl/krytyczne-dwie-podatnosci-w-wordpressie-tworzac-lancuch-prowadzacy-do-zdalnego-wykonania-kodu-rce/,Krytyczne dwie podatności w WordPressie tworząc łańcuch prowadzący do zdalnego wykonania kodu (RCE),"Trudno wyobrazić sobie współczesny internet bez WordPressa. Ten blogowy system zarządzania treścią z czasem stał się potężnym narzędziem, z którego korzystają nawet najwięksi gracze. Różne dane wskazują, że udział WordPressa w rynku od lat oscyluje w okolicach 60%. Tym bardziej nie powinno dziwić, że WP ciągle pozostaje w zainteresowaniu badaczy, zarówno tych działających po dobrej, jak i złej stronie mocy. Adam Kues z działu Assetnote w Searchlight Cyber w ramach programu WordPressa na Hacker One zgłosił dwie podatności stanowiące łańcuch ataku nazwany WP2Shell.
-TLDR:
-
-Adam Kues z działu Assetnote w Searchlight Cyber zgłosił dwie podatności w WordPressie. Pierwsza podatność to zwykłe SQL Injection. Druga dotyczy błędu w obsłudze żądań wsadowych REST API. Obie podatności tworzą łańcuch ataku prowadzący do zdalnego wykonania kodu (RCE).
-Do przeprowadzenia ataku nie jest wymagane uwierzytelnienie ani jakakolwiek interakcja ze strony użytkownika. Dostępny jest już proof of concept (PoC).
-Łatajcie się tak szybko, jak to tylko możliwe, a jeśli nie jest to możliwe, zapoznajcie się z poradami dotyczącymi mitygowania tego problemu bezpieczeństwa w dalszej części tekstu.
-
-Pierwsza zgłoszona podatność została oznaczona identyfikatorem CVE-2026-60137. W ramach programu CNA otrzymała ocenę 5.9 w CVSS 3.1 (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N). To błąd pozwalający na SQL injection w parametrze author__not_in w WP_Query. Taki rodzaj podatności pozwala na wstrzyknięcie własnych danych wejściowych do zapytania SQL. Podatne wersje to 6.8.0 – 6.8.5, 6.9.0 – 6.9.4 oraz 7.0.0 – 7.0.1. Natomiast załatane wersje to odpowiednio 6.8.6, 6.9.5 i 7.0.2.
-Druga podatność otrzymała identyfikator CVE-2026-63030 i ocenę 9.8 w ramach programu CNA w CVSS 3.1 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). To błąd w obsłudze żądań wsadowych REST API (batch-route confusion). Luka umożliwia nieuwierzytelnionemu atakującemu wykonanie kodu za pośrednictwem wsadowego endpointa API REST w środowiskach bez trwałej pamięci podręcznej obiektów. Co istotne, do wykorzystania tej luki nie jest wymagane logowanie ani jakakolwiek inna interakcja ze strony uprawnionego użytkownika. Wykorzystanie obydwu tych podatności może doprowadzić do zdalnego wykonania kodu (RCE).
-Feralny błąd prowadzący do RCE został wprowadzony w wersji 6.9, która została wydana 2 grudnia 2025 roku. Badacze z Searchlight Cyber na stronie podatności udostępnili tester pokazujący, czy dana strona jest podatna na atak.
-Tester podatności przygotowany przez zespół Searchlight Cyber (zrzut własny).
-Zalecana jest natychmiastowa aktualizacja. Dla podatnych wersji włączone zostały wymuszone aktualizacje automatyczne. W sytuacji, kiedy pilna aktualizacja jest niemożliwa zaleca się blokadę batch route w WAF-ie. Chodzi o ścieżkę /wp-json/batch/v1 oraz formę ciągu zapytania ?rest_route=/batch/v1. Zablokowanie tylko tej pierwszej ścieżki pozostawiłoby otwartą furtkę poprzez drugi sposób komunikowania się z API.
-W celu zmniejszenia ryzyka ataku można także wyłączyć API REST dla anonimowych użytkowników (np. Disable WP REST API). Ponadto badacze na swojej stronie zamieścili wtyczkę odrzucającą anonimowe żądania wsadowe (batch requests). Użytkownicy korzystający z Cloudflare oraz posiadający plany Pro, Business lub Enterprise powinni upewnić się, że Cloudflare Managed Rules są włączone. Klienci korzystający z planów bezpłatnych są automatycznie chronieni przez zestaw reguł bezpłatnych. Nowe reguły wdrażane są wraz z domyślną akcją blokowania w Managed Ruleset.
-REST API w WordPressie to interfejs, przez który aplikacje mogą komunikować się ze stroną, wysyłając i odbierając dane w formacie JSON. Dzięki REST API można m.in. pobierać posty, tworzyć treści lub aktualizować wpisy. WordPress podkreśla, że publiczna treść jest zwykle dostępna publicznie przez REST API, a prywatne treści wymagają uwierzytelnienia. W tym przypadku problem dotyczy mechanizmu batch route, który pozwala wysłać wiele żądań REST API w jednym żądaniu HTTP. Warto mieć świadomość, że zastosowanie środków zaradczych w określonych przypadkach może zakłócić poprawne działanie REST API, a tym samym wpłynąć na działanie blokowego edytora i innych funkcji strony.
-Niestety, transparentność projektu open source, jakim jest WordPress, umożliwiła szybką analizę wprowadzonych poprawek, na podstawie której powstał już gotowy do użycia eksploit udostępniony w serwisie GitHub. Co prawda w prowadzonym przez CISA rejestrze KEV nie ma jeszcze dostępnych informacji o aktywnym wykorzystaniu podatności, jednak wydaje się to tylko kwestią czasu. Na przykład w przeszłości dzięki błędowi we wtyczce cache’ującej Breeze grupie WP-SHELLSTORM udało się uzyskać nieautoryzowany dostęp do ponad 17 000 instancji WordPressa. W tym przypadku mamy do czynienia z błędem bezpośrednio w samym WordPressie, co może tylko spotęgować skalę skutków spodziewanych ataków.
-Jeśli posiadasz stronę korzystającą z WordPressa upewnij się, że nie działa ona na podatnej wersji i w razie potrzeby niezwłocznie ją zaktualizuj. Jeżeli nie możesz zaktualizować, zastosuj się do porad w piątym i szóstym akapicie. Aby upewnić się, czy Twoja strona jest podatna na atak możesz skorzystać z testera na stronie podatności. Sprawdź, czy automatyczne aktualizacje zostały włączone. Z pewnością mechanizm ten przyda się jeszcze nie raz. Warto sprawdzić, czy nie ma nieznanych kont administratorów i ostatnio modyfikowanych plików. Warto także przejrzeć logi pod kątem nietypowej aktywności REST API.
-~pu"
+Kompletny i uzbrojony eksploit generujący złośliwy awatar, wysyłający odpowiednie stanzy oraz gotowy link do ofiary, dostępny jest tutaj:
+https://github.com/thefreestyleresearcher/CVE-2025-49091-Gajim-RCE/blob/main/CVE-2025-49091.py
+Podsumowanie i wnioski
+Opisany przypadek udowadnia, że poleganie na samych biuletynach bezpieczeństwa nie zawsze oddaje realne ryzyko. Sama luka logiczna w KDE Plasma bez zewnętrznego wektora dostarczenia pliku mogłaby zostać uznana za trudną do wykorzystania podatność. 
+Dopiero jej połączenie z mechanizmami komunikatora stworzyło realne zagrożenie.
+Inspiracją do opublikowania tego materiału była chęć pokazania, że pomimo potężnego rozwoju automatycznych skanerów kodu oraz sztucznej inteligencji, ludzka intuicja, nieszablonowe myślenie i wyobraźnia wciąż pozostają niezastąpione. 
+Dziękuję redakcji sekuraka za przestrzeń do publikacji. Materiał ten dedykuję wszystkim niezależnym badaczom – szczególnie tym, którzy dopiero zaczynają swoją przygodę z researchem i obawiają się, że w dobie rozwoju AI niedługo dla ludzi nie będzie już miejsca. 
+Gra wciąż trwa, a jej zasady nadal definiujemy my.
+~Patryk Ptak, SivertPL
+Po więcej badań zapraszam na blog: sivert.pl."
