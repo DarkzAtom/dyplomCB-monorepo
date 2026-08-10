@@ -1,0 +1,11 @@
+article,title,chunks,tokens,chunk_s,embed_s,upsert_s,total_s
+0,18 Malicious npm Packages Deliver Cross-Platform RAT to Alib,5,1272,1.696,1.161,1.22,4.077
+1,Google Password Manager Attacks Could Let Malware Hijack Pas,5,1323,0.39,0.908,0.671,1.969
+2,INC Ransomware Emerges as Dominant Actor Exploiting SonicWal,3,746,0.373,0.489,0.513,1.374
+3,"⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-S",25,7761,0.706,3.83,1.026,5.562
+4,FOMO in the SOC: Where AI Platforms like Claude Actually Fit,7,1714,0.46,1.013,0.658,2.131
+5,Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHO,3,1055,0.301,0.448,0.495,1.244
+6,PNLD Breach Exposes U.K. Police and Government Contact Detai,4,867,0.438,0.595,0.642,1.676
+7,Thermo Fisher Patches Flaw That Could Make DNA File Tamperin,3,977,0.296,0.413,0.538,1.247
+8,N-able Says Attackers Take Over N-central Servers After Init,5,1172,0.353,0.716,0.637,1.706
+9,Hugging Face Diffusers Flaws Could Let Model Repositories Ex,3,954,0.256,0.474,0.529,1.259
