@@ -1,0 +1,5 @@
+  - Call for Feedback: Advancing Software Supply Chain Security together!  [0.597]
+  - NPM 12 Will Change Script Execution Behavior to Prevent Supply Chain Attacks  [0.58]
+  - Chinese Hackers Exploit SAP RCE Flaw CVE-2025-31324, Deploy Golang-Based SuperShell  [0.564]
+  - ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 Mo  [0.557]
+  - ⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS  [0.554]

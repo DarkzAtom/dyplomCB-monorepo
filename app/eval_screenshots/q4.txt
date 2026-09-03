@@ -1,0 +1,21 @@
+QUERY: recent large-scale data breaches
+
+ANSWER:
+Recently, there have been several large-scale data breaches affecting various sectors:
+
+1. Just this July 2026, hackers breached Craneware, a prominent healthcare software vendor used by thousands of healthcare organizations and clinics, stealing a significant volume of files including employee, customer, and partner data. Although much of the stolen data is reportedly non-sensitive or already public, the incident highlights ongoing supply-chain risks in healthcare software (July 20, 2026).
+
+2. Another major breach involved MCBS, affecting 1.2 million individuals, with the PEAR ransomware group responsible. This group has also claimed other large breaches impacting hundreds of thousands of people (July 27, 2026).
+
+3. In addition, an Australian energy company, Origin Energy, disclosed that data from roughly 900,000 current and former customers was accessed in a security incident earlier this year, involving personal and partial financial information (July 2026).
+
+4. The healthcare sector continues to be a significant target, with reports of rising attacks by groups like ShinyHunters targeting healthcare SaaS accounts, as noted amid an increasing pattern of healthcare supply-chain attacks.
+
+Overall, large-scale breaches this year have impacted over a million users in multiple industries, particularly healthcare and utilities, often involving ransomware gangs exploiting supply-chain vulnerabilities.
+
+If you want more details on any of these breaches or others, just ask!
+
+Sources:
+- Craneware breach: https://www.cybersecuritydive.com/news/craneware-health-care-data-breach/825643/
+- MCBS breach: https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/
+- Origin Energy breach and healthcare sector threats: https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html

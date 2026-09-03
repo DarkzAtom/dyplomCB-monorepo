@@ -1,0 +1,24 @@
+QUERY: North Korean state-sponsored hacking activity
+
+ANSWER:
+North Korean state-sponsored hacking activities continue to be highly active and sophisticated, targeting various sectors and countries with advanced malware and espionage campaigns.
+
+Recent developments include:
+
+1. The Lazarus Group’s cluster called WaterPlum (aka Contagious Interview campaign) has been updating a malware called OtterCookie, which steals credentials from browsers and cryptocurrency wallets. This malware uses VM detection to avoid analysis and has been delivered via malicious npm packages, fake videoconferencing apps, and trojanized repositories. The group also engages in sophisticated fake job interview scams to infiltrate companies, particularly in IT roles, to siphon money back to North Korea. They employ AI-generated fake profiles, VPNs, and persistent remote access to maintain inside access. (May 2025)
+
+2. The Konni APT group (also known as TA406) has targeted Ukrainian government entities with malware and phishing campaigns aiming to collect intelligence on the Russian invasion of Ukraine. They use multi-stage infection chains with PowerShell scripts, credential harvesting pages, and deceptive phishing emails impersonating think tank members. Konni is part of a wider set of North Korean espionage groups including Kimsuky and APT37, all conducting strategic political and intelligence targeting in South Korea, Ukraine, Russia, and beyond. (May 2025)
+
+3. In 2026, there was exploitation of South Korean financial security software to install backdoors silently by hackers linked at least technically to state-level actors, with evidence tying various malicious campaigns, but the specific group was not officially named. (July 2026)
+
+4. Another campaign linked to North Korea targeted macOS users with fake updates leading to a Node.js backdoor that steals browser data and cryptocurrency wallets, using a layered malware approach funded systematically through Ethereum wallets. This campaign broadens North Korean tactics beyond fake jobs to general browsing and commodity searches. (July 2026)
+
+Overall, North Korean cyber operations blend espionage, financial theft, and influence operations using highly tailored malware, social engineering, and fake recruitment schemes to maintain long-term access to targets and funnel resources back to the regime.
+
+If you want details on any particular group or campaign, I can help with that too.
+
+Sources:
+- https://thehackernews.com/2025/05/ottercookie-v4-adds-vm-detection-and.html
+- https://thehackernews.com/2025/05/north-korean-konni-apt-targets-ukraine.html
+- https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html
+- https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html

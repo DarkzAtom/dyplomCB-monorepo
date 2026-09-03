@@ -1,0 +1,5 @@
+  - OtterCookie v4 Adds VM Detection and Chrome, MetaMask Credential Theft Capabilities  [0.617]
+  - North Korean Konni APT Targets Ukraine with Malware to track Russian Invasion Progress  [0.612]
+  - DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware  [0.582]
+  - Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts  [0.58]
+  - Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkL  [0.573]

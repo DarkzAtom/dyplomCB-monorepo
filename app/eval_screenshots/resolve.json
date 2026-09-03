@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://thecyberwire.com/newsletters/daily-briefing/15/142",
+    "status": 200,
+    "title": "A senator looks to eliminate legacy VPNs from federal government.",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://thehackernews.com/2025/05/north-korean-konni-apt-targets-ukraine.html",
+    "status": 200,
+    "title": "North Korean Konni APT Targets Ukraine with Malware to track Russian Invasion Pr",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://thehackernews.com/2025/05/ottercookie-v4-adds-vm-detection-and.html",
+    "status": 200,
+    "title": "OtterCookie v4 Adds VM Detection and Chrome, MetaMask Credential Theft Capabilit",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+    "status": 200,
+    "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Roo",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+    "status": 200,
+    "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malw",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+    "status": 200,
+    "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without ",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+    "status": 200,
+    "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacki",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+    "status": 200,
+    "title": "\u26a1 Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Da",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://www.cybersecuritydive.com/news/craneware-health-care-data-breach/825643",
+    "status": 200,
+    "title": "Hackers steal customer data from major hospital software vendor | Cybersecurity ",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://www.cybersecuritydive.com/news/hackers-microsoft-teams-ransomware-it-support/826591",
+    "status": 200,
+    "title": "Hackers abuse Microsoft Teams in ransomware campaign through fake IT support | C",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://www.cybersecuritydive.com/news/researchers-sonicwall-sma1000-exploitation-june/825654",
+    "status": 200,
+    "title": "Researchers trace SonicWall SMA1000 exploitation to late June | Cybersecurity Di",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities",
+    "status": 200,
+    "title": "Chrome 149 Update Patches 28 Vulnerabilities - SecurityWeek",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals",
+    "status": 200,
+    "title": "MCBS Data Breach Affects 1.2 Million Individuals - SecurityWeek",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks",
+    "status": 200,
+    "title": "NPM 12 Will Change Script Execution Behavior to Prevent Supply Chain Attacks - S",
+    "resolved": true,
+    "err": ""
+  },
+  {
+    "url": "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks",
+    "status": 200,
+    "title": "Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks - SecurityWeek",
+    "resolved": true,
+    "err": ""
+  }
+]

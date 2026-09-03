@@ -46,17 +46,10 @@ def build_semantic_chunker(api_key,
 
 
 def chunk_article(text, title, chunker, max_tokens=MAX_TOKENS):
-    """Semantic-chunk the body, re-split any oversize block, then title-prefix all.
-
-    The title prefix counts toward the budget, so the body is capped at
-    (max_tokens - title length) to keep the FINAL chunk within max_tokens.
-
-    Returns a list of ready-to-embed chunk strings.
-    """
     prefix = f"{title}\n\n"
     budget = max(max_tokens - token_len(prefix), OVERLAP_TOKENS * 2)
 
-    # guard splitter needs no API key (pure tiktoken); size it to the body budget
+    
     guard = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
         encoding_name=_enc.name,
         chunk_size=budget,

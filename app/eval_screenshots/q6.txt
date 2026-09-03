@@ -1,0 +1,21 @@
+QUERY: software supply chain attacks
+
+ANSWER:
+Software supply chain attacks involve compromising components or tools used to build or distribute software in order to insert malicious code or backdoors that then propagate into dependent projects. These attacks can ripple widely, affecting many projects downstream due to the interconnected nature of software dependencies.
+
+Recent information from 2026 shows such attacks continue to evolve:
+
+- NPM 12, a popular package manager, is changing script execution behavior specifically to prevent supply chain attacks after incidents infected thousands of repositories and packages (SecurityWeek, June 2026).
+
+- GitHub has implemented a series of defenses targeting weaknesses in package repositories and CI/CD workflows, such as safer defaults for GitHub Actions, improved credential controls, staged publishing, and more to harden the supply chain against attacks (The Hacker News, July 2026).
+
+- Two recent supply chain attack campaigns in early 2026 are highlighted: one involves a fake corepack.org site posing as an official Node.js tool to deliver malware to developers, and another involves 148 npm packages containing vectors for remote code execution and recruiting browsers into botnets (The Hacker News, August 2026).
+
+In summary, software supply chain attacks trick users or systems by targeting the trusted components and infrastructure that many projects rely on, making them particularly dangerous and widespread. Recent defenses include tighter controls on package publishing, improved verification, and changes to execution behavior, but attackers keep innovating, including fake websites and malicious npm packages.
+
+If you're a developer or relying on third-party packages, it's crucial to stay updated on these security improvements and carefully vet your dependencies.
+
+Sources for details:
+- https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/
+- https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html
+- https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html

@@ -1,0 +1,15 @@
+QUERY: ransomware attacks targeting healthcare organizations
+
+ANSWER:
+Ransomware attacks targeting healthcare organizations are increasingly happening through supply-chain breaches and social engineering techniques. For example, a recent 2026 breach at Craneware, a major hospital software vendor used by over 2,000 healthcare organizations and 10,000 clinics and pharmacies, involved hackers stealing a large volume of customer and employee data. This incident highlights how attacks on healthcare software suppliers can have a significant downstream impact on the healthcare sector overall, as many organizations rely on these vendors.
+
+Additionally, cybercriminals have been using social engineering via trusted tools like Microsoft Teams to deploy ransomware. In a campaign from early 2026, hackers posed as IT support and used Teams' chat and calls to initiate remote sessions, then deployed ransomware such as Chaos ransomware within hours. Although this campaign targeted a range of industries, healthcare SaaS accounts have been noted as targets by security groups warning of rising attacks.
+
+Overall, the main challenges in ransomware attacks on healthcare include exploitation of trusted third-party relationships, rapid ransomware deployment, and social engineering through familiar tools, often resulting in data theft and potential service disruptions.
+
+If you want more details or mitigation strategies, let me know!
+
+Sources:
+- https://www.cybersecuritydive.com/news/craneware-health-care-data-breach/825643/ (July 20, 2026)
+- https://www.cybersecuritydive.com/news/hackers-microsoft-teams-ransomware-it-support/826591/ (July 30, 2026)
+- https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html (July 2026)

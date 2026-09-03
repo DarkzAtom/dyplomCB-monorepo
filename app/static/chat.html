@@ -301,8 +301,7 @@
             return wrap;
         }
 
-        // build text nodes + real <a> elements (no innerHTML) so the source
-        // links the assistant appends are clickable but nothing is injectable
+        
         function renderWithLinks(el, text) {
             const urlRe = /(https?:\/\/[^\s)]+)/g;
             let last = 0;

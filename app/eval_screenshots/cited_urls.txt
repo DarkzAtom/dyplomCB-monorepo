@@ -1,0 +1,15 @@
+https://thecyberwire.com/newsletters/daily-briefing/15/142
+https://thehackernews.com/2025/05/north-korean-konni-apt-targets-ukraine.html
+https://thehackernews.com/2025/05/ottercookie-v4-adds-vm-detection-and.html
+https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html
+https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html
+https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html
+https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html
+https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html
+https://www.cybersecuritydive.com/news/craneware-health-care-data-breach/825643
+https://www.cybersecuritydive.com/news/hackers-microsoft-teams-ransomware-it-support/826591
+https://www.cybersecuritydive.com/news/researchers-sonicwall-sma1000-exploitation-june/825654
+https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities
+https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals
+https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks
+https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks

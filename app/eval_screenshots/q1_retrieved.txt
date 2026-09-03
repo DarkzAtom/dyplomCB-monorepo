@@ -1,0 +1,4 @@
+  - Hackers steal customer data from major hospital software vendor  [0.642]
+  - ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 Mo  [0.631]
+  - Hackers abuse Microsoft Teams in ransomware campaign through fake IT support  [0.586]
+  - Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks  [0.568]

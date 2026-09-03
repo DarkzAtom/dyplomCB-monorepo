@@ -1,0 +1,5 @@
+  - Hackers steal customer data from major hospital software vendor  [0.574]
+  - MCBS Data Breach Affects 1.2 Million Individuals  [0.572]
+  - Oracle Addresses PeopleSoft Vulnerability Amid Reports of Zero-Day Attacks  [0.566]
+  - Industry Reactions to Claude Fable 5: Feedback Friday  [0.562]
+  - ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 Mo  [0.559]

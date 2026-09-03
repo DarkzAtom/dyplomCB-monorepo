@@ -1,0 +1,145 @@
+[
+  {
+    "qid": "q1",
+    "present": true,
+    "n_cited": 3,
+    "n_matched": 3,
+    "invented": [],
+    "cited": [
+      "https://www.cybersecuritydive.com/news/craneware-health-care-data-breach/825643",
+      "https://www.cybersecuritydive.com/news/hackers-microsoft-teams-ransomware-it-support/826591",
+      "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html"
+    ],
+    "retrieved": [
+      "https://www.cybersecuritydive.com/news/craneware-health-care-data-breach/825643",
+      "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+      "https://www.cybersecuritydive.com/news/hackers-microsoft-teams-ransomware-it-support/826591",
+      "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks"
+    ]
+  },
+  {
+    "qid": "q2",
+    "present": true,
+    "n_cited": 4,
+    "n_matched": 3,
+    "invented": [
+      "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html"
+    ],
+    "cited": [
+      "https://thecyberwire.com/newsletters/daily-briefing/15/142",
+      "https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities",
+      "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+      "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html"
+    ],
+    "retrieved": [
+      "https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities",
+      "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+      "https://www.securityweek.com/industry-reactions-to-claude-fable-5-feedback-friday",
+      "https://thecyberwire.com/newsletters/daily-briefing/15/142",
+      "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html"
+    ]
+  },
+  {
+    "qid": "q3",
+    "present": true,
+    "n_cited": 4,
+    "n_matched": 4,
+    "invented": [],
+    "cited": [
+      "https://thehackernews.com/2025/05/ottercookie-v4-adds-vm-detection-and.html",
+      "https://thehackernews.com/2025/05/north-korean-konni-apt-targets-ukraine.html",
+      "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+      "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html"
+    ],
+    "retrieved": [
+      "https://thehackernews.com/2025/05/ottercookie-v4-adds-vm-detection-and.html",
+      "https://thehackernews.com/2025/05/north-korean-konni-apt-targets-ukraine.html",
+      "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+      "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+      "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html"
+    ]
+  },
+  {
+    "qid": "q4",
+    "present": true,
+    "n_cited": 3,
+    "n_matched": 3,
+    "invented": [],
+    "cited": [
+      "https://www.cybersecuritydive.com/news/craneware-health-care-data-breach/825643",
+      "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals",
+      "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html"
+    ],
+    "retrieved": [
+      "https://www.cybersecuritydive.com/news/craneware-health-care-data-breach/825643",
+      "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals",
+      "https://www.securityweek.com/oracle-addresses-peoplesoft-vulnerability-amid-reports-of-zero-day-attacks",
+      "https://www.securityweek.com/industry-reactions-to-claude-fable-5-feedback-friday",
+      "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html"
+    ]
+  },
+  {
+    "qid": "q5",
+    "present": false,
+    "n_cited": 0,
+    "n_matched": 0,
+    "invented": [],
+    "cited": [],
+    "retrieved": [
+      "https://thehackernews.com/2025/05/deepfake-defense-in-age-of-ai.html",
+      "https://thehackernews.com/2025/05/fake-ai-tools-used-to-spread.html",
+      "https://www.securityweek.com/alert-fatigue-is-becoming-a-security-threat-of-its-own",
+      "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+      "https://www.cybersecuritydive.com/news/iran-nexus-actors-ai-cyber-ChatGPT-malware/825415"
+    ]
+  },
+  {
+    "qid": "q6",
+    "present": true,
+    "n_cited": 3,
+    "n_matched": 3,
+    "invented": [],
+    "cited": [
+      "https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks",
+      "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+      "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html"
+    ],
+    "retrieved": [
+      "https://enisa.europa.eu/news/call-for-feedback-advancing-software-supply-chain-security-together",
+      "https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks",
+      "https://thehackernews.com/2025/05/chinese-hackers-exploit-sap-rce-flaw.html",
+      "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+      "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html"
+    ]
+  },
+  {
+    "qid": "q7",
+    "present": true,
+    "n_cited": 2,
+    "n_matched": 2,
+    "invented": [],
+    "cited": [
+      "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks",
+      "https://www.cybersecuritydive.com/news/researchers-sonicwall-sma1000-exploitation-june/825654"
+    ],
+    "retrieved": [
+      "https://www.cybersecuritydive.com/news/researchers-sonicwall-sma1000-exploitation-june/825654",
+      "https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks",
+      "https://thehackernews.com/2025/05/sonicwall-patches-3-flaws-in-sma-100.html"
+    ]
+  },
+  {
+    "qid": "q8",
+    "present": false,
+    "n_cited": 0,
+    "n_matched": 0,
+    "invented": [],
+    "cited": [],
+    "retrieved": [
+      "https://www.cybersecuritydive.com/news/coca-cola-restores-most-production-capacity-at-dairy-unit-after-ransomware/826250",
+      "https://thecyberwire.com/newsletters/daily-briefing/15/108",
+      "https://thecyberwire.com/newsletters/daily-briefing/14/96",
+      "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1"
+    ]
+  }
+]

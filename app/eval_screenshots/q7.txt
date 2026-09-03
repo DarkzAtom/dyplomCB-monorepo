@@ -1,0 +1,12 @@
+QUERY: what is the latest on the SonicWall attacks
+
+ANSWER:
+The latest on the SonicWall attacks involves two critical vulnerabilities discovered in SonicWall SMA1000 secure remote access appliances. These flaws, tracked as CVE-2026-15409 and CVE-2026-15410, were exploited by ransomware groups starting in late June 2026, before SonicWall released a hotfix on July 14, 2026. The attack allows unauthenticated remote attackers to open WebSocket tunnels to restricted services and escalate their privileges to root level, which can lead to severe consequences like credential theft and persistent access.
+
+The INC ransomware group has recently been linked to exploiting these vulnerabilities in active ransomware campaigns as of early August 2026. They use these exploits as pressure tactics and to deploy ransomware payloads after gaining high-level access. SonicWall urges all users of SMA1000 appliances to patch these vulnerabilities immediately and conduct thorough threat hunting to detect any potential compromises.
+
+In summary, the SonicWall SMA1000 vulnerability situation is very active and high-risk as of August 2026, with ongoing exploitation by ransomware actors. Applying the provided patches as soon as possible is critical to preventing serious attacks.
+
+If you want to learn more, here are the key sources:
+- SecurityWeek article from August 3, 2026: https://www.securityweek.com/recent-sonicwall-vulnerabilities-exploited-in-ransomware-attacks/
+- Cybersecurity Dive article from July 20, 2026: https://www.cybersecuritydive.com/news/researchers-sonicwall-sma1000-exploitation-june/825654/

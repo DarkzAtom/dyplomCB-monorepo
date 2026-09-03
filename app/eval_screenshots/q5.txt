@@ -1,0 +1,18 @@
+QUERY: phishing campaigns using AI and deepfakes
+
+ANSWER:
+Phishing campaigns using AI and deepfakes are becoming increasingly sophisticated and dangerous. Based on what I found, attackers are leveraging AI to create highly convincing phishing attacks that are scalable and personalized.
+
+For example, deepfake technology is used to impersonate trusted individuals in real-time video or voice calls, making it easier for attackers to trick victims during virtual meetings or interviews. A 2025 report highlighted a 442% increase in AI-generated voice phishing (vishing) attacks due to this technology. North Korean groups have even used deepfake profiles to secure remote job positions as a way to infiltrate organizations.
+
+In addition to voice and video deepfakes, phishing kits have evolved to generate customized, real-time phishing pages for each victim by dynamically pulling logos and website imagery from legitimate services. This makes phishing pages look more trustworthy and harder to detect because each victim sees a uniquely tailored fake login page that closely mimics their actual company's site.
+
+Also, fake AI tools have been used as lures on social media, enticing users to download malware disguised as helpful AI-based content creation software. These campaigns have attracted tens of thousands of views and resulted in data-stealing malware infections.
+
+The main challenge is that traditional detection methods are no longer enough because AI-generated deceptions are too realistic and fast-evolving. Prevention now requires proving the identity of participants through cryptographic verification and device integrity checks before allowing access to sensitive communications and transactions.
+
+In short, AI and deepfake technologies make phishing more credible and harder to spot, fueling a surge in sophisticated attacks. The best defense is a combination of real-time identity proof, device compliance verification, and strong user awareness that doesn't rely solely on spotting suspicious behavior after the fact.
+
+If you want to explore more about prevention, some current solutions integrate cryptographic identity verification and visible trust badges in video conferencing platforms to strongly combat deepfake impersonations.
+
+Let me know if you'd like me to share links to the detailed sources!

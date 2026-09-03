@@ -1,0 +1,5 @@
+  - Deepfake Defense in the Age of AI  [0.63]
+  - Fake AI Tools Used to Spread Noodlophile Malware, Targeting 62,000+ via Facebook Lures  [0.576]
+  - Alert Fatigue Is Becoming a Security Threat of Its Own  [0.555]
+  - ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 Mo  [0.551]
+  - Iran-nexus actors using AI to enhance cyber playbook  [0.546]

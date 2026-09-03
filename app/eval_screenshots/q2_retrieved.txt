@@ -1,0 +1,5 @@
+  - Chrome 149 Update Patches 28 Vulnerabilities  [0.666]
+  - ⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS  [0.636]
+  - Industry Reactions to Claude Fable 5: Feedback Friday  [0.627]
+  - Critical VeloCloud bug is under active exploitation.  [0.626]
+  - ⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and Mo  [0.619]

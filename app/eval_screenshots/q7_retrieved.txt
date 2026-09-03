@@ -1,0 +1,3 @@
+  - Researchers trace SonicWall SMA1000 exploitation to late June  [0.687]
+  - Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks  [0.655]
+  - SonicWall Patches 3 Flaws in SMA 100 Devices Allowing Attackers to Run Code as Root  [0.601]

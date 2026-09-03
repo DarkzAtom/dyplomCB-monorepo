@@ -1,0 +1,22 @@
+QUERY: critical vulnerabilities currently being actively exploited
+
+ANSWER:
+Currently, several critical vulnerabilities are being actively exploited:
+
+1. **VeloCloud Orchestrator (CVE-2026-16812)**: This is a critical CVSS 10.0 remote command injection vulnerability affecting Arista’s on-premise VeloCloud Orchestrator software. Attackers can compromise the orchestrator and potentially access managed edge devices. It is actively exploited, and the US cybersecurity agency (CISA) has added it to its known exploited vulnerabilities catalog. Restricting management network access and blocking malicious IPs is recommended until patched. (Date: July 28, 2026)
+
+2. **Google Chrome Vulnerabilities**: The Chrome 149 update patched 28 vulnerabilities, including 5 that had been exploited as zero-day attacks. Many are use-after-free bugs that could lead to remote code execution or denial-of-service. This suggests these critical flaws were actively targeted before the patch release. (Date: June 12, 2026)
+
+3. **OpenWrt DHCPv6 Flaw**: A critical flaw in OpenWrt DHCPv6 could let unauthenticated attackers run code as root. While direct exploitation reports aren’t mentioned, the critical nature and call for immediate updates imply exploit potential. Users are urged to update to versions 24.10.8 or 25.12.5. (Date: July 2026)
+
+4. **Other Actively Exploited Vulnerabilities from Weekly Recap Include**: A broad list of high-severity bugs with active probing in the wild, such as CVE-2026-48449 (Adobe), CVE-2026-18556 (N-able), multiple affecting libraries like libssh2, FFmpeg, and frameworks like Rails, Next.js, Mozilla Firefox, and Apple iOS/macOS vulnerabilities. These require prompt patching especially the ones marked urgent. (Date: August 2026)
+
+So, right now, the most urgent actively exploited flaws include the VeloCloud orchestrator OS command injection (super critical), recent Chrome zero-days before patch rollout, and a raft of high-severity vulnerabilities across popular software platforms as per the August recap.
+
+If you manage systems with these products, it’s important to prioritize patching and access restrictions immediately.
+
+Sources:  
+- https://thecyberwire.com/newsletters/daily-briefing/15/142 (July 28, 2026)  
+- https://www.securityweek.com/chrome-149-update-patches-28-vulnerabilities/ (June 12, 2026)  
+- https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html (August 2026)  
+- https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html (July 2026)

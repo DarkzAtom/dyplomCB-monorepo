@@ -48,8 +48,6 @@ async def chat(msg: ChatMessage):
 
 @app.post("/api/retrieve")
 async def api_retrieve(req: RetrieveRequest):
-    """External data-retrieval endpoint (DYP-49): returns the raw retrieved
-    articles for a query as JSON, without the chat-style LLM answer."""
     try:
         results = retriever.retrieve_articles(req.query, top_k=req.top_k)
         return {"query": req.query, "results": results}
