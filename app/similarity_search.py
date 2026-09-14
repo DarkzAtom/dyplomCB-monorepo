@@ -14,7 +14,6 @@ def embedding_openai(query):
         input=query,
     )
 
-    # Extract embeddings from response
     embeddings = [data.embedding for data in response.data]
 
     return embeddings[0]

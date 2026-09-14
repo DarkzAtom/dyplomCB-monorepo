@@ -7,19 +7,17 @@ from typing import List, Dict, Optional, Any
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(lineno)d - %(message)s',
     handlers=[
         logging.FileHandler("processor.log", encoding='utf-8'),
-        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm (DYP-31)
+        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm
     ]
 )
 
 logger = logging.getLogger(__name__)
 
-# User agents list for rotation
 USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
@@ -41,7 +39,6 @@ class AsyncLinkProcessor:
         self.retry_delay = retry_delay
         
     async def _get_session(self) -> aiohttp.ClientSession:
-        """Create and return an aiohttp session with configured options"""
         headers = {}
         if self.use_random_user_agent:
             headers['User-Agent'] = random.choice(USER_AGENTS)
@@ -52,7 +49,6 @@ class AsyncLinkProcessor:
         )
     
     async def fetch_url(self, url: str, session: aiohttp.ClientSession) -> Optional[str]:
-        """Fetch a URL with retries"""
         for attempt in range(self.max_retries):
             try:
                 proxy = self.proxy
@@ -72,14 +68,12 @@ class AsyncLinkProcessor:
         return None
     
     async def process_link(self, url: str, session: aiohttp.ClientSession) -> Dict[str, Any]:
-        """Process a single link and return the results"""
         html = await self.fetch_url(url, session)
         if not html:
             return {"url": url, "success": False, "error": "Failed to fetch content"}
         
         logger.info('Successfully fetched content, processing HTML...')
             
-        # Parsing the content
         try:
             soup = BeautifulSoup(html, 'html.parser')
 
@@ -95,8 +89,8 @@ class AsyncLinkProcessor:
 
 
             article_dict = {
-                    'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
-                    'creationDate': creation_date if creation_date else datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when the article was published on the source page
+                    'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    'creationDate': creation_date if creation_date else datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     'author': 'enisa-europa',
                     'authorLink': 'https://enisa.europa.eu/',
                     'articleLink': url,
@@ -110,13 +104,12 @@ class AsyncLinkProcessor:
             logger.exception(f"Error processing {url}: {str(e), }")
             return {"url": url, "success": False, "error": str(e)}
     
-    async def process_links(self, urls: List[str], max_concurrent: int = 3) -> List[Dict[str, Any]]:  # you can change the max_concurrent to any number you want here
-        """Process multiple links concurrently with a limit on concurrent requests"""
+    async def process_links(self, urls: List[str], max_concurrent: int = 3) -> List[Dict[str, Any]]:
         results = []
         semaphore = asyncio.Semaphore(max_concurrent)
         
         async def bounded_process_link(url):
-            async with semaphore:  # This limits concurrent execution
+            async with semaphore:
                 return await self.process_link(url, session)
         
         async with await self._get_session() as session:
@@ -124,7 +117,6 @@ class AsyncLinkProcessor:
             results = await asyncio.gather(*tasks, return_exceptions=True)
         return results
 
-# Main function to process links
 async def process_links_async(
     urls: List[str],
     proxy: Optional[str] = None,
@@ -132,7 +124,6 @@ async def process_links_async(
     timeout: int = 30,
     max_retries: int = 3
 ) -> List[Dict[str, Any]]:
-    """Process a list of URLs asynchronously"""
     processor = AsyncLinkProcessor(
         proxy=proxy,
         use_random_user_agent=use_random_user_agent,
@@ -141,20 +132,17 @@ async def process_links_async(
     )
     return await processor.process_links(urls)
 
-# Helper function for running from synchronous code
 def process_links(
     urls: List[str], 
     proxy: Optional[str] = None,
     use_random_user_agent: bool = True
 ) -> List[Dict[str, Any]]:
-    """Synchronous wrapper for async link processing"""
     return asyncio.run(process_links_async(
         urls, 
         proxy=proxy,
         use_random_user_agent=use_random_user_agent
     ))
 
-# Example usage
 if __name__ == "__main__":
     urls_to_process = [
         "https://www.enisa.europa.eu/news/whats-driving-cybersecurity-investments-and-where-lie-the-challenges",

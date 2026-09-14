@@ -6,9 +6,6 @@ from dotenv import load_dotenv
 import os
 import retriever
 
-# Import your existing setup
-# Import your OpenAI client and Pinecone index
-
 load_dotenv(dotenv_path=".env")
 import openai
 
@@ -38,7 +35,6 @@ async def read_root():
 @app.post("/chat")
 async def chat(msg: ChatMessage):
     try:
-        # Use your existing OpenAI client
         response = retriever.process_user_query(msg.message)
         return {"response": response}
 

@@ -13,11 +13,11 @@ import sys
 import logging
 
 logging.basicConfig(
-    level=logging.DEBUG,  # Set the logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
-    format='%(asctime)s - %(levelname)s - %(message)s',  # Log message format
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("app.log", encoding='utf-8'),  # Write logs to a file
-        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm (DYP-31)  # Print logs to the console
+        logging.FileHandler("app.log", encoding='utf-8'),
+        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm
     ]
 )
 
@@ -27,14 +27,6 @@ logger = logging.getLogger(__name__)
 
 # ---RETRY DECORATOR ----------------------------------------------------------
 def retry(exceptions=(Exception,), max_attempts=2, delay=1):
-    """
-    Retry decorator that retries the decorated function only when specific exceptions occur.
-    
-    Args:
-        exceptions: Tuple of exception classes that should trigger retry
-        max_attempts: Maximum number of retry attempts
-        delay: Delay between retries in seconds
-    """
     def decorator(func):
         @functools.wraps(func)
         def wrapper(*args, **kwargs):
@@ -50,23 +42,19 @@ def retry(exceptions=(Exception,), max_attempts=2, delay=1):
                     logger.warning(f"Attempt {attempts} failed with {e.__class__.__name__}: {e}. Retrying in {delay} seconds...")
                     time.sleep(delay)
                 except Exception as e:
-                    # For any other exceptions, don't retry
                     logger.error(f"Failed with non-retryable exception: {e}")
                     raise
         return wrapper
     return decorator
 
 
-# custom exception
 class AbsentAnchorElementException(Exception):
     pass
 
 
 
-# MAIN FUNCTION 
 @retry(exceptions=(AbsentAnchorElementException,), max_attempts=2, delay=1)
 def get_all_links_of_articles_until_lastsaved_met():
-    # here using simple requests is sufficient 
     url = "https://nask.pl/aktualnosci"
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=os.getenv("HEADLESS", "").lower() == "true")
@@ -96,14 +84,11 @@ def get_all_links_of_articles_until_lastsaved_met():
     for a_tag in soup.find_all('a'):
         href = a_tag.get('href')
 
-        # Filter only links that contain the article paths
         if href and ('/aktualnosci/' in href):
-            # Build the full URL (since the hrefs are relative)
             full_url = f"https://www.nask.pl{href}"
             if full_url not in article_links:
                 article_links.append(full_url)
 
-    # Print the extracted links
     for link in article_links:
         print(link)
 

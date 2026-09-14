@@ -1,25 +1,8 @@
-"""Per-stage latency benchmark for the query-side RAG pipeline (thesis section 7.1).
+"""Per-stage latency benchmark for the query side.
 
-Times the four cost centres of a single query separately, so the report can show
-which stage dominates end-to-end latency:
-
-    (a) query-filter  chat completion   gpt-4.1-mini
-    (b) query embed   embedding call    text-embedding-3-small
-    (c) retrieval     Pinecone top_k=6 similarity search
-    (d) answer-gen    chat completion   gpt-4.1-mini
-
-It reuses retriever.py's prompts and grouping helpers so the timed path matches
-production (retriever.process_user_query); it only wraps each call in
-time.perf_counter() instead of running them opaquely.
-
-Run from the app/ directory (same cwd rule as retriever.py):
-
-    cd app
-    python bench_latency.py                 # default: 12 queries x 3 runs
-    python bench_latency.py --runs 5        # more repeats for tighter spread
-
-Writes app/bench_latency.csv (one row per query iteration) and prints the
-per-stage mean/median/p95 table used to fill the section 7.1 placeholder.
+Times the four stages of one query separately (filter / embed / Pinecone search /
+answer-gen) so you can see which dominates. Reuses retriever.py's prompts and
+helpers so the timed path matches production. Run from app/: python bench_latency.py
 """
 import argparse
 import csv
@@ -32,8 +15,7 @@ import openai
 from dotenv import load_dotenv
 from pinecone import Pinecone
 
-# Reuse the exact prompts and grouping helpers the production retriever uses,
-# so this benchmark times the real pipeline, not a re-implementation of it.
+
 from retriever import (
     QUERY_FILTER_PROMPT,
     RETRIEVER_SYSTEM_PROMPT,
@@ -46,8 +28,7 @@ NAMESPACE = "sosomuzika"
 TOP_K = 6
 CHAT_MODEL = "gpt-4.1-mini"
 
-# Representative query set: four buckets so the spread reflects real usage,
-# not one query type. Labels are carried into the CSV for per-bucket inspection.
+
 QUERY_SET = [
     ("short_inscope", "ransomware attacks"),
     ("short_inscope", "zero-day exploit"),
@@ -71,7 +52,6 @@ QUERY_SET = [
 
 
 def percentile(values, pct):
-    """Nearest-rank percentile (pct in 0..100). Small samples, so no interpolation."""
     if not values:
         return 0.0
     ordered = sorted(values)
@@ -80,9 +60,7 @@ def percentile(values, pct):
 
 
 def build_context(matches, query):
-    """Replicate retriever.create_response's context assembly (group chunks back
-    per source article) so stage (d) is timed on the exact prompt production sends.
-    Kept in sync with retriever.create_response."""
+
     articles = {}
     order = []
     for match in matches:
@@ -112,7 +90,6 @@ def build_context(matches, query):
 
 
 def time_query(client, dense_index, query):
-    """Run the four stages of one query, returning per-stage seconds + total."""
     # (a) query-filter chat completion
     t0 = time.perf_counter()
     filt = client.chat.completions.create(

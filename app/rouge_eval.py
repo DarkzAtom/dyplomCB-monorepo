@@ -1,15 +1,7 @@
-"""Computes ROUGE metrics (DYP-48).
+"""Score candidate texts (the RAG answers) against references with ROUGE-1/2/L.
 
-Scores candidate texts (e.g. the RAG answers) against reference texts with
-ROUGE-1, ROUGE-2 and ROUGE-L (precision / recall / f1 each).
-
-Usage:
-    # one pair, each text in its own file
-    python rouge_eval.py --reference ref.txt --candidate cand.txt
-
-    # many pairs from a CSV with 'reference' and 'candidate' columns;
-    # prints per-row scores and the averages
-    python rouge_eval.py --csv pairs.csv
+    python rouge_eval.py --reference ref.txt --candidate cand.txt   # one pair
+    python rouge_eval.py --csv pairs.csv    # many, from 'reference'/'candidate' cols
 """
 
 import argparse

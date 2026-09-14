@@ -7,19 +7,17 @@ from typing import List, Dict, Optional, Any
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler("processor.log", encoding='utf-8'),
-        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm (DYP-31)
+        logging.StreamHandler(sys.stdout)  # stdout: stderr renders red in PyCharm
     ]
 )
 
 logger = logging.getLogger(__name__)
 
-# User agents list for rotation
 USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
@@ -41,7 +39,6 @@ class AsyncLinkProcessor:
         self.retry_delay = retry_delay
         
     async def _get_session(self) -> aiohttp.ClientSession:
-        """Create and return an aiohttp session with configured options"""
         headers = {}
         if self.use_random_user_agent:
             headers['User-Agent'] = random.choice(USER_AGENTS)
@@ -52,7 +49,6 @@ class AsyncLinkProcessor:
         )
     
     async def fetch_url(self, url: str, session: aiohttp.ClientSession) -> Optional[str]:
-        """Fetch a URL with retries"""
         for attempt in range(self.max_retries):
             try:
                 proxy = self.proxy
@@ -60,8 +56,7 @@ class AsyncLinkProcessor:
                     if response.status == 200:
                         return await response.text()
                     if response.status == 429:
-                        # too many requests — honor Retry-After if present,
-                        # otherwise back off exponentially (DYP-35)
+                        # too many requests - honor Retry-After, else exponential backoff
                         retry_after = response.headers.get('Retry-After')
                         wait = int(retry_after) if retry_after and retry_after.isdigit() else self.retry_delay * (2 ** attempt)
                         logger.warning(f"429 Too Many Requests for {url}, backing off {wait}s (attempt {attempt+1}/{self.max_retries})")
@@ -81,12 +76,10 @@ class AsyncLinkProcessor:
         return None
     
     async def process_link(self, url: str, session: aiohttp.ClientSession) -> Dict[str, Any]:
-        """Process a single link and return the results"""
         html = await self.fetch_url(url, session)
         if not html:
             return {"url": url, "success": False, "error": "Failed to fetch content"}
             
-        # Parsing the content
         try:
             news_bulk: list = []
             soup = BeautifulSoup(html, 'html.parser')
@@ -94,22 +87,17 @@ class AsyncLinkProcessor:
             creation_date_unparsed = soup.select_one('div.meta > div.meta-box > span.meta-text').text.strip()
 
             def _extract_american_date_and_convert_to_right_format(date_string):
-                # Extract the date part (after the second pipe)
                 parts = date_string.split('|')
                 if len(parts) >= 3:
                     date_part = parts[2].strip()
                 else:
-                    # Try to find the date directly
                     date_part = date_string.strip()
         
-                # Parse the date (format: MM.DD.YY)
+                # format: MM.DD.YY
                 try:
-                    # Handle format like "5.20.25"
                     month, day, year = date_part.split('.')
-                    # Convert 2-digit year to 4-digit (assuming 20xx for years < 50)
+                    # 2-digit year -> 20xx, or 19xx if >= 50
                     full_year = f"20{year}" if int(year) < 50 else f"19{year}"
-            
-                    # Return in DD/MM/YYYY format
                     return f"{day}/{month}/{full_year}"
                 except Exception as e:
                     logger.error(f"Error parsing date '{date_part}': {e}")
@@ -132,15 +120,12 @@ class AsyncLinkProcessor:
                         title_h2 = h2_elements[1]
                         article_title = title_h2.text.strip()
                     else:
-                        # Handle case where there's no second h2
                         article_title = "Unknown title"
                 else:
                     title_h2 = h2_elements[0] if h2_elements else None
                     article_title = title_h2.text.strip() if title_h2 else "Unknown title"
 
-                # only paragraphs AFTER the title h2: the first div.text block on
-                # a briefing page is [h2 'At a glance.', ul, h2 <real title>, p...],
-                # so this keeps the glance summary out of the first article (DYP-11)
+                
                 if title_h2 is not None:
                     article_text_unconcated = title_h2.find_next_siblings('p')
                 else:
@@ -152,8 +137,8 @@ class AsyncLinkProcessor:
                     continue
 
                 article_dict_to_append = {
-                        'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
-                        'creationDate': creation_date if creation_date else datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when the article was published on the source page
+                        'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                        'creationDate': creation_date if creation_date else datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                         'author': 'CyberWire',
                         'authorLink': 'https://www.thecyberwire.com/newsletters/daily-briefing',
                         'articleLink': url,
@@ -168,13 +153,12 @@ class AsyncLinkProcessor:
             logger.error(f"Error processing {url}: {str(e)}")
             return {"url": url, "success": False, "error": str(e)}
     
-    async def process_links(self, urls: List[str], max_concurrent: int = 3) -> List[Dict[str, Any]]:  # you can change the max_concurrent to any number you want here
-        """Process multiple links concurrently with a limit on concurrent requests"""
+    async def process_links(self, urls: List[str], max_concurrent: int = 3) -> List[Dict[str, Any]]:
         results = []
         semaphore = asyncio.Semaphore(max_concurrent)
         
         async def bounded_process_link(url):
-            async with semaphore:  # This limits concurrent execution
+            async with semaphore:
                 return await self.process_link(url, session)
         
         async with await self._get_session() as session:
@@ -183,7 +167,6 @@ class AsyncLinkProcessor:
             flattened_results = [item for sublist in results for item in sublist]
         return flattened_results
 
-# Main function to process links
 async def process_links_async(
     urls: List[str],
     proxy: Optional[str] = None,
@@ -191,7 +174,6 @@ async def process_links_async(
     timeout: int = 30,
     max_retries: int = 3
 ) -> List[Dict[str, Any]]:
-    """Process a list of URLs asynchronously"""
     processor = AsyncLinkProcessor(
         proxy=proxy,
         use_random_user_agent=use_random_user_agent,
@@ -200,20 +182,17 @@ async def process_links_async(
     )
     return await processor.process_links(urls)
 
-# Helper function for running from synchronous code
 def process_links(
     urls: List[str], 
     proxy: Optional[str] = None,
     use_random_user_agent: bool = True
 ) -> List[Dict[str, Any]]:
-    """Synchronous wrapper for async link processing"""
     return asyncio.run(process_links_async(
         urls, 
         proxy=proxy,
         use_random_user_agent=use_random_user_agent
     ))
 
-# Example usage
 if __name__ == "__main__":
     urls_to_process = [
         "https://thecyberwire.com/newsletters/daily-briefing/14/96",

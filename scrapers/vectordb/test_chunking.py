@@ -3,20 +3,14 @@ from dotenv import load_dotenv
 from langchain_experimental.text_splitter import SemanticChunker
 from langchain_openai import OpenAIEmbeddings
 
-# 1. Load env vars
 load_dotenv(dotenv_path=".env")
 openai_apikey = os.getenv("OPENAI_APIKEY")
 
-# 2. Initialize LangChain's OpenAI Embedder
-# This handles the API calls to OpenAI under the hood
 embedder = OpenAIEmbeddings(
     model="text-embedding-3-small", 
     openai_api_key=openai_apikey
 )
 
-# 3. Initialize the Semantic Chunker
-# "percentile" is the default. It calculates all distances and cuts at the top 5% most extreme topic shifts.
-# It automatically uses a "sliding window" to prevent tiny sentences from breaking the logic.
 text_splitter = SemanticChunker(
     embedder, 
     breakpoint_threshold_type="gradient",
@@ -86,10 +80,8 @@ Amodei said Thursday that “those latter two threats are inherently contradicto
 
 print("--- RUNNING LANGCHAIN SEMANTIC CHUNKER ---\n")
 
-# 4. Do the chunking
 chunks = text_splitter.split_text(sample_article)
 
-# 5. Print the results clearly
 for i, chunk in enumerate(chunks):
     print(f"CHUNK {i + 1} (Words: {len(chunk.split())}):")
     print(chunk)

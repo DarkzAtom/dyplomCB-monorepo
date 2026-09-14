@@ -1,16 +1,7 @@
-"""Builds the two baseline candidate sets scored against the same golden
-references (DYP-48). Reads golden_workset.csv and writes:
-
-    golden_lead3.csv        candidate = first 3 sentences of the top retrieved
-                            article (the cheap extractive summary baseline)
-    golden_noretrieval.csv  candidate = GPT answer to the query with NO
-                            retrieved context (isolates what retrieval adds)
-
-Both keep the golden as `reference`, so rouge_eval reads them directly:
-    python rouge_eval.py --csv golden_lead3.csv
-    python rouge_eval.py --csv golden_noretrieval.csv
-
-Run from app/.
+"""Build two baseline candidate sets scored against the same golden references:
+lead-3 (first 3 sentences of the top retrieved article) and no-retrieval (GPT
+answer with no context). Reads golden_workset.csv, writes golden_lead3.csv and
+golden_noretrieval.csv - score each with rouge_eval.py. Run from app/.
 """
 
 import csv
@@ -28,15 +19,12 @@ csv.field_size_limit(10_000_000)
 
 
 def lead_3(text):
-    """First three sentences — the standard cheap summarisation baseline."""
     sentences = re.split(r"(?<=[.!?])\s+", (text or "").strip())
     return " ".join(sentences[:3])
 
 
 def top_article_text(retrieved):
-    """Pull the body of the first retrieved article out of the `retrieved` blob.
-    Blocks are '[Article n] Title\\nLink\\nContent...' joined by blank lines.
-    """
+    
     first_block = retrieved.split("\n\n[Article ")[0]
     lines = first_block.split("\n")
     # line 0 = '[Article 1] Title', line 1 = link, remainder = content
@@ -44,7 +32,6 @@ def top_article_text(retrieved):
 
 
 def no_retrieval_answer(client, question, model="gpt-4.1-mini"):
-    """Same model, same question, no retrieved context."""
     response = client.chat.completions.create(
         model=model,
         messages=[

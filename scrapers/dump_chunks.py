@@ -1,8 +1,4 @@
-"""Dump the FULL semantic-chunker output to a readable text file for inspection.
-
-Run from scrapers/:
-  /home/rekru/PycharmProjects/dyplomCB-monorepo/scrapers/.venv/bin/python dump_chunks.py
-"""
+"""Dump the full semantic-chunker output to a text file for eyeballing. Run from scrapers/."""
 import csv, os
 from dotenv import load_dotenv
 

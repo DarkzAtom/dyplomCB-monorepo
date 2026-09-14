@@ -1,10 +1,5 @@
-"""Measure the TUNED LangChain semantic chunker on real articles.
-
-Goal: see whether semantic chunking alone keeps chunks in the 256-512 token
-sweet spot, or whether some come out too big (-> then we add the recursive guard).
-
-Run from scrapers/:
-  /home/rekru/PycharmProjects/dyplomCB-monorepo/scrapers/.venv/bin/python chunking_demo.py
+"""Measure the semantic chunker on real articles - do chunks land in the 256-512
+token sweet spot or come out too big (needing the recursive guard)? Run from scrapers/.
 """
 import csv, os, re, statistics, textwrap
 from dotenv import load_dotenv

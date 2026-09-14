@@ -12,8 +12,7 @@ import logging
 from datetime import datetime
 
 
-# a semaphore to set a limit to concurrent pages to be processed
-SEMAPHORE_LIMIT = 2 
+SEMAPHORE_LIMIT = 2
 
 
 async def process_article(context, url, semaphore, list_of_processed_articles):
@@ -26,12 +25,9 @@ async def process_article(context, url, semaphore, list_of_processed_articles):
 
             await expect(page.locator('div#articlebody')).to_be_in_viewport()
             
-            # Get the page content
             content = await page.content()
             soup = BeautifulSoup(content, 'html.parser')
             
-            # Here you can add your specific parsing logic
-            # For example:
             creation_date = soup.select_one('span.author:nth-of-type(1)').text.strip()
             article_title = soup.select_one('h1.story-title').text.strip()
             article_text = soup.select_one('div.articlebody').text.strip()
@@ -48,13 +44,13 @@ async def process_article(context, url, semaphore, list_of_processed_articles):
                     article_text = article_text.split(marker)[0].strip()
                     break
 
-            # collapse layout-newline runs, keep paragraph breaks (DYP-21)
+            # collapse layout newlines, keep paragraph breaks
             article_text = re.sub(r'[ \t]+\n', '\n', article_text)
             article_text = re.sub(r'\n{3,}', '\n\n', article_text)
 
             article_dict_to_append = {
-                'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
-                'creationDate': creation_date, # date of when the article was published on the source page
+                'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                'creationDate': creation_date,
                 'author': 'The Hacker News',
                 'authorLink': 'https://thehackernews.com',
                 'articleLink': url,
@@ -120,8 +116,8 @@ async def setup_browser_context(playwright: Playwright):
     context = await browser.new_context(
         locale='en-US',
         user_agent=None,
-        no_viewport=True,  # Set to your desired window size
-        ignore_https_errors=True,  # Ignore certificate errors
+        no_viewport=True,
+        ignore_https_errors=True,
     )
 
     # Adding experimental features similar to Selenium's options
@@ -140,7 +136,6 @@ async def setup_browser_context(playwright: Playwright):
 
 
 def test_article():
-    # Example list of links
     links = [
         'https://thehackernews.com/2025/05/security-tools-alone-dont-protect-you.html',
         'https://thehackernews.com/2025/05/sonicwall-patches-3-flaws-in-sma-100.html',
@@ -149,10 +144,8 @@ def test_article():
         'https://thehackernews.com/2025/05/researchers-uncover-malware-in-fake.html'
     ]
     
-    # Run the async function
     results = asyncio.run(process_articles(links))
     
-    # Print results
     for result in results:
         if result:
             pprint(result)

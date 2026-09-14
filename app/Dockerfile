@@ -1,5 +1,3 @@
-# App image: long-running FastAPI chat server (queries Pinecone, answers via GPT).
-# No Playwright here — this is just the web tier.
 FROM python:3.10-slim
 
 ENV PYTHONUNBUFFERED=1 \

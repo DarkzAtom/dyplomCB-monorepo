@@ -1,4 +1,7 @@
 # How to start this app?
 
-## Run the frontend.py
-### It will open the tkinter interface from where you can run the program
+Run `./run_app.sh` from the repo root, or from `app/`:
+
+    python frontend.py
+
+It serves the chat UI (FastAPI + uvicorn) on http://localhost:8000.

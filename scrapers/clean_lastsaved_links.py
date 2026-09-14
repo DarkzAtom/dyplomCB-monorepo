@@ -1,22 +1,11 @@
-"""Reset every scraper's incremental pointer.
-
-Each scraper keeps a `lastsaved_articlelink.txt` holding the newest article link
-it has already collected. On the next run its all_links_collector stops as soon
-as it hits that link (`if link == lastsaved_articlelink: break`), so only *newer*
-articles are scraped.
-
-This utility empties every one of those files, which makes each scraper treat
-the whole listing as new again on the next run (nothing matches an empty string,
-so nothing triggers the early break). Handy after a diagnostic run that advanced
-the pointers, or to force a full re-scrape.
-
-Run from the scrapers/ directory:  python clean_lastsaved_links.py
+"""Empty every scraper's lastsaved_articlelink.txt so the next run re-scrapes the
+whole listing (an empty pointer matches nothing, so the early-break never fires).
+Handy after a diagnostic run advanced the pointers. Run from scrapers/.
 """
 
 from pathlib import Path
 
-# scrapers/scrapers/<source>/lastsaved_articlelink.txt — found relative to THIS
-# file, so the script works regardless of the current working directory.
+# scrapers/scrapers/<source>/lastsaved_articlelink.txt — found relative to THIS file, so the script works regardless of the current working directory.
 SCRAPERS_DIR = Path(__file__).resolve().parent / "scrapers"
 
 

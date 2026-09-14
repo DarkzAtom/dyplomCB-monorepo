@@ -90,7 +90,6 @@ query = "Hello, show me some artcles about north korea, thank you"
 
 
 def process_user_query(query):
-    # refining initial user prompt
     openai_apikey = os.getenv("OPENAI_APIKEY")
     client = openai.OpenAI(api_key=openai_apikey)
     response = client.chat.completions.create(
@@ -115,11 +114,8 @@ def process_user_query(query):
 
 
 def search_pinecone(client, vectorized_request, query):
-    # load env. vars
-
     load_dotenv(dotenv_path=".env")
 
-    # Initialize a Pinecone client with your API key
     apikey_pinecone = os.getenv("APIKEY_PINECONE")
     pc = Pinecone(api_key=apikey_pinecone)
 
@@ -140,7 +136,6 @@ def search_pinecone(client, vectorized_request, query):
 
 
 def _chunk_index(value):
-    """Pinecone stores numeric metadata as float; coerce safely for sorting."""
     try:
         return int(float(value))
     except (TypeError, ValueError):
@@ -148,13 +143,6 @@ def _chunk_index(value):
 
 
 def _article_date(md):
-    """Best-effort publication date for the LLM context.
-
-    The scrapers' creationDate metadata is inconsistent across sources, and for
-    The Hacker News the column actually holds the author name, not a date. So:
-    if creationDate carries any digit, trust it as-is; otherwise fall back to
-    the YYYY/MM embedded in the article URL (e.g. .../2026/08/...); else unknown.
-    """
     raw = (md.get("creationDate") or "").strip()
     if any(c.isdigit() for c in raw):
         return raw
@@ -165,11 +153,7 @@ def _article_date(md):
 
 
 def create_response(client, pinecone_response, query):
-    # The chunked ingest (pinecone_sync.py) stores the readable text under
-    # "chunk_text"; the legacy whole-article ingest (app/main.py) used "summary".
-    # Read chunk_text first, fall back to summary, so both kinds of vector work.
-    # Group the retrieved chunks back by their source article so the LLM sees
-    # coherent context per source instead of scattered fragments.
+    
     articles = {}
     order = []
     for match in pinecone_response:
@@ -199,8 +183,7 @@ def create_response(client, pinecone_response, query):
 
     parsed_response = f"[User's question]\nQuestion: {query}\n\n" + "\n\n".join(blocks)
 
-    # Inject today's date at call time (not into the static prompt constant,
-    # which would freeze it) so the model can judge each article's recency.
+    
     system_prompt = (
         f"{RETRIEVER_SYSTEM_PROMPT}\n\nFor recency judgments: today's date is "
         f"{date.today().isoformat()}. Compare each article's Date against it."
@@ -220,11 +203,6 @@ def create_response(client, pinecone_response, query):
 
 
 def retrieve_articles(query, top_k=6):
-    """Raw retrieval for external clients (DYP-49): embed the query, search
-    Pinecone, and return the matched chunks grouped per source article —
-    no LLM answer generation. Each result carries the article's best-chunk
-    similarity score.
-    """
     load_dotenv(dotenv_path=".env")
 
     vectorized_request = embedding_openai(query)

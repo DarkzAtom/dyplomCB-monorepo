@@ -1,15 +1,6 @@
-"""Telegram bot front-end for the RAG chat (DYP-50 / DYP-54).
-
-A thin second client over the existing pipeline: every text message is passed
-to retriever.process_user_query (query refinement -> embedding -> Pinecone
-search -> GPT answer with source links) and the answer is sent back to the
-chat. The retriever is imported directly, so the FastAPI app does not need to
-be running.
-
-Setup:
-    add TELEGRAM_BOT_TOKEN=<token from @BotFather> to app/.env
-Run:
-    cd app && python telegram_bot.py
+"""Telegram front-end for the RAG chat - a thin second client over the same
+retriever.process_user_query pipeline, imported directly so the FastAPI app need
+not be running. Needs TELEGRAM_BOT_TOKEN in app/.env. Run: cd app && python telegram_bot.py
 """
 
 import asyncio
@@ -30,8 +21,7 @@ import retriever
 
 load_dotenv(dotenv_path=".env")
 
-# Telegram rejects messages longer than 4096 chars — long answers are split
-# on line boundaries and sent as several messages.
+# Telegram rejects messages longer than 4096 chars — long answers are split on line boundaries and sent as several messages.
 TELEGRAM_MESSAGE_LIMIT = 4096
 
 

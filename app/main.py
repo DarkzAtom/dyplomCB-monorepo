@@ -6,15 +6,12 @@ from pinecone import Pinecone
 from dotenv import load_dotenv
 import os
 
-# load env. vars
 load_dotenv(dotenv_path=".env")
 
-# Initialize a Pinecone client with your API key
 apikey_pinecone = os.getenv("APIKEY_PINECONE")
 openai_apikey = os.getenv("OPENAI_APIKEY")
 pc = Pinecone(api_key=apikey_pinecone)
 
-# Create a dense index with integrated embedding
 index_name = os.getenv("PINECONE_INDEX_NAME")
 dense_index = pc.Index(index_name)  # type: ignore
 
@@ -57,7 +54,6 @@ def csv_to_dict_array(filename):
 
 
 def short_hash(text, length=8):
-    """Create a short hash for use as ID"""
     full_hash = hashlib.sha256(text.encode("utf-8")).hexdigest()
     return full_hash[:length]
 
@@ -81,7 +77,5 @@ for i in range(len(articles)):
 
 
 print(articles[0])
-
-# target the index
 
 dense_index.upsert(vectors=vectors, namespace="sosomuzika")  # type: ignore

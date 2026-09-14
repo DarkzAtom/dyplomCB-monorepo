@@ -1,26 +1,8 @@
-"""Ingestion-throughput benchmark for the write side of the pipeline (thesis 7.1).
+"""Ingestion-throughput benchmark for the write side.
 
-Measures how fast a newly scraped article becomes searchable, decomposed into the
-three ingestion stages per article:
-
-    chunk   semantic chunking (vectordb.chunking.chunk_article; note this itself
-            calls the embedding API for topic-boundary detection)
-    embed   embedding each final chunk into its vector (text-embedding-3-small)
-    upsert  writing the vectors to Pinecone (namespace sosomuzika)
-
-Reuses the exact functions vectordb/pinecone_sync.py uses in production, so the
-timed path matches the real sync. Idempotent: chunk ids are short_hash(link)-based,
-so re-running upserts the same ids already in the index (no pollution).
-
-Run from the scrapers/ directory (same cwd rule as pinecone_sync.py):
-
-    cd scrapers
-    python bench_ingest.py                                   # default CSV, 20 articles
-    python bench_ingest.py scrapers/nask/output.csv --limit 30
-    python bench_ingest.py --dry-run                         # skip the Pinecone upsert
-
-Writes scrapers/bench_ingest.csv (one row per article) and prints the throughput
-summary used to fill the section 7.1 ingestion placeholder.
+Times the three ingest stages per article (chunk / embed / upsert) using the same
+functions pinecone_sync.py uses in production. Idempotent - chunk ids are hash-based,
+so re-running just overwrites the same ids. Run from scrapers/: python bench_ingest.py
 """
 import argparse
 import csv

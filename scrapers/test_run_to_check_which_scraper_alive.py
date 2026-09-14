@@ -14,11 +14,7 @@ import time
 # (it doesn't import pinecone_sync, which is what loads dotenv on the main.py path)
 load_dotenv(dotenv_path=".env")
 
-# DYP-62: wipe every scraper's lastsaved_articlelink.txt before testing. The
-# collectors stop at the first link equal to that pointer, so after a normal run
-# a healthy scraper finds nothing new and still reports OK — testing nothing. An
-# empty pointer matches no link, so each scraper re-fetches its listing in full.
-# The collectors write the newest link back at the end of their run anyway.
+
 clean_lastsaved_links()
 
 

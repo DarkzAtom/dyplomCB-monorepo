@@ -11,15 +11,6 @@ import traceback
 
 
 def run_step(label, func, *args):
-    """Run one scrape/sync step in isolation.
-
-    A failure in one source (network error, anti-bot block, parser change, …)
-    is logged and swallowed so the *remaining* sources still scrape and still
-    sync. Without this, any single exception aborts the whole script: every
-    later source is skipped, the entire Pinecone-sync phase is skipped, and the
-    scheduler then waits a full interval (6h) before retrying even the healthy
-    sources.
-    """
     print(f"[main] starting: {label}", flush=True)
     try:
         func(*args)

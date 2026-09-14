@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cybersecurity News Chat</title>
     <style>
-        /* dark theme (DYP-60) — slate background + teal accent */
+        
         * {
             margin: 0;
             padding: 0;
@@ -271,14 +271,13 @@
                 });
 
                 const data = await response.json();
-                // never render an empty bubble — surface the problem instead (DYP-56)
+                
                 addMessage(data.response ?? 'Error: empty response from server', 'assistant');
             } catch (error) {
                 addMessage('Error: Could not connect to server', 'assistant');
                 console.error('Error:', error);
             } finally {
                 typingEl.remove();
-                // Re-enable input
                 messageInput.disabled = false;
                 sendButton.disabled = false;
                 messageInput.focus();

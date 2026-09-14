@@ -1,12 +1,8 @@
 """Semantic chunking for article ingestion.
 
-Pipeline:
-  1. LangChain SemanticChunker finds topic boundaries -> meaningful blocks.
-  2. Recursive guard: any block over MAX_TOKENS is re-split by a tiktoken-aware
-     RecursiveCharacterTextSplitter (with overlap so a split thought survives in
-     both halves). Well-sized blocks pass through untouched.
-  3. Every chunk is prefixed with the article title so it stays connected to its
-     source topic even when retrieved alone.
+SemanticChunker finds topic boundaries; anything over MAX_TOKENS gets re-split by
+a tiktoken-aware RecursiveCharacterTextSplitter (with overlap). Each chunk is
+prefixed with the article title so it stays tied to its source when retrieved alone.
 """
 import tiktoken
 from langchain_experimental.text_splitter import SemanticChunker
@@ -21,7 +17,6 @@ _enc = tiktoken.encoding_for_model(EMBED_MODEL)
 
 
 def token_len(text):
-    """Length of text in tokens (the unit that actually matters for embeddings)."""
     return len(_enc.encode(text))
 
 
@@ -29,12 +24,6 @@ def build_semantic_chunker(api_key,
                            breakpoint_amount=90,
                            buffer_size=1,
                            min_chunk_size=200):
-    """Build a tuned LangChain SemanticChunker.
-
-    breakpoint_amount: lower = more cuts / smaller chunks, higher = fewer cuts.
-    buffer_size:       sentences grouped before comparing (1 = default/raw).
-    min_chunk_size:    chars; prevents tiny 1-sentence dust chunks.
-    """
     embeddings = OpenAIEmbeddings(model=EMBED_MODEL, api_key=api_key)
     return SemanticChunker(
         embeddings,

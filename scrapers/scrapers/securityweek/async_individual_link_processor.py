@@ -29,31 +29,27 @@ async def process_article(url, semaphore, list_of_processed_articles):
                 await expect(page.locator("h1[itemprop='headline']")).to_be_in_viewport()
 
                 
-                # Get the page content
                 content = await page.content()
                 soup = BeautifulSoup(content, 'html.parser')
 
                 
-                # Here you can add your specific parsing logic
-                # For example:
                 creation_date = soup.select_one('time[itemprop="datePublished"]').text.strip()
                 article_title = soup.select_one('h1[itemprop="headline"]').text.strip()
                 article_text = soup.select_one("div.zox-post-body.left.zoxrel.zox100").text.strip()
 
-                # site template junk that ends up inside the post body (DYP-33):
-                # inline ad placeholder + "Related: <title>" link lines
+                # strip the inline ad + "Related:" lines from the body
                 article_text = article_text.replace('Advertisement. Scroll to continue reading.', '')
                 article_text = '\n'.join(
                     line for line in article_text.split('\n')
                     if not line.strip().startswith('Related: ')
                 )
-                # collapse the leftover blank-line runs (DYP-21)
+                # collapse the leftover blank lines
                 article_text = re.sub(r'[ \t]+\n', '\n', article_text)
                 article_text = re.sub(r'\n{3,}', '\n\n', article_text).strip()
 
                 article_dict_to_append = {
-                    'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"), # date of when WE fetched it
-                    'creationDate': creation_date, # date of when the article was published on the source page
+                    'fetchingDate': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    'creationDate': creation_date,
                     'author': 'Security Week',
                     'authorLink': 'https://www.securityweek.com',
                     'articleLink': url,
@@ -77,9 +73,7 @@ async def process_article(url, semaphore, list_of_processed_articles):
 async def process_articles(links):
     semaphore = asyncio.Semaphore(SEMAPHORE_LIMIT)
 
-    # Each process_article launches its own browser+context (the working CF
-    # setup); the extra shared browser that used to be launched here was never
-    # passed to the tasks — one wasted Chrome per run (DYP-37).
+    # each task opens its own browser+context (the CF-safe setup)
     tasks = []
     list_of_processed_articles = []
 
@@ -151,7 +145,6 @@ async def setup_browser_context(playwright: Playwright):
 
 
 def test_article():
-    # Example list of links
     links = [
         'https://www.securityweek.com/french-government-says-1-2-million-bank-accounts-exposed-in-breach/',
         'https://www.securityweek.com/nearly-1-million-user-records-compromised-in-figure-data-breach/',
@@ -160,10 +153,8 @@ def test_article():
         'https://www.securityweek.com/openclaw-security-issues-continue-as-secureclaw-open-source-tool-debuts/'
     ]
     
-    # Run the async function
     results = asyncio.run(process_articles(links))
     
-    # Print results
     for result in results:
         if result:
             pprint(result)

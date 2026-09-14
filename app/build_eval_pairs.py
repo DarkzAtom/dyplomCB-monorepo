@@ -1,22 +1,8 @@
-"""Builds the reference/candidate pairs that rouge_eval.py scores (DYP-48).
+"""Build the reference/candidate pairs that rouge_eval.py scores.
 
-Takes articles the scrapers already collected, asks the RAG pipeline about each
-one, and writes a CSV holding both texts side by side:
-
-    reference  the source article (title + body) the question was derived from
-    candidate  the answer the system produced for that question
-
-ROUGE then measures how much of the source material survives into the answer.
-Latency and the links the system cited are recorded in the same row, so the CSV
-also carries the numbers for the performance and citation sections.
-
-Run from the app/ directory:
-    python build_eval_pairs.py                 # 10 articles, one per source in turn
-    python build_eval_pairs.py --n 20          # more pairs
-    python build_eval_pairs.py --queries q.txt # own questions, one per line
-
-Then:
-    python rouge_eval.py --csv eval_pairs.csv
+Asks the RAG pipeline about scraped articles and writes both texts side by side
+(reference = source article, candidate = the system's answer) so ROUGE can measure
+how much of the source survives into the answer. Then: python rouge_eval.py --csv eval_pairs.csv
 """
 
 import argparse
@@ -42,18 +28,11 @@ csv.field_size_limit(10_000_000)
 
 
 def lead_3(text):
-    """The article's first three sentences — the standard cheap summarisation
-    baseline (Hugging Face LLM course, ch. 7). News writing front-loads the facts,
-    so this is a genuinely hard baseline to beat and it costs nothing to produce.
-    """
     sentences = re.split(r"(?<=[.!?])\s+", text.strip())
     return " ".join(sentences[:3])
 
 
 def no_retrieval_answer(question, model="gpt-4.1-mini"):
-    """Same question, same model, no retrieved context — isolates what retrieval
-    actually contributes. The model can only fall back on its training data.
-    """
     client = openai.OpenAI(api_key=os.getenv("OPENAI_APIKEY"))
     response = client.chat.completions.create(
         model=model,
@@ -66,7 +45,6 @@ def no_retrieval_answer(question, model="gpt-4.1-mini"):
 
 
 def write_pairs(path, rows, candidate_key):
-    """Two-column CSV in the shape rouge_eval.py expects."""
     with open(path, "w", newline="", encoding="utf-8") as fh:
         writer = csv.DictWriter(fh, fieldnames=["reference", "candidate"])
         writer.writeheader()
@@ -75,7 +53,6 @@ def write_pairs(path, rows, candidate_key):
 
 
 def load_articles():
-    """Every scraped article, interleaved across sources so a sample stays mixed."""
     per_source = []
     for csv_path in sorted(SOURCES_DIR.glob("*/output.csv")):
         with csv_path.open(encoding="utf-8") as fh:

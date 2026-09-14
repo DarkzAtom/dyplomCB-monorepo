@@ -1,29 +1,8 @@
-"""Freezes a reproducible reference/candidate set for the golden-summary ROUGE
-eval (DYP-48, Option 1: golden = the ideal *answer* to the query).
+"""Freeze the query -> retrieval -> answer rows to a CSV for the golden ROUGE eval.
 
-For each query it mirrors retriever.process_user_query EXACTLY — the same
-keyword filter, the same embedding, the same top_k=6 Pinecone search — so the
-context captured here is the context the answer was actually generated from.
-Everything is frozen into one CSV: because the Pinecone corpus keeps changing,
-re-running retrieval later would drift, so the eval reads only this file.
-
-Columns written to golden_workset.csv:
-    query          the user question posed to the system
-    keywords       what QUERY_FILTER_PROMPT reduced the query to (provenance)
-    retrieved      the retrieved articles, readable — DRAFT THE GOLDEN FROM THIS
-    candidate      the system answer, Sources: list stripped (scored by ROUGE)
-    candidate_raw  the untouched answer, links and all (provenance)
-    seconds        end-to-end latency (filter + embed + search + generate)
-    sources        the links the retrieved articles came from
-    reference      EMPTY — the golden answer goes here, then rouge_eval reads it
-
-Run from the app/ directory:
-    python build_golden_set.py            # all queries below
-    python build_golden_set.py --n 5      # first 5 only (cheap smoke run)
-
-Then a human writes the golden answer into the `reference` column of each row,
-and scores the file straight away (rouge_eval ignores the extra columns):
-    python rouge_eval.py --csv golden_workset.csv
+Runs the same filter/embed/top_k=6 search the retriever uses and freezes it, since
+the Pinecone corpus keeps changing. Fill the empty `reference` column with the
+golden answer, then score with rouge_eval.py.
 """
 
 import argparse
@@ -73,7 +52,6 @@ QUERIES = [
 
 
 def filter_query(client, query):
-    """Same keyword reduction retriever.process_user_query runs before embedding."""
     response = client.chat.completions.create(
         model="gpt-4.1-mini",
         messages=[
@@ -98,9 +76,6 @@ def search(vector):
 
 
 def group_articles(matches):
-    """Group chunks back into source articles, same as create_response, but
-    return readable text + links for drafting the golden and citing sources.
-    """
     articles = {}
     order = []
     for match in matches:
@@ -127,10 +102,6 @@ def group_articles(matches):
 
 
 def strip_sources(answer):
-    """Remove the trailing link list the model appends. The body sometimes
-    contains legitimate 'If you're managing...' advice, so only drop lines that
-    actually carry a URL plus a dangling lead-in line right before them.
-    """
     lines = (answer or "").splitlines()
     kept = [ln for ln in lines if "http" not in ln]
     while kept:
